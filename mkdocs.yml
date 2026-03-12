@@ -80,9 +80,74 @@ nav:
   - Home: index.md
   - Modules:
     - Overview: modules/index.md
-    - Blurb: modules/blurb.md
-    - Text: modules/text.md
-    - Blog: modules/blog.md
+    - Content Modules:
+      - Accordion: modules/accordion.md
+      - Audio: modules/audio.md
+      - Bar Counter: modules/bar-counter.md
+      - Blog: modules/blog.md
+      - Blurb: modules/blurb.md
+      - Button: modules/button.md
+      - Call to Action: modules/call-to-action.md
+      - Circle Counter: modules/circle-counter.md
+      - Code: modules/code.md
+      - Countdown Timer: modules/countdown-timer.md
+      - Divider: modules/divider.md
+      - Filterable Portfolio: modules/filterable-portfolio.md
+      - Gallery: modules/gallery.md
+      - Icon: modules/icon.md
+      - Image: modules/image.md
+      - Map: modules/map.md
+      - Menu: modules/menu.md
+      - Number Counter: modules/number-counter.md
+      - Person: modules/person.md
+      - Portfolio: modules/portfolio.md
+      - Post Navigation: modules/post-navigation.md
+      - Post Slider: modules/post-slider.md
+      - Post Title: modules/post-title.md
+      - Pricing Table: modules/pricing-table.md
+      - Sidebar: modules/sidebar.md
+      - Slider: modules/slider.md
+      - Social Media Follow: modules/social-media-follow.md
+      - Tabs: modules/tabs.md
+      - Testimonial: modules/testimonial.md
+      - Text: modules/text.md
+      - Toggle: modules/toggle.md
+      - Video: modules/video.md
+      - Video Slider: modules/video-slider.md
+    - Interactive Modules:
+      - Comments: modules/comments.md
+      - Contact Form: modules/contact-form.md
+      - Email Optin: modules/email-optin.md
+      - Login: modules/login.md
+      - Search: modules/search.md
+    - Fullwidth Modules:
+      - Fullwidth Header: modules/fullwidth-header.md
+      - Fullwidth Map: modules/fullwidth-map.md
+      - Fullwidth Menu: modules/fullwidth-menu.md
+      - Fullwidth Portfolio: modules/fullwidth-portfolio.md
+      - Fullwidth Slider: modules/fullwidth-slider.md
+    - WooCommerce Modules:
+      - Shop: modules/shop.md
+      - Woo Breadcrumbs: modules/woo-breadcrumbs.md
+      - Woo Cart Products: modules/woo-cart-products.md
+      - Woo Cart Totals: modules/woo-cart-totals.md
+      - Woo Checkout Billing: modules/woo-checkout-billing.md
+      - Woo Checkout Details: modules/woo-checkout-details.md
+      - Woo Checkout Information: modules/woo-checkout-information.md
+      - Woo Checkout Payment: modules/woo-checkout-payment.md
+      - Woo Checkout Shipping: modules/woo-checkout-shipping.md
+      - Woo Cross Sells: modules/woo-cross-sells.md
+      - Woo Product Description: modules/woo-product-description.md
+      - Woo Product Images: modules/woo-product-images.md
+      - Woo Product Information: modules/woo-product-information.md
+      - Woo Product Price: modules/woo-product-price.md
+      - Woo Product Rating: modules/woo-product-rating.md
+      - Woo Product Reviews: modules/woo-product-reviews.md
+      - Woo Product Stock: modules/woo-product-stock.md
+      - Woo Product Tabs: modules/woo-product-tabs.md
+      - Woo Product Title: modules/woo-product-title.md
+      - Woo Products: modules/woo-products.md
+      - Woo Related Products: modules/woo-related-products.md
   - Theme Options:
     - Overview: theme-options/index.md
     - General: theme-options/general.md

@@ -13,34 +13,85 @@ Divi modules are the individual content elements you place inside rows and colum
 
 | Module | Description | Status |
 |--------|-------------|--------|
-| [Blurb](blurb.md) | Icon or image with heading and text | ✅ Documented |
-| [Text](text.md) | Rich text content block | ✅ Documented |
+| [Accordion](accordion.md) | Collapsible content panels (grouped) | ✅ Documented |
+| [Audio](audio.md) | Embed audio player | ✅ Documented |
+| [Bar Counter](bar-counter.md) | Animated horizontal bar charts | ✅ Documented |
 | [Blog](blog.md) | Display blog posts in grid or list | ✅ Documented |
-| Image | Display a single image | 🔲 Needed |
-| Video | Embed video content | 🔲 Needed |
-| Call to Action | Heading, text, and button | 🔲 Needed |
-| Accordion | Collapsible content panels | 🔲 Needed |
-| Toggle | Individual collapsible panel | 🔲 Needed |
-| Tabs | Tabbed content sections | 🔲 Needed |
-| Slider | Image and content slider | 🔲 Needed |
-
-## Structure Modules
-
-| Module | Description | Status |
-|--------|-------------|--------|
-| Section | Top-level layout container | 🔲 Needed |
-| Row | Column container within sections | 🔲 Needed |
-| Column | Content container within rows | 🔲 Needed |
+| [Blurb](blurb.md) | Icon or image with heading and text | ✅ Documented |
+| [Button](button.md) | Customizable button element | ✅ Documented |
+| [Call to Action](call-to-action.md) | Heading, text, and button | ✅ Documented |
+| [Circle Counter](circle-counter.md) | Animated circular progress indicator | ✅ Documented |
+| [Code](code.md) | Raw HTML/CSS/JS code block | ✅ Documented |
+| [Countdown Timer](countdown-timer.md) | Animated countdown to a date | ✅ Documented |
+| [Divider](divider.md) | Horizontal divider line | ✅ Documented |
+| [Filterable Portfolio](filterable-portfolio.md) | Portfolio with category filters | ✅ Documented |
+| [Gallery](gallery.md) | Image gallery grid | ✅ Documented |
+| [Icon](icon.md) | Display a single icon | ✅ Documented |
+| [Image](image.md) | Display a single image | ✅ Documented |
+| [Map](map.md) | Google Maps embed | ✅ Documented |
+| [Menu](menu.md) | Navigation menu display | ✅ Documented |
+| [Number Counter](number-counter.md) | Animated number counter | ✅ Documented |
+| [Person](person.md) | Team member profile card | ✅ Documented |
+| [Portfolio](portfolio.md) | Portfolio grid display | ✅ Documented |
+| [Post Navigation](post-navigation.md) | Previous/next post links | ✅ Documented |
+| [Post Slider](post-slider.md) | Blog posts in slider format | ✅ Documented |
+| [Post Title](post-title.md) | Dynamic post title display | ✅ Documented |
+| [Pricing Table](pricing-table.md) | Pricing comparison table | ✅ Documented |
+| [Sidebar](sidebar.md) | Widget area display | ✅ Documented |
+| [Slider](slider.md) | Image and content slider | ✅ Documented |
+| [Social Media Follow](social-media-follow.md) | Social media icon links | ✅ Documented |
+| [Tabs](tabs.md) | Tabbed content sections | ✅ Documented |
+| [Testimonial](testimonial.md) | Customer testimonial display | ✅ Documented |
+| [Text](text.md) | Rich text content block | ✅ Documented |
+| [Toggle](toggle.md) | Individual collapsible panel | ✅ Documented |
+| [Video](video.md) | Embed video content | ✅ Documented |
+| [Video Slider](video-slider.md) | Video carousel slider | ✅ Documented |
 
 ## Interactive Modules
 
 | Module | Description | Status |
 |--------|-------------|--------|
-| Contact Form | Form builder | 🔲 Needed |
-| Email Optin | Email signup form | 🔲 Needed |
-| Login | User login form | 🔲 Needed |
-| Search | Search input | 🔲 Needed |
-| Comments | Post comments display | 🔲 Needed |
+| [Comments](comments.md) | Post comments display | ✅ Documented |
+| [Contact Form](contact-form.md) | Form builder | ✅ Documented |
+| [Email Optin](email-optin.md) | Email signup form | ✅ Documented |
+| [Login](login.md) | User login form | ✅ Documented |
+| [Search](search.md) | Search input | ✅ Documented |
 
-!!! tip "Help us fill the gaps"
-    See a module marked 🔲? We'd love your help documenting it. Check the [Contributing Guide](../contributing.md) to get started.
+## Fullwidth Modules
+
+| Module | Description | Status |
+|--------|-------------|--------|
+| [Fullwidth Header](fullwidth-header.md) | Full-width hero header section | ✅ Documented |
+| [Fullwidth Map](fullwidth-map.md) | Full-width Google Maps embed | ✅ Documented |
+| [Fullwidth Menu](fullwidth-menu.md) | Full-width navigation menu | ✅ Documented |
+| [Fullwidth Portfolio](fullwidth-portfolio.md) | Full-width portfolio grid | ✅ Documented |
+| [Fullwidth Slider](fullwidth-slider.md) | Full-width content slider | ✅ Documented |
+
+## WooCommerce Modules
+
+| Module | Description | Status |
+|--------|-------------|--------|
+| [Shop](shop.md) | WooCommerce product grid | ✅ Documented |
+| [Woo Breadcrumbs](woo-breadcrumbs.md) | Product breadcrumb navigation | ✅ Documented |
+| [Woo Cart Products](woo-cart-products.md) | Cart contents display | ✅ Documented |
+| [Woo Cart Totals](woo-cart-totals.md) | Cart totals summary | ✅ Documented |
+| [Woo Checkout Billing](woo-checkout-billing.md) | Checkout billing form | ✅ Documented |
+| [Woo Checkout Details](woo-checkout-details.md) | Checkout order details | ✅ Documented |
+| [Woo Checkout Information](woo-checkout-information.md) | Checkout customer info | ✅ Documented |
+| [Woo Checkout Payment](woo-checkout-payment.md) | Checkout payment methods | ✅ Documented |
+| [Woo Checkout Shipping](woo-checkout-shipping.md) | Checkout shipping options | ✅ Documented |
+| [Woo Cross Sells](woo-cross-sells.md) | Cross-sell product suggestions | ✅ Documented |
+| [Woo Product Description](woo-product-description.md) | Product description display | ✅ Documented |
+| [Woo Product Images](woo-product-images.md) | Product image gallery | ✅ Documented |
+| [Woo Product Information](woo-product-information.md) | Product meta information | ✅ Documented |
+| [Woo Product Price](woo-product-price.md) | Product price display | ✅ Documented |
+| [Woo Product Rating](woo-product-rating.md) | Product star rating | ✅ Documented |
+| [Woo Product Reviews](woo-product-reviews.md) | Product reviews section | ✅ Documented |
+| [Woo Product Stock](woo-product-stock.md) | Product stock status | ✅ Documented |
+| [Woo Product Tabs](woo-product-tabs.md) | Product tabbed information | ✅ Documented |
+| [Woo Product Title](woo-product-title.md) | Product title display | ✅ Documented |
+| [Woo Products](woo-products.md) | Product listing grid | ✅ Documented |
+| [Woo Related Products](woo-related-products.md) | Related products display | ✅ Documented |
+
+!!! tip "Help us improve"
+    All newly generated pages include `<!-- TODO -->` markers for settings that need manual verification. Check the [Contributing Guide](../contributing.md) to help fill in the details.
