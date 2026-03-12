@@ -1,0 +1,52 @@
+# Divi 5 Docs — Batch Screenshot Config
+#
+# Usage: python scripts/capture_screenshots.py --batch scripts/screenshots.yml
+#
+# This file defines all screenshots needed for the docs.
+# Add new entries as you build out pages.
+
+defaults:
+  output_dir: docs/assets/screenshots
+  delay_ms: 3000
+  max_width: 1200
+  full_page: false
+
+captures:
+  # ──────────────────────────────────────
+  # MODULE SCREENSHOTS
+  # Capture the module settings panels and front-end output
+  # ──────────────────────────────────────
+
+  # Blurb Module — Settings Panel
+  # Replace with your actual Divi site URL
+  # - url: "https://your-divi-site.com/wp-admin/..."
+  #   output_dir: docs/assets/screenshots/modules/blurb
+  #   filename: blurb-settings-content
+  #   selector: ".et-fb-settings-content"
+  #   wait_for: ".et-fb-settings-content"
+
+  # Blurb Module — Front-end Output
+  # - url: "https://your-divi-site.com/blurb-examples/"
+  #   output_dir: docs/assets/screenshots/modules/blurb
+  #   filename: blurb-frontend-default
+  #   selector: ".et_pb_blurb"
+
+  # ──────────────────────────────────────
+  # ELEGANT THEMES DOCUMENTATION
+  # Scrape reference screenshots from official docs
+  # ──────────────────────────────────────
+
+  - url: "https://www.elegantthemes.com/documentation/divi/visual-builder/"
+    output_dir: docs/assets/screenshots/builder
+    filename: visual-builder-overview
+    full_page: true
+
+  # ──────────────────────────────────────
+  # THEME OPTIONS
+  # ──────────────────────────────────────
+
+  # - url: "https://your-divi-site.com/wp-admin/admin.php?page=et_divi_options"
+  #   output_dir: docs/assets/screenshots/theme-options
+  #   filename: theme-options-general
+  #   selector: "#epanel-content"
+  #   login: true

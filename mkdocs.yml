@@ -1,0 +1,133 @@
+site_name: Divi 5 Technical Documentation
+site_description: Community-maintained technical documentation for Divi 5 by Elegant Themes
+site_url: https://16wells.github.io/divi-docs/
+repo_url: https://github.com/16wells/divi-docs
+repo_name: 16wells/divi-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: Fira Code
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+  custom_dir: overrides
+
+plugins:
+  - search
+  - tags
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/16wells/divi-docs
+  generator: false
+
+nav:
+  - Home: index.md
+  - Modules:
+    - Overview: modules/index.md
+    - Blurb: modules/blurb.md
+    - Text: modules/text.md
+    - Blog: modules/blog.md
+  - Theme Options:
+    - Overview: theme-options/index.md
+    - General: theme-options/general.md
+    - Navigation: theme-options/navigation.md
+  - Builder:
+    - Overview: builder/index.md
+    - Visual Builder: builder/visual-builder.md
+    - Theme Builder: builder/theme-builder.md
+  - API Reference:
+    - Overview: api/index.md
+    - Hooks & Filters: api/hooks-filters.md
+    - Custom Modules: api/custom-modules.md
+  - CSS Reference:
+    - Overview: css-reference/index.md
+    - Class Reference: css-reference/class-reference.md
+    - Common Overrides: css-reference/common-overrides.md
+  - LLM Playbooks:
+    - Overview: playbooks/index.md
+    - Design System Setup: playbooks/design-system-setup.md
+    - Build a Page: playbooks/build-a-page.md
+    - Visual Builder Ops: playbooks/visual-builder-ops.md
+    - CSS in Divi 5: playbooks/css-in-divi.md
+    - Responsive Design: playbooks/responsive-design.md
+    - Layout Patterns: playbooks/layout-patterns.md
+    - HTML Workarounds: playbooks/html-workarounds.md
+    - REST API Content: playbooks/rest-api-content.md
+    - Browser Automation: playbooks/browser-automation.md
+    - Theme Builder Ops: playbooks/theme-builder-ops.md
+    - Known Limitations: playbooks/known-limitations.md
+    - Troubleshooting Tree: playbooks/troubleshooting-tree.md
+  - Internals:
+    - Overview: internals/index.md
+    - Block Format: internals/block-format.md
+    - SSR Rendering: internals/ssr-rendering.md
+    - Content Encoding: internals/content-encoding.md
+    - VB Architecture: internals/vb-architecture.md
+    - TinyMCE State: internals/tinymce-state.md
+    - JSON Attribute Map: internals/json-attribute-map.md
+    - Testimonial Gaps: internals/testimonial-ssr.md
+  - Recipes:
+    - Overview: recipes/index.md
+  - Troubleshooting:
+    - Overview: troubleshooting/index.md
+  - Contributing: contributing.md
+
+copyright: >
+  Community-maintained Divi 5 documentation. Not affiliated with Elegant Themes.
+  <a href="https://github.com/16wells/divi-docs">Contribute on GitHub</a>.
