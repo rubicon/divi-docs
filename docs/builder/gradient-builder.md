@@ -16,8 +16,8 @@ Gradients are a great way to add interest and depth to your webpages. They can b
 
 Divi’s Gradient Builder is part of Divi’s suite of background design options. Adding a gradient to any section, row, column, or module is easy. To demonstrate how to add gradients to a section, we’ll use one ofDivi’s layout packs.
 
-![Gradient Builder overview](../assets/screenshots/builder/gradient-builder/overview.png){ loading=lazy }
-*The Gradient Builder interface in Divi 5.*
+<!-- ![Gradient Builder overview](../assets/screenshots/builder/gradient-builder/overview.png){ loading=lazy }
+*The Gradient Builder interface in Divi 5.* -->
 
 ## Adding a Background Gradient
 

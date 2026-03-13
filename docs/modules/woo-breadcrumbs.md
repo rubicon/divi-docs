@@ -34,7 +34,7 @@ Before you can add the Divi Woo Product Title Module to your website, you’ll n
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Breadcrumbs Content tab settings](../assets/screenshots/modules/woo-breadcrumbs/settings-content.png){ loading=lazy }
+<!-- ![Woo Breadcrumbs Content tab settings](../assets/screenshots/modules/woo-breadcrumbs/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +44,7 @@ Before you can add the Divi Woo Product Title Module to your website, you’ll n
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Breadcrumbs Design tab settings](../assets/screenshots/modules/woo-breadcrumbs/settings-design.png){ loading=lazy }
+<!-- ![Woo Breadcrumbs Design tab settings](../assets/screenshots/modules/woo-breadcrumbs/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

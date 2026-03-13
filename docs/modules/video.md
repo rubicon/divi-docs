@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Video Content tab settings](../assets/screenshots/modules/video/settings-content.png){ loading=lazy }
+<!-- ![Video Content tab settings](../assets/screenshots/modules/video/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Video Design tab settings](../assets/screenshots/modules/video/settings-design.png){ loading=lazy }
+<!-- ![Video Design tab settings](../assets/screenshots/modules/video/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

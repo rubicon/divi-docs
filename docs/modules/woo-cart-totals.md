@@ -34,7 +34,7 @@ Before you can add the Divi Woo Cart Totals Module to your website, you’ll nee
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Cart Totals Content tab settings](../assets/screenshots/modules/woo-cart-totals/settings-content.png){ loading=lazy }
+<!-- ![Woo Cart Totals Content tab settings](../assets/screenshots/modules/woo-cart-totals/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +44,7 @@ Before you can add the Divi Woo Cart Totals Module to your website, you’ll nee
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Cart Totals Design tab settings](../assets/screenshots/modules/woo-cart-totals/settings-design.png){ loading=lazy }
+<!-- ![Woo Cart Totals Design tab settings](../assets/screenshots/modules/woo-cart-totals/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

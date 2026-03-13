@@ -20,8 +20,8 @@ Templates created in the Theme Builder are applied globally or to specific pages
 
 The Theme Builder uses dynamic content to pull in data like post titles, featured images, author information, and more, so your templates automatically populate with the correct content for each page they are applied to.
 
-![Theme Builder overview](../assets/screenshots/builder/theme-builder/overview.png){ loading=lazy }
-*The Theme Builder interface showing template assignments and header/footer/body areas.*
+<!-- ![Theme Builder overview](../assets/screenshots/builder/theme-builder/overview.png){ loading=lazy }
+*The Theme Builder interface showing template assignments and header/footer/body areas.* -->
 
 ## Accessing the Theme Builder
 
@@ -41,8 +41,8 @@ Each Theme Builder template consists of up to three areas:
 
 Each area is optional. You can create a template with only a custom header, only a custom footer, or any combination.
 
-![Template structure](../assets/screenshots/builder/theme-builder/template-structure.png){ loading=lazy }
-*A Theme Builder template showing the three template areas: Header, Body, and Footer.*
+<!-- ![Template structure](../assets/screenshots/builder/theme-builder/template-structure.png){ loading=lazy }
+*A Theme Builder template showing the three template areas: Header, Body, and Footer.* -->
 
 ## Template Types
 

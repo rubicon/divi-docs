@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Fullwidth Slider Content tab settings](../assets/screenshots/modules/fullwidth-slider/settings-content.png){ loading=lazy }
+<!-- ![Fullwidth Slider Content tab settings](../assets/screenshots/modules/fullwidth-slider/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 

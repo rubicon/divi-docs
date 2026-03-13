@@ -16,8 +16,8 @@ The Theme & Module customizers give you control over just about every single ele
 
 First we will explore the Theme Customizer. There are hundreds of options here, separated into different categories. When you first open up the customizer you will see several panels, such as “Header & Navigation” and “General Settings.” Opening these panels will reveal the options related to those areas of your website. As you adjust the settings within the customizer, you will be given a live preview of their effects. Once you save your changes, the new styles will be reflected on your live website.
 
-![Theme & Module Customizer overview](../assets/screenshots/theme-options/customizer/overview.png){ loading=lazy }
-*The Theme & Module Customizer interface in Divi 5.*
+<!-- ![Theme & Module Customizer overview](../assets/screenshots/theme-options/customizer/overview.png){ loading=lazy }
+*The Theme & Module Customizer interface in Divi 5.* -->
 
 ## Accessing The Theme & Module Customizers
 

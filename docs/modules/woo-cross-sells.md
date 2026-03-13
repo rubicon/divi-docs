@@ -34,7 +34,7 @@ Before you can add the Divi Woo Product Title Module to your website, you’ll n
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Cross Sells Content tab settings](../assets/screenshots/modules/woo-cross-sells/settings-content.png){ loading=lazy }
+<!-- ![Woo Cross Sells Content tab settings](../assets/screenshots/modules/woo-cross-sells/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +44,7 @@ Before you can add the Divi Woo Product Title Module to your website, you’ll n
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Cross Sells Design tab settings](../assets/screenshots/modules/woo-cross-sells/settings-design.png){ loading=lazy }
+<!-- ![Woo Cross Sells Design tab settings](../assets/screenshots/modules/woo-cross-sells/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

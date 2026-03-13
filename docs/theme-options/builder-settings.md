@@ -18,8 +18,8 @@ In the Builder Settings tab there are two sub-tabs: **Post Type Integration** an
 
 The **Post Type Integration** sub-tab lets you enable the Divi Builder on custom post types beyond standard posts and pages, and configure WooCommerce product page layout options. The **Advanced** sub-tab contains settings for static CSS file generation, inline style output, the product tour, and editor preferences including the option to use the Classic Editor instead of Gutenberg.
 
-![Builder Settings overview](../assets/screenshots/theme-options/builder-settings/overview.png){ loading=lazy }
-*The Builder Settings panel in Divi Theme Options.*
+<!-- ![Builder Settings overview](../assets/screenshots/theme-options/builder-settings/overview.png){ loading=lazy }
+*The Builder Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

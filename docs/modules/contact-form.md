@@ -45,8 +45,8 @@ Each field in the repeater exposes these settings:
 | Options | text | — | Defines the choices for Select, Radio, and Checkbox field types. Enter one option per line. Ignored for Input, Email, and Textarea types. |
 | Conditional Logic | toggle | No | When enabled, this field is only visible when conditions based on other field values are met. Configure rules to show or hide the field depending on selections in other fields — useful for multi-step forms or context-dependent questions. |
 
-![Contact Form field settings](../assets/screenshots/modules/contact-form/settings-field.png){ loading=lazy }
-*Expanded field settings showing Title, Type, Required toggle, and Options for a Select field.*
+<!-- ![Contact Form field settings](../assets/screenshots/modules/contact-form/settings-field.png){ loading=lazy }
+*Expanded field settings showing Title, Type, Required toggle, and Options for a Select field.* -->
 
 #### Email & Submission
 
@@ -61,8 +61,8 @@ Each field in the repeater exposes these settings:
 | Use Spam Protection | toggle | Yes | Enables reCAPTCHA and/or honeypot spam protection on the form. reCAPTCHA keys must be configured in Divi Theme Options > Integration for the CAPTCHA challenge to appear. The honeypot field is invisible and catches automated bots. |
 | Admin Label | text | — | A label visible only in the Visual Builder to help identify this module when working with multiple Contact Form modules on the same page. Does not appear on the front end. |
 
-![Contact Form Content tab settings](../assets/screenshots/modules/contact-form/settings-content.png){ loading=lazy }
-*Content tab showing Email To, Message Pattern, Success Message, and spam protection settings.*
+<!-- ![Contact Form Content tab settings](../assets/screenshots/modules/contact-form/settings-content.png){ loading=lazy }
+*Content tab showing Email To, Message Pattern, Success Message, and spam protection settings.* -->
 
 ### Design Tab
 
@@ -152,8 +152,8 @@ The Design tab controls the visual presentation of every element within the form
 | Success Message Background Color | color | `#dff0d8` | Background color for the success message container. |
 | Error Message Text Color | color | `#b94a48` | Text color for field validation error messages. |
 
-![Contact Form Design tab settings](../assets/screenshots/modules/contact-form/settings-design.png){ loading=lazy }
-*Design tab showing field styling, button customization, and spacing controls.*
+<!-- ![Contact Form Design tab settings](../assets/screenshots/modules/contact-form/settings-design.png){ loading=lazy }
+*Design tab showing field styling, button customization, and spacing controls.* -->
 
 ### Advanced Tab
 
@@ -329,8 +329,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 The most common use case: a Name, Email, and Message form placed on a dedicated Contact page. Keep the default three fields, set the **Email To** address, customize the **Success Message**, and enable **Spam Protection**. Place the module in a single-column row, optionally alongside a Map module or Blurb modules with your address and phone number.
 
-![Contact page pattern](../assets/screenshots/modules/contact-form/pattern-contact-page.png){ loading=lazy }
-*A contact page layout with the Contact Form module alongside address and map information.*
+<!-- ![Contact page pattern](../assets/screenshots/modules/contact-form/pattern-contact-page.png){ loading=lazy }
+*A contact page layout with the Contact Form module alongside address and map information.* -->
 
 ### 2. Newsletter Signup Form
 
@@ -339,8 +339,8 @@ Use the Contact Form as a lightweight newsletter signup by reducing it to two fi
 !!! tip "For Advanced Email Marketing"
     If you need double opt-in, list segmentation, or autoresponders, use the [Email Optin module](email-optin.md) instead, which integrates directly with Mailchimp, ConvertKit, and other providers.
 
-![Newsletter signup pattern](../assets/screenshots/modules/contact-form/pattern-newsletter-signup.png){ loading=lazy }
-*A compact newsletter signup form with Name and Email fields in a two-column layout.*
+<!-- ![Newsletter signup pattern](../assets/screenshots/modules/contact-form/pattern-newsletter-signup.png){ loading=lazy }
+*A compact newsletter signup form with Name and Email fields in a two-column layout.* -->
 
 ### 3. Support Request Form with File Context
 
@@ -355,8 +355,8 @@ Priority: %%Priority%%
 %%Description%%
 ```
 
-![Support request pattern](../assets/screenshots/modules/contact-form/pattern-support-request.png){ loading=lazy }
-*A multi-field support request form with category dropdown and conditional fields.*
+<!-- ![Support request pattern](../assets/screenshots/modules/contact-form/pattern-support-request.png){ loading=lazy }
+*A multi-field support request form with category dropdown and conditional fields.* -->
 
 ## Version Notes
 

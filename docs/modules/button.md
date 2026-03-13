@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Button Content tab settings](../assets/screenshots/modules/button/settings-content.png){ loading=lazy }
+<!-- ![Button Content tab settings](../assets/screenshots/modules/button/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Button Design tab settings](../assets/screenshots/modules/button/settings-design.png){ loading=lazy }
+<!-- ![Button Design tab settings](../assets/screenshots/modules/button/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

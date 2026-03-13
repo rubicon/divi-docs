@@ -16,8 +16,8 @@ Thanks to the Divi responsive preview system, it’s no longer necessary to use 
 
 There are two ways to access Divi’s responsive preview system. The first is by activating it at the page level. This can be accomplished by viewing the page’s back end or on the front end with the Visual Builder. The second way to activate the responsive preview system is at the module, colum, row, or section level. Let’s start off by loading the preview system at the page level.
 
-![Responsive Preview System overview](../assets/screenshots/builder/responsive-preview/overview.png){ loading=lazy }
-*The Responsive Preview System interface in Divi 5.*
+<!-- ![Responsive Preview System overview](../assets/screenshots/builder/responsive-preview/overview.png){ loading=lazy }
+*The Responsive Preview System interface in Divi 5.* -->
 
 ## How To Access the Divi Responsive Preview System
 

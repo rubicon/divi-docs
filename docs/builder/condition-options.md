@@ -16,8 +16,8 @@ The Divi Condition Options allow you to apply advanced logic to any section, row
 
 For example, you can choose to display specific content based on date and time. Or you can choose to display unique content to users when they log in and show unique elements to specific users based on their user role.
 
-![Condition Options overview](../assets/screenshots/builder/condition-options/overview.png){ loading=lazy }
-*The Condition Options interface in Divi 5.*
+<!-- ![Condition Options overview](../assets/screenshots/builder/condition-options/overview.png){ loading=lazy }
+*The Condition Options interface in Divi 5.* -->
 
 ## How To Access Condition Options
 

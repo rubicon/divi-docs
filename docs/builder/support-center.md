@@ -16,8 +16,8 @@ The Divi Support Center is designed to bring all of the elements of great suppor
 
 Accessing the Divi Support Center is a breeze. Simply log in to your Divi website, then navigate toDivi > Support.
 
-![Support Center overview](../assets/screenshots/builder/support-center/overview.png){ loading=lazy }
-*The Support Center interface in Divi 5.*
+<!-- ![Support Center overview](../assets/screenshots/builder/support-center/overview.png){ loading=lazy }
+*The Support Center interface in Divi 5.* -->
 
 ## How to Access the Divi Help & Support Center
 

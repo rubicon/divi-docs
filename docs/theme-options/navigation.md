@@ -20,8 +20,8 @@ The **Pages** sub-tab lets you exclude certain pages from the navigation, show o
 
 The **General Settings** sub-tab contains a single but important setting for disabling top-tier dropdown menu links, which is useful when parent links serve as organizational placeholders only.
 
-![Navigation Settings overview](../assets/screenshots/theme-options/navigation/overview.png){ loading=lazy }
-*The Navigation Settings panel in Divi Theme Options.*
+<!-- ![Navigation Settings overview](../assets/screenshots/theme-options/navigation/overview.png){ loading=lazy }
+*The Navigation Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Portfolio Content tab settings](../assets/screenshots/modules/portfolio/settings-content.png){ loading=lazy }
+<!-- ![Portfolio Content tab settings](../assets/screenshots/modules/portfolio/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Portfolio Design tab settings](../assets/screenshots/modules/portfolio/settings-design.png){ loading=lazy }
+<!-- ![Portfolio Design tab settings](../assets/screenshots/modules/portfolio/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

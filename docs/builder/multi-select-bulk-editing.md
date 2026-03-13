@@ -16,8 +16,8 @@ The Divi multi-select and bulk editing feature is a powerful tool that enables y
 
 Divi makes editing large amounts of content a breeze with the multi-select and bulk edit feature. For instance, rebranding a website can be a tedious task if you have to edit each module individually just to change a color. For example, you can select multiple modules where background colors are used to change them at once. Another example of how multi-selecting and editing modules can save you time is when you want to add animation or scrolling effects.
 
-![Multi-Select & Bulk Editing overview](../assets/screenshots/builder/multi-select-bulk-editing/overview.png){ loading=lazy }
-*The Multi-Select & Bulk Editing interface in Divi 5.*
+<!-- ![Multi-Select & Bulk Editing overview](../assets/screenshots/builder/multi-select-bulk-editing/overview.png){ loading=lazy }
+*The Multi-Select & Bulk Editing interface in Divi 5.* -->
 
 ## The Power of Divi Multi-Select and Bulk Editing Features
 

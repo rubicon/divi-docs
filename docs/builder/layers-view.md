@@ -16,8 +16,8 @@ The Divi layers view adds a very quick and easy way to view, rearrange, edit, an
 
 Divi’s layers view gives you easy access to any element within your page. It’s small, so you can keep it open in a corner or wherever is convenient for you during the design process. Additionally, the layers view works well to help you access elements in complex designs with overlapping elements or altered transform controls. When the layers view is active, you can click on any section, row, column, or module to edit it with ease.
 
-![Layers View overview](../assets/screenshots/builder/layers-view/overview.png){ loading=lazy }
-*The Layers View interface in Divi 5.*
+<!-- ![Layers View overview](../assets/screenshots/builder/layers-view/overview.png){ loading=lazy }
+*The Layers View interface in Divi 5.* -->
 
 ## The Power of Divi’s Layers View
 

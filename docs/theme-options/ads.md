@@ -18,8 +18,8 @@ In the Ads tab, you'll find settings that configure ads displayed on your websit
 
 The settings are grouped under the **Manage Un-widgetized Advertisements** section. When enabled, a banner ad will display at the bottom of your post pages below the single post content. You must provide both a banner image URL and a destination URL for the ad to function properly.
 
-![Ads Settings overview](../assets/screenshots/theme-options/ads/overview.png){ loading=lazy }
-*The Ads Settings panel in Divi Theme Options.*
+<!-- ![Ads Settings overview](../assets/screenshots/theme-options/ads/overview.png){ loading=lazy }
+*The Ads Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

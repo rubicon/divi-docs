@@ -20,8 +20,8 @@ The **Single Post Layout** sub-tab controls what information is displayed in the
 
 The **General Settings** sub-tab contains options for the post info section on index pages and whether thumbnails are shown on index pages.
 
-![Layout Settings overview](../assets/screenshots/theme-options/layout/overview.png){ loading=lazy }
-*The Layout Settings panel in Divi Theme Options.*
+<!-- ![Layout Settings overview](../assets/screenshots/theme-options/layout/overview.png){ loading=lazy }
+*The Layout Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

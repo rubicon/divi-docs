@@ -20,8 +20,8 @@ The library supports saving individual modules, rows, sections, or complete page
 
 Divi also ships with hundreds of professionally designed premade layouts organized into layout packs. These provide ready-to-use page designs that you can load and customize.
 
-![Divi Library overview](../assets/screenshots/builder/library/overview.png){ loading=lazy }
-*The Divi Library interface showing saved layouts, premade layouts, and organization options.*
+<!-- ![Divi Library overview](../assets/screenshots/builder/library/overview.png){ loading=lazy }
+*The Divi Library interface showing saved layouts, premade layouts, and organization options.* -->
 
 ## Accessing the Library
 

@@ -18,8 +18,8 @@ In the Integration tab, you'll find settings for enabling and adding code to the
 
 Each code area has a corresponding enable/disable toggle, allowing you to temporarily remove injected code while saving it for later use. This is especially useful for debugging or temporarily disabling tracking scripts.
 
-![Integration Settings overview](../assets/screenshots/theme-options/integration/overview.png){ loading=lazy }
-*The Integration Settings panel in Divi Theme Options.*
+<!-- ![Integration Settings overview](../assets/screenshots/theme-options/integration/overview.png){ loading=lazy }
+*The Integration Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

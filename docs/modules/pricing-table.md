@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Pricing Table Content tab settings](../assets/screenshots/modules/pricing-table/settings-content.png){ loading=lazy }
+<!-- ![Pricing Table Content tab settings](../assets/screenshots/modules/pricing-table/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Pricing Table Design tab settings](../assets/screenshots/modules/pricing-table/settings-design.png){ loading=lazy }
+<!-- ![Pricing Table Design tab settings](../assets/screenshots/modules/pricing-table/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

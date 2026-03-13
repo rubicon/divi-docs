@@ -20,8 +20,8 @@ In the **General** sub-tab, you'll find settings for your site's logo, color pal
 
 Under the **Performance** sub-tab, you'll find settings that control CSS and JavaScript loading that can be used to optimize your site's performance. Settings like Dynamic Module Framework, Dynamic CSS, Critical CSS, and Dynamic JavaScript Libraries can help improve the speed of your website.
 
-![General Settings overview](../assets/screenshots/theme-options/general/overview.png){ loading=lazy }
-*The General Settings panel in Divi Theme Options.*
+<!-- ![General Settings overview](../assets/screenshots/theme-options/general/overview.png){ loading=lazy }
+*The General Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

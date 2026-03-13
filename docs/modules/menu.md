@@ -29,7 +29,7 @@ The Menu module allows you to add menu elements to your Divi 5 pages using the V
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Menu Content tab settings](../assets/screenshots/modules/menu/settings-content.png){ loading=lazy }
+<!-- ![Menu Content tab settings](../assets/screenshots/modules/menu/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -39,7 +39,7 @@ The Menu module allows you to add menu elements to your Divi 5 pages using the V
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Menu Design tab settings](../assets/screenshots/modules/menu/settings-design.png){ loading=lazy }
+<!-- ![Menu Design tab settings](../assets/screenshots/modules/menu/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -33,7 +33,7 @@ In this documentation, we’ll go over all the design and content settings avail
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Sidebar Content tab settings](../assets/screenshots/modules/sidebar/settings-content.png){ loading=lazy }
+<!-- ![Sidebar Content tab settings](../assets/screenshots/modules/sidebar/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 

@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Fullwidth Portfolio Content tab settings](../assets/screenshots/modules/fullwidth-portfolio/settings-content.png){ loading=lazy }
+<!-- ![Fullwidth Portfolio Content tab settings](../assets/screenshots/modules/fullwidth-portfolio/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 

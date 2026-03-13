@@ -20,8 +20,8 @@ Every module, row, section, and column in Divi has a **Default Preset** that def
 
 Presets work similarly to CSS classes in concept -- they define a reusable set of styles. But unlike CSS, presets are managed entirely through the Visual Builder's interface with no code required.
 
-![Presets overview](../assets/screenshots/builder/presets/overview.png){ loading=lazy }
-*The presets dropdown in the element settings window showing available presets.*
+<!-- ![Presets overview](../assets/screenshots/builder/presets/overview.png){ loading=lazy }
+*The presets dropdown in the element settings window showing available presets.* -->
 
 ## How Presets Work
 

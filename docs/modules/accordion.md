@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Accordion Content tab settings](../assets/screenshots/modules/accordion/settings-content.png){ loading=lazy }
+<!-- ![Accordion Content tab settings](../assets/screenshots/modules/accordion/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Accordion Design tab settings](../assets/screenshots/modules/accordion/settings-design.png){ loading=lazy }
+<!-- ![Accordion Design tab settings](../assets/screenshots/modules/accordion/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

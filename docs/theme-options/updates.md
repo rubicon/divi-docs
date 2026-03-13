@@ -18,8 +18,8 @@ The Updates tab is where you paste your Elegant Themes membership info so that y
 
 Before you can receive product updates, you must first authenticate your Elegant Themes subscription by entering both your Elegant Themes Username and your Elegant Themes API Key. To locate your API Key, log in to your Elegant Themes account and navigate to the Account > API Key page. If authentication fails, verify that your Username and API Key have been entered correctly.
 
-![Updates Settings overview](../assets/screenshots/theme-options/updates/overview.png){ loading=lazy }
-*The Updates Settings panel in Divi Theme Options.*
+<!-- ![Updates Settings overview](../assets/screenshots/theme-options/updates/overview.png){ loading=lazy }
+*The Updates Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

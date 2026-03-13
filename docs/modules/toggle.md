@@ -33,7 +33,7 @@ You can use the toggle module to build aFAQs section, arestaurant menu, aservice
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Toggle Content tab settings](../assets/screenshots/modules/toggle/settings-content.png){ loading=lazy }
+<!-- ![Toggle Content tab settings](../assets/screenshots/modules/toggle/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ You can use the toggle module to build aFAQs section, arestaurant menu, aservice
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Toggle Design tab settings](../assets/screenshots/modules/toggle/settings-design.png){ loading=lazy }
+<!-- ![Toggle Design tab settings](../assets/screenshots/modules/toggle/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

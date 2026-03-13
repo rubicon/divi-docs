@@ -34,7 +34,7 @@ Before you can add the Divi Woo Checkout Information Module to your website, you
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Checkout Information Content tab settings](../assets/screenshots/modules/woo-checkout-information/settings-content.png){ loading=lazy }
+<!-- ![Woo Checkout Information Content tab settings](../assets/screenshots/modules/woo-checkout-information/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +44,7 @@ Before you can add the Divi Woo Checkout Information Module to your website, you
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Checkout Information Design tab settings](../assets/screenshots/modules/woo-checkout-information/settings-design.png){ loading=lazy }
+<!-- ![Woo Checkout Information Design tab settings](../assets/screenshots/modules/woo-checkout-information/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

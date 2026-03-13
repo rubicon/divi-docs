@@ -135,8 +135,8 @@ CTAs work well in any column width. Place them at natural decision points in you
 | Animation Delay | range | 0ms | Delay before the entrance animation begins. |
 | Animation Intensity | range | 50% | Intensity of the entrance animation effect. |
 
-![Call to Action Design tab settings](../assets/screenshots/modules/call-to-action/settings-design.png){ loading=lazy }
-*Design tab showing typography, button, border, and spacing controls.*
+<!-- ![Call to Action Design tab settings](../assets/screenshots/modules/call-to-action/settings-design.png){ loading=lazy }
+*Design tab showing typography, button, border, and spacing controls.* -->
 
 ### Advanced Tab
 
@@ -263,22 +263,22 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 A centered CTA with a brief value proposition as the title ("Join 10,000+ Subscribers"), one sentence of description text explaining what the subscriber receives, and a "Subscribe Now" button that links to a dedicated signup page or triggers a popup form. Use a bold background color that contrasts with the surrounding section. Keep padding generous to make the CTA stand out as its own visual block.
 
-![Newsletter CTA pattern](../assets/screenshots/modules/call-to-action/pattern-newsletter-cta.png){ loading=lazy }
-*A newsletter signup CTA with contrasting background and bold button.*
+<!-- ![Newsletter CTA pattern](../assets/screenshots/modules/call-to-action/pattern-newsletter-cta.png){ loading=lazy }
+*A newsletter signup CTA with contrasting background and bold button.* -->
 
 ### 2. Pricing CTA
 
 Place the CTA below a pricing table or feature comparison. Use the title to reinforce the offer ("Start Your Free Trial Today") and the description for urgency or reassurance ("No credit card required. Cancel anytime."). Style the button with a bright accent color and increased border radius for a pill-shaped appearance. This pattern works well at 1/2 or 2/3 column width, centered in the row.
 
-![Pricing CTA pattern](../assets/screenshots/modules/call-to-action/pattern-pricing-cta.png){ loading=lazy }
-*A pricing CTA with reassurance text and a prominent trial button.*
+<!-- ![Pricing CTA pattern](../assets/screenshots/modules/call-to-action/pattern-pricing-cta.png){ loading=lazy }
+*A pricing CTA with reassurance text and a prominent trial button.* -->
 
 ### 3. Banner CTA
 
 A full-width CTA used as a page divider or banner between content sections. Use a background image with a dark overlay (set via Background Color with transparency) and the side-by-side CSS layout from the code examples above. Keep the title short and punchy. This pattern works best in a fullwidth section or a single-column row with no padding on the row.
 
-![Banner CTA pattern](../assets/screenshots/modules/call-to-action/pattern-banner-cta.png){ loading=lazy }
-*A full-width banner CTA with background image and side-by-side layout.*
+<!-- ![Banner CTA pattern](../assets/screenshots/modules/call-to-action/pattern-banner-cta.png){ loading=lazy }
+*A full-width banner CTA with background image and side-by-side layout.* -->
 
 ## Version Notes
 

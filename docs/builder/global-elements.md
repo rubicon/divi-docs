@@ -20,8 +20,8 @@ Global Elements are ideal for content blocks that appear on multiple pages and n
 
 Global Elements differ from [Presets](presets.md) in a fundamental way: presets share only design settings while each element keeps its own content, whereas global elements share both content and design as a single synchronized instance.
 
-![Global Elements overview](../assets/screenshots/builder/global-elements/overview.png){ loading=lazy }
-*A global element (green border) in the Visual Builder showing it is synced across pages.*
+<!-- ![Global Elements overview](../assets/screenshots/builder/global-elements/overview.png){ loading=lazy }
+*A global element (green border) in the Visual Builder showing it is synced across pages.* -->
 
 ## How Global Elements Work
 

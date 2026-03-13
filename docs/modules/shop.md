@@ -33,7 +33,7 @@ WooCommerce is the plugin that we recommend, as it has the nicest feature set, i
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Shop Content tab settings](../assets/screenshots/modules/shop/settings-content.png){ loading=lazy }
+<!-- ![Shop Content tab settings](../assets/screenshots/modules/shop/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ WooCommerce is the plugin that we recommend, as it has the nicest feature set, i
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Shop Design tab settings](../assets/screenshots/modules/shop/settings-design.png){ loading=lazy }
+<!-- ![Shop Design tab settings](../assets/screenshots/modules/shop/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

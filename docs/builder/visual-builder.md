@@ -20,8 +20,8 @@ The Visual Builder operates directly on the front end of your website. Every cha
 
 The builder organizes content through a hierarchy of **sections**, **rows**, **columns**, and **modules**. Sections are the largest containers, rows sit inside sections and define column layouts, columns hold individual modules, and modules are the actual content blocks (text, images, buttons, forms, etc.).
 
-![Visual Builder overview](../assets/screenshots/builder/visual-builder/overview.png){ loading=lazy }
-*The Divi Visual Builder interface showing a page being edited on the front end.*
+<!-- ![Visual Builder overview](../assets/screenshots/builder/visual-builder/overview.png){ loading=lazy }
+*The Divi Visual Builder interface showing a page being edited on the front end.* -->
 
 ## Loading the Visual Builder
 
@@ -78,8 +78,8 @@ Modules are the content blocks of Divi. Contact forms, images, text blocks, slid
 
 When adjusting settings and applying styles, the hierarchy matters. Sections contain rows, rows contain columns, and columns contain modules. These are parent and child elements. Child elements are nested inside parent elements and inherit or are affected by design styling applied to the parent element.
 
-![Builder hierarchy](../assets/screenshots/builder/visual-builder/hierarchy.png){ loading=lazy }
-*The section > row > column > module hierarchy in the Visual Builder.*
+<!-- ![Builder hierarchy](../assets/screenshots/builder/visual-builder/hierarchy.png){ loading=lazy }
+*The section > row > column > module hierarchy in the Visual Builder.* -->
 
 ## The Element Settings Window
 
@@ -143,8 +143,8 @@ At the bottom of the settings modal:
 | **Redo** | Blue | Redoes an undone action. |
 | **Save** | Green | Saves the current settings. |
 
-![Element settings window](../assets/screenshots/builder/visual-builder/settings-window.png){ loading=lazy }
-*The element settings window showing Content, Design, and Advanced tabs.*
+<!-- ![Element settings window](../assets/screenshots/builder/visual-builder/settings-window.png){ loading=lazy }
+*The element settings window showing Content, Design, and Advanced tabs.* -->
 
 ## The Bottom Toolbar
 
@@ -200,8 +200,8 @@ Click the three-dot icon on the far left to access builder interface customizati
 | **Help (?)** | Opens the Divi Builder Helper with documentation, video tutorials, and keyboard shortcuts. |
 | **Save** | Save the current page design. |
 
-![Bottom toolbar](../assets/screenshots/builder/visual-builder/toolbar.png){ loading=lazy }
-*The Divi Visual Builder bottom toolbar with all control icons.*
+<!-- ![Bottom toolbar](../assets/screenshots/builder/visual-builder/toolbar.png){ loading=lazy }
+*The Divi Visual Builder bottom toolbar with all control icons.* -->
 
 ## Responsive Editing
 

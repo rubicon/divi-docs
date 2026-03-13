@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 
-![Woo Products Content tab settings](../assets/screenshots/modules/woo-products/settings-content.png){ loading=lazy }
+<!-- ![Woo Products Content tab settings](../assets/screenshots/modules/woo-products/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Products Design tab settings](../assets/screenshots/modules/woo-products/settings-design.png){ loading=lazy }
+<!-- ![Woo Products Design tab settings](../assets/screenshots/modules/woo-products/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

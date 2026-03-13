@@ -33,7 +33,7 @@ For this documentation, we’ll use one of our pre-designed free layout packs wh
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Post Title Content tab settings](../assets/screenshots/modules/post-title/settings-content.png){ loading=lazy }
+<!-- ![Post Title Content tab settings](../assets/screenshots/modules/post-title/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 

@@ -20,8 +20,8 @@ The **Homepage SEO** sub-tab lets you configure custom titles, meta descriptions
 
 The **Index Page SEO** sub-tab handles SEO settings for category and archive pages, including canonical URLs, meta descriptions, and title generation methods. All three tabs provide title autogeneration options and separator character customization.
 
-![SEO Settings overview](../assets/screenshots/theme-options/seo/overview.png){ loading=lazy }
-*The SEO Settings panel in Divi Theme Options.*
+<!-- ![SEO Settings overview](../assets/screenshots/theme-options/seo/overview.png){ loading=lazy }
+*The SEO Settings panel in Divi Theme Options.* -->
 
 ## Settings & Options
 

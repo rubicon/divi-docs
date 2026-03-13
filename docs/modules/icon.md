@@ -33,7 +33,7 @@ You can use the icon module to draw your visitor’s attention to a specific are
 |---------|------|---------|-------------|
 | Theme Releases | text | — | Divi Icon Update |
 
-![Icon Content tab settings](../assets/screenshots/modules/icon/settings-content.png){ loading=lazy }
+<!-- ![Icon Content tab settings](../assets/screenshots/modules/icon/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ You can use the icon module to draw your visitor’s attention to a specific are
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Icon Design tab settings](../assets/screenshots/modules/icon/settings-design.png){ loading=lazy }
+<!-- ![Icon Design tab settings](../assets/screenshots/modules/icon/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

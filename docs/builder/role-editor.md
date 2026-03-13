@@ -16,8 +16,8 @@ The Divi Role Editor is a powerful group of settings that allow you to limit the
 
 Using the Divi Role Editor, you can limit the types of actions that can be taken by WordPress users of different roles. This is a great way to limit the functionality available to your customers or guest authors to ensure that they only have the necessary options available to them.
 
-![Role Editor overview](../assets/screenshots/builder/role-editor/overview.png){ loading=lazy }
-*The Role Editor interface in Divi 5.*
+<!-- ![Role Editor overview](../assets/screenshots/builder/role-editor/overview.png){ loading=lazy }
+*The Role Editor interface in Divi 5.* -->
 
 ## What is the Divi Role Editor?
 

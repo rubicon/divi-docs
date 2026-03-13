@@ -262,22 +262,22 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 A full-width slider placed at the top of the page, typically inside a fullwidth section. Each slide features a large background image, a bold heading, a short description, and a CTA button. Set Automatic Animation to **On** with a speed of 5000-7000ms. Use the background overlay color to ensure text remains readable against varied images.
 
-![Hero slider pattern](../assets/screenshots/modules/slider/pattern-hero-slider.png){ loading=lazy }
-*A full-width hero slider with gradient overlay and centered content.*
+<!-- ![Hero slider pattern](../assets/screenshots/modules/slider/pattern-hero-slider.png){ loading=lazy }
+*A full-width hero slider with gradient overlay and centered content.* -->
 
 ### 2. Testimonial Carousel
 
 Use the slider to cycle through customer testimonials. Set each slide's heading to the client name and the description to the quote. Remove the button by leaving Button Text empty. Reduce the padding and use a solid background color instead of images for a clean, minimal look. Add a CSS class to style quotation marks or a star rating above the text.
 
-![Testimonial carousel pattern](../assets/screenshots/modules/slider/pattern-testimonial-carousel.png){ loading=lazy }
-*A testimonial slider with minimal styling and customer quotes.*
+<!-- ![Testimonial carousel pattern](../assets/screenshots/modules/slider/pattern-testimonial-carousel.png){ loading=lazy }
+*A testimonial slider with minimal styling and customer quotes.* -->
 
 ### 3. Product Showcase
 
 Present products or services with a background image of each item, a descriptive heading, key features in the description, and a "Learn More" or "Buy Now" button. Position text to the left using the Text Alignment setting and keep the description concise. Works well at any column width, though a 2/3 or full-width column provides the best visual impact.
 
-![Product showcase pattern](../assets/screenshots/modules/slider/pattern-product-showcase.png){ loading=lazy }
-*A product showcase slider with left-aligned text and product imagery.*
+<!-- ![Product showcase pattern](../assets/screenshots/modules/slider/pattern-product-showcase.png){ loading=lazy }
+*A product showcase slider with left-aligned text and product imagery.* -->
 
 ## Version Notes
 

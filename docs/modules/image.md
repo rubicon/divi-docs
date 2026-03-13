@@ -165,22 +165,22 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 A full-width image placed at the top of a page inside a fullwidth section. Set **Max Width** to `100%`, **Alignment** to `Center`, and remove all margin/padding for edge-to-edge display. Pair with a scroll-down animation (Fade or Slide Up) for visual impact on page load.
 
-![Hero image pattern](../assets/screenshots/modules/image/pattern-hero.png){ loading=lazy }
-*Full-width hero image spanning the entire viewport width.*
+<!-- ![Hero image pattern](../assets/screenshots/modules/image/pattern-hero.png){ loading=lazy }
+*Full-width hero image spanning the entire viewport width.* -->
 
 ### 2. Image Card with Caption
 
 Place an Image module above a [Text module](text.md) inside a one-third or one-quarter column. Apply **Border Radius** of 8–12px and a subtle **Box Shadow** to create a card appearance. Use consistent aspect ratios across all cards in the row by applying the fixed aspect ratio CSS above with a shared CSS class.
 
-![Image card pattern](../assets/screenshots/modules/image/pattern-card.png){ loading=lazy }
-*Three-column card layout with rounded images and captions.*
+<!-- ![Image card pattern](../assets/screenshots/modules/image/pattern-card.png){ loading=lazy }
+*Three-column card layout with rounded images and captions.* -->
 
 ### 3. Lightbox Gallery Grid
 
 Arrange multiple Image modules in a multi-column row, each with **Use Lightbox** enabled. Divi groups lightbox images within the same section, so visitors can click any image and navigate through all of them in a single lightbox slideshow. Add a hover zoom effect for interactivity.
 
-![Lightbox gallery pattern](../assets/screenshots/modules/image/pattern-lightbox-gallery.png){ loading=lazy }
-*Four-column image grid with lightbox enabled for each image.*
+<!-- ![Lightbox gallery pattern](../assets/screenshots/modules/image/pattern-lightbox-gallery.png){ loading=lazy }
+*Four-column image grid with lightbox enabled for each image.* -->
 
 ## Version Notes
 

@@ -33,7 +33,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Post Navigation Content tab settings](../assets/screenshots/modules/post-navigation/settings-content.png){ loading=lazy }
+<!-- ![Post Navigation Content tab settings](../assets/screenshots/modules/post-navigation/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +43,7 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Post Navigation Design tab settings](../assets/screenshots/modules/post-navigation/settings-design.png){ loading=lazy }
+<!-- ![Post Navigation Design tab settings](../assets/screenshots/modules/post-navigation/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 
