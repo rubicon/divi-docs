@@ -18,3 +18,10 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Divi Library](library.md) | Saving and loading layouts | ✅ Done |
 | [Presets](presets.md) | Reusable design configurations | ✅ Done |
 | [Global Elements](global-elements.md) | Reusable modules and sections that sync across pages | ✅ Done |
+| [Role Editor](role-editor.md) | Control Divi feature access per user role | ✅ Done |
+| [Responsive Preview](responsive-preview.md) | Preview designs across device sizes | ✅ Done |
+| [Multi-Select & Bulk Editing](multi-select-bulk-editing.md) | Select and edit multiple elements at once | ✅ Done |
+| [Layers View](layers-view.md) | Navigate page structure in a tree view | ✅ Done |
+| [Gradient Builder](gradient-builder.md) | Create and customize CSS gradients | ✅ Done |
+| [Condition Options](condition-options.md) | Conditional display logic for elements | ✅ Done |
+| [Support Center](support-center.md) | Debugging tools and safe mode | ✅ Done |

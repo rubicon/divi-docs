@@ -254,6 +254,9 @@ jQuery(window).on('et_builder_api_ready', function(event, API) {
 | `et_builder_after_save` | Layout saved | `event`, `saveData` | Fires after the Builder successfully saves content. |
 | `et_fb_page_loaded` | Page fully loaded in VB | `event` | Fires after the Visual Builder finishes loading a page. |
 | `et_fb_module_settings_changed` | Settings modified | `event`, `moduleSlug`, `settings` | Fires when any module's settings are changed in the settings modal. |
+| `divi.module.loop.extractCustomAttributes` | Loop query built | `event`, `attributes` | Allows plugins to register custom loop query attributes. Added in Divi 5 official release (Feb 2026). |
+| `divi.loop.query_args` | Loop query executed (PHP) | `$query_args`, `$attributes` | Server-side filter to modify WP_Query args for loop modules based on custom attributes. Added in Divi 5 official release (Feb 2026). |
+| `divi_off_canvas_should_load` | Off-canvas check | `$should_load` | Filter allowing plugins to register their Off Canvas CPT on custom pages. Added in Divi 5 official release (Feb 2026). |
 
 ### The API Object
 

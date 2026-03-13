@@ -21,3 +21,4 @@ The Divi Theme Options panel (`Divi > Theme Options` in the WordPress admin) con
 | [SEO](seo.md) | Custom titles, meta descriptions, canonical URLs, keywords | Done |
 | [Integration](integration.md) | Head/body code injection, tracking codes, post code | Done |
 | [Updates](updates.md) | Elegant Themes account authentication, version rollback | Done |
+| [Customizer](customizer.md) | Theme & Module Customizer settings | ✅ Done |
