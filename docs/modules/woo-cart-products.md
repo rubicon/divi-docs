@@ -20,8 +20,9 @@ The Divi Woo Cart Products module integrates seamlessly with WooCommerce. Add th
 
 Before we can use the Divi Woo Cart Products module you’ll need to have Divi and WooCommerce installed on your website. Learn how to install the Divi themehereand learn how to install WooCommerce installed on your websitehere. Once you have the Divi theme installed and activated, we can begin using the features and functionalities of Divi. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Cart Products module overview](../assets/screenshots/modules/woo-cart-products/overview.png){ loading=lazy }
-*The Woo Cart Products module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Cart Products module overview](../assets/screenshots/modules/woo-cart-products/overview.png){ loading=lazy } -->
+<!-- *The Woo Cart Products module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ Before we can use the Divi Woo Cart Products module you’ll need to have Divi a
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Cart Products Content tab settings](../assets/screenshots/modules/woo-cart-products/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Cart Products Content tab settings](../assets/screenshots/modules/woo-cart-products/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ Before we can use the Divi Woo Cart Products module you’ll need to have Divi a
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Cart Products Design tab settings](../assets/screenshots/modules/woo-cart-products/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Cart Products Design tab settings](../assets/screenshots/modules/woo-cart-products/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Testimonial Module is a great way to display customer reviews, quotes, 
 
 View A Live Demo Of This Module
 
-![Testimonial module overview](../assets/screenshots/modules/testimonial/overview.png){ loading=lazy }
-*The Testimonial module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Testimonial module overview](../assets/screenshots/modules/testimonial/overview.png){ loading=lazy } -->
+<!-- *The Testimonial module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Testimonial Content tab settings](../assets/screenshots/modules/testimonial/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Testimonial Content tab settings](../assets/screenshots/modules/testimonial/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Testimonial Design tab settings](../assets/screenshots/modules/testimonial/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Testimonial Design tab settings](../assets/screenshots/modules/testimonial/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

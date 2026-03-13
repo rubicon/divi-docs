@@ -20,8 +20,9 @@ The Divi Woo Product Rating module displays the average review for products on y
 
 Before we can use the Woo Product Rating module you’ll need to have Divi and WooCommerce installed on your website. Learn how to install the Divi themehereand learn how to install WooCommerce installed on your websitehere. Once you have the Divi theme installed and activated, we can begin using the features and functionalities of Divi.
 
-![Woo Product Rating module overview](../assets/screenshots/modules/woo-product-rating/overview.png){ loading=lazy }
-*The Woo Product Rating module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Rating module overview](../assets/screenshots/modules/woo-product-rating/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Rating module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ Before we can use the Woo Product Rating module you’ll need to have Divi and W
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Rating Content tab settings](../assets/screenshots/modules/woo-product-rating/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Rating Content tab settings](../assets/screenshots/modules/woo-product-rating/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ Before we can use the Woo Product Rating module you’ll need to have Divi and W
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Rating Design tab settings](../assets/screenshots/modules/woo-product-rating/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Rating Design tab settings](../assets/screenshots/modules/woo-product-rating/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Button Module is a versatile module that can be used all across your we
 
 View A Live Demo Of This Module
 
-![Button module overview](../assets/screenshots/modules/button/overview.png){ loading=lazy }
-*The Button module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Button module overview](../assets/screenshots/modules/button/overview.png){ loading=lazy } -->
+<!-- *The Button module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

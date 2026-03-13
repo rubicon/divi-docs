@@ -20,8 +20,9 @@ The Divi Accordion Module helps consolidate information into a vertically stacke
 
 View A Live Demo Of This Module
 
-![Accordion module overview](../assets/screenshots/modules/accordion/overview.png){ loading=lazy }
-*The Accordion module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Accordion module overview](../assets/screenshots/modules/accordion/overview.png){ loading=lazy } -->
+<!-- *The Accordion module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

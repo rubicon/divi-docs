@@ -20,8 +20,9 @@ The Divi Fullwidth Map Module makes it easy to add an interactive Google Map to 
 
 View A Live Demo Of This Module
 
-![Fullwidth Map module overview](../assets/screenshots/modules/fullwidth-map/overview.png){ loading=lazy }
-*The Fullwidth Map module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Map module overview](../assets/screenshots/modules/fullwidth-map/overview.png){ loading=lazy } -->
+<!-- *The Fullwidth Map module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Fullwidth Map Content tab settings](../assets/screenshots/modules/fullwidth-map/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Map Content tab settings](../assets/screenshots/modules/fullwidth-map/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Fullwidth Map Design tab settings](../assets/screenshots/modules/fullwidth-map/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Map Design tab settings](../assets/screenshots/modules/fullwidth-map/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

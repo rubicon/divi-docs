@@ -20,8 +20,9 @@ The Divi Pricing Tables Module is an eye-catching way to display pricing for ser
 
 View A Live Demo Of This Module
 
-![Pricing Table module overview](../assets/screenshots/modules/pricing-table/overview.png){ loading=lazy }
-*The Pricing Table module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Pricing Table module overview](../assets/screenshots/modules/pricing-table/overview.png){ loading=lazy } -->
+<!-- *The Pricing Table module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

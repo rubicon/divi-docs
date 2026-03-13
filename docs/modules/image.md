@@ -20,8 +20,9 @@ Beyond basic display, the module integrates with the Divi 5 Visual Builder's res
 
 The Image module also supports linking to any URL or opening the full-size image in a lightbox overlay. Combined with entrance animations and hover effects via the Design and Advanced tabs, a single Image module can serve as a hero graphic, a clickable call-to-action, or part of a curated visual grid alongside [Gallery](gallery.md) and [Blurb](blurb.md) modules.
 
-![Image module overview](../assets/screenshots/modules/image/overview.png){ loading=lazy }
-*The Image module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Image module overview](../assets/screenshots/modules/image/overview.png){ loading=lazy } -->
+<!-- *The Image module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -37,8 +38,9 @@ The Image module also supports linking to any URL or opening the full-size image
 | Use Lightbox | toggle | No | When enabled, clicking the image opens the full-size version in a lightbox overlay. Overrides any link URL. |
 | Admin Label | text | — | A custom label shown only in the Visual Builder interface. Useful for identifying modules when a row contains multiple Image modules. |
 
-![Image Content tab settings](../assets/screenshots/modules/image/settings-content.png){ loading=lazy }
-*Content tab showing image upload, link, and lightbox options.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Image Content tab settings](../assets/screenshots/modules/image/settings-content.png){ loading=lazy } -->
+<!-- *Content tab showing image upload, link, and lightbox options.* -->
 
 ### Design Tab
 
@@ -56,8 +58,9 @@ The Image module also supports linking to any URL or opening the full-size image
 | Animation Style | select | None | Entrance animation played when the image scrolls into view — Fade, Slide, Bounce, Zoom, Flip, Fold, or Roll. Additional controls for direction, duration, delay, intensity, and repeat appear when an animation is selected. |
 | Image Spacing | range | varies | Margin and padding controls around the image module. Supports per-side values and responsive overrides for desktop, tablet, and phone. |
 
-![Image Design tab settings](../assets/screenshots/modules/image/settings-design.png){ loading=lazy }
-*Design tab with sizing, border, shadow, filter, and animation controls.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Image Design tab settings](../assets/screenshots/modules/image/settings-design.png){ loading=lazy } -->
+<!-- *Design tab with sizing, border, shadow, filter, and animation controls.* -->
 
 ### Advanced Tab
 

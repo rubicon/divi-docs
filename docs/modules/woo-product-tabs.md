@@ -20,8 +20,9 @@ The Divi Woo Product Tabs integrate seamlessly with WooCommerce and allow you to
 
 The information displayed in the Divi Woo Product Tabs Module is pulled from the product listing. Specifically, this module can display the full description, attributes, shipping, and reviews sections of the product.
 
-![Woo Product Tabs module overview](../assets/screenshots/modules/woo-product-tabs/overview.png){ loading=lazy }
-*The Woo Product Tabs module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Tabs module overview](../assets/screenshots/modules/woo-product-tabs/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Tabs module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ The information displayed in the Divi Woo Product Tabs Module is pulled from the
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Tabs Content tab settings](../assets/screenshots/modules/woo-product-tabs/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Tabs Content tab settings](../assets/screenshots/modules/woo-product-tabs/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ The information displayed in the Divi Woo Product Tabs Module is pulled from the
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Tabs Design tab settings](../assets/screenshots/modules/woo-product-tabs/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Tabs Design tab settings](../assets/screenshots/modules/woo-product-tabs/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

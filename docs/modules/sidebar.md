@@ -20,8 +20,9 @@ The Divi Sidebar Module makes it easy to add a widget-ready sidebar to any page,
 
 In this documentation, we’ll go over all the design and content settings available within the Divi Sidebar Module and how to use them. In our example we’ll use the Divi Sidebar Module in a blog post template.
 
-![Sidebar module overview](../assets/screenshots/modules/sidebar/overview.png){ loading=lazy }
-*The Sidebar module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Sidebar module overview](../assets/screenshots/modules/sidebar/overview.png){ loading=lazy } -->
+<!-- *The Sidebar module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -43,7 +44,8 @@ In this documentation, we’ll go over all the design and content settings avail
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Sidebar Design tab settings](../assets/screenshots/modules/sidebar/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Sidebar Design tab settings](../assets/screenshots/modules/sidebar/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Portfolio Module is an easy way to display your portfolio. It integrate
 
 View A Live Demo Of This Module
 
-![Portfolio module overview](../assets/screenshots/modules/portfolio/overview.png){ loading=lazy }
-*The Portfolio module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Portfolio module overview](../assets/screenshots/modules/portfolio/overview.png){ loading=lazy } -->
+<!-- *The Portfolio module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

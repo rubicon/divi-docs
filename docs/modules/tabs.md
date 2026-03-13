@@ -20,8 +20,9 @@ The Divi Tabs Module makes it easy to organize information on your website and h
 
 View A Live Demo Of This Module
 
-![Tabs module overview](../assets/screenshots/modules/tabs/overview.png){ loading=lazy }
-*The Tabs module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Tabs module overview](../assets/screenshots/modules/tabs/overview.png){ loading=lazy } -->
+<!-- *The Tabs module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Tabs Content tab settings](../assets/screenshots/modules/tabs/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Tabs Content tab settings](../assets/screenshots/modules/tabs/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Tabs Design tab settings](../assets/screenshots/modules/tabs/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Tabs Design tab settings](../assets/screenshots/modules/tabs/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

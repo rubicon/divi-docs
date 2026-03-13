@@ -20,8 +20,9 @@ Each slide functions as an independent content block with its own background, te
 
 The module supports both static background images and full-width video backgrounds with parallax effects. Combined with the Design tab's typography and overlay controls, it can produce everything from a simple image carousel to a polished full-screen hero section.
 
-![Slider module overview](../assets/screenshots/modules/slider/overview.png){ loading=lazy }
-*The Slider module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Slider module overview](../assets/screenshots/modules/slider/overview.png){ loading=lazy } -->
+<!-- *The Slider module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -56,8 +57,9 @@ The Content tab contains a repeater field for slides. By default one slide is pr
 | Background Color | color | — | Module-level background color applied behind all slides. Individual slide backgrounds take precedence. |
 | Background Image | upload | — | Module-level background image. Individual slide backgrounds take precedence. |
 
-![Slider Content tab settings](../assets/screenshots/modules/slider/settings-content.png){ loading=lazy }
-*Content tab showing the slide repeater and module-level controls.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Slider Content tab settings](../assets/screenshots/modules/slider/settings-content.png){ loading=lazy } -->
+<!-- *Content tab showing the slide repeater and module-level controls.* -->
 
 ### Design Tab
 
@@ -136,8 +138,9 @@ The Content tab contains a repeater field for slides. By default one slide is pr
 | Animation Delay | range | 0ms | Delay before the entrance animation begins. |
 | Animation Intensity | range | 50% | Intensity of the entrance animation effect. |
 
-![Slider Design tab settings](../assets/screenshots/modules/slider/settings-design.png){ loading=lazy }
-*Design tab showing typography, button, and animation settings.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Slider Design tab settings](../assets/screenshots/modules/slider/settings-design.png){ loading=lazy } -->
+<!-- *Design tab showing typography, button, and animation settings.* -->
 
 ### Advanced Tab
 

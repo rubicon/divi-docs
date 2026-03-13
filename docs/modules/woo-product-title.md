@@ -20,8 +20,9 @@ With Divi’s WooCommerce modules it’s easy to design completely customizable 
 
 Before you can add the Divi Woo Product Title Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Product Title module overview](../assets/screenshots/modules/woo-product-title/overview.png){ loading=lazy }
-*The Woo Product Title module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Title module overview](../assets/screenshots/modules/woo-product-title/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Title module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ Before you can add the Divi Woo Product Title Module to your website, you’ll n
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Title Content tab settings](../assets/screenshots/modules/woo-product-title/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Title Content tab settings](../assets/screenshots/modules/woo-product-title/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ Before you can add the Divi Woo Product Title Module to your website, you’ll n
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Title Design tab settings](../assets/screenshots/modules/woo-product-title/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Title Design tab settings](../assets/screenshots/modules/woo-product-title/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

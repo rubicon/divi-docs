@@ -20,8 +20,9 @@ The Divi Fullwidth Portfolio Module is an easy way to display your portfolio in 
 
 View A Live Demo Of This Module
 
-![Fullwidth Portfolio module overview](../assets/screenshots/modules/fullwidth-portfolio/overview.png){ loading=lazy }
-*The Fullwidth Portfolio module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Portfolio module overview](../assets/screenshots/modules/fullwidth-portfolio/overview.png){ loading=lazy } -->
+<!-- *The Fullwidth Portfolio module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -43,7 +44,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Fullwidth Portfolio Design tab settings](../assets/screenshots/modules/fullwidth-portfolio/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Portfolio Design tab settings](../assets/screenshots/modules/fullwidth-portfolio/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

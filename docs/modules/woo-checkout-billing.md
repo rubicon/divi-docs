@@ -20,8 +20,9 @@ The Divi Woo Checkout Billing Module integrates seamlessly with WooCommerce on y
 
 Before you can add the Divi Woo Checkout Billing Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Checkout Billing module overview](../assets/screenshots/modules/woo-checkout-billing/overview.png){ loading=lazy }
-*The Woo Checkout Billing module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Checkout Billing module overview](../assets/screenshots/modules/woo-checkout-billing/overview.png){ loading=lazy } -->
+<!-- *The Woo Checkout Billing module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

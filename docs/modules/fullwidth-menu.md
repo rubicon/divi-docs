@@ -20,8 +20,9 @@ The Divi Fullwidth Menu Module allows you to put a fullwidth navigation menu any
 
 View A Live Demo Of This Module
 
-![Fullwidth Menu module overview](../assets/screenshots/modules/fullwidth-menu/overview.png){ loading=lazy }
-*The Fullwidth Menu module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Menu module overview](../assets/screenshots/modules/fullwidth-menu/overview.png){ loading=lazy } -->
+<!-- *The Fullwidth Menu module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | Style– Choose the style of the menu layout here | text | — | Left Aligned, Centered, or Inline Centered Logo. |
 
-![Fullwidth Menu Content tab settings](../assets/screenshots/modules/fullwidth-menu/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Menu Content tab settings](../assets/screenshots/modules/fullwidth-menu/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Fullwidth Menu Design tab settings](../assets/screenshots/modules/fullwidth-menu/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Menu Design tab settings](../assets/screenshots/modules/fullwidth-menu/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

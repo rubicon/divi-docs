@@ -20,8 +20,9 @@ The Divi Comments Module makes it easy to style the comment section on blog post
 
 View A Live Demo Of This Module
 
-![Comments module overview](../assets/screenshots/modules/comments/overview.png){ loading=lazy }
-*The Comments module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Comments module overview](../assets/screenshots/modules/comments/overview.png){ loading=lazy } -->
+<!-- *The Comments module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

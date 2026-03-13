@@ -20,8 +20,9 @@ The Divi Audio Module makes it easy to share audio files on your website. This i
 
 View A Live Demo Of This Module
 
-![Audio module overview](../assets/screenshots/modules/audio/overview.png){ loading=lazy }
-*The Audio module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Audio module overview](../assets/screenshots/modules/audio/overview.png){ loading=lazy } -->
+<!-- *The Audio module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Audio Content tab settings](../assets/screenshots/modules/audio/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Audio Content tab settings](../assets/screenshots/modules/audio/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Audio Design tab settings](../assets/screenshots/modules/audio/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Audio Design tab settings](../assets/screenshots/modules/audio/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divider Module makes it easy to add horizontal lines to your web design to a
 
 View A Live Demo Of This Module
 
-![Divider module overview](../assets/screenshots/modules/divider/overview.png){ loading=lazy }
-*The Divider module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Divider module overview](../assets/screenshots/modules/divider/overview.png){ loading=lazy } -->
+<!-- *The Divider module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ View A Live Demo Of This Module
 | Line Style– Choose the style for the line | text | — | Solid, dashed, dotted, double, groove, ridge, inset, outset, or none. |
 | Line Position– Choose the position of the line | text | — | top, vertically centered, or bottom. |
 
-![Divider Content tab settings](../assets/screenshots/modules/divider/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Divider Content tab settings](../assets/screenshots/modules/divider/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Divider Design tab settings](../assets/screenshots/modules/divider/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Divider Design tab settings](../assets/screenshots/modules/divider/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

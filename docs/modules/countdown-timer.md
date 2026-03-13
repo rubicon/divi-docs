@@ -20,8 +20,9 @@ The Divi Countdown Timer Module is a dynamic way to display a countdown timer on
 
 View A Live Demo Of This Module
 
-![Countdown Timer module overview](../assets/screenshots/modules/countdown-timer/overview.png){ loading=lazy }
-*The Countdown Timer module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Countdown Timer module overview](../assets/screenshots/modules/countdown-timer/overview.png){ loading=lazy } -->
+<!-- *The Countdown Timer module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Countdown Timer Content tab settings](../assets/screenshots/modules/countdown-timer/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Countdown Timer Content tab settings](../assets/screenshots/modules/countdown-timer/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Countdown Timer Design tab settings](../assets/screenshots/modules/countdown-timer/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Countdown Timer Design tab settings](../assets/screenshots/modules/countdown-timer/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

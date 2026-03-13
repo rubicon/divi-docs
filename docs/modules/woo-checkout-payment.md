@@ -20,8 +20,9 @@ The Divi Woo Checkout Payment Module adds payment functionality to your checkout
 
 Before you can add the Divi Woo Checkout Payment Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Checkout Payment module overview](../assets/screenshots/modules/woo-checkout-payment/overview.png){ loading=lazy }
-*The Woo Checkout Payment module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Checkout Payment module overview](../assets/screenshots/modules/woo-checkout-payment/overview.png){ loading=lazy } -->
+<!-- *The Woo Checkout Payment module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ Before you can add the Divi Woo Checkout Payment Module to your website, you’l
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Checkout Payment Content tab settings](../assets/screenshots/modules/woo-checkout-payment/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Checkout Payment Content tab settings](../assets/screenshots/modules/woo-checkout-payment/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ Before you can add the Divi Woo Checkout Payment Module to your website, you’l
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Checkout Payment Design tab settings](../assets/screenshots/modules/woo-checkout-payment/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Checkout Payment Design tab settings](../assets/screenshots/modules/woo-checkout-payment/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

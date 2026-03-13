@@ -20,8 +20,9 @@ Divi has been designed to be WooCommerce compatible. To integrate WooCommerce yo
 
 WooCommerce is the plugin that we recommend, as it has the nicest feature set, interface and follows the best coding practices. After you enabled the plugin, you will see a new “WooCommerce” and “Products” section has been added to your WordPress Dashboard. You can use these areas to adjust your eCommerce settings and publish new products. You can find fulldocumentation on WooCommerce here.
 
-![Shop module overview](../assets/screenshots/modules/shop/overview.png){ loading=lazy }
-*The Shop module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Shop module overview](../assets/screenshots/modules/shop/overview.png){ loading=lazy } -->
+<!-- *The Shop module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

@@ -20,8 +20,9 @@ The Divi Bar Counters Module is an easy way to display numerical information on 
 
 View A Live Demo Of This Module
 
-![Bar Counter module overview](../assets/screenshots/modules/bar-counter/overview.png){ loading=lazy }
-*The Bar Counter module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Bar Counter module overview](../assets/screenshots/modules/bar-counter/overview.png){ loading=lazy } -->
+<!-- *The Bar Counter module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Bar Counter Content tab settings](../assets/screenshots/modules/bar-counter/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Bar Counter Content tab settings](../assets/screenshots/modules/bar-counter/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Bar Counter Design tab settings](../assets/screenshots/modules/bar-counter/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Bar Counter Design tab settings](../assets/screenshots/modules/bar-counter/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

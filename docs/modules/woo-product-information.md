@@ -20,8 +20,9 @@ The Divi Woo Product Information Module integrates with WooCommerce and displays
 
 This module pulls information from the attributes section and shipping section in a product’s listing.
 
-![Woo Product Information module overview](../assets/screenshots/modules/woo-product-information/overview.png){ loading=lazy }
-*The Woo Product Information module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Information module overview](../assets/screenshots/modules/woo-product-information/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Information module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ This module pulls information from the attributes section and shipping section i
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Information Content tab settings](../assets/screenshots/modules/woo-product-information/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Information Content tab settings](../assets/screenshots/modules/woo-product-information/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ This module pulls information from the attributes section and shipping section i
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Information Design tab settings](../assets/screenshots/modules/woo-product-information/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Information Design tab settings](../assets/screenshots/modules/woo-product-information/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

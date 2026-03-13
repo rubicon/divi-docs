@@ -20,8 +20,9 @@ The Divi Woo Product Stock Module integrates with WooCommerce and can display a 
 
 This module pulls the stock number from the Inventory section in a product listing.
 
-![Woo Product Stock module overview](../assets/screenshots/modules/woo-product-stock/overview.png){ loading=lazy }
-*The Woo Product Stock module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Stock module overview](../assets/screenshots/modules/woo-product-stock/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Stock module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ This module pulls the stock number from the Inventory section in a product listi
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Stock Content tab settings](../assets/screenshots/modules/woo-product-stock/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Stock Content tab settings](../assets/screenshots/modules/woo-product-stock/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ This module pulls the stock number from the Inventory section in a product listi
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Stock Design tab settings](../assets/screenshots/modules/woo-product-stock/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Stock Design tab settings](../assets/screenshots/modules/woo-product-stock/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

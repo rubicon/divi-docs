@@ -20,8 +20,9 @@ The Divi Email Optin Module makes it easy to grow your email subscriptions with 
 
 View A Live Demo Of This Module
 
-![Email Optin module overview](../assets/screenshots/modules/email-optin/overview.png){ loading=lazy }
-*The Email Optin module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Email Optin module overview](../assets/screenshots/modules/email-optin/overview.png){ loading=lazy } -->
+<!-- *The Email Optin module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Email Optin Content tab settings](../assets/screenshots/modules/email-optin/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Email Optin Content tab settings](../assets/screenshots/modules/email-optin/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Email Optin Design tab settings](../assets/screenshots/modules/email-optin/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Email Optin Design tab settings](../assets/screenshots/modules/email-optin/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Map Module is an easy way to display an interactive Google map on your 
 
 In this documentation we’ll go over how to add the map module to your page and all of the settings and design customizations available within the Divi Map Module.
 
-![Map module overview](../assets/screenshots/modules/map/overview.png){ loading=lazy }
-*The Map module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Map module overview](../assets/screenshots/modules/map/overview.png){ loading=lazy } -->
+<!-- *The Map module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ In this documentation we’ll go over how to add the map module to your page and
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Map Content tab settings](../assets/screenshots/modules/map/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Map Content tab settings](../assets/screenshots/modules/map/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ In this documentation we’ll go over how to add the map module to your page and
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Map Design tab settings](../assets/screenshots/modules/map/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Map Design tab settings](../assets/screenshots/modules/map/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

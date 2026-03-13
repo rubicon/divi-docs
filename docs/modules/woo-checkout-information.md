@@ -20,8 +20,9 @@ The Divi Woo Checkout Information Module integrates seamlessly with WooCommerce 
 
 Before you can add the Divi Woo Checkout Information Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Checkout Information module overview](../assets/screenshots/modules/woo-checkout-information/overview.png){ loading=lazy }
-*The Woo Checkout Information module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Checkout Information module overview](../assets/screenshots/modules/woo-checkout-information/overview.png){ loading=lazy } -->
+<!-- *The Woo Checkout Information module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

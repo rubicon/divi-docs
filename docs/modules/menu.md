@@ -16,8 +16,9 @@ The Menu module is a Divi 5 content element used in the Visual Builder.
 
 The Menu module allows you to add menu elements to your Divi 5 pages using the Visual Builder.
 
-![Menu module overview](../assets/screenshots/modules/menu/overview.png){ loading=lazy }
-*The Menu module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Menu module overview](../assets/screenshots/modules/menu/overview.png){ loading=lazy } -->
+<!-- *The Menu module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

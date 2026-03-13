@@ -20,8 +20,9 @@ The Divi Video Module is an easy way to display videos anywhere on your website.
 
 View A Live Demo Of This Module
 
-![Video module overview](../assets/screenshots/modules/video/overview.png){ loading=lazy }
-*The Video module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Video module overview](../assets/screenshots/modules/video/overview.png){ loading=lazy } -->
+<!-- *The Video module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

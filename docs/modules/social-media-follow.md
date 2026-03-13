@@ -20,8 +20,9 @@ The Divi Social Media Module allows you to add social media icons anywhere on yo
 
 View A Live Demo Of This Module
 
-![Social Media Follow module overview](../assets/screenshots/modules/social-media-follow/overview.png){ loading=lazy }
-*The Social Media Follow module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Social Media Follow module overview](../assets/screenshots/modules/social-media-follow/overview.png){ loading=lazy } -->
+<!-- *The Social Media Follow module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Social Media Follow Content tab settings](../assets/screenshots/modules/social-media-follow/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Social Media Follow Content tab settings](../assets/screenshots/modules/social-media-follow/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Social Media Follow Design tab settings](../assets/screenshots/modules/social-media-follow/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Social Media Follow Design tab settings](../assets/screenshots/modules/social-media-follow/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

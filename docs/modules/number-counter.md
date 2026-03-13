@@ -20,8 +20,9 @@ The Divi Number Counter Module is an easy way to display numerical information a
 
 View A Live Demo Of This Module
 
-![Number Counter module overview](../assets/screenshots/modules/number-counter/overview.png){ loading=lazy }
-*The Number Counter module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Number Counter module overview](../assets/screenshots/modules/number-counter/overview.png){ loading=lazy } -->
+<!-- *The Number Counter module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Number Counter Content tab settings](../assets/screenshots/modules/number-counter/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Number Counter Content tab settings](../assets/screenshots/modules/number-counter/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Number Counter Design tab settings](../assets/screenshots/modules/number-counter/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Number Counter Design tab settings](../assets/screenshots/modules/number-counter/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

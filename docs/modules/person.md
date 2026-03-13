@@ -20,8 +20,9 @@ The Person Module is the best way to create a personal profile for someone on yo
 
 View A Live Demo Of This Module
 
-![Person module overview](../assets/screenshots/modules/person/overview.png){ loading=lazy }
-*The Person module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Person module overview](../assets/screenshots/modules/person/overview.png){ loading=lazy } -->
+<!-- *The Person module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Person Content tab settings](../assets/screenshots/modules/person/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Person Content tab settings](../assets/screenshots/modules/person/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Person Design tab settings](../assets/screenshots/modules/person/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Person Design tab settings](../assets/screenshots/modules/person/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

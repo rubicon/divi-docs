@@ -20,8 +20,9 @@ The Divi Filterable Portfolio Module is similar to the Divi Portfolio Module but
 
 View A Live Demo Of This Module
 
-![Filterable Portfolio module overview](../assets/screenshots/modules/filterable-portfolio/overview.png){ loading=lazy }
-*The Filterable Portfolio module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Filterable Portfolio module overview](../assets/screenshots/modules/filterable-portfolio/overview.png){ loading=lazy } -->
+<!-- *The Filterable Portfolio module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Filterable Portfolio Content tab settings](../assets/screenshots/modules/filterable-portfolio/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Filterable Portfolio Content tab settings](../assets/screenshots/modules/filterable-portfolio/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Filterable Portfolio Design tab settings](../assets/screenshots/modules/filterable-portfolio/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Filterable Portfolio Design tab settings](../assets/screenshots/modules/filterable-portfolio/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Woo Related Products Module fully integrates with WooCommerce capabilit
 
 Before we can use the Divi Woo Related Products module you’ll need to have bothDiviandWooCommerceinstalled on your website. Once you have the Divi theme installed and activated, we can begin using the features and functionalities of Divi.
 
-![Woo Related Products module overview](../assets/screenshots/modules/woo-related-products/overview.png){ loading=lazy }
-*The Woo Related Products module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Related Products module overview](../assets/screenshots/modules/woo-related-products/overview.png){ loading=lazy } -->
+<!-- *The Woo Related Products module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ Before we can use the Divi Woo Related Products module you’ll need to have bot
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Related Products Content tab settings](../assets/screenshots/modules/woo-related-products/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Related Products Content tab settings](../assets/screenshots/modules/woo-related-products/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ Before we can use the Divi Woo Related Products module you’ll need to have bot
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Related Products Design tab settings](../assets/screenshots/modules/woo-related-products/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Related Products Design tab settings](../assets/screenshots/modules/woo-related-products/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Video Slider Module is an easy way to display a collection of videos on
 
 View A Live Demo Of This Module
 
-![Video Slider module overview](../assets/screenshots/modules/video-slider/overview.png){ loading=lazy }
-*The Video Slider module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Video Slider module overview](../assets/screenshots/modules/video-slider/overview.png){ loading=lazy } -->
+<!-- *The Video Slider module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Video Slider Content tab settings](../assets/screenshots/modules/video-slider/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Video Slider Content tab settings](../assets/screenshots/modules/video-slider/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Video Slider Design tab settings](../assets/screenshots/modules/video-slider/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Video Slider Design tab settings](../assets/screenshots/modules/video-slider/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

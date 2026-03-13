@@ -20,8 +20,9 @@ The Divi Icon module makes it easy to add unique icons to your website design an
 
 You can use the icon module to draw your visitor’s attention to a specific area on the page that’s important. Or have it call out certain features and functions your business offers. Using icons is a fun way to add a design element to your page without cluttering up the design.
 
-![Icon module overview](../assets/screenshots/modules/icon/overview.png){ loading=lazy }
-*The Icon module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Icon module overview](../assets/screenshots/modules/icon/overview.png){ loading=lazy } -->
+<!-- *The Icon module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

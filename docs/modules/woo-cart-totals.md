@@ -20,8 +20,9 @@ The Divi Woo Cart Totals Module displays the total price of the products added t
 
 Before you can add the Divi Woo Cart Totals Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Cart Totals module overview](../assets/screenshots/modules/woo-cart-totals/overview.png){ loading=lazy }
-*The Woo Cart Totals module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Cart Totals module overview](../assets/screenshots/modules/woo-cart-totals/overview.png){ loading=lazy } -->
+<!-- *The Woo Cart Totals module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

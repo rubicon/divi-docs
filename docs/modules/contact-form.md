@@ -20,8 +20,9 @@ On submission, the module composes an email using a configurable message pattern
 
 The entire form — fields, labels, buttons, spacing, and validation messages — is fully styleable through the Design tab. This means you can match the form to any brand without writing CSS, though the module also exposes clean selectors for advanced customization.
 
-![Contact Form module overview](../assets/screenshots/modules/contact-form/overview.png){ loading=lazy }
-*The Contact Form module as it appears in the Divi 5 Visual Builder with default Name, Email, and Message fields.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Contact Form module overview](../assets/screenshots/modules/contact-form/overview.png){ loading=lazy } -->
+<!-- *The Contact Form module as it appears in the Divi 5 Visual Builder with default Name, Email, and Message fields.* -->
 
 ## Settings & Options
 

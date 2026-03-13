@@ -20,8 +20,9 @@ The Divi Toggle Module allows you to show or hide content with the click of a bu
 
 You can use the toggle module to build aFAQs section, arestaurant menu, aservices section, sharepricing info, and more!
 
-![Toggle module overview](../assets/screenshots/modules/toggle/overview.png){ loading=lazy }
-*The Toggle module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Toggle module overview](../assets/screenshots/modules/toggle/overview.png){ loading=lazy } -->
+<!-- *The Toggle module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

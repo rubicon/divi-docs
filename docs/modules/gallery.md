@@ -20,8 +20,9 @@ The Divi Gallery Module allows you to display a gallery of images anywhere on yo
 
 View A Live Demo Of This Module
 
-![Gallery module overview](../assets/screenshots/modules/gallery/overview.png){ loading=lazy }
-*The Gallery module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Gallery module overview](../assets/screenshots/modules/gallery/overview.png){ loading=lazy } -->
+<!-- *The Gallery module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ View A Live Demo Of This Module
 | Image Order– Choose the order of your images | text | — | default or random. |
 | Layout– Choose the layout for your gallery | text | — | grid or slider. |
 
-![Gallery Content tab settings](../assets/screenshots/modules/gallery/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Gallery Content tab settings](../assets/screenshots/modules/gallery/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Gallery Design tab settings](../assets/screenshots/modules/gallery/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Gallery Design tab settings](../assets/screenshots/modules/gallery/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Woo Products Module displays a gallery of products on your website. Itâ
 
 View A Live Demo Of This Module
 
-![Woo Products module overview](../assets/screenshots/modules/woo-products/overview.png){ loading=lazy }
-*The Woo Products module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Products module overview](../assets/screenshots/modules/woo-products/overview.png){ loading=lazy } -->
+<!-- *The Woo Products module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

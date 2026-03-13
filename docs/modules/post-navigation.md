@@ -20,8 +20,9 @@ The Divi Post Navigation module allows you to navigate between blog posts or pro
 
 View A Live Demo Of This Module
 
-![Post Navigation module overview](../assets/screenshots/modules/post-navigation/overview.png){ loading=lazy }
-*The Post Navigation module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Post Navigation module overview](../assets/screenshots/modules/post-navigation/overview.png){ loading=lazy } -->
+<!-- *The Post Navigation module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

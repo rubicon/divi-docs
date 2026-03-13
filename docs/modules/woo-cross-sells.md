@@ -20,8 +20,9 @@ The Divi Woo Cross Sells Module dynamically displays similar cross-linked produc
 
 Before you can add the Divi Woo Product Title Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Cross Sells module overview](../assets/screenshots/modules/woo-cross-sells/overview.png){ loading=lazy }
-*The Woo Cross Sells module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Cross Sells module overview](../assets/screenshots/modules/woo-cross-sells/overview.png){ loading=lazy } -->
+<!-- *The Woo Cross Sells module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 

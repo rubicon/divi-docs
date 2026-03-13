@@ -20,8 +20,9 @@ The Divi Woo Product Reviews Module integrates with WooCommerce and can display 
 
 Before you can add the Divi Woo Product Reviews Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Product Reviews module overview](../assets/screenshots/modules/woo-product-reviews/overview.png){ loading=lazy }
-*The Woo Product Reviews module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Reviews module overview](../assets/screenshots/modules/woo-product-reviews/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Reviews module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -35,7 +36,8 @@ Before you can add the Divi Woo Product Reviews Module to your website, you’ll
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Reviews Content tab settings](../assets/screenshots/modules/woo-product-reviews/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Reviews Content tab settings](../assets/screenshots/modules/woo-product-reviews/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -45,7 +47,8 @@ Before you can add the Divi Woo Product Reviews Module to your website, you’ll
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Reviews Design tab settings](../assets/screenshots/modules/woo-product-reviews/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Reviews Design tab settings](../assets/screenshots/modules/woo-product-reviews/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

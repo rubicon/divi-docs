@@ -20,8 +20,9 @@ The Divi Post Slider Module can be used to display recent blog posts, reviews, f
 
 View A Live Demo Of This Module
 
-![Post Slider module overview](../assets/screenshots/modules/post-slider/overview.png){ loading=lazy }
-*The Post Slider module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Post Slider module overview](../assets/screenshots/modules/post-slider/overview.png){ loading=lazy } -->
+<!-- *The Post Slider module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Post Slider Content tab settings](../assets/screenshots/modules/post-slider/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Post Slider Content tab settings](../assets/screenshots/modules/post-slider/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Post Slider Design tab settings](../assets/screenshots/modules/post-slider/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Post Slider Design tab settings](../assets/screenshots/modules/post-slider/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

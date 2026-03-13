@@ -20,8 +20,9 @@ The Divi Post Title Module gives you the ability to style and design how post ti
 
 For this documentation, we’ll use one of our pre-designed free layout packs which you can download and usehere. To learn how to use Premade Layout Packscheck out this post.
 
-![Post Title module overview](../assets/screenshots/modules/post-title/overview.png){ loading=lazy }
-*The Post Title module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Post Title module overview](../assets/screenshots/modules/post-title/overview.png){ loading=lazy } -->
+<!-- *The Post Title module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -43,7 +44,8 @@ For this documentation, we’ll use one of our pre-designed free layout packs wh
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Post Title Design tab settings](../assets/screenshots/modules/post-title/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Post Title Design tab settings](../assets/screenshots/modules/post-title/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Woo Product Images Module integrates with WooCommerce and displays prod
 
 Before you can add the Divi Woo Product Images Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi theme on your WordPress websitehereand how to install WooCommercehere. For additional information on the Divi Builder itself, its interface, usage philosophy and best practices, please refer to ourGetting Started With The Divi Builderguide.
 
-![Woo Product Images module overview](../assets/screenshots/modules/woo-product-images/overview.png){ loading=lazy }
-*The Woo Product Images module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Images module overview](../assets/screenshots/modules/woo-product-images/overview.png){ loading=lazy } -->
+<!-- *The Woo Product Images module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -34,7 +35,8 @@ Before you can add the Divi Woo Product Images Module to your website, you’ll 
 | WooCommerce Performance Optimization | text | — | 14 Tips & Best Practices |
 | Updating WooCommerce | text | — | Best Practices to Follow Every Time |
 
-![Woo Product Images Content tab settings](../assets/screenshots/modules/woo-product-images/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Images Content tab settings](../assets/screenshots/modules/woo-product-images/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -44,7 +46,8 @@ Before you can add the Divi Woo Product Images Module to your website, you’ll 
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Woo Product Images Design tab settings](../assets/screenshots/modules/woo-product-images/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Woo Product Images Design tab settings](../assets/screenshots/modules/woo-product-images/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Fullwidth Header Module is a versatile module that can be used all thro
 
 This module has the ability to display a title, subtitle, body text, two images, an icon and two in-line (side by side) buttons. In order to use the Fullwidth Header Module, you’ll need to add a fullwidth section first. In this doc, we’ll demonstrate how to use the Fullwidth Header Module on a homepage design to promote a tea subscription service for a Tea Shop.
 
-![Fullwidth Header module overview](../assets/screenshots/modules/fullwidth-header/overview.png){ loading=lazy }
-*The Fullwidth Header module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Header module overview](../assets/screenshots/modules/fullwidth-header/overview.png){ loading=lazy } -->
+<!-- *The Fullwidth Header module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ This module has the ability to display a title, subtitle, body text, two images,
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Fullwidth Header Content tab settings](../assets/screenshots/modules/fullwidth-header/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Header Content tab settings](../assets/screenshots/modules/fullwidth-header/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ This module has the ability to display a title, subtitle, body text, two images,
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Fullwidth Header Design tab settings](../assets/screenshots/modules/fullwidth-header/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Fullwidth Header Design tab settings](../assets/screenshots/modules/fullwidth-header/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

@@ -20,8 +20,9 @@ The Divi Login Module makes it easy to create a login area for registered users 
 
 View A Live Demo Of This Module
 
-![Login module overview](../assets/screenshots/modules/login/overview.png){ loading=lazy }
-*The Login module as it appears in the Divi 5 Visual Builder.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Login module overview](../assets/screenshots/modules/login/overview.png){ loading=lazy } -->
+<!-- *The Login module as it appears in the Divi 5 Visual Builder.* -->
 
 ## Settings & Options
 
@@ -33,7 +34,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Content settings --> | | | |
 
-![Login Content tab settings](../assets/screenshots/modules/login/settings-content.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Login Content tab settings](../assets/screenshots/modules/login/settings-content.png){ loading=lazy } -->
 
 ### Design Tab
 
@@ -43,7 +45,8 @@ View A Live Demo Of This Module
 |---------|------|---------|-------------|
 | <!-- TODO: Document Design settings --> | | | |
 
-![Login Design tab settings](../assets/screenshots/modules/login/settings-design.png){ loading=lazy }
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Login Design tab settings](../assets/screenshots/modules/login/settings-design.png){ loading=lazy } -->
 
 ### Advanced Tab
 

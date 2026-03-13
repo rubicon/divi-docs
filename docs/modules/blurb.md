@@ -17,8 +17,9 @@ Blurbs are one of Divi's most versatile modules. They pair a visual element (eit
 
 The module supports two distinct layouts — one with the image/icon positioned above the text, and one with it placed to the left or right. This makes it flexible enough for both vertical card-style layouts and horizontal feature rows.
 
-![Blurb module with icon above text](../assets/screenshots/modules/blurb/blurb-default-layout.png){ loading=lazy }
-*Default Blurb layout with icon placement set to Top.*
+<!-- TODO: Replace with proper screenshot -->
+<!-- ![Blurb module with icon above text](../assets/screenshots/modules/blurb/blurb-default-layout.png){ loading=lazy } -->
+<!-- *Default Blurb layout with icon placement set to Top.* -->
 
 ## Settings & Options
 
