@@ -71,6 +71,9 @@ markdown_extensions:
       permalink: true
 
 extra:
+  analytics:
+    provider: google
+    property: G-V3L5RFWQX2
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/16wells/divi-docs
@@ -158,6 +161,7 @@ nav:
     - SEO: theme-options/seo.md
     - Integration: theme-options/integration.md
     - Updates: theme-options/updates.md
+    - Customizer: theme-options/customizer.md
   - Builder:
     - Overview: builder/index.md
     - Visual Builder: builder/visual-builder.md
@@ -165,6 +169,13 @@ nav:
     - Divi Library: builder/library.md
     - Presets: builder/presets.md
     - Global Elements: builder/global-elements.md
+    - Role Editor: builder/role-editor.md
+    - Responsive Preview: builder/responsive-preview.md
+    - Multi-Select & Bulk Editing: builder/multi-select-bulk-editing.md
+    - Layers View: builder/layers-view.md
+    - Gradient Builder: builder/gradient-builder.md
+    - Condition Options: builder/condition-options.md
+    - Support Center: builder/support-center.md
   - API Reference:
     - Overview: api/index.md
     - Hooks & Filters: api/hooks-filters.md
