@@ -1,0 +1,106 @@
+name: Monthly Content Audit
+
+on:
+  schedule:
+    # Runs first Monday of each month at 9:00 AM UTC
+    # (cron can't express "first Monday" directly, so this runs every Monday
+    # and the job checks if it's the first week)
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if first week of month
+        id: check_week
+        run: |
+          DAY=$(date +%d)
+          if [ "$DAY" -le 7 ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.check_week.outputs.should_run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.check_week.outputs.should_run == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        if: steps.check_week.outputs.should_run == 'true'
+        run: |
+          pip install requests beautifulsoup4 markdownify pyyaml mkdocs-material mkdocs-glightbox
+
+      - name: Run content monitor (full scan)
+        if: steps.check_week.outputs.should_run == 'true'
+        run: |
+          python scripts/monitor_updates.py --all
+
+      - name: Run build check
+        if: steps.check_week.outputs.should_run == 'true'
+        run: |
+          mkdocs build 2>&1 | tee reports/build-output-$(date +%Y-%m).txt
+          echo ""
+          echo "=== PAGE COUNT ==="
+          find docs -name '*.md' | wc -l
+          echo ""
+          echo "=== PLACEHOLDER COUNT ==="
+          grep -rl "Placeholder" docs/ --include="*.md" | wc -l
+          echo ""
+          echo "=== TODO COUNT ==="
+          grep -rl "<!-- TODO" docs/ --include="*.md" | wc -l
+          echo ""
+          echo "=== SCREENSHOT COUNT ==="
+          find docs/assets/screenshots -name '*.png' ! -name '.gitkeep' | wc -l
+
+      - name: Generate audit summary
+        if: steps.check_week.outputs.should_run == 'true'
+        run: |
+          MONTH=$(date +%Y-%m)
+          TOTAL=$(find docs -name '*.md' ! -name 'index.md' | wc -l)
+          PLACEHOLDERS=$(grep -rl "Placeholder" docs/ --include="*.md" | wc -l)
+          TODOS=$(grep -rl "<!-- TODO" docs/ --include="*.md" | wc -l)
+          SCREENSHOTS=$(find docs/assets/screenshots -name '*.png' ! -name '.gitkeep' | wc -l)
+
+          cat > reports/monthly-audit-${MONTH}.md << EOF
+          # Monthly Audit — ${MONTH}
+
+          ## Stats
+          - Total doc pages: ${TOTAL}
+          - Placeholder pages: ${PLACEHOLDERS}
+          - Pages with TODOs: ${TODOS}
+          - Screenshot files: ${SCREENSHOTS}
+
+          ## Completeness by Section
+          $(for section in modules theme-options builder api css-reference playbooks internals recipes troubleshooting; do
+            total=$(find docs/$section -name '*.md' ! -name 'index.md' 2>/dev/null | wc -l)
+            placeholders=$(grep -rl "Placeholder" docs/$section/ --include="*.md" 2>/dev/null | wc -l)
+            complete=$((total - placeholders))
+            if [ "$total" -gt 0 ]; then
+              pct=$((complete * 100 / total))
+            else
+              pct=0
+            fi
+            echo "- **${section}**: ${complete}/${total} complete (${pct}%)"
+          done)
+
+          ## See Also
+          - Weekly report: reports/update-report-$(date +%Y-%m-%d).md
+          - Build output: reports/build-output-${MONTH}.txt
+          EOF
+
+      - name: Commit audit results
+        if: steps.check_week.outputs.should_run == 'true'
+        run: |
+          git config user.name "divi-docs-bot"
+          git config user.email "bot@16wells.com"
+          git add reports/
+          git commit -m "Monthly audit: $(date +%Y-%m)" || echo "No changes to commit"
+          git push

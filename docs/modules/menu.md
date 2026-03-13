@@ -5,7 +5,7 @@ tags: ["modules", "navigation"]
 related: ["fullwidth-menu", "sidebar"]
 divi_version: "5.x"
 last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/menu/"
+<!-- Source URL no longer available as of 2026-03-12 -->
 ---
 
 # Menu

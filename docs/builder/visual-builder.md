@@ -5,7 +5,7 @@ tags: [builder, visual-builder, editor, drag-drop, frontend]
 related: [theme-builder, library, presets, global-elements]
 divi_version: "5.x"
 last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-builder/"
+source_url: "https://www.elegantthemes.com/documentation/divi/visual-builder/"
 ---
 
 # Visual Builder

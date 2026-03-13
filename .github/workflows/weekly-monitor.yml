@@ -1,0 +1,46 @@
+name: Weekly Content Monitor
+
+on:
+  schedule:
+    # Runs every Monday at 9:00 AM UTC (4:00 AM Central)
+    - cron: '0 9 * * 1'
+  workflow_dispatch:  # Also allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 markdownify pyyaml
+
+      - name: Run content monitor
+        run: |
+          python scripts/monitor_updates.py --all
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain reports/)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit report
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "divi-docs-bot"
+          git config user.email "bot@16wells.com"
+          git add reports/
+          git commit -m "Weekly monitor report: $(date +%Y-%m-%d)"
+          git push
