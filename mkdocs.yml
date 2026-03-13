@@ -152,10 +152,19 @@ nav:
     - Overview: theme-options/index.md
     - General: theme-options/general.md
     - Navigation: theme-options/navigation.md
+    - Layout: theme-options/layout.md
+    - Builder: theme-options/builder-settings.md
+    - Ads: theme-options/ads.md
+    - SEO: theme-options/seo.md
+    - Integration: theme-options/integration.md
+    - Updates: theme-options/updates.md
   - Builder:
     - Overview: builder/index.md
     - Visual Builder: builder/visual-builder.md
     - Theme Builder: builder/theme-builder.md
+    - Divi Library: builder/library.md
+    - Presets: builder/presets.md
+    - Global Elements: builder/global-elements.md
   - API Reference:
     - Overview: api/index.md
     - Hooks & Filters: api/hooks-filters.md

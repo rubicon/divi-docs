@@ -1,11 +1,336 @@
 ---
 title: "CSS Class Reference"
 category: css-reference
-tags: [css, classes, selectors]
+tags: [css, classes, selectors, styling, modules, sections, rows, columns]
+related: [common-overrides]
 divi_version: "5.x"
 last_updated: 2026-03-12
+source_url: ""
 ---
 
 # CSS Class Reference
 
-Placeholder — this page needs community contributions. See the [Contributing Guide](../contributing.md).
+A comprehensive reference of CSS classes used by Divi 5, organized by element type. Use these classes to target specific parts of Divi layouts for custom styling.
+
+## Overview
+
+Divi 5 generates CSS classes following a consistent naming convention rooted in the `et_pb_` prefix. Every section, row, column, and module receives predictable classes that you can target in custom CSS. Understanding these patterns is essential for writing reliable style overrides that survive Divi updates.
+
+Divi 5 also introduces utility classes, state-based classes for hover and sticky behavior, and builder-specific classes that only appear inside the Visual Builder. This reference covers all major class categories.
+
+Classes are applied both on the server-rendered front end and in the Visual Builder preview. Some classes are exclusive to the Visual Builder context and are noted below.
+
+## Section Classes
+
+Sections are the outermost layout containers in Divi. Every section receives the base class plus type-specific classes.
+
+| Class | Element | Description |
+|-------|---------|-------------|
+| `.et_pb_section` | All sections | Base class applied to every section. |
+| `.et_pb_section_{n}` | Nth section | Positional class where `{n}` is the zero-based index (e.g., `.et_pb_section_0` for the first section). |
+| `.et_pb_section_regular` | Regular section | Standard section type (not fullwidth or specialty). |
+| `.et_pb_fullwidth_section` | Fullwidth section | Section that spans the full viewport width with no inner container padding. |
+| `.et_pb_specialty_section` | Specialty section | Section with asymmetric column layouts (e.g., sidebar + content). |
+| `.et_pb_section_parallax` | Parallax section | Section with a parallax background image applied. |
+| `.et_pb_section_video` | Video background section | Section with a video background. |
+| `.et_pb_with_background` | Sections with background | Applied when any background (color, gradient, image) is set. |
+| `.et_section_regular` | Regular section (legacy) | Legacy alias for regular sections. May appear alongside `.et_pb_section_regular`. |
+| `.et_section_specialty` | Specialty section (legacy) | Legacy alias for specialty sections. |
+
+### Example: Target the first section on every page
+
+```css
+.et_pb_section_0 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+```
+
+## Row Classes
+
+Rows sit inside sections and contain columns.
+
+| Class | Element | Description |
+|-------|---------|-------------|
+| `.et_pb_row` | All rows | Base class applied to every row. |
+| `.et_pb_row_{n}` | Nth row in a section | Positional class where `{n}` is the zero-based index within the parent section. |
+| `.et_pb_row_inner` | Nested row | Row nested inside a specialty section column. |
+| `.et_pb_equal_columns` | Equal-height row | Applied when the "Equalize Column Heights" option is enabled. |
+| `.et_pb_gutters{n}` | Gutter width | Applied to the row or a parent container. `{n}` ranges from 1 (no gutters) to 4 (wide gutters). Default is `3`. |
+| `.et_pb_row_fullwidth` | Fullwidth row | Row set to 100% width within its section. |
+
+### Example: Remove default row padding
+
+```css
+.et_pb_row {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+```
+
+## Column Classes
+
+Columns define the grid inside rows.
+
+| Class | Element | Description |
+|-------|---------|-------------|
+| `.et_pb_column` | All columns | Base class applied to every column. |
+| `.et_pb_column_{fraction}` | Column width | Width-based class. Common values below. |
+| `.et_pb_column_4_4` | Full-width column | 100% width (1/1). |
+| `.et_pb_column_1_2` | Half column | 50% width (1/2). |
+| `.et_pb_column_1_3` | One-third column | 33.33% width (1/3). |
+| `.et_pb_column_2_3` | Two-thirds column | 66.67% width (2/3). |
+| `.et_pb_column_1_4` | Quarter column | 25% width (1/4). |
+| `.et_pb_column_3_4` | Three-quarter column | 75% width (3/4). |
+| `.et_pb_column_1_5` | One-fifth column | 20% width (1/5). |
+| `.et_pb_column_2_5` | Two-fifths column | 40% width (2/5). |
+| `.et_pb_column_3_5` | Three-fifths column | 60% width (3/5). |
+| `.et_pb_column_inner` | Nested column | Column inside an inner row within a specialty section. |
+| `.et_pb_column_single` | Single column | Applied when only one column exists in a row. |
+
+### Example: Add a vertical divider between half columns
+
+```css
+.et_pb_column_1_2:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+    padding-right: 30px;
+}
+```
+
+## Module Classes
+
+Every Divi module receives a class based on its slug and positional index.
+
+### Module Base Classes
+
+| Class | Module | Description |
+|-------|--------|-------------|
+| `.et_pb_module` | All modules | Generic base class on every module. |
+| `.et_pb_text` | Text | Text module. |
+| `.et_pb_blurb` | Blurb | Blurb module (icon/image + text). |
+| `.et_pb_button_module_wrapper` | Button | Wrapper around the Button module. |
+| `.et_pb_button` | Button element | The `<a>` tag inside a Button module (also used by CTA and other modules with buttons). |
+| `.et_pb_image` | Image | Image module. |
+| `.et_pb_video` | Video | Video module. |
+| `.et_pb_slider` | Slider | Slider module. |
+| `.et_pb_gallery` | Gallery | Gallery module. |
+| `.et_pb_blog_grid` | Blog (grid) | Blog module in grid layout. |
+| `.et_pb_blog_list` | Blog (list) | Blog module in list (fullwidth) layout. |
+| `.et_pb_contact_form_container` | Contact Form | Contact Form module wrapper. |
+| `.et_pb_accordion` | Accordion | Accordion module. |
+| `.et_pb_toggle` | Toggle | Toggle module (and individual accordion items). |
+| `.et_pb_tabs` | Tabs | Tabs module. |
+| `.et_pb_counter_container` | Bar Counter | Bar Counter module wrapper. |
+| `.et_pb_countdown_timer` | Countdown Timer | Countdown Timer module. |
+| `.et_pb_map_container` | Map | Map module wrapper. |
+| `.et_pb_menu` | Menu | Menu module. |
+| `.et_pb_sidebar` | Sidebar | Sidebar module. |
+| `.et_pb_social_media_follow` | Social Media Follow | Social Media Follow module. |
+| `.et_pb_testimonial` | Testimonial | Testimonial module. |
+| `.et_pb_pricing` | Pricing Table | Pricing Tables module. |
+| `.et_pb_cta` | Call to Action | Call to Action module. |
+| `.et_pb_divider` | Divider | Divider module. |
+| `.et_pb_code` | Code | Code module. |
+| `.et_pb_login` | Login | Login module. |
+| `.et_pb_search` | Search | Search module. |
+| `.et_pb_post_title` | Post Title | Post Title module. |
+| `.et_pb_comments_module` | Comments | Comments module. |
+
+### Module Positional Classes
+
+Every module also receives an index-based class:
+
+```
+.et_pb_{module_slug}_{n}
+```
+
+Where `{n}` is the zero-based index of that module type on the page. For example, the third Text module on a page gets `.et_pb_text_2`.
+
+```css
+/* Style only the first Text module on the page */
+.et_pb_text_0 {
+    font-size: 1.2em;
+}
+```
+
+## State Classes
+
+Divi applies state classes to modules and elements to reflect interactive states.
+
+| Class | State | Description |
+|-------|-------|-------------|
+| `.et_pb_hover_state` | Hover | Applied to a module when the user hovers over it (Visual Builder context). |
+| `.et_pb_sticky` | Sticky | Applied when a module is in its sticky (fixed) position. |
+| `.et_pb_sticky_module` | Sticky module | Applied to a module that has sticky positioning enabled. |
+| `.et_pb_animation_top` | Animate from top | Entry animation: slides in from the top. |
+| `.et_pb_animation_bottom` | Animate from bottom | Entry animation: slides in from the bottom. |
+| `.et_pb_animation_left` | Animate from left | Entry animation: slides in from the left. |
+| `.et_pb_animation_right` | Animate from right | Entry animation: slides in from the right. |
+| `.et_pb_animation_fade_in` | Fade in | Entry animation: fades in. |
+| `.et_pb_animation_slide` | Slide | Generic slide animation class. |
+| `.et_had_animation` | Animation completed | Applied after an entry animation finishes. The module is now visible. |
+| `.et_pb_scroll_top` | Scroll effect | Applied during scroll-triggered transform effects. |
+| `.et_pb_hover` | Hover detected | Generic hover state class. |
+
+### Example: Override sticky module styling
+
+```css
+.et_pb_sticky_module.et_pb_sticky {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+```
+
+## Builder-Only Classes
+
+These classes appear only when the Visual Builder is active. Do not target them in front-end CSS -- they are for builder-context styling or detecting the builder environment.
+
+| Class | Element | Description |
+|-------|---------|-------------|
+| `.et-fb-root-ancestor` | `<html>` or `<body>` | Present when the Visual Builder is active. Use to scope builder-only CSS. |
+| `.et_builder_inner_content` | Content wrapper | Wraps all Builder content inside the Visual Builder. |
+| `.et-fb-post-content` | Post content area | The editable content region in the Visual Builder. |
+| `.et_fb_desktop_mode` | Body | Visual Builder is in desktop preview mode. |
+| `.et_fb_tablet_mode` | Body | Visual Builder is in tablet preview mode. |
+| `.et_fb_phone_mode` | Body | Visual Builder is in phone preview mode. |
+| `.et-fb-button` | Builder UI buttons | Buttons in the Visual Builder UI (add module, settings, etc.). |
+| `.et_pb_fb_selected` | Selected module | The currently selected module in the Visual Builder. |
+
+### Example: Detect the Visual Builder in CSS
+
+```css
+/* Only apply this style when NOT in the Visual Builder */
+body:not(.et-fb-root-ancestor) .my-custom-module {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+```
+
+## Header and Navigation Classes
+
+| Class | Element | Description |
+|-------|---------|-------------|
+| `#main-header` | Main header | Primary header container. |
+| `#top-header` | Top header bar | Secondary header bar above the main header. |
+| `.et_header_style_left` | Header layout | Left-aligned logo with right-aligned menu. |
+| `.et_header_style_centered` | Header layout | Centered logo with menu below. |
+| `.et_header_style_split` | Header layout | Split menu with logo in the center. |
+| `.et_header_style_slide` | Header layout | Slide-in menu. |
+| `.et_header_style_fullscreen` | Header layout | Fullscreen overlay menu. |
+| `#et-top-navigation` | Nav container | Contains the primary navigation menu. |
+| `.et-menu` | Menu `<ul>` | The primary navigation unordered list. |
+| `.et-menu li` | Menu item | Individual navigation items. |
+| `.et-menu li.current-menu-item` | Active menu item | The currently active page in the navigation. |
+| `.et-menu li.menu-item-has-children` | Parent menu item | Menu item that has a dropdown submenu. |
+| `.et_mobile_menu` | Mobile menu | The mobile/hamburger menu container. |
+| `#et_mobile_nav_menu` | Mobile nav button | The hamburger menu toggle button. |
+| `.et_pb_fullwidth_menu` | Fullwidth Menu module | The Fullwidth Menu Builder module. |
+
+## Footer Classes
+
+| Class | Element | Description |
+|-------|---------|-------------|
+| `#main-footer` | Footer container | Primary footer wrapper. |
+| `#footer-widgets` | Widget area | Contains the footer widget columns. |
+| `#footer-info` | Footer credits | The bottom bar with copyright and credits. |
+| `.et_pb_footer_columns_{n}` | Column layout | Footer widget area column count. |
+
+## Utility Classes
+
+Divi 5 provides several utility classes for common styling needs.
+
+| Class | Description |
+|-------|-------------|
+| `.et_pb_bg_layout_dark` | Dark background layout -- typically sets text to white. |
+| `.et_pb_bg_layout_light` | Light background layout -- default text colors. |
+| `.et_pb_text_align_left` | Left-aligns text content. |
+| `.et_pb_text_align_center` | Center-aligns text content. |
+| `.et_pb_text_align_right` | Right-aligns text content. |
+| `.et_pb_text_align_justified` | Justifies text content. |
+| `.clearfix` | Clearfix | Clears floated children. |
+| `.et_pb_with_border` | Has border | Applied to elements with a border set in module settings. |
+| `.et_pb_with_box_shadow` | Has box shadow | Applied to elements with a box shadow. |
+| `.et_clickable` | Clickable element | Applied to elements that are entirely clickable (e.g., a Blurb with a URL). |
+| `.et_pb_extra_overlay` | Overlay | Used for image and module overlay effects. |
+
+## Responsive Breakpoint Classes
+
+Divi applies classes at specific breakpoints to enable responsive behavior.
+
+| Breakpoint | Width | Description |
+|------------|-------|-------------|
+| Desktop | > 980px | Default styles. No special class applied. |
+| Tablet | 768px -- 980px | Divi collapses multi-column rows to stacked layout. |
+| Phone | < 768px | Single-column layout. |
+
+```css
+/* Tablet-specific override */
+@media (max-width: 980px) {
+    .et_pb_section {
+        padding: 40px 0;
+    }
+}
+
+/* Phone-specific override */
+@media (max-width: 767px) {
+    .et_pb_section {
+        padding: 20px 0;
+    }
+}
+```
+
+## WooCommerce Module Classes
+
+| Class | Module | Description |
+|-------|--------|-------------|
+| `.et_pb_shop` | Shop | WooCommerce product grid. |
+| `.et_pb_wc_title` | Woo Product Title | Product title module. |
+| `.et_pb_wc_price` | Woo Product Price | Product price module. |
+| `.et_pb_wc_images` | Woo Product Images | Product gallery module. |
+| `.et_pb_wc_description` | Woo Product Description | Product description module. |
+| `.et_pb_wc_add_to_cart` | Add to Cart | Add to cart button and form. |
+| `.et_pb_wc_rating` | Woo Product Rating | Star rating module. |
+| `.et_pb_wc_reviews` | Woo Product Reviews | Product reviews module. |
+| `.et_pb_wc_tabs` | Woo Product Tabs | Product tabs (description, reviews, etc.). |
+| `.et_pb_wc_related_products` | Woo Related Products | Related products grid. |
+| `.et_pb_wc_breadcrumb` | Woo Breadcrumbs | WooCommerce breadcrumb trail. |
+| `.et_pb_wc_cart_products` | Woo Cart Products | Cart items table. |
+| `.et_pb_wc_cart_totals` | Woo Cart Totals | Cart totals and proceed to checkout. |
+| `.et_pb_wc_checkout_billing` | Woo Checkout Billing | Billing fields form. |
+
+## Version Notes
+
+!!! note "Divi 5 Only"
+    This page documents Divi 5 behavior exclusively. Divi 5 retains the `et_pb_` class naming convention from Divi 4, but some internal classes related to the Visual Builder have changed. Builder-only classes (`.et-fb-*`) may differ between versions.
+
+## Troubleshooting
+
+!!! warning "CSS override not taking effect"
+    **Symptom:** Your custom CSS targeting a Divi class has no visible effect.
+
+    **Possible causes:**
+
+    - Specificity: Divi's built-in styles may have higher specificity. Use a more specific selector or add `!important` as a last resort.
+    - The class name is wrong or has changed. Use your browser's DevTools (Inspect Element) to verify the exact class on the target element.
+    - Your CSS file loads before Divi's styles. Ensure your stylesheet is enqueued with Divi's stylesheet as a dependency.
+
+    **Fix:** Increase selector specificity by prepending `body` or the page ID:
+
+    ```css
+    body .et_pb_text_0 h2 {
+        color: #333;
+    }
+    ```
+
+!!! warning "Positional classes are unreliable for styling"
+    **Symptom:** Styles applied to `.et_pb_text_2` break when the user reorders modules.
+
+    **Possible cause:** Positional classes (`.et_pb_{module}_{n}`) change when modules are added, removed, or reordered.
+
+    **Fix:** Use the module's CSS ID or CSS Class fields (Advanced tab) to assign a stable custom class instead of relying on positional classes.
+
+## Related
+
+- [Common CSS Overrides](../css-reference/common-overrides.md)
+- [CSS in Divi 5 Playbook](../playbooks/css-in-divi.md)
+- [Hooks & Filters](../api/hooks-filters.md)

@@ -13,7 +13,8 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 
 | Section | Description | Status |
 |---------|-------------|--------|
-| [Visual Builder](visual-builder.md) | Front-end drag-and-drop editor | 🔲 Needed |
-| [Theme Builder](theme-builder.md) | Template system for headers, footers, post templates | 🔲 Needed |
-| Layouts Library | Saving and loading layouts | 🔲 Needed |
-| Global Elements | Reusable modules and sections | 🔲 Needed |
+| [Visual Builder](visual-builder.md) | Front-end drag-and-drop editor | ✅ Done |
+| [Theme Builder](theme-builder.md) | Template system for headers, footers, post templates | ✅ Done |
+| [Divi Library](library.md) | Saving and loading layouts | ✅ Done |
+| [Presets](presets.md) | Reusable design configurations | ✅ Done |
+| [Global Elements](global-elements.md) | Reusable modules and sections that sync across pages | ✅ Done |
