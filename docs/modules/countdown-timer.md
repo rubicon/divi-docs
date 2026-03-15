@@ -18,11 +18,11 @@ How to add, configure and customize the Divi Countdown Timer module.
 
 The Divi Countdown Timer Module is a dynamic way to display a countdown timer on your website. The countdown timer can be used to count down to a product launch, an upcoming event, a seasononal sale, or even on a coming soon page announcing your website launch!
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/countdown-timer/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Countdown Timer module overview](../assets/screenshots/modules/countdown-timer/overview.png){ loading=lazy } -->
-<!-- *The Countdown Timer module as it appears in the Divi 5 Visual Builder.* -->
+![Countdown Timer module](../assets/screenshots/modules/countdown-timer/element.png){ loading=lazy }
+*The Countdown Timer module as it appears on the live demo.*
+
 
 ## Settings & Options
 

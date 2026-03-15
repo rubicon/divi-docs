@@ -20,9 +20,9 @@ The module supports a configurable background color that helps it contrast with 
 
 CTAs work well in any column width. Place them at natural decision points in your content: after describing a product's benefits, at the end of a blog post, or in a dedicated section between content blocks. For maximum impact, limit the text to one or two sentences and use a clear, action-oriented button label.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Call to Action module overview](../assets/screenshots/modules/call-to-action/overview.png){ loading=lazy } -->
-<!-- *The Call to Action module as it appears in the Divi 5 Visual Builder.* -->
+![Call to Action module](../assets/screenshots/modules/call-to-action/element.png){ loading=lazy }
+*The Call to Action module as it appears on the live demo.*
+
 
 ## Settings & Options
 

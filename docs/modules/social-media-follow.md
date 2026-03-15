@@ -18,11 +18,11 @@ How to add, configure and customize the Divi social follow module.
 
 The Divi Social Media Module allows you to add social media icons anywhere on your website. This module integrates with over 50 social platforms so you can easily add your social media profiles and grow your following.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/social-media-follow/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Social Media Follow module overview](../assets/screenshots/modules/social-media-follow/overview.png){ loading=lazy } -->
-<!-- *The Social Media Follow module as it appears in the Divi 5 Visual Builder.* -->
+![Social Media Follow module](../assets/screenshots/modules/social-media-follow/element.png){ loading=lazy }
+*The Social Media Follow module as it appears on the live demo.*
+
 
 ## Settings & Options
 

@@ -18,11 +18,11 @@ How to add, configure and customize the Divi post slider module.
 
 The Divi Post Slider Module can be used to display recent blog posts, reviews, featured projects, inspiring quotes, upcoming events, and more. They can be big, small, fixed-width, or full-width. This module also supports parallax backgrounds as well as full-width video backgrounds. The slider can automatically animate through the slides or be set to manual navigation.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/post-slider/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Post Slider module overview](../assets/screenshots/modules/post-slider/overview.png){ loading=lazy } -->
-<!-- *The Post Slider module as it appears in the Divi 5 Visual Builder.* -->
+![Post Slider module](../assets/screenshots/modules/post-slider/element.png){ loading=lazy }
+*The Post Slider module as it appears on the live demo.*
+
 
 ## Settings & Options
 

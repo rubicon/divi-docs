@@ -18,11 +18,11 @@ How to add, configure and customize the Divi divider module.
 
 The Divider Module makes it easy to add horizontal lines to your web design to add separation. You can define the divider color, thickness, width, and alignment.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/divider/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Divider module overview](../assets/screenshots/modules/divider/overview.png){ loading=lazy } -->
-<!-- *The Divider module as it appears in the Divi 5 Visual Builder.* -->
+![Divider module](../assets/screenshots/modules/divider/element.png){ loading=lazy }
+*The Divider module as it appears on the live demo.*
+
 
 ## Settings & Options
 

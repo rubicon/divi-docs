@@ -18,11 +18,11 @@ How to add, configure and customize the Divi pricing table module.
 
 The Divi Pricing Tables Module is an eye-catching way to display pricing for services, packages, and subscriptions on your website. You can create as many tables as you want and can style them individually or set module global styles so they all look consistent. Each pricing table has options for a title, subtitle, currency, frequency, price, feature list, and a call to action button. You can even choose a pricing table to be featured in order to help your best offer or most popular service stand out in order to increase conversions.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/pricing-table/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Pricing Table module overview](../assets/screenshots/modules/pricing-table/overview.png){ loading=lazy } -->
-<!-- *The Pricing Table module as it appears in the Divi 5 Visual Builder.* -->
+![Pricing Table module](../assets/screenshots/modules/pricing-table/element.png){ loading=lazy }
+*The Pricing Table module as it appears on the live demo.*
+
 
 ## Settings & Options
 

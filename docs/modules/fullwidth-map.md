@@ -18,11 +18,11 @@ How to add, configure and customize the Divi fullwidth map module.
 
 The Divi Fullwidth Map Module makes it easy to add an interactive Google Map to your website. It’s a great way to show where your company is located and easy for visitors to click on your location and get directions.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/fullwidth-map/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Map module overview](../assets/screenshots/modules/fullwidth-map/overview.png){ loading=lazy } -->
-<!-- *The Fullwidth Map module as it appears in the Divi 5 Visual Builder.* -->
+![Fullwidth Map module](../assets/screenshots/modules/fullwidth-map/element.png){ loading=lazy }
+*The Fullwidth Map module as it appears on the live demo.*
+
 
 ## Settings & Options
 

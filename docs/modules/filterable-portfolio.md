@@ -18,11 +18,11 @@ How to add, configure and customize the Divi filterable portfolio module.
 
 The Divi Filterable Portfolio Module is similar to the Divi Portfolio Module but has additional sorting functionality. Users can click the categories at the top to dynamically sort and view the projects they’d like to see. This module integrates seamlessly with the native WordPress projects functionality and is great to display your work or demonstrate case studies.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/filterable-portfolio/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Filterable Portfolio module overview](../assets/screenshots/modules/filterable-portfolio/overview.png){ loading=lazy } -->
-<!-- *The Filterable Portfolio module as it appears in the Divi 5 Visual Builder.* -->
+![Filterable Portfolio module](../assets/screenshots/modules/filterable-portfolio/element.png){ loading=lazy }
+*The Filterable Portfolio module as it appears on the live demo.*
+
 
 ## Settings & Options
 

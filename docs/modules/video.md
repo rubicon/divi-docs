@@ -18,11 +18,11 @@ How to add, configure and customize the Divi video module.
 
 The Divi Video Module is an easy way to display videos anywhere on your website. Videos can be uploaded directly to your website via the WordPress media library or imported by a URL if your video is hosted on a 3rd party website like YouTube or Vimeo. The Video Module is useful anywhere on your site where you need a video.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/video/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Video module overview](../assets/screenshots/modules/video/overview.png){ loading=lazy } -->
-<!-- *The Video module as it appears in the Divi 5 Visual Builder.* -->
+![Video module](../assets/screenshots/modules/video/element.png){ loading=lazy }
+*The Video module as it appears on the live demo.*
+
 
 ## Settings & Options
 

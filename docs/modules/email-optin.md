@@ -18,11 +18,11 @@ How to add, configure and customize the Divi email optin module.
 
 The Divi Email Optin Module makes it easy to grow your email subscriptions with attractive signup forms and seamless integration with 21 popular email software companies. You can add this module anywhere in your website design, including header and footers.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/email-optin/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Email Optin module overview](../assets/screenshots/modules/email-optin/overview.png){ loading=lazy } -->
-<!-- *The Email Optin module as it appears in the Divi 5 Visual Builder.* -->
+![Email Optin module](../assets/screenshots/modules/email-optin/element.png){ loading=lazy }
+*The Email Optin module as it appears on the live demo.*
+
 
 ## Settings & Options
 

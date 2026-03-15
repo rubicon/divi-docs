@@ -18,11 +18,11 @@ How to add, configure and customize the Divi button module.
 
 The Divi Button Module is a versatile module that can be used all across your website. Create fun hover styles, use custom icons, and guide your visitors through your website with the interactive button module.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/button/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Button module overview](../assets/screenshots/modules/button/overview.png){ loading=lazy } -->
-<!-- *The Button module as it appears in the Divi 5 Visual Builder.* -->
+![Button module](../assets/screenshots/modules/button/element.png){ loading=lazy }
+*The Button module as it appears on the live demo.*
+
 
 ## Settings & Options
 

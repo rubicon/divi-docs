@@ -18,11 +18,11 @@ How to add, configure and customize the Divi post navigation module.
 
 The Divi Post Navigation module allows you to navigate between blog posts or projects using “previous” and “next” links. In this article, we’ll demonstrate how to use the post navigation module in a blog post page template designed using the Divi Theme Builder and the front-end full-site Visual Editor.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/post-navigation/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Post Navigation module overview](../assets/screenshots/modules/post-navigation/overview.png){ loading=lazy } -->
-<!-- *The Post Navigation module as it appears in the Divi 5 Visual Builder.* -->
+![Post Navigation module](../assets/screenshots/modules/post-navigation/element.png){ loading=lazy }
+*The Post Navigation module as it appears on the live demo.*
+
 
 ## Settings & Options
 

@@ -18,11 +18,11 @@ How to add, configure and customize the Divi code module.
 
 The Divi Code Module allows you to easily insert code (like HTML, CSS, and JavaScript) anywhere on your website. You can also use it for shortcodes (like embedding a shortcode from another plugin) or pasting codes from third-party software like calendar scheduling software or CRM integration.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/code/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Code module overview](../assets/screenshots/modules/code/overview.png){ loading=lazy } -->
-<!-- *The Code module as it appears in the Divi 5 Visual Builder.* -->
+![Code module](../assets/screenshots/modules/code/element.png){ loading=lazy }
+*The Code module as it appears on the live demo.*
+
 
 ## Settings & Options
 

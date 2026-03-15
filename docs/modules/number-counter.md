@@ -18,11 +18,11 @@ How to add, configure and customize the Divi number counter module.
 
 The Divi Number Counter Module is an easy way to display numerical information about yourself or your company in an eye-catching design. The Number Counter Module can display both plain numerical numbers as well as percentages. When the Number Counter Module loads, it starts from zero and then counts up to the number or percentage you specified and then stops.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/number-counter/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Number Counter module overview](../assets/screenshots/modules/number-counter/overview.png){ loading=lazy } -->
-<!-- *The Number Counter module as it appears in the Divi 5 Visual Builder.* -->
+![Number Counter module](../assets/screenshots/modules/number-counter/element.png){ loading=lazy }
+*The Number Counter module as it appears on the live demo.*
+
 
 ## Settings & Options
 

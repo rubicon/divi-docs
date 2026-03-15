@@ -20,9 +20,9 @@ Each slide functions as an independent content block with its own background, te
 
 The module supports both static background images and full-width video backgrounds with parallax effects. Combined with the Design tab's typography and overlay controls, it can produce everything from a simple image carousel to a polished full-screen hero section.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Slider module overview](../assets/screenshots/modules/slider/overview.png){ loading=lazy } -->
-<!-- *The Slider module as it appears in the Divi 5 Visual Builder.* -->
+![Slider module](../assets/screenshots/modules/slider/element.png){ loading=lazy }
+*The Slider module as it appears on the live demo.*
+
 
 ## Settings & Options
 

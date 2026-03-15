@@ -18,11 +18,11 @@ How to add, configure and customize the Divi gallery module.
 
 The Divi Gallery Module allows you to display a gallery of images anywhere on your website. You can use it to show a home tour, display your products, show off your work, and more.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/gallery/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Gallery module overview](../assets/screenshots/modules/gallery/overview.png){ loading=lazy } -->
-<!-- *The Gallery module as it appears in the Divi 5 Visual Builder.* -->
+![Gallery module](../assets/screenshots/modules/gallery/element.png){ loading=lazy }
+*The Gallery module as it appears on the live demo.*
+
 
 ## Settings & Options
 

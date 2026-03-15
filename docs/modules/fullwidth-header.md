@@ -20,9 +20,9 @@ The Divi Fullwidth Header Module is a versatile module that can be used all thro
 
 This module has the ability to display a title, subtitle, body text, two images, an icon and two in-line (side by side) buttons. In order to use the Fullwidth Header Module, you’ll need to add a fullwidth section first. In this doc, we’ll demonstrate how to use the Fullwidth Header Module on a homepage design to promote a tea subscription service for a Tea Shop.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Header module overview](../assets/screenshots/modules/fullwidth-header/overview.png){ loading=lazy } -->
-<!-- *The Fullwidth Header module as it appears in the Divi 5 Visual Builder.* -->
+![Fullwidth Header module](../assets/screenshots/modules/fullwidth-header/element.png){ loading=lazy }
+*The Fullwidth Header module as it appears on the live demo.*
+
 
 ## Settings & Options
 

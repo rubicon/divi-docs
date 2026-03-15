@@ -20,9 +20,9 @@ The Divi Map Module is an easy way to display an interactive Google map on your 
 
 In this documentation we’ll go over how to add the map module to your page and all of the settings and design customizations available within the Divi Map Module.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Map module overview](../assets/screenshots/modules/map/overview.png){ loading=lazy } -->
-<!-- *The Map module as it appears in the Divi 5 Visual Builder.* -->
+![Map module](../assets/screenshots/modules/map/element.png){ loading=lazy }
+*The Map module as it appears on the live demo.*
+
 
 ## Settings & Options
 

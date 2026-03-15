@@ -17,6 +17,12 @@ The Blog module is Divi's primary way to display dynamic post content. It querie
 
 This module is commonly used on blog index pages, homepage "latest posts" sections, and category landing pages.
 
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/blog/)
+
+![Blog module](../assets/screenshots/modules/blog/element.png){ loading=lazy }
+*The Blog module as it appears on the live demo.*
+
+
 ## Settings & Options
 
 ### Content Tab

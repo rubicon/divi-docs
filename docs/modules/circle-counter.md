@@ -18,11 +18,11 @@ How to add, configure and customize the Divi circle counter module.
 
 The Divi Circle Counter Module is an interactive way to display statistics and numerical information on your website. It’s an animated module that uses lazy-loading to catch the eye.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/circle-counter/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Circle Counter module overview](../assets/screenshots/modules/circle-counter/overview.png){ loading=lazy } -->
-<!-- *The Circle Counter module as it appears in the Divi 5 Visual Builder.* -->
+![Circle Counter module](../assets/screenshots/modules/circle-counter/element.png){ loading=lazy }
+*The Circle Counter module as it appears on the live demo.*
+
 
 ## Settings & Options
 

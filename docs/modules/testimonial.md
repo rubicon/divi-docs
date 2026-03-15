@@ -18,11 +18,11 @@ How to add, configure and customize the Divi testimonials module.
 
 The Divi Testimonial Module is a great way to display customer reviews, quotes, and testimonials on your website. Each testimonial has the option for an author name, job title, company, quote, and profile picture. Testimonials help demonstrate your credibility and expertise to potential customers and clients.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/testimonial/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Testimonial module overview](../assets/screenshots/modules/testimonial/overview.png){ loading=lazy } -->
-<!-- *The Testimonial module as it appears in the Divi 5 Visual Builder.* -->
+![Testimonial module](../assets/screenshots/modules/testimonial/element.png){ loading=lazy }
+*The Testimonial module as it appears on the live demo.*
+
 
 ## Settings & Options
 

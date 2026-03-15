@@ -18,11 +18,11 @@ How to add, configure and customize the Divi comments module.
 
 The Divi Comments Module makes it easy to style the comment section on blog posts or pages. With this module, you have full control over how the comments section looks, and you can place this module anywhere in your layout. Having a good-looking comments section is one step towards getting more engagement on your posts! Use this module as you build a custom page template for blog posts in the Divi Theme Builder.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/comments/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Comments module overview](../assets/screenshots/modules/comments/overview.png){ loading=lazy } -->
-<!-- *The Comments module as it appears in the Divi 5 Visual Builder.* -->
+![Comments module](../assets/screenshots/modules/comments/element.png){ loading=lazy }
+*The Comments module as it appears on the live demo.*
+
 
 ## Settings & Options
 

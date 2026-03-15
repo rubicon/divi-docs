@@ -18,11 +18,11 @@ How to add, configure and customize the Divi audio module.
 
 The Divi Audio Module makes it easy to share audio files on your website. This is great for sharing music files, and podcast episodes, and showcasing your audio portfolio. In this documentation, we’ll cover how to use the Audio Module and all of the settings and design options available within the Audio Module.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/audio/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Audio module overview](../assets/screenshots/modules/audio/overview.png){ loading=lazy } -->
-<!-- *The Audio module as it appears in the Divi 5 Visual Builder.* -->
+![Audio module](../assets/screenshots/modules/audio/element.png){ loading=lazy }
+*The Audio module as it appears on the live demo.*
+
 
 ## Settings & Options
 

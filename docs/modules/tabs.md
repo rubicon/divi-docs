@@ -18,11 +18,11 @@ How to add, configure and customize the Divi tabs module.
 
 The Divi Tabs Module makes it easy to organize information on your website and helps users find the info they need fast. You can add text and images inside tabs as well as any kind of content that is controlled using the standard WordPress post editor. At ¼ columns, tabs are stacked and remain visible. At larger sizes, tab buttons lay in a horizontal row.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/tabs/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Tabs module overview](../assets/screenshots/modules/tabs/overview.png){ loading=lazy } -->
-<!-- *The Tabs module as it appears in the Divi 5 Visual Builder.* -->
+![Tabs module](../assets/screenshots/modules/tabs/element.png){ loading=lazy }
+*The Tabs module as it appears on the live demo.*
+
 
 ## Settings & Options
 

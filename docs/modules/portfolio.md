@@ -18,11 +18,11 @@ How to add, configure and customize the Divi portfolio module.
 
 The Divi Portfolio Module is an easy way to display your portfolio. It integrates with the native WordPress Projects functionality and displays your projects in an eye-catching design. Use this module on a portfolio or project page to showcase your work.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/portfolio/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Portfolio module overview](../assets/screenshots/modules/portfolio/overview.png){ loading=lazy } -->
-<!-- *The Portfolio module as it appears in the Divi 5 Visual Builder.* -->
+![Portfolio module](../assets/screenshots/modules/portfolio/element.png){ loading=lazy }
+*The Portfolio module as it appears on the live demo.*
+
 
 ## Settings & Options
 

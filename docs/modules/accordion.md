@@ -18,10 +18,11 @@ How to add, configure and customize the Divi accordion module.
 
 The Divi Accordion Module helps consolidate information into a vertically stacked group of toggles that can be clicked to reveal or hide their contents. The accordion module is similar to the toggle module, however, the accordion module comes as a group of toggles and when a new toggle is opened, the previously opened toggle is closed. By default, the first toggle is set to display as an open toggle. The Accordion module is great for displaying a frequently asked questions section in an easy-to-read way.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/accordion/)
 
-![Accordion module demo](../assets/screenshots/modules/accordion/accordion-element.png){ loading=lazy }
-*The Accordion module displaying FAQ-style content with expandable items.*
+![Accordion module](../assets/screenshots/modules/accordion/element.png){ loading=lazy }
+*The Accordion module as it appears on the live demo.*
+
 
 ## Settings & Options
 

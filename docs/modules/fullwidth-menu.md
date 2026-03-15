@@ -18,11 +18,11 @@ How to add, configure and customize the Divi fullwidth menu module.
 
 The Divi Fullwidth Menu Module allows you to put a fullwidth navigation menu anywhere on your page. You can use this module to put a secondary navigation lower on the page design to help enhance the usability of your website and guide visitors through your content.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/fullwidth-menu/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Menu module overview](../assets/screenshots/modules/fullwidth-menu/overview.png){ loading=lazy } -->
-<!-- *The Fullwidth Menu module as it appears in the Divi 5 Visual Builder.* -->
+![Fullwidth Menu module](../assets/screenshots/modules/fullwidth-menu/element.png){ loading=lazy }
+*The Fullwidth Menu module as it appears on the live demo.*
+
 
 ## Settings & Options
 

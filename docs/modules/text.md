@@ -17,6 +17,12 @@ The Text module wraps the standard WordPress visual editor (TinyMCE / block edit
 
 Unlike the WordPress block editor's paragraph block, the Divi Text module gives you full control over typography, spacing, and animation through the Divi design interface while still supporting raw HTML in the text tab.
 
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/text/)
+
+![Text module](../assets/screenshots/modules/text/element.png){ loading=lazy }
+*The Text module as it appears on the live demo.*
+
+
 ## Settings & Options
 
 ### Content Tab

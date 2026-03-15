@@ -20,9 +20,9 @@ The Divi Search Module allows you to place a search bar anywhere on your website
 
 With the Divi Search Module, you can add a search bar anywhere on your website; headers, footers, pages, posts, etc.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Search module overview](../assets/screenshots/modules/search/overview.png){ loading=lazy } -->
-<!-- *The Search module as it appears in the Divi 5 Visual Builder.* -->
+![Search module](../assets/screenshots/modules/search/element.png){ loading=lazy }
+*The Search module as it appears on the live demo.*
+
 
 ## Settings & Options
 

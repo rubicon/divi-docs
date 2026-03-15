@@ -18,11 +18,11 @@ How to add, configure and customize the Divi login module.
 
 The Divi Login Module makes it easy to create a login area for registered users to access a member’s area, gated content, downloads, resources, and more.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/login/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Login module overview](../assets/screenshots/modules/login/overview.png){ loading=lazy } -->
-<!-- *The Login module as it appears in the Divi 5 Visual Builder.* -->
+![Login module](../assets/screenshots/modules/login/element.png){ loading=lazy }
+*The Login module as it appears on the live demo.*
+
 
 ## Settings & Options
 

@@ -18,11 +18,11 @@ How to add, configure and customize the Divi bar counter module.
 
 The Divi Bar Counters Module is an easy way to display numerical information on your website. It’s great for communicating information in percentage form like company statistics, numerical goals, growth metrics, and more. The bar counters animation is triggered by using lazy-load which makes this module eye-catching and engaging. In this doc we’ll walk through all the settings and options available with the Divi Bar Counters Module.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/bar-counter/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Bar Counter module overview](../assets/screenshots/modules/bar-counter/overview.png){ loading=lazy } -->
-<!-- *The Bar Counter module as it appears in the Divi 5 Visual Builder.* -->
+![Bar Counter module](../assets/screenshots/modules/bar-counter/element.png){ loading=lazy }
+*The Bar Counter module as it appears on the live demo.*
+
 
 ## Settings & Options
 

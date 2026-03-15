@@ -18,11 +18,11 @@ How to add, configure and customize the Divi fullwidth slider module.
 
 The Divi Fullwidth Slider Module can be used to display eye-catching CTAs (call to actions), highlight important content on your website like a popular page or post, and break up text content for a visually appealing page design. Fullwidth sliders can be placed anywhere on your page and support parallax backgrounds, images, and videos, and have content fields for a title, body text, and a button.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/fullwidth-slider/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Slider module overview](../assets/screenshots/modules/fullwidth-slider/overview.png){ loading=lazy } -->
-<!-- *The Fullwidth Slider module as it appears in the Divi 5 Visual Builder.* -->
+![Fullwidth Slider module](../assets/screenshots/modules/fullwidth-slider/element.png){ loading=lazy }
+*The Fullwidth Slider module as it appears on the live demo.*
+
 
 ## Settings & Options
 

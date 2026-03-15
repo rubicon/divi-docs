@@ -18,11 +18,11 @@ How to add, configure and customize the Divi fullwidth portfolio module.
 
 The Divi Fullwidth Portfolio Module is an easy way to display your portfolio in a grid layout or carousel layout. It integrates with the native WordPress Projects functionality and displays your projects in an eye-catching design. Use this module on a portfolio or home page to showcase your work.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/fullwidth-portfolio/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Portfolio module overview](../assets/screenshots/modules/fullwidth-portfolio/overview.png){ loading=lazy } -->
-<!-- *The Fullwidth Portfolio module as it appears in the Divi 5 Visual Builder.* -->
+![Fullwidth Portfolio module](../assets/screenshots/modules/fullwidth-portfolio/element.png){ loading=lazy }
+*The Fullwidth Portfolio module as it appears on the live demo.*
+
 
 ## Settings & Options
 

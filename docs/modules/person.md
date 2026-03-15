@@ -18,11 +18,11 @@ How to add, configure and customize the Divi person module.
 
 The Person Module is the best way to create a personal profile for someone on your Divi website. It’s an easy way to highlight team members, featured vendors, company leadership, staff, and more. This is a great module to use on About Me or Team Member pages. It combines text, imagery, and social media links into a single, cohesive module.
 
-View A Live Demo Of This Module
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/person/)
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Person module overview](../assets/screenshots/modules/person/overview.png){ loading=lazy } -->
-<!-- *The Person module as it appears in the Divi 5 Visual Builder.* -->
+![Person module](../assets/screenshots/modules/person/element.png){ loading=lazy }
+*The Person module as it appears on the live demo.*
+
 
 ## Settings & Options
 

@@ -2,10 +2,13 @@
 """
 Capture screenshots from all module demo pages on 16wells.dev.
 Saves both full-page and element-specific screenshots.
+After capture, runs update_module_docs_screenshots.py to insert element
+screenshots and demo links into the corresponding module docs.
 """
 
 import asyncio
 import os
+import subprocess
 import sys
 from pathlib import Path
 
@@ -172,6 +175,13 @@ async def capture_all():
 
     print(f"\n{'='*50}")
     print(f"DONE: {captured} captured, {failed} failed")
+
+    # Update module docs: insert element screenshots and link "View A Live Demo"
+    script_dir = Path(__file__).resolve().parent
+    update_script = script_dir / "update_module_docs_screenshots.py"
+    if update_script.exists():
+        print("\nUpdating module documentation with new screenshots and demo links...")
+        subprocess.run([sys.executable, str(update_script)], cwd=script_dir.parent, check=False)
 
 
 if __name__ == "__main__":
