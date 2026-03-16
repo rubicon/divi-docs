@@ -12,6 +12,8 @@ Accurate, thorough, screenshot-rich technical documentation for Divi 5.
 
 Divi powers hundreds of thousands of websites, but its official documentation leaves gaps that cost developers and site builders time every day. This project fills those gaps with practical, tested, version-aware documentation maintained by the people who actually use Divi.
 
+Please note no association with Elegant Themes itself - I built this because I wanted to build documentation that was more what I was used to in developer and technical documentation and also to make it easier for LLMs to refer to what they need to work with Divi.  I am also using this as a jumping off point to test and prove what works and has trouble building sites using Divi with LLMs.
+
 ## What's Here
 
 | Section | What You'll Find |
