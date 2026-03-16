@@ -203,6 +203,36 @@ Arrange multiple Image modules in a three- or four-column row. Apply a consisten
 
 Enable the lightbox setting on multiple Image modules within the same section. Divi groups lightbox-enabled images together, allowing visitors to click any image and navigate through all of them in a slideshow overlay. Add a hover zoom effect and an overlay icon for clear visual feedback that the images are interactive.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/image` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Image URL | `attrs.src` | Source URL of the image |
+| Alt Text | `attrs.alt` | Image alt attribute for accessibility |
+| Title Text | `attrs.title_text` | Image title attribute |
+| Link URL | `attrs.url` | Destination URL when image is clicked |
+
+!!! tip "Module Selection Guidance"
+    For single images use Image; for image galleries use Gallery; for images with text overlay use Blurb or Call to Action.
+
 ## Saving Your Work
 
 After configuring the Image module, click the green checkmark button at the bottom of the settings panel to apply your changes. Then save the page using the save button in the Visual Builder toolbar, or use the keyboard shortcut Ctrl+S (Cmd+S on Mac). Changes are not published until you explicitly save the page.

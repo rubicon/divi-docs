@@ -208,6 +208,35 @@ Add the Login module to a narrow sidebar column (one-quarter or one-third width)
 
 Use two modules in the same row: a Login module with a display condition set to "User is not logged in" and a Text module with a welcome message conditioned to "User is logged in." This creates a seamless experience where visitors see the login form and authenticated users see personalized content in its place.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/login` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Title | `attrs.title` | Form heading text |
+| Body | `attrs.content` | Description text above the form |
+| Redirect URL | `attrs.current_page_redirect` | Post-login redirect destination |
+
+!!! tip "Module Selection Guidance"
+    For user login forms use Login; for email signups use Email Optin; for general forms use Contact Form.
+
 ## Saving Your Work
 
 After configuring the Login module, click the green checkmark button at the bottom of the settings panel to apply your changes. Save the page using the save button in the Visual Builder toolbar or press Ctrl+S (Cmd+S on Mac). Test the login form on the front end by logging out and attempting to sign in with valid credentials.

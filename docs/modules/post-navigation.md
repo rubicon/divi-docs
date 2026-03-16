@@ -191,6 +191,35 @@ add_filter('get_next_post_excluded_terms', function($excluded_terms) {
 
 3. **Same-Category Navigation for Tutorials** — Enable the In Same Category toggle so readers of a multi-part tutorial series only see links to other parts in that series. Customize the Previous and Next labels to read "Previous Lesson" and "Next Lesson" to reinforce the sequential structure.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/post-navigation` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Show Prev | `attrs.show_prev` | Toggle previous post link visibility |
+| Show Next | `attrs.show_next` | Toggle next post link visibility |
+| In Same Cat | `attrs.in_same_cat` | Restrict navigation to same category |
+
+!!! tip "Module Selection Guidance"
+    For prev/next post links in Theme Builder templates use Post Navigation; for numbered pagination use Pagination.
+
 ## Saving Your Work
 
 After configuring the Post Navigation module, save the Theme Builder template by clicking the green **Save** button. If you are editing in the full-site Visual Editor, save the page normally. The module can also be saved to your Divi Library for reuse across multiple templates by right-clicking and selecting **Save to Library**.

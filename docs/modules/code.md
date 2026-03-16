@@ -145,6 +145,33 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Running a Plugin Shortcode** — Insert a shortcode like `[woocommerce_cart]` or `[gravityform id="1"]` into the Code module to render plugin output inside a Divi layout. Combine with the row's column structure to place the shortcode output alongside other Divi modules.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/code` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Raw Content | `attrs.raw_content` | HTML, CSS, JS, or shortcode content |
+
+!!! tip "Module Selection Guidance"
+    For embedding raw HTML/CSS/JS or shortcodes use Code; for formatted text use Text; for styled code display consider a syntax highlighting plugin.
+
 ## Saving Your Work
 
 After configuring the Code module:

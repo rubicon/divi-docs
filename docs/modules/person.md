@@ -201,6 +201,39 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Social-Forward Author Profiles** — On a blog or publication site, place a Person module at the bottom of article templates using the Theme Builder. Populate the name, position (such as "Senior Writer"), a short author bio, and link all relevant social profiles. Style the social icons with a bold accent color so they stand out, encouraging readers to follow the author.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/person` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Name | `attrs.name` | Person's display name |
+| Position | `attrs.position` | Job title or role |
+| Body | `attrs.content` | Biography or description text |
+| Image URL | `attrs.image_url` | Portrait or headshot image |
+| Facebook | `attrs.facebook_url` | Facebook profile link |
+| Twitter | `attrs.twitter_url` | Twitter/X profile link |
+| LinkedIn | `attrs.linkedin_url` | LinkedIn profile link |
+
+!!! tip "Module Selection Guidance"
+    For team member profiles with social links use Person; for general icon+text cards use Blurb; for customer quotes use Testimonial.
+
 ## Saving Your Work
 
 After configuring the Person module, click the green **Save** button at the bottom of the Visual Builder page settings bar. For team page layouts you plan to reuse, right-click the row containing your Person modules and choose **Save to Library** to store the entire team section as a reusable element. Individual person cards can also be saved independently if different pages need different team compositions.

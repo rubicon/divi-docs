@@ -206,6 +206,35 @@ add_action('wp_enqueue_scripts', function() {
 
 3. **Captioned Photo Gallery** — Enable both titles and captions to create an informative gallery suitable for event documentation or educational content. Style the caption text with a smaller font size and lighter color to create visual hierarchy between the title and description. Use two columns for a magazine-style layout.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/gallery` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Gallery IDs | `attrs.gallery_ids` | Comma-separated media attachment IDs |
+| Gallery Orderby | `attrs.gallery_orderby` | Image display order |
+| Fullwidth | `attrs.fullwidth` | Toggle fullwidth display mode |
+
+!!! tip "Module Selection Guidance"
+    For image galleries use Gallery; for project portfolios use Portfolio; for single featured images use Image.
+
 ## Saving Your Work
 
 After configuring the Gallery module, save your layout by clicking the green **Save** button at the bottom of the Visual Builder panel, or use the keyboard shortcut **Ctrl+S** (Windows) / **Cmd+S** (Mac). To reuse this configured gallery on other pages, right-click the module in the Visual Builder and select **Save to Library**. You can also copy and paste modules between pages using **Ctrl+C** / **Ctrl+V**.

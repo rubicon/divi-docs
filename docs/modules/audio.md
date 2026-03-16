@@ -179,6 +179,36 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Background Ambience Player** — Use a single Audio module in a sticky footer or sidebar section to provide ambient background audio. Style it with a minimal design, reduced spacing, and subtle colors so it does not compete with primary content.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/audio` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Audio URL | `attrs.audio` | Source URL of the audio file |
+| Title | `attrs.title` | Track or episode title |
+| Artist | `attrs.artist` | Artist or creator name |
+| Image URL | `attrs.image_url` | Cover artwork image URL |
+
+!!! tip "Module Selection Guidance"
+    For audio playback use Audio; for video use Video; for background music consider custom code.
+
 ## Saving Your Work
 
 After configuring the Audio module:

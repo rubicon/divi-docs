@@ -195,6 +195,35 @@ Add multiple pins to the map, one for each branch or service location. Give each
 
 Apply the grayscale CSS filter to the map for a muted, monochromatic appearance that blends with modern, minimalist page designs. Use the hover color-restore technique so the map comes to life when visitors interact with it. Round the container corners with border radius and add a subtle box shadow to frame the map as a design element rather than a utilitarian embed.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/map` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Address | `attrs.address` | Center map address for geocoding |
+| Zoom Level | `attrs.zoom_level` | Initial map zoom (1-22) |
+| Mouse Wheel | `attrs.mouse_wheel` | Enable/disable scroll zoom |
+
+!!! tip "Module Selection Guidance"
+    For maps in content columns use Map; for edge-to-edge maps use Fullwidth Map.
+
 ## Saving Your Work
 
 After configuring the Map module and adding your pins, click the green checkmark button at the bottom of the settings panel to apply your changes. Save the page using the save button in the Visual Builder toolbar or press Ctrl+S (Cmd+S on Mac). Preview the page on the front end to verify the map loads correctly and all pins appear at the expected locations.

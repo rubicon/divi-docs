@@ -176,6 +176,35 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Sticky Map Section** — Use the Advanced tab's Position settings to make the fullwidth section containing the map sticky, so it remains visible while visitors scroll through a list of location details in adjacent sections. This creates a split-view experience where the map updates context as users read about each location.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/fullwidth-map` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Address | `attrs.address` | Map center address or coordinates |
+| Zoom | `attrs.zoom_level` | Default map zoom level |
+| Mouse Wheel | `attrs.mouse_wheel` | Toggle mouse wheel zoom behavior |
+
+!!! tip "Module Selection Guidance"
+    For edge-to-edge maps use Fullwidth Map; for maps within content columns use Map.
+
 ## Saving Your Work
 
 After configuring the Fullwidth Map:

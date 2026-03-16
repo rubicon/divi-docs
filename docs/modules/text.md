@@ -210,6 +210,33 @@ add_filter( 'et_module_shortcode_output', 'divi_text_external_links', 10, 2 );
 
 3. **Inline HTML Embeds** — Switch to the text/HTML editing mode to paste embed codes for third-party services such as forms, maps, or social feeds. The Text module renders arbitrary HTML on the front end, making it a versatile fallback when no dedicated module exists for the content you need.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/text` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Body | `attrs.content` | Rich text content (HTML supported) |
+
+!!! tip "Module Selection Guidance"
+    For rich text content use Text; for heading-only use Heading; for icon+text combos use Blurb; for raw HTML/shortcodes use Code.
+
 ## Saving Your Work
 
 After editing your Text module content and design, click the green checkmark at the bottom of the settings panel to apply the changes. Save the page using the purple save button in the bottom dock of the Visual Builder, or use the keyboard shortcut `Ctrl + S` (Windows) or `Cmd + S` (Mac). If you plan to reuse the same text block configuration across multiple pages, save it to the Divi Library for quick access.

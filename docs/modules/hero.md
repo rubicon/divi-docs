@@ -191,6 +191,38 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Template Post Hero** — Use the Hero module in a single post template with the title field set to dynamic post title content. The subtitle can pull from a custom field (such as a tagline), and the background image can map to the featured image. This creates a consistent, visually rich header for every post without manual configuration.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/hero` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Title | `attrs.title` | Main hero heading text |
+| Subtitle | `attrs.subtitle` | Secondary heading text |
+| Body | `attrs.content` | Descriptive body content |
+| Button One Text | `attrs.button_one_text` | Primary CTA button label |
+| Button Two Text | `attrs.button_two_text` | Secondary CTA button label |
+| Image | `attrs.image` | Hero background or featured image |
+
+!!! tip "Module Selection Guidance"
+    For hero sections within content columns use Hero; for edge-to-edge heroes use Fullwidth Header; for rotating heroes use Slider.
+
 ## Saving Your Work
 
 After configuring the Hero module:

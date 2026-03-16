@@ -169,6 +169,34 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Multilingual Menu Switcher** — Use Divi 5 conditions to show different Menu modules depending on the visitor's language or locale. Assign each module a different WordPress menu that contains translated page links, giving multilingual sites a seamless switching experience without plugins.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/menu` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Menu ID | `attrs.menu_id` | WordPress menu ID to display |
+| Style | `attrs.menu_style` | Menu layout style variant |
+
+!!! tip "Module Selection Guidance"
+    For navigation within content areas use Menu; for full-width site navigation use Fullwidth Menu; for widget-based nav use Sidebar.
+
 ## Saving Your Work
 
 After configuring the Menu module to your liking, click the green **Save** button at the bottom of the Visual Builder page settings bar. For layouts you plan to reuse, right-click the module and choose **Save to Library** to store it as a reusable element. You can also save the entire page layout to the Divi Library for use on other pages across your site.

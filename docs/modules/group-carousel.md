@@ -196,6 +196,34 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Team Member Carousel** — Use center mode to spotlight the active team member while showing adjacent members at reduced opacity. Each slide group contains a circular profile image, name heading, title text, and social media icon links.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/group-carousel` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child groups | Nested blocks | Each carousel slide is a nested group block |
+| Autoplay | `attrs.autoplay` | Automatic slide rotation toggle |
+
+!!! tip "Module Selection Guidance"
+    For rotating groups of modules use Group Carousel; for image slideshows use Slider or Gallery; for static grouping use Group.
+
 ## Saving Your Work
 
 After configuring the Group Carousel module:

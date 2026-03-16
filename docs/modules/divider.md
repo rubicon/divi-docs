@@ -155,6 +155,35 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Invisible Vertical Spacer** — Disable the divider line and use only margin or padding to create precise vertical gaps between modules. This gives you pixel-level control over spacing without relying on row or section padding, which is useful inside complex multi-module layouts.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/divider` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Show Divider | `attrs.show_divider` | Toggle line visibility |
+| Divider Style | `attrs.divider_style` | CSS border style (solid, dashed, etc.) |
+| Divider Weight | `attrs.divider_weight` | Line thickness in pixels |
+
+!!! tip "Module Selection Guidance"
+    For visual separators use Divider; for invisible spacing adjust Spacing options on adjacent modules instead.
+
 ## Saving Your Work
 
 After configuring the divider:

@@ -190,6 +190,36 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Full-Width Banner Divider** — A full-width CTA used between content sections with a background image and a semi-transparent color overlay. Use the side-by-side CSS layout from the code examples to position text on the left and the button on the right. Works best in a fullwidth section or single-column row with no row padding.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/cta` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Title | `attrs.title` | CTA heading text |
+| Body | `attrs.content` | Description text between title and button |
+| Button Text | `attrs.button_text` | Label on the CTA button |
+| Button URL | `attrs.button_url` | Destination link for the button |
+
+!!! tip "Module Selection Guidance"
+    For heading+text+button combos use CTA; for icon+text use Blurb; for standalone buttons use Button.
+
 ## Saving Your Work
 
 After configuring the CTA:

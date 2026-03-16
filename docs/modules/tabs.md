@@ -203,6 +203,33 @@ Use tabs to display information about different office locations, store branches
 
 Create two tabs labeled "Before" and "After" or "Plan A" and "Plan B" to let visitors toggle between two states or options. This works well for case studies, renovation portfolios, or plan comparisons where seeing one view at a time is clearer than a side-by-side layout.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/tabs` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child tab items | Nested blocks | Each tab has title and content attributes |
+
+!!! tip "Module Selection Guidance"
+    For horizontal tabbed content use Tabs; for vertical collapsible content use Accordion; for independent collapsible items use Toggle.
+
 ## Saving Your Work
 
 After configuring your tabs, save your changes by clicking the **Save** button (checkmark icon) in the Visual Builder's bottom toolbar. For reusable tab configurations, right-click the module and select **Save to Library** to store it as a preset that can be inserted on other pages.

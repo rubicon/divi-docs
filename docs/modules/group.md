@@ -167,6 +167,33 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Tabbed Content Container** — Nest Groups inside a Tabs module to organize complex content blocks. Each tab panel's Group can contain its own layout of mixed modules, giving you full design control within each tab.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/group` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child modules | Nested blocks | Group contains child modules as nested block elements |
+
+!!! tip "Module Selection Guidance"
+    For grouping multiple modules as a single styled unit use Group; for rotating grouped content use Group Carousel; for tab-based organization use Tabs.
+
 ## Saving Your Work
 
 After configuring the Group module:

@@ -194,6 +194,34 @@ add_action('widgets_init', function() {
 
 3. **Widget-Powered Footer Sections** — Add multiple Sidebar modules across a multi-column footer row, each pulling from a different registered widget area. This lets you manage footer content (contact info, recent posts, quick links) entirely through the WordPress widget interface without editing the Divi template each time.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/sidebar` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Area | `attrs.area` | Which registered widget area to display |
+| Orientation | `attrs.orientation` | Separator position or layout orientation |
+
+!!! tip "Module Selection Guidance"
+    For displaying WordPress widget areas use Sidebar; for custom navigation use Menu; for search functionality use Search.
+
 ## Saving Your Work
 
 After configuring your sidebar module, click the green **Save** button in the bottom toolbar of the Visual Builder. Remember that the widget content itself is managed separately through Appearance > Widgets in the WordPress admin. Changes to widget assignments will be reflected wherever that widget area is used without needing to re-save the Divi layout.

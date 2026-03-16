@@ -201,6 +201,37 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Lead Magnet with Redirect** — Configure the success action to redirect to a thank-you page that delivers the promised resource (PDF download, video access, etc.). Use the title and body text to describe the free resource, and set the button text to something specific like "Download Free Guide." Add a footer text line about privacy to build trust.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/signup` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Provider | `attrs.provider` | Email marketing service provider |
+| List | `attrs.list` | Target mailing list or audience |
+| Title | `attrs.title` | Heading text above the form |
+| Body | `attrs.content` | Description text between title and fields |
+| Button Text | `attrs.button_text` | Submit button label |
+
+!!! tip "Module Selection Guidance"
+    For email marketing signups use Email Optin; for general data collection use Contact Form; for user login use Login.
+
 ## Saving Your Work
 
 After configuring the email optin form:

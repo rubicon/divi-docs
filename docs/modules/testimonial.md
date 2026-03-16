@@ -206,6 +206,37 @@ add_filter( 'et_module_shortcode_output', 'add_testimonial_stars', 10, 2 );
 
 3. **Rotating Testimonials** — Combine the Testimonial module with Divi's Slider module by placing individual testimonials on each slide. Alternatively, stack multiple toggles in a single column and use conditional display logic or JavaScript to cycle through them automatically.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/testimonial` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Author | `attrs.author` | Person giving the testimonial |
+| Job Title | `attrs.job_title` | Author's professional title |
+| Company | `attrs.company_name` | Author's organization |
+| Body | `attrs.content` | Testimonial quote text |
+| Portrait URL | `attrs.portrait_url` | Author headshot image |
+
+!!! tip "Module Selection Guidance"
+    For customer quotes with attribution use Testimonial; for team bios use Person; for general icon+text use Blurb.
+
 ## Saving Your Work
 
 After configuring your Testimonial module, click the green checkmark at the bottom of the settings panel to save the module settings. Then save the page using the purple save button in the bottom dock of the Visual Builder. You can also use keyboard shortcut `Ctrl + S` (Windows) or `Cmd + S` (Mac) to save quickly. Consider saving to the Divi Library if you plan to reuse the same testimonial configuration across multiple pages.

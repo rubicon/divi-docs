@@ -218,6 +218,36 @@ add_filter('woocommerce_product_query_meta_query', function($meta_query) {
 
 3. **Single-Category Product Page** — Use the Include Categories filter to show products from one category. Set a higher Posts Number (12-16) with 3 or 4 columns and enable pagination. Combine with a sidebar column containing category navigation or filters to create a complete shop experience within the Divi builder.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/shop` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Type | `attrs.type` | Product query type (recent, featured, sale, etc.) |
+| Posts Number | `attrs.posts_number` | Maximum products to display |
+| Columns | `attrs.columns_number` | Number of grid columns |
+| Orderby | `attrs.orderby` | Sort order field |
+
+!!! tip "Module Selection Guidance"
+    For WooCommerce product grids use Shop; for general post grids use Blog or Portfolio.
+
 ## Saving Your Work
 
 After configuring the Shop module, click the green **Save** button at the bottom of the Visual Builder interface. The module can be saved as a preset for consistent styling across multiple Shop instances, or added to your Divi Library for reuse on other pages by right-clicking and selecting **Save to Library**.

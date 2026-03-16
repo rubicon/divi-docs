@@ -297,6 +297,37 @@ document.addEventListener('DOMContentLoaded', function () {
 
 3. **Support Request with Conditional Fields** — Add fields for Name (Input, required), Email (Email, required), Order Number (Input), Issue Category (Select with options: Shipping, Product Defect, Return, Billing, Other), Description (Textarea, required), and Priority (Radio with options: Low, Normal, Urgent). Enable Conditional Logic on a "Return Address" field so it only appears when Issue Category is "Return." Use the Message Pattern to structure the email for quick parsing by your support team.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/contact-form` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Fields | `attrs.fields` | Form field configuration array |
+| Email | `attrs.email` | Recipient email address(es) |
+| Subject | `attrs.subject` | Notification email subject line |
+| Success Message | `attrs.success_message` | Post-submission confirmation text |
+| Redirect URL | `attrs.redirect_url` | Post-submission redirect destination |
+
+!!! tip "Module Selection Guidance"
+    For data collection use Contact Form; for email list signups use Email Optin; for user authentication use Login.
+
 ## Saving Your Work
 
 After configuring the Contact Form module:

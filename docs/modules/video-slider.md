@@ -173,6 +173,33 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Testimonial Video Collection** — Compile customer testimonial recordings into a single slider. Use consistent overlay images (e.g., each featuring the customer's name and company) to give visitors a quick sense of who is speaking before they click play.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/video-slider` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child video items | Nested blocks | Each item has video URL and overlay image |
+
+!!! tip "Module Selection Guidance"
+    For video collections use Video Slider; for single videos use Video; for image slideshows use Slider or Gallery.
+
 ## Saving Your Work
 
 After configuring your Video Slider module, save your changes using one of these methods:

@@ -224,6 +224,35 @@ add_filter( 'et_module_shortcode_output', 'add_toggle_faq_schema', 10, 2 );
 
 3. **Progressive Disclosure for Long Content** — Break lengthy content into logical sections using toggles. This works well for legal pages (terms of service, privacy policies), documentation, or detailed guides where visitors typically need only specific sections rather than reading everything end to end.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/toggle` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Title | `attrs.title` | Clickable toggle heading text |
+| Content | `attrs.content` | Collapsible body content |
+| Open | `attrs.open` | Default open/closed state |
+
+!!! tip "Module Selection Guidance"
+    For independently collapsible items use Toggle; for one-at-a-time collapsible groups use Accordion; for horizontal tabs use Tabs.
+
 ## Saving Your Work
 
 After configuring your Toggle module, click the green checkmark at the bottom of the settings panel to save the module settings. Save the page using the purple save button in the bottom dock of the Visual Builder, or use `Ctrl + S` (Windows) or `Cmd + S` (Mac). If you build a toggle with specific styling that you want to reuse, save it to the Divi Library as a reusable module.

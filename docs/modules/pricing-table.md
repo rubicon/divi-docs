@@ -184,6 +184,40 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Feature-Focused Comparison** — Use the pricing table feature list extensively, marking excluded items on lower tiers to create a clear visual comparison. Style excluded items with a lighter color and strikethrough so visitors immediately see the value of upgrading to a higher tier.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/pricing-tables` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Title | `attrs.title` | Plan name |
+| Subtitle | `attrs.subtitle` | Plan description or tagline |
+| Currency | `attrs.currency` | Currency symbol |
+| Per | `attrs.per` | Billing frequency label |
+| Price | `attrs.sum` | Numeric price value |
+| Button Text | `attrs.button_text` | CTA button label |
+| Button URL | `attrs.button_url` | CTA button destination |
+| Features | Child items | Individual feature list entries |
+
+!!! tip "Module Selection Guidance"
+    For side-by-side plan comparisons use Pricing Table; for single CTA blocks use Call to Action; for feature lists use Blurb or Toggle.
+
 ## Saving Your Work
 
 After configuring your pricing tables, click the green **Save** button in the bottom toolbar of the Visual Builder. For important layout changes, consider saving the section or row as a layout to reuse on other pages. You can also right-click the module in the layers panel and select **Save to Library** to store it as a reusable element.

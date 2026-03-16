@@ -182,6 +182,37 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Branded Template Header** — In a Divi 5 theme builder template, insert the Fullwidth Header with the title and subtitle set to dynamic content (post title and excerpt). Upload the site logo as the Logo Image and set a consistent brand-color background gradient, creating a unified header across all posts or pages that use the template.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/fullwidth-header` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Title | `attrs.title` | Main hero heading text |
+| Subhead | `attrs.subhead` | Subtitle text below the title |
+| Body | `attrs.content` | Body text content |
+| Button One Text | `attrs.button_one_text` | Primary CTA button label |
+| Button Two Text | `attrs.button_two_text` | Secondary CTA button label |
+
+!!! tip "Module Selection Guidance"
+    For full-width hero banners use Fullwidth Header; for content-width heroes consider Hero module; for rotating banners use Fullwidth Slider.
+
 ## Saving Your Work
 
 After configuring the Fullwidth Header:

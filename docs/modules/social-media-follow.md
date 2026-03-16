@@ -194,6 +194,33 @@ Enable text labels alongside the icons to display network names (e.g., "Follow o
 
 Add the module to a header row and align it to the right. Use small icon sizes with no background color, relying on a single icon color that matches your header text. This creates an unobtrusive row of social links that does not compete with the primary navigation.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/social-media-follow` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child network items | Nested blocks | Each item has network type and profile URL |
+
+!!! tip "Module Selection Guidance"
+    For social media profile links use Social Media Follow; for team profiles with social links use Person; for standalone icons use Icon.
+
 ## Saving Your Work
 
 After configuring your social media icons, save your changes by clicking the **Save** button (checkmark icon) in the Visual Builder's bottom toolbar. For reusable configurations, right-click the module and select **Save to Library** to store it as a preset that can be reused across your site.

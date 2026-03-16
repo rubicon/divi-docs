@@ -195,6 +195,33 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Contact Details Sidebar** — Create a compact vertical Icon List in a sidebar column with items for phone, email, address, and business hours. Use small, consistent icons and minimal body text. Link each item appropriately (tel: for phone, mailto: for email) at the item level for click-to-contact functionality.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/icon-list` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child items | Nested blocks | Each item is a nested block with its own icon and text |
+
+!!! tip "Module Selection Guidance"
+    For lists with custom icons per item use Icon List; for simple bullet lists use Text; for feature grids use Blurb modules in columns.
+
 ## Saving Your Work
 
 After configuring the Icon List module:

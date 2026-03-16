@@ -232,6 +232,35 @@ add_filter( 'et_module_shortcode_output', function( $output, $render_slug ) {
 
 3. **Related Posts Section** — In a Theme Builder post template, add a Blog module below the main content area. Filter it to the same category as the current post, set a low post count (3-4), and use Grid layout. Apply an offset of 1 to skip the current post if it would otherwise appear in the results. This creates a "You might also like" section.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/blog` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Posts Number | `attrs.posts_number` | Maximum posts to display per page |
+| Include Categories | `attrs.include_categories` | Filter posts by category IDs |
+| Show Content | `attrs.show_content` | Excerpt vs. full content display mode |
+
+!!! tip "Module Selection Guidance"
+    For post feeds use Blog; for project grids use Portfolio; for image-only grids use Gallery.
+
 ## Saving Your Work
 
 After configuring the Blog module:

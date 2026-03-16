@@ -183,6 +183,33 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Loop-Powered Archive Pagination** — On a blog archive or custom post type listing template, connect the Pagination module to a looped section that displays posts in a grid. The pagination controls handle page transitions for the loop, loading the next set of posts without requiring a separate archive navigation system.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/pagination` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| (Minimal) | Inherits from WP query context | Pagination behavior derived from the active WordPress query |
+
+!!! tip "Module Selection Guidance"
+    For post list pagination use Pagination with Blog or Portfolio modules; for prev/next post links use Post Navigation.
+
 ## Saving Your Work
 
 After configuring the Pagination module:

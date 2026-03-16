@@ -191,6 +191,35 @@ add_filter('pre_get_posts', function($query) {
 
 3. **Paginated Project Archive** — Enable pagination and set a conservative project count (6 or 9) to keep page load times fast when you have a large number of projects. Combine with a heading module above the portfolio to provide context, and style the pagination text to match your navigation design.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/filterable-portfolio` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Posts Number | `attrs.posts_number` | Maximum projects to display |
+| Include Categories | `attrs.include_categories` | Filter by project category IDs |
+| Show Title | `attrs.show_title` | Toggle project title display |
+
+!!! tip "Module Selection Guidance"
+    For portfolio grids with category filters use Filterable Portfolio; without filters use Portfolio; for blog posts use Blog.
+
 ## Saving Your Work
 
 After configuring the Filterable Portfolio module, save your layout by clicking the green **Save** button at the bottom of the Visual Builder panel, or use the keyboard shortcut **Ctrl+S** (Windows) / **Cmd+S** (Mac). To reuse this configured module on other pages, right-click the module in the Visual Builder and select **Save to Library**. You can also copy and paste modules between pages using **Ctrl+C** / **Ctrl+V**.

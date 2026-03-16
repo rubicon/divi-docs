@@ -228,6 +228,33 @@ Create slides without background images, using a solid background color instead.
 
 Dedicate each slide to a specific feature or service. Use a relevant background image with the overlay set to a branded color at roughly 70% opacity. Keep descriptions concise at two to three sentences and include a "Learn More" button linking to the corresponding detail page. This pattern works well at two-thirds or full column width.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/slider` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Child slides | Nested blocks | Each slide has heading, body, button, and image attributes |
+
+!!! tip "Module Selection Guidance"
+    For static content slideshows use Slider; for post-based slideshows use Post Slider; for edge-to-edge sliders use Fullwidth Slider; for video collections use Video Slider.
+
 ## Saving Your Work
 
 After configuring your slider, save your changes by clicking the **Save** button (checkmark icon) in the Visual Builder's bottom toolbar. For reusable slider configurations, right-click the module and select **Save to Library** to store it as a preset that can be inserted on other pages.

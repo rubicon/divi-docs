@@ -189,6 +189,34 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 3. **Full-Width Landing Page Search** — Create a hero section with a large heading and a Search module centered beneath it. Set the module width to 60-70% with center alignment, increase the field padding, and apply a subtle box shadow to create a prominent search experience similar to a search engine homepage.
 
+## AI Interaction Notes
+
+!!! warning "Create vs. Modify"
+    Modifying existing module content via REST API (`wp.apiFetch` PATCH) updates
+    title, body text, and settings attributes. **Creating new modules via REST API**
+    produces content that renders on the front end but may not appear in the Visual
+    Builder layer view. Use browser automation for reliable module creation.
+    See [REST API Content Playbook](../playbooks/rest-api-content.md).
+
+**Block identifier:** `divi/search` — *Needs verification on current build*
+
+| Operation | Method | Status | Notes |
+|-----------|--------|--------|-------|
+| Read content | Parse `post_content` block JSON | Observed | Use brace-depth parser — see [Content Encoding](../internals/content-encoding.md) |
+| Modify existing | `wp.apiFetch` PATCH on post endpoint | Observed | Update block attributes in `post_content` |
+| Create new | Browser automation (Playwright) | Observed | REST creation may break VB visibility |
+| Batch modify | Sequential REST requests | Needs Testing | See [REST API Content Playbook](../playbooks/rest-api-content.md) |
+
+**Key content attributes** — *JSON paths need verification*:
+
+| Attribute | JSON Path | Notes |
+|-----------|-----------|-------|
+| Placeholder | `attrs.placeholder` | Input field placeholder text |
+| Show Button | `attrs.show_button` | Toggle search submit button visibility |
+
+!!! tip "Module Selection Guidance"
+    For site search use Search module; for navigation use Menu; for widget-based search use Sidebar.
+
 ## Saving Your Work
 
 After configuring your search module, click the green **Save** button in the bottom toolbar of the Visual Builder. If the search module is part of a header or footer template, make sure to save the template itself so the search bar persists globally across your site.
