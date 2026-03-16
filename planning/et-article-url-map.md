@@ -59,18 +59,18 @@ Base URL: `https://help.elegantthemes.com/en/articles/`
 
 | Module | ET Article ID | ET URL | Planned File | Status |
 |--------|--------------|--------|-------------|--------|
-| Group | 11170855 | [Link](https://help.elegantthemes.com/en/articles/11170855) | modules/group.md | Planned |
-| Group Carousel | 11982051 | [Link](https://help.elegantthemes.com/en/articles/11982051) | modules/group-carousel.md | Planned |
-| Heading | 10315593 | [Link](https://help.elegantthemes.com/en/articles/10315593) | modules/heading.md | Planned |
-| Hero | 10369762 | [Link](https://help.elegantthemes.com/en/articles/10369762) | modules/hero.md | Planned |
-| Icon List | 11982062 | [Link](https://help.elegantthemes.com/en/articles/11982062) | modules/icon-list.md | Planned |
-| Lottie | 11982058 | [Link](https://help.elegantthemes.com/en/articles/11982058) | modules/lottie.md | Planned |
-| Pagination | 10358759 | [Link](https://help.elegantthemes.com/en/articles/10358759) | modules/pagination.md | Planned |
-| Post Carousel | 10373482 | [Link](https://help.elegantthemes.com/en/articles/10373482) | modules/post-carousel.md | Planned |
-| Post Content | 10587147 | [Link](https://help.elegantthemes.com/en/articles/10587147) | modules/post-content.md | Planned |
-| Link | 13713821 | [Link](https://help.elegantthemes.com/en/articles/13713821) | modules/link.md | Planned |
-| Dropdown | 13714244 | [Link](https://help.elegantthemes.com/en/articles/13714244) | modules/dropdown.md | Planned |
-| Before/After Image | 13714462 | [Link](https://help.elegantthemes.com/en/articles/13714462) | modules/before-after-image.md | Planned |
+| Group | 11170855 | [Link](https://help.elegantthemes.com/en/articles/11170855) | modules/group.md | Done |
+| Group Carousel | 11982051 | [Link](https://help.elegantthemes.com/en/articles/11982051) | modules/group-carousel.md | Done |
+| Heading | 10315593 | [Link](https://help.elegantthemes.com/en/articles/10315593) | modules/heading.md | Done |
+| Hero | 10369762 | [Link](https://help.elegantthemes.com/en/articles/10369762) | modules/hero.md | Done |
+| Icon List | 11982062 | [Link](https://help.elegantthemes.com/en/articles/11982062) | modules/icon-list.md | Done |
+| Lottie | 11982058 | [Link](https://help.elegantthemes.com/en/articles/11982058) | modules/lottie.md | Done |
+| Pagination | 10358759 | [Link](https://help.elegantthemes.com/en/articles/10358759) | modules/pagination.md | Done |
+| Post Carousel | 10373482 | [Link](https://help.elegantthemes.com/en/articles/10373482) | modules/post-carousel.md | Done |
+| Post Content | 10587147 | [Link](https://help.elegantthemes.com/en/articles/10587147) | modules/post-content.md | Done |
+| Link | 13713821 | [Link](https://help.elegantthemes.com/en/articles/13713821) | modules/link.md | Done |
+| Dropdown | 13714244 | [Link](https://help.elegantthemes.com/en/articles/13714244) | modules/dropdown.md | Done |
+| Before/After Image | 13714462 | [Link](https://help.elegantthemes.com/en/articles/13714462) | modules/before-after-image.md | Done |
 
 ---
 
@@ -78,48 +78,48 @@ Base URL: `https://help.elegantthemes.com/en/articles/`
 
 | Options Group | ET Article ID | ET URL | Our File | Status |
 |--------------|--------------|--------|----------|--------|
-| Background | 10063358 | [Link](https://help.elegantthemes.com/en/articles/10063358) | options-groups/background.md | Planned |
-| Meta | 10066900 | [Link](https://help.elegantthemes.com/en/articles/10066900) | options-groups/meta.md | Planned |
-| Title Text | 10066965 | [Link](https://help.elegantthemes.com/en/articles/10066965) | options-groups/title-text.md | Planned |
-| Toggle | 10101806 | [Link](https://help.elegantthemes.com/en/articles/10101806) | options-groups/toggle.md | Planned |
-| Accordion Icon | 10101739 | [Link](https://help.elegantthemes.com/en/articles/10101739) | options-groups/accordion-icon.md | Planned |
-| Toggle Icon | 10101671 | [Link](https://help.elegantthemes.com/en/articles/10101671) | options-groups/toggle-icon.md | Planned |
-| Closed Title Text | 10102283 | [Link](https://help.elegantthemes.com/en/articles/10102283) | options-groups/closed-title-text.md | Planned |
-| Text (Design) | 10102451 | [Link](https://help.elegantthemes.com/en/articles/10102451) | options-groups/text.md | Planned |
-| Sizing | 10102469 | [Link](https://help.elegantthemes.com/en/articles/10102469) | options-groups/sizing.md | Planned |
-| Spacing | 10102490 | [Link](https://help.elegantthemes.com/en/articles/10102490) | options-groups/spacing.md | Planned |
-| Border | 10102574 | [Link](https://help.elegantthemes.com/en/articles/10102574) | options-groups/border.md | Planned |
-| Box Shadow | 10102594 | [Link](https://help.elegantthemes.com/en/articles/10102594) | options-groups/box-shadow.md | Planned |
-| Transform | 10102613 | [Link](https://help.elegantthemes.com/en/articles/10102613) | options-groups/transform.md | Planned |
-| Animation | 10102631 | [Link](https://help.elegantthemes.com/en/articles/10102631) | options-groups/animation.md | Planned |
-| Conditions | 10102758 | [Link](https://help.elegantthemes.com/en/articles/10102758) | options-groups/conditions.md | Planned |
-| Transitions | 10102770 | [Link](https://help.elegantthemes.com/en/articles/10102770) | options-groups/transitions.md | Planned |
-| Position | 10102783 | [Link](https://help.elegantthemes.com/en/articles/10102783) | options-groups/position.md | Planned |
-| Scroll Effects | 10102792 | [Link](https://help.elegantthemes.com/en/articles/10102792) | options-groups/scroll-effects.md | Planned |
-| Visibility | 10102735 | [Link](https://help.elegantthemes.com/en/articles/10102735) | options-groups/visibility.md | Planned |
-| CSS | 10102722 | [Link](https://help.elegantthemes.com/en/articles/10102722) | options-groups/css.md | Planned |
-| Attributes | 10102703 | [Link](https://help.elegantthemes.com/en/articles/10102703) | options-groups/attributes.md | Planned |
-| Filters | 10102602 | [Link](https://help.elegantthemes.com/en/articles/10102602) | options-groups/filters.md | Planned |
-| Body Text | 10101904 | [Link](https://help.elegantthemes.com/en/articles/10101904) | options-groups/body-text.md | Planned |
-| Link | 10066994 | [Link](https://help.elegantthemes.com/en/articles/10066994) | options-groups/link.md | Planned |
-| Percentage Text | 10200244 | [Link](https://help.elegantthemes.com/en/articles/10200244) | options-groups/percentage-text.md | Planned |
-| Elements | 10248725 | [Link](https://help.elegantthemes.com/en/articles/10248725) | options-groups/elements.md | Planned |
-| Overlay | 10248734 | [Link](https://help.elegantthemes.com/en/articles/10248734) | options-groups/overlay.md | Planned |
-| Image | 10248754 | [Link](https://help.elegantthemes.com/en/articles/10248754) | options-groups/image.md | Planned |
-| Meta Text | 10248762 | [Link](https://help.elegantthemes.com/en/articles/10248762) | options-groups/meta-text.md | Planned |
-| Read More | 10248771 | [Link](https://help.elegantthemes.com/en/articles/10248771) | options-groups/read-more.md | Planned |
-| Pagination Text | 10248789 | [Link](https://help.elegantthemes.com/en/articles/10248789) | options-groups/pagination-text.md | Planned |
-| Image & Icon | 10259617 | [Link](https://help.elegantthemes.com/en/articles/10259617) | options-groups/image-icon.md | Planned |
-| Button | 10259854 | [Link](https://help.elegantthemes.com/en/articles/10259854) | options-groups/button.md | Planned |
-| Attribute | 10259880 | [Link](https://help.elegantthemes.com/en/articles/10259880) | options-groups/attribute.md | Planned |
-| Number Text | 10260390 | [Link](https://help.elegantthemes.com/en/articles/10260390) | options-groups/number-text.md | Planned |
-| Fields | 10260887 | [Link](https://help.elegantthemes.com/en/articles/10260887) | options-groups/fields.md | Planned |
-| Email | 10261161 | [Link](https://help.elegantthemes.com/en/articles/10261161) | options-groups/email.md | Planned |
-| Form Field Content | 10272945 | [Link](https://help.elegantthemes.com/en/articles/10272945) | options-groups/form-field-content.md | Planned |
-| Spam Protection | 10273044 | [Link](https://help.elegantthemes.com/en/articles/10273044) | options-groups/spam-protection.md | Planned |
-| Menu Text | 10353617 | [Link](https://help.elegantthemes.com/en/articles/10353617) | options-groups/menu-text.md | Planned |
-| Heading Text | 10365216 | [Link](https://help.elegantthemes.com/en/articles/10365216) | options-groups/heading-text.md | Planned |
-| Content | 10248683 | [Link](https://help.elegantthemes.com/en/articles/10248683) | options-groups/content.md | Planned |
+| Background | 10063358 | [Link](https://help.elegantthemes.com/en/articles/10063358) | options-groups/background.md | Done |
+| Meta | 10066900 | [Link](https://help.elegantthemes.com/en/articles/10066900) | options-groups/meta.md | Done |
+| Title Text | 10066965 | [Link](https://help.elegantthemes.com/en/articles/10066965) | options-groups/title-text.md | Done |
+| Toggle | 10101806 | [Link](https://help.elegantthemes.com/en/articles/10101806) | options-groups/toggle.md | Done |
+| Accordion Icon | 10101739 | [Link](https://help.elegantthemes.com/en/articles/10101739) | options-groups/accordion-icon.md | Done |
+| Toggle Icon | 10101671 | [Link](https://help.elegantthemes.com/en/articles/10101671) | options-groups/toggle-icon.md | Done |
+| Closed Title Text | 10102283 | [Link](https://help.elegantthemes.com/en/articles/10102283) | options-groups/closed-title-text.md | Done |
+| Text (Design) | 10102451 | [Link](https://help.elegantthemes.com/en/articles/10102451) | options-groups/text.md | Done |
+| Sizing | 10102469 | [Link](https://help.elegantthemes.com/en/articles/10102469) | options-groups/sizing.md | Done |
+| Spacing | 10102490 | [Link](https://help.elegantthemes.com/en/articles/10102490) | options-groups/spacing.md | Done |
+| Border | 10102574 | [Link](https://help.elegantthemes.com/en/articles/10102574) | options-groups/border.md | Done |
+| Box Shadow | 10102594 | [Link](https://help.elegantthemes.com/en/articles/10102594) | options-groups/box-shadow.md | Done |
+| Transform | 10102613 | [Link](https://help.elegantthemes.com/en/articles/10102613) | options-groups/transform.md | Done |
+| Animation | 10102631 | [Link](https://help.elegantthemes.com/en/articles/10102631) | options-groups/animation.md | Done |
+| Conditions | 10102758 | [Link](https://help.elegantthemes.com/en/articles/10102758) | options-groups/conditions.md | Done |
+| Transitions | 10102770 | [Link](https://help.elegantthemes.com/en/articles/10102770) | options-groups/transitions.md | Done |
+| Position | 10102783 | [Link](https://help.elegantthemes.com/en/articles/10102783) | options-groups/position.md | Done |
+| Scroll Effects | 10102792 | [Link](https://help.elegantthemes.com/en/articles/10102792) | options-groups/scroll-effects.md | Done |
+| Visibility | 10102735 | [Link](https://help.elegantthemes.com/en/articles/10102735) | options-groups/visibility.md | Done |
+| CSS | 10102722 | [Link](https://help.elegantthemes.com/en/articles/10102722) | options-groups/css.md | Done |
+| Attributes | 10102703 | [Link](https://help.elegantthemes.com/en/articles/10102703) | options-groups/attributes.md | Done |
+| Filters | 10102602 | [Link](https://help.elegantthemes.com/en/articles/10102602) | options-groups/filters.md | Done |
+| Body Text | 10101904 | [Link](https://help.elegantthemes.com/en/articles/10101904) | options-groups/body-text.md | Done |
+| Link | 10066994 | [Link](https://help.elegantthemes.com/en/articles/10066994) | options-groups/link.md | Done |
+| Percentage Text | 10200244 | [Link](https://help.elegantthemes.com/en/articles/10200244) | options-groups/percentage-text.md | Done |
+| Elements | 10248725 | [Link](https://help.elegantthemes.com/en/articles/10248725) | options-groups/elements.md | Done |
+| Overlay | 10248734 | [Link](https://help.elegantthemes.com/en/articles/10248734) | options-groups/overlay.md | Done |
+| Image | 10248754 | [Link](https://help.elegantthemes.com/en/articles/10248754) | options-groups/image.md | Done |
+| Meta Text | 10248762 | [Link](https://help.elegantthemes.com/en/articles/10248762) | options-groups/meta-text.md | Done |
+| Read More | 10248771 | [Link](https://help.elegantthemes.com/en/articles/10248771) | options-groups/read-more.md | Done |
+| Pagination Text | 10248789 | [Link](https://help.elegantthemes.com/en/articles/10248789) | options-groups/pagination-text.md | Done |
+| Image & Icon | 10259617 | [Link](https://help.elegantthemes.com/en/articles/10259617) | options-groups/image-icon.md | Done |
+| Button | 10259854 | [Link](https://help.elegantthemes.com/en/articles/10259854) | options-groups/button.md | Done |
+| Attribute | 10259880 | [Link](https://help.elegantthemes.com/en/articles/10259880) | options-groups/attribute.md | Done |
+| Number Text | 10260390 | [Link](https://help.elegantthemes.com/en/articles/10260390) | options-groups/number-text.md | Done |
+| Fields | 10260887 | [Link](https://help.elegantthemes.com/en/articles/10260887) | options-groups/fields.md | Done |
+| Email | 10261161 | [Link](https://help.elegantthemes.com/en/articles/10261161) | options-groups/email.md | Done |
+| Form Field Content | 10272945 | [Link](https://help.elegantthemes.com/en/articles/10272945) | options-groups/form-field-content.md | Done |
+| Spam Protection | 10273044 | [Link](https://help.elegantthemes.com/en/articles/10273044) | options-groups/spam-protection.md | Done |
+| Menu Text | 10353617 | [Link](https://help.elegantthemes.com/en/articles/10353617) | options-groups/menu-text.md | Done |
+| Heading Text | 10365216 | [Link](https://help.elegantthemes.com/en/articles/10365216) | options-groups/heading-text.md | Done |
+| Content | 10248683 | [Link](https://help.elegantthemes.com/en/articles/10248683) | options-groups/content.md | Done |
 
 ---
 
@@ -127,8 +127,8 @@ Base URL: `https://help.elegantthemes.com/en/articles/`
 
 | Topic | Collection | Articles | Our File | Status |
 |-------|-----------|----------|----------|--------|
-| Flexbox Layout System | [Collection](https://help.elegantthemes.com/en/collections/13895918-flexbox-layout-system) | 10 | builder/flexbox.md | Planned |
-| CSS Grid Layout System | [Collection](https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system) | 2 | builder/css-grid.md | Planned |
+| Flexbox Layout System | [Collection](https://help.elegantthemes.com/en/collections/13895918-flexbox-layout-system) | 10 | builder/flexbox.md | Done |
+| CSS Grid Layout System | [Collection](https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system) | 2 | builder/css-grid.md | Done |
 
 ---
 

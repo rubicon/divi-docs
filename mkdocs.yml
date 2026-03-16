@@ -176,6 +176,52 @@ nav:
     - Gradient Builder: builder/gradient-builder.md
     - Condition Options: builder/condition-options.md
     - Support Center: builder/support-center.md
+    - Flexbox Layout System: builder/flexbox.md
+    - CSS Grid Layout System: builder/css-grid.md
+  - Options Groups:
+    - Overview: options-groups/index.md
+    - Background: options-groups/background.md
+    - Sizing: options-groups/sizing.md
+    - Spacing: options-groups/spacing.md
+    - Border: options-groups/border.md
+    - Box Shadow: options-groups/box-shadow.md
+    - Text: options-groups/text.md
+    - Filters: options-groups/filters.md
+    - Transform: options-groups/transform.md
+    - Animation: options-groups/animation.md
+    - Transitions: options-groups/transitions.md
+    - Position: options-groups/position.md
+    - Scroll Effects: options-groups/scroll-effects.md
+    - Visibility: options-groups/visibility.md
+    - Conditions: options-groups/conditions.md
+    - CSS: options-groups/css.md
+    - Attributes: options-groups/attributes.md
+    - Title Text: options-groups/title-text.md
+    - Body Text: options-groups/body-text.md
+    - Closed Title Text: options-groups/closed-title-text.md
+    - Heading Text: options-groups/heading-text.md
+    - Meta Text: options-groups/meta-text.md
+    - Menu Text: options-groups/menu-text.md
+    - Number Text: options-groups/number-text.md
+    - Percentage Text: options-groups/percentage-text.md
+    - Pagination Text: options-groups/pagination-text.md
+    - Toggle: options-groups/toggle.md
+    - Accordion Icon: options-groups/accordion-icon.md
+    - Toggle Icon: options-groups/toggle-icon.md
+    - Button: options-groups/button.md
+    - Image: options-groups/image.md
+    - Image & Icon: options-groups/image-icon.md
+    - Overlay: options-groups/overlay.md
+    - Elements: options-groups/elements.md
+    - Content: options-groups/content.md
+    - Read More: options-groups/read-more.md
+    - Email: options-groups/email.md
+    - Spam Protection: options-groups/spam-protection.md
+    - Attribute: options-groups/attribute.md
+    - Fields: options-groups/fields.md
+    - Form Field Content: options-groups/form-field-content.md
+    - Meta: options-groups/meta.md
+    - Link: options-groups/link.md
   - API Reference:
     - Overview: api/index.md
     - Hooks & Filters: api/hooks-filters.md
