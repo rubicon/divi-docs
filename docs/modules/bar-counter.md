@@ -57,7 +57,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Bar Counters" in the module picker or locate it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -78,7 +77,6 @@ The Content tab controls individual bar items, visual elements, link behavior, b
 | Meta | admin label | Set an internal admin label to identify this module in the Visual Builder's layer panel and search. |
 
 <!-- ![Bar Counter Content tab settings](../assets/screenshots/modules/bar-counter/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 #### Individual Bar Item Settings
 
@@ -117,7 +115,6 @@ The Design tab controls the visual appearance of the bars, text, and overall mod
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Bar Counter Design tab settings](../assets/screenshots/modules/bar-counter/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -138,7 +135,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Bar Counter Advanced tab settings](../assets/screenshots/modules/bar-counter/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

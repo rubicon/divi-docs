@@ -55,7 +55,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Lottie" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -80,7 +79,6 @@ The Content tab controls the animation file, playback behavior, link settings, a
 | Meta | admin label | Set an admin label and control Visual Builder visibility. |
 
 <!-- ![Lottie Content tab settings](../assets/screenshots/modules/lottie/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -100,7 +98,6 @@ The Design tab controls the module's dimensions, spacing, borders, and visual ef
 | [Animation](../options-groups/animation.md) | Entrance animation styles (separate from Lottie playback) |
 
 <!-- ![Lottie Design tab settings](../assets/screenshots/modules/lottie/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -121,7 +118,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Lottie Advanced tab settings](../assets/screenshots/modules/lottie/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

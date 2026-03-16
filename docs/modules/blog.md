@@ -57,7 +57,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Blog" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -77,7 +76,6 @@ The Content tab controls which posts appear, what information is shown, and how 
 | Meta | admin label | Assign a custom admin label to the module for easier identification in the Visual Builder layer panel. Force visibility in the builder interface. |
 
 <!-- ![Blog Content tab settings](../assets/screenshots/modules/blog/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 #### Blog Content Settings Detail
 
@@ -129,7 +127,6 @@ The Design tab provides full visual control over the blog's layout mode, image o
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Blog Design tab settings](../assets/screenshots/modules/blog/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -150,7 +147,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

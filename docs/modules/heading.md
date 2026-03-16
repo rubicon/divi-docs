@@ -55,7 +55,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Heading" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -75,7 +74,6 @@ The Content tab controls the heading text, link behavior, background, and module
 | Meta | admin label | Set an admin label for identification in the Visual Builder layer panel. Controls builder-only visibility. |
 
 <!-- ![Heading Content tab settings](../assets/screenshots/modules/heading/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -101,7 +99,6 @@ The Design tab controls the heading's typography, dimensions, spacing, and visua
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Heading Design tab settings](../assets/screenshots/modules/heading/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -122,7 +119,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, sem
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Heading Advanced tab settings](../assets/screenshots/modules/heading/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

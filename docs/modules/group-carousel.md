@@ -55,7 +55,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Group Carousel" in the module picker or locate it in the Layout Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -83,7 +82,6 @@ The Content tab controls the carousel slides, rotation behavior, navigation togg
 | Meta | admin label | Set an admin label and control Visual Builder visibility. |
 
 <!-- ![Group Carousel Content tab settings](../assets/screenshots/modules/group-carousel/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -116,7 +114,6 @@ The Design tab controls the visual appearance of navigation elements, individual
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Group Carousel Design tab settings](../assets/screenshots/modules/group-carousel/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -137,7 +134,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Group Carousel Advanced tab settings](../assets/screenshots/modules/group-carousel/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

@@ -58,7 +58,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Blurb" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -79,7 +78,6 @@ The Content tab controls the text, visual media, linking behavior, background, a
 | Meta | admin label | Assign a custom admin label to identify the module in the Visual Builder's layer panel. Force visibility within the builder interface for easier editing. |
 
 <!-- ![Blurb Content tab settings](../assets/screenshots/modules/blurb/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -107,7 +105,6 @@ The Design tab provides full visual control over the icon/image appearance, typo
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Blurb Design tab settings](../assets/screenshots/modules/blurb/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -128,7 +125,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Blurb Advanced tab settings](../assets/screenshots/modules/blurb/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

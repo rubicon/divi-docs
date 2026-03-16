@@ -57,7 +57,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Audio" in the module picker or locate it in the Media category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -79,7 +78,6 @@ The Content tab controls the audio source, accompanying text and image, link beh
 | Meta | admin label | Set an internal admin label to identify this module in the Visual Builder's layer panel and search. |
 
 <!-- ![Audio Content tab settings](../assets/screenshots/modules/audio/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -107,7 +105,6 @@ The Design tab controls all visual styling for the audio player and its surround
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Audio Design tab settings](../assets/screenshots/modules/audio/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -128,7 +125,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Audio Advanced tab settings](../assets/screenshots/modules/audio/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

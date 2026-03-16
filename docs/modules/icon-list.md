@@ -55,7 +55,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Icon List" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -75,7 +74,6 @@ The Content tab controls the list items, link behavior, background, and module m
 | Meta | admin label | Set an admin label for identification in the Visual Builder. Controls builder-only visibility. |
 
 <!-- ![Icon List Content tab settings](../assets/screenshots/modules/icon-list/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 #### Individual Item Settings
 
@@ -114,7 +112,6 @@ The Design tab controls the visual appearance of icons, text, layout mode, and o
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Icon List Design tab settings](../assets/screenshots/modules/icon-list/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -135,7 +132,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Icon List Advanced tab settings](../assets/screenshots/modules/icon-list/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

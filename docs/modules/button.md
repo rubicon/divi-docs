@@ -57,7 +57,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Button" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -76,7 +75,6 @@ The Content tab controls the button's label text, destination link, and module m
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. Also controls Visual Builder visibility. |
 
 <!-- ![Button Content tab settings](../assets/screenshots/modules/button/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -101,7 +99,6 @@ The Design tab controls the button's visual appearance including alignment, typo
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Button Design tab settings](../assets/screenshots/modules/button/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -122,7 +119,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Button Advanced tab settings](../assets/screenshots/modules/button/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

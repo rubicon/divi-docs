@@ -55,7 +55,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Accordion" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -76,7 +75,6 @@ The Content tab controls the accordion's items, icon, link behavior, background,
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. |
 
 <!-- ![Accordion Content tab settings](../assets/screenshots/modules/accordion/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 #### Individual Accordion Item Settings
 
@@ -115,7 +113,6 @@ The Design tab controls the visual styling of the accordion and its contents.
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Accordion Design tab settings](../assets/screenshots/modules/accordion/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -136,7 +133,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Accordion Advanced tab settings](../assets/screenshots/modules/accordion/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Managing Accordion Items
 
@@ -147,13 +143,11 @@ Each accordion module starts with a set of default items. You can:
 3. **Delete an item** — Click the trash icon on the item you want to remove.
 4. **Reorder items** — Drag items by their handle to rearrange the display order.
 
-<!-- TODO: Add screenshot showing the add/edit/delete/reorder icons -->
 
 ## Styling Individual Items
 
 Each accordion item can be styled independently from the parent module. Click the pencil icon on any item, then navigate to that item's **Design** tab to override the parent styles for just that item. This is useful when you want to visually distinguish a specific item — for example, highlighting a "most popular" FAQ or drawing attention to an important step.
 
-<!-- TODO: Add animated GIF demonstrating individual item styling -->
 
 ## Code Examples
 

@@ -55,7 +55,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Hero" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -76,7 +75,6 @@ The Content tab controls the hero's text elements, images, link behavior, backgr
 | Meta | admin label | Set an admin label and control Visual Builder visibility. |
 
 <!-- ![Hero Content tab settings](../assets/screenshots/modules/hero/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -110,7 +108,6 @@ The Design tab controls layout, visual appearance of individual text elements, b
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Hero Design tab settings](../assets/screenshots/modules/hero/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -131,7 +128,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Hero Advanced tab settings](../assets/screenshots/modules/hero/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 

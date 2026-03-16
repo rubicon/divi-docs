@@ -57,7 +57,6 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Circle Counter" in the module picker or find it in the Content Elements category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
@@ -79,7 +78,6 @@ The Content tab controls the counter's title, number value, display options, lin
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. Also controls Visual Builder visibility. |
 
 <!-- ![Circle Counter Content tab settings](../assets/screenshots/modules/circle-counter/settings-content.png){ loading=lazy } -->
-<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
@@ -107,7 +105,6 @@ The Design tab controls the circle's colors, text styling, module dimensions, an
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Circle Counter Design tab settings](../assets/screenshots/modules/circle-counter/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
@@ -128,7 +125,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Circle Counter Advanced tab settings](../assets/screenshots/modules/circle-counter/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 
