@@ -26,11 +26,18 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Divider](divider.md) | Horizontal divider line | ✅ Documented |
 | [Filterable Portfolio](filterable-portfolio.md) | Portfolio with category filters | ✅ Documented |
 | [Gallery](gallery.md) | Image gallery grid | ✅ Documented |
+| [Group](group.md) | Lightweight container for wrapping child modules | ✅ Documented |
+| [Group Carousel](group-carousel.md) | Grouped modules in a horizontal scrollable carousel | ✅ Documented |
+| [Heading](heading.md) | Customizable heading text element | ✅ Documented |
+| [Hero](hero.md) | Prominent landing section with title, buttons, and images | ✅ Documented |
 | [Icon](icon.md) | Display a single icon | ✅ Documented |
+| [Icon List](icon-list.md) | Styled list with custom icons per item | ✅ Documented |
 | [Image](image.md) | Display a single image | ✅ Documented |
+| [Lottie](lottie.md) | Lightweight JSON/SVG animation player | ✅ Documented |
 | [Map](map.md) | Google Maps embed | ✅ Documented |
 | [Menu](menu.md) | Navigation menu display | ✅ Documented |
 | [Number Counter](number-counter.md) | Animated number counter | ✅ Documented |
+| [Pagination](pagination.md) | Previous/next navigation for posts and loops | ✅ Documented |
 | [Person](person.md) | Team member profile card | ✅ Documented |
 | [Portfolio](portfolio.md) | Portfolio grid display | ✅ Documented |
 | [Post Navigation](post-navigation.md) | Previous/next post links | ✅ Documented |

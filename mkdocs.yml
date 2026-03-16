@@ -97,11 +97,18 @@ nav:
       - Divider: modules/divider.md
       - Filterable Portfolio: modules/filterable-portfolio.md
       - Gallery: modules/gallery.md
+      - Group: modules/group.md
+      - Group Carousel: modules/group-carousel.md
+      - Heading: modules/heading.md
+      - Hero: modules/hero.md
       - Icon: modules/icon.md
+      - Icon List: modules/icon-list.md
       - Image: modules/image.md
+      - Lottie: modules/lottie.md
       - Map: modules/map.md
       - Menu: modules/menu.md
       - Number Counter: modules/number-counter.md
+      - Pagination: modules/pagination.md
       - Person: modules/person.md
       - Portfolio: modules/portfolio.md
       - Post Navigation: modules/post-navigation.md
