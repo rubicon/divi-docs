@@ -464,8 +464,16 @@ def scan_et_help_center(docs_dir: str) -> list:
     Returns list of dicts with keys: title, url, collection, suggested_file, category.
     """
     known_urls = get_known_source_urls(docs_dir)
-    # Normalize to set of URLs without trailing slash
-    known_set = {u.rstrip("/") for u in known_urls}
+    # Extract article IDs for fuzzy matching — handles both
+    # "articles/10063343" and "articles/10063343-the-accordion-module" formats
+    known_ids = set()
+    known_set = set()
+    for u in known_urls:
+        u_clean = u.rstrip("/")
+        known_set.add(u_clean)
+        m = re.search(r"/articles/(\d+)", u_clean)
+        if m:
+            known_ids.add(m.group(1))
 
     new_articles = []
     total_collections = len(ET_HELP_CENTER_COLLECTIONS)
@@ -495,8 +503,11 @@ def scan_et_help_center(docs_dir: str) -> list:
 
             full_url = full_url.rstrip("/")
 
-            # Skip if we already have this
+            # Skip if we already have this (match by article ID, not full URL)
             if full_url in known_set:
+                continue
+            article_id_match = re.search(r"/articles/(\d+)", full_url)
+            if article_id_match and article_id_match.group(1) in known_ids:
                 continue
 
             title = a_tag.get_text(strip=True)
@@ -518,12 +529,14 @@ def scan_et_help_center(docs_dir: str) -> list:
 
         time.sleep(REQUEST_DELAY)
 
-    # Deduplicate by URL
-    seen = set()
+    # Deduplicate by article ID
+    seen_ids = set()
     unique = []
     for article in new_articles:
-        if article["url"] not in seen:
-            seen.add(article["url"])
+        aid = re.search(r"/articles/(\d+)", article["url"])
+        key = aid.group(1) if aid else article["url"]
+        if key not in seen_ids:
+            seen_ids.add(key)
             unique.append(article)
 
     return unique
