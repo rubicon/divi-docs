@@ -66,91 +66,46 @@ The Content tab controls which menu is displayed, whether a logo and utility ico
 
 The Design tab provides granular control over layout direction, typography, dropdown styling, icon appearance, logo treatment, and all standard visual properties.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Layout — Style** | select | Choose the overall menu layout style, such as horizontal or vertical orientation |
-| **Layout — Dropdown Direction** | select | Set whether dropdown submenus open downward, upward, or to the side |
-| **Menu Text — Font** | font picker | Select the font family for top-level menu links |
-| **Menu Text — Font Weight** | select | Set the weight (light, regular, bold, etc.) of menu link text |
-| **Menu Text — Font Style** | toggles | Apply italic, uppercase, underline, or strikethrough to menu text |
-| **Menu Text — Text Color** | color | Set the default color for top-level menu links |
-| **Menu Text — Text Size** | range | Adjust the font size of menu link text with responsive controls |
-| **Menu Text — Letter Spacing** | range | Control the spacing between individual characters in menu links |
-| **Menu Text — Line Height** | range | Set the vertical line height for menu link text |
-| **Menu Text — Text Shadow** | composite | Apply a shadow effect behind menu link text |
-| **Dropdown Menu — Line Color** | color | Set the color of separator lines between dropdown menu items |
-| **Dropdown Menu — Text Color** | color | Choose the text color for items inside dropdown submenus |
-| **Dropdown Menu — Active Link Color** | color | Set the color applied to the currently active link in a dropdown |
-| **Dropdown Menu — Mobile Background Color** | color | Specify the background color for the mobile hamburger menu panel |
-| **Icons — Shopping Cart Color** | color | Set the color of the shopping cart icon |
-| **Icons — Search Icon Color** | color | Set the color of the search icon |
-| **Icons — Hamburger Menu Icon Color** | color | Set the color of the mobile hamburger menu toggle icon |
-| **Icons — Font Size** | range | Adjust the size of all menu utility icons |
-| **Logo — Border Radius** | range | Round the corners of the logo image |
-| **Logo — Border Styles** | composite | Add border width, style, and color around the logo |
-| **Logo — Box Shadow** | composite | Apply a shadow beneath or around the logo image |
-| **Logo — Image Filters** | composite | Adjust hue, saturation, brightness, contrast, invert, sepia, and opacity on the logo |
-| **Sizing — Width** | range | Set the width of the module |
-| **Sizing — Max Width** | range | Define the maximum width the module can reach |
-| **Sizing — Min Height** | range | Set a minimum height for the module container |
-| **Sizing — Height** | range | Set an explicit height for the module |
-| **Sizing — Alignment** | select | Align the module to the left, center, or right within its parent |
-| **Spacing — Margin** | range (4 sides) | Add space outside the module on each side |
-| **Spacing — Padding** | range (4 sides) | Add space inside the module on each side |
-| **Border — Border Width** | range | Set the width of the module border |
-| **Border — Border Color** | color | Choose the color for the module border |
-| **Border — Border Style** | select | Pick a border style such as solid, dashed, or dotted |
-| **Border — Border Radius** | range | Round the corners of the module container |
-| **Box Shadow** | composite | Add a shadow effect beneath or around the entire module |
-| **Filters — Hue** | range | Shift the hue of the module content |
-| **Filters — Saturation** | range | Adjust color saturation |
-| **Filters — Brightness** | range | Increase or decrease brightness |
-| **Filters — Contrast** | range | Adjust contrast levels |
-| **Filters — Invert** | range | Invert the colors of the module |
-| **Filters — Sepia** | range | Apply a sepia tone |
-| **Filters — Opacity** | range | Control overall opacity |
-| **Filters — Blur** | range | Apply a blur effect |
-| **Filters — Blend Mode** | select | Set how the module blends with elements behind it |
-| **Transform — Scale** | range | Scale the module up or down |
-| **Transform — Translate** | range | Move the module along the X and Y axes |
-| **Transform — Rotate** | range | Rotate the module by a specified number of degrees |
-| **Transform — Skew** | range | Skew the module along the X and Y axes |
-| **Transform — Origin** | select | Set the transformation origin point |
-| **Animation — Style** | select | Choose an entrance animation such as fade, slide, bounce, or zoom |
-| **Animation — Direction** | select | Set the direction from which the animation enters |
-| **Animation — Duration** | range | Control how long the animation takes to complete |
-| **Animation — Delay** | range | Set a delay before the animation begins |
-| **Animation — Intensity** | range | Adjust the strength or distance of the animation effect |
-| **Animation — Starting Opacity** | range | Set the opacity at the start of the animation |
-| **Animation — Speed Curve** | select | Choose an easing curve such as ease-in, ease-out, or linear |
-| **Animation — Repeat** | toggle | Set whether the animation plays once or loops |
+| Layout — Style | select | Choose the overall menu layout style, such as horizontal or vertical orientation |
+| Layout — Dropdown Direction | select | Set whether dropdown submenus open downward, upward, or to the side |
+| Menu Text | text styling | Font, weight, style, color, size, letter spacing, line height, and text shadow for top-level menu links |
+| Dropdown Menu | color/style controls | Line color, text color, active link color, and mobile background color for dropdown submenus |
+| Icons | color/size controls | Shopping Cart, Search, and Hamburger menu icon color and size |
+| Logo | image styling | Border radius, border styles, box shadow, and image filters for the logo image |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, scroll-driven effects, and positioning.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes — CSS ID** | text | Assign a unique CSS ID to the module for targeting with styles or JavaScript |
-| **Attributes — CSS Classes** | text | Add one or more CSS classes, separated by spaces |
-| **Attributes — Custom HTML Attributes** | repeater | Add custom data attributes or other HTML attributes to the module wrapper |
-| **CSS — Custom CSS** | code editor | Write CSS rules that apply to specific internal elements of the module |
-| **HTML — Semantic Tag** | select | Choose the HTML element tag (div, nav, section, etc.) used for the module wrapper |
-| **Conditions** | rule builder | Define conditions under which the module is displayed, such as user role, page type, or custom field values |
-| **Interactions** | action builder | Create interactions that trigger show, hide, or toggle effects on other elements |
-| **Visibility — Disable On** | checkboxes | Hide the module on desktop, tablet, or phone viewports |
-| **Transitions — Duration** | range | Set the duration of hover and state transition animations |
-| **Transitions — Delay** | range | Add a delay before transitions begin |
-| **Transitions — Speed Curve** | select | Choose the easing function for transitions |
-| **Position — Position** | select | Set positioning mode: default (static), relative, absolute, or fixed |
-| **Position — Offsets** | range (4 sides) | Define top, right, bottom, and left offset values for positioned modules |
-| **Position — Z-Index** | number | Control the stacking order relative to other positioned elements |
-| **Scroll Effects — Vertical Motion** | composite | Move the module vertically as the user scrolls |
-| **Scroll Effects — Horizontal Motion** | composite | Move the module horizontally on scroll |
-| **Scroll Effects — Fade In/Out** | composite | Fade the module in or out based on scroll position |
-| **Scroll Effects — Scaling** | composite | Scale the module up or down as the page scrolls |
-| **Scroll Effects — Rotating** | composite | Rotate the module in response to scrolling |
-| **Scroll Effects — Blur** | composite | Apply or remove a blur effect based on scroll position |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Semantic HTML tag for the module wrapper (div, nav, section) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

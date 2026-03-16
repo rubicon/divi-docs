@@ -60,35 +60,44 @@ The Content tab controls whether the divider line is visible, along with link be
 
 The Design tab controls the line's visual properties and the module's dimensions, spacing, borders, and effects.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Line Color | color picker | Set the color of the divider line. Accepts any color value including hex, RGB, and color presets from your global color palette. |
 | Line Style | select | Choose the CSS border style for the line: solid, dashed, dotted, double, groove, ridge, inset, or outset. Each creates a distinct visual effect. |
 | Line Weight | range slider | Set the thickness of the divider line in pixels. Higher values create bolder, more prominent lines. |
 | Line Position | select | Choose where the line sits within the module's vertical space: top, vertically centered, or bottom. This matters when the module has significant padding or height. |
-| Sizing | dimensions | Set the module's width, max-width, min-height, and height. Reducing the width below 100% creates a shorter line that can be aligned with the module alignment setting. |
-| Spacing | margin/padding | Configure margin and padding values around and within the module. Top and bottom padding control the empty space above and below the line. Supports responsive values per device. |
-| Border | border controls | Add borders around the module container itself (separate from the divider line). Configure width, color, style, and border radius. |
-| Box Shadow | shadow controls | Apply a box shadow to the module container with adjustable offset, blur, spread, and color. |
-| Filters | image filters | Apply CSS filter effects including brightness, contrast, saturation, hue rotation, invert, sepia, opacity, and blur. |
-| Transform | transform controls | Apply CSS transforms such as scale, translate, rotate, and skew. Useful for creating angled or rotated divider effects. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, and intensity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for custom attributes, conditional logic, and scroll-driven effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and one or more CSS classes to the module for custom styling or JavaScript targeting. |
-| CSS | code editor | Write custom CSS rules that apply to specific elements within the module (container, divider line). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element, such as `role` or `data-*` attributes. |
-| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met (user role, page type, date range, or custom logic). |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are excluded from the rendered page source for that device. |
-| Transitions | transition controls | Configure CSS transition duration, easing function, and delay for hover state changes. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) along with top, right, bottom, left offset values and z-index. |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax movement, fade, scale, rotate, blur, or horizontal translation as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

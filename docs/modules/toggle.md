@@ -78,127 +78,52 @@ The Content tab holds the toggle's text content, default state, and structural c
 
 The Design tab provides visual controls for the toggle icon, title bar appearance, and all typography elements.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Icon** | | |
 | Open Icon | icon picker | The icon displayed when the toggle is in the expanded state |
 | Close Icon | icon picker | The icon displayed when the toggle is in the collapsed state |
 | Icon Color | color | Color of the toggle open/close icon |
 | Icon Size | range | Size of the toggle icon in pixels |
-| **Toggle** | | |
 | Open Toggle Background Color | color | Background color of the toggle when it is expanded |
 | Closed Toggle Background Color | color | Background color of the toggle when it is collapsed |
 | Open Toggle Icon Color | color | Icon color when the toggle is in the open state |
 | Closed Toggle Icon Color | color | Icon color when the toggle is in the closed state |
-| **Text** | | |
-| Text Alignment | select | Horizontal alignment for all text content (left, center, right, justified) |
-| Text Color Scheme | select | Light or dark text color scheme for the module |
-| **Title Text** | | |
-| Title Font | typography | Font family, weight, style, and line height for the toggle title |
-| Title Text Color | color | Font color for the toggle title |
-| Title Text Size | range | Font size for the toggle title |
-| Title Letter Spacing | range | Letter spacing for the title text |
-| Title Line Height | range | Line height for the title text |
-| Title Text Shadow | composite | Shadow effect applied to the title text |
-| **Closed Title Text** | | |
-| Closed Title Font | typography | Font family, weight, style, and line height for the title when the toggle is closed |
-| Closed Title Text Color | color | Font color for the title in the closed state |
-| Closed Title Text Size | range | Font size for the title in the closed state |
-| Closed Title Letter Spacing | range | Letter spacing for the closed state title |
-| Closed Title Line Height | range | Line height for the closed state title |
-| Closed Title Text Shadow | composite | Shadow effect on the closed state title |
-| **Body Text** | | |
-| Body Font | typography | Font family, weight, style, and line height for the toggle body content |
-| Body Text Color | color | Font color for the body content |
-| Body Text Size | range | Font size for the body content |
-| Body Letter Spacing | range | Letter spacing for the body text |
-| Body Line Height | range | Line height for the body text |
-| Body Text Shadow | composite | Shadow effect applied to body text |
-| **Sizing** | | |
-| Width | range | The overall width of the module |
-| Max Width | range | Maximum width the module can expand to |
-| Module Alignment | select | Horizontal alignment of the module within its column |
-| Min Height | range | Minimum height of the module container |
-| Height | range | Fixed height of the module container |
-| Max Height | range | Maximum height the module container can reach |
-| **Spacing** | | |
-| Margin | composite | External spacing around the module (top, right, bottom, left) |
-| Padding | composite | Internal spacing within the module (top, right, bottom, left) |
-| **Border** | | |
-| Border Width | range | Width of the border around the module |
-| Border Color | color | Color of the module border |
-| Border Style | select | Style of the border (solid, dashed, dotted, double, groove, ridge) |
-| Border Radius | range | Corner rounding applied to the module container |
-| **Box Shadow** | | |
-| Box Shadow | composite | Shadow effect applied to the module container |
-| **Filters** | | |
-| Hue Rotate | range | Rotates the hue of all module colors |
-| Saturate | range | Adjusts color saturation of the module |
-| Brightness | range | Adjusts brightness of the module |
-| Contrast | range | Adjusts contrast of the module |
-| Invert | range | Inverts the module colors |
-| Sepia | range | Applies a sepia tone to the module |
-| Opacity | range | Controls the transparency of the module |
-| Blur | range | Applies a Gaussian blur to the module |
-| Blend Mode | select | CSS mix-blend-mode for how the module blends with its background |
-| **Transform** | | |
-| Scale | composite | Scale the module horizontally and vertically |
-| Translate | composite | Move the module along the X and Y axes |
-| Rotate | composite | Rotate the module on the X, Y, and Z axes |
-| Skew | composite | Skew the module horizontally and vertically |
-| Transform Origin | select | The point around which transformations are applied |
-| **Animation** | | |
-| Animation Style | select | Entrance animation type (fade, slide, bounce, zoom, flip, fold, roll) |
-| Animation Direction | select | Direction from which the animation enters |
-| Animation Duration | range | How long the entrance animation takes in milliseconds |
-| Animation Delay | range | Delay before the animation starts |
-| Animation Intensity | range | The distance or intensity of the animation movement |
-| Animation Starting Opacity | range | The opacity value at the start of the animation |
-| Animation Speed Curve | select | Easing function for the animation (ease, ease-in, ease-out, linear) |
-| Animation Repeat | toggle | Whether the animation replays each time the element enters the viewport |
+| Closed Title Text | typography group | Font family, weight, style, color, size, letter spacing, line height, text shadow for the title when the toggle is closed |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, weight, size, color, letter spacing, line height, text shadow for the toggle title |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, spacing for the toggle body content |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides technical controls for custom attributes, CSS overrides, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | text | A unique HTML `id` attribute applied to the module wrapper |
-| CSS Class | text | One or more CSS class names added to the module wrapper |
-| **CSS** | | |
-| Before | code | Custom CSS applied to the module's `::before` pseudo-element |
-| Main Element | code | Custom CSS applied to the main module container |
-| After | code | Custom CSS applied to the module's `::after` pseudo-element |
-| Toggle Title | code | Custom CSS targeting the toggle title bar element |
-| Toggle Icon | code | Custom CSS targeting the open/close icon |
-| Toggle Content | code | Custom CSS targeting the collapsible body content area |
-| **HTML** | | |
-| Custom Attributes | text | Additional HTML attributes added to the module element (e.g., `data-*` attributes) |
-| **Conditions** | | |
-| Display Conditions | composite | Rules that determine when the module is shown (logged-in status, date range, page type, etc.) |
-| **Interactions** | | |
-| Cursor Style | select | Custom cursor appearance when hovering over the module |
-| **Visibility** | | |
-| Disable On | toggle | Hide the module on desktop, tablet, or phone screen sizes |
-| Overflow X | select | Horizontal overflow behavior (visible, hidden, scroll, auto) |
-| Overflow Y | select | Vertical overflow behavior (visible, hidden, scroll, auto) |
-| **Transitions** | | |
-| Transition Duration | range | Duration of hover and state change transitions |
-| Transition Delay | range | Delay before transition effects begin |
-| Transition Speed Curve | select | Easing curve for transition animations |
-| **Position** | | |
-| Position | select | CSS position type (static, relative, absolute, fixed, sticky) |
-| Z Index | number | Stack order of the module relative to other elements |
-| Horizontal Offset | range | Left or right offset for positioned elements |
-| Vertical Offset | range | Top or bottom offset for positioned elements |
-| **Scroll Effects** | | |
-| Vertical Motion | composite | Moves the module vertically as the user scrolls |
-| Horizontal Motion | composite | Moves the module horizontally as the user scrolls |
-| Fade In and Out | composite | Fades the module in or out based on scroll position |
-| Scaling Up and Down | composite | Scales the module based on scroll position |
-| Rotating | composite | Rotates the module as the user scrolls |
-| Blur | composite | Applies a progressive blur based on scroll position |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, toggle title, toggle icon, toggle content, before, after) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

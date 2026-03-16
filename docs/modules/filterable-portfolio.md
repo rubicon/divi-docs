@@ -76,143 +76,48 @@ The Content tab controls which project data appears and how the module links to 
 
 The Design tab provides layout, typography, color, and visual effect controls for the portfolio display.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Layout** | | |
 | Layout | select | Switches between Grid (multi-column) and Fullwidth (single-column, full-width images) display modes. |
-| **Overlay** | | |
-| Overlay Icon | icon-picker | Selects the icon displayed when hovering over a portfolio thumbnail. |
-| Overlay Icon Color | color | Sets the color of the hover overlay icon. |
-| Hover Overlay Color | color | Sets the background color of the overlay that appears on thumbnail hover. |
-| Hover Icon Picker | toggle | Enables or disables the icon displayed on hover. |
-| **Image** | | |
-| Image Rounded Corners | border-radius | Applies rounded corners to portfolio thumbnail images. |
-| Image Border | border | Adds a border around each portfolio thumbnail image. |
-| Image Box Shadow | box-shadow | Applies a shadow effect to portfolio thumbnail images. |
-| Image CSS Filters | filters | Adjusts hue, saturation, brightness, contrast, invert, and sepia on images. |
-| **Text** | | |
-| Text Alignment | alignment | Sets the horizontal alignment of all text content within the module. |
-| Text Color Scheme | select | Switches between dark and light text color presets for readability on different backgrounds. |
-| **Title Text** | | |
-| Title Font | font | Sets the font family for project titles. |
-| Title Font Weight | select | Controls the boldness of project title text. |
-| Title Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to title text. |
-| Title Text Color | color | Sets the color of project title text. |
-| Title Text Size | range | Controls the font size of project titles. |
-| Title Letter Spacing | range | Adjusts the spacing between characters in project titles. |
-| Title Line Height | range | Sets the vertical spacing between lines in project titles. |
-| Title Text Shadow | shadow | Applies a shadow effect to project title text. |
-| **Filter Criteria Text** | | |
-| Filter Font | font | Sets the font family for the category filter buttons. |
-| Filter Font Weight | select | Controls the boldness of filter button text. |
-| Filter Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to filter text. |
-| Filter Text Color | color | Sets the color of the category filter button labels. |
-| Filter Text Size | range | Controls the font size of filter button labels. |
-| Filter Letter Spacing | range | Adjusts character spacing in filter button labels. |
-| Filter Line Height | range | Sets vertical spacing between lines in filter button text. |
-| Filter Text Shadow | shadow | Applies a shadow effect to filter button text. |
-| **Meta Text** | | |
-| Meta Font | font | Sets the font family for project metadata text. |
-| Meta Font Weight | select | Controls the boldness of metadata text. |
-| Meta Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to metadata. |
-| Meta Text Color | color | Sets the color of project metadata text. |
-| Meta Text Size | range | Controls the font size of metadata text. |
-| Meta Letter Spacing | range | Adjusts character spacing in metadata text. |
-| Meta Line Height | range | Sets vertical spacing between lines in metadata text. |
-| Meta Text Shadow | shadow | Applies a shadow effect to metadata text. |
-| **Pagination Text** | | |
-| Pagination Font | font | Sets the font family for pagination links. |
-| Pagination Font Weight | select | Controls the boldness of pagination text. |
-| Pagination Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to pagination text. |
-| Pagination Text Color | color | Sets the color of pagination link text. |
-| Pagination Text Size | range | Controls the font size of pagination links. |
-| Pagination Letter Spacing | range | Adjusts character spacing in pagination links. |
-| Pagination Line Height | range | Sets vertical spacing between lines in pagination text. |
-| Pagination Text Shadow | shadow | Applies a shadow effect to pagination text. |
-| **Sizing** | | |
-| Width | range | Sets the horizontal width of the module. |
-| Max Width | range | Sets the maximum horizontal width the module can reach. |
-| Module Alignment | alignment | Controls the horizontal alignment of the module when its width is less than the column width. |
-| Min Height | range | Sets the minimum height of the module container. |
-| Height | range | Sets the exact height of the module container. |
-| Max Height | range | Sets the maximum height the module container can reach. |
-| **Spacing** | | |
-| Margin | spacing | Controls the outer spacing around the module on all four sides. |
-| Padding | spacing | Controls the inner spacing within the module on all four sides. |
-| **Border** | | |
-| Border Width | range | Sets the thickness of the module border. |
-| Border Color | color | Sets the color of the module border. |
-| Border Style | select | Chooses the border style (solid, dashed, dotted, double, groove, ridge, inset, outset). |
-| Border Radius | border-radius | Rounds the corners of the module container. |
-| **Box Shadow** | | |
-| Box Shadow | box-shadow | Adds a shadow effect around the module with configurable blur, spread, color, and position. |
-| **Filters** | | |
-| Hue | range | Shifts the hue of the entire module. |
-| Saturation | range | Adjusts the color saturation of the entire module. |
-| Brightness | range | Controls the brightness level of the entire module. |
-| Contrast | range | Adjusts the contrast of the entire module. |
-| Invert | range | Inverts the colors of the entire module. |
-| Sepia | range | Applies a sepia tone to the entire module. |
-| Opacity | range | Controls the transparency of the entire module. |
-| Blend Mode | select | Sets how the module blends with elements behind it. |
-| **Transform** | | |
-| Transform Scale | range | Scales the module up or down from its original size. |
-| Transform Translate | range | Moves the module horizontally or vertically from its original position. |
-| Transform Rotate | range | Rotates the module by a specified degree. |
-| Transform Skew | range | Skews the module along the horizontal or vertical axis. |
-| Transform Origin | select | Sets the reference point for all transform operations. |
-| **Animation** | | |
-| Animation Style | select | Chooses the entrance animation type (fade, slide, bounce, zoom, flip, fold, roll). |
-| Animation Direction | select | Sets the direction from which the animation originates. |
-| Animation Duration | range | Controls how long the entrance animation takes to complete. |
-| Animation Delay | range | Sets a delay before the entrance animation begins. |
-| Animation Intensity | range | Controls the intensity or distance of the animation effect. |
-| Animation Starting Opacity | range | Sets the opacity at the beginning of the animation. |
-| Animation Speed Curve | select | Defines the acceleration curve of the animation (ease, linear, ease-in, ease-out, ease-in-out). |
-| Animation Repeat | toggle | Sets whether the animation plays once or loops continuously. |
+| Overlay | overlay controls | Configure the hover overlay on portfolio thumbnails — overlay icon, icon color, overlay background color, and whether to show the icon on hover. |
+| Filter Criteria Text | text styling | Style the category filter buttons — font, weight, style, color, size, letter spacing, line height, and text shadow. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Image](../options-groups/image.md) | Rounded corners, border, box shadow, and CSS filters for portfolio thumbnails |
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for project titles |
+| [Meta Text](../options-groups/text.md) | Font, size, color for project metadata text |
+| [Pagination Text](../options-groups/text.md) | Font, size, color for pagination links |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 ### Advanced Tab
 
-The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | text | Assigns a unique CSS ID to the module for targeted styling or anchor links. |
-| CSS Classes | text | Adds one or more CSS class names to the module for custom styling. |
-| Custom HTML Attributes | text | Adds custom `data-*` or other HTML attributes to the module wrapper element. |
-| **CSS** | | |
-| Main Element | code | Applies custom CSS rules directly to the module's main wrapper element. |
-| Portfolio Title | code | Applies custom CSS rules to the project title elements. |
-| Portfolio Post Meta | code | Applies custom CSS rules to the project metadata elements. |
-| Portfolio Filters | code | Applies custom CSS rules to the category filter buttons. |
-| Portfolio Pagination | code | Applies custom CSS rules to the pagination elements. |
-| Portfolio Image | code | Applies custom CSS rules to the portfolio thumbnail images. |
-| **HTML** | | |
-| Semantic Tag | select | Sets the HTML element used for the module container (div, article, section, header, footer, aside, main). |
-| **Conditions** | | |
-| Display Conditions | conditions | Sets rules that determine when the module is visible, based on user role, page type, date, or custom logic. |
-| **Interactions** | | |
-| Module Interactions | interactions | Defines show, hide, or toggle behaviors triggered by clicks, hovers, or scroll events on other elements. |
-| **Visibility** | | |
-| Disable On | toggle | Hides the module on selected device types: desktop, tablet, or phone. |
-| **Transitions** | | |
-| Transition Duration | range | Sets how long hover-state property transitions take to complete. |
-| Transition Delay | range | Sets a delay before hover-state transitions begin. |
-| Transition Speed Curve | select | Defines the acceleration curve for hover transitions. |
-| **Position** | | |
-| Position | select | Sets the CSS position property (default/static, relative, absolute, fixed, sticky). |
-| Z-Index | number | Controls the stacking order of the module relative to other positioned elements. |
-| Horizontal Offset | range | Moves the module left or right from its positioned origin. |
-| Vertical Offset | range | Moves the module up or down from its positioned origin. |
-| **Scroll Effects** | | |
-| Sticky Position | toggle | Makes the module stick to the viewport during scrolling. |
-| Motion Effects - Vertical | toggle | Moves the module vertically at a different rate as the user scrolls. |
-| Motion Effects - Horizontal | toggle | Moves the module horizontally as the user scrolls. |
-| Motion Effects - Fade | toggle | Changes the module opacity as the user scrolls through the viewport. |
-| Motion Effects - Scaling | toggle | Scales the module up or down as the user scrolls. |
-| Motion Effects - Rotating | toggle | Rotates the module as the user scrolls. |
-| Motion Effects - Blur | toggle | Applies or removes a blur effect as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

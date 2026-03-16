@@ -65,41 +65,50 @@ The Content tab controls the text, images, links, and background elements displa
 
 The Design tab controls layout, typography, button styling, and all visual presentation options.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | select | Choose text and logo alignment (left, center, right) and whether the module should display in full-screen mode, expanding to fill the entire viewport height. |
 | Scroll Down Icon | toggle + options | Enable a scroll-down indicator icon below the header content. When enabled, configure the icon style, color, and size to guide visitors to scroll. |
-| Image | image styling | Adjust styling for the header image including border radius, shadows, and filters. |
-| Overlay | overlay controls | Apply a color overlay on top of the background to improve text readability. Configure overlay color and opacity. |
-| Text | text styling | Set general text properties like font family, weight, style, alignment, and line height that apply to all text elements in the module. |
-| Title Text | text styling | Style the main title independently with font family, size, color, letter spacing, line height, and text shadow. Supports responsive values per breakpoint. |
-| Body Text | text styling | Configure body text appearance including font, size, color, and line height, separate from title and subtitle styling. |
 | Subtitle Text | text styling | Style the subtitle line with its own font, size, color, and spacing settings. |
 | Button One | button styling | Customize the first button's appearance: text color, background color, border, border radius, font, icon, and hover state styles. |
 | Button Two | button styling | Customize the second button independently with the same options as Button One, allowing for contrasting primary/secondary button designs. |
-| Sizing | dimensions | Control the module's width, max-width, height, and min-height. Full-screen mode overrides height settings. |
-| Spacing | margin/padding | Set margin and padding values for the module container. Supports responsive values per device breakpoint. |
-| Border | border controls | Add borders around the module with customizable width, color, style, and border radius for rounded corners. |
-| Box Shadow | shadow controls | Apply a box shadow with configurable color, horizontal/vertical offset, blur radius, and spread. |
-| Filters | CSS filters | Apply visual filter effects such as brightness, contrast, saturation, hue rotation, blur, and invert. Includes blend mode selection. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and transform origin for advanced positioning effects. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and starting opacity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, size, color, letter spacing, line height, text shadow for the main title |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, line height for body content |
+| [Image](../options-groups/image.md) | Border radius, shadows, and filters for the header image |
+| [Overlay](../options-groups/overlay.md) | Color overlay on background for text readability |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides developer-oriented controls for custom attributes, conditional display, and interaction behavior.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. Also supports custom HTML data attributes. |
-| CSS | code editor | Write custom CSS that applies directly to specific internal elements of the module (title, subtitle, buttons, images, container, etc.). |
-| HTML | tag select | Choose the semantic HTML tag used for the module's wrapper element (div, header, section, article, etc.). |
-| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met, such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that breakpoint. |
-| Transitions | transition controls | Configure CSS transition duration and easing function for smooth hover state changes on the module and its child elements. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (title, subtitle, buttons, images, container) |
+| HTML | Semantic HTML tag for the module wrapper (div, header, section, article) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

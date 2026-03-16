@@ -61,36 +61,45 @@ The Content tab is where you set the countdown target date, title text, link beh
 
 The Design tab provides granular control over the typography and visual appearance of every element within the countdown timer.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| Text | text styling | Set the default font family, weight, style, alignment, and color for general text within the module. |
-| Title Text | text styling | Style the title heading independently — font, size, color, letter spacing, line height, and text shadow. |
 | Numbers | text styling | Control the appearance of the countdown digits (days, hours, minutes, seconds). Set the font family, size, weight, color, and spacing for the numerical display. |
 | Separator Text | text styling | Style the separator characters between the countdown units (typically colons or other dividers). Adjust font, size, and color. |
 | Label Text | text styling | Customize the labels beneath each number group (e.g., "Days," "Hours," "Minutes," "Seconds"). Control font, size, color, and letter spacing. |
-| Sizing | dimensions | Set the module's width, max-width, min-height, and overall dimensions. Supports responsive values for each device breakpoint. |
-| Spacing | margin/padding | Configure margin and padding values around and within the module. Supports individual values per side and per device. |
-| Border | border controls | Add borders around the module with configurable width, color, style, and border radius for rounded corners. |
-| Box Shadow | shadow controls | Apply a box shadow effect with adjustable horizontal and vertical offset, blur radius, spread, and shadow color. |
-| Filters | image filters | Apply CSS filter effects including brightness, contrast, saturation, hue rotation, invert, sepia, opacity, and blur. |
-| Transform | transform controls | Apply CSS transforms such as scale, translate, rotate, and skew. Set the transform origin point for precise control. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and starting opacity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for the title heading |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for custom attributes, conditional display logic, and scroll-driven effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and one or more CSS classes to the module for targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS rules that apply to specific internal elements of the module (container, title, numbers, labels, separators). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element, such as `data-*` attributes for JavaScript interaction. |
-| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met (user role, page type, date range, or custom logic). |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are excluded from the rendered page source on that device. |
-| Transitions | transition controls | Configure CSS transition duration, easing function, and delay for hover state changes on the module. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) along with top, right, bottom, left offset values and z-index. |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax movement, fade, scale, rotate, blur, or horizontal translation as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

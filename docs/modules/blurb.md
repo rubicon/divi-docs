@@ -66,19 +66,26 @@ The Content tab controls the text, visual media, linking behavior, background, a
 
 The Design tab provides full visual control over the icon/image appearance, typography for all text elements, and standard module styling.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Image & Icon | icon/image styling | Control the image or icon's visual presentation. For icons: set color, size, background shape (circle or square), background color, and padding. For images: set max width, alignment, border radius, and responsive sizing. Configure the placement position (top, left, or right) relative to the text content. |
-| Text | text styling | Set general text properties that cascade to all text elements within the module, including font family, weight, style, alignment, color, line height, and text shadow. |
-| Title Text | text styling | Override the general text styles specifically for the Blurb's title heading. Includes full typography controls: font family, weight, size, letter spacing, line height, color, and text shadow. Supports separate settings for hover and linked states. |
-| Body Text | text styling | Style the body content text independently from the title. Set font, size, line height, letter spacing, and color to differentiate the description from the heading. |
-| Sizing | dimensions | Set the module's width, max-width, min-height, and height. Control how the Blurb fills or constrains within its column container. |
-| Spacing | margin/padding | Define margin and padding values for the module and its internal elements. Supports responsive values per breakpoint (desktop, tablet, phone) for precise layout control. |
-| Border | border controls | Add borders to the module container or individual elements. Configure width, color, style, and border radius for rounded corners. Useful for creating card-style Blurbs. |
-| Box Shadow | shadow controls | Apply box shadow effects with customizable horizontal/vertical offset, blur radius, spread, color, and position (outer or inner). Adds depth to card-style layouts. |
-| Filters | image filters | Apply CSS filter effects such as brightness, contrast, saturation, hue rotation, blur, invert, sepia, and opacity. Includes blend mode selection for creative overlays. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, and skew. Set the transform origin point for precise positioning of effects. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and direction. Animations trigger when the module enters the viewport. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for the Blurb title heading |
+| [Body Text](../options-groups/text.md) | Font, size, color, line height for body content text |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Blurb Design tab settings](../assets/screenshots/modules/blurb/settings-design.png){ loading=lazy } -->
 <!-- TODO: Capture Design tab screenshot -->
@@ -87,17 +94,19 @@ The Design tab provides full visual control over the icon/image appearance, typo
 
 The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (container, image, icon, title, content, etc.). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element. |
-| Conditions | condition builder | Set display conditions so the module only appears based on rules such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
-| Transitions | transition controls | Configure CSS transition properties (duration, easing function, delay) for smooth hover state changes on the module. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
-| Scroll Effects | scroll controls | Apply scroll-driven effects such as parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Blurb Advanced tab settings](../assets/screenshots/modules/blurb/settings-advanced.png){ loading=lazy } -->
 <!-- TODO: Capture Advanced tab screenshot -->

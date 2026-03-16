@@ -69,33 +69,42 @@ Each tab within the module has its own configuration panel:
 
 The Design tab controls the visual styling of the tab headers, body content, and overall module layout.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| Body Text | text styling | Style the content within tab panels including font family, font size, font weight, font style, text color, text alignment, letter spacing, line height, and text shadow. Responsive controls available per breakpoint. |
 | Tab Text | text styling | Style the tab header labels with independent font family, size, weight, style, color, alignment, letter spacing, and line height settings. Separate styling can be configured for active and inactive tab states. |
-| Sizing | dimension controls | Set the module width, max width, and horizontal alignment within its column. |
-| Spacing | margin/padding | Configure external margin and internal padding for the module. Responsive values can be set independently for each breakpoint. |
-| Border | border styling | Add and customize borders around the module and individual tab elements, including width, color, style, and per-corner radius values. |
-| Box Shadow | shadow controls | Apply a box shadow effect to the module with configurable horizontal offset, vertical offset, blur, spread, and color. |
-| Filters | image filters | Apply CSS filter effects to the module including hue rotation, saturation, brightness, contrast, inversion, sepia, and blur. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and transform origin adjustments. |
-| Animation | animation controls | Configure the module entrance animation triggered when scrolling into view, with style, direction, duration, delay, and intensity options. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Body Text](../options-groups/body-text.md) | Font, size, color, spacing for tab panel content |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level controls for custom attributes, CSS targeting, conditional display logic, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | id/class inputs | Assign a unique CSS ID and one or more CSS classes to the module for targeting with custom CSS or JavaScript. |
-| CSS | custom CSS editor | Add custom CSS rules targeting specific internal elements of the tabs module such as the tab headers, active tab header, tab content area, and individual tab panels. |
-| HTML | html attributes | Configure additional HTML attributes on the module wrapper element. |
-| Conditions | display logic | Set conditions that determine when the module is displayed, such as user role, page type, or custom logic rules. |
-| Interactions | event handlers | Define interactive behaviors triggered by user actions like click or hover events on the module. |
-| Visibility | device toggles | Control which devices display this module by toggling visibility independently for desktop, tablet, and phone. |
-| Transitions | transition controls | Set the duration and timing of hover transition effects on interactive elements within the module. |
-| Position | positioning controls | Configure the CSS positioning scheme (static, relative, absolute, fixed, or sticky), along with z-index and offset values. |
-| Scroll Effects | scroll transforms | Enable transform effects like rotation, scaling, fading, and blur driven by the visitor's scroll position relative to the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (tab headers, active tab header, tab content area, individual tab panels) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

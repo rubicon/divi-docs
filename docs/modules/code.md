@@ -63,35 +63,39 @@ The Content tab holds the code editor and controls for linking, background, and 
 
 The Design tab controls the visual presentation of the module container and any text rendered by its code.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Text | text styling | Set font family, weight, style, size, color, line height, and letter spacing for text elements rendered by the code. These styles apply to the module's wrapper and are inherited by child elements unless overridden. |
-| Sizing | dimensions | Control the module's width, max-width, min-height, and height. Useful for constraining embed widgets to a specific size. |
-| Spacing | margin/padding | Set margin and padding values around and within the module container. Supports responsive values per device breakpoint. |
-| Border | border controls | Add borders around the module container with configurable width, color, style, and corner radius. |
-| Box Shadow | shadow controls | Apply box shadow effects with adjustable horizontal/vertical offset, blur, spread, color, and position (outer or inner). |
-| Filters | image filters | Apply CSS filter effects — brightness, contrast, saturation, hue rotation, invert, sepia, blur, and opacity — to the module and its contents. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, and skew, with a configurable transform origin point. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and repeat behavior. |
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Code Design tab settings](../assets/screenshots/modules/code/settings-design.png){ loading=lazy } -->
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for targeting, conditional logic, and scroll-driven effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS that applies directly to specific elements within the module's wrapper. |
-| HTML | code fields | Select the semantic HTML tag for the module wrapper and add custom HTML attributes. |
-| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met (e.g., user role, page type, date range, or custom logic). |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
-| Transitions | transition controls | Configure CSS transition duration, delay, and easing curve for hover-state changes on the module. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Code Advanced tab settings](../assets/screenshots/modules/code/settings-advanced.png){ loading=lazy } -->
 <!-- TODO: Capture Advanced tab screenshot -->

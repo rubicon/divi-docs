@@ -76,9 +76,10 @@ The Content tab controls the search field text, button visibility, and which con
 
 The Design tab controls the visual appearance of the search field, button text, and the overall module styling.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Field** | | |
 | Field Background Color | Color | Set the background color of the search input field. |
 | Field Text Color | Color | Set the color of text typed into the search field. |
 | Field Focus Background Color | Color | Set the field background color when the input is focused. |
@@ -86,104 +87,38 @@ The Design tab controls the visual appearance of the search field, button text, 
 | Field Border Width | Range | Set the width of the border around the input field. |
 | Field Border Color | Color | Set the color of the input field border. |
 | Field Border Radius | Range | Control the corner rounding of the search input field. |
-| **Text** | | |
-| Text Orientation | Select | Set the overall text alignment for the module (left, center, right, justified). |
-| Text Color | Preset | Choose between light and dark text color presets. |
-| **Button Text** | | |
-| Button Font | Font Selector | Choose the font family for the search button text. |
-| Button Font Weight | Select | Set the weight (boldness) of the button text. |
-| Button Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to the button text. |
-| Button Text Alignment | Select | Set the horizontal alignment of text within the button. |
-| Button Text Color | Color | Set the color of the search button text. |
-| Button Text Size | Range | Adjust the font size of the button text. |
-| Button Letter Spacing | Range | Control letter spacing in the button text. |
-| Button Line Height | Range | Set the line height for the button text. |
-| Button Text Shadow | Select | Apply a shadow effect to the button text. |
-| **Sizing** | | |
-| Width | Range | Set the overall width of the module. |
-| Max Width | Range | Define the maximum width the module can expand to. |
-| Module Alignment | Select | Align the module within its parent container (left, center, right). |
-| Min Height | Range | Set the minimum height for the module. |
-| Height | Range | Define a fixed height for the module. |
-| Max Height | Range | Set the maximum height the module can reach. |
-| **Spacing** | | |
-| Margin | Spacing | Set outer spacing around the module on each side. |
-| Padding | Spacing | Set inner spacing within the module on each side. |
-| **Border** | | |
-| Border Width | Range | Set the width of the module border on each side. |
-| Border Color | Color | Set the color of the module border. |
-| Border Style | Select | Choose the border line style (solid, dashed, dotted, etc.). |
-| Border Radius | Range | Control corner rounding for the module container. |
-| **Box Shadow** | | |
-| Box Shadow | Select | Choose a shadow preset or configure a custom box shadow. |
-| Box Shadow Color | Color | Set the color of the box shadow. |
-| Box Shadow Position | Select | Place the shadow inside or outside the module. |
-| **Filters** | | |
-| Hue | Range | Shift the hue of the module and its contents. |
-| Saturation | Range | Adjust the saturation level of the module. |
-| Brightness | Range | Control the brightness of the module. |
-| Contrast | Range | Adjust the contrast of the module. |
-| Invert | Range | Invert the colors of the module. |
-| Sepia | Range | Apply a sepia tone to the module. |
-| Opacity | Range | Set the opacity (transparency) of the module. |
-| Blur | Range | Apply a blur effect to the module. |
-| Blend Mode | Select | Choose how the module blends with elements beneath it. |
-| **Transform** | | |
-| Transform Scale | Range | Scale the module up or down from its original size. |
-| Transform Translate | Range | Move the module horizontally or vertically from its original position. |
-| Transform Rotate | Range | Rotate the module by a specified degree. |
-| Transform Skew | Range | Skew the module along the X or Y axis. |
-| Transform Origin | Select | Set the origin point for all transform operations. |
-| **Animation** | | |
-| Animation Style | Select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll). |
-| Animation Direction | Select | Set the direction of the entrance animation. |
-| Animation Duration | Range | Control how long the animation takes to complete. |
-| Animation Delay | Range | Set a delay before the animation begins. |
-| Animation Intensity | Range | Adjust the intensity or distance of the animation effect. |
-| Animation Starting Opacity | Range | Set the opacity at the start of the animation. |
-| Animation Speed Curve | Select | Choose the easing function for the animation timing. |
-| Animation Repeat | Toggle | Set whether the animation repeats or plays only once. |
+| Button Text | typography group | Font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow for the search button text. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides control over HTML attributes, custom CSS, conditional display rules, scroll effects, and responsive visibility.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | Text | Assign a unique CSS ID to the module for targeting with custom styles or scripts. |
-| CSS Class | Text | Add one or more CSS classes to the module for shared styling rules. |
-| Custom HTML Attributes | Text | Add custom data attributes or other HTML attributes to the module wrapper element. |
-| **CSS** | | |
-| Main Element | Code | Write custom CSS that applies to the main module wrapper. |
-| Input Field | Code | Write custom CSS targeting the search input field. |
-| Button | Code | Write custom CSS targeting the search button. |
-| Before | Code | Write custom CSS for the module's ::before pseudo-element. |
-| After | Code | Write custom CSS for the module's ::after pseudo-element. |
-| **HTML** | | |
-| HTML Tag | Select | Choose the semantic HTML element used for the module wrapper (div, section, form, etc.). |
-| **Conditions** | | |
-| Display Conditions | Builder | Create rules to show or hide this module based on dynamic criteria such as user role, date, post type, or custom logic. |
-| **Interactions** | | |
-| Interactions | Builder | Define custom interactions that trigger actions (show, hide, animate other elements) when users interact with this module. |
-| **Visibility** | | |
-| Disable On | Checkbox | Selectively hide the module on desktop, tablet, or phone screen sizes. |
-| **Transitions** | | |
-| Transition Duration | Range | Set the speed of hover state transitions for the module. |
-| Transition Delay | Range | Add a delay before hover transitions begin. |
-| Transition Speed Curve | Select | Choose the easing function for hover transitions. |
-| **Position** | | |
-| Position | Select | Set the CSS position value (default/static, relative, absolute, fixed, sticky). |
-| Z Index | Number | Control the stacking order of the module relative to other elements. |
-| Horizontal Offset | Range | Adjust the left/right position when using absolute or fixed positioning. |
-| Vertical Offset | Range | Adjust the top/bottom position when using absolute or fixed positioning. |
-| **Scroll Effects** | | |
-| Vertical Motion | Toggle/Range | Enable and configure vertical parallax movement as the user scrolls. |
-| Horizontal Motion | Toggle/Range | Enable and configure horizontal movement during scroll. |
-| Fading In/Out | Toggle/Range | Gradually change the module opacity as it scrolls into or out of the viewport. |
-| Scaling Up/Down | Toggle/Range | Scale the module larger or smaller based on scroll position. |
-| Rotating | Toggle/Range | Rotate the module as the user scrolls through the page. |
-| Blur | Toggle/Range | Apply a progressive blur effect based on scroll position. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, input field, button, before, after) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

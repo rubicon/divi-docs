@@ -71,6 +71,8 @@ The Content tab controls the form text, email service integration, field configu
 
 The Design tab controls the layout arrangement, field styling, typography, button appearance, and all visual effects.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | select | Choose how the body content and form fields are arranged: body on left with form on right, body on right with form on left, body on top with form below, or body on bottom with form above. |
@@ -78,35 +80,42 @@ The Design tab controls the layout arrangement, field styling, typography, butto
 | Last Name Fullwidth | toggle | When enabled, the last name field spans the full width of the form area. |
 | Email Fullwidth | toggle | When enabled, the email field spans the full width of the form area. |
 | Fields | field styling | Style the form input fields — background color, text color, focus border color, placeholder text color, and field padding. |
-| Text | text styling | Set default text properties for the module including font family, weight, style, alignment, and color. |
-| Title Text | text styling | Style the title heading independently — font, size, color, letter spacing, line height, and text shadow. |
 | Description Text | text styling | Style the body/description text separately from the title. Control font, size, weight, color, and line height. |
 | Result Message Text | text styling | Style the success or error message text that appears after form submission. Set font, size, color, and weight. |
-| Button | button styling | Customize the submit button's appearance including text color, background color, border, border radius, font, size, padding, icon, and hover state styles. |
-| Sizing | dimensions | Set the module's width, max-width, min-height, and overall dimensions. Supports responsive values per device breakpoint. |
-| Spacing | margin/padding | Configure margin and padding values around and within the module. Supports individual values per side and per device. |
-| Border | border controls | Add borders around the module with configurable width, color, style, and border radius for rounded corners. |
-| Box Shadow | shadow controls | Apply a box shadow effect with adjustable horizontal and vertical offset, blur radius, spread, and shadow color. |
-| Filters | image filters | Apply CSS filter effects including brightness, contrast, saturation, hue rotation, invert, sepia, opacity, and blur. |
-| Transform | transform controls | Apply CSS transforms such as scale, translate, rotate, and skew. Set the transform origin point. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and starting opacity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for the title heading |
+| [Button](../options-groups/button.md) | Submit button text color, background, border, font, icon, hover states |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for custom attributes, conditional logic, privacy settings, and scroll effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and one or more CSS classes to the module for targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS rules that apply to specific elements within the module (container, title, description, fields, button, success message). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element, such as `data-*` attributes for tracking or analytics. |
-| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met (user role, page type, logged-in status, date range, or custom logic). |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are excluded from the rendered page source for that device. |
-| Transitions | transition controls | Configure CSS transition duration, easing function, and delay for hover state changes on the module and its elements. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) along with top, right, bottom, left offset values and z-index. |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax movement, fade, scale, rotate, blur, or horizontal translation as the user scrolls past the module. |
-| Privacy | toggle | Control whether subscriber IP addresses are included when data is sent to your email marketing provider. Disabling this can help with GDPR compliance. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Privacy | Control whether subscriber IP addresses are included (GDPR compliance) |
 
 ## Code Examples
 

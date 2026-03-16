@@ -67,38 +67,42 @@ The Content tab controls the CTA's text content, link behavior, background, and 
 
 The Design tab controls the visual appearance of the CTA's text, button, layout, borders, and effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Text | text styling | General text styling applied to the module as a whole — font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow. |
-| Title Text | text styling | Typography settings specifically for the CTA title — font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow. Overrides the general text settings for the title element. |
-| Body Text | text styling | Typography settings for the description content — font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow. Overrides the general text settings for the body element. |
-| Button | button styling | Comprehensive button appearance controls: text size, text color, background color, border width, border color, border radius, font family, icon selection, icon placement (left or right), and hover behavior. Toggle "Use Custom Styles for Button" to reveal these options. |
-| Sizing | dimensions | Control the module's width, max-width, min-height, and overall alignment when narrower than its column. |
-| Spacing | margin/padding | Set custom margin and padding values. Supports responsive values per breakpoint and individual side controls. |
-| Border | border controls | Add borders around the module with configurable width, color, style (solid, dashed, dotted, double, groove, ridge, inset, outset), and corner radius. |
-| Box Shadow | shadow controls | Apply a shadow effect around the module with configurable horizontal offset, vertical offset, blur radius, spread, and color. |
-| Filters | image filters | Apply CSS filter effects including hue rotation, saturation adjustment, brightness, contrast, invert, sepia, opacity, and blend mode. |
-| Transform | transform controls | Apply CSS transforms — scale, translate, rotate, skew — along with transform origin settings. |
-| Animation | animation select | Choose an entrance animation style (fade, slide, bounce, zoom, flip, fold, roll) with configurable direction, duration, delay, and intensity. |
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for the CTA title |
+| [Body Text](../options-groups/text.md) | Font, size, color, line height for description content |
+| [Button](../options-groups/button.md) | Text size, colors, border, radius, font, icon, hover behavior |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Call to Action Design tab settings](../assets/screenshots/modules/call-to-action/settings-design.png){ loading=lazy } -->
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for IDs, classes, conditional display, and interactions.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (main element, title, description, button, button icon). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element for accessibility or data attributes. |
-| Conditions | condition builder | Set display conditions so the module only appears based on rules such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
-| Transitions | transition controls | Configure CSS transition properties (duration, easing, delay) for hover state changes. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Call to Action Advanced tab settings](../assets/screenshots/modules/call-to-action/settings-advanced.png){ loading=lazy } -->
 <!-- TODO: Capture Advanced tab screenshot -->

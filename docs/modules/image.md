@@ -62,33 +62,42 @@ The Content tab holds the core settings for selecting your image and configuring
 
 The Design tab provides visual customization options for the image and the module container.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Alignment | select | Controls the horizontal alignment of the image within its column — left, center, or right. Supports responsive values for different device breakpoints. |
-| Overlay | group | Configure an overlay effect that appears on hover. Set the overlay icon, color, and opacity to create interactive image presentations. |
-| Sizing | group | Controls the width, max-width, height, and min-height of the module. Accepts CSS units such as px, %, em, vw, and vh. Use max-width to prevent images from exceeding their container. |
-| Spacing | group | Margin and padding controls for the module container. Set values per side (top, right, bottom, left) and configure different values for desktop, tablet, and phone. |
-| Border | group | Apply border width, color, style, and border radius to the image. Border radius rounds the corners — use equal values for uniform rounding or set each corner independently. |
-| Box Shadow | group | Add a shadow effect behind the module. Configure horizontal offset, vertical offset, blur radius, spread radius, and shadow color. Choose from presets or fine-tune manually. |
-| Filters | group | CSS filter controls applied to the image — hue rotate, saturate, brightness, contrast, invert, sepia, opacity, and blur. Adjust these in real time within the builder. |
-| Transform | group | Apply CSS transforms including scale, translate, rotate, skew, and transform origin. Useful for creating angled or repositioned image effects. |
-| Animation | group | Entrance animation that plays when the module scrolls into the viewport. Options include fade, slide, bounce, zoom, flip, fold, and roll. Configure direction, duration, delay, intensity, and repeat behavior. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Overlay](../options-groups/overlay.md) | Hover overlay icon, color, and opacity |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | group | Set the CSS ID and CSS class for the module. The ID must be unique on the page and is useful for anchor links or JavaScript targeting. Multiple classes can be separated by spaces. |
-| CSS | group | Write custom CSS targeting specific elements within the module, such as the main element, the image tag, or overlay elements. Styles entered here are scoped to this module instance. |
-| HTML | group | Add custom HTML attributes to the module's wrapper element. Useful for adding data attributes, ARIA labels, or other accessibility properties. |
-| Conditions | group | Set display conditions that determine when the module appears. Conditions can be based on user role, logged-in status, date/time, post type, and other criteria. |
-| Interactions | group | Configure click, hover, and scroll-based interactions that trigger animations or state changes on this or other elements on the page. |
-| Visibility | toggle | Control whether the module is visible on desktop, tablet, and phone. Hidden modules are removed from the page output on the specified device types. |
-| Transitions | group | Configure the CSS transition duration, delay, and easing curve applied to hover-state changes such as color shifts, opacity changes, transforms, and filter adjustments. |
-| Position | group | Set the CSS position property (relative, absolute, fixed, sticky) and offset values. Useful for overlapping elements or creating sticky images that remain visible during scroll. |
-| Scroll Effects | group | Apply scroll-driven animations such as parallax movement, fading, scaling, rotating, or blurring as the user scrolls past the module. Configure the motion range and intensity. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, image tag, overlay) |
+| HTML | Custom HTML attributes for module wrapper (data attributes, ARIA labels) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

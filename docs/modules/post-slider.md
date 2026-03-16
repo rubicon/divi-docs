@@ -66,39 +66,48 @@ The Content tab controls which posts appear in the slider, what elements are sho
 
 The Design tab provides full visual control over the slider's overlay, navigation elements, typography, button styling, and standard module properties.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Overlay | overlay controls | Configure the background overlay that appears on top of featured images. Set the overlay color and opacity to ensure text remains readable against varied image backgrounds. |
 | Navigation | navigation styling | Customize the appearance of slider arrow controls and dot indicators, including color, size, and hover states. |
-| Image | image styling | Style the featured images with border radius, sizing, and alignment controls. Applies when images are displayed alongside content rather than as backgrounds. |
-| Text | text styling | Set general text properties that cascade to all text elements on each slide, including font family, weight, style, alignment, color, and line height. |
-| Title Text | text styling | Override the general text styles specifically for post titles on each slide. Includes full typography controls: font family, weight, size, letter spacing, line height, color, and text shadow. |
-| Body Text | text styling | Style the post excerpt or content text independently from the title. Control font, size, color, and spacing for the body copy area of each slide. |
-| Meta Text | text styling | Style the metadata line (author, date, categories) with separate typography settings. Typically rendered smaller and lighter than the title and body text. |
-| Button | button styling | Configure the read-more button appearance including background color, text color, border, border radius, font, size, padding, and hover state styles. |
-| Sizing | dimensions | Set the module's width, max-width, min-height, and height. The min-height setting is particularly important for controlling the slider's visual prominence on the page. |
-| Spacing | margin/padding | Define margin and padding values for the module and its internal slide content area. Supports responsive values per breakpoint (desktop, tablet, phone). |
-| Border | border controls | Add borders to the module container. Configure width, color, style, and border radius for rounded corners. |
-| Box Shadow | shadow controls | Apply box shadow effects with customizable horizontal/vertical offset, blur radius, spread, color, and position (outer or inner). |
-| Filters | image filters | Apply CSS filter effects such as brightness, contrast, saturation, hue rotation, blur, invert, sepia, and opacity to the module. Includes blend mode selection. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, and skew. Set the transform origin point for precise positioning. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and direction. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, weight, size, color, letter spacing, line height, text shadow for post titles |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, spacing for post excerpt text |
+| [Meta Text](../options-groups/meta-text.md) | Font, size, color, spacing for metadata (author, date, categories) |
+| [Button](../options-groups/button.md) | Background color, text color, border, border radius, font, padding, hover styles |
+| [Image](../options-groups/image.md) | Border radius, sizing, alignment for featured images |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides developer-oriented controls for custom attributes, conditional display logic, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. Add custom HTML attributes. |
-| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (slider container, slide, title, meta, content, button, arrows, dots, image, etc.). |
-| HTML | tag select | Choose a semantic HTML tag for the module's wrapper element, improving accessibility and SEO structure. |
-| Conditions | condition builder | Set display conditions so the module only appears based on rules such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
-| Transitions | transition controls | Configure CSS transition properties (duration, easing function, delay) for smooth hover state changes on module elements. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
-| Scroll Effects | scroll controls | Apply scroll-driven effects such as parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (slider container, slide, title, meta, content, button, arrows, dots, image) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

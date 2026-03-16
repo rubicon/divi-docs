@@ -63,36 +63,45 @@ The Content tab controls the text displayed above the form, the post-login redir
 
 The Design tab provides styling controls for the form fields, button, typography, and overall module appearance.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Fields | group | Style the username and password input fields. Control the field background color, text color, placeholder color, focus border color, and field border radius. These settings determine how the form inputs look in their default, focused, and filled states. |
-| Text | group | General text styling options including text color, text alignment, and text shadow applied to the module's content area. |
-| Title Text | group | Typography controls specifically for the module title — font family, font weight, font size, letter spacing, line height, text color, and text shadow. Supports responsive values per device. |
-| Body Text | group | Typography controls for the description text below the title — font family, weight, size, spacing, height, color, and shadow. Also supports responsive breakpoint overrides. |
-| Button | group | Customize the login button appearance. Control the button text color, background color, border width, border color, border radius, font, icon placement, and hover state styles. |
-| Sizing | group | Set the width, max-width, height, and min-height of the module. Accepts CSS units like px, %, em, vw, and vh. |
-| Spacing | group | Margin and padding controls for the module container. Set individual values for each side and configure responsive overrides for desktop, tablet, and phone. |
-| Border | group | Apply border width, color, style, and border radius to the outer module container. |
-| Box Shadow | group | Add a shadow effect behind the module with configurable offset, blur, spread, and color values. |
-| Filters | group | CSS filter controls — hue rotate, saturate, brightness, contrast, invert, sepia, opacity, and blur — applied to the entire module. |
-| Transform | group | CSS transform controls including scale, translate, rotate, skew, and transform origin. |
-| Animation | group | Entrance animation played when the module scrolls into view. Options include fade, slide, bounce, zoom, flip, fold, and roll with configurable direction, duration, delay, and intensity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Text color, alignment, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, size, color, letter spacing, line height, text shadow for the module title |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, line height for the description text |
+| [Button](../options-groups/button.md) | Text color, background, border, border radius, font, icon, hover states |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level HTML, CSS, and behavior controls.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | group | Set the CSS ID and CSS class for the module. The ID must be unique on the page. Multiple CSS classes can be separated by spaces. |
-| CSS | group | Write custom CSS targeting specific elements within the module, such as the form wrapper, input fields, button, title, and body text. Styles are scoped to this module instance. |
-| HTML | group | Add custom HTML attributes to the module wrapper element for data attributes, ARIA labels, or other accessibility enhancements. |
-| Conditions | group | Set display conditions that control when the module is visible. Common conditions include logged-in status, user role, date/time ranges, and post type — particularly useful for showing the login form only to logged-out users. |
-| Interactions | group | Configure click, hover, and scroll-based interactions that trigger animations or state changes on this or other page elements. |
-| Visibility | toggle | Control whether the module appears on desktop, tablet, and phone. Hidden modules are removed from the page output on the excluded device types. |
-| Transitions | group | Configure the CSS transition duration, delay, and easing curve for hover-state changes on the module and its child elements. |
-| Position | group | Set the CSS position property (relative, absolute, fixed, sticky) and offset values for precise placement within the layout. |
-| Scroll Effects | group | Apply scroll-driven animations such as parallax movement, fading, scaling, rotating, or blurring as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (form wrapper, input fields, button, title, body text) |
+| HTML | Custom HTML attributes for module wrapper (data attributes, ARIA labels) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

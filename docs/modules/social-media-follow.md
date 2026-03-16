@@ -72,35 +72,44 @@ Each social network item within the module has its own configuration panel:
 
 The Design tab controls the visual appearance of the social icons, text labels, button styling, and overall module layout.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Alignment | alignment control | Set the horizontal alignment of the social icons within the module container (left, center, or right). |
 | Icon | icon styling | Customize the icon appearance including color, size, and hover state behavior across all items in the module. |
-| Text | text styling | Style any visible text labels associated with the social network items, including font family, size, weight, color, letter spacing, and line height. |
 | Follow Button | button styling | Control the shape and appearance of the follow button containers, including background color, border radius, padding, and hover state transitions. |
-| Sizing | dimension controls | Set the module width, max width, and horizontal alignment within its column. |
-| Spacing | margin/padding | Configure external margin and internal padding for the module. Responsive values can be set independently for each breakpoint. |
-| Border | border styling | Add and customize borders around the module including width, color, style, and per-corner radius values. |
-| Box Shadow | shadow controls | Apply a box shadow to the module with configurable horizontal offset, vertical offset, blur, spread, and color. |
-| Filters | image filters | Apply CSS filter effects to the module including hue rotation, saturation, brightness, contrast, inversion, sepia, and blur. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and transform origin adjustments. |
-| Animation | animation controls | Configure the module entrance animation triggered when scrolling into view, with style, direction, duration, delay, and intensity options. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow for text labels |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level controls for custom attributes, CSS targeting, conditional display logic, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | id/class inputs | Assign a unique CSS ID and one or more CSS classes to the module for targeting with custom CSS or JavaScript. |
-| CSS | custom CSS editor | Add custom CSS rules targeting specific internal elements of the social media follow module such as the icon container, individual icons, and link wrappers. |
-| HTML | html attributes | Configure additional HTML attributes on the module wrapper element. |
-| Conditions | display logic | Set conditions that determine when the module is displayed, such as user role, page type, or custom logic rules. |
-| Interactions | event handlers | Define interactive behaviors triggered by user actions like click or hover events on the module. |
-| Visibility | device toggles | Control which devices display this module by toggling visibility independently for desktop, tablet, and phone. |
-| Transitions | transition controls | Set the duration and timing of hover transition effects on interactive elements within the module. |
-| Position | positioning controls | Configure the CSS positioning scheme (static, relative, absolute, fixed, or sticky), along with z-index and offset values. |
-| Scroll Effects | scroll transforms | Enable transform effects like rotation, scaling, fading, and blur driven by the visitor's scroll position relative to the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (icon container, individual icons, link wrappers) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

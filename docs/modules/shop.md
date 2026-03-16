@@ -71,42 +71,49 @@ The Content tab controls which products display, how they are sourced and sorted
 
 The Design tab provides controls for the visual presentation of the product grid, including layout, typography, image styling, and effects.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | select | Choose between grid layout options. Flexbox and CSS Grid configurations are available for advanced column/row control. |
-| Image | image styling | Configure product image appearance including border radius, object fit, hover effects, and overlay behavior. |
 | Star Rating | color/size controls | Customize the color and size of the star rating icons displayed on product cards. |
 | Sale Badge | styling controls | Customize the appearance of the sale badge including background color, text color, font, and positioning. |
-| Text | text styling | Set general text properties for the module including font family, weight, style, alignment, and line height. |
-| Title Text | text styling | Style the product title specifically with independent font, size, color, letter spacing, and text shadow controls. |
 | Price Text | text styling | Customize the price display including font, size, regular price color, sale price color, and strikethrough styling for original prices. |
-| Meta Text | text styling | Style supplementary metadata text such as category labels or descriptions if displayed. |
-| Button | button styling | Customize the add-to-cart button appearance including font, text color, background color, border, border radius, padding, and hover effects. |
-| Sizing | dimension controls | Set the module's width, height, min/max dimensions, and alignment within its container. |
-| Spacing | margin/padding | Adjust the internal padding and external margins of the module and individual product cards. Supports responsive values. |
-| Border | border controls | Apply borders to the module container and individual product cards with independent side control. |
-| Box Shadow | shadow controls | Add a shadow behind the module or individual product cards with adjustable offset, blur, spread, and color. |
-| Filters | filter controls | Apply CSS filter effects including hue rotation, saturation, brightness, contrast, invert, sepia, opacity, and blend mode. |
-| Transform | transform controls | Apply CSS transforms including scale, rotate, skew, and translate on the X, Y, and Z axes. |
-| Animation | animation controls | Set an entrance animation style with configurable duration, delay, and intensity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, size, color, letter spacing, text shadow for product titles |
+| [Meta Text](../options-groups/meta-text.md) | Font, size, color, spacing for category labels or descriptions |
+| [Button](../options-groups/button.md) | Font, text color, background color, border, border radius, padding, hover effects for add-to-cart button |
+| [Image](../options-groups/image.md) | Border radius, object fit, hover effects, overlay behavior for product images |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| CSS ID | text | Assign a unique CSS ID to the module's outermost wrapper for targeted styling or JavaScript hooks. |
-| CSS Class | text | Add one or more CSS classes to the module for shared styling rules. |
-| Custom Attributes | text | Add custom HTML data attributes to the module element. |
-| Custom CSS | code editor | Write CSS rules targeting specific internal elements of the module (e.g., product card, image, title, price, button, sale badge). |
-| HTML Tag | select | Choose the semantic HTML element used for the module wrapper (div, section, article, etc.). |
-| Conditions | logic builder | Set display conditions based on user role, device, date, or other dynamic criteria. |
-| Interactions | event builder | Configure custom interactions triggered by click, hover, or scroll events. |
-| Visibility | device toggles | Control whether the module renders on desktop, tablet, and phone screen sizes. |
-| Transitions | transition controls | Set the duration, delay, and easing curve for CSS transitions on hover and state changes. |
-| Position | position controls | Switch between static, relative, absolute, or fixed positioning with configurable offsets. |
-| Scroll Effects | scroll controls | Apply scroll-driven transformations such as vertical/horizontal motion, fade, scale, rotate, and blur. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (product card, image, title, price, button, sale badge) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

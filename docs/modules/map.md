@@ -63,33 +63,42 @@ The Content tab controls the map configuration, pin locations, and general modul
 
 The Design tab provides visual customization for the map container and the controls displayed on the map.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Controls | group | Toggle the visibility of Google Maps UI controls such as the zoom buttons, map type selector, street view pegman, and fullscreen button. Disabling controls creates a cleaner presentation but limits interactivity. |
 | Map | group | Configure the map container appearance including the map height, which determines how tall the embedded map is in pixels. Also includes options for the draggable state and mouse wheel zoom behavior. |
-| Sizing | group | Set the width, max-width, height, and min-height of the module container. These values constrain the overall dimensions of the map element within the page layout. |
-| Spacing | group | Margin and padding controls for the module container. Set values per side and configure responsive overrides for desktop, tablet, and phone breakpoints. |
-| Border | group | Apply border width, color, style, and border radius to the map container. Border radius rounds the corners of the map, and all four corners can be set independently. |
-| Box Shadow | group | Add a shadow effect behind the map module with configurable horizontal offset, vertical offset, blur radius, spread radius, and color. |
-| Filters | group | CSS filter controls applied to the entire module — hue rotate, saturate, brightness, contrast, invert, sepia, opacity, and blur. Adjusting these filters affects the map appearance, which can be used to create a muted or stylized map look. |
-| Transform | group | CSS transform controls including scale, translate, rotate, skew, and transform origin. Transforms apply to the module container. |
-| Animation | group | Entrance animation played when the module scrolls into the viewport. Options include fade, slide, bounce, zoom, flip, fold, and roll with direction, duration, delay, and intensity controls. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | group | Set the CSS ID and CSS class for the module. The ID must be unique on the page and can be used for anchor links or JavaScript targeting. Multiple CSS classes can be separated by spaces. |
-| CSS | group | Write custom CSS targeting specific elements within the module such as the map container, pin info windows, or the module wrapper. Styles are scoped to this module instance. |
-| HTML | group | Add custom HTML attributes to the module wrapper element for data attributes, ARIA labels, or other custom properties. |
-| Conditions | group | Set display conditions that control when the module is visible based on criteria such as user role, logged-in status, date/time, post type, or custom logic. |
-| Interactions | group | Configure click, hover, and scroll-based interactions that trigger animations or state changes on this or other elements on the page. |
-| Visibility | toggle | Control whether the module appears on desktop, tablet, and phone. Hidden modules are removed from the page output on the excluded device types. |
-| Transitions | group | Configure the CSS transition duration, delay, and easing curve for hover-state changes on the module. |
-| Position | group | Set the CSS position property (relative, absolute, fixed, sticky) and offset values for precise placement. |
-| Scroll Effects | group | Apply scroll-driven animations such as parallax movement, fading, scaling, rotating, or blurring as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (map container, pin info windows, module wrapper) |
+| HTML | Custom HTML attributes for module wrapper (data attributes, ARIA labels) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

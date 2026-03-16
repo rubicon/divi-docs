@@ -77,177 +77,52 @@ The Content tab is where you define the actual pricing data and manage the indiv
 
 The Design tab controls the visual presentation of the pricing tables, including layout, typography for every text element, button styling, and decorative effects.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Layout** | | |
 | Background Color | Color | Set the background color for individual pricing table columns. |
 | Show Drop Shadow | Toggle | Enable or disable the drop shadow effect on featured pricing tables. |
-| **Bullet** | | |
 | Featured Table Bullet Color | Color | Set the color of bullet point icons in the featured pricing table. |
 | Table Bullet Color | Color | Set the color of bullet point icons in non-featured pricing tables. |
-| **Text** | | |
-| Text Orientation | Select | Set the overall text alignment (left, center, right, or justified) for the module. |
-| Text Color | Preset | Choose between light and dark text color presets for the module. |
-| **Title Text** | | |
-| Title Font | Font Selector | Choose the font family for pricing table titles. |
-| Title Font Weight | Select | Set the weight (boldness) of the title text. |
-| Title Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to title text. |
-| Title Text Alignment | Select | Set horizontal alignment for the title specifically. |
-| Title Text Color | Color | Set the color of pricing table titles. |
-| Title Text Size | Range | Adjust the font size of title text. |
-| Title Letter Spacing | Range | Control the spacing between letters in the title. |
-| Title Line Height | Range | Set the vertical line height for title text. |
-| Title Text Shadow | Select | Apply a shadow effect to the title text. |
-| **Body Text** | | |
-| Body Font | Font Selector | Choose the font family for feature list and body text. |
-| Body Font Weight | Select | Set the weight of body text. |
-| Body Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to body text. |
-| Body Text Alignment | Select | Set horizontal alignment for body text. |
-| Body Text Color | Color | Set the color of body and feature list text. |
-| Body Text Size | Range | Adjust the font size of body text. |
-| Body Letter Spacing | Range | Control letter spacing in body text. |
-| Body Line Height | Range | Set the line height for body text. |
-| Body Text Shadow | Select | Apply a shadow effect to body text. |
-| **Subtitle Text** | | |
-| Subtitle Font | Font Selector | Choose the font family for pricing table subtitles. |
-| Subtitle Font Weight | Select | Set the weight of subtitle text. |
-| Subtitle Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to subtitle text. |
-| Subtitle Text Alignment | Select | Set horizontal alignment for subtitle text. |
-| Subtitle Text Color | Color | Set the color of subtitle text. |
-| Subtitle Text Size | Range | Adjust the font size of subtitle text. |
-| Subtitle Letter Spacing | Range | Control letter spacing in subtitle text. |
-| Subtitle Line Height | Range | Set the line height for subtitle text. |
-| Subtitle Text Shadow | Select | Apply a shadow effect to subtitle text. |
-| **Price Text** | | |
-| Price Font | Font Selector | Choose the font family for the price value. |
-| Price Font Weight | Select | Set the weight of the price text. |
-| Price Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to the price. |
-| Price Text Alignment | Select | Set horizontal alignment for the price. |
-| Price Text Color | Color | Set the color of the price value. |
-| Price Text Size | Range | Adjust the font size of the price. |
-| Price Letter Spacing | Range | Control letter spacing in the price text. |
-| Price Line Height | Range | Set the line height for the price text. |
-| Price Text Shadow | Select | Apply a shadow effect to the price text. |
-| **Currency and Frequency Text** | | |
-| Currency/Frequency Font | Font Selector | Choose the font family for the currency symbol and frequency text. |
-| Currency/Frequency Font Weight | Select | Set the weight of currency and frequency text. |
-| Currency/Frequency Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to currency and frequency text. |
-| Currency/Frequency Text Color | Color | Set the color of the currency symbol and billing frequency label. |
-| Currency/Frequency Text Size | Range | Adjust the font size of currency and frequency text. |
-| Currency/Frequency Letter Spacing | Range | Control letter spacing in currency and frequency text. |
-| Currency/Frequency Line Height | Range | Set the line height for currency and frequency text. |
-| Currency/Frequency Text Shadow | Select | Apply a shadow effect to currency and frequency text. |
-| **Excluded Item Text** | | |
-| Excluded Item Font | Font Selector | Choose the font family for excluded (strikethrough) feature items. |
-| Excluded Item Font Weight | Select | Set the weight of excluded item text. |
-| Excluded Item Font Style | Toggle | Apply additional styling to excluded item text. |
-| Excluded Item Text Color | Color | Set the color of excluded feature items. |
-| Excluded Item Text Size | Range | Adjust the font size of excluded items. |
-| Excluded Item Letter Spacing | Range | Control letter spacing for excluded items. |
-| Excluded Item Line Height | Range | Set the line height for excluded items. |
-| Excluded Item Text Shadow | Select | Apply a shadow effect to excluded item text. |
-| **Button** | | |
-| Use Custom Styles | Toggle | Enable custom button styling instead of the global defaults. |
-| Button Text Size | Range | Adjust the font size of button text. |
-| Button Text Color | Color | Set the color of button text. |
-| Button Background Color | Color | Set the background color of the button. |
-| Button Border Width | Range | Set the width of the button border. |
-| Button Border Color | Color | Set the color of the button border. |
-| Button Border Radius | Range | Control how rounded the button corners are. |
-| Button Letter Spacing | Range | Adjust letter spacing within the button text. |
-| Button Font | Font Selector | Choose the font family for the button. |
-| Button Font Weight | Select | Set the weight of the button text. |
-| Button Font Style | Toggle | Apply italic, uppercase, underline, or strikethrough to button text. |
-| Button Icon | Icon Picker | Choose an icon to display alongside the button text. |
-| Button Icon Placement | Select | Position the icon to the left or right of the button text. |
-| Button On Hover | Toggle | Show the icon only on hover or display it at all times. |
-| **Sizing** | | |
-| Width | Range | Set the overall width of the module. |
-| Max Width | Range | Define the maximum width the module can expand to. |
-| Module Alignment | Select | Align the module within its parent container (left, center, right). |
-| Min Height | Range | Set the minimum height for the module. |
-| Height | Range | Define a fixed height for the module. |
-| Max Height | Range | Set the maximum height the module can reach. |
-| **Spacing** | | |
-| Margin | Spacing | Set outer spacing around the module on each side. |
-| Padding | Spacing | Set inner spacing within the module on each side. |
-| **Border** | | |
-| Border Width | Range | Set the width of the module border on each side. |
-| Border Color | Color | Set the color of the module border. |
-| Border Style | Select | Choose the border line style (solid, dashed, dotted, etc.). |
-| Border Radius | Range | Control corner rounding for the module container. |
-| **Box Shadow** | | |
-| Box Shadow | Select | Choose a shadow preset or configure a custom box shadow. |
-| Box Shadow Color | Color | Set the color of the box shadow. |
-| Box Shadow Position | Select | Place the shadow inside or outside the module. |
-| **Filters** | | |
-| Hue | Range | Shift the hue of the module and its contents. |
-| Saturation | Range | Adjust the saturation level of the module. |
-| Brightness | Range | Control the brightness of the module. |
-| Contrast | Range | Adjust the contrast of the module. |
-| Invert | Range | Invert the colors of the module. |
-| Sepia | Range | Apply a sepia tone to the module. |
-| Opacity | Range | Set the opacity (transparency) of the module. |
-| Blur | Range | Apply a blur effect to the module. |
-| Blend Mode | Select | Choose how the module blends with elements beneath it. |
-| **Transform** | | |
-| Transform Scale | Range | Scale the module up or down from its original size. |
-| Transform Translate | Range | Move the module horizontally or vertically from its original position. |
-| Transform Rotate | Range | Rotate the module by a specified degree. |
-| Transform Skew | Range | Skew the module along the X or Y axis. |
-| Transform Origin | Select | Set the origin point for all transform operations. |
-| **Animation** | | |
-| Animation Style | Select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll). |
-| Animation Direction | Select | Set the direction of the entrance animation. |
-| Animation Duration | Range | Control how long the animation takes to complete. |
-| Animation Delay | Range | Set a delay before the animation begins. |
-| Animation Intensity | Range | Adjust the intensity or distance of the animation effect. |
-| Animation Starting Opacity | Range | Set the opacity at the start of the animation. |
-| Animation Speed Curve | Select | Choose the easing function for the animation timing. |
-| Animation Repeat | Toggle | Set whether the animation repeats or plays only once. |
+| Subtitle Text | typography group | Font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow for pricing table subtitles. |
+| Price Text | typography group | Font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow for the price value. |
+| Currency and Frequency Text | typography group | Font family, weight, style, color, size, letter spacing, line height, and text shadow for the currency symbol and billing frequency label. |
+| Excluded Item Text | typography group | Font family, weight, style, color, size, letter spacing, line height, and text shadow for excluded (strikethrough) feature items. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, weight, size, color, letter spacing, line height, text shadow for table titles |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, spacing for feature list and body text |
+| [Button](../options-groups/button.md) | Custom styles toggle, text size, colors, border, border radius, font, icon, hover behavior |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides fine-grained control over HTML attributes, custom CSS, conditional display logic, scroll-based effects, and responsive visibility.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | Text | Assign a unique CSS ID to the module for targeting with custom styles or scripts. |
-| CSS Class | Text | Add one or more CSS classes to the module for shared styling rules. |
-| Custom HTML Attributes | Text | Add custom data attributes or other HTML attributes to the module wrapper element. |
-| **CSS** | | |
-| Main Element | Code | Write custom CSS that applies to the main module wrapper. |
-| Pricing Table | Code | Write custom CSS targeting individual pricing table containers. |
-| Title | Code | Write custom CSS targeting the pricing table title elements. |
-| Price | Code | Write custom CSS targeting the price display elements. |
-| Button | Code | Write custom CSS targeting the call-to-action buttons. |
-| Before | Code | Write custom CSS for the module's ::before pseudo-element. |
-| After | Code | Write custom CSS for the module's ::after pseudo-element. |
-| **HTML** | | |
-| HTML Tag | Select | Choose the semantic HTML element used for the module wrapper (div, section, article, etc.). |
-| **Conditions** | | |
-| Display Conditions | Builder | Create rules to show or hide this module based on dynamic criteria such as user role, date, post type, or custom logic. |
-| **Interactions** | | |
-| Interactions | Builder | Define custom interactions that trigger actions (show, hide, animate other elements) when users interact with this module. |
-| **Visibility** | | |
-| Disable On | Checkbox | Selectively hide the module on desktop, tablet, or phone screen sizes. |
-| **Transitions** | | |
-| Transition Duration | Range | Set the speed of hover state transitions for the module. |
-| Transition Delay | Range | Add a delay before hover transitions begin. |
-| Transition Speed Curve | Select | Choose the easing function for hover transitions. |
-| **Position** | | |
-| Position | Select | Set the CSS position value (default/static, relative, absolute, fixed, sticky). |
-| Z Index | Number | Control the stacking order of the module relative to other elements. |
-| Horizontal Offset | Range | Adjust the left/right position when using absolute or fixed positioning. |
-| Vertical Offset | Range | Adjust the top/bottom position when using absolute or fixed positioning. |
-| **Scroll Effects** | | |
-| Vertical Motion | Toggle/Range | Enable and configure vertical parallax movement as the user scrolls. |
-| Horizontal Motion | Toggle/Range | Enable and configure horizontal movement during scroll. |
-| Fading In/Out | Toggle/Range | Gradually change the module opacity as it scrolls into or out of the viewport. |
-| Scaling Up/Down | Toggle/Range | Scale the module larger or smaller based on scroll position. |
-| Rotating | Toggle/Range | Rotate the module as the user scrolls through the page. |
-| Blur | Toggle/Range | Apply a progressive blur effect based on scroll position. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, pricing table, title, price, button, before, after) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

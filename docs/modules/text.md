@@ -75,112 +75,52 @@ The Content tab contains the text editor and structural controls for the module.
 
 The Design tab provides typography, sizing, and visual styling controls for all text elements within the module.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Text** | | |
-| Text Alignment | select | Horizontal alignment for all content (left, center, right, justified) |
-| Text Color Scheme | select | Light or dark text color scheme for the module |
-| **Heading Text** | | |
 | Heading Font | typography | Font family, weight, style, and line height for heading tags (H1-H6) |
 | Heading Text Color | color | Font color for all heading elements |
 | Heading Text Size | range | Font size for heading elements |
 | Heading Letter Spacing | range | Letter spacing for heading text |
 | Heading Line Height | range | Line height for heading elements |
 | Heading Text Shadow | composite | Shadow effect applied to heading text |
-| **Body Text** | | |
-| Body Font | typography | Font family, weight, style, and line height for paragraph text |
-| Body Text Color | color | Font color for body paragraph text |
-| Body Text Size | range | Font size for body text |
-| Body Letter Spacing | range | Letter spacing for body text |
-| Body Line Height | range | Line height for body text |
-| Body Text Shadow | composite | Shadow effect applied to body text |
 | Link Color | color | Color applied to hyperlinks within the module |
 | Unordered List Font | typography | Font settings for unordered list items |
 | Ordered List Font | typography | Font settings for ordered list items |
 | Block Quote Font | typography | Font settings for blockquote elements |
-| **Sizing** | | |
-| Width | range | The overall width of the module |
-| Max Width | range | Maximum width the module can expand to |
-| Module Alignment | select | Horizontal alignment of the module within its column |
-| Min Height | range | Minimum height of the module container |
-| Height | range | Fixed height of the module container |
-| Max Height | range | Maximum height the module container can reach |
-| **Spacing** | | |
-| Margin | composite | External spacing around the module (top, right, bottom, left) |
-| Padding | composite | Internal spacing within the module (top, right, bottom, left) |
-| **Border** | | |
-| Border Width | range | Width of the border around the module |
-| Border Color | color | Color of the module border |
-| Border Style | select | Style of the border (solid, dashed, dotted, double, groove, ridge) |
-| Border Radius | range | Corner rounding applied to the module container |
-| **Box Shadow** | | |
-| Box Shadow | composite | Shadow effect applied to the module container |
-| **Filters** | | |
-| Hue Rotate | range | Rotates the hue of all module colors |
-| Saturate | range | Adjusts color saturation of the module |
-| Brightness | range | Adjusts brightness of the module |
-| Contrast | range | Adjusts contrast of the module |
-| Invert | range | Inverts the module colors |
-| Sepia | range | Applies a sepia tone to the module |
-| Opacity | range | Controls the transparency of the module |
-| Blur | range | Applies a Gaussian blur to the module |
-| Blend Mode | select | CSS mix-blend-mode for how the module blends with its background |
-| **Transform** | | |
-| Scale | composite | Scale the module horizontally and vertically |
-| Translate | composite | Move the module along the X and Y axes |
-| Rotate | composite | Rotate the module on the X, Y, and Z axes |
-| Skew | composite | Skew the module horizontally and vertically |
-| Transform Origin | select | The point around which transformations are applied |
-| **Animation** | | |
-| Animation Style | select | Entrance animation type (fade, slide, bounce, zoom, flip, fold, roll) |
-| Animation Direction | select | Direction from which the animation enters |
-| Animation Duration | range | How long the entrance animation takes in milliseconds |
-| Animation Delay | range | Delay before the animation starts |
-| Animation Intensity | range | The distance or intensity of the animation movement |
-| Animation Starting Opacity | range | The opacity value at the start of the animation |
-| Animation Speed Curve | select | Easing function for the animation (ease, ease-in, ease-out, linear) |
-| Animation Repeat | toggle | Whether the animation replays each time the element enters the viewport |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, spacing for paragraph text |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides technical controls for custom attributes, CSS overrides, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | text | A unique HTML `id` attribute applied to the module wrapper |
-| CSS Class | text | One or more CSS class names added to the module wrapper |
-| **CSS** | | |
-| Before | code | Custom CSS applied to the module's `::before` pseudo-element |
-| Main Element | code | Custom CSS applied to the main module container |
-| After | code | Custom CSS applied to the module's `::after` pseudo-element |
-| Text | code | Custom CSS targeting the inner text container |
-| **HTML** | | |
-| Custom Attributes | text | Additional HTML attributes added to the module element (e.g., `data-*` attributes) |
-| **Conditions** | | |
-| Display Conditions | composite | Rules that determine when the module is shown (logged-in status, date range, page type, etc.) |
-| **Interactions** | | |
-| Cursor Style | select | Custom cursor appearance when hovering over the module |
-| **Visibility** | | |
-| Disable On | toggle | Hide the module on desktop, tablet, or phone screen sizes |
-| Overflow X | select | Horizontal overflow behavior (visible, hidden, scroll, auto) |
-| Overflow Y | select | Vertical overflow behavior (visible, hidden, scroll, auto) |
-| **Transitions** | | |
-| Transition Duration | range | Duration of hover and state change transitions |
-| Transition Delay | range | Delay before transition effects begin |
-| Transition Speed Curve | select | Easing curve for transition animations |
-| **Position** | | |
-| Position | select | CSS position type (static, relative, absolute, fixed, sticky) |
-| Z Index | number | Stack order of the module relative to other elements |
-| Horizontal Offset | range | Left or right offset for positioned elements |
-| Vertical Offset | range | Top or bottom offset for positioned elements |
-| **Scroll Effects** | | |
-| Vertical Motion | composite | Moves the module vertically as the user scrolls |
-| Horizontal Motion | composite | Moves the module horizontally as the user scrolls |
-| Fade In and Out | composite | Fades the module in or out based on scroll position |
-| Scaling Up and Down | composite | Scales the module based on scroll position |
-| Rotating | composite | Rotates the module as the user scrolls |
-| Blur | composite | Applies a progressive blur based on scroll position |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, inner text container, before, after) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

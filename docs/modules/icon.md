@@ -74,86 +74,42 @@ The Content tab controls which icon is displayed, its link destination, backgrou
 
 The Design tab controls the icon's visual properties including color, size, alignment, and all decorative effects.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Icon** | | |
 | Icon Color | color | Sets the color of the icon. Supports solid colors and can be set independently for default and hover states. |
 | Icon Size | range | Controls the display size of the icon in pixels, em, rem, or other CSS units. |
-| **Alignment** | | |
 | Module Alignment | alignment | Sets the horizontal alignment of the icon within its column (left, center, right). |
-| **Spacing** | | |
-| Margin | spacing | Controls the outer spacing around the module on all four sides. |
-| Padding | spacing | Controls the inner spacing within the module on all four sides. Useful when the icon has a background color or border. |
-| **Border** | | |
-| Border Width | range | Sets the thickness of the border around the icon module. |
-| Border Color | color | Sets the color of the module border. |
-| Border Style | select | Chooses the border style (solid, dashed, dotted, double, groove, ridge, inset, outset). |
-| Border Radius | border-radius | Rounds the corners of the module container. Set to 50% for a circular border around the icon. |
-| **Box Shadow** | | |
-| Box Shadow | box-shadow | Adds a shadow effect around the module with configurable blur, spread, color, and position. |
-| **Filters** | | |
-| Hue | range | Shifts the hue of the entire module. |
-| Saturation | range | Adjusts the color saturation of the entire module. |
-| Brightness | range | Controls the brightness level of the entire module. |
-| Contrast | range | Adjusts the contrast of the entire module. |
-| Invert | range | Inverts the colors of the entire module. |
-| Sepia | range | Applies a sepia tone to the entire module. |
-| Opacity | range | Controls the transparency of the entire module. |
-| Blend Mode | select | Sets how the module blends with elements behind it. |
-| **Transform** | | |
-| Transform Scale | range | Scales the module up or down from its original size. |
-| Transform Translate | range | Moves the module horizontally or vertically from its original position. |
-| Transform Rotate | range | Rotates the module by a specified degree. |
-| Transform Skew | range | Skews the module along the horizontal or vertical axis. |
-| Transform Origin | select | Sets the reference point for all transform operations. |
-| **Animation** | | |
-| Animation Style | select | Chooses the entrance animation type (fade, slide, bounce, zoom, flip, fold, roll). |
-| Animation Direction | select | Sets the direction from which the animation originates. |
-| Animation Duration | range | Controls how long the entrance animation takes to complete. |
-| Animation Delay | range | Sets a delay before the entrance animation begins. |
-| Animation Intensity | range | Controls the intensity or distance of the animation effect. |
-| Animation Starting Opacity | range | Sets the opacity at the beginning of the animation. |
-| Animation Speed Curve | select | Defines the acceleration curve of the animation (ease, linear, ease-in, ease-out, ease-in-out). |
-| Animation Repeat | toggle | Sets whether the animation plays once or loops continuously. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side |
+| [Border](../options-groups/border.md) | Width, color, style, border radius (set to 50% for circular) |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | text | Assigns a unique CSS ID to the module for targeted styling or anchor links. |
-| CSS Classes | text | Adds one or more CSS class names to the module for custom styling. |
-| Custom HTML Attributes | text | Adds custom `data-*` or other HTML attributes to the module wrapper element. |
-| **CSS** | | |
-| Main Element | code | Applies custom CSS rules directly to the icon module's main wrapper element. |
-| Icon | code | Applies custom CSS rules directly to the icon element itself. |
-| **HTML** | | |
-| Semantic Tag | select | Sets the HTML element used for the module container (div, article, section, header, footer, aside, main). |
-| **Conditions** | | |
-| Display Conditions | conditions | Sets rules that determine when the module is visible, based on user role, page type, date, or custom logic. |
-| **Interactions** | | |
-| Module Interactions | interactions | Defines show, hide, or toggle behaviors triggered by clicks, hovers, or scroll events on other elements. |
-| **Visibility** | | |
-| Disable On | toggle | Hides the module on selected device types: desktop, tablet, or phone. |
-| **Transitions** | | |
-| Transition Duration | range | Sets how long hover-state property transitions take to complete. |
-| Transition Delay | range | Sets a delay before hover-state transitions begin. |
-| Transition Speed Curve | select | Defines the acceleration curve for hover transitions. |
-| **Position** | | |
-| Position | select | Sets the CSS position property (default/static, relative, absolute, fixed, sticky). |
-| Z-Index | number | Controls the stacking order of the module relative to other positioned elements. |
-| Horizontal Offset | range | Moves the module left or right from its positioned origin. |
-| Vertical Offset | range | Moves the module up or down from its positioned origin. |
-| **Scroll Effects** | | |
-| Sticky Position | toggle | Makes the module stick to the viewport during scrolling. |
-| Motion Effects - Vertical | toggle | Moves the module vertically at a different rate as the user scrolls. |
-| Motion Effects - Horizontal | toggle | Moves the module horizontally as the user scrolls. |
-| Motion Effects - Fade | toggle | Changes the module opacity as the user scrolls through the viewport. |
-| Motion Effects - Scaling | toggle | Scales the module up or down as the user scrolls. |
-| Motion Effects - Rotating | toggle | Rotates the module as the user scrolls. |
-| Motion Effects - Blur | toggle | Applies or removes a blur effect as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, icon) |
+| HTML | Semantic HTML tag for the module wrapper (div, article, section) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

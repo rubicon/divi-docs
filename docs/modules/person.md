@@ -67,109 +67,48 @@ The Content tab holds all the informational fields for the profile, including th
 
 The Design tab provides independent styling controls for every visual component of the profile card, from the image treatment to individual text elements, icons, and an optional button.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Icon — Font Size** | range | Set the size of the social media icons displayed on the profile card |
-| **Icon — Color** | color | Choose the color for social media icons, with optional hover state color |
-| **Image — Border Radius** | range | Round the corners of the profile image, up to a full circle |
-| **Image — Border Styles** | composite | Add border width, style, and color around the profile image |
-| **Image — Box Shadow** | composite | Apply a shadow effect beneath or around the profile image |
-| **Image — Image Filters** | composite | Adjust hue, saturation, brightness, contrast, invert, sepia, and opacity on the profile image |
-| **Text — Font** | font picker | Set the default font family for all text in the module |
-| **Text — Font Weight** | select | Choose the default weight for module text |
-| **Text — Font Style** | toggles | Apply italic, uppercase, underline, or strikethrough to all text |
-| **Text — Text Color** | color | Set the default text color for the module |
-| **Text — Text Size** | range | Adjust the base font size with responsive controls |
-| **Text — Letter Spacing** | range | Control spacing between characters |
-| **Text — Line Height** | range | Set the vertical line height |
-| **Text — Text Shadow** | composite | Apply a shadow behind the text |
-| **Text — Text Alignment** | select | Align text to the left, center, or right |
-| **Title Text — Font** | font picker | Choose a font family specifically for the person's name |
-| **Title Text — Font Weight** | select | Set the weight of the name text |
-| **Title Text — Font Style** | toggles | Apply italic, uppercase, underline, or strikethrough to the name |
-| **Title Text — Text Color** | color | Override the name text color independently |
-| **Title Text — Text Size** | range | Set the font size of the person's name |
-| **Title Text — Letter Spacing** | range | Adjust character spacing in the name |
-| **Title Text — Line Height** | range | Set the line height for the name |
-| **Title Text — Text Shadow** | composite | Add a shadow effect to the name text |
-| **Body Text — Font** | font picker | Choose a font family for the biography text |
-| **Body Text — Font Weight** | select | Set the weight of the body text |
-| **Body Text — Font Style** | toggles | Apply italic, uppercase, underline, or strikethrough to the body |
-| **Body Text — Text Color** | color | Set the color of the biography text |
-| **Body Text — Text Size** | range | Control the font size of the biography |
-| **Body Text — Letter Spacing** | range | Adjust character spacing in the biography |
-| **Body Text — Line Height** | range | Set the line height for the biography text |
-| **Body Text — Text Shadow** | composite | Apply a shadow behind the biography text |
-| **Position Text — Font** | font picker | Choose a font family for the position or job title text |
-| **Position Text — Font Weight** | select | Set the weight of the position text |
-| **Position Text — Font Style** | toggles | Apply italic, uppercase, underline, or strikethrough to the position |
-| **Position Text — Text Color** | color | Set the color of the position or job title text |
-| **Position Text — Text Size** | range | Control the font size of the position text |
-| **Position Text — Letter Spacing** | range | Adjust character spacing in the position text |
-| **Position Text — Line Height** | range | Set the line height for the position text |
-| **Position Text — Text Shadow** | composite | Apply a shadow behind the position text |
-| **Button** | composite | Style an optional button element including text color, background, border, padding, font, and hover states |
-| **Sizing — Width** | range | Set the width of the module |
-| **Sizing — Max Width** | range | Define the maximum width the module can reach |
-| **Sizing — Min Height** | range | Set a minimum height for the module container |
-| **Sizing — Height** | range | Set an explicit height for the module |
-| **Sizing — Alignment** | select | Align the module to the left, center, or right within its parent |
-| **Spacing — Margin** | range (4 sides) | Add space outside the module on each side |
-| **Spacing — Padding** | range (4 sides) | Add space inside the module on each side |
-| **Border — Border Width** | range | Set the width of the module border |
-| **Border — Border Color** | color | Choose the color for the module border |
-| **Border — Border Style** | select | Pick a border style such as solid, dashed, or dotted |
-| **Border — Border Radius** | range | Round the corners of the module container |
-| **Box Shadow** | composite | Add a shadow effect beneath or around the entire module |
-| **Filters — Hue** | range | Shift the hue of the module content |
-| **Filters — Saturation** | range | Adjust color saturation |
-| **Filters — Brightness** | range | Increase or decrease brightness |
-| **Filters — Contrast** | range | Adjust contrast levels |
-| **Filters — Invert** | range | Invert the colors |
-| **Filters — Sepia** | range | Apply a sepia tone |
-| **Filters — Opacity** | range | Control overall opacity |
-| **Filters — Blur** | range | Apply a blur effect |
-| **Filters — Blend Mode** | select | Set how the module blends with elements behind it |
-| **Transform — Scale** | range | Scale the module up or down |
-| **Transform — Translate** | range | Move the module along the X and Y axes |
-| **Transform — Rotate** | range | Rotate the module by a specified number of degrees |
-| **Transform — Skew** | range | Skew the module along the X and Y axes |
-| **Transform — Origin** | select | Set the transformation origin point |
-| **Animation — Style** | select | Choose an entrance animation such as fade, slide, bounce, or zoom |
-| **Animation — Direction** | select | Set the direction from which the animation enters |
-| **Animation — Duration** | range | Control how long the animation takes to complete |
-| **Animation — Delay** | range | Set a delay before the animation begins |
-| **Animation — Intensity** | range | Adjust the strength or distance of the animation effect |
-| **Animation — Starting Opacity** | range | Set the opacity at the start of the animation |
-| **Animation — Speed Curve** | select | Choose an easing curve such as ease-in, ease-out, or linear |
-| **Animation — Repeat** | toggle | Set whether the animation plays once or loops |
+| Icon — Font Size | range | Set the size of the social media icons displayed on the profile card |
+| Icon — Color | color | Choose the color for social media icons, with optional hover state color |
+| Position Text | text styling | Font, weight, style, color, size, letter spacing, line height, and text shadow for the position or job title text |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Image](../options-groups/image.md) | Border radius, border styles, box shadow, image filters for the profile photo |
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/title-text.md) | Font, size, color, letter spacing, line height, text shadow for the person's name |
+| [Body Text](../options-groups/body-text.md) | Font, size, color, line height for the biography text |
+| [Button](../options-groups/button.md) | Text color, background, border, padding, font, hover states for optional button |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, scroll-driven effects, and positioning.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes — CSS ID** | text | Assign a unique CSS ID to the module for targeting with styles or JavaScript |
-| **Attributes — CSS Classes** | text | Add one or more CSS classes, separated by spaces |
-| **Attributes — Custom HTML Attributes** | repeater | Add custom data attributes or other HTML attributes to the module wrapper |
-| **CSS — Custom CSS** | code editor | Write CSS rules that apply to specific internal elements of the module |
-| **HTML — Semantic Tag** | select | Choose the HTML element tag (div, article, section, etc.) used for the module wrapper |
-| **Conditions** | rule builder | Define conditions under which the module is displayed, such as user role, page type, or custom field values |
-| **Interactions** | action builder | Create interactions that trigger show, hide, or toggle effects on other elements |
-| **Visibility — Disable On** | checkboxes | Hide the module on desktop, tablet, or phone viewports |
-| **Transitions — Duration** | range | Set the duration of hover and state transition animations |
-| **Transitions — Delay** | range | Add a delay before transitions begin |
-| **Transitions — Speed Curve** | select | Choose the easing function for transitions |
-| **Position — Position** | select | Set positioning mode: default (static), relative, absolute, or fixed |
-| **Position — Offsets** | range (4 sides) | Define top, right, bottom, and left offset values for positioned modules |
-| **Position — Z-Index** | number | Control the stacking order relative to other positioned elements |
-| **Scroll Effects — Vertical Motion** | composite | Move the module vertically as the user scrolls |
-| **Scroll Effects — Horizontal Motion** | composite | Move the module horizontally on scroll |
-| **Scroll Effects — Fade In/Out** | composite | Fade the module in or out based on scroll position |
-| **Scroll Effects — Scaling** | composite | Scale the module up or down as the page scrolls |
-| **Scroll Effects — Rotating** | composite | Rotate the module in response to scrolling |
-| **Scroll Effects — Blur** | composite | Apply or remove a blur effect based on scroll position |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Semantic HTML tag for the module wrapper (div, article, section) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

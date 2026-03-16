@@ -66,6 +66,8 @@ The Content tab controls which menu is displayed, the logo image, optional utili
 
 The Design tab controls the menu layout, typography, dropdown styling, icon appearance, and all visual presentation options.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | select | Choose the menu bar style: **Left Aligned** (logo left, links right), **Centered** (links centered below or beside logo), or **Inline Centered Logo** (logo centered between two groups of links). Also set the dropdown menu direction (downward or upward). |
@@ -73,29 +75,36 @@ The Design tab controls the menu layout, typography, dropdown styling, icon appe
 | Dropdown Menu | color/style controls | Customize the dropdown sub-menu appearance: line color (separator between items), text color, active link color, and mobile menu background color. |
 | Icons | color/size controls | Style the optional utility icons: Shopping Cart icon color and size, Search icon color and size, and Hamburger menu icon color and size. Each icon can be styled independently. |
 | Logo | image styling | Configure styling for the logo image including border radius, border styles, box shadow, and image filters (brightness, contrast, saturation, etc.). |
-| Sizing | dimensions | Control the module's width, max-width, and height. |
-| Spacing | margin/padding | Set margin and padding values for the module container. Supports responsive values per device breakpoint. |
-| Border | border controls | Add borders around the module with customizable width, color, style, and border radius for rounded corners. |
-| Box Shadow | shadow controls | Apply a box shadow with configurable color, horizontal/vertical offset, blur radius, and spread to create depth and separation from surrounding content. |
-| Filters | CSS filters | Apply visual filter effects such as brightness, contrast, saturation, hue rotation, blur, and invert. Includes blend mode selection. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and transform origin for advanced positioning effects. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and starting opacity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides developer-oriented controls for custom attributes, conditional display, and interaction behavior.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. Also supports custom HTML data attributes. |
-| CSS | code editor | Write custom CSS that applies directly to specific internal elements of the module (menu container, links, dropdowns, logo, icons, etc.). |
-| HTML | tag select | Choose the semantic HTML tag used for the module's wrapper element (div, nav, header, etc.). Using `nav` is recommended for accessibility. |
-| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met, such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that breakpoint. |
-| Transitions | transition controls | Configure CSS transition duration and easing function for smooth hover state changes on menu items, dropdowns, and icons. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). Using **sticky** keeps the menu visible as visitors scroll. |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (menu container, links, dropdowns, logo, icons) |
+| HTML | Semantic HTML tag for the module wrapper (div, nav, header). Using `nav` is recommended for accessibility |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

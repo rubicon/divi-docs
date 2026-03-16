@@ -63,39 +63,42 @@ The Content tab is where you specify the video source and configure the overlay 
 
 The Design tab controls the visual presentation of the video player, its overlay, and the play icon.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Play Icon | icon styling | Customize the play button that appears on the overlay image. Adjust its color, size, and hover state to match your site branding. |
 | Overlay | overlay styling | Style the overlay layer that sits on top of the video before playback. Configure opacity, color tints, or blending effects for a polished pre-play appearance. |
-| Sizing | dimensions | Set the module's width, max-width, height, and alignment. The video player is responsive by default but these controls let you constrain or expand it. |
-| Spacing | margin / padding | Define margin and padding values around and within the module. Supports per-device responsive values for desktop, tablet, and phone. |
-| Border | border controls | Add borders around the video module with configurable width, color, style, and corner radius. |
-| Box Shadow | shadow controls | Apply a box shadow effect with adjustable color, horizontal and vertical offset, blur radius, and spread. |
-| Filters | CSS filters | Apply visual filter effects such as brightness, contrast, saturation, hue rotation, blur, and invert to the module. |
-| Transform | transform controls | Apply CSS transforms including scale, rotate, skew, and translate. Set a custom transform origin for precise control. |
-| Animation | animation select | Choose an entrance animation style (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, direction, and intensity. |
 
-<!-- ![Video Design tab settings](../assets/screenshots/modules/video/settings-design.png){ loading=lazy } -->
-<!-- TODO: Capture Design tab screenshot -->
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Horizontal/vertical offset, blur, spread, color, position |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides developer-oriented controls for custom attributes, conditional logic, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and one or more CSS classes to the module for targeting with custom styles or JavaScript. You can also add arbitrary HTML attributes. |
-| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (video container, overlay, play icon, etc.). |
-| HTML | tag select | Choose the semantic HTML tag for the module's wrapper element (e.g., `div`, `section`, `article`). |
-| Conditions | condition builder | Define display conditions so the module only renders when certain rules are met — such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Create hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are excluded from the rendered output for that device. |
-| Transitions | transition controls | Configure CSS transition duration and easing for hover and state changes on the module. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) along with offset values (top, right, bottom, left) and z-index. |
-| Scroll Effects | scroll controls | Apply scroll-driven effects such as parallax, fade, scale, rotate, blur, or horizontal movement that animate as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
-<!-- ![Video Advanced tab settings](../assets/screenshots/modules/video/settings-advanced.png){ loading=lazy } -->
-<!-- TODO: Capture Advanced tab screenshot -->
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (video container, overlay, play icon) |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

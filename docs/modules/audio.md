@@ -67,38 +67,47 @@ The Content tab controls the audio source, accompanying text and image, link beh
 
 The Design tab controls all visual styling for the audio player and its surrounding elements.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Image | image styling | Adjust the cover image dimensions, alignment, and how it is displayed relative to the player. |
-| Text | text styling | Set general text properties like font family, weight, style, color, and line height for all text in the module. |
-| Title Text | text styling | Style the track title independently — font family, size, color, letter spacing, line height, and text shadow. |
 | Caption Text | text styling | Style the artist or caption text below the title with its own font, size, color, and spacing values. |
-| Sizing | dimensions | Control the module's width, max-width, min-height, and height. |
-| Spacing | margin / padding | Set margin and padding values around and within the module. Supports responsive values per device breakpoint. |
-| Border | border controls | Add borders around the module or specific internal elements — configure width, color, style, and border radius. |
-| Box Shadow | shadow controls | Apply a box shadow with customizable horizontal/vertical offset, blur, spread, color, and position (outer or inner). |
-| Filters | CSS filters | Apply visual filter effects such as brightness, contrast, saturation, blur, hue rotation, and inversion. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and set the transform origin point. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable speed, delay, intensity, and starting opacity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for the track title |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Audio Design tab settings](../assets/screenshots/modules/audio/settings-design.png){ loading=lazy } -->
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for custom attributes, conditional display, and scroll-driven effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for precise targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS scoped to specific internal elements of the module (container, image, title, player, etc.). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element for accessibility or integration needs. |
-| Conditions | condition builder | Define display conditions so the module only renders based on rules such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Configure hover, click, or scroll-triggered interactions that affect this module or other page elements. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are excluded from the page source for that device. |
-| Transitions | transition controls | Set CSS transition duration, easing function, and delay for smooth hover-state changes. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) along with offset values and z-index. |
-| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement triggered as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Audio Advanced tab settings](../assets/screenshots/modules/audio/settings-advanced.png){ loading=lazy } -->
 <!-- TODO: Capture Advanced tab screenshot -->

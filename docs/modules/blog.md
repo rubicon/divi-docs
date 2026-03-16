@@ -84,43 +84,52 @@ The Content group within the Content tab contains the most important settings fo
 
 The Design tab provides full visual control over the blog's layout mode, image overlays, typography for every text element, and standard module styling options.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | layout controls | Choose between Fullwidth (list) and Grid layout modes. In Grid mode, set the number of columns (1-4) and enable or disable masonry positioning. Masonry allows posts of varying heights to tile together without gaps. |
 | Overlay | overlay controls | Configure the hover overlay that appears on featured images. Set the overlay color, icon, and icon color. The overlay adds a visual cue that the post image is interactive. |
-| Image | image styling | Style the featured images with border radius, alignment, and sizing controls. Configure how images display within the post card or list entry. |
-| Text | text styling | Set general text properties that cascade to all text elements within the module, including font family, weight, style, alignment, color, and line height. |
-| Title Text | text styling | Override the general text styles specifically for post titles. Includes full typography controls: font family, weight, size, letter spacing, line height, color, and text shadow. Supports separate settings for linked and hover states. |
-| Meta Text | text styling | Style the metadata line (author, date, categories, comment count) independently. Typically set to a smaller size and lighter color than the title. |
 | Read More Text | text styling | Control the appearance of the "read more" link at the end of each excerpt. Style it as a standard link or as a button-like element using font, size, and color settings. |
-| Pagination Text | text styling | Customize the typography of the pagination navigation links at the bottom of the module. |
-| Body Text | text styling | Style the excerpt or full content text separately from the title and meta elements. |
-| Sizing | dimensions | Set the module's width, max-width, min-height, and height. Control how the module fills its container. |
-| Spacing | margin/padding | Define margin and padding values for the module and its internal elements. Supports responsive values per breakpoint (desktop, tablet, phone). |
-| Border | border controls | Add borders to the module container or individual elements. Configure width, color, style, and border radius for rounded corners. |
-| Box Shadow | shadow controls | Apply box shadow effects with customizable horizontal/vertical offset, blur radius, spread, color, and position (outer or inner). |
-| Filters | image filters | Apply CSS filter effects such as brightness, contrast, saturation, hue rotation, blur, invert, sepia, and opacity. Includes blend mode selection. |
-| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, and skew. Set the transform origin point for precise positioning of effects. |
-| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and direction. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Image](../options-groups/image.md) | Border radius, alignment, sizing for featured images |
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Title Text](../options-groups/text.md) | Font, size, color, letter spacing for post titles |
+| [Body Text](../options-groups/text.md) | Font, size, color, line height for excerpt/content text |
+| [Meta Text](../options-groups/text.md) | Font, size, color for author, date, categories metadata |
+| [Pagination Text](../options-groups/text.md) | Font, size, color for pagination navigation links |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding (responsive) |
+| [Border](../options-groups/border.md) | Width, color, style, radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Shadow effects |
+| [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
+| [Animation](../options-groups/animation.md) | Entrance animation styles |
 
 <!-- ![Blog Design tab settings](../assets/screenshots/modules/blog/settings-design.png){ loading=lazy } -->
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-The Advanced tab provides developer-oriented controls for custom attributes, conditional display logic, and scroll-driven effects.
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, interactions, and scroll-driven effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
-| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (container, post, title, meta, content, image, pagination, etc.). |
-| HTML | code fields | Add custom HTML attributes to the module's wrapper element. |
-| Conditions | condition builder | Set display conditions so the module only appears based on rules such as user role, page type, date range, or custom logic. |
-| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
-| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
-| Transitions | transition controls | Configure CSS transition properties (duration, easing function, delay) for smooth hover state changes. |
-| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
-| Scroll Effects | scroll controls | Apply scroll-driven effects such as parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target |
+| HTML | Custom HTML attributes for module wrapper |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 <!-- ![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy } -->
 <!-- TODO: Capture Advanced tab screenshot -->

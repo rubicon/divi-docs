@@ -66,34 +66,41 @@ The Content tab controls which posts are linked, what text labels appear, and ho
 
 The Design tab controls the visual styling of the navigation links and the module container.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
 | Links Text | text styling | Customize the typography of the previous/next link text including font family, weight, size, color, letter spacing, line height, and text shadow. Supports separate hover state styling. |
-| Sizing | dimension controls | Set the module's width, height, min/max dimensions, and alignment within its container. |
-| Spacing | margin/padding | Adjust the internal padding and external margins of the module. Supports responsive values per device. |
-| Border | border controls | Apply borders to the module container with independent control over each side's width, style, and color. |
-| Box Shadow | shadow controls | Add a shadow behind the module with adjustable horizontal/vertical offset, blur, spread, and color. |
-| Filters | filter controls | Apply CSS filter effects including hue rotation, saturation, brightness, contrast, invert, sepia, opacity, and blend mode. |
-| Transform | transform controls | Apply CSS transforms including scale, rotate, skew, and translate on the X, Y, and Z axes. |
-| Animation | animation controls | Set an entrance animation style with configurable duration, delay, and intensity. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side, responsive breakpoints |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| CSS ID | text | Assign a unique CSS ID to the module's outermost wrapper for targeted styling or JavaScript hooks. |
-| CSS Class | text | Add one or more CSS classes to the module for shared styling rules. |
-| Custom Attributes | text | Add custom HTML data attributes to the module element. |
-| Custom CSS | code editor | Write CSS rules targeting specific internal elements of the module (e.g., previous link, next link, link containers). |
-| HTML Tag | select | Choose the semantic HTML element used for the module wrapper (nav, div, section, etc.). |
-| Conditions | logic builder | Set display conditions based on user role, device, date, or other dynamic criteria. |
-| Interactions | event builder | Configure custom interactions triggered by click, hover, or scroll events. |
-| Visibility | device toggles | Control whether the module renders on desktop, tablet, and phone screen sizes. |
-| Transitions | transition controls | Set the duration, delay, and easing curve for CSS transitions on hover and state changes. |
-| Position | position controls | Switch between static, relative, absolute, or fixed positioning with configurable offsets. |
-| Scroll Effects | scroll controls | Apply scroll-driven transformations such as vertical/horizontal motion, fade, scale, rotate, and blur. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (previous link, next link, link containers) |
+| HTML | Semantic HTML tag for the module wrapper (nav, div, section) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 

@@ -80,137 +80,50 @@ The Content tab controls which images are displayed, their order, element visibi
 
 The Design tab controls the visual layout, image styling, typography for titles and captions, and all visual effects applied to the gallery.
 
+**Module-specific settings:**
+
 | Setting | Type | Description |
 |---------|------|-------------|
-| **Layout** | | |
 | Layout | select | Switches between Grid (multi-column thumbnails) and Slider (horizontal carousel) display modes. |
 | Layout Style | select | When Grid is selected, chooses between Flexbox and Grid CSS layout methods for the thumbnail arrangement. |
 | Columns | number | Sets the number of columns in the grid layout. Available values typically range from 1 to 6. |
 | Column Spacing | range | Controls the gap between columns and rows in the grid layout. |
-| **Overlay** | | |
-| Overlay Icon | icon-picker | Selects the icon displayed over each image on hover. |
-| Overlay Icon Color | color | Sets the color of the hover overlay icon. |
-| Hover Overlay Color | color | Sets the background color of the semi-transparent overlay that appears on image hover. |
-| Hover Icon Picker | toggle | Enables or disables the icon shown on image hover. |
-| **Image** | | |
-| Image Rounded Corners | border-radius | Applies rounded corners to gallery images. |
-| Image Border | border | Adds a border around each gallery image. |
-| Image Box Shadow | box-shadow | Applies a shadow effect to gallery images. |
-| Image CSS Filters | filters | Adjusts hue, saturation, brightness, contrast, invert, and sepia on gallery images. |
-| **Text** | | |
-| Text Alignment | alignment | Sets the horizontal alignment of all text content within the module. |
-| Text Color Scheme | select | Switches between dark and light text color presets. |
-| **Title Text** | | |
-| Title Font | font | Sets the font family for image titles. |
-| Title Font Weight | select | Controls the boldness of image title text. |
-| Title Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to title text. |
-| Title Text Color | color | Sets the color of image title text. |
-| Title Text Size | range | Controls the font size of image titles. |
-| Title Letter Spacing | range | Adjusts the spacing between characters in image titles. |
-| Title Line Height | range | Sets the vertical spacing between lines in image titles. |
-| Title Text Shadow | shadow | Applies a shadow effect to image title text. |
-| **Caption Text** | | |
-| Caption Font | font | Sets the font family for image captions. |
-| Caption Font Weight | select | Controls the boldness of caption text. |
-| Caption Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to caption text. |
-| Caption Text Color | color | Sets the color of image caption text. |
-| Caption Text Size | range | Controls the font size of image captions. |
-| Caption Letter Spacing | range | Adjusts the spacing between characters in image captions. |
-| Caption Line Height | range | Sets the vertical spacing between lines in image captions. |
-| Caption Text Shadow | shadow | Applies a shadow effect to image caption text. |
-| **Pagination Text** | | |
-| Pagination Font | font | Sets the font family for pagination links. |
-| Pagination Font Weight | select | Controls the boldness of pagination text. |
-| Pagination Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to pagination text. |
-| Pagination Text Color | color | Sets the color of pagination link text. |
-| Pagination Text Size | range | Controls the font size of pagination links. |
-| Pagination Letter Spacing | range | Adjusts character spacing in pagination links. |
-| Pagination Line Height | range | Sets vertical spacing between lines in pagination text. |
-| Pagination Text Shadow | shadow | Applies a shadow effect to pagination text. |
-| **Sizing** | | |
-| Width | range | Sets the horizontal width of the module. |
-| Max Width | range | Sets the maximum horizontal width the module can reach. |
-| Module Alignment | alignment | Controls horizontal alignment of the module when its width is less than the column width. |
-| Min Height | range | Sets the minimum height of the module container. |
-| Height | range | Sets the exact height of the module container. |
-| Max Height | range | Sets the maximum height the module container can reach. |
-| **Spacing** | | |
-| Margin | spacing | Controls the outer spacing around the module on all four sides. |
-| Padding | spacing | Controls the inner spacing within the module on all four sides. |
-| **Border** | | |
-| Border Width | range | Sets the thickness of the module border. |
-| Border Color | color | Sets the color of the module border. |
-| Border Style | select | Chooses the border style (solid, dashed, dotted, double, groove, ridge, inset, outset). |
-| Border Radius | border-radius | Rounds the corners of the module container. |
-| **Box Shadow** | | |
-| Box Shadow | box-shadow | Adds a shadow effect around the module with configurable blur, spread, color, and position. |
-| **Filters** | | |
-| Hue | range | Shifts the hue of the entire module. |
-| Saturation | range | Adjusts the color saturation of the entire module. |
-| Brightness | range | Controls the brightness level of the entire module. |
-| Contrast | range | Adjusts the contrast of the entire module. |
-| Invert | range | Inverts the colors of the entire module. |
-| Sepia | range | Applies a sepia tone to the entire module. |
-| Opacity | range | Controls the transparency of the entire module. |
-| Blend Mode | select | Sets how the module blends with elements behind it. |
-| **Transform** | | |
-| Transform Scale | range | Scales the module up or down from its original size. |
-| Transform Translate | range | Moves the module horizontally or vertically from its original position. |
-| Transform Rotate | range | Rotates the module by a specified degree. |
-| Transform Skew | range | Skews the module along the horizontal or vertical axis. |
-| Transform Origin | select | Sets the reference point for all transform operations. |
-| **Animation** | | |
-| Animation Style | select | Chooses the entrance animation type (fade, slide, bounce, zoom, flip, fold, roll). |
-| Animation Direction | select | Sets the direction from which the animation originates. |
-| Animation Duration | range | Controls how long the entrance animation takes to complete. |
-| Animation Delay | range | Sets a delay before the entrance animation begins. |
-| Animation Intensity | range | Controls the intensity or distance of the animation effect. |
-| Animation Starting Opacity | range | Sets the opacity at the beginning of the animation. |
-| Animation Speed Curve | select | Defines the acceleration curve of the animation (ease, linear, ease-in, ease-out, ease-in-out). |
-| Animation Repeat | toggle | Sets whether the animation plays once or loops continuously. |
+| Caption Text | text styling | Font, weight, style, color, size, letter spacing, line height, and text shadow for image captions. |
+
+**Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Overlay](../options-groups/overlay.md) | Hover overlay icon, icon color, overlay background color |
+| [Image](../options-groups/image.md) | Rounded corners, border, box shadow, CSS filters for gallery images |
+| [Text](../options-groups/text.md) | Text alignment, color scheme |
+| [Title Text](../options-groups/title-text.md) | Font, size, color, letter spacing, line height, text shadow for image titles |
+| [Pagination Text](../options-groups/pagination-text.md) | Font, size, color for pagination links |
+| [Sizing](../options-groups/sizing.md) | Width, max-width, height, min-height, alignment |
+| [Spacing](../options-groups/spacing.md) | Margin and padding per side |
+| [Border](../options-groups/border.md) | Width, color, style, border radius |
+| [Box Shadow](../options-groups/box-shadow.md) | Color, offsets, blur radius, spread |
+| [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue, blur, invert, blend mode |
+| [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
+| [Animation](../options-groups/animation.md) | Entrance animation style, duration, delay, intensity |
 
 ### Advanced Tab
 
 The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| **Attributes** | | |
-| CSS ID | text | Assigns a unique CSS ID to the module for targeted styling or anchor links. |
-| CSS Classes | text | Adds one or more CSS class names to the module for custom styling. |
-| Custom HTML Attributes | text | Adds custom `data-*` or other HTML attributes to the module wrapper element. |
-| **CSS** | | |
-| Main Element | code | Applies custom CSS rules directly to the gallery module's main wrapper element. |
-| Gallery Item | code | Applies custom CSS rules to individual gallery item containers. |
-| Gallery Image | code | Applies custom CSS rules to gallery image elements. |
-| Gallery Title | code | Applies custom CSS rules to image title elements. |
-| Gallery Caption | code | Applies custom CSS rules to image caption elements. |
-| Gallery Pagination | code | Applies custom CSS rules to pagination elements. |
-| **HTML** | | |
-| Semantic Tag | select | Sets the HTML element used for the module container (div, article, section, header, footer, aside, main). |
-| **Interactions** | | |
-| Module Interactions | interactions | Defines show, hide, or toggle behaviors triggered by clicks, hovers, or scroll events on other elements. |
-| **Conditions** | | |
-| Display Conditions | conditions | Sets rules that determine when the module is visible, based on user role, page type, date, or custom logic. |
-| **Visibility** | | |
-| Disable On | toggle | Hides the module on selected device types: desktop, tablet, or phone. |
-| **Transitions** | | |
-| Transition Duration | range | Sets how long hover-state property transitions take to complete. |
-| Transition Delay | range | Sets a delay before hover-state transitions begin. |
-| Transition Speed Curve | select | Defines the acceleration curve for hover transitions. |
-| **Position** | | |
-| Position | select | Sets the CSS position property (default/static, relative, absolute, fixed, sticky). |
-| Z-Index | number | Controls the stacking order of the module relative to other positioned elements. |
-| Horizontal Offset | range | Moves the module left or right from its positioned origin. |
-| Vertical Offset | range | Moves the module up or down from its positioned origin. |
-| **Scroll Effects** | | |
-| Sticky Position | toggle | Makes the module stick to the viewport during scrolling. |
-| Motion Effects - Vertical | toggle | Moves the module vertically at a different rate as the user scrolls. |
-| Motion Effects - Horizontal | toggle | Moves the module horizontally as the user scrolls. |
-| Motion Effects - Fade | toggle | Changes the module opacity as the user scrolls through the viewport. |
-| Motion Effects - Scaling | toggle | Scales the module up or down as the user scrolls. |
-| Motion Effects - Rotating | toggle | Rotates the module as the user scrolls. |
-| Motion Effects - Blur | toggle | Applies or removes a blur effect as the user scrolls. |
+**Shared advanced options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
+
+| Options Group | Description |
+|--------------|-------------|
+| [Attributes](../options-groups/attributes.md) | CSS ID, classes, custom HTML attributes |
+| [CSS](../options-groups/css.md) | Custom CSS per element target (main element, gallery item, image, title, caption, pagination) |
+| HTML | Semantic HTML tag for the module wrapper (div, article, section) |
+| [Conditions](../options-groups/conditions.md) | Display rules (user role, page type, date, logic) |
+| Interactions | Hover, click, or scroll-triggered interactions |
+| [Visibility](../options-groups/visibility.md) | Device visibility toggles |
+| [Transitions](../options-groups/transitions.md) | Hover transition timing |
+| [Position](../options-groups/position.md) | CSS position and offsets |
+| [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
 ## Code Examples
 
