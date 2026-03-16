@@ -275,8 +275,15 @@ nav:
     - Link: options-groups/link.md
   - API Reference:
     - Overview: api/index.md
+    - REST API Integration: api/rest-api.md
+    - Block JSON Reference: api/block-json-reference.md
+    - WP-CLI Integration: api/wp-cli.md
     - Hooks & Filters: api/hooks-filters.md
     - Custom Modules: api/custom-modules.md
+    - Module JSON Schema: api/module-json-schema.md
+    - Module Rendering Lifecycle: api/module-lifecycle.md
+    - JavaScript API: api/javascript-api.md
+    - Divi Data Registry: api/divi-data-registry.md
   - CSS Reference:
     - Overview: css-reference/index.md
     - Class Reference: css-reference/class-reference.md

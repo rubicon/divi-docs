@@ -21,7 +21,7 @@ Divi 5 provides PHP action hooks, PHP filter hooks, and JavaScript event hooks t
 
 ## Overview
 
-Divi's hook system follows WordPress conventions: **actions** let you inject code at specific execution points, while **filters** let you modify data as it passes through the rendering pipeline. On the JavaScript side, Divi fires custom DOM events that extensions can listen for to interact with the Visual Builder's React-based UI.
+Divi's hook system follows WordPress conventions: **actions** let you inject code at specific execution points, while **filters** let you modify data as it passes through the rendering pipeline. On the JavaScript side, Divi fires custom DOM events that extensions can listen for to interact with the Visual Builder's React-based UI. For the full JavaScript API surface, see also the [Elegant Themes Developer Documentation](https://www.elegantthemes.com/documentation/developers/) and the [JavaScript API](javascript-api.md) reference.
 
 Hooks are the primary extension mechanism for Divi 5. Whether you need to add markup before or after a module renders, modify a module's output HTML, inject scripts into the Builder, or register entirely new modules, the hook system is where you start.
 
@@ -467,6 +467,40 @@ add_filter( 'et_module_shortcode_output', 'my_early_filter', 5, 3 );
 add_filter( 'et_module_shortcode_output', 'my_late_filter', 99, 3 );
 ```
 
+## AI Interaction Notes
+
+⚠️ Observed — The following notes document hook behavior observed during AI-assisted workflows.
+
+### Hooks Relevant to REST API Content Updates
+
+When Divi content is modified via the WordPress REST API (e.g., `POST /wp-json/wp/v2/pages/{id}` with updated `content` field), these hooks fire:
+
+| Hook | Fires? | Notes |
+|------|--------|-------|
+| `et_save_post` | Yes | Fires after the post is saved with Builder content |
+| `et_module_shortcode_output` | No | Only fires during front-end rendering, not during save |
+| `et_builder_api_ready` | No | Only fires in the Visual Builder client-side |
+
+🔬 Needs Testing: Whether `et_builder_modules_loaded` fires during REST API save operations.
+
+### Hooks Triggerable via Browser Automation
+
+When an AI assistant drives the Visual Builder via browser automation (Playwright, Claude in Chrome):
+
+- `et_builder_api_ready` fires normally when the VB loads
+- `et_fb_module_init` fires when modules are created or selected
+- `et_builder_after_save` fires when the Save button is clicked
+- `et_fb_module_settings_changed` fires when settings are modified through the UI
+
+### Divi 5 vs Divi 4 Hook Changes
+
+Most Divi 4 hooks are retained for backward compatibility. Key changes in Divi 5:
+
+- The `et_builder_api_ready` event passes the same API object name but with expanded capabilities
+- New events: `divi.module.loop.extractCustomAttributes`, `divi.loop.query_args`, `divi_off_canvas_should_load`
+- The `API.Utils` namespace has additional methods in Divi 5
+- ⚠️ Observed: Some Divi 4 shortcode-era hooks (e.g., `et_pb_shortcode_*`) may no longer fire since Divi 5 uses block format instead of shortcodes
+
 ## Version Notes
 
 !!! note "Divi 5 Only"
@@ -499,6 +533,10 @@ add_filter( 'et_module_shortcode_output', 'my_late_filter', 99, 3 );
 ## Related
 
 - [Custom Modules](../api/custom-modules.md)
+- [REST API Integration](rest-api.md)
+- [JavaScript API](javascript-api.md)
+- [Block JSON Reference](block-json-reference.md)
+- [Module Rendering Lifecycle](module-lifecycle.md)
 - [CSS Class Reference](../css-reference/class-reference.md)
 - [CSS in Divi 5 Playbook](../playbooks/css-in-divi.md)
 - [Visual Builder](../builder/visual-builder.md)
