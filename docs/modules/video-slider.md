@@ -56,7 +56,8 @@ For additional reference, see the [official Elegant Themes documentation](https:
 2. Click the gray **+** icon to add a new module to a row.
 3. Search for "Video Slider" in the module picker or locate it in the Media category, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
+For an animated walkthrough of adding and configuring this module, see the
+[official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10368157-the-video-slider-module-in-divi-5).
 
 ## Settings & Options
 

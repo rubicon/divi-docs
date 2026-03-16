@@ -59,7 +59,8 @@ For additional reference, see the [official Elegant Themes documentation](https:
 3. Click the gray **+** icon to add a new module to a row.
 4. Search for "Woo Product Information" in the module picker, then click to insert it.
 
-<!-- TODO: Add animated GIF demonstrating module insertion -->
+For an animated walkthrough of adding and configuring this module, see the
+[official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/12042030).
 
 ## Settings & Options
 
