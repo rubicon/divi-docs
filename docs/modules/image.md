@@ -1,80 +1,98 @@
 ---
 title: "Image"
 category: modules
-tags: ["modules", "media"]
-related: ["gallery", "blurb", "fullwidth-header"]
+tags: ["modules", "media", "image", "lightbox", "visual", "content"]
+related: ["gallery", "blurb", "icon"]
 divi_version: "5.x"
-last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/image/"
+last_updated: 2026-03-16
+source_url: "https://help.elegantthemes.com/en/articles/10315772-the-image-module-in-divi-5"
 ---
 
 # Image
 
-The Image module displays a single image with optional link, lightbox, and animation support.
+The Image module displays a single image with optional linking, lightbox functionality, and extensive styling controls.
 
 ## Overview
 
-The Image module is one of the most frequently used content elements in Divi 5. It places a single image anywhere within a row and provides granular control over sizing, alignment, borders, shadows, filters, and entrance animations. Whether you need a simple inline photo, a linked banner, or a lightbox-enabled portfolio piece, the Image module handles it without requiring custom code.
+The Image module is one of the most fundamental building blocks in Divi 5. It allows you to place a single image anywhere within your page layout and provides full control over how that image is presented, sized, aligned, and animated. Whether you need a simple photo in a blog post, a clickable banner linking to another page, or a lightbox-enabled portfolio piece, the Image module handles all of these scenarios without requiring any custom code.
 
-Beyond basic display, the module integrates with the Divi 5 Visual Builder's responsive editing controls. You can set different image sizes, alignment, and spacing per device breakpoint (desktop, tablet, phone), ensuring images look sharp on every screen. The built-in CSS filter controls let you adjust hue, saturation, brightness, contrast, and more directly within the builder — no external image editor required.
+Divi 5 gives the Image module a complete set of responsive design controls, so you can fine-tune the appearance on desktop, tablet, and phone independently. The built-in CSS filter controls let you adjust properties like brightness, contrast, saturation, and blur directly within the Visual Builder, eliminating the need to edit images in an external application. You can also apply overlay effects, box shadows, border radius adjustments, and entrance animations to create polished, interactive image presentations.
 
-The Image module also supports linking to any URL or opening the full-size image in a lightbox overlay. Combined with entrance animations and hover effects via the Design and Advanced tabs, a single Image module can serve as a hero graphic, a clickable call-to-action, or part of a curated visual grid alongside [Gallery](gallery.md) and [Blurb](blurb.md) modules.
+The module integrates seamlessly with other Divi 5 elements. Pair it with a [Blurb](blurb.md) module for image-and-text cards, arrange several Image modules in a multi-column row for a custom [Gallery](gallery.md)-style grid, or use the [Icon](icon.md) module alongside it for decorative accents. The Image module supports linking to any URL or opening the full-resolution version in a built-in lightbox overlay, making it versatile enough for hero sections, product showcases, team photos, and more.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Image module overview](../assets/screenshots/modules/image/overview.png){ loading=lazy } -->
-<!-- *The Image module as it appears in the Divi 5 Visual Builder.* -->
+For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10315772-the-image-module-in-divi-5).
+
+[View A Live Demo Of This Module](https://www.16wells.dev/module-demos/image/)
+
+![Image module](../assets/screenshots/modules/image/element.png){ loading=lazy }
+*The Image module as it appears in the Divi 5 Visual Builder.*
+
+## Use Cases
+
+1. **Hero and Banner Images** — Place a full-width image at the top of a page or section to create a striking visual introduction. Combine with entrance animations and responsive sizing to ensure the hero looks great across all devices.
+
+2. **Linked Product or Portfolio Images** — Use the link setting to make images clickable, directing visitors to product detail pages, case studies, or external resources. Enable the lightbox for portfolio galleries where visitors can view full-resolution versions.
+
+3. **Decorative Section Accents** — Insert styled images with border radius, box shadows, and CSS filters to create visually distinct section dividers, background accents, or testimonial photos that match your brand aesthetic.
+
+## How to Add the Image Module
+
+1. **Open the Visual Builder** — Navigate to the page you want to edit and activate the Divi 5 Visual Builder. Click the plus icon in the section and row where you want the image to appear.
+
+2. **Select the Image Module** — In the module picker, search for "Image" or find it in the module list. Click to insert it into your chosen column.
+
+3. **Upload or Select an Image** — In the Content tab, click the image upload area to choose an image from your WordPress Media Library or upload a new file. Configure any link, lightbox, or alignment settings, then adjust the Design and Advanced tabs as needed.
 
 ## Settings & Options
 
 ### Content Tab
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| Image URL | upload | — | Upload or select an image from the WordPress media library. Accepts JPG, PNG, GIF, WebP, and SVG formats. |
-| Image Alt Text | text | — | Alt text applied to the `<img>` tag for accessibility and SEO. Screen readers and search engines rely on this value. |
-| Image Link URL | url | — | URL the image links to when clicked. Leave empty for a non-linked image. Ignored when lightbox is enabled. |
-| URL Opens | select | Same Window | Controls whether the linked URL opens in the same browser window or a new tab. Only visible when Image Link URL is set. |
-| Image Alignment | select | Default | Horizontal alignment of the image within the module container — Left, Center, or Right. |
-| Use Lightbox | toggle | No | When enabled, clicking the image opens the full-size version in a lightbox overlay. Overrides any link URL. |
-| Admin Label | text | — | A custom label shown only in the Visual Builder interface. Useful for identifying modules when a row contains multiple Image modules. |
+The Content tab holds the core settings for selecting your image and configuring how it behaves when clicked.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Image Content tab settings](../assets/screenshots/modules/image/settings-content.png){ loading=lazy } -->
-<!-- *Content tab showing image upload, link, and lightbox options.* -->
+| Setting | Type | Description |
+|---------|------|-------------|
+| Image | upload | Upload or select an image from the WordPress Media Library. Supports JPG, PNG, GIF, WebP, and SVG formats. This is the primary content of the module. |
+| Link | group | Contains settings for linking the image to a URL. Includes the destination URL, whether it opens in the same window or a new tab, and whether the lightbox is enabled. When lightbox is active, clicking the image opens the full-size version in an overlay. |
+| Background | group | Apply a background color, gradient, or image behind the module container. Useful for adding padding around the image with a colored backdrop. |
+| Loop | toggle | When used inside a dynamic layout such as a Theme Builder template, this setting controls whether the module repeats for each item in a post loop. |
+| Order | select | Determines the display order of the module when multiple modules exist within the same container. Useful for reordering elements without dragging in the builder. |
+| Meta | group | Contains the admin label field, which lets you assign a custom name to the module for easier identification in the Visual Builder layers panel. |
 
 ### Design Tab
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| Width | range | auto | Sets an explicit width for the image. Accepts px, %, vw, and other CSS units. |
-| Max Width | range | 100% | Caps the image width so it does not exceed the specified value, even if the source image is larger. |
-| Alignment | select | Center | Controls horizontal alignment of the entire module within its column — Left, Center, or Right. |
-| Border Radius | range | 0px | Rounds the corners of the image. Use equal values on all four corners for a uniform radius, or set each corner independently. |
-| Border Width | range | 0px | Thickness of the border drawn around the image. |
-| Border Color | color | #333333 | Color of the image border. Only visible when Border Width is greater than 0. |
-| Border Style | select | Solid | Style of the border line — Solid, Dashed, Dotted, Double, Groove, Ridge, Inset, or Outset. |
-| Box Shadow | select | None | Adds a drop shadow effect behind the image. Choose from preset shadow styles or configure horizontal/vertical offset, blur, spread, and color manually. |
-| CSS Filters | range | defaults | A group of filter controls that adjust the image appearance in real time — Hue Rotate (0°), Saturate (100%), Brightness (100%), Contrast (100%), Invert (0%), Sepia (0%), Opacity (100%), and Blur (0px). |
-| Animation Style | select | None | Entrance animation played when the image scrolls into view — Fade, Slide, Bounce, Zoom, Flip, Fold, or Roll. Additional controls for direction, duration, delay, intensity, and repeat appear when an animation is selected. |
-| Image Spacing | range | varies | Margin and padding controls around the image module. Supports per-side values and responsive overrides for desktop, tablet, and phone. |
+The Design tab provides visual customization options for the image and the module container.
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Image Design tab settings](../assets/screenshots/modules/image/settings-design.png){ loading=lazy } -->
-<!-- *Design tab with sizing, border, shadow, filter, and animation controls.* -->
+| Setting | Type | Description |
+|---------|------|-------------|
+| Alignment | select | Controls the horizontal alignment of the image within its column — left, center, or right. Supports responsive values for different device breakpoints. |
+| Overlay | group | Configure an overlay effect that appears on hover. Set the overlay icon, color, and opacity to create interactive image presentations. |
+| Sizing | group | Controls the width, max-width, height, and min-height of the module. Accepts CSS units such as px, %, em, vw, and vh. Use max-width to prevent images from exceeding their container. |
+| Spacing | group | Margin and padding controls for the module container. Set values per side (top, right, bottom, left) and configure different values for desktop, tablet, and phone. |
+| Border | group | Apply border width, color, style, and border radius to the image. Border radius rounds the corners — use equal values for uniform rounding or set each corner independently. |
+| Box Shadow | group | Add a shadow effect behind the module. Configure horizontal offset, vertical offset, blur radius, spread radius, and shadow color. Choose from presets or fine-tune manually. |
+| Filters | group | CSS filter controls applied to the image — hue rotate, saturate, brightness, contrast, invert, sepia, opacity, and blur. Adjust these in real time within the builder. |
+| Transform | group | Apply CSS transforms including scale, translate, rotate, skew, and transform origin. Useful for creating angled or repositioned image effects. |
+| Animation | group | Entrance animation that plays when the module scrolls into the viewport. Options include fade, slide, bounce, zoom, flip, fold, and roll. Configure direction, duration, delay, intensity, and repeat behavior. |
 
 ### Advanced Tab
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| CSS ID | text | — | Assign a unique CSS ID to the module for targeting with custom CSS or JavaScript. |
-| CSS Class | text | — | Assign one or more CSS classes to the module, separated by spaces. |
-| Custom CSS | code | — | Write custom CSS targeting specific elements within the module — Main Element, Image, and overlay elements. |
-| Visibility | toggle | Show on all devices | Control whether the module is visible on desktop, tablet, and phone. Hiding a module removes it from the DOM on that device. |
-| Transition | select | Default | Controls the CSS transition duration, delay, and easing curve applied to hover-state changes such as color shifts, transforms, and filter adjustments. |
+The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Attributes | group | Set the CSS ID and CSS class for the module. The ID must be unique on the page and is useful for anchor links or JavaScript targeting. Multiple classes can be separated by spaces. |
+| CSS | group | Write custom CSS targeting specific elements within the module, such as the main element, the image tag, or overlay elements. Styles entered here are scoped to this module instance. |
+| HTML | group | Add custom HTML attributes to the module's wrapper element. Useful for adding data attributes, ARIA labels, or other accessibility properties. |
+| Conditions | group | Set display conditions that determine when the module appears. Conditions can be based on user role, logged-in status, date/time, post type, and other criteria. |
+| Interactions | group | Configure click, hover, and scroll-based interactions that trigger animations or state changes on this or other elements on the page. |
+| Visibility | toggle | Control whether the module is visible on desktop, tablet, and phone. Hidden modules are removed from the page output on the specified device types. |
+| Transitions | group | Configure the CSS transition duration, delay, and easing curve applied to hover-state changes such as color shifts, opacity changes, transforms, and filter adjustments. |
+| Position | group | Set the CSS position property (relative, absolute, fixed, sticky) and offset values. Useful for overlapping elements or creating sticky images that remain visible during scroll. |
+| Scroll Effects | group | Apply scroll-driven animations such as parallax movement, fading, scaling, rotating, or blurring as the user scrolls past the module. Configure the motion range and intensity. |
 
 ## Code Examples
 
-### Hover Zoom Effect
+### Custom CSS — Hover Zoom Effect
 
 ```css
 /* Smooth zoom on hover with overflow hidden */
@@ -92,7 +110,7 @@ The Image module also supports linking to any URL or opening the full-size image
 }
 ```
 
-### Fixed Aspect Ratio
+### Custom CSS — Fixed Aspect Ratio
 
 ```css
 /* Force a 16:9 aspect ratio on all images */
@@ -108,10 +126,10 @@ The Image module also supports linking to any URL or opening the full-size image
 }
 ```
 
-### Color Overlay on Hover
+### Custom CSS — Color Overlay on Hover
 
 ```css
-/* Dark overlay with text-ready styling */
+/* Dark overlay that fades in on hover */
 .et_pb_image {
     position: relative;
 }
@@ -131,23 +149,10 @@ The Image module also supports linking to any URL or opening the full-size image
 }
 ```
 
-### PHP — Filter Image Module Output
-
-```php
-/* Add a custom wrapper div around every Image module */
-add_filter('et_module_shortcode_output', function($output, $render_slug) {
-    if ('et_pb_image' !== $render_slug) {
-        return $output;
-    }
-
-    return '<div class="custom-image-wrapper">' . $output . '</div>';
-}, 10, 2);
-```
-
-### Responsive Image Adjustments
+### Custom CSS — Responsive Image Sizing
 
 ```css
-/* Stack images full-width on mobile, constrain on desktop */
+/* Constrain images on desktop, full-width on mobile */
 .et_pb_image {
     max-width: 600px;
     margin-left: auto;
@@ -162,28 +167,36 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 }
 ```
 
+### PHP — Add a Wrapper Around Image Modules
+
+```php
+/* Wrap every Image module in a custom div */
+add_filter('et_module_shortcode_output', function($output, $render_slug) {
+    if ('et_pb_image' !== $render_slug) {
+        return $output;
+    }
+
+    return '<div class="custom-image-wrapper">' . $output . '</div>';
+}, 10, 2);
+```
+
 ## Common Patterns
 
-### 1. Hero Image
+### 1. Full-Width Hero Image
 
-A full-width image placed at the top of a page inside a fullwidth section. Set **Max Width** to `100%`, **Alignment** to `Center`, and remove all margin/padding for edge-to-edge display. Pair with a scroll-down animation (Fade or Slide Up) for visual impact on page load.
+Place the Image module inside a fullwidth section at the top of a page. Set the max-width to 100% and remove all margin and padding for edge-to-edge display. Apply a fade or slide-up entrance animation for visual impact when the page loads. This pattern works well for landing pages, portfolio headers, and campaign pages.
 
-<!-- ![Hero image pattern](../assets/screenshots/modules/image/pattern-hero.png){ loading=lazy }
-*Full-width hero image spanning the entire viewport width.* -->
+### 2. Image Card Grid
 
-### 2. Image Card with Caption
+Arrange multiple Image modules in a three- or four-column row. Apply a consistent border radius of 8-12px and a subtle box shadow to each image to create a card-like appearance. Use the fixed aspect ratio CSS snippet above with a shared CSS class to ensure all images maintain the same proportions regardless of their original dimensions.
 
-Place an Image module above a [Text module](text.md) inside a one-third or one-quarter column. Apply **Border Radius** of 8–12px and a subtle **Box Shadow** to create a card appearance. Use consistent aspect ratios across all cards in the row by applying the fixed aspect ratio CSS above with a shared CSS class.
+### 3. Lightbox Portfolio Gallery
 
-<!-- ![Image card pattern](../assets/screenshots/modules/image/pattern-card.png){ loading=lazy }
-*Three-column card layout with rounded images and captions.* -->
+Enable the lightbox setting on multiple Image modules within the same section. Divi groups lightbox-enabled images together, allowing visitors to click any image and navigate through all of them in a slideshow overlay. Add a hover zoom effect and an overlay icon for clear visual feedback that the images are interactive.
 
-### 3. Lightbox Gallery Grid
+## Saving Your Work
 
-Arrange multiple Image modules in a multi-column row, each with **Use Lightbox** enabled. Divi groups lightbox images within the same section, so visitors can click any image and navigate through all of them in a single lightbox slideshow. Add a hover zoom effect for interactivity.
-
-<!-- ![Lightbox gallery pattern](../assets/screenshots/modules/image/pattern-lightbox-gallery.png){ loading=lazy }
-*Four-column image grid with lightbox enabled for each image.* -->
+After configuring the Image module, click the green checkmark button at the bottom of the settings panel to apply your changes. Then save the page using the save button in the Visual Builder toolbar, or use the keyboard shortcut Ctrl+S (Cmd+S on Mac). Changes are not published until you explicitly save the page.
 
 ## Version Notes
 
@@ -195,29 +208,29 @@ Arrange multiple Image modules in a multi-column row, each with **Use Lightbox**
 !!! warning "Image Not Displaying"
     If the Image module appears empty on the front end:
 
-    - Verify an image is actually selected in the Content tab — the upload field should show a thumbnail preview.
+    - Verify an image is selected in the Content tab — the upload field should show a thumbnail preview.
     - Check that the image file still exists in the WordPress Media Library and has not been deleted.
-    - Confirm the image URL is accessible (no 404). Migrated sites may have broken media paths.
-    - Inspect the module's **Visibility** settings to ensure it is not hidden on the current device.
-    - Clear any page caching plugin or CDN cache after uploading a new image.
+    - Confirm the image URL is accessible and not returning a 404 error. Migrated sites may have broken media paths.
+    - Inspect the Visibility settings in the Advanced tab to ensure the module is not hidden on the current device type.
+    - Clear any page caching plugin or CDN cache after uploading or replacing an image.
 
-!!! warning "Lightbox Not Working"
+!!! warning "Lightbox Not Opening"
     If clicking the image does not open the lightbox overlay:
 
-    - Confirm **Use Lightbox** is set to **Yes** in the Content tab.
-    - Check that no JavaScript errors are blocking Divi's lightbox script — open the browser console (F12) and look for errors.
-    - If a link URL is also set, the lightbox takes priority, but conflicting JavaScript from other plugins can interfere. Disable other lightbox or gallery plugins to test.
-    - Ensure the Divi framework JS files are loading correctly. A minification or optimization plugin may be combining or deferring scripts in a way that breaks the lightbox initialization.
+    - Confirm the lightbox option is enabled in the Content tab link settings.
+    - Open the browser developer console (F12) and check for JavaScript errors that may be blocking the lightbox script.
+    - Disable other lightbox or gallery plugins temporarily to rule out conflicts.
+    - Ensure Divi's JavaScript files are loading correctly — minification or script deferral plugins can sometimes break the lightbox initialization order.
 
-!!! warning "Module Not Rendering"
-    If the Image module doesn't appear on the front end, verify that:
+!!! warning "Image Appears Blurry or Stretched"
+    If the displayed image looks low-quality or distorted:
 
-    - The module is not inside a disabled section or row
-    - Visibility settings aren't hiding it on the current device
-    - Any required fields (like the image source) are filled in
+    - Check the source image resolution — it should be at least as large as the display size to avoid upscaling.
+    - Verify that the sizing settings in the Design tab are not forcing the image to stretch beyond its native dimensions.
+    - If WordPress is serving a smaller thumbnail size, navigate to Settings > Media in the WordPress admin and adjust the image size defaults, or re-upload the image at a higher resolution.
 
 ## Related
 
 - [Gallery](gallery.md) — Display multiple images in a grid or slider layout
-- [Blurb](blurb.md) — Combine an image or icon with a title and text
-- [Fullwidth Header](fullwidth-header.md) — Full-width hero section with background image support
+- [Blurb](blurb.md) — Combine an image or icon with a title and text block
+- [Icon](icon.md) — Display a standalone icon with optional linking and styling

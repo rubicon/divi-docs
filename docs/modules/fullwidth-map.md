@@ -1,80 +1,146 @@
 ---
 title: "Fullwidth Map"
 category: modules
-tags: ["modules", "fullwidth"]
+tags: ["modules", "fullwidth", "map", "google-maps", "location", "contact", "embed"]
 related: ["map"]
 divi_version: "5.x"
-last_updated: 2026-03-12
+last_updated: 2026-03-16
 source_url: "https://www.elegantthemes.com/documentation/divi/fullwidth-map/"
 ---
 
 # Fullwidth Map
 
-The Fullwidth Map module is a Divi 5 content element used in the Visual Builder.
+The Fullwidth Map module displays an interactive Google Map that spans the entire width of a fullwidth section, with support for multiple location pins.
 
 ## Overview
 
-How to add, configure and customize the Divi fullwidth map module.
+The Fullwidth Map module embeds a Google Maps instance that stretches edge to edge within a fullwidth section. It provides visitors with an interactive map they can pan, zoom, and click to explore your business locations, event venues, or any geographic points of interest. Multiple pins can be added to mark different addresses, each with its own title and description that appear in an info window when clicked.
 
-The Divi Fullwidth Map Module makes it easy to add an interactive Google Map to your website. It’s a great way to show where your company is located and easy for visitors to click on your location and get directions.
+This module is functionally identical to the standard [Map](map.md) module but is designed exclusively for use within fullwidth sections. The edge-to-edge presentation makes it particularly effective on contact pages, location directories, and real estate listings where the map serves as a primary visual element rather than a secondary detail.
+
+Before the module can display a map, you must configure a Google Maps API key in the Divi theme options. This requires creating a Google Cloud project, enabling the Maps JavaScript API, setting up billing, and generating an API key. Without a valid key, the module will show a placeholder or error message on the front end.
+
+For additional reference, see the [official Elegant Themes documentation for the Map module](https://help.elegantthemes.com/en/articles/10353411-the-map-module-in-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/fullwidth-map/)
 
 ![Fullwidth Map module](../assets/screenshots/modules/fullwidth-map/element.png){ loading=lazy }
-*The Fullwidth Map module as it appears on the live demo.*
+*The Fullwidth Map module displaying an interactive Google Map with location pins.*
 
+## Use Cases
+
+1. **Contact Page Location Display** — Embed a full-width map at the top or bottom of a contact page showing your office or store location, giving visitors an immediate visual reference and the ability to get directions with a single click.
+
+2. **Multi-Location Directory** — Add multiple pins to showcase all branch offices, retail outlets, or franchise locations on a single map. Each pin can include the address, phone number, and hours in its info window description.
+
+3. **Event or Venue Showcase** — Feature the location of an upcoming event, conference, or venue prominently on a landing page with a full-width map that visitors can interact with to explore nearby parking, hotels, and transit options.
+
+## How to Add the Fullwidth Map Module
+
+1. Open the Visual Builder and ensure the page has a fullwidth section. If needed, click the blue **+** icon and select **Fullwidth** as the section type.
+
+2. Click the gray **+** icon inside the fullwidth section to open the module picker.
+
+3. Search for "Fullwidth Map" or browse the Fullwidth Modules category, then click to insert it into the section.
 
 ## Settings & Options
 
+The Fullwidth Map module settings are organized across three tabs: Content, Design, and Advanced.
+
 ### Content Tab
 
-<!-- TODO: Verify all Content tab settings for Fullwidth Map module -->
+The Content tab controls the map's location, pins, link behavior, and background.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Content settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Add New Pin | item list | Add, edit, and remove map pins. Each pin has its own address, title, and content fields. Click **+** to add a pin, the pencil icon to edit, the trash icon to delete, and drag to reorder. |
+| Map | location selector | Set the geographic center point and default zoom level for the map. Enter an address or coordinates to position the initial view. Requires a valid Google Maps API key configured in theme options. |
+| Link | url | Make the entire module clickable, redirecting users to another page, section, or external URL when they click outside of map controls. |
+| Background | background controls | Set a background color, gradient, image, or video behind the module. This is visible if the map has any transparent areas or during loading. |
+| Loop | toggle | Enable the Loop Builder to dynamically generate map content from posts or custom post types. |
+| Order | select | Control the display order of the module when placed inside a Flexbox or CSS Grid layout container. |
+| Meta | admin label | Set a custom label to identify the module in the Visual Builder's layer panel. Includes a toggle to force visibility in the builder. |
 
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Map Content tab settings](../assets/screenshots/modules/fullwidth-map/settings-content.png){ loading=lazy } -->
+#### Individual Pin Settings
+
+Each map pin has its own configuration when you click to edit it:
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Title | text | The heading displayed in the pin's info window when a visitor clicks the marker. |
+| Content | rich text editor | The body text shown in the info window below the title. Supports HTML for formatting addresses, phone numbers, and links. |
+| Address | text / geocoder | The physical address or coordinates used to place the pin on the map. The address is geocoded through the Google Maps API. |
 
 ### Design Tab
 
-<!-- TODO: Verify all Design tab settings for Fullwidth Map module -->
+The Design tab controls the map's interactive behavior, visual filters, and dimensional styling.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Design settings --> | | | |
-
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Fullwidth Map Design tab settings](../assets/screenshots/modules/fullwidth-map/settings-design.png){ loading=lazy } -->
+| Setting | Type | Description |
+|---------|------|-------------|
+| Controls | toggle options | Enable or disable map interaction controls. Options include mouse wheel zoom (prevents accidental zooming while scrolling) and mobile dragging (prevents the map from capturing touch gestures on mobile devices). |
+| Map | filter options | Apply visual filters to the map tiles themselves, allowing you to adjust the map's color scheme to better match your site's design without using a custom map style. |
+| Sizing | dimensions | Control the module's width, max-width, and height. Adjusting the height is important for controlling how much of the map is visible without scrolling. |
+| Spacing | margin/padding | Set margin and padding values for the module container. Supports responsive values per device breakpoint. |
+| Border | border controls | Add borders around the module with customizable width, color, style, and border radius for rounded corners. |
+| Box Shadow | shadow controls | Apply a box shadow with configurable color, horizontal/vertical offset, blur radius, and spread to create depth. |
+| Filters | CSS filters | Apply visual filter effects such as brightness, contrast, saturation, hue rotation, blur, and invert. Includes blend mode selection for layering effects. |
+| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and transform origin for advanced layout positioning. |
+| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and starting opacity. |
 
 ### Advanced Tab
 
-<!-- TODO: Verify all Advanced tab settings for Fullwidth Map module -->
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, and interaction behavior.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| CSS ID | text | — | Assign a unique CSS ID to the module |
-| CSS Class | text | — | Assign CSS classes to the module |
-| Custom CSS | code | — | Add custom CSS directly to the module's elements |
-| Visibility | toggle | Show on all devices | Control device visibility (desktop, tablet, phone) |
-| Transition | select | Default | Animation transition style for hover effects |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. Also supports custom HTML data attributes. |
+| CSS | code editor | Write custom CSS that applies directly to specific internal elements of the module (map container, pin markers, info windows, etc.). |
+| HTML | tag select | Choose the semantic HTML tag used for the module's wrapper element (div, section, aside, etc.). |
+| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met, such as user role, page type, date range, or custom logic. |
+| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
+| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that breakpoint. |
+| Transitions | transition controls | Configure CSS transition duration and easing function for smooth state changes on the module and its child elements. |
+| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
+| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
 
 ## Code Examples
 
 ### Custom CSS
 
 ```css
-/* Style the Fullwidth Map module */
+/* Adjust the Fullwidth Map height for a more prominent display */
 .et_pb_fullwidth_map {
-    /* Add your custom styles */
-    margin-bottom: 30px;
+    min-height: 500px;
 }
 
-/* Responsive adjustments */
+/* Style the map info window content */
+.et_pb_fullwidth_map .gm-style-iw {
+    max-width: 300px;
+    padding: 10px;
+}
+
+/* Style the info window title */
+.et_pb_fullwidth_map .gm-style-iw h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Add a subtle border above the map for visual separation */
+.et_pb_fullwidth_map {
+    border-top: 3px solid #2ea3f2;
+}
+
+/* Responsive height adjustments */
 @media (max-width: 980px) {
     .et_pb_fullwidth_map {
-        padding: 20px;
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .et_pb_fullwidth_map {
+        min-height: 250px;
     }
 }
 ```
@@ -84,23 +150,29 @@ The Divi Fullwidth Map Module makes it easy to add an interactive Google Map to 
 ```php
 /* Filter the Fullwidth Map module output */
 add_filter('et_module_shortcode_output', function($output, $render_slug) {
-    if ('et_pb_et_pb_fullwidth_map' !== $render_slug) {
+    if ('et_pb_fullwidth_map' !== $render_slug) {
         return $output;
     }
-    // Modify $output as needed
+    // Example: Wrap the map in a container for additional styling control
+    $output = '<div class="custom-map-wrapper">' . $output . '</div>';
     return $output;
 }, 10, 2);
 ```
 
 ## Common Patterns
 
-<!-- TODO: Add 2-3 real-world usage patterns with screenshots -->
+1. **Contact Page Footer Map** — Place the Fullwidth Map module as the last element on a contact page, directly above the site footer. Add a single pin for your primary location with the full address, phone number, and business hours in the pin content. Disable mouse wheel zoom to prevent accidental map interactions while visitors scroll.
 
-1. **Basic Usage** — Add the Fullwidth Map module to any row in the Visual Builder and configure its settings.
+2. **Multi-Location with Desaturated Style** — Add pins for all business locations and use the Design tab's Map Filters to desaturate the map tiles, creating a grayscale base that matches a minimalist site design. The colored pin markers stand out clearly against the muted background, drawing attention to each location.
 
-2. **Styled Variation** — Use the Design tab to customize fonts, colors, and spacing to match your site's design system.
+3. **Sticky Map Section** — Use the Advanced tab's Position settings to make the fullwidth section containing the map sticky, so it remains visible while visitors scroll through a list of location details in adjacent sections. This creates a split-view experience where the map updates context as users read about each location.
 
-3. **Dynamic Content** — Use dynamic content fields to pull data from custom fields or post meta.
+## Saving Your Work
+
+After configuring the Fullwidth Map:
+
+- **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
+- **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
 
 ## Version Notes
 
@@ -109,15 +181,15 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 ## Troubleshooting
 
-!!! warning "Module Not Rendering"
-    If the Fullwidth Map module doesn't appear on the front end, verify that:
+!!! warning "Map Shows Gray Area or Error Message"
+    If the map displays a gray placeholder, a "For development purposes only" watermark, or an API error, your Google Maps API key is either missing, invalid, or has billing issues. Go to **Divi > Theme Options > General** and verify the API key. Ensure billing is enabled on your Google Cloud project and the Maps JavaScript API is activated.
 
-    - The module is not inside a disabled section or row
-    - Visibility settings aren't hiding it on the current device
-    - Any required fields (like URLs or content) are filled in
+!!! warning "Pins Not Appearing at Correct Locations"
+    If pins are placed in the wrong position or not showing at all, verify that the addresses entered in each pin's settings are complete and correctly formatted. Ambiguous addresses (like just a city name) may geocode to unexpected locations. Use full street addresses or latitude/longitude coordinates for precision.
 
-<!-- TODO: Add module-specific troubleshooting items -->
+!!! tip "Map Interferes with Page Scrolling on Mobile"
+    On mobile devices, visitors may accidentally interact with the map when trying to scroll the page. Enable the "Disable Mobile Dragging" option in the Design tab's Controls settings to prevent the map from capturing touch scroll gestures, allowing visitors to scroll past the map normally.
 
 ## Related
 
-- [Map](map.md)
+- [Map](map.md) — Standard-width version for use within regular sections and rows

@@ -1,80 +1,160 @@
 ---
 title: "Bar Counter"
 category: modules
-tags: ["modules", "animation"]
+tags: ["modules", "animation", "statistics", "progress-bar", "percentage", "counter", "metrics"]
 related: ["circle-counter", "number-counter"]
 divi_version: "5.x"
-last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/bar-counter/"
+last_updated: 2026-03-16
+source_url: "https://help.elegantthemes.com/en/articles/10199990-the-bar-counters-module-in-divi-5"
 ---
 
 # Bar Counter
 
-The Bar Counter module is a Divi 5 content element used in the Visual Builder.
+The Bar Counters module displays animated horizontal progress bars that fill to a specified percentage value.
 
 ## Overview
 
-How to add, configure and customize the Divi bar counter module.
+The Bar Counters module renders one or more labeled horizontal bars that animate from zero to a target percentage when they scroll into view. Each bar consists of a title, a filled portion representing the percentage, and a numeric label showing the value. The fill animation triggers automatically via lazy loading, making the bars visually engaging as visitors scroll down the page.
 
-The Divi Bar Counters Module is an easy way to display numerical information on your website. It’s great for communicating information in percentage form like company statistics, numerical goals, growth metrics, and more. The bar counters animation is triggered by using lazy-load which makes this module eye-catching and engaging. In this doc we’ll walk through all the settings and options available with the Divi Bar Counters Module.
+This module is designed for presenting data in percentage form. It works well for skills proficiency charts, project completion trackers, survey results, fundraising progress, or any metric that can be expressed as a proportion of 100. You can add as many individual bars as needed within a single module instance.
+
+Each bar is an individual child item with its own title and percentage, similar to how the Accordion module contains individual accordion items. The parent module controls shared styling, while each bar can be configured independently for its content.
+
+For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10199990-the-bar-counters-module-in-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/bar-counter/)
 
 ![Bar Counter module](../assets/screenshots/modules/bar-counter/element.png){ loading=lazy }
-*The Bar Counter module as it appears on the live demo.*
+*The Bar Counters module showing multiple animated progress bars with percentage labels.*
 
+## Use Cases
+
+1. **Skills or Expertise Chart** — Display proficiency levels for different technologies, languages, or competencies on a team page or personal portfolio.
+2. **Project Completion Tracker** — Show the progress of ongoing projects, campaigns, or milestones with bars that visually communicate how far along each effort is.
+3. **Survey or Poll Results** — Present poll outcomes or survey data in a clean, visual format that is easier to scan than raw numbers or tables.
+
+## How to Add the Bar Counters Module
+
+1. Open the Visual Builder on the page you want to edit.
+2. Click the gray **+** icon to add a new module to a row.
+3. Search for "Bar Counters" in the module picker or locate it in the Content Elements category, then click to insert it.
+
+<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
+The Bar Counters module settings are organized across three tabs: Content, Design, and Advanced.
+
 ### Content Tab
 
-<!-- TODO: Verify all Content tab settings for Bar Counter module -->
+The Content tab controls individual bar items, visual elements, link behavior, background, and metadata.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Content settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Add, Edit, and Remove | item list | Manage individual bar counter items. Each item has its own title and percentage value. Click **+** to add a bar, the pencil icon to edit, the trash icon to delete, and drag to reorder. |
+| Elements | toggles | Control which visual elements are displayed, such as the percentage text label on each bar. |
+| Link | URL | Optionally link the entire module to a URL so clicking navigates to another page or resource. |
+| Background | background controls | Apply a background color, gradient, image, or video behind the entire Bar Counters module container. |
+| Loop | toggle | When enabled, the module can be repeated in loop-based layouts such as post type archives or dynamic content queries. |
+| Order | select | Control the display order when the module is used inside a loop or dynamic layout context. |
+| Meta | admin label | Set an internal admin label to identify this module in the Visual Builder's layer panel and search. |
 
-<!-- TODO: Replace with proper screenshot -->
 <!-- ![Bar Counter Content tab settings](../assets/screenshots/modules/bar-counter/settings-content.png){ loading=lazy } -->
+<!-- TODO: Capture Content tab screenshot -->
+
+#### Individual Bar Item Settings
+
+Each bar within the module has its own configurable settings:
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Title | text | The label displayed on the bar, typically describing the skill, metric, or category. |
+| Percent | number (0-100) | The target fill value for the bar. The bar animates from 0 to this percentage when it enters the viewport. |
+| Background Color | color picker | Set the fill color for this individual bar, allowing each bar to have a distinct color. |
 
 ### Design Tab
 
-<!-- TODO: Verify all Design tab settings for Bar Counter module -->
+The Design tab controls the visual appearance of the bars, text, and overall module layout.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Design settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Layout | layout options | Control the overall arrangement and orientation of the bar elements within the module. |
+| Bar | bar styling | Style the bar elements themselves, including the bar fill color, unfilled/track color, height, and border radius of the bars. |
+| Text | text styling | Set general text properties like font family, weight, style, color, and line height for all text in the module. |
+| Title Text | text styling | Style the bar title labels independently — font family, size, color, weight, letter spacing, line height, and text shadow. |
+| Percentage Text | text styling | Style the numeric percentage labels with their own font, size, color, weight, and positioning settings. |
+| Sizing | dimensions | Control the module's width, max-width, min-height, and height. |
+| Spacing | margin / padding | Set margin and padding values around and within the module. Supports responsive values per device breakpoint. |
+| Border | border controls | Add borders around the module or individual elements — configure width, color, style, and border radius. |
+| Box Shadow | shadow controls | Apply a box shadow with customizable horizontal/vertical offset, blur, spread, color, and position (outer or inner). |
+| Filters | CSS filters | Apply visual filter effects such as brightness, contrast, saturation, blur, hue rotation, and inversion. |
+| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, skew, and set the transform origin point. |
+| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable speed, delay, intensity, and starting opacity. Note: this animates the entire module container, not the individual bar fills. |
 
-<!-- TODO: Replace with proper screenshot -->
 <!-- ![Bar Counter Design tab settings](../assets/screenshots/modules/bar-counter/settings-design.png){ loading=lazy } -->
+<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-<!-- TODO: Verify all Advanced tab settings for Bar Counter module -->
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display, and scroll-driven effects.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| CSS ID | text | — | Assign a unique CSS ID to the module |
-| CSS Class | text | — | Assign CSS classes to the module |
-| Custom CSS | code | — | Add custom CSS directly to the module's elements |
-| Visibility | toggle | Show on all devices | Control device visibility (desktop, tablet, phone) |
-| Transition | select | Default | Animation transition style for hover effects |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Attributes | text fields | Assign a CSS ID and CSS classes to the module for precise targeting with custom styles or JavaScript. |
+| CSS | code editor | Write custom CSS scoped to specific internal elements of the module (container, bar track, bar fill, title, percentage, etc.). |
+| HTML | code fields | Add custom HTML attributes to the module's wrapper element for accessibility or integration needs. |
+| Conditions | condition builder | Define display conditions so the module only renders based on rules such as user role, page type, date range, or custom logic. |
+| Interactions | interaction builder | Configure hover, click, or scroll-triggered interactions that affect this module or other page elements. |
+| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are excluded from the page source for that device. |
+| Transitions | transition controls | Set CSS transition duration, easing function, and delay for smooth hover-state changes. |
+| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) along with offset values and z-index. |
+| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement triggered as the user scrolls. |
+
+<!-- ![Bar Counter Advanced tab settings](../assets/screenshots/modules/bar-counter/settings-advanced.png){ loading=lazy } -->
+<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 
 ### Custom CSS
 
 ```css
-/* Style the Bar Counter module */
-.et_pb_bar_counter {
-    /* Add your custom styles */
+/* Style the Bar Counters module container */
+.et_pb_counters {
     margin-bottom: 30px;
+}
+
+/* Style individual bar tracks (unfilled background) */
+.et_pb_counters .et_pb_counter_container {
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    height: 30px;
+}
+
+/* Style the filled portion of each bar */
+.et_pb_counters .et_pb_counter_amount {
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+/* Style bar title labels */
+.et_pb_counters .et_pb_counter_title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Add spacing between individual bars */
+.et_pb_counters .et_pb_counter_container + .et_pb_counter_container {
+    margin-top: 15px;
 }
 
 /* Responsive adjustments */
 @media (max-width: 980px) {
-    .et_pb_bar_counter {
-        padding: 20px;
+    .et_pb_counters .et_pb_counter_container {
+        height: 24px;
+    }
+    .et_pb_counters .et_pb_counter_title {
+        font-size: 14px;
     }
 }
 ```
@@ -82,25 +162,31 @@ The Divi Bar Counters Module is an easy way to display numerical information on 
 ### PHP Hooks
 
 ```php
-/* Filter the Bar Counter module output */
+/* Filter the Bar Counters module output */
 add_filter('et_module_shortcode_output', function($output, $render_slug) {
-    if ('et_pb_et_pb_bar_counter' !== $render_slug) {
+    if ('et_pb_counters' !== $render_slug) {
         return $output;
     }
-    // Modify $output as needed
+    // Example: wrap the module in a custom container
+    $output = '<div class="custom-counters-wrapper">' . $output . '</div>';
     return $output;
 }, 10, 2);
 ```
 
 ## Common Patterns
 
-<!-- TODO: Add 2-3 real-world usage patterns with screenshots -->
+1. **Skills Section on an About Page** — Add a Bar Counters module with entries for each skill or technology. Assign distinct colors to each bar and set percentages that reflect proficiency levels. Pair with a heading or blurb module that introduces the team or individual.
 
-1. **Basic Usage** — Add the Bar Counter module to any row in the Visual Builder and configure its settings.
+2. **Fundraising or Goal Tracker** — Use a single bar set to the current fundraising percentage. Style the fill color in a brand accent color and increase the bar height for visual prominence. Update the percentage value as the campaign progresses.
 
-2. **Styled Variation** — Use the Design tab to customize fonts, colors, and spacing to match your site's design system.
+3. **Comparison Chart** — Display competing metrics side by side using two Bar Counters modules in adjacent columns. For example, show "Before" percentages on the left and "After" on the right to illustrate improvement or growth.
 
-3. **Dynamic Content** — Use dynamic content fields to pull data from custom fields or post meta.
+## Saving Your Work
+
+After configuring the Bar Counters module:
+
+- **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
+- **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
 
 ## Version Notes
 
@@ -109,16 +195,24 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 ## Troubleshooting
 
-!!! warning "Module Not Rendering"
-    If the Bar Counter module doesn't appear on the front end, verify that:
+!!! warning "Bars Not Animating"
+    If the bars appear at their full percentage without the fill animation:
 
-    - The module is not inside a disabled section or row
-    - Visibility settings aren't hiding it on the current device
-    - Any required fields (like URLs or content) are filled in
+    - Ensure the module is below the fold so the scroll-triggered animation can fire when it enters the viewport
+    - Check that no JavaScript errors on the page are preventing the intersection observer from running
+    - Verify that a caching plugin is not serving a static snapshot of the page with pre-filled bars
 
-<!-- TODO: Add module-specific troubleshooting items -->
+!!! warning "Percentage Labels Missing"
+    If the numeric percentage text is not visible on the bars:
+
+    - Open the Content tab and check the Elements toggle to confirm percentage display is enabled
+    - Verify that the Design tab Percentage Text color is not set to the same color as the bar fill, making it invisible
+    - Check that the bar height is tall enough to contain the text at the configured font size
+
+!!! tip "Bars All Look the Same Color"
+    By default, all bars may share a single fill color from the parent module's Design settings. To give each bar a unique color, open each individual bar item's settings and set its Background Color to a distinct value.
 
 ## Related
 
-- [Circle Counter](circle-counter.md)
-- [Number Counter](number-counter.md)
+- [Circle Counter](circle-counter.md) — Animated circular counters for displaying percentages in a radial format
+- [Number Counter](number-counter.md) — Animated number counters that count up to a target value on scroll

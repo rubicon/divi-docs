@@ -1,80 +1,120 @@
 ---
 title: "Code"
 category: modules
-tags: ["modules"]
+tags: ["modules", "code", "html", "css", "javascript", "shortcodes", "embed"]
 related: ["text"]
 divi_version: "5.x"
-last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/code/"
+last_updated: 2026-03-16
+source_url: "https://help.elegantthemes.com/en/articles/10260309-the-code-module-divi-5"
 ---
 
 # Code
 
-The Code module is a Divi 5 content element used in the Visual Builder.
+The Code module lets you insert raw HTML, CSS, JavaScript, or shortcodes anywhere in your Divi 5 layout.
 
 ## Overview
 
-How to add, configure and customize the Divi code module.
+The Code module is a freeform container for any markup or scripting language that the browser can interpret. You paste or type code directly into the module's editor, and Divi renders it on the front end exactly as written. This makes it the primary tool for embedding third-party integrations — calendar widgets, CRM forms, chat scripts, tracking pixels, or any snippet that a service asks you to paste into your site.
 
-The Divi Code Module allows you to easily insert code (like HTML, CSS, and JavaScript) anywhere on your website. You can also use it for shortcodes (like embedding a shortcode from another plugin) or pasting codes from third-party software like calendar scheduling software or CRM integration.
+Unlike the Text module, the Code module does not apply Divi's default typography or spacing rules to its contents. Whatever you place inside the editor is output verbatim, which gives you full control but also means you are responsible for your own styling and sanitization. CSS must be wrapped in `<style>` tags and JavaScript must be wrapped in `<script>` tags for the browser to interpret them correctly.
+
+The module is also the go-to solution for running WordPress shortcodes from other plugins. Drop any valid shortcode into the editor and it will be processed during page rendering, making the Code module a bridge between Divi's visual layout system and the broader WordPress plugin ecosystem.
+
+For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10260309-the-code-module-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/code/)
 
 ![Code module](../assets/screenshots/modules/code/element.png){ loading=lazy }
 *The Code module as it appears on the live demo.*
 
+## Use Cases
+
+1. **Third-Party Embeds** — Paste embed codes from services like Calendly, HubSpot, Google Maps, or payment processors to integrate external functionality directly into a Divi layout.
+2. **Custom Scripting** — Add page-specific JavaScript for animations, scroll-triggered events, or custom form validation without editing theme files.
+3. **Shortcode Rendering** — Insert shortcodes from WooCommerce, contact form plugins, or other WordPress extensions that need to render inside a visually designed page.
+
+## How to Add the Code Module
+
+1. Open the Visual Builder on the page you want to edit.
+2. Click the gray **+** icon to add a new module to a row.
+3. Search for "Code" in the module picker or find it in the Content Elements category, then click to insert it.
 
 ## Settings & Options
 
+The Code module settings are organized across three tabs: Content, Design, and Advanced.
+
 ### Content Tab
 
-<!-- TODO: Verify all Content tab settings for Code module -->
+The Content tab holds the code editor and controls for linking, background, and layout behavior.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Content settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Text (Code Editor) | code editor | The main editing area where you enter HTML, CSS, JavaScript, or shortcodes. CSS must be enclosed in `<style>` tags and JavaScript in `<script>` tags. The editor preserves whitespace and does not apply any formatting. |
+| Link | url | Optionally wrap the entire module output in a link, making the rendered code area clickable. |
+| Background | background controls | Set a background color, gradient, image, or video behind the module container. |
+| Loop | toggle | Connect the module to the loop builder for use in dynamic templates that repeat across posts or custom post types. |
+| Order | select | Control the module's display order when the parent row uses Flexbox or Grid layout modes. |
+| Meta | admin label | Assign an admin label visible only in the Visual Builder to help identify this module in the layers panel. |
 
-<!-- TODO: Replace with proper screenshot -->
 <!-- ![Code Content tab settings](../assets/screenshots/modules/code/settings-content.png){ loading=lazy } -->
+<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
-<!-- TODO: Verify all Design tab settings for Code module -->
+The Design tab controls the visual presentation of the module container and any text rendered by its code.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Design settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Text | text styling | Set font family, weight, style, size, color, line height, and letter spacing for text elements rendered by the code. These styles apply to the module's wrapper and are inherited by child elements unless overridden. |
+| Sizing | dimensions | Control the module's width, max-width, min-height, and height. Useful for constraining embed widgets to a specific size. |
+| Spacing | margin/padding | Set margin and padding values around and within the module container. Supports responsive values per device breakpoint. |
+| Border | border controls | Add borders around the module container with configurable width, color, style, and corner radius. |
+| Box Shadow | shadow controls | Apply box shadow effects with adjustable horizontal/vertical offset, blur, spread, color, and position (outer or inner). |
+| Filters | image filters | Apply CSS filter effects — brightness, contrast, saturation, hue rotation, invert, sepia, blur, and opacity — to the module and its contents. |
+| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, and skew, with a configurable transform origin point. |
+| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and repeat behavior. |
 
-<!-- TODO: Replace with proper screenshot -->
 <!-- ![Code Design tab settings](../assets/screenshots/modules/code/settings-design.png){ loading=lazy } -->
+<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-<!-- TODO: Verify all Advanced tab settings for Code module -->
+The Advanced tab provides developer-oriented controls for targeting, conditional logic, and scroll-driven effects.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| CSS ID | text | — | Assign a unique CSS ID to the module |
-| CSS Class | text | — | Assign CSS classes to the module |
-| Custom CSS | code | — | Add custom CSS directly to the module's elements |
-| Visibility | toggle | Show on all devices | Control device visibility (desktop, tablet, phone) |
-| Transition | select | Default | Animation transition style for hover effects |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
+| CSS | code editor | Write custom CSS that applies directly to specific elements within the module's wrapper. |
+| HTML | code fields | Select the semantic HTML tag for the module wrapper and add custom HTML attributes. |
+| Conditions | condition builder | Set display conditions so the module only renders when specific rules are met (e.g., user role, page type, date range, or custom logic). |
+| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
+| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
+| Transitions | transition controls | Configure CSS transition duration, delay, and easing curve for hover-state changes on the module. |
+| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
+| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+
+<!-- ![Code Advanced tab settings](../assets/screenshots/modules/code/settings-advanced.png){ loading=lazy } -->
+<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 
 ### Custom CSS
 
 ```css
-/* Style the Code module */
+/* Add a styled container around the Code module output */
 .et_pb_code {
-    /* Add your custom styles */
+    background-color: #f5f5f5;
+    border-left: 4px solid #2ea3f2;
+    padding: 24px;
+    border-radius: 6px;
     margin-bottom: 30px;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments for smaller screens */
 @media (max-width: 980px) {
     .et_pb_code {
-        padding: 20px;
+        padding: 16px;
+        font-size: 14px;
     }
 }
 ```
@@ -82,25 +122,31 @@ The Divi Code Module allows you to easily insert code (like HTML, CSS, and JavaS
 ### PHP Hooks
 
 ```php
-/* Filter the Code module output */
+/* Filter the Code module output before rendering */
 add_filter('et_module_shortcode_output', function($output, $render_slug) {
-    if ('et_pb_et_pb_code' !== $render_slug) {
+    if ('et_pb_code' !== $render_slug) {
         return $output;
     }
-    // Modify $output as needed
+    // Example: wrap the output in an additional container
+    $output = '<div class="custom-code-wrapper">' . $output . '</div>';
     return $output;
 }, 10, 2);
 ```
 
 ## Common Patterns
 
-<!-- TODO: Add 2-3 real-world usage patterns with screenshots -->
+1. **Embedding a Scheduling Widget** — Paste the embed code from Calendly, Acuity, or a similar scheduling service into the Code module. Set a max-width in the Design tab to center the widget within the row, and add top/bottom padding so it does not crowd adjacent modules.
 
-1. **Basic Usage** — Add the Code module to any row in the Visual Builder and configure its settings.
+2. **Adding Page-Specific CSS** — When you need styles that apply only to one page, place a Code module in a fullwidth section at the top of the layout and enter your CSS inside `<style>` tags. This avoids polluting the global stylesheet and keeps the customization visually tied to the page it affects.
 
-2. **Styled Variation** — Use the Design tab to customize fonts, colors, and spacing to match your site's design system.
+3. **Running a Plugin Shortcode** — Insert a shortcode like `[woocommerce_cart]` or `[gravityform id="1"]` into the Code module to render plugin output inside a Divi layout. Combine with the row's column structure to place the shortcode output alongside other Divi modules.
 
-3. **Dynamic Content** — Use dynamic content fields to pull data from custom fields or post meta.
+## Saving Your Work
+
+After configuring the Code module:
+
+- **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
+- **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
 
 ## Version Notes
 
@@ -109,15 +155,19 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 ## Troubleshooting
 
-!!! warning "Module Not Rendering"
-    If the Code module doesn't appear on the front end, verify that:
+!!! warning "Code Not Executing on the Front End"
+    If your HTML, CSS, or JavaScript does not work when viewing the published page:
 
-    - The module is not inside a disabled section or row
-    - Visibility settings aren't hiding it on the current device
-    - Any required fields (like URLs or content) are filled in
+    - Verify that CSS is wrapped in `<style>` tags and JavaScript is wrapped in `<script>` tags. The module outputs content verbatim, so the browser needs these tags to interpret code correctly.
+    - Check the browser console (F12 > Console) for JavaScript errors that may indicate syntax issues or conflicts with other scripts.
+    - Confirm that a caching plugin or CDN is not serving a stale version of the page. Purge all caches after making changes.
 
-<!-- TODO: Add module-specific troubleshooting items -->
+!!! warning "Module Appears Empty in the Visual Builder"
+    The Visual Builder may not execute JavaScript or render certain third-party embeds in the editor preview. This is expected behavior — the code will run normally on the published front end. Use the front-end preview (eye icon) to verify your output.
+
+!!! tip "Shortcode Not Rendering"
+    If a shortcode displays as plain text instead of its expected output, verify that the plugin providing the shortcode is active. Also confirm the shortcode syntax is correct — mismatched brackets or incorrect attribute names will cause WordPress to treat the shortcode as literal text.
 
 ## Related
 
-- [Text](text.md)
+- [Text](text.md) — For styled rich text content without raw code

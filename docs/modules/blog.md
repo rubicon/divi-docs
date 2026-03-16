@@ -1,67 +1,136 @@
 ---
 title: "Blog Module"
 category: modules
-tags: [blog, content-modules, posts, grid, list]
-related: [text, blurb]
+tags: ["modules", "content-modules", "blog", "posts", "grid", "list", "pagination", "dynamic-content", "masonry"]
+related: ["portfolio", "filterable-portfolio", "post-slider"]
 divi_version: "5.x"
-last_updated: 2026-03-12
+last_updated: 2026-03-16
+source_url: "https://help.elegantthemes.com/en/articles/10226327-the-blog-module-in-divi-5"
 ---
 
 # Blog Module
 
-The Blog module displays WordPress posts in either a grid or fullwidth (list) layout, with controls for filtering by category, limiting post count, and toggling meta elements.
+The Blog module displays WordPress posts in configurable grid or fullwidth layouts with filtering, pagination, and meta controls.
 
 ## Overview
 
-The Blog module is Divi's primary way to display dynamic post content. It queries your WordPress posts and renders them with featured images, excerpts, meta information, and read-more links. It supports two layout modes — a masonry-style grid and a traditional fullwidth list — and includes built-in pagination.
+The Blog module is the primary tool in Divi for presenting dynamic post content on any page. It pulls posts from the WordPress database and renders them with featured images, titles, excerpts or full content, author and date metadata, category labels, comment counts, and read-more links. Two core layout modes are available: a fullwidth list view that stacks posts vertically, and a multi-column grid view that supports masonry-style positioning.
 
-This module is commonly used on blog index pages, homepage "latest posts" sections, and category landing pages.
+Pagination is built in, so visitors can navigate through large collections of posts without needing a custom query loop. You can filter which posts appear by selecting specific categories, setting a post count, or applying an offset to skip a number of posts from the beginning of the query.
+
+The Blog module is particularly useful for blog index pages, homepage "latest posts" sections, category landing pages, and related-posts sections in Theme Builder templates. Its combination of layout options and meta toggles makes it adaptable to editorial, corporate, and portfolio-style designs.
+
+For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10226327-the-blog-module-in-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/blog/)
 
 ![Blog module](../assets/screenshots/modules/blog/element.png){ loading=lazy }
-*The Blog module as it appears on the live demo.*
+*The Blog module displaying posts in a grid layout with featured images, titles, and meta information.*
 
+## Use Cases
+
+1. **Blog Index Page** — Display all published posts with pagination, allowing visitors to browse your full archive in either a traditional list layout or a magazine-style grid.
+2. **Homepage Latest Posts** — Show a small number of recent posts (typically 3-6) in a grid without pagination to highlight fresh content and encourage visitors to explore further.
+3. **Category Landing Page** — Filter the module to a single category and use it as the primary content area for topic-specific pages, giving each category its own dedicated browsing experience.
+
+## How to Add the Blog Module
+
+1. Open the Visual Builder on the page where you want to display posts.
+2. Click the gray **+** icon to add a new module to a row.
+3. Search for "Blog" in the module picker or find it in the Content Elements category, then click to insert it.
+
+<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
+The Blog module settings are organized across three tabs: Content, Design, and Advanced.
+
 ### Content Tab
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| Post Count | number | 10 | Number of posts to display |
-| Include Categories | multi-select | All | Filter posts by category |
-| Date Format | text | `M j, Y` | PHP date format string |
-| Show Featured Image | toggle | Yes | Display post thumbnails |
-| Show Content | select | Show Excerpt | `Show Excerpt` or `Show Content` |
-| Excerpt Length | number | 270 | Character count for excerpts |
-| Show Author | toggle | Yes | Display post author |
-| Show Date | toggle | Yes | Display post date |
-| Show Categories | toggle | Yes | Display post categories |
-| Show Comments Count | toggle | Yes | Display comment count |
-| Show Pagination | toggle | Yes | Display page navigation |
-| Offset | number | 0 | Skip this many posts from the beginning |
+The Content tab controls which posts appear, what information is shown, and how the module links and displays at a structural level.
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Content | item editor | Configure blog post query parameters including post count, category filtering, date format, content display mode (excerpt vs. full content), excerpt length, and offset. Toggle individual meta elements such as featured image, author, date, categories, comment count, and pagination. |
+| Elements | icon picker | Select the icon used within the Blog module, such as the icon that appears on overlays or navigation elements. |
+| Link | url | Make the entire Blog module wrapper clickable, directing users to another page, section, or external URL. Configure the link target (same window or new tab). |
+| Background | background controls | Set a background color, gradient, image, or video behind the entire Blog module container. Supports multi-layered backgrounds with blend modes. |
+| Order | order controls | Define the display order of the Blog module within Flexbox and CSS Grid parent layouts. Useful when the visual order should differ from the DOM order. |
+| Meta | admin label | Assign a custom admin label to the module for easier identification in the Visual Builder layer panel. Force visibility in the builder interface. |
+
+<!-- ![Blog Content tab settings](../assets/screenshots/modules/blog/settings-content.png){ loading=lazy } -->
+<!-- TODO: Capture Content tab screenshot -->
+
+#### Blog Content Settings Detail
+
+The Content group within the Content tab contains the most important settings for controlling post output:
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Post Count | number | The maximum number of posts to display per page. Defaults to 10. Combined with pagination, this controls how many posts a visitor sees before needing to navigate forward. |
+| Include Categories | multi-select | Filter posts to one or more specific WordPress categories. When no categories are selected, all published posts are included. |
+| Date Format | text | The PHP date format string used for post dates. Defaults to `M j, Y` (e.g., "Mar 16, 2026"). Accepts any valid PHP date format characters. |
+| Show Featured Image | toggle | Controls whether the post's featured image appears above the title. When disabled, posts display as text-only entries. |
+| Show Content | select | Choose between displaying a truncated excerpt or the full post content. When set to excerpt mode, the Excerpt Length setting controls the character count. |
+| Excerpt Length | number | The number of characters to display in excerpted mode. Defaults to 270. Only applies when Show Content is set to excerpt mode. |
+| Show Author | toggle | Display or hide the post author name in the meta line below the title. |
+| Show Date | toggle | Display or hide the post publication date in the meta line. |
+| Show Categories | toggle | Display or hide the post's assigned categories in the meta line. |
+| Show Comments Count | toggle | Display or hide the number of comments for each post. |
+| Show Pagination | toggle | Enable or disable page navigation at the bottom of the post list. When disabled, only the first page of results is shown. |
+| Offset | number | Skip this many posts from the beginning of the query. Useful when another module is already displaying the most recent posts and you want to avoid duplicates. |
 
 ### Design Tab
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| Layout | select | Fullwidth | `Fullwidth` (list) or `Grid` |
-| Grid Columns | select | 3 | Number of columns in grid mode (1–4) |
-| Overlay | toggle | Off | Show overlay on featured image hover |
-| Overlay Color | color | theme accent | Color of the image overlay |
-| Masonry | toggle | On | Enable masonry layout in grid mode |
-| Title Font | typography | default | Post title typography |
-| Body Font | typography | default | Excerpt typography |
-| Meta Font | typography | default | Author, date, category typography |
-| Read More Font | typography | default | Read more link typography |
+The Design tab provides full visual control over the blog's layout mode, image overlays, typography for every text element, and standard module styling options.
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Layout | layout controls | Choose between Fullwidth (list) and Grid layout modes. In Grid mode, set the number of columns (1-4) and enable or disable masonry positioning. Masonry allows posts of varying heights to tile together without gaps. |
+| Overlay | overlay controls | Configure the hover overlay that appears on featured images. Set the overlay color, icon, and icon color. The overlay adds a visual cue that the post image is interactive. |
+| Image | image styling | Style the featured images with border radius, alignment, and sizing controls. Configure how images display within the post card or list entry. |
+| Text | text styling | Set general text properties that cascade to all text elements within the module, including font family, weight, style, alignment, color, and line height. |
+| Title Text | text styling | Override the general text styles specifically for post titles. Includes full typography controls: font family, weight, size, letter spacing, line height, color, and text shadow. Supports separate settings for linked and hover states. |
+| Meta Text | text styling | Style the metadata line (author, date, categories, comment count) independently. Typically set to a smaller size and lighter color than the title. |
+| Read More Text | text styling | Control the appearance of the "read more" link at the end of each excerpt. Style it as a standard link or as a button-like element using font, size, and color settings. |
+| Pagination Text | text styling | Customize the typography of the pagination navigation links at the bottom of the module. |
+| Body Text | text styling | Style the excerpt or full content text separately from the title and meta elements. |
+| Sizing | dimensions | Set the module's width, max-width, min-height, and height. Control how the module fills its container. |
+| Spacing | margin/padding | Define margin and padding values for the module and its internal elements. Supports responsive values per breakpoint (desktop, tablet, phone). |
+| Border | border controls | Add borders to the module container or individual elements. Configure width, color, style, and border radius for rounded corners. |
+| Box Shadow | shadow controls | Apply box shadow effects with customizable horizontal/vertical offset, blur radius, spread, color, and position (outer or inner). |
+| Filters | image filters | Apply CSS filter effects such as brightness, contrast, saturation, hue rotation, blur, invert, sepia, and opacity. Includes blend mode selection. |
+| Transform | transform controls | Apply CSS transforms including scale, translate, rotate, and skew. Set the transform origin point for precise positioning of effects. |
+| Animation | animation select | Choose an entrance animation (fade, slide, bounce, zoom, flip, fold, roll) with configurable duration, delay, intensity, and direction. |
+
+<!-- ![Blog Design tab settings](../assets/screenshots/modules/blog/settings-design.png){ loading=lazy } -->
+<!-- TODO: Capture Design tab screenshot -->
+
+### Advanced Tab
+
+The Advanced tab provides developer-oriented controls for custom attributes, conditional display logic, and scroll-driven effects.
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
+| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (container, post, title, meta, content, image, pagination, etc.). |
+| HTML | code fields | Add custom HTML attributes to the module's wrapper element. |
+| Conditions | condition builder | Set display conditions so the module only appears based on rules such as user role, page type, date range, or custom logic. |
+| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
+| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
+| Transitions | transition controls | Configure CSS transition properties (duration, easing function, delay) for smooth hover state changes. |
+| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
+| Scroll Effects | scroll controls | Apply scroll-driven effects such as parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls past the module. |
+
+<!-- ![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy } -->
+<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 
-### Custom blog grid styling
+### Custom CSS
 
 ```css
-/* Card-style blog grid */
+/* Card-style blog grid with hover effect */
 .et_pb_blog_grid .et_pb_post {
     background: #ffffff;
     border-radius: 8px;
@@ -73,7 +142,7 @@ This module is commonly used on blog index pages, homepage "latest posts" sectio
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Add padding to the text portion */
+/* Add padding to the text area below the image */
 .et_pb_blog_grid .et_pb_post .post-content-inner {
     padding: 1.5rem;
 }
@@ -82,88 +151,103 @@ This module is commonly used on blog index pages, homepage "latest posts" sectio
 .et_pb_blog_grid .et_pb_post a.more-link {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background: #7c3aed;
+    background: var(--et-global-color-primary);
     color: #ffffff;
     border-radius: 4px;
     text-decoration: none;
     font-size: 0.875rem;
 }
+
+/* Reduce meta font size and lighten color */
+.et_pb_blog_grid .et_pb_post .post-meta {
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 980px) {
+    .et_pb_blog_grid .et_pb_post .post-content-inner {
+        padding: 1rem;
+    }
+}
 ```
 
-### Filtering blog posts with hooks
+### PHP Hooks
 
 ```php
 /**
- * Exclude a specific category from all Blog modules.
+ * Exclude a specific category from all Blog module queries.
  */
 function my_exclude_category_from_blog( $args, $props ) {
-    // Category ID to exclude
-    $exclude_cat = 42;
-
+    $exclude_cat = 42; // Category ID to exclude
     if ( isset( $args['cat'] ) ) {
         $args['category__not_in'] = array( $exclude_cat );
     }
-
     return $args;
 }
 add_filter( 'et_pb_blog_query_args', 'my_exclude_category_from_blog', 10, 2 );
-```
 
-### Custom excerpt length per module
-
-```php
 /**
- * Override excerpt length for Blog modules with a specific CSS class.
+ * Override excerpt word count for Blog modules.
  */
-function my_custom_excerpt_length( $length ) {
+function my_custom_blog_excerpt_length( $length ) {
     if ( is_singular() ) {
-        return 40; // word count
+        return 30;
     }
     return $length;
 }
-add_filter( 'excerpt_length', 'my_custom_excerpt_length', 999 );
+add_filter( 'excerpt_length', 'my_custom_blog_excerpt_length', 999 );
+
+/**
+ * Filter the Blog module output to add a wrapper class.
+ */
+add_filter( 'et_module_shortcode_output', function( $output, $render_slug ) {
+    if ( 'et_pb_blog' !== $render_slug ) {
+        return $output;
+    }
+    // Add a custom wrapper class
+    $output = str_replace(
+        'class="et_pb_blog',
+        'class="et_pb_blog my-custom-blog',
+        $output
+    );
+    return $output;
+}, 10, 2 );
 ```
 
 ## Common Patterns
 
-### Homepage latest posts
+1. **Homepage Latest Posts** — Place a Blog module in a fullwidth section with Post Count set to 3, Layout set to Grid with 3 columns, and pagination disabled. Add a button module below with a "View All Posts" link to your blog archive page. This gives visitors a quick preview of your most recent content without overwhelming the homepage.
 
-A 3-column grid with 3 posts, no pagination, and a "View All Posts" button below. Set Post Count to 3, Layout to Grid, and Show Pagination to No.
+2. **Category Landing Page** — Use the Include Categories filter to display posts from a single category. Set the layout to Fullwidth for a traditional editorial feel or Grid for a magazine-style presentation. Enable all meta elements so visitors can see author, date, and related categories for each post.
 
-### Category landing page
+3. **Related Posts Section** — In a Theme Builder post template, add a Blog module below the main content area. Filter it to the same category as the current post, set a low post count (3-4), and use Grid layout. Apply an offset of 1 to skip the current post if it would otherwise appear in the results. This creates a "You might also like" section.
 
-Use Include Categories to filter to a single category. Set layout to Fullwidth for a traditional blog feel, or Grid for a magazine-style layout.
+## Saving Your Work
 
-### Related posts section
+After configuring the Blog module:
 
-Place a Blog module at the bottom of single post templates (via Theme Builder). Use the Include Categories setting dynamically or apply a custom query filter to show posts from the same category as the current post.
+- **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
+- **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
 
 ## Version Notes
 
 !!! note "Divi 5 Only"
-    This page documents Divi 5 behavior exclusively. The Blog module in Divi 5 uses updated markup for the grid layout, and the masonry implementation may use CSS Grid instead of JavaScript columns.
+    This page documents Divi 5 behavior exclusively. The Blog module in Divi 5 features updated markup for grid layouts, and the masonry implementation may use CSS Grid instead of the JavaScript-based column approach found in earlier versions.
 
 ## Troubleshooting
 
-!!! warning "Posts not showing"
-    If the Blog module displays no posts, check: (1) you have published posts in the selected categories, (2) the Offset value isn't skipping past all available posts, (3) no conflicting query modifications from plugins.
+!!! warning "Posts Not Displaying"
+    If the Blog module appears empty, verify that: (1) you have published posts assigned to the selected categories, (2) the Offset value is not set high enough to skip past all available posts, and (3) no plugin or custom code is modifying the query in a way that filters out all results. Also check that the Post Count is greater than zero.
 
-!!! warning "Grid columns uneven"
-    When Masonry is enabled, grid items can appear uneven if featured images have varying aspect ratios. Either crop all featured images to the same ratio or disable Masonry for a uniform grid.
+!!! warning "Grid Columns Appear Uneven"
+    When Masonry is enabled, posts with different featured image aspect ratios or content lengths will produce tiles of varying height. If you want a uniform grid, either crop all featured images to the same aspect ratio or disable the Masonry option in the Design tab's Layout group.
 
-!!! warning "Pagination conflicts"
-    On static front pages, Blog module pagination can conflict with WordPress's built-in pagination. If page 2 shows the same posts as page 1, add this to your theme's `functions.php`:
-
-    ```php
-    function my_fix_blog_pagination( $query ) {
-        if ( is_front_page() && $query->is_main_query() ) {
-            $query->set( 'paged', get_query_var( 'page' ) );
-        }
-    }
-    add_action( 'pre_get_posts', 'my_fix_blog_pagination' );
-    ```
+!!! tip "Pagination Not Working on Static Front Page"
+    On pages set as the static front page in WordPress settings, Blog module pagination can conflict with WordPress's built-in paging. If clicking page 2 shows the same posts as page 1, add a query variable fix to your child theme's `functions.php` that maps `page` to `paged` on the main query for the front page.
 
 ## Related
 
-- [Text Module](text.md) — for static content blocks
-- [Blurb Module](blurb.md) — for feature/service highlights
+- [Portfolio Module](portfolio.md) — Display project-type posts in grid layouts
+- [Filterable Portfolio Module](filterable-portfolio.md) — Portfolio with category filtering built in
+- [Post Slider Module](post-slider.md) — Show posts in a full-screen sliding format

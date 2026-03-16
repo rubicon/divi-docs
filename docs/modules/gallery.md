@@ -1,81 +1,256 @@
 ---
 title: "Gallery"
 category: modules
-tags: ["modules", "media"]
-related: ["image", "filterable-portfolio", "portfolio"]
+tags: ["modules", "media", "images", "gallery", "grid", "slider", "lightbox", "photos"]
+related: ["image", "filterable-portfolio", "slider"]
 divi_version: "5.x"
-last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/gallery/"
+last_updated: 2026-03-16
+source_url: "https://help.elegantthemes.com/en/articles/10315545-the-gallery-module-in-divi-5"
 ---
 
 # Gallery
 
-The Gallery module is a Divi 5 content element used in the Visual Builder.
+The Gallery module displays a collection of images in a configurable grid or slider layout with optional titles, captions, and pagination.
 
 ## Overview
 
-How to add, configure and customize the Divi gallery module.
+The Gallery module lets you assemble and present multiple images as a unified visual collection anywhere on your page. Rather than placing individual image modules one by one, the Gallery module accepts a batch of images from your WordPress Media Library and arranges them automatically into either a multi-column grid or a horizontal slider. Each image can include a title and caption pulled from the media file's metadata.
 
-The Divi Gallery Module allows you to display a gallery of images anywhere on your website. You can use it to show a home tour, display your products, show off your work, and more.
+The grid layout supports flexible column counts and spacing, making it adaptable to different content widths and design requirements. The slider layout presents images in a horizontal carousel that visitors can navigate through. Both layouts support overlay effects on hover and can be configured to link images to custom URLs, lightboxes, or other pages.
+
+This module is particularly useful for showcasing product photos, real estate listings, event galleries, team headshots, or any situation where you need to display a curated set of images in an organized format. It works well alongside other media modules and can be combined with text and heading modules to build complete gallery sections.
+
+For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10315545-the-gallery-module-in-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/gallery/)
 
 ![Gallery module](../assets/screenshots/modules/gallery/element.png){ loading=lazy }
-*The Gallery module as it appears on the live demo.*
+*The Gallery module displaying images in a grid layout with hover overlay.*
 
+## Use Cases
+
+1. **Product Photo Gallery** — Display product images organized in a grid layout on an e-commerce or service page. Visitors can browse all product angles and variations in one place, with optional captions describing each image.
+
+2. **Event or Portfolio Showcase** — Present event photography or creative work in a slider layout that visitors can browse through sequentially. Use titles and captions to provide context for each image.
+
+3. **Real Estate or Property Listing** — Show property photos in a paginated grid, allowing potential buyers to browse through a large set of images without overwhelming page load. Link each image to a lightbox for full-size viewing.
+
+## How to Add the Gallery Module
+
+1. **Insert the module.** Open the Visual Builder, click the gray plus icon in any row, and search for "Gallery" in the module picker. Click it to add it to your layout.
+
+2. **Add your images.** In the Content tab under Images, click the upload area to select images from your Media Library or upload new ones. Set the image order and the number of images displayed per page.
+
+3. **Choose layout and style.** Switch to the Design tab to select grid or slider layout, configure column count and spacing, and customize overlay effects, typography, and other visual properties. Save when finished.
 
 ## Settings & Options
 
 ### Content Tab
 
-<!-- TODO: Verify all Content tab settings for Gallery module -->
+The Content tab controls which images are displayed, their order, element visibility, linking behavior, and background styling.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| Image Order– Choose the order of your images | text | — | default or random. |
-| Layout– Choose the layout for your gallery | text | — | grid or slider. |
-
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Gallery Content tab settings](../assets/screenshots/modules/gallery/settings-content.png){ loading=lazy } -->
+| Setting | Type | Description |
+|---------|------|-------------|
+| **Images** | | |
+| Gallery Images | media-library | Opens the WordPress Media Library to select and arrange the images included in the gallery. |
+| Image Order | select | Sets whether images display in the order they were arranged (Default) or in a randomized sequence (Random). |
+| Images Per Page | number | Controls how many images appear on each page of the gallery before pagination activates. |
+| **Elements** | | |
+| Show Title | toggle | Displays or hides the title text below each gallery image. Titles are pulled from the image's media library metadata. |
+| Show Caption | toggle | Displays or hides the caption text below each gallery image. Captions are pulled from the image's media library metadata. |
+| Show Pagination | toggle | Enables or disables numbered pagination below the gallery when the total image count exceeds the per-page limit. |
+| **Link** | | |
+| Module Link URL | url | Wraps the entire gallery module in a link to a specified URL, page, or section. |
+| Module Link Target | select | Sets whether the module link opens in the same window or a new tab. |
+| **Background** | | |
+| Background Color | color | Applies a solid background color to the module container. |
+| Background Gradient | gradient | Applies a gradient background with configurable direction, stops, and colors. |
+| Background Image | image | Sets a background image behind the gallery module. |
+| Background Video | video | Embeds a background video behind the gallery module. |
+| Background Pattern | pattern | Adds a repeating pattern overlay to the module background. |
+| Background Mask | mask | Applies a decorative mask shape to the module background. |
+| **Meta** | | |
+| Admin Label | text | Custom label displayed in the Visual Builder layers panel to help identify the module. |
+| Disable On | toggle | Forces the module to remain visible in the Visual Builder even when front-end visibility is restricted. |
+| **Order** | | |
+| Flexbox Order | number | Sets the display order of the module when its parent row uses Flexbox layout. |
+| Grid Order | number | Sets the display order of the module when its parent row uses CSS Grid layout. |
 
 ### Design Tab
 
-<!-- TODO: Verify all Design tab settings for Gallery module -->
+The Design tab controls the visual layout, image styling, typography for titles and captions, and all visual effects applied to the gallery.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Design settings --> | | | |
-
-<!-- TODO: Replace with proper screenshot -->
-<!-- ![Gallery Design tab settings](../assets/screenshots/modules/gallery/settings-design.png){ loading=lazy } -->
+| Setting | Type | Description |
+|---------|------|-------------|
+| **Layout** | | |
+| Layout | select | Switches between Grid (multi-column thumbnails) and Slider (horizontal carousel) display modes. |
+| Layout Style | select | When Grid is selected, chooses between Flexbox and Grid CSS layout methods for the thumbnail arrangement. |
+| Columns | number | Sets the number of columns in the grid layout. Available values typically range from 1 to 6. |
+| Column Spacing | range | Controls the gap between columns and rows in the grid layout. |
+| **Overlay** | | |
+| Overlay Icon | icon-picker | Selects the icon displayed over each image on hover. |
+| Overlay Icon Color | color | Sets the color of the hover overlay icon. |
+| Hover Overlay Color | color | Sets the background color of the semi-transparent overlay that appears on image hover. |
+| Hover Icon Picker | toggle | Enables or disables the icon shown on image hover. |
+| **Image** | | |
+| Image Rounded Corners | border-radius | Applies rounded corners to gallery images. |
+| Image Border | border | Adds a border around each gallery image. |
+| Image Box Shadow | box-shadow | Applies a shadow effect to gallery images. |
+| Image CSS Filters | filters | Adjusts hue, saturation, brightness, contrast, invert, and sepia on gallery images. |
+| **Text** | | |
+| Text Alignment | alignment | Sets the horizontal alignment of all text content within the module. |
+| Text Color Scheme | select | Switches between dark and light text color presets. |
+| **Title Text** | | |
+| Title Font | font | Sets the font family for image titles. |
+| Title Font Weight | select | Controls the boldness of image title text. |
+| Title Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to title text. |
+| Title Text Color | color | Sets the color of image title text. |
+| Title Text Size | range | Controls the font size of image titles. |
+| Title Letter Spacing | range | Adjusts the spacing between characters in image titles. |
+| Title Line Height | range | Sets the vertical spacing between lines in image titles. |
+| Title Text Shadow | shadow | Applies a shadow effect to image title text. |
+| **Caption Text** | | |
+| Caption Font | font | Sets the font family for image captions. |
+| Caption Font Weight | select | Controls the boldness of caption text. |
+| Caption Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to caption text. |
+| Caption Text Color | color | Sets the color of image caption text. |
+| Caption Text Size | range | Controls the font size of image captions. |
+| Caption Letter Spacing | range | Adjusts the spacing between characters in image captions. |
+| Caption Line Height | range | Sets the vertical spacing between lines in image captions. |
+| Caption Text Shadow | shadow | Applies a shadow effect to image caption text. |
+| **Pagination Text** | | |
+| Pagination Font | font | Sets the font family for pagination links. |
+| Pagination Font Weight | select | Controls the boldness of pagination text. |
+| Pagination Font Style | toggle | Applies italic, uppercase, underline, or strikethrough to pagination text. |
+| Pagination Text Color | color | Sets the color of pagination link text. |
+| Pagination Text Size | range | Controls the font size of pagination links. |
+| Pagination Letter Spacing | range | Adjusts character spacing in pagination links. |
+| Pagination Line Height | range | Sets vertical spacing between lines in pagination text. |
+| Pagination Text Shadow | shadow | Applies a shadow effect to pagination text. |
+| **Sizing** | | |
+| Width | range | Sets the horizontal width of the module. |
+| Max Width | range | Sets the maximum horizontal width the module can reach. |
+| Module Alignment | alignment | Controls horizontal alignment of the module when its width is less than the column width. |
+| Min Height | range | Sets the minimum height of the module container. |
+| Height | range | Sets the exact height of the module container. |
+| Max Height | range | Sets the maximum height the module container can reach. |
+| **Spacing** | | |
+| Margin | spacing | Controls the outer spacing around the module on all four sides. |
+| Padding | spacing | Controls the inner spacing within the module on all four sides. |
+| **Border** | | |
+| Border Width | range | Sets the thickness of the module border. |
+| Border Color | color | Sets the color of the module border. |
+| Border Style | select | Chooses the border style (solid, dashed, dotted, double, groove, ridge, inset, outset). |
+| Border Radius | border-radius | Rounds the corners of the module container. |
+| **Box Shadow** | | |
+| Box Shadow | box-shadow | Adds a shadow effect around the module with configurable blur, spread, color, and position. |
+| **Filters** | | |
+| Hue | range | Shifts the hue of the entire module. |
+| Saturation | range | Adjusts the color saturation of the entire module. |
+| Brightness | range | Controls the brightness level of the entire module. |
+| Contrast | range | Adjusts the contrast of the entire module. |
+| Invert | range | Inverts the colors of the entire module. |
+| Sepia | range | Applies a sepia tone to the entire module. |
+| Opacity | range | Controls the transparency of the entire module. |
+| Blend Mode | select | Sets how the module blends with elements behind it. |
+| **Transform** | | |
+| Transform Scale | range | Scales the module up or down from its original size. |
+| Transform Translate | range | Moves the module horizontally or vertically from its original position. |
+| Transform Rotate | range | Rotates the module by a specified degree. |
+| Transform Skew | range | Skews the module along the horizontal or vertical axis. |
+| Transform Origin | select | Sets the reference point for all transform operations. |
+| **Animation** | | |
+| Animation Style | select | Chooses the entrance animation type (fade, slide, bounce, zoom, flip, fold, roll). |
+| Animation Direction | select | Sets the direction from which the animation originates. |
+| Animation Duration | range | Controls how long the entrance animation takes to complete. |
+| Animation Delay | range | Sets a delay before the entrance animation begins. |
+| Animation Intensity | range | Controls the intensity or distance of the animation effect. |
+| Animation Starting Opacity | range | Sets the opacity at the beginning of the animation. |
+| Animation Speed Curve | select | Defines the acceleration curve of the animation (ease, linear, ease-in, ease-out, ease-in-out). |
+| Animation Repeat | toggle | Sets whether the animation plays once or loops continuously. |
 
 ### Advanced Tab
 
-<!-- TODO: Verify all Advanced tab settings for Gallery module -->
+The Advanced tab provides low-level control over HTML attributes, custom CSS, conditional display logic, and scroll-based effects.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| CSS ID | text | — | Assign a unique CSS ID to the module |
-| CSS Class | text | — | Assign CSS classes to the module |
-| Custom CSS | code | — | Add custom CSS directly to the module's elements |
-| Visibility | toggle | Show on all devices | Control device visibility (desktop, tablet, phone) |
-| Transition | select | Default | Animation transition style for hover effects |
+| Setting | Type | Description |
+|---------|------|-------------|
+| **Attributes** | | |
+| CSS ID | text | Assigns a unique CSS ID to the module for targeted styling or anchor links. |
+| CSS Classes | text | Adds one or more CSS class names to the module for custom styling. |
+| Custom HTML Attributes | text | Adds custom `data-*` or other HTML attributes to the module wrapper element. |
+| **CSS** | | |
+| Main Element | code | Applies custom CSS rules directly to the gallery module's main wrapper element. |
+| Gallery Item | code | Applies custom CSS rules to individual gallery item containers. |
+| Gallery Image | code | Applies custom CSS rules to gallery image elements. |
+| Gallery Title | code | Applies custom CSS rules to image title elements. |
+| Gallery Caption | code | Applies custom CSS rules to image caption elements. |
+| Gallery Pagination | code | Applies custom CSS rules to pagination elements. |
+| **HTML** | | |
+| Semantic Tag | select | Sets the HTML element used for the module container (div, article, section, header, footer, aside, main). |
+| **Interactions** | | |
+| Module Interactions | interactions | Defines show, hide, or toggle behaviors triggered by clicks, hovers, or scroll events on other elements. |
+| **Conditions** | | |
+| Display Conditions | conditions | Sets rules that determine when the module is visible, based on user role, page type, date, or custom logic. |
+| **Visibility** | | |
+| Disable On | toggle | Hides the module on selected device types: desktop, tablet, or phone. |
+| **Transitions** | | |
+| Transition Duration | range | Sets how long hover-state property transitions take to complete. |
+| Transition Delay | range | Sets a delay before hover-state transitions begin. |
+| Transition Speed Curve | select | Defines the acceleration curve for hover transitions. |
+| **Position** | | |
+| Position | select | Sets the CSS position property (default/static, relative, absolute, fixed, sticky). |
+| Z-Index | number | Controls the stacking order of the module relative to other positioned elements. |
+| Horizontal Offset | range | Moves the module left or right from its positioned origin. |
+| Vertical Offset | range | Moves the module up or down from its positioned origin. |
+| **Scroll Effects** | | |
+| Sticky Position | toggle | Makes the module stick to the viewport during scrolling. |
+| Motion Effects - Vertical | toggle | Moves the module vertically at a different rate as the user scrolls. |
+| Motion Effects - Horizontal | toggle | Moves the module horizontally as the user scrolls. |
+| Motion Effects - Fade | toggle | Changes the module opacity as the user scrolls through the viewport. |
+| Motion Effects - Scaling | toggle | Scales the module up or down as the user scrolls. |
+| Motion Effects - Rotating | toggle | Rotates the module as the user scrolls. |
+| Motion Effects - Blur | toggle | Applies or removes a blur effect as the user scrolls. |
 
 ## Code Examples
 
 ### Custom CSS
 
 ```css
-/* Style the Gallery module */
-.et_pb_gallery {
-    /* Add your custom styles */
-    margin-bottom: 30px;
+/* Create a masonry-style gap between gallery items */
+.et_pb_gallery .et_pb_gallery_items {
+    gap: 16px;
 }
 
-/* Responsive adjustments */
+/* Style individual gallery items with rounded corners and shadow */
+.et_pb_gallery .et_pb_gallery_item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.et_pb_gallery .et_pb_gallery_item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Customize the overlay appearance */
+.et_pb_gallery .et_pb_gallery_item .et_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+/* Responsive: 2 columns on tablet, 1 on mobile */
 @media (max-width: 980px) {
-    .et_pb_gallery {
-        padding: 20px;
+    .et_pb_gallery .et_pb_gallery_item {
+        width: 48% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .et_pb_gallery .et_pb_gallery_item {
+        width: 100% !important;
     }
 }
 ```
@@ -83,44 +258,63 @@ The Divi Gallery Module allows you to display a gallery of images anywhere on yo
 ### PHP Hooks
 
 ```php
-/* Filter the Gallery module output */
+/* Modify the Gallery module output */
 add_filter('et_module_shortcode_output', function($output, $render_slug) {
-    if ('et_pb_et_pb_gallery' !== $render_slug) {
+    if ('et_pb_gallery' !== $render_slug) {
         return $output;
     }
-    // Modify $output as needed
+
+    // Example: Add a custom data attribute to the gallery wrapper
+    $output = str_replace(
+        'class="et_pb_gallery',
+        'data-gallery="true" class="et_pb_gallery',
+        $output
+    );
+
     return $output;
 }, 10, 2);
 ```
 
+```php
+/* Add a lightbox script for gallery images */
+add_action('wp_enqueue_scripts', function() {
+    if (is_singular()) {
+        wp_enqueue_style('custom-gallery-lightbox', get_stylesheet_directory_uri() . '/css/gallery-lightbox.css');
+        wp_enqueue_script('custom-gallery-lightbox', get_stylesheet_directory_uri() . '/js/gallery-lightbox.js', array('jquery'), '1.0', true);
+    }
+});
+```
+
 ## Common Patterns
 
-<!-- TODO: Add 2-3 real-world usage patterns with screenshots -->
+1. **Product Image Grid** — Set the layout to Grid with 3 or 4 columns and tight column spacing. Upload product photos with descriptive titles in the Media Library so they appear as labels beneath each thumbnail. Enable pagination if you have more than 12 images to keep the page lightweight.
 
-1. **Basic Usage** — Add the Gallery module to any row in the Visual Builder and configure its settings.
+2. **Fullwidth Slider Showcase** — Place the Gallery in a fullwidth row and select the Slider layout. This creates a prominent image carousel suitable for hero sections or featured work. Adjust the overlay color to match your branding and add entrance animations for visual impact on scroll.
 
-2. **Styled Variation** — Use the Design tab to customize fonts, colors, and spacing to match your site's design system.
+3. **Captioned Photo Gallery** — Enable both titles and captions to create an informative gallery suitable for event documentation or educational content. Style the caption text with a smaller font size and lighter color to create visual hierarchy between the title and description. Use two columns for a magazine-style layout.
 
-3. **Dynamic Content** — Use dynamic content fields to pull data from custom fields or post meta.
+## Saving Your Work
+
+After configuring the Gallery module, save your layout by clicking the green **Save** button at the bottom of the Visual Builder panel, or use the keyboard shortcut **Ctrl+S** (Windows) / **Cmd+S** (Mac). To reuse this configured gallery on other pages, right-click the module in the Visual Builder and select **Save to Library**. You can also copy and paste modules between pages using **Ctrl+C** / **Ctrl+V**.
 
 ## Version Notes
 
 !!! note "Divi 5 Only"
-    This page documents Divi 5 behavior exclusively.
+    This page documents Divi 5 behavior exclusively. The Gallery module in Divi 5 uses the updated Visual Builder interface with accordion-style settings panels. Settings organization, layout options, and naming may differ from Divi 4.
 
 ## Troubleshooting
 
-!!! warning "Module Not Rendering"
-    If the Gallery module doesn't appear on the front end, verify that:
+!!! warning "Images Not Displaying"
+    If the gallery appears empty or images fail to load, verify that images have been selected in the Content tab under Images. Check that the image files still exist in the WordPress Media Library and have not been deleted or moved. Also confirm that the **Images Per Page** value is greater than zero.
 
-    - The module is not inside a disabled section or row
-    - Visibility settings aren't hiding it on the current device
-    - Any required fields (like URLs or content) are filled in
+!!! warning "Slider Layout Not Advancing"
+    If the slider layout displays only the first image and navigation arrows are unresponsive, check for JavaScript conflicts with other plugins or custom scripts. Open the browser console (F12) to look for errors. Ensure your Divi theme files are up to date, as older versions may have slider rendering issues.
 
-<!-- TODO: Add module-specific troubleshooting items -->
+!!! tip "Optimizing Gallery Performance"
+    Large galleries with high-resolution images can significantly slow page load times. Before uploading, resize images to a maximum of 1200px on the longest side and compress them using a tool like TinyPNG or ShortPixel. Use the **Images Per Page** setting to paginate large collections rather than loading all images at once.
 
 ## Related
 
 - [Image](image.md)
 - [Filterable Portfolio](filterable-portfolio.md)
-- [Portfolio](portfolio.md)
+- [Slider](slider.md)

@@ -1,78 +1,146 @@
 ---
 title: "Circle Counter"
 category: modules
-tags: ["modules", "animation"]
+tags: ["modules", "circle-counter", "animation", "statistics", "data-visualization", "counter"]
 related: ["bar-counter", "number-counter"]
 divi_version: "5.x"
-last_updated: 2026-03-12
-source_url: "https://www.elegantthemes.com/documentation/divi/circle-counter/"
+last_updated: 2026-03-16
+source_url: "https://help.elegantthemes.com/en/articles/10260293-the-circle-counter-module-in-divi-5"
 ---
 
 # Circle Counter
 
-The Circle Counter module is a Divi 5 content element used in the Visual Builder.
+The Circle Counter module displays an animated circular progress bar with a percentage value and optional title.
 
 ## Overview
 
-How to add, configure and customize the Divi circle counter module.
+The Circle Counter module presents numerical data as a filled arc within a circle, animating from zero to the target value when the element scrolls into view. It is commonly used to represent completion percentages, skill proficiency levels, project progress, and other metrics that benefit from a visual gauge rather than plain text.
 
-The Divi Circle Counter Module is an interactive way to display statistics and numerical information on your website. It’s an animated module that uses lazy-loading to catch the eye.
+Each circle counter consists of three visual components: the circular track (background ring), the progress arc (filled portion), and a centered number that counts up to the specified value. A title below the circle provides context for what the number represents. The animation triggers automatically via lazy-loading when the module enters the viewport, creating an engaging reveal effect.
+
+Circle counters work best when grouped together. Place three or four in a multi-column row to create a statistics dashboard effect — for example, showing completion rates, satisfaction scores, or growth percentages side by side. The module adapts to its column width, so the circle scales proportionally in narrower containers.
+
+For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10260293-the-circle-counter-module-in-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/circle-counter/)
 
 ![Circle Counter module](../assets/screenshots/modules/circle-counter/element.png){ loading=lazy }
 *The Circle Counter module as it appears on the live demo.*
 
+## Use Cases
+
+1. **Skills or Proficiency Display** — Show skill levels on a portfolio or team member page with each circle representing a different competency and its mastery percentage.
+2. **Project Milestones** — Visualize project progress on a status page or case study, with each circle counter tracking a different phase or deliverable.
+3. **Statistics Dashboard** — Present key business metrics like customer satisfaction, revenue growth, or completion rates in a visually engaging row of animated counters.
+
+## How to Add the Circle Counter Module
+
+1. Open the Visual Builder on the page you want to edit.
+2. Click the gray **+** icon to add a new module to a row.
+3. Search for "Circle Counter" in the module picker or find it in the Content Elements category, then click to insert it.
+
+<!-- TODO: Add animated GIF demonstrating module insertion -->
 
 ## Settings & Options
 
+The Circle Counter module settings are organized across three tabs: Content, Design, and Advanced.
+
 ### Content Tab
 
-<!-- TODO: Verify all Content tab settings for Circle Counter module -->
+The Content tab controls the counter's title, number value, display options, link behavior, background, and metadata.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Content settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Title | text | The label displayed below the circle, providing context for the number value (e.g., "Project Completion" or "Customer Satisfaction"). Supports dynamic content. |
+| Number | number/text | The target percentage value the counter animates to. Enter a number between 0 and 100. This is the value displayed inside the circle. |
+| Percent Sign | toggle | Controls whether a percent sign (%) is displayed after the number inside the circle. Disable this if the number represents a non-percentage metric. |
+| Link | url/link settings | Optionally make the entire module clickable, linking to a page, section, or external URL. Includes target and relationship attribute controls. |
+| Background | background controls | Set a background color, gradient, image, or video behind the circle counter module. Multiple background layers can be combined. |
+| Loop | toggle | Enables the loop builder, allowing the circle counter to repeat dynamically based on a data source such as posts or custom queries. |
+| Order | number | Controls the display order of this module when its parent row or column uses Flexbox or CSS Grid layout modes. |
+| Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. Also controls Visual Builder visibility. |
 
 <!-- ![Circle Counter Content tab settings](../assets/screenshots/modules/circle-counter/settings-content.png){ loading=lazy } -->
+<!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
 
-<!-- TODO: Verify all Design tab settings for Circle Counter module -->
+The Design tab controls the circle's colors, text styling, module dimensions, and visual effects.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| <!-- TODO: Document Design settings --> | | | |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Circle | circle styling | Configure the progress arc color, the background track color, and the overall opacity of the circle element. These settings define the primary visual identity of the counter. |
+| Text | text styling | General text styling applied to the module as a whole — font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow. |
+| Title Text | text styling | Typography settings specifically for the title below the circle — font family, weight, style, alignment, color, size, letter spacing, line height, and text shadow. Overrides the general text settings for the title element. |
+| Number Text | text styling | Typography settings for the percentage number displayed inside the circle — font family, weight, style, color, size, letter spacing, and line height. Controls how the animated number appears. |
+| Sizing | dimensions | Control the module's width, max-width, min-height, and overall alignment when narrower than its column. |
+| Spacing | margin/padding | Set custom margin and padding values. Supports responsive values per breakpoint and individual side controls. |
+| Border | border controls | Add borders around the module with configurable width, color, style (solid, dashed, dotted, double, groove, ridge, inset, outset), and corner radius. |
+| Box Shadow | shadow controls | Apply a shadow effect around the module with configurable horizontal offset, vertical offset, blur radius, spread, and color. |
+| Filters | image filters | Apply CSS filter effects including hue rotation, saturation adjustment, brightness, contrast, invert, sepia, opacity, and blend mode. |
+| Transform | transform controls | Apply CSS transforms — scale, translate, rotate, skew — along with transform origin settings. |
+| Animation | animation select | Choose an entrance animation style (fade, slide, bounce, zoom, flip, fold, roll) with configurable direction, duration, delay, and intensity. This is separate from the built-in counter animation. |
 
 <!-- ![Circle Counter Design tab settings](../assets/screenshots/modules/circle-counter/settings-design.png){ loading=lazy } -->
+<!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
 
-<!-- TODO: Verify all Advanced tab settings for Circle Counter module -->
+The Advanced tab provides developer-oriented controls for IDs, classes, conditional display, and interactions.
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| CSS ID | text | — | Assign a unique CSS ID to the module |
-| CSS Class | text | — | Assign CSS classes to the module |
-| Custom CSS | code | — | Add custom CSS directly to the module's elements |
-| Visibility | toggle | Show on all devices | Control device visibility (desktop, tablet, phone) |
-| Transition | select | Default | Animation transition style for hover effects |
+| Setting | Type | Description |
+|---------|------|-------------|
+| Attributes | text fields | Assign a CSS ID and CSS classes to the module for targeting with custom styles or JavaScript. |
+| CSS | code editor | Write custom CSS that applies directly to specific elements within the module (container, circle, number, title). |
+| HTML | code fields | Add custom HTML attributes to the module's wrapper element for accessibility or data attributes. |
+| Conditions | condition builder | Set display conditions so the module only appears based on rules such as user role, page type, date range, or custom logic. |
+| Interactions | interaction builder | Define hover, click, or scroll-triggered interactions that affect this module or other elements on the page. |
+| Visibility | device toggles | Show or hide the module on desktop, tablet, and/or phone. Hidden modules are not rendered in the page source for that device. |
+| Transitions | transition controls | Configure CSS transition properties (duration, easing, delay) for hover state changes. |
+| Position | position controls | Set the CSS position property (relative, absolute, fixed, sticky) and offset values (top, right, bottom, left, z-index). |
+| Scroll Effects | scroll controls | Apply scroll-driven effects like parallax, fade, scale, rotate, blur, or horizontal movement as the user scrolls. |
+
+<!-- ![Circle Counter Advanced tab settings](../assets/screenshots/modules/circle-counter/settings-advanced.png){ loading=lazy } -->
+<!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples
 
 ### Custom CSS
 
 ```css
-/* Style the Circle Counter module */
+/* Style the Circle Counter module container */
 .et_pb_circle_counter {
-    /* Add your custom styles */
     margin-bottom: 30px;
+}
+
+/* Customize the percentage number inside the circle */
+.et_pb_circle_counter .percent p {
+    font-weight: 700;
+    font-size: 36px;
+    color: #333333;
+}
+
+/* Style the title below the circle */
+.et_pb_circle_counter h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    color: #666666;
+}
+
+/* Add a hover effect to the circle */
+.et_pb_circle_counter:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 /* Responsive adjustments */
 @media (max-width: 980px) {
     .et_pb_circle_counter {
-        padding: 20px;
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 ```
@@ -80,25 +148,31 @@ The Divi Circle Counter Module is an interactive way to display statistics and n
 ### PHP Hooks
 
 ```php
-/* Filter the Circle Counter module output */
+/* Filter the Circle Counter module output to add a wrapper class */
 add_filter('et_module_shortcode_output', function($output, $render_slug) {
-    if ('et_pb_et_pb_circle_counter' !== $render_slug) {
+    if ('et_pb_circle_counter' !== $render_slug) {
         return $output;
     }
-    // Modify $output as needed
+    // Wrap the module in an additional container for layout purposes
+    $output = '<div class="custom-counter-wrapper">' . $output . '</div>';
     return $output;
 }, 10, 2);
 ```
 
 ## Common Patterns
 
-<!-- TODO: Add 2-3 real-world usage patterns with screenshots -->
+1. **Skills Row** — Place three or four circle counters in a multi-column row on an about or team page. Assign each counter a different skill label (e.g., "HTML/CSS," "WordPress," "Design") with corresponding proficiency percentages. Use matching circle colors tied to your brand palette.
 
-1. **Basic Usage** — Add the Circle Counter module to any row in the Visual Builder and configure its settings.
+2. **Project Status Dashboard** — Create a statistics section with circle counters representing different project phases or KPIs. Use a dark background section with light circle colors for high contrast. Add entrance animations with staggered delays so each counter animates in sequence from left to right.
 
-2. **Styled Variation** — Use the Design tab to customize fonts, colors, and spacing to match your site's design system.
+3. **Before/After Metrics** — Pair circle counters with text modules to present improvement metrics in a case study. For example, show "Before: 45%" and "After: 92%" side by side with descriptive text below each explaining the improvement. Use contrasting circle colors (muted for "before," vibrant for "after") to visually reinforce the change.
 
-3. **Dynamic Content** — Use dynamic content fields to pull data from custom fields or post meta.
+## Saving Your Work
+
+After configuring the circle counter:
+
+- **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
+- **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
 
 ## Version Notes
 
@@ -107,16 +181,24 @@ add_filter('et_module_shortcode_output', function($output, $render_slug) {
 
 ## Troubleshooting
 
-!!! warning "Module Not Rendering"
-    If the Circle Counter module doesn't appear on the front end, verify that:
+!!! warning "Counter Not Animating"
+    If the circle counter displays the final value without animating:
 
-    - The module is not inside a disabled section or row
-    - Visibility settings aren't hiding it on the current device
-    - Any required fields (like URLs or content) are filled in
+    - The animation triggers when the module scrolls into the viewport. If the module is visible on page load without scrolling, the animation may have already completed before you noticed it.
+    - Check that JavaScript is not being blocked by a content security policy or script-blocking plugin.
+    - Lazy-loading conflicts with certain caching or optimization plugins can prevent the animation trigger. Try disabling lazy-load optimizations temporarily to test.
 
-<!-- TODO: Add module-specific troubleshooting items -->
+!!! warning "Circle Not Visible"
+    If the module area appears but the circular progress bar is missing:
+
+    - Verify that the circle color and the background color are not identical. If both are the same, the progress arc will be invisible.
+    - Check the **Number** field in the Content tab — if set to 0, no progress arc will render.
+    - Inspect the module with browser DevTools to confirm the canvas or SVG element is present and has appropriate dimensions.
+
+!!! tip "Matching Circle Sizes Across Columns"
+    Circle counters automatically scale to fit their column width. If circles in different columns appear at different sizes, ensure all columns in the row have equal widths. Alternatively, set a fixed `max-width` on the `.et_pb_circle_counter` class via custom CSS to enforce consistent sizing regardless of column width.
 
 ## Related
 
-- [Bar Counter](bar-counter.md)
-- [Number Counter](number-counter.md)
+- [Bar Counter](bar-counter.md) — Horizontal progress bar alternative for displaying percentages and metrics
+- [Number Counter](number-counter.md) — Animated number that counts up to a target value without a circular visual
