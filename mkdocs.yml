@@ -286,6 +286,10 @@ nav:
     - Divi Data Registry: api/divi-data-registry.md
   - CSS Reference:
     - Overview: css-reference/index.md
+    - Design Variables: css-reference/design-variables.md
+    - Design System Workflow: css-reference/design-system-workflow.md
+    - Advanced CSS Units & Functions: css-reference/advanced-css-units.md
+    - Relative Colors & HSL: css-reference/relative-colors-hsl.md
     - Class Reference: css-reference/class-reference.md
     - Common Overrides: css-reference/common-overrides.md
   - LLM Playbooks:

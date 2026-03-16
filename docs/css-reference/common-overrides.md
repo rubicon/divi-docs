@@ -18,6 +18,14 @@ A collection of tested CSS snippets for the most frequently requested Divi 5 cus
     **Categories covered:** Header & Navigation | Module Spacing | Typography | Button Styles | Responsive Breakpoints | Hiding/Showing Elements | Images | Blog Module | Forms
     **Where to add CSS:** Divi Theme Options > Custom CSS, child theme `style.css`, or module Advanced > Custom CSS
 
+!!! tip "Use Design Variables and Presets First"
+    Most styling needs in Divi 5 are better handled through [Design Variables](design-variables.md)
+    and [Presets](../builder/presets.md) than through custom CSS. Variables and presets
+    provide sitewide consistency, are manageable through the Visual Builder UI, and
+    update everywhere when changed. Use custom CSS overrides only when the Visual
+    Builder's settings and variable system don't cover your specific need.
+    See [Design System Workflow](design-system-workflow.md) for the recommended approach.
+
 ## Overview
 
 While Divi 5's module settings cover most styling needs, some design requirements call for custom CSS. This page collects the overrides that Divi developers reach for most often: header adjustments, spacing fixes, typography tweaks, button restyling, responsive breakpoint handling, and visibility control.
@@ -31,6 +39,9 @@ All CSS on this page can be added via one of three methods:
 For specificity, most overrides use `body` as a prefix. If an override does not work, increase specificity or add `!important` (see the troubleshooting section at the bottom).
 
 ## Header & Navigation Overrides
+
+!!! tip "Variable-First Alternative"
+    Header background and text colors can often be managed through Color variables and the Theme Builder header template settings, reducing the need for CSS overrides.
 
 ### Make the header transparent
 
@@ -137,6 +148,9 @@ Divi adds `.et-fixed-header` to the header when the user scrolls down:
 
 ## Module Spacing Overrides
 
+!!! tip "Variable-First Alternative"
+    Divi 5's [Spacing options group](../options-groups/spacing.md) with [Number variables](design-variables.md) and [presets](../builder/presets.md) handles most spacing needs without CSS. Use CSS overrides only for spacing patterns that can't be expressed through the settings panel.
+
 ### Remove default section padding
 
 ```css
@@ -224,6 +238,9 @@ Divi adds a default bottom margin to most modules:
 
 ## Typography Overrides
 
+!!! tip "Variable-First Alternative"
+    Divi 5 [Font variables](design-variables.md) and [Text option group presets](../builder/option-group-presets.md) handle most typography needs. The [Global Variables](../builder/global-variables.md) panel sets default heading and body fonts sitewide.
+
 ### Set global heading styles
 
 ```css
@@ -305,6 +322,9 @@ h1, h2, h3, h4, h5, h6,
 
 ## Button Style Overrides
 
+!!! tip "Variable-First Alternative"
+    [Button Option Group Presets](../builder/option-group-presets.md) with [Color variables](design-variables.md) are the preferred approach for consistent button styling. CSS overrides are appropriate only for pseudo-element effects or complex hover animations.
+
 ### Override all Divi buttons
 
 Divi uses `.et_pb_button` for all button elements across modules:
@@ -379,6 +399,9 @@ body .full-width-btn .et_pb_button {
 ```
 
 ## Responsive Breakpoints
+
+!!! tip "Variable-First Alternative"
+    Divi 5's responsive settings (tablet and phone tabs in every option) handle most breakpoint-specific styling. Use CSS media queries only for responsive patterns the settings panel cannot express, such as reordering elements or custom breakpoint values.
 
 Divi 5 uses two primary breakpoints:
 
@@ -459,6 +482,9 @@ By default Divi stacks columns at 980px. To keep columns side-by-side on tablet:
 
 ## Hiding and Showing Elements
 
+!!! tip "Variable-First Alternative"
+    Divi 5 includes built-in visibility toggles (Disable On: Phone, Tablet, Desktop) in every element's Advanced tab. Use CSS display overrides only when you need conditional visibility logic that the built-in toggles cannot express.
+
 ### Hide an element on specific devices
 
 ```css
@@ -520,6 +546,9 @@ By default Divi stacks columns at 980px. To keep columns side-by-side on tablet:
 
 ## Image Overrides
 
+!!! tip "Variable-First Alternative"
+    Image sizing, border radius, and basic hover effects can be configured through the Image module's Design tab and [presets](../builder/presets.md). CSS overrides are appropriate for effects like clip-path, complex transforms, or object-fit adjustments not available in the settings.
+
 ### Force images to full width inside modules
 
 ```css
@@ -557,6 +586,9 @@ By default Divi stacks columns at 980px. To keep columns side-by-side on tablet:
 
 ## Blog Module Overrides
 
+!!! tip "Variable-First Alternative"
+    The Blog module's Design tab covers background color, border radius, box shadow, and spacing. Use [presets](../builder/presets.md) to standardize Blog module styling across pages. CSS overrides are useful for card hover transforms or structural changes not exposed in the settings.
+
 ### Style blog post cards in grid layout
 
 ```css
@@ -588,6 +620,9 @@ By default Divi stacks columns at 980px. To keep columns side-by-side on tablet:
 ```
 
 ## Form Overrides
+
+!!! tip "Variable-First Alternative"
+    The Contact Form module's Design tab provides input styling options including background color, border, padding, and font. Use [presets](../builder/presets.md) for consistent form styling. CSS overrides are appropriate for focus states, placeholder styling, and validation feedback not covered by the settings.
 
 ### Style contact form inputs
 
@@ -655,6 +690,21 @@ By default Divi stacks columns at 980px. To keep columns side-by-side on tablet:
     **Possible cause:** Divi applies responsive styles using `@media` queries that may override your desktop-only CSS at smaller breakpoints.
 
     **Fix:** Add your override inside the appropriate `@media` query to match Divi's breakpoints (980px for tablet, 767px for phone).
+
+## When Custom CSS Is Still Necessary
+
+While Design Variables and Presets handle most styling needs, these scenarios genuinely require custom CSS:
+
+- **Pseudo-elements** (`::before`, `::after`) — Not accessible through any Divi setting
+- **Complex selectors** (`:nth-child`, sibling combinators, `:has()`) — Cannot be expressed in the settings panel
+- **CSS animations** beyond Divi's built-in entrance animations — Custom `@keyframes` rules
+- **Third-party plugin styling** — Styling plugin output that renders inside Divi layouts
+- **Print stylesheets** — `@media print` rules for printable pages
+- **Accessibility fixes** — Focus outlines (`:focus-visible`), reduced motion (`prefers-reduced-motion`), high contrast adjustments
+- **Scroll-driven effects** — CSS `scroll-timeline` or `animation-timeline` properties
+- **Container queries** — `@container` rules for component-level responsive behavior (browser support dependent)
+
+For these cases, the [Class Reference](class-reference.md) provides the selectors you need.
 
 ## Related
 

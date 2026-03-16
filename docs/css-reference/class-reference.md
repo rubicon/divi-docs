@@ -335,8 +335,45 @@ Divi applies classes at specific breakpoints to enable responsive behavior.
 
     **Fix:** Use the module's CSS ID or CSS Class fields (Advanced tab) to assign a stable custom class instead of relying on positional classes.
 
+## Divi 5 Generated CSS Custom Properties
+
+!!! warning "Needs Testing"
+    The following section documents CSS custom properties that Divi 5 may generate. This requires verification by inspecting the actual CSS output on a live Divi 5 site.
+
+### Expected Property Patterns
+
+Divi 5 generates inline `<style>` blocks in the page `<head>` with CSS rules targeting positional classes (e.g., `.et_pb_text_1`, `.et_pb_section_0`). When Design Variables or Global Variables are assigned:
+
+- The resolved value (not a CSS custom property reference) is output in the generated CSS (Observed)
+- Global Variables (set via Theme Customizer) may output as CSS custom properties on `:root` (Needs Testing)
+- Design Variables (set via Variable Manager) resolve to static values at render time (Observed)
+
+### Preset-Derived Classes
+
+When an Element Preset is applied to a module, Divi may add a preset-specific class alongside the standard module class:
+
+- Needs Testing: Whether preset assignments generate additional CSS classes or simply merge the preset's styles into the module's generated CSS rule
+
+### Variables in Custom CSS Fields
+
+CSS custom properties defined through [Advanced Units](advanced-css-units.md) (site, page, or element scope) are output as standard `var(--name)` references in the generated CSS:
+
+```css
+/* Element-scoped CSS variable */
+.et_pb_section_2 {
+    padding-top: var(--section-spacing);
+}
+```
+
+This is distinct from Design Variables, which resolve before CSS generation.
+
+See [Design Variables](design-variables.md) for the comparison between Divi Design Variables and CSS custom properties.
+
 ## Related
 
 - [Common CSS Overrides](../css-reference/common-overrides.md)
 - [CSS in Divi 5 Playbook](../playbooks/css-in-divi.md)
 - [Hooks & Filters](../api/hooks-filters.md)
+- [Design Variables](design-variables.md)
+- [Design System Workflow](design-system-workflow.md)
+- [Advanced CSS Units](advanced-css-units.md)
