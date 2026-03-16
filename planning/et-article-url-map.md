@@ -55,7 +55,7 @@ Base URL: `https://help.elegantthemes.com/en/articles/`
 | Video | 10420150 | [Link](https://help.elegantthemes.com/en/articles/10420150) | modules/video.md | Done |
 | Video Slider | 10420154 | [Link](https://help.elegantthemes.com/en/articles/10420154) | modules/video-slider.md | Done |
 
-### New Modules (need pages created)
+### New Modules
 
 | Module | ET Article ID | ET URL | Planned File | Status |
 |--------|--------------|--------|-------------|--------|
@@ -66,11 +66,11 @@ Base URL: `https://help.elegantthemes.com/en/articles/`
 | Icon List | 11982062 | [Link](https://help.elegantthemes.com/en/articles/11982062) | modules/icon-list.md | Done |
 | Lottie | 11982058 | [Link](https://help.elegantthemes.com/en/articles/11982058) | modules/lottie.md | Done |
 | Pagination | 10358759 | [Link](https://help.elegantthemes.com/en/articles/10358759) | modules/pagination.md | Done |
-| Post Carousel | 10373482 | [Link](https://help.elegantthemes.com/en/articles/10373482) | modules/post-carousel.md | Done |
-| Post Content | 10587147 | [Link](https://help.elegantthemes.com/en/articles/10587147) | modules/post-content.md | Done |
-| Link | 13713821 | [Link](https://help.elegantthemes.com/en/articles/13713821) | modules/link.md | Done |
-| Dropdown | 13714244 | [Link](https://help.elegantthemes.com/en/articles/13714244) | modules/dropdown.md | Done |
-| Before/After Image | 13714462 | [Link](https://help.elegantthemes.com/en/articles/13714462) | modules/before-after-image.md | Done |
+| Post Carousel | 10373482 | [Link](https://help.elegantthemes.com/en/articles/10373482) | modules/post-carousel.md | Planned |
+| Post Content | 10587147 | [Link](https://help.elegantthemes.com/en/articles/10587147) | modules/post-content.md | Planned |
+| Link | 13713821 | [Link](https://help.elegantthemes.com/en/articles/13713821) | modules/link.md | Planned |
+| Dropdown | 13714244 | [Link](https://help.elegantthemes.com/en/articles/13714244) | modules/dropdown.md | Planned |
+| Before/After Image | 13714462 | [Link](https://help.elegantthemes.com/en/articles/13714462) | modules/before-after-image.md | Planned |
 
 ---
 
