@@ -64,6 +64,14 @@ MODULE_SELECTORS = {
     "toggle": ".et_pb_toggle",
     "video": ".et_pb_video",
     "video-slider": ".et_pb_video_slider",
+    # New Divi 5 modules — selectors need verification
+    "group": ".et_pb_module_group",  # TODO: verify selector
+    "group-carousel": ".et_pb_group_carousel",  # TODO: verify selector
+    "heading": ".et_pb_heading",  # TODO: verify selector
+    "hero": ".et_pb_hero",  # TODO: verify selector
+    "icon-list": ".et_pb_icon_list",  # TODO: verify selector
+    "lottie": ".et_pb_lottie",  # TODO: verify selector
+    "pagination": ".et_pb_pagination",  # TODO: verify selector
 }
 
 
