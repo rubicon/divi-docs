@@ -88,6 +88,7 @@ nav:
       - Accordion: modules/accordion.md
       - Audio: modules/audio.md
       - Bar Counter: modules/bar-counter.md
+      - Before After Image: modules/before-after-image.md
       - Blog: modules/blog.md
       - Blurb: modules/blurb.md
       - Button: modules/button.md
@@ -96,6 +97,7 @@ nav:
       - Code: modules/code.md
       - Countdown Timer: modules/countdown-timer.md
       - Divider: modules/divider.md
+      - Dropdown: modules/dropdown.md
       - Filterable Portfolio: modules/filterable-portfolio.md
       - Gallery: modules/gallery.md
       - Group: modules/group.md
@@ -105,6 +107,7 @@ nav:
       - Icon: modules/icon.md
       - Icon List: modules/icon-list.md
       - Image: modules/image.md
+      - Link: modules/link.md
       - Lottie: modules/lottie.md
       - Map: modules/map.md
       - Menu: modules/menu.md
@@ -112,6 +115,8 @@ nav:
       - Pagination: modules/pagination.md
       - Person: modules/person.md
       - Portfolio: modules/portfolio.md
+      - Post Carousel: modules/post-carousel.md
+      - Post Content: modules/post-content.md
       - Post Navigation: modules/post-navigation.md
       - Post Slider: modules/post-slider.md
       - Post Title: modules/post-title.md
@@ -139,6 +144,7 @@ nav:
       - Fullwidth Slider: modules/fullwidth-slider.md
     - WooCommerce Modules:
       - Shop: modules/shop.md
+      - Woo Add to Cart: modules/woo-add-to-cart.md
       - Woo Breadcrumbs: modules/woo-breadcrumbs.md
       - Woo Cart Products: modules/woo-cart-products.md
       - Woo Cart Totals: modules/woo-cart-totals.md
@@ -148,15 +154,19 @@ nav:
       - Woo Checkout Payment: modules/woo-checkout-payment.md
       - Woo Checkout Shipping: modules/woo-checkout-shipping.md
       - Woo Cross Sells: modules/woo-cross-sells.md
+      - Woo Notice: modules/woo-notice.md
       - Woo Product Description: modules/woo-product-description.md
+      - Woo Product Gallery: modules/woo-product-gallery.md
       - Woo Product Images: modules/woo-product-images.md
       - Woo Product Information: modules/woo-product-information.md
+      - Woo Product Meta: modules/woo-product-meta.md
       - Woo Product Price: modules/woo-product-price.md
       - Woo Product Rating: modules/woo-product-rating.md
       - Woo Product Reviews: modules/woo-product-reviews.md
       - Woo Product Stock: modules/woo-product-stock.md
       - Woo Product Tabs: modules/woo-product-tabs.md
       - Woo Product Title: modules/woo-product-title.md
+      - Woo Product Upsell: modules/woo-product-upsell.md
       - Woo Products: modules/woo-products.md
       - Woo Related Products: modules/woo-related-products.md
   - Theme Options:
@@ -319,6 +329,20 @@ nav:
     - Overview: recipes/index.md
   - Troubleshooting:
     - Overview: troubleshooting/index.md
+    - Divi 5 FAQ: troubleshooting/divi5-faq.md
+    - Upload SVG and JSON Files: troubleshooting/upload-svg-json.md
+    - Custom Blog Feed with Loop Builder: troubleshooting/custom-blog-loop-builder.md
+    - ACF Fields in Loop Builder: troubleshooting/acf-fields-loop-builder.md
+    - ACF Repeater Fields in Loop Builder: troubleshooting/acf-repeater-loop-builder.md
+    - Import Elements from Divi Library: troubleshooting/import-library-elements.md
+    - Fix Custom CSS Not Working: troubleshooting/fix-custom-css.md
+    - Where to Add Custom CSS: troubleshooting/where-to-add-css.md
+    - Fix Display Issues After Updating: troubleshooting/fix-display-issues-after-update.md
+    - Visibility Settings: troubleshooting/visibility-settings.md
+    - Missing Enable Divi Builder Option: troubleshooting/missing-builder-option.md
+    - Missing Elements on Mobile: troubleshooting/missing-elements-mobile.md
+    - Transparent Fixed Header: troubleshooting/transparent-fixed-header.md
+    - Report a Bug: troubleshooting/report-bug.md
   - Contributing: contributing.md
 
 copyright: >
