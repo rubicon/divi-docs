@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every Monday at 9:00 AM UTC (4:00 AM Central)
     - cron: '0 9 * * 1'
-  workflow_dispatch:  # Also allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,16 +21,20 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 markdownify pyyaml
+          pip install requests beautifulsoup4 markdownify pyyaml mkdocs-material mkdocs-glightbox
 
-      - name: Run content monitor
+      - name: Run content monitor (dry-run)
         run: |
-          python scripts/monitor_updates.py --all
+          python scripts/monitor_updates.py --all --dry-run
+
+      - name: Build check
+        run: |
+          mkdocs build 2>&1 | tail -20
 
       - name: Check for changes
         id: changes
         run: |
-          if [ -n "$(git status --porcelain reports/)" ]; then
+          if [ -n "$(git status --porcelain)" ]; then
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
             echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -41,6 +45,6 @@ jobs:
         run: |
           git config user.name "divi-docs-bot"
           git config user.email "bot@16wells.com"
-          git add reports/
-          git commit -m "Weekly monitor report: $(date +%Y-%m-%d)"
+          git add reports/ scripts/et_content_hashes.json
+          git diff --cached --quiet || git commit -m "Weekly monitor report: $(date +%Y-%m-%d)"
           git push

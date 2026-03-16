@@ -2,9 +2,6 @@ name: Monthly Content Audit
 
 on:
   schedule:
-    # Runs first Monday of each month at 9:00 AM UTC
-    # (cron can't express "first Monday" directly, so this runs every Monday
-    # and the job checks if it's the first week)
     - cron: '0 9 * * 1'
   workflow_dispatch:
 
@@ -38,12 +35,12 @@ jobs:
         run: |
           pip install requests beautifulsoup4 markdownify pyyaml mkdocs-material mkdocs-glightbox
 
-      - name: Run content monitor (full scan)
+      - name: Run content monitor with auto-update and auto-create
         if: steps.check_week.outputs.should_run == 'true'
         run: |
-          python scripts/monitor_updates.py --all
+          python scripts/monitor_updates.py --all --auto-update --auto-create
 
-      - name: Run build check
+      - name: Build verification
         if: steps.check_week.outputs.should_run == 'true'
         run: |
           mkdocs build 2>&1 | tee reports/build-output-$(date +%Y-%m).txt
@@ -79,7 +76,7 @@ jobs:
           - Screenshot files: ${SCREENSHOTS}
 
           ## Completeness by Section
-          $(for section in modules theme-options builder api css-reference playbooks internals recipes troubleshooting; do
+          $(for section in modules options-groups theme-options builder api css-reference playbooks internals recipes troubleshooting; do
             total=$(find docs/$section -name '*.md' ! -name 'index.md' 2>/dev/null | wc -l)
             placeholders=$(grep -rl "Placeholder" docs/$section/ --include="*.md" 2>/dev/null | wc -l)
             complete=$((total - placeholders))
@@ -101,6 +98,6 @@ jobs:
         run: |
           git config user.name "divi-docs-bot"
           git config user.email "bot@16wells.com"
-          git add reports/
-          git commit -m "Monthly audit: $(date +%Y-%m)" || echo "No changes to commit"
+          git add docs/ reports/ scripts/et_content_hashes.json mkdocs.yml
+          git diff --cached --quiet || git commit -m "Monthly audit with auto-update: $(date +%Y-%m)"
           git push
