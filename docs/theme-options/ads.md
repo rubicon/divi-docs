@@ -1,5 +1,6 @@
 ---
 title: "Ads Settings"
+description: "Divi 5 Ads theme options — configure 468x60 banner ads on single post pages, set banner image and destination URLs, and integrate AdSense code."
 category: theme-options
 tags: [theme-options, ads, advertising, banners, adsense]
 related: [general, integration]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # Ads Settings
 
 The Ads Settings tab configures banner advertisements displayed on your website outside of widget areas.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Banner advertisement display on single post pages, including image banners and AdSense integration.
+    **Where to find it:** Divi → Theme Options → Ads
+    **Key settings:** Enable Single Post 468x60 banner, Banner image URL, Banner destination URL, AdSense code
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

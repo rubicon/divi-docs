@@ -1,5 +1,6 @@
 ---
 title: "Image & Icon Options"
+description: "Divi 5 Image & Icon options group — placement, alignment, border, shadow, and filter controls for combined image/icon elements."
 category: options-groups
 tags: ["options-groups", "image-icon"]
 related: ["image", "button"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10259617"
 # Image & Icon Options
 
 Controls the placement, alignment, border, shadow, and filter effects for combined image and icon elements within Divi 5 modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Image/icon placement (top/left), alignment, border, box shadow, CSS filters, and blend mode
+    **Where to find it:** Design Tab → Image & Icon
+    **Available on:** Blurb module (primarily)
+    **Responsive:** Yes — layout and styling values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10259617)
 
 ## Overview
 

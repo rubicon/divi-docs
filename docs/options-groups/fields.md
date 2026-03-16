@@ -1,5 +1,6 @@
 ---
 title: "Fields Options"
+description: "Divi 5 Fields options group — background, text colors, typography, spacing, borders, and focus-state styling for form inputs."
 category: options-groups
 tags: ["options-groups", "fields", "advanced"]
 related: ["form-field-content", "spam-protection", "button"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10260887"
 # Fields Options
 
 The Fields options group controls the visual styling of form input fields, including their colors, typography, spacing, and borders.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Field background/text colors, focus-state colors, typography, spacing, borders, and rounded corners
+    **Where to find it:** Design Tab → Fields
+    **Available on:** Comments module (and other form-based modules)
+    **Responsive:** Yes — field styling values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260887)
 
 ## Overview
 

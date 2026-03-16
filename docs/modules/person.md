@@ -1,5 +1,6 @@
 ---
 title: "Person"
+description: "Complete Divi 5 Person module reference — team profiles with photo, name, job title, biography, social links, and card styling."
 category: modules
 tags: ["modules", "team", "profile", "social-media", "image", "bio", "staff", "about"]
 related: ["blurb", "testimonial", "social-media-follow"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10353818-the-person-modu
 # Person
 
 The Person module creates a structured profile card combining a photo, name, job title, biography, and social media links in a single cohesive element.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays a profile card with photo, name, position, bio text, and social media icon links.
+    **When to use it:** Team member pages, speaker lineups, author bios, client/partner showcases
+    **Key settings:** Name, Position, Body (bio), Image, Social Media URLs, Icon styling
+    **Block identifier:** `divi/person`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353818-the-person-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building team or staff directory pages with photos and social links
+    - Displaying speaker or author profiles with structured data fields
+    - Creating profile cards that include multiple social media links per person
+
+!!! warning "When NOT to Use This Module"
+    - Displaying a customer quote with attribution → use [Testimonial](testimonial.md)
+    - Creating a general icon-and-text feature card → use [Blurb](blurb.md)
+    - Showing standalone social media follow links → use [Social Media Follow](social-media-follow.md)
 
 ## Overview
 
@@ -256,6 +274,8 @@ After configuring the Person module, click the green **Save** button at the bott
 
 ## Related
 
-- [Blurb](blurb.md)
-- [Testimonial](testimonial.md)
-- [Social Media Follow](social-media-follow.md)
+- [Blurb](blurb.md) — Icon or image with text for feature cards and team highlights
+- [Testimonial](testimonial.md) — Display customer quotes with author photo and attribution
+- [Social Media Follow](social-media-follow.md) — Add social profile links alongside team member bios
+- [Image Options](../options-groups/image.md) — Style the person photo with borders, filters, and sizing
+- [Flexbox Layout](../builder/flexbox.md) — Arrange multiple person modules in responsive team grids

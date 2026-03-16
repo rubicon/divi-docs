@@ -1,5 +1,6 @@
 ---
 title: "Portfolio Module"
+description: "Complete Divi 5 Portfolio module reference — project grids, fullwidth layouts, category filtering, pagination, and query controls."
 category: modules
 tags: ["modules", "content-modules", "portfolio", "projects", "grid", "fullwidth", "pagination", "dynamic-content"]
 related: ["filterable-portfolio", "gallery", "blog"]
@@ -12,13 +13,30 @@ source_url: "https://help.elegantthemes.com/en/articles/10358290-the-portfolio-m
 
 The Portfolio module displays WordPress project posts in configurable grid or fullwidth layouts with optional pagination and category filtering.
 
+!!! abstract "Quick Reference"
+    **What it does:** Queries WordPress project posts and displays them in grid or fullwidth layouts with pagination.
+    **When to use it:** Creative portfolio pages, homepage work showcases, service category project listings
+    **Key settings:** Projects Number, Project Categories, Show Title/Categories/Pagination, Layout (Grid/Fullwidth)
+    **Block identifier:** `divi/portfolio`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10358290-the-portfolio-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying project posts from the WordPress Projects custom post type
+    - Building paginated portfolio archives filtered by category
+    - Creating grid or fullwidth project showcases with featured images
+
+!!! warning "When NOT to Use This Module"
+    - Needing client-side category filter buttons → use [Filterable Portfolio](filterable-portfolio.md)
+    - Displaying standard blog posts in a grid → use [Blog](blog.md)
+    - Creating an image-only gallery without post type dependency → use [Gallery](gallery.md)
+
 ## Overview
 
 The Portfolio module provides a streamlined way to showcase project-based content on your Divi 5 site. It connects directly to the WordPress Projects custom post type, pulling in project titles, featured images, and category labels to create polished portfolio displays. Whether you are building a creative agency site, a freelancer portfolio, or a corporate case studies page, this module gives you the layout and styling controls needed to present your work professionally.
 
 Two primary layout modes are available: a fullwidth list view that stacks projects vertically with large images, and a multi-column grid view that arranges projects in rows. The grid mode supports both Flexbox and CSS Grid parent configurations, and you can control the number of columns and spacing between items. Pagination is built in, allowing visitors to browse through large project collections without overwhelming a single page.
 
-The Portfolio module pairs well with the Filterable Portfolio module when you need client-side category filtering, and with the Gallery module when your content is image-focused rather than project-focused. For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10358290-the-portfolio-module-in-divi-5).
+The Portfolio module pairs well with the [Filterable Portfolio](filterable-portfolio.md) module when you need client-side category filtering, and with the [Gallery](gallery.md) module when your content is image-focused rather than project-focused. For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10358290-the-portfolio-module-in-divi-5).
 
 [View A Live Demo Of This Module](https://www.16wells.dev/module-demos/portfolio/)
 
@@ -244,3 +262,6 @@ After configuring the Portfolio module:
 - [Filterable Portfolio Module](filterable-portfolio.md) — Portfolio with built-in client-side category filtering
 - [Gallery Module](gallery.md) — Display images in grid layouts without post type dependency
 - [Blog Module](blog.md) — Display standard WordPress posts in grid or list layouts
+- [Fullwidth Portfolio](fullwidth-portfolio.md) — Full-browser-width portfolio variant for fullwidth sections
+- [Loop Builder](../builder/loop-builder.md) — Create custom post loops with full layout control
+- [Overlay Options](../options-groups/overlay.md) — Configure hover overlay effects on portfolio items

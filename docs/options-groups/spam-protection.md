@@ -1,5 +1,6 @@
 ---
 title: "Spam Protection Options"
+description: "Divi 5 Spam Protection options group — Google reCAPTCHA v3 integration and basic math captcha for contact form bot prevention."
 category: options-groups
 tags: ["options-groups", "spam-protection"]
 related: ["fields", "email"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10273044"
 # Spam Protection Options
 
 Configures bot prevention and spam filtering for the Contact Form module using reCAPTCHA or a basic math captcha.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Google reCAPTCHA v3 credentials, minimum score threshold, and basic math captcha toggle
+    **Where to find it:** Content Tab → Spam Protection
+    **Available on:** Contact Form module only
+    **Responsive:** No — spam protection is not device-dependent
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10273044)
 
 ## Overview
 

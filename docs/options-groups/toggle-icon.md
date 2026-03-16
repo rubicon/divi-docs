@@ -1,5 +1,6 @@
 ---
 title: "Toggle Icon Options"
+description: "Divi 5 Toggle Icon options group — icon picker for selecting the closed-state indicator icon on accordion module items."
 category: options-groups
 tags: ["options-groups", "toggle-icon"]
 related: ["accordion-icon", "toggle"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10101671"
 # Toggle Icon Options
 
 Lets you select which icon is displayed for accordion items in their closed state.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Icon selection for the closed-state toggle indicator from the Divi icon library
+    **Where to find it:** Content Tab → Toggle Icon
+    **Available on:** Accordion module only
+    **Responsive:** No — icon selection applies across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10101671)
 
 ## Overview
 

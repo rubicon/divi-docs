@@ -1,5 +1,6 @@
 ---
 title: "Filterable Portfolio"
+description: "Complete Divi 5 Filterable Portfolio module reference — sortable project grids with category filtering, pagination, and overlay options."
 category: modules
 tags: ["modules", "portfolio", "projects", "filterable", "grid", "categories", "dynamic-content"]
 related: ["portfolio", "gallery", "blog"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10315331-the-filterable-
 # Filterable Portfolio
 
 The Filterable Portfolio module displays WordPress project posts in a sortable, category-based grid or fullwidth layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays project posts in a grid or fullwidth layout with interactive category filter buttons.
+    **When to use it:** Agency portfolio pages, product showcases, case study libraries with category sorting
+    **Key settings:** Number of Projects, Project Categories, Show Title, Show Categories, Show Pagination, Layout (Grid/Fullwidth)
+    **Block identifier:** `divi/filterable-portfolio`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10315331-the-filterable-portfolio-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a portfolio grid where visitors can filter by project category
+    - Showcasing categorized work samples, case studies, or product lines
+    - You need interactive category buttons above a project grid
+
+!!! warning "When NOT to Use This Module"
+    - You do not need category filtering → use [Portfolio](portfolio.md)
+    - You need to display blog posts, not projects → use [Blog](blog.md)
+    - You need an image gallery from the media library → use [Gallery](gallery.md)
 
 ## Overview
 

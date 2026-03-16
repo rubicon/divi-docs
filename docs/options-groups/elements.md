@@ -1,5 +1,6 @@
 ---
 title: "Elements Options"
+description: "Divi 5 Elements options group — toggle switches for featured image, author, date, categories, excerpt, and pagination visibility."
 category: options-groups
 tags: ["options-groups", "elements"]
 related: ["content", "meta"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248725"
 # Elements Options
 
 Controls which content components are visible in blog feed and similar listing modules through a set of toggle switches.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Visibility toggles for featured image, Read More button, author, date, categories, comment count, excerpt, and pagination
+    **Where to find it:** Content Tab → Elements
+    **Available on:** Blog module (and similar content listing modules)
+    **Responsive:** No — element visibility applies across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248725)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Divi Presets"
+description: "Divi 5 Presets system overview — save, apply, and manage reusable design configurations across modules for consistent site-wide styling."
 category: builder
 tags: [builder, presets, global-styles, design-system]
 related: [visual-builder, global-elements, library]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13349150"
 # Divi Presets
 
 Divi Presets are saved design configurations that can be applied to any section, row, column, or module to maintain consistent styling across your website.
+
+!!! abstract "Quick Reference"
+    **What it does:** Saves reusable design settings for element types; updating a preset propagates changes to all elements using it.
+    **Where to find it:** Any element's settings → Presets dropdown below the element name, or Left sidebar → Preset Manager.
+    **Key features:**
+
+    - Default Preset per element type sets the base appearance for all new instances
+    - Custom presets for styling variations (Primary Button, Dark Section, etc.)
+    - Element-level overrides take priority over preset values
+    - Edit a preset to update every element using it site-wide
+
+    **ET Docs:** [Divi Presets](https://help.elegantthemes.com/en/articles/13349150){:target="_blank"}
 
 ## Overview
 
@@ -238,3 +251,6 @@ For deeper coverage of specific preset features, see:
 - [Global Elements](global-elements.md) -- Reusable elements that sync content and design
 - [Divi Library](library.md) -- Saving and loading complete layouts
 - [Theme Builder](theme-builder.md) -- Templates that benefit from preset-based design systems
+- [Design Variables](design-variables.md) -- Reusable values that presets can reference
+- [Preset Manager](preset-manager.md) -- Manage and organize presets across element types
+- [Stacked & Nested Presets](stacked-nested-presets.md) -- Layer multiple presets for compound styling

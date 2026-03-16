@@ -1,5 +1,6 @@
 ---
 title: "Gradient Builder"
+description: "Divi 5 Gradient Builder — create linear and radial CSS gradients with multiple color stops, repeating patterns, and background layering options."
 category: builder
 tags: ["builder", "gradients", "design", "backgrounds"]
 related: ["visual-builder", "presets"]
@@ -11,6 +12,18 @@ source_url: "https://www.elegantthemes.com/documentation/divi/gradient-builder"
 # Gradient Builder
 
 How to add and edit gradients throughout your Divi designs.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates CSS gradients with multiple color stops for any element’s background.
+    **Where to find it:** Any element’s settings → Content Tab → Background → Gradient tab.
+    **Key features:**
+
+    - Linear and radial gradient types with configurable angle/position
+    - Multiple color stops with position control (%, px, em, vw/vh)
+    - Repeating gradient option for striped and ringed patterns
+    - Layer gradients above background images for overlay effects
+
+    **ET Docs:** [Gradient Builder](https://www.elegantthemes.com/documentation/divi/gradient-builder){:target="_blank"}
 
 Gradients are a great way to add interest and depth to your webpages. They can be created with two or more colors, various levels of transparency, and combined with pattern effects to create stunning visuals for your website. Let’s take a look at how to use the Divi Gradient Builder and explore all of the options available with it.
 

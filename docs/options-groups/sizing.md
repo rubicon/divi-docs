@@ -1,5 +1,6 @@
 ---
 title: "Sizing Options"
+description: "Divi 5 Sizing options group — width, max-width, height, min-height, and module alignment controls with multiple CSS unit support."
 category: options-groups
 tags: ["options-groups", "sizing", "design", "styling"]
 related: ["spacing", "position"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102469"
 # Sizing Options
 
 The Sizing options group controls the dimensions and alignment of any Divi 5 element.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Width, max-width, height, min-height, max-height, and horizontal module alignment
+    **Where to find it:** Design Tab → Sizing
+    **Available on:** All modules, rows, and columns
+    **Responsive:** Yes — dimension values can be set independently per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102469)
 
 ## Overview
 
@@ -62,3 +70,7 @@ Establish a minimum height for a hero section element:
 
 - [Spacing Options](spacing.md)
 - [Position Options](position.md)
+- [Flexbox Layout](../builder/flexbox.md) — Control how elements size and distribute within flex containers
+- [CSS Grid](../builder/css-grid.md) — Define explicit column and row sizing for grid layouts
+- [Responsive Options](../builder/responsive-options.md) — Set different sizing values per breakpoint
+- [Advanced Units](../builder/advanced-units.md) — Use calc(), clamp(), and custom units in sizing fields

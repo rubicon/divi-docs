@@ -1,5 +1,6 @@
 ---
 title: "responsive-design"
+description: "LLM playbook for Divi 5 responsive design — desktop-first breakpoints, device-specific overrides, max-width media queries, and mobile-first patterns."
 category: playbooks
 tags: [playbook]
 divi_version: "5.x"

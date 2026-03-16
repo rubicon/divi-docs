@@ -1,5 +1,6 @@
 ---
 title: "Custom Modules"
+description: "Divi 5 custom module development — ET_Builder_Module PHP class, JavaScript Visual Builder components, field types, advanced design options, and parent-child modules."
 category: api
 tags: [custom-modules, development, react, php, javascript, extensions, api]
 related: [hooks-filters]
@@ -11,6 +12,11 @@ source_url: "https://www.elegantthemes.com/documentation/developers/divi-module/
 # Custom Modules
 
 Custom modules extend the Divi Builder with new content elements. A custom module consists of a PHP class that defines settings and server-side rendering, plus a JavaScript component that powers the Visual Builder preview.
+
+!!! abstract "Quick Reference"
+    **What this documents:** How to build custom Divi 5 modules using the `ET_Builder_Module` PHP class and the `et_builder_api_ready` JavaScript API.
+    **Key components:** PHP class (`ET_Builder_Module`), JS component (`API.Modules.register()`), field types (text, tiny_mce, select, color-alpha, upload, etc.)
+    **Extension entry point:** `divi_extensions_init` action hook, or `et_builder_ready` for standalone modules
 
 ## Overview
 

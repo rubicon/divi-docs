@@ -1,5 +1,6 @@
 ---
 title: "Code"
+description: "Complete Divi 5 Code module reference — insert raw HTML, CSS, JavaScript, or WordPress shortcodes anywhere in your layout."
 category: modules
 tags: ["modules", "code", "html", "css", "javascript", "shortcodes", "embed"]
 related: ["text"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10260309-the-code-module
 # Code
 
 The Code module lets you insert raw HTML, CSS, JavaScript, or shortcodes anywhere in your Divi 5 layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Outputs raw HTML, CSS, JavaScript, or WordPress shortcodes verbatim on the front end.
+    **When to use it:** Third-party embeds, custom scripts, shortcode rendering, page-specific CSS
+    **Key settings:** Text (code editor), Link, Background
+    **Block identifier:** `divi/code`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260309-the-code-module-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need to embed third-party widgets (Calendly, Google Maps, chat scripts, tracking pixels)
+    - You need to run WordPress shortcodes from other plugins inside a Divi layout
+    - You need page-specific CSS or JavaScript without editing theme files
+
+!!! warning "When NOT to Use This Module"
+    - You need formatted rich text content → use [Text](text.md)
+    - You need to display a styled code snippet (syntax highlighting) → use a syntax highlighting plugin with the Code module
+    - You need to embed video → use [Video](video.md) for a native player with design controls
 
 ## Overview
 

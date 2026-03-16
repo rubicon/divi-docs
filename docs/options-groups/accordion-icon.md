@@ -1,5 +1,6 @@
 ---
 title: "Accordion Icon Options"
+description: "Divi 5 Accordion Icon options group — color and custom size controls for the expand/collapse indicator icon on accordion items."
 category: options-groups
 tags: ["options-groups", "accordion-icon"]
 related: ["toggle-icon", "toggle"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10101739"
 # Accordion Icon Options
 
 Controls the color and size of the toggle indicator icon displayed in Accordion module items.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Icon color and optional custom icon size for the expand/collapse indicator
+    **Where to find it:** Design Tab → Icon
+    **Available on:** Accordion module only
+    **Responsive:** No — icon color and size apply across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10101739)
 
 ## Overview
 

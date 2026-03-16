@@ -1,5 +1,6 @@
 ---
 title: "Add, Duplicate & Remove Elements"
+description: "Divi 5 element management — add sections, rows, and modules via canvas, Layers View, Wireframe, or keyboard shortcuts; duplicate and delete elements."
 category: builder
 tags: ["builder", "add-elements", "duplicate", "delete", "workflow"]
 related: ["copy-paste-attributes", "right-click-menus"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12992617"
 # Add, Duplicate & Remove Elements
 
 How to add new elements, duplicate existing ones, and remove elements from your page in the Divi 5 Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Add new sections/rows/modules, duplicate existing elements, and remove elements from the page.
+    **Where to find it:** Color-coded plus icons on canvas, Layers View right-click menu, Wireframe View, or keyboard shortcuts.
+    **Key features:**
+
+    - Blue (+) for sections, green (+) for rows, black (+) for modules
+    - Layers View insertion: Add Above, Add Inside, Add Below
+    - Structure shortcuts: R+1 (row, 1 col), S+1 (section), etc.
+    - Duplicate with Cmd/Ctrl + Shift + D; delete with Cmd/Ctrl + Backspace
+
+    **ET Docs:** [Add, Duplicate & Remove Elements](https://help.elegantthemes.com/en/articles/12992617){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "rest-api-content"
+description: "LLM playbook for Divi 5 REST API content management — programmatic content creation, block format encoding, post-content boundaries, and save validation."
 category: playbooks
 tags: [playbook]
 divi_version: "5.x"

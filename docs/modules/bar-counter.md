@@ -1,5 +1,6 @@
 ---
 title: "Bar Counter"
+description: "Complete Divi 5 Bar Counters module reference — animated horizontal progress bars with percentage values, styling, and code examples."
 category: modules
 tags: ["modules", "animation", "statistics", "progress-bar", "percentage", "counter", "metrics"]
 related: ["circle-counter", "number-counter"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10199990-the-bar-counter
 # Bar Counter
 
 The Bar Counters module displays animated horizontal progress bars that fill to a specified percentage value.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders animated horizontal bars that fill from zero to a target percentage when scrolled into view.
+    **When to use it:** Skills charts, project completion trackers, survey results, fundraising progress
+    **Key settings:** Individual bar Title, Percent (0-100), Background Color, Elements toggle, Bar styling
+    **Block identifier:** `divi/bar-counter`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10199990-the-bar-counters-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need to visualize percentage-based data as horizontal progress bars
+    - Skills or proficiency displays on portfolio and team pages
+    - Metrics that benefit from an animated fill effect on scroll
+
+!!! warning "When NOT to Use This Module"
+    - You need a circular/radial progress display → use [Circle Counter](circle-counter.md)
+    - You need an animated number counting up to a value → use [Number Counter](number-counter.md)
+    - You need a countdown to a date/time → use [Countdown Timer](countdown-timer.md)
 
 ## Overview
 

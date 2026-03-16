@@ -1,5 +1,6 @@
 ---
 title: "Attribute Options"
+description: "Divi 5 Attribute options group — rel attribute values (nofollow, noopener, noreferrer) for button link SEO and security control."
 category: options-groups
 tags: ["options-groups", "attribute"]
 related: ["attributes", "css"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10259880"
 # Attribute Options
 
 Defines the link relationship attributes for button elements, controlling SEO, security, and navigation behavior.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Button rel attribute values (nofollow, noopener, noreferrer, external, bookmark)
+    **Where to find it:** Advanced Tab → Attribute
+    **Available on:** Modules with button elements (Button, CTA, and others with configurable link relationships)
+    **Responsive:** No — link attributes are static across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10259880)
 
 ## Overview
 

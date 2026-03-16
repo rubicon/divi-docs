@@ -1,5 +1,6 @@
 ---
 title: "Visibility Options"
+description: "Divi 5 Visibility options group — device-specific display toggles and horizontal/vertical overflow controls for any element."
 category: options-groups
 tags: ["options-groups", "visibility", "advanced"]
 related: ["conditions", "css"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102735"
 # Visibility Options
 
 The Visibility options group controls whether an element appears on specific device types and how it handles content that extends beyond its boundaries.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Device visibility toggles (phone, tablet, desktop) and horizontal/vertical overflow behavior
+    **Where to find it:** Advanced Tab → Visibility
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — visibility is controlled per device type
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102735)
 
 ## Overview
 
@@ -57,3 +65,5 @@ All modules, columns, rows, and sections in the Divi 5 Visual Builder include th
 
 - [Conditions Options](conditions.md)
 - [CSS Options](css.md)
+- [Responsive Options](../builder/responsive-options.md) — Device-specific responsive editing workflow
+- [Condition Options](../builder/condition-options.md) — Advanced conditional display logic beyond device visibility

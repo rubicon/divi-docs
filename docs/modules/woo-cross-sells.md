@@ -1,5 +1,6 @@
 ---
 title: "Woo Cross Sells"
+description: "Divi 5 Woo Cross Sells module — WooCommerce cross-sell product suggestions on cart pages to encourage additional purchases."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-cross
 
 # Woo Cross Sells
 
-The Woo Cross Sells module is a Divi 5 content element used in the Visual Builder.
+The Woo Cross Sells module displays cross-linked product suggestions on the cart page to encourage additional purchases.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows cross-sell products linked to items in the cart, encouraging customers to browse and buy more.
+    **When to use it:** Custom cart page templates in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-cross-sells`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-cross-sells-module/)
+
+!!! tip "When to Use This Module"
+    - Adding product recommendations to custom WooCommerce cart page templates
+    - Increasing average order value by suggesting complementary products
+    - Pairing with Woo Cart Products and Woo Cart Totals for a complete cart layout
+
+!!! warning "When NOT to Use This Module"
+    - On non-cart pages → cross-sells are context-dependent on cart contents
+    - For related products on product pages → use [Woo Related Products](woo-related-products.md)
+    - For general product grids → use [Shop](shop.md) or [Woo Products](woo-products.md)
 
 ## Overview
 

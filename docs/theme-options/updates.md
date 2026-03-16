@@ -1,5 +1,6 @@
 ---
 title: "Updates Settings"
+description: "Divi 5 Updates theme options — Elegant Themes account authentication with username and API key, product update access, and version rollback functionality."
 category: theme-options
 tags: [theme-options, updates, api-key, account, version-rollback]
 related: [general]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # Updates Settings
 
 The Updates Settings tab is where you authenticate your Elegant Themes subscription to receive product updates and access version rollback functionality.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Elegant Themes account authentication for receiving Divi updates and accessing version rollback.
+    **Where to find it:** Divi → Theme Options → Updates
+    **Key settings:** Username, API Key, Version Rollback
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

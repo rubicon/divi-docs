@@ -1,5 +1,6 @@
 ---
 title: "Custom Breakpoints"
+description: "Divi 5 Custom Breakpoints — enable up to seven responsive breakpoints (Phone through Ultra Wide) and adjust their pixel widths site-wide."
 category: builder
 tags: ["builder", "responsive", "breakpoints", "mobile", "media-queries"]
 related: ["responsive-editor", "responsive-preview"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/10511806"
 # Custom Breakpoints
 
 Configure up to seven responsive breakpoints to control how your Divi layouts adapt across phone, tablet, desktop, and ultrawide screens.
+
+!!! abstract "Quick Reference"
+    **What it does:** Lets you enable/disable breakpoints and set custom pixel widths for site-wide responsive behavior.
+    **Where to find it:** Top bar → three-dot menu next to device icons → Sitewide Responsive Breakpoints.
+    **Key features:**
+
+    - Seven breakpoints: Phone, Phone Wide, Tablet, Tablet Wide, Desktop, Widescreen, Ultra Wide
+    - Three enabled by default (Phone, Tablet, Desktop); four optional
+    - Adjustable pixel widths with ascending-order enforcement
+    - Disabling a breakpoint preserves its styles for later re-enabling
+
+    **ET Docs:** [Custom Breakpoints](https://help.elegantthemes.com/en/articles/10511806){:target="_blank"}
 
 ## Overview
 

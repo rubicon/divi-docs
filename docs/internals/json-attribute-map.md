@@ -1,5 +1,6 @@
 ---
 title: "JSON Attribute Map"
+description: "Divi 5 JSON attribute map — CSS-to-JSON path mapping, brace-depth parser, block locating patterns, and inline style migration via the REST API."
 category: internals
 tags: [json, attributes, css, mapping, decoration, advanced, migration]
 related: [block-format, ssr-rendering, content-encoding]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # JSON Attribute Map
 
 Complete mapping between CSS properties and Divi 5 block JSON attribute paths, plus the proven patterns for modifying block attributes via the REST API.
+
+!!! abstract "Quick Reference"
+    **What this documents:** The complete mapping between CSS properties and Divi 5 block JSON attribute paths, plus the brace-depth parser and inline style migration patterns.
+    **Key data structures:** `module.decoration.*` (layout, spacing, sizing, background), `module.advanced.text.text.*` (text orientation, color), `content.innerContent` (unicode-encoded HTML).
+    **Last verified:** 2026-03-12
 
 ## CSS Property → JSON Path Mapping
 

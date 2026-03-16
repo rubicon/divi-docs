@@ -1,5 +1,6 @@
 ---
 title: "Menu Text Options"
+description: "Divi 5 Menu Text options group — font, size, color, active link styling, and color scheme for navigation menu item text."
 category: options-groups
 tags: ["options-groups", "menu-text"]
 related: ["text", "title-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10353617"
 # Menu Text Options
 
 Provides full typographic and color control over navigation menu item text in Divi 5.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, size, color, active link color, text color scheme, alignment, and text shadow for menu items
+    **Where to find it:** Design Tab → Menu Text
+    **Available on:** Menu and Fullwidth Menu modules only
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353617)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Sidebar"
+description: "Complete Divi 5 Sidebar module reference — WordPress widget areas, separator styling, typography controls, and layout integration."
 category: modules
 tags: ["modules", "navigation", "widgets", "layout", "sidebar", "utility"]
 related: ["menu", "search"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10364419-the-sidebar-mod
 # Sidebar
 
 The Sidebar module displays a registered WordPress widget area within any Divi 5 layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders a registered WordPress widget area (sidebar) inside any Divi layout.
+    **When to use it:** Blog post sidebars, footer widget areas, Theme Builder widget integration
+    **Key settings:** Widget Area (select), Separator Position, Title Text, Body Text
+    **Block identifier:** `divi/sidebar`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364419-the-sidebar-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Adding a traditional sidebar with widgets alongside blog post content
+    - Displaying WordPress widgets in footer columns or custom templates
+    - Bridging WordPress widget-based content into Divi Visual Builder layouts
+
+!!! warning "When NOT to Use This Module"
+    - Building a custom navigation menu from scratch → use [Menu](menu.md)
+    - Adding a search field without other widgets → use [Search](search.md)
 
 ## Overview
 

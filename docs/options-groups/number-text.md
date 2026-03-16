@@ -1,5 +1,6 @@
 ---
 title: "Number Text Options"
+description: "Divi 5 Number Text options group — font, size, weight, color, and spacing controls for numeric counter values in modules."
 category: options-groups
 tags: ["options-groups", "number-text"]
 related: ["percentage-text", "title-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10260390"
 # Number Text Options
 
 Controls the typography and styling of numeric text elements displayed by Divi 5 modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, letter spacing, line height, and text shadow for counter numbers
+    **Where to find it:** Design Tab → Number Text
+    **Available on:** Number Counter module
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260390)
 
 ## Overview
 

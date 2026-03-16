@@ -1,5 +1,6 @@
 ---
 title: "Content Options"
+description: "Divi 5 Content options group — post type, count, category filters, date format, excerpt length, and offset for blog feeds."
 category: options-groups
 tags: ["options-groups", "content"]
 related: ["elements", "meta"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248683"
 # Content Options
 
 Configures the data source and display settings for blog feed modules, including post type, count, categories, and excerpt formatting.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Post type, count, category filters, date format, excerpt length, and post offset
+    **Where to find it:** Content Tab → Content
+    **Available on:** Blog module
+    **Responsive:** No — content query settings apply across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248683)
 
 ## Overview
 

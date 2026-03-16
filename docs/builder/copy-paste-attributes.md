@@ -1,5 +1,6 @@
 ---
 title: "Copy & Paste Attributes"
+description: "Divi 5 Copy and Paste Attributes — transfer content, styles, and presets between elements with granular paste options and keyboard shortcuts."
 category: builder
 tags: ["builder", "attributes", "copy-paste", "styles", "workflow"]
 related: ["find-replace-attributes", "right-click-menus", "keyboard-shortcuts"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13309833"
 # Copy & Paste Attributes
 
 Transfer content, styles, and presets between elements without cloning the entire element.
+
+!!! abstract "Quick Reference"
+    **What it does:** Copies content, styles, and/or presets from one element and pastes them onto another with granular control.
+    **Where to find it:** Right-click → Copy Attributes / Paste options, or Cmd/Ctrl + Shift + C/V shortcuts.
+    **Key features:**
+
+    - Eight paste variants: All, Design, Content, Presets, and four "Select" options for cherry-picking
+    - Scoped copy/paste at tab, option group, or individual field level
+    - Cross-module compatibility: Divi matches compatible attributes between different module types
+    - Reset options to revert any paste operation
+
+    **ET Docs:** [Copy & Paste Attributes](https://help.elegantthemes.com/en/articles/13309833){:target="_blank"}
 
 ## Overview
 

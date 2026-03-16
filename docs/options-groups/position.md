@@ -1,5 +1,6 @@
 ---
 title: "Position Options"
+description: "Divi 5 Position options group — relative, absolute, and fixed positioning with vertical/horizontal offsets and z-index stacking."
 category: options-groups
 tags: ["options-groups", "position", "advanced"]
 related: ["scroll-effects", "sizing", "spacing"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102783"
 # Position Options
 
 The Position options group determines how an element is placed within the page layout, enabling precise control over positioning, offsets, and stacking order.
+
+!!! abstract "Quick Reference"
+    **What it controls:** CSS position method (relative, absolute, fixed), directional offsets, and z-index stacking
+    **Where to find it:** Advanced Tab → Position
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — position values can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102783)
 
 ## Overview
 
@@ -64,3 +72,6 @@ Use a CSS ID or class to target a positioned element with additional custom styl
 - [Scroll Effects Options](scroll-effects.md)
 - [Sizing Options](sizing.md)
 - [Spacing Options](spacing.md)
+- [Transform Options](transform.md) — Combine position with translate for precise element placement
+- [Flexbox Layout](../builder/flexbox.md) — Use flex positioning as an alternative to absolute position
+- [CSS Grid](../builder/css-grid.md) — Grid placement as a layout-driven positioning approach

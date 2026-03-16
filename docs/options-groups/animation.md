@@ -1,5 +1,6 @@
 ---
 title: "Animation Options"
+description: "Divi 5 Animation options group — entrance motion effects with style, duration, delay, easing, and repeat controls for scroll reveals."
 category: options-groups
 tags: ["options-groups", "animation", "design", "styling"]
 related: ["transform", "transitions", "scroll-effects"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102631"
 # Animation Options
 
 The Animation options group adds entrance motion effects to Divi 5 modules, making elements animate into view as the page loads or scrolls.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Entrance animation style, duration, delay, starting opacity, speed curve, and repeat behavior
+    **Where to find it:** Design Tab → Animation
+    **Available on:** All modules (sections, rows, and columns may also support animation)
+    **Responsive:** Yes — animation settings can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102631)
 
 ## Overview
 
@@ -71,3 +79,5 @@ Stagger animations on a series of elements using delay:
 - [Transform Options](transform.md)
 - [Transitions Options](transitions.md)
 - [Scroll Effects Options](scroll-effects.md)
+- [Interactions](../builder/interactions.md) — Advanced interaction triggers beyond entrance animations
+- [Playbook: Build a Page](../playbooks/build-a-page.md) — Best practices for using animations in page layouts

@@ -1,5 +1,6 @@
 ---
 title: "Social Media Follow"
+description: "Complete Divi 5 Social Media Follow module reference — platform icons, profile links, brand colors, alignment, and button styling."
 category: modules
 tags: ["modules", "social-media", "social-icons", "follow-buttons", "networking", "social-links"]
 related: ["person", "icon"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10364982-the-social-medi
 # Social Media Follow
 
 The Social Media Follow module displays linked social media icons that direct visitors to your profiles on various platforms.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays a row of social media icons linked to your profiles across multiple platforms.
+    **When to use it:** Site footer social links, author bio sections, contact page supplements
+    **Key settings:** Social Networks (repeater), Profile URL, Social Network type, Icon color/size, Alignment
+    **Block identifier:** `divi/social-media-follow`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364982-the-social-media-follow-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Adding social profile links to headers, footers, or contact pages
+    - Displaying branded social media icons with custom colors and sizes
+    - Creating a row of follow buttons alongside author or team bios
+
+!!! warning "When NOT to Use This Module"
+    - Displaying team member profiles with social links built in → use [Person](person.md)
+    - Showing a single decorative or functional icon → use [Icon](icon.md)
 
 ## Overview
 

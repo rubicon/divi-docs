@@ -1,5 +1,6 @@
 ---
 title: "Transform Options"
+description: "Divi 5 Transform options group — scale, translate, rotate, and skew controls with transform origin for 2D and 3D element effects."
 category: options-groups
 tags: ["options-groups", "transform", "design", "styling"]
 related: ["filters", "animation", "position"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102613"
 # Transform Options
 
 The Transform options group applies scaling, rotation, translation, and skewing effects to any Divi 5 element for dynamic layout designs.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Scale, translate, rotate, skew values and transform origin for 2D/3D effects
+    **Where to find it:** Design Tab → Transform
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — transform values can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102613)
 
 ## Overview
 
@@ -80,3 +88,6 @@ Skew a decorative background element:
 - [Filters Options](filters.md)
 - [Animation Options](animation.md)
 - [Position Options](position.md)
+- [Transitions Options](transitions.md) — Animate transform changes on hover with duration and easing
+- [Scroll Effects Options](scroll-effects.md) — Drive transforms based on scroll position
+- [Interactions](../builder/interactions.md) — Trigger transforms on hover, click, or scroll events

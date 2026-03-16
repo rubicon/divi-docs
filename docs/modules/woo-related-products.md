@@ -1,5 +1,6 @@
 ---
 title: "Woo Related Products"
+description: "Divi 5 Woo Related Products module — WooCommerce related product suggestions on product pages to increase sales and engagement."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/woo-related-produc
 
 # Woo Related Products
 
-The Woo Related Products module is a Divi 5 content element used in the Visual Builder.
+The Woo Related Products module displays related WooCommerce products on product pages to encourage additional browsing and purchases.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows products related to the current product based on shared categories and tags.
+    **When to use it:** Product page templates in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-related-products`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/woo-related-products/)
+
+!!! tip "When to Use This Module"
+    - Building custom product page templates with a "You may also like" section
+    - Increasing product page engagement and average order value
+    - Keeping customers browsing by showing category-related products
+
+!!! warning "When NOT to Use This Module"
+    - On non-product pages → related products require a product context
+    - For cross-sell suggestions on the cart page → use [Woo Cross Sells](woo-cross-sells.md)
+    - For manually curated product grids → use [Shop](shop.md) or [Woo Products](woo-products.md)
 
 ## Overview
 

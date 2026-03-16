@@ -1,5 +1,6 @@
 ---
 title: "Fullwidth Header"
+description: "Divi 5 Fullwidth Header module — full-width hero section with title, subtitle, dual buttons, images, and background video support."
 category: modules
 tags: ["modules", "fullwidth", "header", "hero", "landing-page", "call-to-action", "buttons"]
 related: ["slider", "call-to-action", "image"]
@@ -11,6 +12,23 @@ source_url: "https://www.elegantthemes.com/documentation/divi/fullwidth-header-n
 # Fullwidth Header
 
 The Fullwidth Header module creates a prominent, full-width hero section with customizable text, images, icons, and dual call-to-action buttons.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates an edge-to-edge hero section with title, subtitle, body text, two buttons, logo, and header image.
+    **When to use it:** Landing page heroes, promotional banners, dynamic post title headers
+    **Key settings:** Title, Subtitle, Button One/Two text, Logo Image, Header Image, Layout, Scroll Down Icon
+    **Block identifier:** `divi/fullwidth-header`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10369762-the-hero-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building a landing page hero with background image/video and dual CTAs
+    - Creating dynamic post or project title headers in Theme Builder templates
+    - Displaying a promotional banner with logo, heading, and action buttons
+
+!!! warning "When NOT to Use This Module"
+    - For rotating content across multiple slides → use [Fullwidth Slider](fullwidth-slider.md)
+    - For a content-width hero within standard sections → use [Hero](hero.md)
+    - For a simple heading and button combo → use [Call to Action](call-to-action.md)
 
 ## Overview
 

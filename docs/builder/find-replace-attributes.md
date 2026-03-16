@@ -1,5 +1,6 @@
 ---
 title: "Find & Replace Attributes"
+description: "Divi 5 Find and Replace Attributes — swap colors, spacing, typography, and other design values in bulk across modules, sections, or the full page."
 category: builder
 tags: ["builder", "find-replace", "attributes", "bulk-editing", "workflow"]
 related: ["copy-paste-attributes", "right-click-menus"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13342542"
 # Find & Replace Attributes
 
 Swap a design value for another across a module, section, or entire page in a single operation.
+
+!!! abstract "Quick Reference"
+    **What it does:** Identifies a specific design value and replaces every matching instance across a chosen scope.
+    **Where to find it:** Right-click any design field → Find & Replace, or three-dot menu next to a field.
+    **Key features:**
+
+    - Works with colors, typography, spacing, borders, shadows, and any numeric design value
+    - Seven scope options from Current Element to Entire Page
+    - Element type filter (All, Modules only, Containers only, specific types)
+    - "Only Replace Identical Fields" safety toggle to prevent cross-field replacement
+
+    **ET Docs:** [Find & Replace Attributes](https://help.elegantthemes.com/en/articles/13342542){:target="_blank"}
 
 ## Overview
 

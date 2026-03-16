@@ -1,5 +1,6 @@
 ---
 title: "Icon"
+description: "Complete Divi 5 Icon module reference — scalable vector icons from the Divi and Font Awesome libraries with color, size, and link controls."
 category: modules
 tags: ["modules", "icon", "graphics", "font-awesome", "visual-elements", "decorative"]
 related: ["blurb", "image"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10315683-the-icon-module
 # Icon
 
 The Icon module displays a single scalable icon from the Divi icon library or Font Awesome icon set with full color, size, and link controls.
+
+!!! abstract "Quick Reference"
+    **What it does:** Places a single vector icon from the Divi or Font Awesome icon library with customizable color, size, alignment, and optional link.
+    **When to use it:** Feature highlight grids, social media link bars, decorative section accents
+    **Key settings:** Icon (icon picker), Icon Color, Icon Size, Module Alignment, Module Link URL
+    **Block identifier:** `divi/icon`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10315683-the-icon-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a standalone decorative or functional icon without accompanying text
+    - Building custom social media link bars with individually linked icons
+    - Visual accents or divider elements between content sections
+
+!!! warning "When NOT to Use This Module"
+    - You need an icon paired with a heading and text → use [Blurb](blurb.md)
+    - You need a list of items each with its own icon → use [Icon List](icon-list.md)
+    - You need a raster image (photo/illustration) → use [Image](image.md)
 
 ## Overview
 

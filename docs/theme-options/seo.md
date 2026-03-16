@@ -1,5 +1,6 @@
 ---
 title: "SEO Settings"
+description: "Divi 5 SEO theme options — custom titles, meta descriptions, meta keywords, canonical URLs, and title autogeneration for homepage, posts, and index pages."
 category: theme-options
 tags: [theme-options, seo, meta-description, canonical-url, keywords, titles]
 related: [general, integration]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # SEO Settings
 
 The SEO Settings tab provides built-in search engine optimization controls for your homepage, single posts, and index pages.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Built-in search engine optimization settings for homepage, single post, and index page titles, descriptions, keywords, and canonical URLs.
+    **Where to find it:** Divi → Theme Options → SEO
+    **Key settings:** Custom title, Meta description, Meta keywords, Canonical URLs, Title autogeneration method
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

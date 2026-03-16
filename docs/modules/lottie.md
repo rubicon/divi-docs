@@ -1,5 +1,6 @@
 ---
 title: "Lottie"
+description: "Complete Divi 5 Lottie module reference — JSON/SVG animation playback, triggers, looping, speed controls, and integration tips."
 category: modules
 tags: ["modules", "lottie", "animation", "svg", "json", "motion", "interactive"]
 related: ["icon", "image", "video"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/11982058-the-lottie-modu
 # Lottie
 
 The Lottie module plays lightweight JSON or SVG animations anywhere in your layout with configurable triggers, looping, speed, and direction.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders vector-based Lottie animations from JSON or SVG files with configurable playback.
+    **When to use it:** Animated hero illustrations, interactive hover icons, scroll-triggered storytelling
+    **Key settings:** Lottie Animation file, Animation Trigger, Loop, Animation Speed, Direction
+    **Block identifier:** `divi/lottie`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/11982058-the-lottie-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Adding lightweight vector animations that scale without quality loss
+    - Creating interactive micro-animations triggered by hover or scroll
+    - Replacing heavy GIF or video files with performant Lottie JSON animations
+
+!!! warning "When NOT to Use This Module"
+    - Displaying a static icon from Divi's icon library → use [Icon](icon.md)
+    - Showing a static photograph or illustration → use [Image](image.md)
+    - Embedding video content with audio → use [Video](video.md)
 
 ## Overview
 

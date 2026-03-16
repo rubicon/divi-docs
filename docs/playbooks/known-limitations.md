@@ -1,5 +1,6 @@
 ---
 title: "Known Limitations"
+description: "LLM playbook for Divi 5 known limitations — 20 rules covering REST API content, TinyMCE sync, SSR gaps, CSS specificity, and Visual Builder quirks."
 category: playbooks
 tags: [limitations, gotchas, pitfalls, llm-guardrails]
 related: [troubleshooting-tree, visual-builder-ops]
@@ -12,6 +13,12 @@ audience: llm
 # Playbook: Known Limitations
 
 **Things LLMs consistently get wrong about Divi 5. Read this before giving any Divi advice.**
+
+!!! abstract "Quick Rules"
+    1. Never CREATE new content via REST API or backend methods if it needs to be VB-editable — use browser automation instead. Modifying existing VB-created blocks via API is fine.
+    2. `tinymce.setContent()` does NOT persist — type content via keyboard events to trigger Divi's React event chain.
+    3. Divi 5 uses desktop-first (`max-width`) breakpoints — write `max-width` media queries, not `min-width`.
+    4. Use `wp.apiRequest` (not `wp.apiFetch`) and chain REST API calls sequentially — parallel calls hang indefinitely.
 
 This playbook exists because AI assistants — including you — have been trained on generic WordPress knowledge and outdated Divi 4 information. Divi 5 behaves differently in ways that matter. If you're about to help someone with Divi 5, internalize these rules first.
 

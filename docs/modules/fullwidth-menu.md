@@ -1,5 +1,6 @@
 ---
 title: "Fullwidth Menu"
+description: "Divi 5 Fullwidth Menu module — edge-to-edge navigation bar with WordPress menus, logo, search icon, and WooCommerce cart support."
 category: modules
 tags: ["modules", "fullwidth", "menu", "navigation", "header", "links", "search", "logo"]
 related: ["menu", "sidebar"]
@@ -11,6 +12,23 @@ source_url: "https://www.elegantthemes.com/documentation/divi/fullwidth-menu/"
 # Fullwidth Menu
 
 The Fullwidth Menu module displays a WordPress navigation menu that spans the entire width of a fullwidth section, with optional logo, search, and cart icons.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays a full-width horizontal navigation bar from any WordPress menu with optional logo, search, and cart icons.
+    **When to use it:** Custom Theme Builder headers, secondary page navigation, footer navigation bars
+    **Key settings:** Menu select, Logo image, Shopping Cart toggle, Search Icon toggle, Layout style, Dropdown styling
+    **Block identifier:** `divi/fullwidth-menu`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353582-the-menu-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building a custom header in the Theme Builder with logo, menu, and utility icons
+    - Adding a secondary navigation bar for long-form or documentation pages
+    - Creating a full-width footer navigation with legal and utility links
+
+!!! warning "When NOT to Use This Module"
+    - For menus within standard content sections → use [Menu](menu.md)
+    - For widget-based sidebar navigation → use [Sidebar](sidebar.md)
+    - For a single row of links without dropdowns → consider [Social Media Follow](social-media-follow.md) or manual links
 
 ## Overview
 

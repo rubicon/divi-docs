@@ -1,5 +1,6 @@
 ---
 title: "Audio"
+description: "Complete Divi 5 Audio module reference — settings for embedding audio players with album art, metadata, and playback controls."
 category: modules
 tags: ["modules", "media", "audio", "music", "podcast", "mp3", "player"]
 related: ["video", "video-slider"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10125708-the-audio-modul
 # Audio
 
 The Audio module embeds an audio player with optional album artwork, title, and artist metadata.
+
+!!! abstract "Quick Reference"
+    **What it does:** Embeds a styled HTML5 audio player with cover image, title, and artist metadata.
+    **When to use it:** Podcast episodes, music portfolios, guided audio content, voice recordings
+    **Key settings:** Audio file source, Image (cover art), Text (title/artist), Link, Background
+    **Block identifier:** `divi/audio`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10125708-the-audio-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need an inline audio player with playback controls on a page
+    - Podcast or music pages where cover art and metadata should display alongside the player
+    - Audio lessons, meditations, or recordings paired with written content
+
+!!! warning "When NOT to Use This Module"
+    - You need to embed video content → use [Video](video.md)
+    - You need a playlist of multiple video files → use [Video Slider](video-slider.md)
+    - You need background audio that plays automatically → use a [Code](code.md) module with custom JavaScript
 
 ## Overview
 

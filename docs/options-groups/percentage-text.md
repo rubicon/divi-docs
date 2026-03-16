@@ -1,5 +1,6 @@
 ---
 title: "Percentage Text Options"
+description: "Divi 5 Percentage Text options group — font, size, weight, color, and spacing for percentage values in bar counter modules."
 category: options-groups
 tags: ["options-groups", "percentage-text"]
 related: ["number-text", "title-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10200244"
 # Percentage Text Options
 
 Controls the typography and styling of percentage values displayed by Divi 5 counter modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, letter spacing, line height, and text shadow for percentage labels
+    **Where to find it:** Design Tab → Percentage Text
+    **Available on:** Bar Counter module
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10200244)
 
 ## Overview
 

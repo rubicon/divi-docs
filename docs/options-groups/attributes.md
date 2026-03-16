@@ -1,5 +1,6 @@
 ---
 title: "Attributes Options"
+description: "Divi 5 Attributes options group — CSS ID, CSS classes, and custom HTML attributes for targeting elements with CSS and JavaScript."
 category: options-groups
 tags: ["options-groups", "attributes", "advanced"]
 related: ["css", "meta"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102703"
 # Attributes Options
 
 The Attributes options group lets you assign CSS IDs, CSS classes, and custom HTML attributes to any element, providing hooks for custom styling and JavaScript targeting.
+
+!!! abstract "Quick Reference"
+    **What it controls:** CSS ID, CSS classes, and custom HTML attribute name-value pairs with target element selection
+    **Where to find it:** Advanced Tab → Attributes
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** No — attributes are static and apply across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102703)
 
 ## Overview
 

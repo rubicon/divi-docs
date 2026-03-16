@@ -1,5 +1,6 @@
 ---
 title: "CSS Grid Layout System"
+description: "Divi 5 CSS Grid layout — two-dimensional row and column control with offset rules, auto-placement, and alignment for complex asymmetrical layouts."
 category: builder
 tags: ["builder", "layout", "css-grid", "responsive"]
 related: ["flexbox"]
@@ -12,9 +13,21 @@ source_url: "https://help.elegantthemes.com/en/collections/15495410-css-grid-lay
 
 Divi 5 includes a full CSS Grid layout mode that enables two-dimensional control over both rows and columns simultaneously, complementing the default Flexbox system.
 
+!!! abstract "Quick Reference"
+    **What it does:** Enables two-dimensional CSS Grid layout for containers, allowing simultaneous row and column control.
+    **Where to find it:** Any container's settings → Design Tab → Layout → Layout Style: Grid.
+    **Key features:**
+
+    - Define column count, column widths, row count, and row heights
+    - Grid Offset Rules with nth-child targeting for spanning and placement
+    - Auto-placement with Grid Direction (row/column) and Dense/Auto density
+    - Four alignment controls: Justify Content, Align Content, Justify Items, Align Items
+
+    **ET Docs:** [CSS Grid Layout System](https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system){:target="_blank"}
+
 ## Overview
 
-While Flexbox handles one-dimensional flow (either horizontal or vertical), CSS Grid provides two-dimensional layout control, allowing you to define both column and row structures at the same time. In Divi 5, Grid layout is available on Sections, Rows, Columns, and Module Groups as an alternative to the default Flex mode.
+While [Flexbox](flexbox.md) handles one-dimensional flow (either horizontal or vertical), CSS Grid provides two-dimensional layout control, allowing you to define both column and row structures at the same time. In Divi 5, Grid layout is available on Sections, Rows, Columns, and Module Groups as an alternative to the default Flex mode.
 
 Grid is particularly well suited for complex, asymmetrical layouts where items need to span multiple rows or columns, or where you want precise placement of elements within a defined grid structure. For simpler linear arrangements, Flexbox remains the better choice.
 
@@ -191,3 +204,6 @@ Set Number of Columns to 3 and Row Heights to Equal. Use offset rules to make sp
 - [Flexbox Layout System](flexbox.md)
 - [Responsive Preview](responsive-preview.md)
 - [Visual Builder](visual-builder.md)
+- [Sizing Options](../options-groups/sizing.md) — Control grid item dimensions within cells
+- [Gallery Module](../modules/gallery.md) — Image galleries that benefit from CSS Grid layouts
+- [Playbook: Layout Patterns](../playbooks/layout-patterns.md) — Common grid layout recipes and patterns

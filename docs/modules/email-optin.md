@@ -1,5 +1,6 @@
 ---
 title: "Email Optin"
+description: "Divi 5 Email Optin module — newsletter signup forms with Mailchimp, ConvertKit, and 20+ ESP integrations, layout options, and styling."
 category: modules
 tags: ["modules", "forms", "interactive", "email", "optin", "newsletter", "subscription", "marketing"]
 related: ["contact-form", "button"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10273324-the-email-optin
 # Email Optin
 
 The Email Optin module creates customizable email subscription forms that integrate directly with popular email marketing platforms.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates email signup forms that connect directly to 20+ email marketing services.
+    **When to use it:** Newsletter signups, lead magnet landing pages, footer subscription bars
+    **Key settings:** Email Account, Email List, Use First Name, Use Last Name, Layout, Success Action
+    **Block identifier:** `divi/signup`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10273324-the-email-optin-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Growing your email list with a form that sends subscribers directly to your ESP
+    - Creating lead magnet landing pages with redirect to a thank-you page
+    - Adding persistent newsletter signup forms to headers, footers, or sidebars
+
+!!! warning "When NOT to Use This Module"
+    - For general contact forms or data collection → use [Contact Form](contact-form.md)
+    - For user authentication → use [Login](login.md)
+    - For displaying comments or discussions → use [Comments](comments.md)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Woo Cart Totals"
+description: "Divi 5 Woo Cart Totals module — WooCommerce cart subtotal, shipping, tax, and total price summary with proceed-to-checkout button."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "checkout"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-cart-
 
 # Woo Cart Totals
 
-The Woo Cart Totals module is a Divi 5 content element used in the Visual Builder.
+The Woo Cart Totals module displays the total price summary for products in the WooCommerce cart.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows the cart subtotal, shipping costs, taxes, and total amount with a proceed-to-checkout button.
+    **When to use it:** Custom cart page templates in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-cart-totals`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-cart-totals-module/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce cart page template alongside Woo Cart Products
+    - Displaying order totals with shipping and tax calculations
+    - Providing the proceed-to-checkout action in a custom cart layout
+
+!!! warning "When NOT to Use This Module"
+    - On non-cart pages → this module requires the WooCommerce cart context
+    - For checkout order details → use [Woo Checkout Details](woo-checkout-details.md)
+    - For product pricing display → use [Woo Product Price](woo-product-price.md)
 
 ## Overview
 

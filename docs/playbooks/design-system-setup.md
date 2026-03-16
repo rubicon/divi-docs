@@ -1,5 +1,6 @@
 ---
 title: "Design System Setup"
+description: "LLM playbook for Divi 5 design system setup — configure global typography, colors, and design variables before building pages for consistent site-wide styling."
 category: playbooks
 tags: [design-system, variables, typography, colors, globals, setup]
 related: [build-a-page, visual-builder-ops]
@@ -12,6 +13,12 @@ audience: llm
 # Playbook: Design System Setup
 
 **Configure global typography, colors, and design variables BEFORE building any pages.**
+
+!!! abstract "Quick Rules"
+    1. Always set global typography and colors in Theme Customizer BEFORE building any pages — this is the highest-leverage step in any Divi 5 build.
+    2. Use `wp.customize` JavaScript API to set font, size, and color globals programmatically, then click Publish.
+    3. Map hex colors and font families to named Divi 5 Design Variables in the Variable Manager — use site variables instead of hardcoded values.
+    4. Verify globals by opening any page — text modules should display correct fonts, sizes, and colors without per-module overrides.
 
 !!! danger "CRITICAL: Do This First"
     If you skip this step, every text module on every page will need manual font, size, and color overrides. Setting globals first means ~80% of text styling is automatic. This is the single highest-leverage step in any Divi 5 build.

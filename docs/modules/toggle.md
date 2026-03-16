@@ -1,5 +1,6 @@
 ---
 title: "Toggle Module"
+description: "Complete Divi 5 Toggle module reference — collapsible content panels, open/close state, icon customization, FAQ patterns, and schema tips."
 category: modules
 tags: [toggle, accordion, collapsible, faq, expandable-content, content-modules]
 related: [accordion, tabs]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10368052-the-toggle-modu
 # Toggle Module
 
 The Toggle module creates a collapsible content panel that visitors can expand or collapse by clicking its title bar.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates an independently collapsible content panel with a clickable title bar and expandable body area.
+    **When to use it:** FAQ sections, product/service detail breakdowns, step-by-step instructions
+    **Key settings:** Title, Body (rich text), Open State (default open/closed), Open/Close Icon, Icon Color
+    **Block identifier:** `divi/toggle`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10368052-the-toggle-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building FAQ sections where visitors scan questions and expand answers
+    - Organizing detailed product specifications into collapsible categories
+    - Presenting step-by-step instructions with progressive disclosure
+
+!!! warning "When NOT to Use This Module"
+    - Grouping collapsible items where only one should be open at a time → use [Accordion](accordion.md)
+    - Organizing content into horizontal switchable panels → use [Tabs](tabs.md)
 
 ## Overview
 
@@ -289,3 +306,6 @@ After configuring your Toggle module, click the green checkmark at the bottom of
 
 - [Accordion Module](accordion.md) — groups multiple collapsible items where only one can be open at a time
 - [Tabs Module](tabs.md) — organizes content into horizontal or vertical tabbed panels
+- [Toggle Icon Options](../options-groups/toggle-icon.md) — Style the expand/collapse indicator icon
+- [Toggle Options](../options-groups/toggle.md) — Shared toggle container styling settings
+- [Playbook: Build a Page](../playbooks/build-a-page.md) — Step-by-step page building workflow

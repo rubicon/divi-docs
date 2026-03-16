@@ -1,5 +1,6 @@
 ---
 title: "Find and Replace"
+description: "Divi 5 Find and Replace — search for specific design values and replace them in bulk across an element, section, or entire page layout."
 category: builder
 tags: ["builder", "find-and-replace", "bulk-editing", "attributes", "workflow"]
 related: ["attribute-management", "multi-select-bulk-editing", "extend-attributes"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11623616"
 # Find and Replace
 
 Search for specific attribute values across your layout and replace them in bulk, scoped to a single element, a section, or the entire page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Finds a specific design value and replaces it with another across a chosen scope and element type filter.
+    **Where to find it:** Right-click any field in element settings → Find & Replace.
+    **Key features:**
+
+    - Auto-populated source element and find value from the right-clicked field
+    - Scope options: Current Element, Descendants, Parent Elements, Entire Page
+    - Element type filter to restrict replacement to specific module or container types
+    - "Only Replace Identical Fields" toggle to prevent cross-field value replacement
+
+    **ET Docs:** [Find and Replace](https://help.elegantthemes.com/en/articles/11623616){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "CSS Options"
+description: "Divi 5 CSS options group — free-form CSS and module element CSS inputs for custom styling with the selector keyword shortcut."
 category: options-groups
 tags: ["options-groups", "css", "advanced"]
 related: ["attributes", "visibility"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102722"
 # CSS Options
 
 The CSS options group provides direct access to write custom CSS for any element, allowing fine-grained styling that goes beyond the built-in design controls.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Free-form CSS rules and per-element CSS declarations (Before, Main Element, After, and module-specific targets)
+    **Where to find it:** Advanced Tab → CSS
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — CSS can be written with media queries for responsive behavior
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102722)
 
 ## Overview
 
@@ -76,3 +84,6 @@ margin-bottom: 15px;
 
 - [Attributes Options](attributes.md)
 - [Visibility Options](visibility.md)
+- [Playbook: CSS in Divi](../playbooks/css-in-divi.md) — Best practices and patterns for writing CSS in Divi 5
+- [Custom Attributes](../builder/custom-attributes.md) — Add custom HTML attributes alongside CSS classes
+- [Style Inspector](../builder/style-inspector.md) — Debug and inspect CSS applied to elements in the builder

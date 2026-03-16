@@ -1,5 +1,6 @@
 ---
 title: "Woo Products"
+description: "Divi 5 Woo Products module — WooCommerce product gallery grid for featured, sale, and custom product collections with styling."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Products
 
-The Woo Products module is a Divi 5 content element used in the Visual Builder.
+The Woo Products module displays a gallery of WooCommerce products with options for featured, sale, and custom product collections.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows a grid of WooCommerce products with images, titles, prices, and filtering options.
+    **When to use it:** Product page templates, homepage product showcases, custom shop layouts
+    **Key settings:** Product type, Category filter, Columns, CSS customization, Visibility
+    **Block identifier:** `divi/woo-products`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-products-module/)
+
+!!! tip "When to Use This Module"
+    - Displaying curated product collections on homepage or landing pages
+    - Showing featured or on-sale products in a product page template
+    - Building custom shop layouts with filtered product grids
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce sites → this module requires WooCommerce
+    - For the main shop page with full sorting/filtering → use the [Shop](shop.md) module
+    - For non-product content grids → use [Blog](blog.md) or [Portfolio](portfolio.md)
 
 ## Overview
 

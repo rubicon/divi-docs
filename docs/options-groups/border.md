@@ -1,5 +1,6 @@
 ---
 title: "Border Options"
+description: "Divi 5 Border options group — border width, color, style, rounded corners, and per-side controls for all modules and structural elements."
 category: options-groups
 tags: ["options-groups", "border", "design", "styling"]
 related: ["box-shadow", "filters"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102574"
 # Border Options
 
 The Border options group lets you add and customize borders and rounded corners on any Divi 5 element.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Border width, color, style, per-side application, and rounded corner radius
+    **Where to find it:** Design Tab → Border
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — border and radius values can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102574)
 
 ## Overview
 
@@ -71,3 +79,6 @@ Apply different border styles to each side:
 
 - [Box Shadow Options](box-shadow.md)
 - [Filters Options](filters.md)
+- [Background Options](background.md) — Backgrounds interact with border-radius for rounded corners
+- [Image Module](../modules/image.md) — Images commonly use border radius and border styles
+- [Button Module](../modules/button.md) — Buttons rely on border settings for shape and hover effects

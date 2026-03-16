@@ -1,5 +1,6 @@
 ---
 title: "Pricing Table"
+description: "Complete Divi 5 Pricing Table module reference — plan tiers, feature lists, featured table highlighting, button styling, and layouts."
 category: modules
 tags: ["modules", "pricing", "commerce", "tables", "conversions", "sales"]
 related: ["button", "call-to-action", "tabs"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10364124-the-pricing-tab
 # Pricing Table
 
 The Pricing Table module displays service tiers, subscription plans, or product pricing in a structured, visually appealing column format.
+
+!!! abstract "Quick Reference"
+    **What it does:** Presents pricing plans side by side with titles, prices, feature lists, CTA buttons, and a featured table option.
+    **When to use it:** SaaS subscription plans, service package pricing, membership level comparisons
+    **Key settings:** Pricing Tables (repeater), Featured toggle, Price/Currency/Frequency, Feature list, Button
+    **Block identifier:** `divi/pricing-tables`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364124-the-pricing-tables-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Comparing multiple pricing tiers or service packages side by side
+    - Highlighting a recommended plan with the featured table option
+    - Displaying feature inclusion/exclusion lists with strikethrough styling
+
+!!! warning "When NOT to Use This Module"
+    - Creating a single call-to-action block without plan comparison → use [Call To Action](call-to-action.md)
+    - Building a standalone action button → use [Button](button.md)
+    - Organizing non-pricing content into switchable panels → use [Tabs](tabs.md)
 
 ## Overview
 
@@ -253,6 +271,8 @@ After configuring your pricing tables, click the green **Save** button in the bo
 
 ## Related
 
-- [Button](button.md)
-- [Call To Action](call-to-action.md)
-- [Tabs](tabs.md)
+- [Button](button.md) — Standalone button for linking to checkout or signup pages
+- [Call To Action](call-to-action.md) — Conversion-focused block with heading, text, and button
+- [Tabs](tabs.md) — Organize monthly/annual pricing tiers into tabbed views
+- [Toggle](toggle.md) — Collapsible sections for detailed feature comparisons
+- [Flexbox Layout](../builder/flexbox.md) — Align multiple pricing tables side by side in responsive rows

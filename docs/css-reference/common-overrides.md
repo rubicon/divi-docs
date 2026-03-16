@@ -1,5 +1,6 @@
 ---
 title: "Common CSS Overrides"
+description: "Divi 5 common CSS overrides — tested snippets for header transparency, button restyling, spacing, typography, responsive breakpoints, and visibility control."
 category: css-reference
 tags: [css, overrides, customization, header, navigation, typography, buttons, responsive]
 related: [class-reference]
@@ -11,6 +12,11 @@ source_url: ""
 # Common CSS Overrides
 
 A collection of tested CSS snippets for the most frequently requested Divi 5 customizations. Each override includes the CSS code, an explanation of what it does, and notes on where to add it.
+
+!!! abstract "Quick Reference"
+    **What this documents:** Tested CSS snippets for the most common Divi 5 styling customizations.
+    **Categories covered:** Header & Navigation | Module Spacing | Typography | Button Styles | Responsive Breakpoints | Hiding/Showing Elements | Images | Blog Module | Forms
+    **Where to add CSS:** Divi Theme Options > Custom CSS, child theme `style.css`, or module Advanced > Custom CSS
 
 ## Overview
 

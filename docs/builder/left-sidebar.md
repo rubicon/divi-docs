@@ -1,5 +1,6 @@
 ---
 title: "Left Sidebar"
+description: "Divi 5 Left Sidebar reference — every panel and toggle in the persistent vertical toolbar, including Layers, Presets, Variables, and more."
 category: builder
 tags: ["builder", "sidebar", "panels", "navigation", "workflow"]
 related: ["vb-interface", "layers-view", "wireframe-view"]
@@ -11,6 +12,17 @@ source_url: "https://help.elegantthemes.com/en/articles/10469656"
 # Left Sidebar
 
 The persistent vertical toolbar on the left side of the Divi 5 Visual Builder, providing one-click access to every major panel and editing mode.
+
+!!! abstract "Quick Reference"
+    **What it does:** Houses all major builder panels and mode toggles in a slim vertical strip.
+    **Where to find it:** Always visible on the left edge of the Visual Builder canvas.
+    **Key features:**
+
+    - Layout and content panels: Add Layout, Layers, Style Inspector, Variable Manager, Preset Manager, Page Manager, Command Center
+    - Display controls: Action Icons, Parent Icons, X-Ray Mode, Wireframe View
+    - Settings and support: Builder Settings, Help, Light/Dark Mode
+
+    **ET Docs:** [Divi Left Sidebar](https://help.elegantthemes.com/en/articles/10469656){:target="_blank"}
 
 ## Overview
 

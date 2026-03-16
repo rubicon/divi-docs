@@ -1,5 +1,6 @@
 ---
 title: "Pagination"
+description: "Complete Divi 5 Pagination module reference — main query and loop element targeting, link text, category filtering, and styling."
 category: modules
 tags: ["modules", "pagination", "navigation", "blog", "posts", "loop", "previous", "next"]
 related: ["blog", "portfolio", "post-navigation"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10358759-the-pagination-
 # Pagination
 
 The Pagination module provides previous and next navigation links for browsing between posts, pages, or loop-driven content.
+
+!!! abstract "Quick Reference"
+    **What it does:** Adds previous/next navigation links for browsing posts or paginating loop-driven content.
+    **When to use it:** Blog post footers, portfolio browsing, loop-powered archive pagination
+    **Key settings:** Target (Main Query / Looped Element), Text labels, Categories, Navigation direction
+    **Block identifier:** `divi/pagination`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10358759-the-pagination-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Adding page-level navigation to loop-powered archive or listing pages
+    - Providing previous/next links within the main WordPress query on single posts
+    - Connecting pagination controls to a specific looped section, row, or module
+
+!!! warning "When NOT to Use This Module"
+    - Linking to specific adjacent posts with title previews → use [Post Navigation](post-navigation.md)
+    - Displaying a paginated grid of blog posts with built-in controls → use [Blog](blog.md)
 
 ## Overview
 

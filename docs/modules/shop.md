@@ -1,5 +1,6 @@
 ---
 title: "Shop"
+description: "Divi 5 Shop module — WooCommerce product grid with category filtering, sort options, sale badges, ratings, and add-to-cart buttons."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "products", "store", "product-grid", "shopping"]
 related: ["portfolio", "blog", "gallery"]
@@ -11,6 +12,23 @@ source_url: "https://www.elegantthemes.com/documentation/divi/ecommerce-divi/"
 # Shop
 
 The Shop module displays WooCommerce products in a customizable grid layout with images, titles, prices, and add-to-cart functionality.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays WooCommerce products in a styled grid with images, titles, prices, ratings, and add-to-cart buttons.
+    **When to use it:** Homepage featured products, category landing pages, sale/clearance sections
+    **Key settings:** Type (Recent/Featured/Sale/Best Selling), Posts Number, Include Categories, Columns, Orderby, Show elements
+    **Block identifier:** `divi/shop`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/ecommerce-divi/)
+
+!!! tip "When to Use This Module"
+    - Showcasing featured, sale, or best-selling WooCommerce products on any page
+    - Building category-specific landing pages with filtered product grids
+    - Adding a curated product section to non-shop pages like the homepage or blog
+
+!!! warning "When NOT to Use This Module"
+    - For displaying products on a product page template → use individual Woo Product modules
+    - For non-WooCommerce content grids → use [Blog](blog.md) or [Portfolio](portfolio.md)
+    - For a fullwidth product display → combine with a fullwidth section layout
 
 ## Overview
 

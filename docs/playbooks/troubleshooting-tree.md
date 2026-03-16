@@ -1,5 +1,6 @@
 ---
 title: "troubleshooting-tree"
+description: "LLM playbook for Divi 5 troubleshooting — systematic decision tree for diagnosing common Visual Builder, rendering, CSS, and REST API problems."
 category: playbooks
 tags: [playbook]
 divi_version: "5.x"

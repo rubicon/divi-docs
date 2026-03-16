@@ -1,5 +1,6 @@
 ---
 title: "Heading"
+description: "Complete Divi 5 Heading module reference — H1-H6 heading text with full typography control, dynamic content, and semantic markup."
 category: modules
 tags: ["modules", "heading", "title", "typography", "text", "h1", "h2", "h3", "seo"]
 related: ["text", "post-title"]
@@ -12,13 +13,30 @@ source_url: "https://help.elegantthemes.com/en/articles/10315593-the-heading-mod
 
 The Heading module displays customizable heading text that works across headers, footers, templates, posts, and pages.
 
+!!! abstract "Quick Reference"
+    **What it does:** Displays a single heading element (H1-H6, p, or span) with independent typography controls and dynamic content support.
+    **When to use it:** Section headers, dynamic post titles in templates, linked navigation labels
+    **Key settings:** Text (heading content), Heading Text typography, HTML tag level (H1-H6), Link
+    **Block identifier:** `divi/heading`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10315593-the-heading-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a standalone heading with precise typographic control and semantic HTML tag selection
+    - Dynamic post titles in Theme Builder templates
+    - Section headers that need consistent styling independent of body text settings
+
+!!! warning "When NOT to Use This Module"
+    - You need a heading combined with body text → use [Text](text.md)
+    - You need a heading with a description and button → use [Call to Action](call-to-action.md)
+    - You need the post title to render automatically in a template → use [Post Title](post-title.md)
+
 ## Overview
 
 The Heading module provides a dedicated element for displaying title-level text with full typographic control. It is designed to serve as a section header, page title, or any prominent text label that needs to stand apart from body content. The module supports all standard HTML heading levels (H1 through H6) as well as paragraph and span tags, giving you control over both visual presentation and semantic markup.
 
-Unlike the Text module, which is built for longer-form rich content, the Heading module is focused on single-line or short-phrase titles. It ships with its own typography controls that are independent of body text settings, making it straightforward to maintain consistent heading styles across a site. Dynamic content is supported, so the heading text can pull from post titles, custom fields, or other data sources in template contexts.
+Unlike the Text module, which is built for longer-form rich content, the Heading module is focused on single-line or short-phrase titles. It ships with its own typography controls that are independent of body text settings, making it straightforward to maintain consistent heading styles across a site. [Dynamic content](../builder/dynamic-content.md) is supported, so the heading text can pull from post titles, custom fields, or other data sources in template contexts.
 
-The module integrates with the loop builder and supports Flexbox ordering, making it useful in dynamic layouts where headings need to accompany repeated content blocks. It can also be linked to make the entire heading clickable, which is helpful for navigation elements and linked section titles.
+The module integrates with the [Loop Builder](../builder/loop-builder.md) and supports [Flexbox](../builder/flexbox.md) ordering, making it useful in dynamic layouts where headings need to accompany repeated content blocks. It can also be linked to make the entire heading clickable, which is helpful for navigation elements and linked section titles.
 
 For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10315593-the-heading-module-in-divi-5).
 
@@ -237,3 +255,6 @@ After configuring the Heading module:
 
 - [Text](text.md) — Rich text content module for body copy, paragraphs, and formatted content
 - [Post Title](post-title.md) — Displays the post or page title dynamically within templates
+- [Heading Text Options](../options-groups/heading-text.md) — Shared heading typography settings across modules
+- [Dynamic Content](../builder/dynamic-content.md) — Pull page or post titles dynamically into heading fields
+- [Semantic Elements](../builder/semantic-elements.md) — Choose the correct HTML heading level for accessibility

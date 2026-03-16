@@ -1,5 +1,6 @@
 ---
 title: "Group Carousel"
+description: "Complete Divi 5 Group Carousel module reference — horizontal scrollable carousel for grouped modules with navigation and autoplay."
 category: modules
 tags: ["modules", "group-carousel", "carousel", "slider", "slideshow", "navigation", "interactive"]
 related: ["group", "slider", "gallery"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/11982051"
 # Group Carousel
 
 The Group Carousel module displays multiple grouped modules in a horizontal, scrollable carousel with configurable navigation and animation.
+
+!!! abstract "Quick Reference"
+    **What it does:** Arranges multiple slide groups in a horizontal carousel with arrow/dot navigation, autoplay, and touch swipe support.
+    **When to use it:** Testimonial sliders, portfolio previews, product highlights, team member showcases
+    **Key settings:** Slides to Show, Slides to Scroll, Automatic Rotation, Center Mode, Show Arrows, Show Dot Navigation
+    **Block identifier:** `divi/group-carousel`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/11982051)
+
+!!! tip "When to Use This Module"
+    - You need a horizontal carousel where each slide contains multiple modules (images, text, buttons)
+    - Testimonial sliders, product highlights, or team member showcases
+    - Content that benefits from horizontal browsing without consuming excessive vertical space
+
+!!! warning "When NOT to Use This Module"
+    - You need a static group without carousel behavior → use [Group](group.md)
+    - You need a full-width image-only slideshow → use [Slider](slider.md) or [Gallery](gallery.md) in slider mode
+    - You need a post-based slider → use [Post Slider](post-slider.md)
 
 ## Overview
 

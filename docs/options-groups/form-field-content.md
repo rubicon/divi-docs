@@ -1,5 +1,6 @@
 ---
 title: "Form Field Content Options"
+description: "Divi 5 Form Field Content options group — field ID, type, validation rules, required toggle, and conditional logic for form fields."
 category: options-groups
 tags: ["options-groups", "form-field-content", "advanced"]
 related: ["fields", "spam-protection"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10272945"
 # Form Field Content Options
 
 The Form Field Content options group manages the content, type, and validation rules for individual form fields within the Contact Form module.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Field ID, title, input type, validation (min/max length, allowed symbols), required toggle, and conditional logic
+    **Where to find it:** Content Tab → individual field settings within the Contact Form module
+    **Available on:** Contact Form module (per-field settings)
+    **Responsive:** No — field content and validation are not device-dependent
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10272945)
 
 ## Overview
 

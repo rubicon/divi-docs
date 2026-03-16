@@ -1,5 +1,6 @@
 ---
 title: "Overlay Options"
+description: "Divi 5 Overlay options group — hover overlay background color and icon display for featured images in portfolio and blog modules."
 category: options-groups
 tags: ["options-groups", "overlay"]
 related: ["image", "filters"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248734"
 # Overlay Options
 
 Controls the hover overlay effect on featured images, including background color and icon display.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Hover overlay toggle, overlay background color, icon selection, and icon color
+    **Where to find it:** Design Tab → Overlay
+    **Available on:** Modules with image overlays (Blog, Portfolio, Filterable Portfolio, Gallery)
+    **Responsive:** No — overlay settings apply across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248734)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Description"
+description: "Divi 5 Woo Product Description module — WooCommerce product description display with full typography and styling controls."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Description
 
-The Woo Product Description module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Description module displays the full product description from WooCommerce anywhere in your layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce product description content with customizable typography and styling.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-description`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-description-module/)
+
+!!! tip "When to Use This Module"
+    - Building custom WooCommerce product page templates in the Theme Builder
+    - Displaying the full product description in a specific layout position
+    - Styling product descriptions independently from other product elements
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For short product excerpts → use Woo Product Information or a Text module with dynamic content
+    - For tabbed product info (description + reviews + attributes) → use [Woo Product Tabs](woo-product-tabs.md)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Images"
+description: "Divi 5 Woo Product Images module — WooCommerce product image gallery with featured image, thumbnails, and zoom functionality."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "media", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Images
 
-The Woo Product Images module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Images module displays the WooCommerce product image gallery including the featured image and thumbnails.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce product featured image and gallery thumbnails with zoom and lightbox support.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Image styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-images`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-images-module/)
+
+!!! tip "When to Use This Module"
+    - Building custom WooCommerce product page templates with image galleries
+    - Displaying product photos with thumbnail navigation and zoom functionality
+    - Positioning the product gallery in a specific layout column or area
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For general image galleries → use [Gallery](gallery.md)
+    - For a single standalone image → use [Image](image.md)
 
 ## Overview
 

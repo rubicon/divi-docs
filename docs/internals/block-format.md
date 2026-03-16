@@ -1,5 +1,6 @@
 ---
 title: "Block Comment Format"
+description: "Divi 5 block comment format internals — how WordPress stores Divi content as wp:divi/* blocks with JSON attributes in post_content."
 category: internals
 tags: [block-format, wp-blocks, json, content-storage]
 related: [ssr-rendering, content-encoding]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # Block Comment Format
 
 How Divi 5 stores page content as WordPress block comments in `post_content`.
+
+!!! abstract "Quick Reference"
+    **What this documents:** The WordPress block comment structure Divi 5 uses to store page content in `post_content`, including JSON attribute schema and column type values.
+    **Key data structures:** `wp:divi/placeholder`, `wp:divi/section`, `wp:divi/row`, `wp:divi/column`, `wp:divi/text` — container blocks (opening/closing tags) and leaf blocks (self-closing).
+    **Last verified:** 2026-03-12
 
 ## Structure
 

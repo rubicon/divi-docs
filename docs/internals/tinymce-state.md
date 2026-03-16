@@ -1,5 +1,6 @@
 ---
 title: "TinyMCE State Sync"
+description: "Divi 5 TinyMCE state sync internals — how the text editor syncs with Divi's React state, why setContent() fails, and the keyboard input workaround."
 category: internals
 tags: [tinymce, text-editor, state, react, saving]
 related: [vb-architecture, block-format]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # TinyMCE State Sync
 
 How the TinyMCE text editor syncs (and fails to sync) with Divi 5's internal save state.
+
+!!! abstract "Quick Reference"
+    **What this documents:** The synchronization gap between TinyMCE's DOM state and Divi 5's internal React save state, and the workaround using keyboard events.
+    **Key data structures:** `window.tinymce` (parent window), `_content-innerContent_vb_tiny_mce` editor instance, React event chain for keyboard input.
+    **Last verified:** 2026-03-12
 
 ## How It Works
 

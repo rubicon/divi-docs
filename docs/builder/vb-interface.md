@@ -1,5 +1,6 @@
 ---
 title: "Visual Builder Interface"
+description: "Divi 5 Visual Builder interface guide — top bar, left sidebar, central canvas, right settings panel, and interaction modes explained."
 category: builder
 tags: ["builder", "interface", "panels", "toolbar", "workspace"]
 related: ["keyboard-shortcuts", "left-sidebar", "layers-view"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12991185"
 # Visual Builder Interface
 
 A guided tour of the Divi 5 Visual Builder workspace, covering every panel, toolbar, and interaction mode available in the editor.
+
+!!! abstract "Quick Reference"
+    **What it does:** Provides the complete workspace layout for the Divi 5 front-end editor.
+    **Where to find it:** Loads automatically when you enable the Visual Builder on any page.
+    **Key features:**
+
+    - Top bar with device selector, zoom, history, and save controls
+    - Left sidebar with panels for Layers, Presets, Variables, Pages, and more
+    - Central canvas with click, hover, and grid interaction modes
+    - Right settings panel with breadcrumb navigation and three-tab layout
+
+    **ET Docs:** [Visual Builder Interface](https://help.elegantthemes.com/en/articles/12991185){:target="_blank"}
 
 ## Overview
 

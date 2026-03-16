@@ -1,5 +1,6 @@
 ---
 title: "Options Groups"
+description: "Complete reference for all Divi 5 options groups — shared design controls for background, spacing, borders, text, animation, and more."
 category: options-groups
 tags: ["options-groups", "settings", "design", "advanced"]
 divi_version: "5.x"
@@ -9,6 +10,11 @@ last_updated: 2026-03-16
 # Options Groups
 
 Options Groups are reusable collections of settings that appear across multiple Divi 5 elements. Instead of each module implementing its own spacing controls, border settings, or animation options independently, Divi 5 shares these settings through a common options group system.
+
+!!! abstract "Quick Reference"
+    **Total options groups:** 40+
+    **Where to find them:** Design Tab and Advanced Tab of any element's settings panel
+    **Scope:** Shared across all Divi 5 modules, rows, columns, and sections
 
 ## How Options Groups Work
 

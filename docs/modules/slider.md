@@ -1,5 +1,6 @@
 ---
 title: "Slider"
+description: "Complete Divi 5 Slider module reference — custom slides with images, text, buttons, overlay controls, navigation, and animations."
 category: modules
 tags: ["modules", "slider", "carousel", "hero", "slideshow", "rotating-content", "banner"]
 related: ["post-slider", "video-slider", "fullwidth-slider"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10364612-the-slider-modu
 # Slider
 
 The Slider module displays rotating slides with images, text, and buttons in an animated carousel format.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates a rotating slideshow with custom slides, each containing a heading, body text, button, and background image or video.
+    **When to use it:** Hero banners, testimonial carousels, product/service showcases
+    **Key settings:** Slides (repeater), Heading, Button Text/URL, Background Image, Overlay, Navigation
+    **Block identifier:** `divi/slider`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364612-the-slider-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building hero banners with multiple rotating messages and CTAs
+    - Creating testimonial or quote carousels with custom content per slide
+    - Showcasing products or services with individual slide backgrounds and descriptions
+
+!!! warning "When NOT to Use This Module"
+    - Generating slides automatically from blog posts → use [Post Slider](post-slider.md)
+    - Creating a video-based carousel → use [Video Slider](video-slider.md)
+    - Needing a full-browser-width slider → use [Fullwidth Slider](fullwidth-slider.md)
 
 ## Overview
 
@@ -294,3 +312,6 @@ After configuring your slider, save your changes by clicking the **Save** button
 - [Post Slider](post-slider.md) — Automatically generates slides from blog posts
 - [Video Slider](video-slider.md) — Slider variant with embedded video playback per slide
 - [Fullwidth Slider](fullwidth-slider.md) — Full-browser-width slider for use in fullwidth sections
+- [Hero Module](hero.md) — Static hero section with similar heading, text, and button layout
+- [Background Options](../options-groups/background.md) — Configure slide background images, gradients, and videos
+- [Animation Options](../options-groups/animation.md) — Control slide entrance and transition animations

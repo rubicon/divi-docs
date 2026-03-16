@@ -1,5 +1,6 @@
 ---
 title: "Tabs"
+description: "Complete Divi 5 Tabs module reference — tabbed content panels, header styling, rich text bodies, responsive stacking, and code examples."
 category: modules
 tags: ["modules", "tabs", "tabbed-content", "content-organizer", "navigation", "panels"]
 related: ["accordion", "toggle"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10365057-the-tabs-module
 # Tabs
 
 The Tabs module organizes content into switchable panels controlled by clickable tab headers.
+
+!!! abstract "Quick Reference"
+    **What it does:** Groups content into tabbed panels that visitors switch between by clicking horizontal tab headers.
+    **When to use it:** Product specifications, service tier comparisons, categorized content sections
+    **Key settings:** Tabs (repeater), Tab Title, Tab Content (rich text), Tab Text styling
+    **Block identifier:** `divi/tabs`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10365057-the-tabs-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Organizing related content into switchable panels for quick comparison
+    - Displaying product details across categories (specs, reviews, shipping)
+    - Presenting location or branch information in a compact tabbed layout
+
+!!! warning "When NOT to Use This Module"
+    - Displaying FAQ-style content with vertical expand/collapse → use [Accordion](accordion.md)
+    - Creating independently collapsible items that can all be open at once → use [Toggle](toggle.md)
 
 ## Overview
 
@@ -267,3 +284,6 @@ After configuring your tabs, save your changes by clicking the **Save** button (
 
 - [Accordion](accordion.md) — Collapsible content panels where one item is open at a time
 - [Toggle](toggle.md) — Individual collapsible content blocks that can be open simultaneously
+- [Pricing Table](pricing-table.md) — Use tabs to switch between pricing tiers or billing periods
+- [Text Options](../options-groups/text.md) — Shared typography settings for tab labels and content
+- [Playbook: Build a Page](../playbooks/build-a-page.md) — Step-by-step page building workflow

@@ -1,5 +1,6 @@
 ---
 title: "Meta Options"
+description: "Divi 5 Meta options group — element label for builder organization and force visible toggle for editing hidden elements."
 category: options-groups
 tags: ["options-groups", "meta", "advanced"]
 related: ["attributes", "link"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10066900"
 # Meta Options
 
 The Meta options group provides builder-level organization settings, letting you label elements for easier identification and control their visibility during editing.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Element label for builder navigation and force visible toggle for editing hidden elements
+    **Where to find it:** Advanced Tab → Meta
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** No — meta settings are builder-only and do not affect front-end output
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10066900)
 
 ## Overview
 

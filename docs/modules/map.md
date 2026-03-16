@@ -1,5 +1,6 @@
 ---
 title: "Map"
+description: "Complete Divi 5 Map module reference — Google Maps integration, custom pins, API key setup, styling options, and code examples."
 category: modules
 tags: ["modules", "map", "google-maps", "location", "interactive", "embed"]
 related: ["fullwidth-map"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10353411-the-map-module-
 # Map
 
 The Map module embeds an interactive Google Map with custom pin locations directly into your Divi 5 layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Embeds an interactive Google Map with custom pins, info windows, and map controls.
+    **When to use it:** Contact pages, multi-location directories, event venue maps
+    **Key settings:** Center Map Address, Zoom Level, Add New Pin, Controls, Map Height
+    **Block identifier:** `divi/map`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353411-the-map-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Showing a business location or office address on a contact page
+    - Displaying multiple locations with individual pins and info windows
+    - Embedding an interactive map that visitors can zoom and pan
+
+!!! warning "When NOT to Use This Module"
+    - Needing a full-browser-width map display → use [Fullwidth Map](fullwidth-map.md)
+    - Displaying a static location image rather than an interactive map → use [Image](image.md)
 
 ## Overview
 
@@ -260,3 +277,7 @@ After configuring the Map module and adding your pins, click the green checkmark
 ## Related
 
 - [Fullwidth Map](fullwidth-map.md) — Display a Google Map that spans the entire browser width
+- [Blurb](blurb.md) — Pair with map to show address and contact details with icons
+- [Contact Form](contact-form.md) — Combine with a map on contact pages for visitor inquiries
+- [Sizing Options](../options-groups/sizing.md) — Control the map container's width and height
+- [Playbook: Build a Page](../playbooks/build-a-page.md) — Step-by-step guide to assembling contact pages with maps

@@ -1,5 +1,6 @@
 ---
 title: "Meta Text Options"
+description: "Divi 5 Meta Text options group — font, size, color, and spacing controls for post metadata like author, date, and categories."
 category: options-groups
 tags: ["options-groups", "meta-text"]
 related: ["title-text", "body-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248762"
 # Meta Text Options
 
 Controls the typography and appearance of post metadata elements such as author name, date, categories, and comment count.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, letter spacing, line height, and text shadow for post metadata
+    **Where to find it:** Design Tab → Meta Text
+    **Available on:** Blog, Portfolio, and Post Title modules
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248762)
 
 ## Overview
 

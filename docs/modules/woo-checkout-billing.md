@@ -1,5 +1,6 @@
 ---
 title: "Woo Checkout Billing"
+description: "Divi 5 Woo Checkout Billing module — WooCommerce billing address form fields for checkout page templates with custom styling."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "checkout"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-check
 
 # Woo Checkout Billing
 
-The Woo Checkout Billing module is a Divi 5 content element used in the Visual Builder.
+The Woo Checkout Billing module captures customer billing details on the WooCommerce checkout page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce billing address form (name, address, phone, email) on the checkout page.
+    **When to use it:** Custom checkout page templates in the Theme Builder
+    **Key settings:** Field styling, Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-checkout-billing`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-checkout-billing-module/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce checkout page template in the Theme Builder
+    - Collecting billing address details from customers during checkout
+    - Styling billing form fields to match your store's design
+
+!!! warning "When NOT to Use This Module"
+    - On non-checkout pages → this module requires the WooCommerce checkout context
+    - For shipping address collection → use [Woo Checkout Shipping](woo-checkout-shipping.md)
+    - For general contact forms → use [Contact Form](contact-form.md)
 
 ## Overview
 

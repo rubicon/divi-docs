@@ -1,5 +1,6 @@
 ---
 title: "Theme Builder"
+description: "Divi 5 Theme Builder — design custom headers, footers, post templates, and archive layouts with dynamic content and flexible template assignments."
 category: builder
 tags: [builder, theme-builder, templates, headers, footers, dynamic-content]
 related: [visual-builder, library, global-elements]
@@ -12,13 +13,25 @@ source_url: ""
 
 The Divi Theme Builder is a template system that lets you design custom headers, footers, body layouts, and post templates using the Visual Builder.
 
+!!! abstract "Quick Reference"
+    **What it does:** Lets you design custom headers, footers, and body templates for any page, post type, archive, or taxonomy.
+    **Where to find it:** WordPress admin → Divi → Theme Builder.
+    **Key features:**
+
+    - Three template areas: Header, Body, Footer (each optional)
+    - Assign templates globally, by post type, category, tag, or specific page
+    - Dynamic content fields for post title, featured image, author, date, and custom fields
+    - Import/export templates as JSON for cross-site portability
+
+    **ET Docs:** N/A
+
 ## Overview
 
 The Theme Builder extends Divi's Visual Builder beyond individual pages to control the overall structure of your entire website. Instead of relying on a fixed theme layout, you can design every part of your site -- headers, footers, blog post templates, product pages, category archives, 404 pages, and more -- using the same drag-and-drop interface you use for page design.
 
 Templates created in the Theme Builder are applied globally or to specific pages, posts, categories, or custom post types. This means you can have one header for your homepage and a different header for your blog, or a unique product page template for WooCommerce.
 
-The Theme Builder uses dynamic content to pull in data like post titles, featured images, author information, and more, so your templates automatically populate with the correct content for each page they are applied to.
+The Theme Builder uses [dynamic content](dynamic-content.md) to pull in data like post titles, featured images, author information, and more, so your templates automatically populate with the correct content for each page they are applied to.
 
 <!-- ![Theme Builder overview](../assets/screenshots/builder/theme-builder/overview.png){ loading=lazy }
 *The Theme Builder interface showing template assignments and header/footer/body areas.* -->
@@ -241,3 +254,6 @@ Templates can be exported and imported between Divi websites:
 - [Divi Library](library.md) -- Save and reuse template designs
 - [Global Elements](global-elements.md) -- Elements that sync across all pages
 - [Presets](presets.md) -- Consistent styling across template elements
+- [Dynamic Content](dynamic-content.md) -- Pull post data dynamically into template elements
+- [Loop Builder](loop-builder.md) -- Build custom post loops within theme templates
+- [Playbook: Theme Builder Ops](../playbooks/theme-builder-ops.md) -- LLM playbook for theme builder automation

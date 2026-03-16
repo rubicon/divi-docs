@@ -1,5 +1,6 @@
 ---
 title: "Gallery"
+description: "Complete Divi 5 Gallery module reference — image grid and slider layouts with titles, captions, pagination, and overlay effects."
 category: modules
 tags: ["modules", "media", "images", "gallery", "grid", "slider", "lightbox", "photos"]
 related: ["image", "filterable-portfolio", "slider"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10315545-the-gallery-mod
 # Gallery
 
 The Gallery module displays a collection of images in a configurable grid or slider layout with optional titles, captions, and pagination.
+
+!!! abstract "Quick Reference"
+    **What it does:** Arranges multiple images from the Media Library into a grid or horizontal slider with titles, captions, and pagination.
+    **When to use it:** Product photo galleries, event photography, real estate listings, portfolio image showcases
+    **Key settings:** Gallery Images, Images Per Page, Layout (Grid/Slider), Columns, Show Title, Show Caption, Show Pagination
+    **Block identifier:** `divi/gallery`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10315545-the-gallery-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need to display a curated set of images in a grid or slider format
+    - Product photos, event galleries, or real estate listing images
+    - You want built-in pagination for large image collections
+
+!!! warning "When NOT to Use This Module"
+    - You need to display project posts with category filtering → use [Filterable Portfolio](filterable-portfolio.md)
+    - You need a single featured image → use [Image](image.md)
+    - You need a full-screen content slider with text overlays → use [Slider](slider.md)
 
 ## Overview
 
@@ -257,6 +275,9 @@ After configuring the Gallery module, save your layout by clicking the green **S
 
 ## Related
 
-- [Image](image.md)
-- [Filterable Portfolio](filterable-portfolio.md)
-- [Slider](slider.md)
+- [Image](image.md) — Display a single image with optional lightbox, link, and styling
+- [Filterable Portfolio](filterable-portfolio.md) — Grid display with client-side category filtering for project posts
+- [Slider](slider.md) — Sliding content panels with text overlays and navigation controls
+- [Image Options](../options-groups/image.md) — Shared image styling options available across visual modules
+- [CSS Grid](../builder/css-grid.md) — Advanced grid layouts for precise gallery-style arrangements
+- [Overlay Options](../options-groups/overlay.md) — Configure hover overlay effects on gallery images

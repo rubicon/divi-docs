@@ -1,5 +1,6 @@
 ---
 title: "Call to Action"
+description: "Complete Divi 5 Call to Action module reference — heading, description, and button settings for conversion-focused content blocks."
 category: modules
 tags: ["modules", "cta", "call-to-action", "button", "conversion", "marketing"]
 related: ["button", "blurb", "text"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10259934-the-call-to-act
 # Call to Action
 
 The Call to Action module displays a heading, description text, and a prominent button to drive user conversions.
+
+!!! abstract "Quick Reference"
+    **What it does:** Bundles a title, body text, and a clickable button into one conversion-focused content block.
+    **When to use it:** Newsletter signups, pricing conversion prompts, promotional banners, content divider sections
+    **Key settings:** Title, Button Text, Body, Link (button URL), Background
+    **Block identifier:** `divi/cta`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10259934-the-call-to-action-module-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a heading, short description, and button together as a single conversion block
+    - Promotional banners or signup prompts positioned at natural decision points
+    - Full-width call-to-action sections between content areas
+
+!!! warning "When NOT to Use This Module"
+    - You need only a standalone button without heading or description → use [Button](button.md)
+    - You need an icon or image with text (feature card) → use [Blurb](blurb.md)
+    - You need a form-based email capture → use [Email Optin](email-optin.md)
 
 ## Overview
 
@@ -260,3 +278,6 @@ After configuring the CTA:
 - [Button](button.md) — Standalone button module for simpler link elements without heading or description text
 - [Blurb](blurb.md) — Icon or image with text; useful for feature blocks that lead into a CTA
 - [Text](text.md) — Rich text content module for descriptive content that supports the CTA's message
+- [Email Optin](email-optin.md) — Form-based email capture with ESP integration for newsletter signups
+- [Background Options](../options-groups/background.md) — Configure background colors, gradients, and images that make CTAs stand out
+- [Button Options Group](../options-groups/button.md) — Shared button design settings used by the CTA button

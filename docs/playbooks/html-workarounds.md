@@ -1,5 +1,6 @@
 ---
 title: "HTML Workarounds"
+description: "LLM playbook for Divi 5 HTML workarounds — table-based cards, inline SVG icons, logo bars, and styled layouts that survive WordPress content sanitization."
 category: playbooks
 tags: [html, tables, svg, inline-css, workarounds, cards, icons]
 related: [css-in-divi, known-limitations]
@@ -12,6 +13,12 @@ audience: llm
 # Playbook: HTML Workarounds
 
 **Patterns for building complex layouts inside Divi text blocks using HTML that survives WordPress content sanitization.**
+
+!!! abstract "Quick Rules"
+    1. Use HTML tables for card-style layouts inside Divi text blocks — `<table>`, `<tr>`, `<td>` and their `style` attributes survive WordPress content sanitization.
+    2. Only use these workarounds when Divi's native module settings cannot achieve the layout — prefer built-in modules for maintainability.
+    3. SVG icons survive WordPress content filtering when placed inside table cells — use `stroke` styles with `fill="none"` for line-art icons.
+    4. For full-bleed background images in text blocks, set the row to `maxWidth: 100%` with zero padding.
 
 ## When to Use These
 

@@ -1,5 +1,6 @@
 ---
 title: "Button Options"
+description: "Divi 5 Button options group — background, text, border, radius, icon, and hover styling controls for button elements in modules."
 category: options-groups
 tags: ["options-groups", "button"]
 related: ["text", "link"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10259854"
 # Button Options
 
 Provides comprehensive styling controls for button elements within Divi 5 modules, covering background, text, border, and icon settings.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Button background, typography, border, radius, icon selection, icon placement, and hover behavior
+    **Where to find it:** Design Tab → Button
+    **Available on:** Modules with buttons (Button, CTA, Pricing Table, Contact Form, Email Optin, Login, Slider, and others)
+    **Responsive:** Yes — all button styling values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10259854)
 
 ## Overview
 

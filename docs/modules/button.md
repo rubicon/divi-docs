@@ -1,5 +1,6 @@
 ---
 title: "Button"
+description: "Complete Divi 5 Button module reference — settings, styling, icon options, hover effects, and code examples for clickable CTA elements."
 category: modules
 tags: ["modules", "button", "link", "cta", "interactive", "navigation"]
 related: ["call-to-action", "text"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10259665-the-button-modu
 # Button
 
 The Button module renders a single clickable button element with fully customizable text, link, icon, and styling.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates a standalone styled button that links to a page, section, file, or external URL.
+    **When to use it:** Primary CTA actions, download links, section anchor navigation, form submission triggers
+    **Key settings:** Text (button label), Link (destination URL), Alignment, Button styling (colors, border, icon)
+    **Block identifier:** `divi/button`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10259665-the-button-module-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a standalone clickable button for navigation or downloads
+    - Hero sections, pricing areas, or anywhere a clear call-to-action is needed
+    - Anchor links for single-page scroll navigation
+
+!!! warning "When NOT to Use This Module"
+    - You need a heading + description + button combo → use [Call to Action](call-to-action.md)
+    - You need a form submission button → the button is built into [Contact Form](contact-form.md) and [Email Optin](email-optin.md)
+    - You need an icon-only clickable element → use [Icon](icon.md) with a link
 
 ## Overview
 
@@ -236,3 +254,6 @@ After configuring the button:
 
 - [Call to Action](call-to-action.md) — Combines heading, description text, and a button into one conversion-focused block
 - [Text](text.md) — Use alongside buttons for descriptive content that introduces the action
+- [Button Options Group](../options-groups/button.md) — Shared button styling settings available across modules
+- [Link Options](../options-groups/link.md) — URL and link target configuration for clickable elements
+- [Interactions](../builder/interactions.md) — Add hover, click, or scroll-triggered effects to buttons

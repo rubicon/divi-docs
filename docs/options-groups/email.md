@@ -1,5 +1,6 @@
 ---
 title: "Email Options"
+description: "Divi 5 Email options group — message pattern template with field ID placeholders for contact form notification emails."
 category: options-groups
 tags: ["options-groups", "email"]
 related: ["fields", "spam-protection"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10261161"
 # Email Options
 
 Configures the format and structure of notification emails sent when a Contact Form module submission is received.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Email body message pattern using %%fieldid%% placeholders for form data
+    **Where to find it:** Content Tab → Email
+    **Available on:** Contact Form module only
+    **Responsive:** No — email format is not device-dependent
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10261161)
 
 ## Overview
 

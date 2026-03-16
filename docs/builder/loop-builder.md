@@ -1,5 +1,6 @@
 ---
 title: "Loop Builder"
+description: "Divi 5 Loop Builder — display repeating posts, products, terms, users, or ACF repeaters in fully custom layouts with query controls and pagination."
 category: builder
 tags: ["builder", "loop-builder", "queries", "dynamic-content", "posts", "woocommerce", "acf"]
 related: ["dynamic-content", "theme-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11863867"
 # Loop Builder
 
 Display repeating content from your WordPress database (posts, products, terms, users) in fully customizable layouts controlled by query parameters.
+
+!!! abstract "Quick Reference"
+    **What it does:** Transforms any container into a repeating template that iterates over database records (posts, products, terms, users, ACF repeaters).
+    **Where to find it:** Any container element's settings → Content Tab → Loop → enable Loop toggle.
+    **Key features:**
+
+    - Query types: Posts, Terms, Users, WordPress Menus, ACF Repeater Fields
+    - Full query configuration: post type, taxonomy filters, meta queries, ordering, offset
+    - Loop-specific dynamic content fields (Loop Post Title, Loop Featured Image, etc.)
+    - Separate Pagination module for splitting results across pages
+
+    **ET Docs:** [Loop Builder](https://help.elegantthemes.com/en/articles/11863867){:target="_blank"}
 
 ## Overview
 
@@ -193,3 +206,5 @@ Loop over a custom post type (Projects). Use meta queries to filter by project c
 - [Blog Module](../modules/blog.md)
 - [Portfolio Module](../modules/portfolio.md)
 - [Pagination Module](../modules/pagination.md)
+- [Flexbox Layout](flexbox.md) — Control loop item layout direction and alignment
+- [CSS Grid](css-grid.md) — Arrange loop items in precise grid layouts

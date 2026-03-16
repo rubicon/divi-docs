@@ -1,5 +1,6 @@
 ---
 title: "Comments"
+description: "Divi 5 Comments module — display and style WordPress comments with avatars, reply threading, and submission forms in any layout."
 category: modules
 tags: ["modules", "comments", "blog", "forms", "engagement", "theme-builder"]
 related: ["blog", "post-title"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10260827-the-comments-mo
 # Comments
 
 The Comments module displays and styles the WordPress comment section within Divi 5 layouts.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WordPress comment list and reply form with full visual styling control.
+    **When to use it:** Blog post templates, product feedback pages, community discussion sections
+    **Key settings:** Show Author Avatar, Show Reply Button, Show Comment Count, Show Comment Meta, Fields styling
+    **Block identifier:** `divi/comments`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260827-the-comments-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying comments on blog post templates built with the Theme Builder
+    - Adding a discussion section to pages, products, or custom post types
+    - Replacing default theme comment styling with a fully customized design
+
+!!! warning "When NOT to Use This Module"
+    - For collecting structured data from visitors → use [Contact Form](contact-form.md)
+    - For email newsletter signups → use [Email Optin](email-optin.md)
+    - For user authentication forms → use [Login](login.md)
 
 ## Overview
 

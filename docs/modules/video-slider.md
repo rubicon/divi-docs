@@ -1,5 +1,6 @@
 ---
 title: "Video Slider"
+description: "Complete Divi 5 Video Slider module reference — multi-video carousel, thumbnail navigation, overlay images, and player controls."
 category: modules
 tags: ["modules", "slider", "media", "video", "carousel", "gallery", "youtube", "vimeo"]
 related: ["video", "slider", "gallery"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10368157-the-video-slide
 # Video Slider
 
 The Video Slider module displays a collection of videos in a navigable carousel with thumbnail controls.
+
+!!! abstract "Quick Reference"
+    **What it does:** Presents multiple videos in a carousel with a main player area and clickable thumbnail navigation strip.
+    **When to use it:** Video portfolios, course/training libraries, product feature tours
+    **Key settings:** Video Items (repeater), Video URL/upload, Overlay image per item, Navigation arrows
+    **Block identifier:** `divi/video-slider`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10368157-the-video-slider-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Showcasing a collection of project highlight or testimonial videos in one component
+    - Building a navigable course or tutorial video series with thumbnail previews
+    - Presenting multiple product feature videos without stacking individual players
+
+!!! warning "When NOT to Use This Module"
+    - Embedding a single standalone video → use [Video](video.md)
+    - Creating an image-based slideshow → use [Slider](slider.md) or [Gallery](gallery.md)
 
 ## Overview
 

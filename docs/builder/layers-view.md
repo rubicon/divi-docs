@@ -1,5 +1,6 @@
 ---
 title: "Layers View"
+description: "Divi 5 Layers View — collapsible tree panel for navigating, reordering, renaming, locking, and managing every element on your page."
 category: builder
 tags: ["builder", "layers", "navigation", "workflow"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://www.elegantthemes.com/documentation/divi/using-the-divi-lay
 # Layers View
 
 Divi’s Layer View provides an efficient way to navigate your page’s elements while designing.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays all page elements in a collapsible hierarchical tree for navigation and management.
+    **Where to find it:** Left sidebar → Layers icon, or bottom toolbar → Layers icon.
+    **Key features:**
+
+    - Click any layer to select and open its settings
+    - Drag-and-drop reordering within and across containers
+    - Double-click to rename elements for clarity
+    - Lock, hide, and right-click context menu on every layer
+
+    **ET Docs:** [Layers View](https://www.elegantthemes.com/documentation/divi/using-the-divi-layers-view){:target="_blank"}
 
 The Divi layers view adds a very quick and easy way to view, rearrange, edit, and rename your elements. This is especially true when you have elements that have transition effects or negative margins on them that would normally be tricky to click on the traditional way.
 
@@ -111,3 +124,7 @@ Several [keyboard shortcuts](keyboard-shortcuts.md) work while the Layers panel 
 ## Related
 
 - [Visual Builder](visual-builder.md)
+- [Visual Builder Interface](vb-interface.md) -- Overview of the full editor workspace
+- [Wireframe View](wireframe-view.md) -- Structural editing mode as an alternative to layers
+- [Keyboard Shortcuts](keyboard-shortcuts.md) -- Shortcut to toggle the layers panel
+- [Right-Click Menus](right-click-menus.md) -- Context menu actions available from the layers panel

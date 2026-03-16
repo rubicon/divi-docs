@@ -1,5 +1,6 @@
 ---
 title: "Video"
+description: "Complete Divi 5 Video module reference — self-hosted, YouTube, and Vimeo embeds, overlay thumbnails, play icon styling, and responsive tips."
 category: modules
 tags: ["modules", "media", "video", "embed", "youtube", "vimeo", "self-hosted"]
 related: ["video-slider", "audio", "image"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10368098-the-video-modul
 # Video
 
 The Video module embeds a single video player from a self-hosted file, YouTube, or Vimeo into your page layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Embeds a responsive video player from a self-hosted file, YouTube, or Vimeo with an optional overlay thumbnail.
+    **When to use it:** Product demos, tutorial embeds, hero section media, testimonial recordings
+    **Key settings:** Video (URL/upload), Overlay image, Play Icon styling, Overlay styling
+    **Block identifier:** `divi/video`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10368098-the-video-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Embedding a single video from YouTube, Vimeo, or a self-hosted MP4 file
+    - Adding a branded overlay thumbnail with a custom play button
+    - Placing a featured video in a hero section or product page
+
+!!! warning "When NOT to Use This Module"
+    - Displaying multiple videos in a navigable carousel → use [Video Slider](video-slider.md)
+    - Embedding audio-only content → use [Audio](audio.md)
 
 ## Overview
 
@@ -222,6 +239,8 @@ After configuring your Video module, save your changes using one of these method
 
 ## Related
 
-- [Video Slider](video-slider.md)
-- [Audio](audio.md)
-- [Image](image.md)
+- [Video Slider](video-slider.md) — Display multiple videos in a sliding carousel format
+- [Audio](audio.md) — Embed audio files with a built-in player
+- [Image](image.md) — Display a single image with optional lightbox and link
+- [Overlay Options](../options-groups/overlay.md) — Configure play button overlay on video thumbnails
+- [Sizing Options](../options-groups/sizing.md) — Control the video container dimensions and aspect ratio

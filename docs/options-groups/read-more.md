@@ -1,5 +1,6 @@
 ---
 title: "Read More Options"
+description: "Divi 5 Read More options group — font, size, color, weight, and spacing controls for Read More links in blog feed layouts."
 category: options-groups
 tags: ["options-groups", "read-more"]
 related: ["button", "text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248771"
 # Read More Options
 
 Controls the typography and appearance of "Read More" links displayed in blog feed and content listing modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, letter spacing, line height, and text shadow for Read More links
+    **Where to find it:** Design Tab → Read More
+    **Available on:** Blog module
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248771)
 
 ## Overview
 

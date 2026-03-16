@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Stock"
+description: "Divi 5 Woo Product Stock module — WooCommerce product stock status and inventory count display with customizable styling."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Stock
 
-The Woo Product Stock module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Stock module displays the stock status and inventory count for a WooCommerce product.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows the product stock number and availability status pulled from WooCommerce inventory settings.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-stock`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-stock-module/)
+
+!!! tip "When to Use This Module"
+    - Displaying stock availability on custom product page templates
+    - Creating urgency with low-stock indicators on product pages
+    - Positioning stock status information near the add-to-cart area
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - When stock management is disabled in WooCommerce → the module will show no data
+    - For product pricing → use [Woo Product Price](woo-product-price.md)
 
 ## Overview
 

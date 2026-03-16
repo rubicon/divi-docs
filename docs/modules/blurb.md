@@ -1,5 +1,6 @@
 ---
 title: "Blurb Module"
+description: "Complete Divi 5 Blurb module reference — icon or image with heading and text for feature boxes, service cards, and content blocks."
 category: modules
 tags: ["modules", "content-modules", "blurb", "icon", "image", "feature-box", "service-card"]
 related: ["icon", "text", "call-to-action"]
@@ -11,6 +12,24 @@ source_url: "https://help.elegantthemes.com/en/articles/10226428-the-blurb-modul
 # Blurb Module
 
 The Blurb module pairs an icon or image with a heading and descriptive text to create compact, visually engaging content blocks.
+
+!!! abstract "Quick Reference"
+    **What it does:** Combines an icon or image with a title and body text to create a self-contained content block.
+    **When to use it:** Feature grids, service descriptions, process steps, linked card navigation
+    **Key settings:** Image & Icon (icon/image mode), Text (title/body), Link, Image/Icon Placement (top/left)
+    **Block identifier:** `divi/blurb`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10226428-the-blurb-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need an icon or image paired with a heading and short description
+    - Feature highlight grids, service listings, or benefit sections
+    - Clickable card-style navigation elements with visual icons
+
+!!! warning "When NOT to Use This Module"
+    - You need a standalone icon without text → use [Icon](icon.md)
+    - You need long-form text content without a visual element → use [Text](text.md)
+    - You need a heading, description, and prominent button → use [Call to Action](call-to-action.md)
+    - You need a list of icon-paired items → use [Icon List](icon-list.md)
 
 ## Overview
 
@@ -262,3 +281,6 @@ After configuring the Blurb module:
 - [Icon Module](icon.md) — Display a standalone icon without accompanying text
 - [Text Module](text.md) — For longer-form content blocks without an image or icon element
 - [Call to Action Module](call-to-action.md) — Combines a heading, description, and button for conversion-focused content blocks
+- [Icon List Module](icon-list.md) — Display a list of items each paired with an icon
+- [Image & Icon Options](../options-groups/image-icon.md) — Configure image/icon display settings shared across modules
+- [Flexbox Layout](../builder/flexbox.md) — Control blurb card alignment and spacing in grid layouts

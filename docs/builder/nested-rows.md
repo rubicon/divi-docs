@@ -1,5 +1,6 @@
 ---
 title: "Nested Rows"
+description: "Divi 5 nested rows — insert rows inside columns for sub-grid layouts with independent column structures and responsive behavior."
 category: builder
 tags: ["builder", "nested-rows", "layout", "columns", "hierarchy"]
 related: ["nested-modules", "flexbox", "css-grid"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11009228"
 # Nested Rows
 
 Insert rows inside columns to create sub-layouts with their own column structures, adding a second level of row-based organization to your pages.
+
+!!! abstract "Quick Reference"
+    **What it does:** Places a Row inside a Column to create a sub-layout with its own column structure.
+    **Where to find it:** Drag a row into a column, or click the insert (+) icon inside a column → New Row tab.
+    **Key features:**
+
+    - Extends hierarchy to Section → Row → Column → Nested Row → Column → Module
+    - Supports all standard column structure presets and custom Column Class widths
+    - One level of nesting only (no rows inside nested rows)
+    - Fully responsive with per-breakpoint column width configuration
+
+    **ET Docs:** [Nested Rows](https://help.elegantthemes.com/en/articles/11009228){:target="_blank"}
 
 ## Overview
 

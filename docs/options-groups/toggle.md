@@ -1,5 +1,6 @@
 ---
 title: "Toggle Options"
+description: "Divi 5 Toggle options group — open and closed state background colors for collapsible accordion and toggle module items."
 category: options-groups
 tags: ["options-groups", "toggle"]
 related: ["accordion-icon", "toggle-icon"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10101806"
 # Toggle Options
 
 Controls the background colors for open and closed states of collapsible toggle elements in Divi 5.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Separate background colors for open (expanded) and closed (collapsed) toggle item states
+    **Where to find it:** Design Tab → Toggle
+    **Available on:** Accordion and Toggle modules only
+    **Responsive:** No — colors apply uniformly across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10101806)
 
 ## Overview
 

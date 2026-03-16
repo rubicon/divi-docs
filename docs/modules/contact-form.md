@@ -1,5 +1,6 @@
 ---
 title: "Contact Form"
+description: "Divi 5 Contact Form module — field configuration, email routing, spam protection, conditional logic, and custom styling for forms."
 category: modules
 tags: ["modules", "forms", "interactive", "contact", "email", "spam-protection", "recaptcha"]
 related: ["email-optin", "login"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10260983-the-contact-for
 # Contact Form
 
 The Contact Form module lets visitors send messages directly from your site using a configurable multi-field form with email routing, spam protection, and conditional logic.
+
+!!! abstract "Quick Reference"
+    **What it does:** Builds multi-field forms that send email notifications on submission with spam protection.
+    **When to use it:** Contact pages, support request intake, event registration, RSVP forms
+    **Key settings:** Form Fields (repeater), Email To, Message Pattern, Subject, Spam Protection, Redirect URL
+    **Block identifier:** `divi/contact-form`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260983-the-contact-form-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Collecting visitor inquiries, feedback, or support requests via email
+    - Building multi-field forms with conditional logic and validation
+    - Creating registration or RSVP forms with customizable field types
+
+!!! warning "When NOT to Use This Module"
+    - For email newsletter signups with ESP integration → use [Email Optin](email-optin.md)
+    - For user login and authentication → use [Login](login.md)
+    - For displaying WordPress comments → use [Comments](comments.md)
 
 ## Overview
 
@@ -29,7 +47,7 @@ For additional reference, see the [official Elegant Themes documentation](https:
 
 ## Use Cases
 
-1. **Standard Contact Page** — Place the form on a dedicated Contact page with Name, Email, and Message fields alongside a Map module or Blurb modules displaying your address and phone number.
+1. **Standard Contact Page** — Place the form on a dedicated Contact page with Name, Email, and Message fields alongside a [Map](map.md) module or [Blurb](blurb.md) modules displaying your address and phone number.
 2. **Support Request Intake** — Build a multi-field form with dropdowns for issue category and priority, conditional fields that appear based on selections, and a structured message pattern that formats submissions for your support team.
 3. **Event Registration or RSVP** — Collect attendee names, emails, dietary preferences (checkbox), and guest count (select) with a redirect to a confirmation page after submission.
 
@@ -369,3 +387,6 @@ After configuring the Contact Form module:
 
 - [Email Optin](email-optin.md) — For newsletter signups with direct ESP integration
 - [Login](login.md) — For user authentication forms
+- [Spam Protection Options](../options-groups/spam-protection.md) — reCAPTCHA and honeypot settings for form security
+- [Fields Options](../options-groups/fields.md) — Shared form field styling and configuration
+- [Playbook: Build a Page](../playbooks/build-a-page.md) — Step-by-step guide to assembling pages with forms and content

@@ -1,5 +1,6 @@
 ---
 title: "build-a-page"
+description: "LLM playbook for building pages in Divi 5 — step-by-step process, section/row/column hierarchy, and module placement patterns for AI-assisted workflows."
 category: playbooks
 tags: [playbook]
 divi_version: "5.x"

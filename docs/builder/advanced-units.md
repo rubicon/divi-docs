@@ -1,5 +1,6 @@
 ---
 title: "Advanced Units"
+description: "Divi 5 Advanced Units — use calc(), clamp(), min(), max(), CSS keywords, and custom CSS variables in any numeric field via the unit picker."
 category: builder
 tags: [builder, advanced-units, css-functions, css-variables, responsive-design, design-system]
 related: [design-variables, relative-colors-hsl]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/10823890"
 # Advanced Units
 
 Divi 5's advanced unit system separates values from their units in numeric fields and adds support for CSS math functions, keywords, and custom CSS variables — enabling responsive, computed values directly in the Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Separates value from unit in numeric fields, enabling CSS math functions, keywords, and custom variables.
+    **Where to find it:** Unit picker on any numeric field in element settings (spacing, sizing, typography, borders, etc.).
+    **Key features:**
+
+    - CSS math functions: `calc()`, `clamp()`, `min()`, `max()`
+    - CSS keywords: `auto`, `none`, `inherit`, `unset`
+    - Custom CSS variables via `var(--name)` at site, page, or element scope
+    - Supports px, em, rem, %, vw, vh, vmin, vmax, and angle units
+
+    **ET Docs:** [Advanced Units](https://help.elegantthemes.com/en/articles/10823890){:target="_blank"}
 
 ## Overview
 

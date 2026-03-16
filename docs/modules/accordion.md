@@ -1,5 +1,6 @@
 ---
 title: "Accordion"
+description: "Complete Divi 5 Accordion module reference — settings, design options, code examples, and troubleshooting for collapsible content panels."
 category: modules
 tags: ["modules", "content-toggle", "faq", "collapsible"]
 related: ["toggle", "tabs"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10063343-the-accordion-m
 # Accordion
 
 The Accordion module displays collapsible content sections where only one item is open at a time.
+
+!!! abstract "Quick Reference"
+    **What it does:** Organizes content into vertically stacked expandable/collapsible panels where only one panel is open at a time.
+    **When to use it:** FAQ sections, product/service detail breakdowns, step-by-step instructions
+    **Key settings:** Toggle Icon, Loop, Order, individual item Title and Content
+    **Block identifier:** `divi/accordion`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10063343-the-accordion-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need collapsible content sections where only one item should be open at a time
+    - FAQ pages where visitors scan questions and expand individual answers
+    - Long-form content that needs to be broken into scannable, on-demand sections
+
+!!! warning "When NOT to Use This Module"
+    - You need multiple items open simultaneously → use [Toggle](toggle.md)
+    - You want horizontal tab-based content organization → use [Tabs](tabs.md)
+    - You need rich media galleries or sliders → use [Gallery](gallery.md) or [Slider](slider.md)
 
 ## Overview
 
@@ -255,3 +273,6 @@ After configuring the accordion:
 
 - [Toggle](toggle.md) — Similar collapsible panels, but multiple items can be open at once
 - [Tabs](tabs.md) — Horizontal tab-based content organization as an alternative to vertical accordions
+- [Accordion Icon Options](../options-groups/accordion-icon.md) — Style the expand/collapse indicator icon
+- [Toggle Icon Options](../options-groups/toggle-icon.md) — Related icon styling for toggle-style elements
+- [Playbook: Build a Page](../playbooks/build-a-page.md) — Step-by-step page building workflow in the Visual Builder

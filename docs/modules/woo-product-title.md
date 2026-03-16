@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Title"
+description: "Divi 5 Woo Product Title module — WooCommerce dynamic product title display with full typography and heading level controls."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Title
 
-The Woo Product Title module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Title module dynamically displays the WooCommerce product title with customizable styling.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce product name dynamically with full typography and heading controls.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Title text styling, Heading level, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-title`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-title-module/)
+
+!!! tip "When to Use This Module"
+    - Building custom WooCommerce product page templates with a styled product name
+    - Positioning the product title independently in a multi-column product layout
+    - Styling the product title with custom fonts, sizes, and colors
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For post or page titles → use [Post Title](post-title.md)
+    - For static headings → use [Heading](heading.md) or [Text](text.md)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Nested Modules"
+description: "Divi 5 nested modules — place any module inside another module with full Flex and Grid layout controls for deeply layered compositions."
 category: builder
 tags: ["builder", "nested-modules", "layout", "innerblocks", "flex", "grid"]
 related: ["nested-rows", "canvases", "flexbox", "css-grid"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12672584"
 # Nested Modules
 
 Place modules inside other modules to build complex, deeply layered layouts without custom code.
+
+!!! abstract "Quick Reference"
+    **What it does:** Allows any Divi module to contain child modules, enabling multi-level nesting with layout controls.
+    **Where to find it:** Content Tab → Elements → Add Element, or right-click → Add Element Inside.
+    **Key features:**
+
+    - Every element acts as a Flex or Grid container when it holds children
+    - Insert via settings panel (Content → Elements) or right-click context menu
+    - Full layout controls (direction, alignment, gap, wrapping) on parent modules
+    - Layers View shows nested hierarchy for deep structures
+
+    **ET Docs:** [Nested Modules](https://help.elegantthemes.com/en/articles/12672584){:target="_blank"}
 
 ## Overview
 

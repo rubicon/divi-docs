@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Reviews"
+description: "Divi 5 Woo Product Reviews module — WooCommerce customer review list and review submission form with customizable styling."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Reviews
 
-The Woo Product Reviews module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Reviews module displays customer reviews and a review submission form for WooCommerce products.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce product review list and the leave-a-review form.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Text color, Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-reviews`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-reviews-module/)
+
+!!! tip "When to Use This Module"
+    - Building custom WooCommerce product pages with a dedicated reviews section
+    - Displaying customer reviews and star ratings to build buyer trust
+    - Positioning the reviews section independently in your product template layout
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For average star rating only → use [Woo Product Rating](woo-product-rating.md)
+    - For blog post comments → use [Comments](comments.md)
 
 ## Overview
 

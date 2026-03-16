@@ -1,5 +1,6 @@
 ---
 title: "Filters Options"
+description: "Divi 5 Filters options group — CSS filters for hue, saturation, brightness, contrast, blur, opacity, and blend mode on any element."
 category: options-groups
 tags: ["options-groups", "filters", "design", "styling"]
 related: ["transform", "animation"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102602"
 # Filters Options
 
 The Filters options group applies visual effects such as color shifts, blur, and blending modes to any Divi 5 element.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Hue, saturation, brightness, contrast, invert, sepia, opacity, blur, and blend mode
+    **Where to find it:** Design Tab → Filters
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — filter values can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102602)
 
 ## Overview
 
@@ -77,3 +85,6 @@ Use blend mode to create a duotone effect:
 
 - [Transform Options](transform.md)
 - [Animation Options](animation.md)
+- [Transitions Options](transitions.md) — Animate filter changes on hover for interactive effects
+- [Image Module](../modules/image.md) — Images commonly use brightness, contrast, and saturation filters
+- [Gallery Module](../modules/gallery.md) — Apply filters to gallery images for visual consistency

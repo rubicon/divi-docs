@@ -1,5 +1,6 @@
 ---
 title: "Speculative Prerendering"
+description: "Divi 5 Speculative Prerendering — preloads builder pages in the background based on cursor movement for near-instant navigation between pages."
 category: builder
 tags: ["builder", "performance", "prerendering", "speed", "navigation"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13820117"
 # Speculative Prerendering
 
 Preload pages in the background based on cursor movement so builder navigation feels instant.
+
+!!! abstract "Quick Reference"
+    **What it does:** Uses the Speculation Rules API to prerender destination pages before you click, reducing perceived load times.
+    **Where to find it:** Builder Settings (left sidebar) → Speculative Prerendering toggle (enabled by default).
+    **Key features:**
+
+    - Activates on admin bar links, builder exit navigation, and Command Center results
+    - Supported in Chrome, Edge, and Opera (silently inactive in Safari/Firefox)
+    - Builder/admin context only — no impact on front-end visitor experience
+    - Toggle off if server resources are constrained
+
+    **ET Docs:** [Speculative Prerendering](https://help.elegantthemes.com/en/articles/13820117){:target="_blank"}
 
 ## Overview
 

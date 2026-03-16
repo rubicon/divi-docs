@@ -1,5 +1,6 @@
 ---
 title: "Support Center"
+description: "Divi 5 Support Center — system status reports, Safe Mode for conflict isolation, debug logging, remote access tokens, and built-in documentation search."
 category: builder
 tags: ["builder", "support", "debugging", "safe-mode"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://www.elegantthemes.com/documentation/divi/using-the-divi-sup
 # Support Center
 
 The Divi Support Center gives you and our support team the tools they need to fix problems more quickly and efficiently, without disrupting your website.
+
+!!! abstract "Quick Reference"
+    **What it does:** Provides diagnostic tools for troubleshooting Divi issues, including system health checks, Safe Mode, and debug logging.
+    **Where to find it:** WordPress admin → Divi → Support.
+    **Key features:**
+
+    - Automated System Status panel checking PHP, WordPress, MySQL, and plugin/theme conflicts
+    - Safe Mode to temporarily disable child theme, custom CSS, and plugins for conflict isolation
+    - Debug Log for Divi-specific errors and warnings
+    - Secure Remote Access tokens for Elegant Themes support agents
+
+    **ET Docs:** [Support Center](https://www.elegantthemes.com/documentation/divi/using-the-divi-support-center){:target="_blank"}
 
 The Divi Support Center is designed to bring all of the elements of great support into one interface. Fully automated system status reports, in-depth documentation, safe mode, a debug log, and even seamless remote access for support agents.
 

@@ -1,5 +1,6 @@
 ---
 title: "Transitions Options"
+description: "Divi 5 Transitions options group — duration, delay, and speed curve controls for smooth hover-state animations on any element."
 category: options-groups
 tags: ["options-groups", "transitions", "design", "styling"]
 related: ["animation", "transform"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102770"
 # Transitions Options
 
 The Transitions options group controls the timing and easing of hover-state animations on Divi 5 elements.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Transition duration, delay, and speed curve for hover-state property changes
+    **Where to find it:** Advanced Tab → Transitions
+    **Available on:** All modules
+    **Responsive:** Yes — transition values apply across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102770)
 
 ## Overview
 
@@ -78,3 +86,6 @@ Add a staggered transition delay on navigation items:
 
 - [Animation Options](animation.md)
 - [Transform Options](transform.md)
+- [Filters Options](filters.md) — Animate filter values on hover using transition timing
+- [Box Shadow Options](box-shadow.md) — Smooth shadow changes on hover with transition duration
+- [Interactions](../builder/interactions.md) — Advanced multi-step transitions triggered by user actions

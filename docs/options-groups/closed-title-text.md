@@ -1,5 +1,6 @@
 ---
 title: "Closed Title Text Options"
+description: "Divi 5 Closed Title Text options group — font, weight, size, color, and shadow for collapsed accordion and toggle item titles."
 category: options-groups
 tags: ["options-groups", "closed-title-text"]
 related: ["title-text", "toggle"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102283"
 # Closed Title Text Options
 
 Styles the title text of accordion and toggle items when they are in the closed (collapsed) state.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, heading level, and text shadow for collapsed toggle titles
+    **Where to find it:** Design Tab → Closed Title Text
+    **Available on:** Accordion module only
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102283)
 
 ## Overview
 

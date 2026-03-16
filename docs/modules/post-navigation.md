@@ -1,5 +1,6 @@
 ---
 title: "Post Navigation"
+description: "Complete Divi 5 Post Navigation module reference — previous/next post links, same-category filtering, Theme Builder usage, and styling."
 category: modules
 tags: ["modules", "blog", "navigation", "post-links", "previous-next", "theme-builder", "pagination"]
 related: ["post-title", "blog", "post-slider"]
@@ -11,6 +12,22 @@ source_url: "https://www.elegantthemes.com/documentation/divi/post-navigation/"
 # Post Navigation
 
 The Post Navigation module displays previous and next links that guide visitors between individual blog posts or projects.
+
+!!! abstract "Quick Reference"
+    **What it does:** Outputs previous/next post links on single post or project pages for sequential content browsing.
+    **When to use it:** Blog post template footers, portfolio project walkthroughs, tutorial series navigation
+    **Key settings:** Previous Text, Next Text, In Same Category, Show Previous/Next Link
+    **Block identifier:** `divi/post-navigation`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/post-navigation/)
+
+!!! tip "When to Use This Module"
+    - Adding previous/next post links at the bottom of single post Theme Builder templates
+    - Creating sequential navigation through portfolio projects or case studies
+    - Restricting navigation to same-category posts for tutorial series
+
+!!! warning "When NOT to Use This Module"
+    - Paginating archive listings or loop-driven content → use [Pagination](pagination.md)
+    - Displaying a grid or list of blog posts → use [Blog](blog.md)
 
 ## Overview
 

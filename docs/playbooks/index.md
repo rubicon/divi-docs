@@ -1,5 +1,6 @@
 ---
 title: "LLM Playbooks"
+description: "Divi 5 LLM playbooks — instruction guides that teach AI assistants how to build pages, manage CSS, automate the Visual Builder, and avoid common pitfalls."
 category: playbooks
 tags: [playbooks, llm, ai, automation, guide]
 last_updated: 2026-03-12
@@ -8,6 +9,11 @@ last_updated: 2026-03-12
 # LLM Playbooks
 
 Instruction guides that teach AI assistants how to operate Divi 5.
+
+!!! abstract "Quick Reference"
+    **What these are:** LLM-first documentation designed for AI assistants helping users build and modify Divi 5 websites.
+    **How to use:** Drop playbooks into your AI assistant's context (system prompt, project knowledge, etc.) before asking Divi questions.
+    **Playbooks available:** Design System Setup | Build a Page | Visual Builder Ops | CSS in Divi | Responsive Design | Layout Patterns | HTML Workarounds | REST API Content | Browser Automation | Theme Builder Ops | Known Limitations | Troubleshooting Tree
 
 ## What These Are
 

@@ -1,5 +1,6 @@
 ---
 title: "Command Center"
+description: "Divi 5 Command Center — searchable command palette with queue operators for adding elements, applying presets, and navigating the builder via keyboard."
 category: builder
 tags: ["builder", "command-center", "keyboard-shortcuts", "workflow", "productivity"]
 related: ["visual-builder", "presets"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13741079"
 # Command Center
 
 A keyboard-driven command palette for quickly adding elements, opening panels, applying presets, and navigating the builder without using the mouse.
+
+!!! abstract "Quick Reference"
+    **What it does:** Searchable command palette for executing builder actions by typing instead of clicking.
+    **Where to find it:** Press **Cmd/Ctrl + K**, or click the lightning bolt icon in the left sidebar.
+    **Key features:**
+
+    - Fuzzy-matching search across elements, modals, settings, views, and presets
+    - Queue operators: `>` (nest), `*` (multiply), `^` (above), `+` (attach preset)
+    - Category filtering with `:element`, `:modal`, `:view` prefixes
+    - Context-aware element insertion relative to the selected element
+
+    **ET Docs:** [Command Center](https://help.elegantthemes.com/en/articles/13741079){:target="_blank"}
 
 ## Overview
 

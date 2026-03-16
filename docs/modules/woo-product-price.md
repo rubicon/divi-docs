@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Price"
+description: "Divi 5 Woo Product Price module — WooCommerce product price display with sale pricing, strikethrough, and custom typography."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Price
 
-The Woo Product Price module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Price module displays the WooCommerce product price with support for sale pricing and custom styling.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce product price, including regular and sale pricing with strikethrough formatting.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Price text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-price`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-price-module/)
+
+!!! tip "When to Use This Module"
+    - Building custom WooCommerce product page templates with prominent pricing
+    - Displaying sale prices with visual emphasis on the discount
+    - Positioning the price independently from other product elements
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For product grids with prices → use [Shop](shop.md) (prices are built in)
+    - For cart or checkout totals → use [Woo Cart Totals](woo-cart-totals.md) or [Woo Checkout Details](woo-checkout-details.md)
 
 ## Overview
 

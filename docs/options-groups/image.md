@@ -1,5 +1,6 @@
 ---
 title: "Image Options"
+description: "Divi 5 Image options group — border, rounded corners, box shadow, CSS filters, and blend mode controls for featured images."
 category: options-groups
 tags: ["options-groups", "image"]
 related: ["image-icon", "overlay", "filters"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248754"
 # Image Options
 
 Controls the border, shadow, and filter effects applied to featured images within Divi 5 modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Image border, rounded corners, box shadow, CSS filters (hue, saturation, brightness, etc.), and blend mode
+    **Where to find it:** Design Tab → Image
+    **Available on:** Modules with featured images (Image, Blurb, Blog, Person, Testimonial, Portfolio, Gallery)
+    **Responsive:** Yes — image styling values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248754)
 
 ## Overview
 

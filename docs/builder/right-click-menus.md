@@ -1,5 +1,6 @@
 ---
 title: "Right-Click Menus"
+description: "Divi 5 right-click context menus — copy, paste, extend, lock, reset, and manage element attributes directly from the canvas."
 category: builder
 tags: ["builder", "right-click", "context-menu", "workflow"]
 related: ["keyboard-shortcuts", "vb-interface"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12992238"
 # Right-Click Menus
 
 Context-sensitive menus that appear when you right-click any element in the Divi 5 Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Provides contextual access to copy, paste, extend, reset, lock, disable, and save operations on any element.
+    **Where to find it:** Right-click any element on the Visual Builder canvas or in Layers View.
+    **Key features:**
+
+    - Granular paste options (All, Design, Content, Presets, Select)
+    - Extend and Find & Replace attribute operations
+    - Reset options at element, tab, group, or field level
+    - Lock, disable, and save-to-library actions
+
+    **ET Docs:** [Divi Right-Click Menus](https://help.elegantthemes.com/en/articles/12992238){:target="_blank"}
 
 ## Overview
 

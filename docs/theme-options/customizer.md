@@ -1,5 +1,6 @@
 ---
 title: "Theme & Module Customizer"
+description: "Divi 5 Theme and Module Customizer — site-wide styling controls for header, navigation, body text, headings, and per-module size and font customization."
 category: theme-options
 tags: ["theme-options", "customizer", "styling"]
 related: ["general", "navigation", "layout"]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/customizer"
 # Theme & Module Customizer
 
 Divi makes it easy to take your custom layouts anywhere using the WordPress Importer.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Site-wide theme element styling (menu, logo, text styles) and per-module size and font controls via live preview.
+    **Where to find it:** Divi → Theme Customizer and Divi → Module Customizer
+    **Key settings:** Header & Navigation styling, Body/Header text fonts and sizes, Individual module sizing and font controls
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/customizer](https://www.elegantthemes.com/documentation/divi/customizer)
 
 The Theme & Module customizers give you control over just about every single element on your page. Want to adjust the size or spacing of text or an element of your website at the click of a button? The Customizer is where you want to start! To customizer panels can be accessed via theDivi > Theme CustomizerandDivi > Module Customizerlinks in your WordPress Dashboard. The Theme Customizer gives you control over site-wide theme elements, such as your menu & logo size or your body and header text styles. The Module Customizer gives you size & font controls over individual modules. Do you want to reduce the height of all the slider modules on your website? That can be done in just a few seconds via the Module Customizer! Let’s take a closer look.
 

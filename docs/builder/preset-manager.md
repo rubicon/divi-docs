@@ -1,5 +1,6 @@
 ---
 title: "Preset Manager"
+description: "Divi 5 Preset Manager — centralized sidebar panel for browsing, creating, editing, reordering, and importing/exporting all site presets."
 category: builder
 tags: [builder, presets, preset-manager, design-system, management]
 related: [option-group-presets, stacked-nested-presets, presets]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13427552"
 # Preset Manager
 
 The Preset Manager is a centralized sidebar tool in the Divi 5 Visual Builder that lists every preset on your site — both element presets and option group presets — in one place, with search, filtering, reordering, and a live preview panel.
+
+!!! abstract "Quick Reference"
+    **What it does:** Provides a single interface to view, create, edit, duplicate, delete, reorder, and preview all presets on your site.
+    **Where to find it:** Left sidebar → Preset Manager icon.
+    **Key features:**
+
+    - Browse element presets and option group presets organized by type
+    - Live Preview Panel for refining presets without affecting real page content
+    - Import/export preset collections for sharing design systems between sites
+    - Set defaults, reorder, and search across all preset types
+
+    **ET Docs:** [Preset Manager](https://help.elegantthemes.com/en/articles/13427552){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Extend Attributes"
+description: "Divi 5 Extend Attributes — propagate styles, content, or presets from one element to all matching elements across a group, section, or page."
 category: builder
 tags: ["builder", "extend-attributes", "extend-styles", "propagate", "workflow"]
 related: ["attribute-management", "presets", "find-and-replace"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11550066"
 # Extend Attributes
 
 Propagate any attribute or collection of attributes from one element to many others across a defined scope, making sweeping design changes in a single action.
+
+!!! abstract "Quick Reference"
+    **What it does:** Propagates attributes from a source element to all matching elements within a chosen scope in one action.
+    **Where to find it:** Right-click any element → Extend Attributes, or right-click an option group/field → Extend Styles.
+    **Key features:**
+
+    - Five scope levels: Same Group, Same Column, Same Row, Same Section, Entire Page
+    - Filter by element type (e.g., only Buttons, only Blurbs)
+    - Choose attribute type: Styles, Content, Presets, or combinations
+    - Narrow to specific option groups or individual fields
+
+    **ET Docs:** [Extend Attributes](https://help.elegantthemes.com/en/articles/11550066){:target="_blank"}
 
 ## Overview
 

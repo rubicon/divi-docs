@@ -1,5 +1,6 @@
 ---
 title: "Spacing Options"
+description: "Divi 5 Spacing options group — margin and padding controls with responsive breakpoints, unit selection, and linked value toggles for all elements."
 category: options-groups
 tags: ["options-groups", "spacing", "design", "styling"]
 related: ["sizing", "position"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102490"
 # Spacing Options
 
 The Spacing options group controls the margin and padding of any Divi 5 element, managing the space inside and around it.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Margin and padding values for all four sides with linked value toggles
+    **Where to find it:** Design Tab → Spacing
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — spacing values can be set independently per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102490)
 
 ## Overview
 
@@ -66,3 +74,6 @@ Use responsive spacing with viewport-relative units:
 
 - [Sizing Options](sizing.md)
 - [Position Options](position.md)
+- [Flexbox Layout](../builder/flexbox.md) — Use gap and alignment instead of manual spacing in flex containers
+- [Responsive Options](../builder/responsive-options.md) — Set different margin and padding values per breakpoint
+- [Advanced Units](../builder/advanced-units.md) — Use calc(), vw, and other CSS functions in spacing fields

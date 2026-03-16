@@ -1,5 +1,6 @@
 ---
 title: "Content Encoding"
+description: "Divi 5 content encoding internals — unicode escape rules for HTML inside block JSON attributes, including text block encoding and testimonial exceptions."
 category: internals
 tags: [encoding, unicode, html, json, content]
 related: [block-format, ssr-rendering]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # Content Encoding
 
 Unicode encoding rules for HTML content inside Divi 5 block JSON attributes.
+
+!!! abstract "Quick Reference"
+    **What this documents:** How HTML content must be encoded inside Divi 5 block JSON attributes using literal unicode escape strings.
+    **Key data structures:** `\u003c` (`<`), `\u003e` (`>`), `\u0022` (`"`) — literal 6-character escape strings in `content.innerContent` values.
+    **Last verified:** 2026-03-12
 
 ## Text Block Encoding
 

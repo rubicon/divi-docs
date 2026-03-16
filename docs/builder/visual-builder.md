@@ -1,5 +1,6 @@
 ---
 title: "Visual Builder"
+description: "Divi 5 Visual Builder — front-end drag-and-drop page editor with real-time WYSIWYG editing, responsive previews, and inline design controls."
 category: builder
 tags: [builder, visual-builder, editor, drag-drop, frontend]
 related: [theme-builder, library, presets, global-elements]
@@ -11,6 +12,19 @@ source_url: "https://www.elegantthemes.com/documentation/divi/visual-builder/"
 # Visual Builder
 
 The Divi Visual Builder is the front-end, drag-and-drop page editor that lets you design pages visually in real time.
+
+!!! abstract "Quick Reference"
+    **What it does:** Front-end WYSIWYG page editor for building and styling pages with drag-and-drop controls.
+    **Where to find it:** Navigate to any page → click "Enable Visual Builder" in the admin bar, or Pages → Add New → Use Divi Builder.
+    **Key features:**
+
+    - Drag-and-drop element placement with inline text editing
+    - Section → Row → Column → Module content hierarchy
+    - Three-tab settings panel (Content, Design, Advanced) for every element
+    - Responsive editing with device preview modes
+    - Undo/redo history with auto-save
+
+    **ET Docs:** [Visual Builder](https://www.elegantthemes.com/documentation/divi/visual-builder/){:target="_blank"}
 
 ## Overview
 
@@ -382,6 +396,9 @@ In the Advanced tab of any element's settings, you can add custom CSS:
 - [Presets](presets.md) -- Creating and managing element presets
 - [Global Elements](global-elements.md) -- Reusable synced elements
 - [Modules Overview](../modules/index.md) -- All available content modules
+- [Playbook: Visual Builder Ops](../playbooks/visual-builder-ops.md) -- LLM playbook for automating the Visual Builder
+- [Keyboard Shortcuts](keyboard-shortcuts.md) -- Complete keyboard shortcut reference
+- [Layers View](layers-view.md) -- Navigate and manage page structure from the layers panel
 
 ## Visual Builder Features
 

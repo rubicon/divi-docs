@@ -1,5 +1,6 @@
 ---
 title: "Hero"
+description: "Complete Divi 5 Hero module reference — full-screen landing sections with title, subtitle, dual buttons, images, and overlay settings."
 category: modules
 tags: ["modules", "hero", "header", "banner", "landing-page", "cta", "fullwidth"]
 related: ["fullwidth-header", "slider", "call-to-action"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10369762-the-hero-module
 # Hero
 
 The Hero module displays a prominent content block with a title, subtitle, body text, dual buttons, images, and an icon for impactful landing sections.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates a high-visibility landing section with title, subtitle, body text, logo, background image, icon, and two CTA buttons.
+    **When to use it:** Homepage hero sections, promotional banners, section introductions, landing pages
+    **Key settings:** Title, Subtitle, Body text, Button One/Two, Images (logo and header), Full-screen toggle, Overlay, Scroll Down Icon
+    **Block identifier:** `divi/hero`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10369762-the-hero-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a self-contained hero section with title, subtitle, body text, and dual CTA buttons
+    - Full-screen landing areas with background images and overlays
+    - Section introductions that need a prominent visual treatment with multiple content elements
+
+!!! warning "When NOT to Use This Module"
+    - You need an edge-to-edge fullwidth hero → use [Fullwidth Header](fullwidth-header.md)
+    - You need rotating hero slides → use [Slider](slider.md)
+    - You need only a heading and button (no subtitle or body) → use [Call to Action](call-to-action.md)
 
 ## Overview
 
@@ -259,3 +277,6 @@ After configuring the Hero module:
 - [Fullwidth Header](fullwidth-header.md) — Legacy fullwidth header module with similar hero-style layout capabilities
 - [Slider](slider.md) — Sliding content panels with text overlays and navigation controls
 - [Call to Action](call-to-action.md) — Focused conversion block with heading, description, and button
+- [Background Options](../options-groups/background.md) — Configure background images, videos, and gradients for hero sections
+- [Button Options Group](../options-groups/button.md) — Style the hero's call-to-action buttons
+- [Scroll Effects Options](../options-groups/scroll-effects.md) — Add parallax and scroll-driven animations to hero content

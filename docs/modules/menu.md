@@ -1,5 +1,6 @@
 ---
 title: "Menu"
+description: "Complete Divi 5 Menu module reference — WordPress nav menus, logo, search, cart icon, dropdown styling, and mobile menu setup."
 category: modules
 tags: ["modules", "navigation", "menu", "header", "logo", "dropdown", "mobile-menu", "search", "cart"]
 related: ["fullwidth-menu", "sidebar"]
@@ -12,9 +13,25 @@ source_url: "https://help.elegantthemes.com/en/articles/10353582-the-menu-module
 
 The Menu module displays a WordPress navigation menu with optional logo, search icon, and shopping cart icon within Divi 5 layouts.
 
+!!! abstract "Quick Reference"
+    **What it does:** Renders a WordPress navigation menu with optional logo, search, and WooCommerce cart icons.
+    **When to use it:** Custom landing page headers, secondary in-page navigation, sidebar menus
+    **Key settings:** Content (menu select), Logo, Search Icon, Shopping Cart Icon, Dropdown Direction
+    **Block identifier:** `divi/menu`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353582-the-menu-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building a page-specific navigation bar that differs from the global header
+    - Adding secondary or sidebar navigation within content areas
+    - Creating a navigation bar with integrated logo, search, and cart icons
+
+!!! warning "When NOT to Use This Module"
+    - Building a full-width site-wide header navigation → use [Fullwidth Menu](fullwidth-menu.md)
+    - Displaying a WordPress widget area with nav widgets → use [Sidebar](sidebar.md)
+
 ## Overview
 
-The Menu module brings your WordPress navigation menus directly into any Divi 5 layout. Unlike the header-specific Fullwidth Menu, this standard-width module can be placed inside any section, row, or column, giving you the flexibility to add navigation wherever it is needed on a page. It pulls from menus you have already created in WordPress under Appearance > Menus, so any changes to your menu structure are reflected automatically.
+The Menu module brings your WordPress navigation menus directly into any Divi 5 layout. Unlike the header-specific [Fullwidth Menu](fullwidth-menu.md), this standard-width module can be placed inside any section, row, or column, giving you the flexibility to add navigation wherever it is needed on a page. It pulls from menus you have already created in WordPress under Appearance > Menus, so any changes to your menu structure are reflected automatically.
 
 Beyond simple link lists, the Menu module supports a site logo, a search icon, and a WooCommerce shopping cart icon, making it a compact yet powerful navigation hub. The dropdown system handles multi-level menus gracefully, with dedicated styling controls for submenu appearance, active link highlighting, and mobile hamburger behavior.
 
@@ -219,5 +236,8 @@ After configuring the Menu module to your liking, click the green **Save** butto
 
 ## Related
 
-- [Fullwidth Menu](fullwidth-menu.md)
-- [Sidebar](sidebar.md)
+- [Fullwidth Menu](fullwidth-menu.md) — Full-browser-width menu variant for fullwidth sections
+- [Sidebar](sidebar.md) — Display WordPress widget areas including navigation menus
+- [Menu Text Options](../options-groups/menu-text.md) — Typography settings for menu link text
+- [Theme Builder](../builder/theme-builder.md) — Build custom header templates with menus and logos
+- [Responsive Options](../builder/responsive-options.md) — Control menu behavior across desktop, tablet, and phone

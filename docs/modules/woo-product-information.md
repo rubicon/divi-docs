@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Information"
+description: "Divi 5 Woo Product Information module — WooCommerce product attributes, dimensions, weight, and shipping details display."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "interactive", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Information
 
-The Woo Product Information module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Information module displays additional product attributes such as dimensions, weight, colors, and shipping details.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows WooCommerce product attributes and shipping information pulled from the product listing.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-information`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-information-module/)
+
+!!! tip "When to Use This Module"
+    - Displaying product specifications (dimensions, weight, attributes) on product pages
+    - Building detailed product layouts that separate attribute data from descriptions
+    - Showing shipping-related product details in a custom template
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For product descriptions → use [Woo Product Description](woo-product-description.md)
+    - For tabbed product info → use [Woo Product Tabs](woo-product-tabs.md)
 
 ## Overview
 

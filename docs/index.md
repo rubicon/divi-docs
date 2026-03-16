@@ -1,5 +1,6 @@
 ---
 title: "Divi 5 Technical Documentation"
+description: "Divi 5 technical documentation — community-maintained reference for modules, theme options, Visual Builder, CSS, and API with code examples and LLM playbooks."
 tags: [home, getting-started]
 last_updated: 2026-03-12
 ---
@@ -7,6 +8,11 @@ last_updated: 2026-03-12
 # Divi 5 Technical Documentation
 
 Accurate, thorough, screenshot-rich technical documentation for Divi 5.
+
+!!! abstract "Quick Reference"
+    **What this site covers:** Complete Divi 5 technical documentation — modules, theme options, Visual Builder, CSS classes, API hooks, and LLM playbooks.
+    **Sections:** Modules | Theme Options | Builder | API Reference | CSS Reference | Recipes | Troubleshooting | Playbooks
+    **Audience:** Developers, site builders, and AI assistants working with Divi 5.
 
 ## Why This Exists
 

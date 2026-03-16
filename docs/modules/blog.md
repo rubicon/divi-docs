@@ -1,5 +1,6 @@
 ---
 title: "Blog Module"
+description: "Complete Divi 5 Blog module reference — grid and fullwidth layouts, category filtering, pagination, meta controls, and code examples."
 category: modules
 tags: ["modules", "content-modules", "blog", "posts", "grid", "list", "pagination", "dynamic-content", "masonry"]
 related: ["portfolio", "filterable-portfolio", "post-slider"]
@@ -12,13 +13,30 @@ source_url: "https://help.elegantthemes.com/en/articles/10226327-the-blog-module
 
 The Blog module displays WordPress posts in configurable grid or fullwidth layouts with filtering, pagination, and meta controls.
 
+!!! abstract "Quick Reference"
+    **What it does:** Pulls WordPress posts and displays them in grid or fullwidth list layouts with meta, pagination, and category filtering.
+    **When to use it:** Blog index pages, homepage latest posts sections, category landing pages, related posts areas
+    **Key settings:** Post Count, Include Categories, Layout (Grid/Fullwidth), Show Pagination, Offset, Masonry toggle
+    **Block identifier:** `divi/blog`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10226327-the-blog-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need to display WordPress blog posts dynamically on any page
+    - Building blog index pages, category archives, or "latest posts" sections
+    - You need built-in pagination and category filtering for post collections
+
+!!! warning "When NOT to Use This Module"
+    - You need to display project-type posts → use [Portfolio](portfolio.md) or [Filterable Portfolio](filterable-portfolio.md)
+    - You need an image-only grid from the media library → use [Gallery](gallery.md)
+    - You need posts in a full-screen sliding format → use [Post Slider](post-slider.md)
+
 ## Overview
 
 The Blog module is the primary tool in Divi for presenting dynamic post content on any page. It pulls posts from the WordPress database and renders them with featured images, titles, excerpts or full content, author and date metadata, category labels, comment counts, and read-more links. Two core layout modes are available: a fullwidth list view that stacks posts vertically, and a multi-column grid view that supports masonry-style positioning.
 
 Pagination is built in, so visitors can navigate through large collections of posts without needing a custom query loop. You can filter which posts appear by selecting specific categories, setting a post count, or applying an offset to skip a number of posts from the beginning of the query.
 
-The Blog module is particularly useful for blog index pages, homepage "latest posts" sections, category landing pages, and related-posts sections in Theme Builder templates. Its combination of layout options and meta toggles makes it adaptable to editorial, corporate, and portfolio-style designs.
+The Blog module is particularly useful for blog index pages, homepage "latest posts" sections, category landing pages, and related-posts sections in [Theme Builder](../builder/theme-builder.md) templates. Its combination of layout options and meta toggles makes it adaptable to editorial, corporate, and portfolio-style designs.
 
 For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10226327-the-blog-module-in-divi-5).
 
@@ -289,3 +307,7 @@ After configuring the Blog module:
 - [Portfolio Module](portfolio.md) — Display project-type posts in grid layouts
 - [Filterable Portfolio Module](filterable-portfolio.md) — Portfolio with category filtering built in
 - [Post Slider Module](post-slider.md) — Show posts in a full-screen sliding format
+- [Pagination Module](pagination.md) — Add numbered page navigation for post collections
+- [Dynamic Content](../builder/dynamic-content.md) — Pull post fields dynamically into module settings
+- [Loop Builder](../builder/loop-builder.md) — Build custom post loops with full layout control
+- [Theme Builder](../builder/theme-builder.md) — Create blog archive and post templates

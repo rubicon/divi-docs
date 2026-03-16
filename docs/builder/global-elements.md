@@ -1,5 +1,6 @@
 ---
 title: "Global Elements"
+description: "Divi 5 Global Elements — reusable modules, rows, and sections that sync content and design changes across every page where they appear."
 category: builder
 tags: [builder, global-elements, global-modules, sync, reusable]
 related: [visual-builder, library, presets]
@@ -11,6 +12,18 @@ source_url: ""
 # Global Elements
 
 Global Elements are reusable Divi builder elements (modules, rows, or sections) that sync changes across every page where they appear.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates a single shared instance of a module, row, or section that syncs edits across all pages.
+    **Where to find it:** Right-click any element → Save To Library → check "Make This A Global Item" (green border indicates global).
+    **Key features:**
+
+    - Edit any instance and changes propagate to all pages site-wide
+    - Green border and globe icon distinguish global elements in the builder
+    - Selective Sync: choose which settings sync globally vs. remain independent per instance
+    - Detach from global to convert back to a regular independent element
+
+    **ET Docs:** N/A
 
 ## Overview
 
@@ -256,3 +269,4 @@ function is_divi_global_element($post_id) {
 - [Divi Library](library.md) -- Where global elements are stored
 - [Presets](presets.md) -- For sharing design settings without sharing content
 - [Theme Builder](theme-builder.md) -- Templates that can incorporate global elements
+- [Design Variables](design-variables.md) -- Reusable values that keep global elements consistent

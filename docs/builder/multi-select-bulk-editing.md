@@ -1,5 +1,6 @@
 ---
 title: "Multi-Select & Bulk Editing"
+description: "Divi 5 Multi-Select and Bulk Editing — select multiple elements with Cmd/Ctrl+click and edit shared settings, move, copy, or delete them together."
 category: builder
 tags: ["builder", "bulk-editing", "multi-select", "workflow"]
 related: ["visual-builder", "presets"]
@@ -11,6 +12,18 @@ source_url: "https://www.elegantthemes.com/documentation/divi/divi-multi-select-
 # Multi-Select & Bulk Editing
 
 Select multiple elements at once and make bulk edits with ease.
+
+!!! abstract "Quick Reference"
+    **What it does:** Selects multiple elements simultaneously for batch design, content, and structural operations.
+    **Where to find it:** Hold Cmd (Mac) / Ctrl (Windows) and click elements on the canvas or in Layers View.
+    **Key features:**
+
+    - Shared settings panel shows only options common to all selected element types
+    - Bulk edit design, advanced, and content settings in one step
+    - Copy, cut, paste, duplicate, and delete entire selections with keyboard shortcuts
+    - Drag any selected element to move the entire group together
+
+    **ET Docs:** [Multi-Select & Bulk Editing](https://www.elegantthemes.com/documentation/divi/divi-multi-select-and-bulk-editing-features){:target="_blank"}
 
 The Divi multi-select and bulk editing feature is a powerful tool that enables you to build WordPress websites faster and more efficiently than ever before. Multiple elements can be selected at the same time allowing you to make edits to several modules, rows, or sections at once. You can drag, drop, copy, paste, delete and edit your website’s content making changes fast and easy. You no longer have to spend excessive time editing modules or sections one by one.
 

@@ -1,5 +1,6 @@
 ---
 title: "Testimonial Rendering Gaps"
+description: "Divi 5 testimonial SSR rendering gaps — author/jobTitle fields not rendered, innerContent is plain text not HTML, and the em dash workaround."
 category: internals
 tags: [testimonial, ssr, bugs, author, rendering]
 related: [ssr-rendering, content-encoding]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # Testimonial Rendering Gaps
 
 Known SSR bugs in the Divi 5 testimonial module.
+
+!!! abstract "Quick Reference"
+    **What this documents:** SSR rendering bugs in the Divi 5 testimonial module where `content.author` and `content.jobTitle` fields are silently dropped, and `innerContent` renders as plain text.
+    **Key data structures:** `content.author`, `content.jobTitle` (not rendered), `content.innerContent` (plain text only, no HTML).
+    **Last verified:** 2026-03-12
 
 ## Author and JobTitle Fields Not Rendered
 

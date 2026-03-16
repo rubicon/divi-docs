@@ -1,5 +1,6 @@
 ---
 title: "Style Inspector"
+description: "Divi 5 Style Inspector — audit and edit all colors, fonts, numbers, media, code, attributes, and presets on a page or element from one panel."
 category: builder
 tags: [builder, style-inspector, debugging, design-audit, design-system]
 related: [presets, design-variables]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12457386"
 # Style Inspector
 
 The Style Inspector is a panel in the Divi 5 Visual Builder that shows all styles, content, and presets applied to a page or individual element, and allows direct editing from a single consolidated view.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays and allows editing of every style, content attribute, and preset on the page or selected element.
+    **Where to find it:** Left sidebar → Inspector icon.
+    **Key features:**
+
+    - Three tabs: Styles (colors, numbers, fonts), Content (media, code, attributes, text), Presets
+    - Page-level or element-level inspection scope
+    - Hover any value to highlight all fields sharing it across the page
+    - Direct inline editing — changes apply immediately
+
+    **ET Docs:** [Style Inspector](https://help.elegantthemes.com/en/articles/12457386){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Divi Library"
+description: "Divi 5 Library — save, organize, and reuse layouts, sections, rows, and modules with local storage, Divi Cloud sync, and JSON import/export."
 category: builder
 tags: [builder, library, layouts, templates, import, export]
 related: [visual-builder, global-elements, presets]
@@ -11,6 +12,18 @@ source_url: ""
 # Divi Library
 
 The Divi Library is a built-in system for saving, organizing, and reusing layouts, sections, rows, and modules across your website.
+
+!!! abstract "Quick Reference"
+    **What it does:** Saves and organizes reusable layouts, sections, rows, and modules for loading onto any page.
+    **Where to find it:** Visual Builder toolbar → plus (+) icon, or WordPress admin → Divi → Divi Library.
+    **Key features:**
+
+    - Save full pages, sections, rows, or individual modules
+    - Organize with categories and tags; search and filter saved items
+    - Divi Cloud integration for cross-site access via your Elegant Themes account
+    - Hundreds of premade layout packs included; import/export as JSON
+
+    **ET Docs:** N/A
 
 ## Overview
 
@@ -224,3 +237,4 @@ $library_items = get_posts(array(
 - [Theme Builder](theme-builder.md) -- Template system that can use library elements
 - [Presets](presets.md) -- Saved styling configurations for elements
 - [Global Elements](global-elements.md) -- Synced elements saved to the library
+- [Copy & Paste Attributes](copy-paste-attributes.md) -- Transfer styling between elements without the library

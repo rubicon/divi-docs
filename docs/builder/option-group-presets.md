@@ -1,5 +1,6 @@
 ---
 title: "Option Group Presets"
+description: "Divi 5 Option Group Presets — reusable style blocks for typography, borders, spacing, buttons, and more, applicable across any element type."
 category: builder
 tags: [builder, presets, option-group-presets, design-system, reusable-styles]
 related: [stacked-nested-presets, preset-manager, presets]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/10725144"
 # Option Group Presets
 
 Option group presets are reusable style blocks scoped to a single design option group — such as typography, background, borders, or buttons — that can be applied across any element type in Divi 5.
+
+!!! abstract "Quick Reference"
+    **What it does:** Saves styling for a single option group (Typography, Background, Border, etc.) and applies it across any element type.
+    **Where to find it:** Hover over any option group title in the Design tab → click the preset icon.
+    **Key features:**
+
+    - Cross-element reusability: a Typography preset from a Text module works on Blurbs, CTAs, etc.
+    - Create from scratch or capture current styles
+    - Edit, duplicate, delete, and set defaults from the preset icon dropdown
+    - Functions like CSS utility classes within the Visual Builder
+
+    **ET Docs:** [Option Group Presets](https://help.elegantthemes.com/en/articles/10725144){:target="_blank"}
 
 ## Overview
 

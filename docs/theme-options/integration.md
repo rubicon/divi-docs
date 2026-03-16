@@ -1,5 +1,6 @@
 ---
 title: "Integration Settings"
+description: "Divi 5 Integration theme options — code injection fields for head, body, and post locations to add tracking pixels, analytics, and custom scripts."
 category: theme-options
 tags: [theme-options, integration, tracking, analytics, code-injection, javascript, css]
 related: [general, seo]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # Integration Settings
 
 The Integration Settings tab provides code injection fields for adding custom CSS, JavaScript, and tracking code to various locations in your site.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Code injection for adding custom CSS, JavaScript, and tracking code to the head, body, and single post locations.
+    **Where to find it:** Divi → Theme Options → Integration
+    **Key settings:** Add code to `<head>`, Add code to `<body>`, Add code to top/bottom of posts, Enable/disable toggles for each
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

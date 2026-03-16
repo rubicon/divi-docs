@@ -1,5 +1,6 @@
 ---
 title: "Contributing to Divi 5 Technical Documentation"
+description: "Contributing guide for Divi 5 technical documentation — how to submit edits, create new pages, report issues, and follow documentation standards."
 category: meta
 tags: [contributing, community]
 last_updated: 2026-03-12
@@ -8,6 +9,11 @@ last_updated: 2026-03-12
 # Contributing to Divi 5 Technical Documentation
 
 This is a community-maintained documentation project for the Divi WordPress Theme. We welcome contributions from anyone — whether you're fixing a typo, adding a missing setting, or writing an entirely new page.
+
+!!! abstract "Quick Reference"
+    **Quick edits:** Click the pencil icon on any page to propose changes directly on GitHub — no git knowledge needed.
+    **New pages:** Fork the repo, copy `templates/doc-template.md`, fill in the template, submit a pull request.
+    **Key rules:** Complete YAML frontmatter required, Divi 5 only, code examples must have language tags, test before submitting.
 
 ## How to Contribute
 

@@ -1,5 +1,6 @@
 ---
 title: "Role Editor"
+description: "Divi 5 Role Editor — control which Divi builder features, settings tabs, module types, and library actions are available per WordPress user role."
 category: builder
 tags: ["builder", "permissions", "roles", "users"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://www.elegantthemes.com/documentation/divi/role-editor"
 # Role Editor
 
 Limit what certain WordPress user roles can do within the Divi Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Restricts Divi builder capabilities per WordPress user role (Administrator, Editor, Author, etc.).
+    **Where to find it:** WordPress admin → Divi → Role Editor.
+    **Key features:**
+
+    - Control access to builder interface, settings tabs, and module types
+    - Manage library, portability, and support center permissions
+    - Restrict Divi AI access per role
+    - Separate toggles for theme privileges, builder interface, and settings types
+
+    **ET Docs:** [Role Editor](https://www.elegantthemes.com/documentation/divi/role-editor){:target="_blank"}
 
 The Divi Role Editor is a powerful group of settings that allow you to limit the types of actions of users on your website. In this documentation, we’ll go over what the role editor is, how to access it, and how to use it. Let’s dive in!
 

@@ -1,5 +1,6 @@
 ---
 title: "Testimonial Module"
+description: "Complete Divi 5 Testimonial module reference — customer quotes, author photo, job title, company attribution, and quote icon styling."
 category: modules
 tags: [testimonial, social-proof, reviews, quotes, content-modules, customer-feedback]
 related: [person, slider, blurb]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10365121-the-testimonial
 # Testimonial Module
 
 The Testimonial module displays customer quotes, reviews, and endorsements with an author photo, name, job title, and company attribution.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays a structured customer quote with author photo, name, job title, company, and decorative quote icon.
+    **When to use it:** Customer review sections, featured endorsements, case study quote highlights
+    **Key settings:** Author, Job Title, Company, Body (quote text), Image, Quote Icon toggle
+    **Block identifier:** `divi/testimonial`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10365121-the-testimonial-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying customer quotes with structured attribution (name, title, company)
+    - Building social proof sections near pricing or call-to-action areas
+    - Creating multi-column testimonial grids with author photos
+
+!!! warning "When NOT to Use This Module"
+    - Displaying team member profiles with social links → use [Person](person.md)
+    - Creating a rotating quote slideshow → use [Slider](slider.md)
+    - Building general icon-and-text feature cards → use [Blurb](blurb.md)
 
 ## Overview
 
@@ -275,3 +293,5 @@ After configuring your Testimonial module, click the green checkmark at the bott
 - [Person Module](person.md) — displays a team member profile with photo, name, and bio
 - [Slider Module](slider.md) — creates sliding content panels, useful for rotating testimonials
 - [Blurb Module](blurb.md) — pairs text content with an icon or image for feature highlights
+- [Image Options](../options-groups/image.md) — Style the testimonial author portrait photo
+- [Flexbox Layout](../builder/flexbox.md) — Arrange multiple testimonials in responsive grid layouts

@@ -1,5 +1,6 @@
 ---
 title: "General Settings"
+description: "Divi 5 General theme options — logo, color palette, social media, Google Fonts, performance optimization, Dynamic CSS, Critical CSS, and custom CSS settings."
 category: theme-options
 tags: [theme-options, general, performance, logo, colors, social-media, fonts, css]
 related: [navigation, layout, builder-settings]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # General Settings
 
 The General Settings tab contains core site-wide options for branding, social media, display preferences, and performance optimization.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Core site-wide options for branding, social media links, display preferences, Google Fonts, and performance optimization.
+    **Where to find it:** Divi → Theme Options → General
+    **Key settings:** Logo, Color Pickers Default Palette, Google API Key, Custom CSS, Dynamic CSS, Critical CSS
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

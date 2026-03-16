@@ -1,5 +1,6 @@
 ---
 title: "Navigation Settings"
+description: "Divi 5 Navigation theme options — page exclusions, category filters, dropdown menu tiers, link sorting, and top-tier dropdown link disabling."
 category: theme-options
 tags: [theme-options, navigation, menu, pages, categories, dropdown]
 related: [general, layout]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # Navigation Settings
 
 The Navigation Settings tab controls which pages and categories appear in your site's navigation bar, along with dropdown behavior and link ordering.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Which pages and categories appear in navigation, dropdown behavior, link ordering, and home link display.
+    **Where to find it:** Divi → Theme Options → Navigation
+    **Key settings:** Exclude pages, Show dropdown menus, Display Home link, Sort Pages/Categories, Disable top tier dropdown links
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

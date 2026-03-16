@@ -1,5 +1,6 @@
 ---
 title: "Woo Breadcrumbs"
+description: "Divi 5 Woo Breadcrumbs module — WooCommerce breadcrumb navigation for product pages with customizable styling and typography."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-bread
 
 # Woo Breadcrumbs
 
-The Woo Breadcrumbs module is a Divi 5 content element used in the Visual Builder.
+The Woo Breadcrumbs module displays WooCommerce breadcrumb navigation to help customers orient themselves within your store.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays WooCommerce breadcrumb navigation showing the path from shop to current product or category.
+    **When to use it:** Product page templates, category archive templates, custom shop layouts
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-breadcrumbs`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-breadcrumbs-module/)
+
+!!! tip "When to Use This Module"
+    - Adding breadcrumb navigation to WooCommerce product page templates in the Theme Builder
+    - Helping customers navigate back to parent categories or the shop page
+    - Improving SEO with structured breadcrumb markup on product pages
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → breadcrumbs require WooCommerce context
+    - For general site breadcrumbs outside of WooCommerce → use a dedicated breadcrumb plugin
+    - For page-level navigation → use [Post Navigation](post-navigation.md)
 
 ## Overview
 

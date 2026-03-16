@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Tabs"
+description: "Divi 5 Woo Product Tabs module — WooCommerce tabbed product info with description, attributes, shipping, and reviews tabs."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/divi-woo-product-t
 
 # Woo Product Tabs
 
-The Woo Product Tabs module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Tabs module displays WooCommerce product information in a tabbed layout with description, attributes, and reviews.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders product description, attributes, shipping info, and reviews in a tabbed interface.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Tab styling, Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-tabs`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/divi-woo-product-tabs-module/)
+
+!!! tip "When to Use This Module"
+    - Displaying multiple types of product information in a compact tabbed layout
+    - Building product page templates that consolidate description, specs, and reviews
+    - Keeping product pages organized without excessive vertical scrolling
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For standalone description display → use [Woo Product Description](woo-product-description.md)
+    - For standalone reviews → use [Woo Product Reviews](woo-product-reviews.md)
 
 ## Overview
 

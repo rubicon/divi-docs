@@ -1,5 +1,6 @@
 ---
 title: "Number Counter"
+description: "Complete Divi 5 Number Counter module reference — animated statistics, percentage display, typography controls, and styling tips."
 category: modules
 tags: ["modules", "animation", "counter", "statistics", "numbers", "percentage", "data-visualization"]
 related: ["circle-counter", "bar-counter", "countdown-timer"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10353752-the-number-coun
 # Number Counter
 
 The Number Counter module displays an animated number that counts up from zero to a specified value, ideal for showcasing statistics and key figures.
+
+!!! abstract "Quick Reference"
+    **What it does:** Animates a number counting up from zero to a target value on scroll, with optional title and percent sign.
+    **When to use it:** Company statistics, skill percentages, fundraising progress, milestone counters
+    **Key settings:** Title, Number, Percent Sign toggle, Number Text typography
+    **Block identifier:** `divi/number-counter`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353752-the-number-counter-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying animated statistics like client counts, years of experience, or project totals
+    - Showing percentage-based metrics such as skill levels or completion rates
+    - Creating engaging data-driven sections that animate on scroll
+
+!!! warning "When NOT to Use This Module"
+    - Displaying progress as a circular gauge → use [Circle Counter](circle-counter.md)
+    - Showing progress as a horizontal bar → use [Bar Counter](bar-counter.md)
+    - Creating a countdown to a specific date/time → use [Countdown Timer](countdown-timer.md)
 
 ## Overview
 

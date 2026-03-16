@@ -1,5 +1,6 @@
 ---
 title: "Box Shadow Options"
+description: "Divi 5 Box Shadow options group — shadow position, blur, spread, color, and inner/outer placement for depth effects on any element."
 category: options-groups
 tags: ["options-groups", "box-shadow", "design", "styling"]
 related: ["border", "filters"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102594"
 # Box Shadow Options
 
 The Box Shadow options group adds and customizes shadow effects around Divi 5 elements to create depth and visual emphasis.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Shadow horizontal/vertical position, blur, spread, color, and inner/outer placement
+    **Where to find it:** Design Tab → Box Shadow
+    **Available on:** All modules, sections, rows, and columns
+    **Responsive:** Yes — shadow values can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102594)
 
 ## Overview
 
@@ -68,3 +76,6 @@ Combine multiple shadows for a more natural depth effect:
 
 - [Border Options](border.md)
 - [Filters Options](filters.md)
+- [Transform Options](transform.md) — Combine shadows with scale and translate for depth effects
+- [Transitions Options](transitions.md) — Animate shadow changes on hover for interactive feedback
+- [Blurb Module](../modules/blurb.md) — Feature cards commonly use box shadows for visual lift

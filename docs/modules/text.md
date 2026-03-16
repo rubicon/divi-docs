@@ -1,5 +1,6 @@
 ---
 title: "Text Module"
+description: "Complete Divi 5 Text module reference — rich text editor, heading and body typography, HTML embeds, dynamic content, and code examples."
 category: modules
 tags: [text, content-modules, rich-text, wysiwyg, paragraphs, headings, html]
 related: [blurb, code, button]
@@ -12,11 +13,28 @@ source_url: "https://help.elegantthemes.com/en/articles/10365197-the-text-module
 
 The Text module is Divi's primary content block, providing a rich text editor for adding paragraphs, headings, lists, links, and inline HTML to any page.
 
+!!! abstract "Quick Reference"
+    **What it does:** Provides a rich text editor for paragraphs, headings, lists, links, and raw HTML within a Divi module container.
+    **When to use it:** Long-form content, HTML embeds, styled typographic elements
+    **Key settings:** Body (rich text/HTML), Heading Font/Size/Color, Body Text, Link Color
+    **Block identifier:** `divi/text`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10365197-the-text-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Writing article-style content with paragraphs, headings, and lists
+    - Embedding custom HTML, iframes, or third-party widget code
+    - Combining multiple text elements (headings, body, blockquotes) in a single block
+
+!!! warning "When NOT to Use This Module"
+    - Pairing text with an icon or image in a structured card → use [Blurb](blurb.md)
+    - Adding a standalone heading without body text → use [Heading](heading.md)
+    - Inserting raw code that should not be processed by the visual editor → use [Code](code.md)
+
 ## Overview
 
 The Text module is the most fundamental building block in the Divi module library. It wraps a full-featured visual text editor inside a Divi module container, giving you the ability to write and format content using familiar word-processing controls while retaining access to Divi's design system for typography, spacing, and animation.
 
-Unlike more specialized modules such as Blurb or Call to Action, the Text module imposes no structural constraints on your content. You can write a single heading, a multi-paragraph article, an HTML embed, or a combination of all three. This flexibility makes it the default choice for any content that does not require the predefined layout of a dedicated module.
+Unlike more specialized modules such as [Blurb](blurb.md) or [Call to Action](call-to-action.md), the Text module imposes no structural constraints on your content. You can write a single heading, a multi-paragraph article, an HTML embed, or a combination of all three. This flexibility makes it the default choice for any content that does not require the predefined layout of a dedicated module.
 
 The module supports both the visual editor mode and a raw text/HTML mode, allowing advanced users to paste custom markup directly. Typography controls are split between general text settings, heading-specific settings, and body-specific settings, giving you granular control over every typographic element within the module.
 
@@ -270,3 +288,6 @@ After editing your Text module content and design, click the green checkmark at 
 - [Blurb Module](blurb.md) — pairs text content with an icon or image for feature blocks
 - [Code Module](code.md) — for raw HTML, CSS, and JavaScript that should not be processed by the visual editor
 - [Button Module](button.md) — adds a styled call-to-action button linked to any URL
+- [Heading Module](heading.md) — standalone heading element for section titles and page headings
+- [Text Options](../options-groups/text.md) — Shared typography settings for font, size, color, and alignment
+- [Playbook: CSS in Divi](../playbooks/css-in-divi.md) — Best practices for styling text with custom CSS

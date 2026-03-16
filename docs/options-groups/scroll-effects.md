@@ -1,5 +1,6 @@
 ---
 title: "Scroll Effects Options"
+description: "Divi 5 Scroll Effects options group — sticky positioning and scroll-driven motion, fade, scale, rotate, and blur animations."
 category: options-groups
 tags: ["options-groups", "scroll-effects", "advanced"]
 related: ["position", "animation", "transform"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102792"
 # Scroll Effects Options
 
 The Scroll Effects options group controls how an element behaves as the user scrolls the page, enabling sticky positioning and scroll-driven visual transformations.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Sticky positioning and scroll-driven motion, fade, scale, rotate, and blur effects
+    **Where to find it:** Advanced Tab → Scroll Effects
+    **Available on:** All modules
+    **Responsive:** Yes — scroll effect values can be configured per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102792)
 
 ## Overview
 
@@ -66,3 +74,5 @@ While scroll effects are configured through the Visual Builder interface, you ca
 - [Position Options](position.md)
 - [Animation Options](animation.md)
 - [Transform Options](transform.md)
+- [Interactions](../builder/interactions.md) — Combine scroll effects with click and hover interactions
+- [Hero Module](../modules/hero.md) — Hero sections commonly use parallax scroll effects

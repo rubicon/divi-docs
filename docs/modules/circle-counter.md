@@ -1,5 +1,6 @@
 ---
 title: "Circle Counter"
+description: "Complete Divi 5 Circle Counter module reference — animated circular progress bars with percentage values, styling, and code examples."
 category: modules
 tags: ["modules", "circle-counter", "animation", "statistics", "data-visualization", "counter"]
 related: ["bar-counter", "number-counter"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10260293-the-circle-coun
 # Circle Counter
 
 The Circle Counter module displays an animated circular progress bar with a percentage value and optional title.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays an animated circular progress arc that fills from zero to a target percentage on scroll.
+    **When to use it:** Skills/proficiency displays, project milestones, statistics dashboards, KPI visualizations
+    **Key settings:** Title, Number (0-100), Percent Sign toggle, Circle color and track color
+    **Block identifier:** `divi/circle-counter`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260293-the-circle-counter-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a visual circular gauge for percentage-based data
+    - Statistics dashboards showing completion rates, satisfaction scores, or growth metrics
+    - Grouped counters in multi-column rows for visual impact
+
+!!! warning "When NOT to Use This Module"
+    - You need horizontal progress bars → use [Bar Counter](bar-counter.md)
+    - You need an animated number without a circular visual → use [Number Counter](number-counter.md)
+    - You need a countdown to a specific date → use [Countdown Timer](countdown-timer.md)
 
 ## Overview
 

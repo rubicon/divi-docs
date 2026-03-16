@@ -1,5 +1,6 @@
 ---
 title: "Fullwidth Map"
+description: "Divi 5 Fullwidth Map module — edge-to-edge Google Maps embed with multiple pins, info windows, and interactive zoom controls."
 category: modules
 tags: ["modules", "fullwidth", "map", "google-maps", "location", "contact", "embed"]
 related: ["map"]
@@ -11,6 +12,23 @@ source_url: "https://www.elegantthemes.com/documentation/divi/fullwidth-map/"
 # Fullwidth Map
 
 The Fullwidth Map module displays an interactive Google Map that spans the entire width of a fullwidth section, with support for multiple location pins.
+
+!!! abstract "Quick Reference"
+    **What it does:** Embeds a full-width interactive Google Map with customizable pins, info windows, and zoom controls.
+    **When to use it:** Contact page location displays, multi-location directories, event venue showcases
+    **Key settings:** Map center address, Zoom level, Pin titles/content/addresses, Mouse wheel zoom, Mobile dragging
+    **Block identifier:** `divi/fullwidth-map`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10353411-the-map-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying business locations on a contact page with edge-to-edge presentation
+    - Showing multiple branch or franchise locations with individual info windows
+    - Featuring event or venue locations prominently on landing pages
+
+!!! warning "When NOT to Use This Module"
+    - For maps within content columns or standard sections → use [Map](map.md)
+    - For static location display without interactivity → use an [Image](image.md) with a map screenshot
+    - For non-Google map providers → use [Code](code.md) with a custom embed
 
 ## Overview
 

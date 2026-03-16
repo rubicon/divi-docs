@@ -1,5 +1,6 @@
 ---
 title: "Canvases"
+description: "Divi 5 Canvases — manage Main, Local, and Global canvas workspaces for popups, slide-in menus, staging areas, and off-canvas content."
 category: builder
 tags: ["builder", "canvases", "off-canvas", "popups", "global-canvas", "canvas-portal"]
 related: ["nested-modules", "interactions"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13249775"
 # Canvases
 
 Separate workspaces within the Divi builder for organizing off-canvas content like popups, slide-in menus, and reusable global components.
+
+!!! abstract "Quick Reference"
+    **What it does:** Provides independent content areas for off-canvas elements (popups, menus, modals) separate from the main page layout.
+    **Where to find it:** Canvas dropdown at the top of the Visual Builder interface.
+    **Key features:**
+
+    - Three types: Main Canvas (visible page), Local Canvas (per-page), Global Canvas (site-wide)
+    - Off-canvas content triggered via Interactions (click, scroll, hover, load)
+    - Canvas Portal module for injecting canvas content inline within another canvas
+    - Grid view for visual overview of all canvases attached to a page
+
+    **ET Docs:** [Canvases](https://help.elegantthemes.com/en/articles/13249775){:target="_blank"}
 
 ## Overview
 

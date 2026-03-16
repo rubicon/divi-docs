@@ -1,5 +1,6 @@
 ---
 title: "Post Slider Module"
+description: "Complete Divi 5 Post Slider module reference — dynamic post slideshows, category filtering, overlay controls, and button styling."
 category: modules
 tags: ["modules", "content-modules", "slider", "posts", "blog", "carousel", "dynamic-content", "animation"]
 related: ["slider", "blog", "fullwidth-slider"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10358882-the-post-slider
 # Post Slider Module
 
 The Post Slider module automatically generates slides from WordPress posts, displaying featured images, titles, excerpts, and meta information in a full-width sliding format.
+
+!!! abstract "Quick Reference"
+    **What it does:** Generates slides dynamically from WordPress posts with featured images, titles, excerpts, and read-more buttons.
+    **When to use it:** Blog hero sliders, homepage content spotlights, category-filtered feature carousels
+    **Key settings:** Number of Posts, Post Categories, Featured Image Placement, Navigation Arrows, Overlay
+    **Block identifier:** `divi/post-slider`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10358882-the-post-slider-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Creating a dynamic hero slider that automatically updates with new posts
+    - Featuring recent articles with images and excerpts in a rotating carousel
+    - Building category-specific content carousels on landing pages
+
+!!! warning "When NOT to Use This Module"
+    - Creating slides with custom static content (not from posts) → use [Slider](slider.md)
+    - Displaying posts in a static grid or list format → use [Blog](blog.md)
+    - Needing a full-browser-width manual slider → use [Fullwidth Slider](fullwidth-slider.md)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Custom Attributes"
+description: "Divi 5 Custom Attributes — add data-*, aria-*, role, and other HTML attributes to any element from the unified Advanced Tab attributes panel."
 category: builder
 tags: ["builder", "attributes", "accessibility", "html", "data-attributes"]
 related: ["semantic-elements", "visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12274853"
 # Custom Attributes
 
 Add HTML attributes such as `data-*`, `aria-*`, `role`, and others to any Divi element directly from the Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Attaches arbitrary HTML attributes to any element's DOM node for accessibility, analytics, performance, and JS hooks.
+    **Where to find it:** Any element's settings → Advanced Tab → Attributes option group → +Add Attribute.
+    **Key features:**
+
+    - Target dropdown to select which DOM node receives the attribute
+    - Support for `aria-*`, `data-*`, `role`, `title`, `lang`, and other HTML attributes
+    - Legacy CSS Class and CSS ID fields migrated into this unified panel
+    - Multiple attributes per element with add/remove controls
+
+    **ET Docs:** [Custom Attributes](https://help.elegantthemes.com/en/articles/12274853){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Dynamic Content"
+description: "Divi 5 Dynamic Content — pull live data from posts, custom fields, ACF, WooCommerce, and global variables into any module field automatically."
 category: builder
 tags: ["builder", "dynamic-content", "custom-fields", "acf", "templates", "variables"]
 related: ["loop-builder", "theme-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11622973"
 # Dynamic Content
 
 Pull live data from WordPress posts, custom fields, site settings, and global variables into any module, so templates automatically adapt to the content they display.
+
+!!! abstract "Quick Reference"
+    **What it does:** Replaces static text, images, and design values with tokens that pull live data from the WordPress database at render time.
+    **Where to find it:** Hover any supported field → click the Dynamic Content icon → select a data source.
+    **Key features:**
+
+    - Content Tab sources: post title, excerpt, date, author, featured image, ACF/Toolset fields, WooCommerce data
+    - Design Tab sources: Global Variables for spacing, colors, fonts, and sizing
+    - Before/After text wrapping with HTML support
+    - Foundation for reusable Theme Builder templates and Loop Builder layouts
+
+    **ET Docs:** [Dynamic Content](https://help.elegantthemes.com/en/articles/11622973){:target="_blank"}
 
 ## Overview
 
@@ -170,3 +183,5 @@ Use dynamic WooCommerce sources to build a custom product page template. Pull pr
 - [Theme Builder](theme-builder.md)
 - [Presets](presets.md)
 - [Visual Builder](visual-builder.md)
+- [Blog Module](../modules/blog.md) — Displays dynamic post content with built-in query controls
+- [Playbook: REST API Content](../playbooks/rest-api-content.md) — Programmatic access to dynamic content via the REST API

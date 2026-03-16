@@ -1,5 +1,6 @@
 ---
 title: "Design Variables"
+description: "Divi 5 Design Variables — define reusable color, number, font, image, link, and text tokens and apply them to any field via dynamic content."
 category: builder
 tags: [builder, design-variables, design-system, dynamic-content, css-variables]
 related: [global-variables, option-group-presets, advanced-units]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11027601"
 # Design Variables
 
 Design variables let you define reusable values — colors, numbers, fonts, images, links, and text — and apply them to fields across your Divi 5 site through the dynamic content system.
+
+!!! abstract "Quick Reference"
+    **What it does:** Stores named tokens (colors, numbers, fonts, images, links, text) that can be assigned to any compatible field via dynamic content.
+    **Where to find it:** Variable Manager icon in the Visual Builder toolbar, or any field's dynamic content icon → Manage Variables.
+    **Key features:**
+
+    - Six variable types: Numbers, Strings, Images, Links, Colors, Fonts
+    - Assign via dynamic content icon on any compatible field
+    - Variable chips display the variable name; hover to see the current value
+    - Change a variable once to update every field referencing it
+
+    **ET Docs:** [Design Variables](https://help.elegantthemes.com/en/articles/11027601){:target="_blank"}
 
 ## Overview
 
@@ -92,3 +105,4 @@ When a variable is assigned to a field, the field displays a chip instead of a r
 - [Option Group Presets](option-group-presets.md) — Reusable style configurations for option groups
 - [Advanced Units](advanced-units.md) — CSS functions and custom variables in Divi value fields
 - [Presets](presets.md) — Saved design configurations for elements
+- [Playbook: Design System Setup](../playbooks/design-system-setup.md) — Build a complete design system with variables and presets

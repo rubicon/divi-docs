@@ -1,5 +1,6 @@
 ---
 title: "Responsive Preview System"
+description: "Divi 5 Responsive Preview — test designs across desktop, tablet, and phone viewports with custom widths, fold indicators, and portrait/landscape rotation."
 category: builder
 tags: ["builder", "responsive", "preview", "mobile"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://www.elegantthemes.com/documentation/divi/responsive-preview
 # Responsive Preview System
 
 Divi’s responsive preview system allows you to view what your designs will look like on a wide range of devices and viewport configurations. All without having to leave the visual builder!
+
+!!! abstract "Quick Reference"
+    **What it does:** Preview and edit your design at desktop, tablet, and phone breakpoints with adjustable viewport widths.
+    **Where to find it:** Device icons in the top bar or bottom toolbar of the Visual Builder.
+    **Key features:**
+
+    - Three default breakpoints: Desktop (981px+), Tablet (768-980px), Phone (<768px)
+    - Drag canvas edges or type a custom pixel width for arbitrary viewport testing
+    - Above-the-fold indicator line for each device size
+    - Portrait and landscape rotation toggle for tablet and phone previews
+
+    **ET Docs:** [Responsive Preview System](https://www.elegantthemes.com/documentation/divi/responsive-preview-system){:target="_blank"}
 
 Thanks to the Divi responsive preview system, it’s no longer necessary to use a third party software to test how your webpages will render on smaller screen sizes. Mobile devices are utilized by more than 60% of all internet users, so previewing how your pages will look on smaller screens is an important part of web design. Let’s take a look at how to use the repsponsive preview system by demonstrating its capabilities using theStreamer Divi Layout Pack.
 

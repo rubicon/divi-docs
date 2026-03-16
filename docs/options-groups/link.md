@@ -1,5 +1,6 @@
 ---
 title: "Link Options"
+description: "Divi 5 Link options group — module link URL and target settings to make an entire element clickable as a hyperlink."
 category: options-groups
 tags: ["options-groups", "link", "advanced"]
 related: ["meta", "attributes"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10066994"
 # Link Options
 
 The Link options group turns an entire module into a clickable hyperlink, directing visitors to another page, section, or external URL.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Module-level link URL and target (same window or new tab)
+    **Where to find it:** Content Tab → Link
+    **Available on:** Most modules that support module-level linking
+    **Responsive:** No — link settings are static across all breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10066994)
 
 ## Overview
 

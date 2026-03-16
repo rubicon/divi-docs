@@ -1,5 +1,6 @@
 ---
 title: "Attribute Management"
+description: "Divi 5 Attribute Management — copy, paste, and reset content, styles, and presets at the field, group, tab, or element level for design consistency."
 category: builder
 tags: ["builder", "attributes", "copy-paste", "reset", "workflow"]
 related: ["extend-attributes", "find-and-replace", "presets"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11401198"
 # Attribute Management
 
 Copy, paste, and reset element attributes at the field, group, tab, or element level for efficient design consistency across your layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Granular copy, paste, and reset of content, styles, and presets between elements at multiple levels of specificity.
+    **Where to find it:** Right-click any element, tab header, option group, or field in the Visual Builder.
+    **Key features:**
+
+    - Copy at element, tab, option group, or individual field level
+    - Five paste variants: All, Design, Style, Content, Presets
+    - Five matching reset variants for clearing attributes back to defaults
+    - Cross-module compatibility: Divi matches compatible attributes automatically
+
+    **ET Docs:** [Attribute Management](https://help.elegantthemes.com/en/articles/11401198){:target="_blank"}
 
 ## Overview
 

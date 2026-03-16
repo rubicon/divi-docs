@@ -1,5 +1,6 @@
 ---
 title: "Post Title Module"
+description: "Complete Divi 5 Post Title module reference — dynamic title, author, date, featured image, Theme Builder templates, and styling."
 category: modules
 tags: ["modules", "content-modules", "post-title", "blog", "meta", "featured-image", "theme-builder", "dynamic-content"]
 related: ["post-navigation", "post-slider", "comments"]
@@ -11,6 +12,22 @@ source_url: "https://help.elegantthemes.com/en/articles/10364058-the-post-title-
 # Post Title Module
 
 The Post Title module displays a post's title, publication metadata, and featured image with full styling control, designed primarily for use in Theme Builder templates.
+
+!!! abstract "Quick Reference"
+    **What it does:** Dynamically displays a post's title, author, date, comment count, and featured image in Theme Builder templates.
+    **When to use it:** Custom blog post headers, minimal page titles, portfolio project headers
+    **Key settings:** Show Title, Show Meta, Show Author, Show Publish Date, Show Featured Image
+    **Block identifier:** `divi/post-title`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364058-the-post-title-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building branded, consistent post headers in Theme Builder templates
+    - Displaying dynamic post metadata (author, date, comments) with full styling control
+    - Creating custom title areas for any post type including pages, projects, and products
+
+!!! warning "When NOT to Use This Module"
+    - Adding a static heading to a regular page → use [Heading](heading.md) or [Text](text.md)
+    - Navigating between adjacent posts → use [Post Navigation](post-navigation.md)
 
 ## Overview
 

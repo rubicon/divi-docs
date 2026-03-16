@@ -1,5 +1,6 @@
 ---
 title: "Search"
+description: "Divi 5 Search module — configurable WordPress search bar with content type filtering, button toggle, and field styling options."
 category: modules
 tags: ["modules", "forms", "interactive", "search", "navigation", "utility"]
 related: ["sidebar", "blog"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10364231-the-search-modu
 # Search
 
 The Search module places a configurable WordPress search form anywhere in your Divi 5 layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Embeds a WordPress search bar with optional button and content type exclusion filters.
+    **When to use it:** Header search bars, blog archive search, knowledge base or documentation pages
+    **Key settings:** Placeholder, Show Button, Exclude Posts, Exclude Pages, Exclude Categories, Field styling
+    **Block identifier:** `divi/search`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364231-the-search-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Adding a search bar to header templates for site-wide search access
+    - Placing a filtered search above blog or documentation archives
+    - Creating a prominent search-focused landing page or hero section
+
+!!! warning "When NOT to Use This Module"
+    - For navigation menus → use [Menu](menu.md) or [Fullwidth Menu](fullwidth-menu.md)
+    - For widget-based sidebar search → use [Sidebar](sidebar.md)
+    - For filtering WooCommerce products → use WooCommerce product filtering plugins
 
 ## Overview
 
@@ -251,5 +269,8 @@ After configuring your search module, click the green **Save** button in the bot
 
 ## Related
 
-- [Sidebar](sidebar.md)
-- [Blog](blog.md)
+- [Sidebar](sidebar.md) — Display WordPress widgets including a search widget
+- [Blog](blog.md) — Display search results or post collections with filtering and pagination
+- [Menu](menu.md) — Often paired with search in header navigation layouts
+- [Theme Builder](../builder/theme-builder.md) — Add search to custom header or search results templates
+- [Fields Options](../options-groups/fields.md) — Style the search input field appearance

@@ -1,5 +1,6 @@
 ---
 title: "Woo Checkout Payment"
+description: "Divi 5 Woo Checkout Payment module — WooCommerce payment method selection, terms acceptance, and place order button for checkout."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "checkout"]
 related: []
@@ -10,11 +11,26 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-check
 
 # Woo Checkout Payment
 
-The Woo Checkout Payment module is a Divi 5 content element used in the Visual Builder.
+The Woo Checkout Payment module adds payment method selection and the place-order button to the WooCommerce checkout page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders payment method options, terms acceptance, and the place-order button on the checkout page.
+    **When to use it:** Custom checkout page templates in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-checkout-payment`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-checkout-payment-module/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce checkout page template in the Theme Builder
+    - Displaying available payment gateways (Stripe, PayPal, bank transfer, etc.)
+    - Providing the final place-order action in a custom checkout flow
+
+!!! warning "When NOT to Use This Module"
+    - On non-checkout pages → this module requires the WooCommerce checkout context
+    - For product add-to-cart buttons → use [Shop](shop.md) or Woo Product modules
+    - For general button elements → use [Button](button.md)
 
 ## Overview
-
-The Divi Woo Checkout Payment Module adds payment functionality to your checkout page and integrates seamlessly with WooCommerce. Install Divi & WooCommerce Before you can add the Divi Woo Checkout Payment Module to your website, you’ll need to have the Divi theme and WooCommerce installed on your WordPress website. Learn how to install the Divi […]
 
 The Divi Woo Checkout Payment Module adds payment functionality to your checkout page and integrates seamlessly with WooCommerce.
 

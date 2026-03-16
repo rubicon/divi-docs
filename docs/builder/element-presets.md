@@ -1,5 +1,6 @@
 ---
 title: "Element Presets"
+description: "Divi 5 Element Presets — per-element-type saved design configurations with stacking, nested option group presets, and variable integration."
 category: builder
 tags: ["builder", "presets", "element-presets", "design-system", "global-styles"]
 related: ["presets", "vb-interface", "left-sidebar"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13349150"
 # Element Presets
 
 Saved design configurations for specific element types that keep styling consistent across your entire Divi site.
+
+!!! abstract "Quick Reference"
+    **What it does:** Saves all modified settings for a specific element type as a reusable preset that auto-updates everywhere.
+    **Where to find it:** Element settings → Preset dropdown, or Left sidebar → Preset Manager.
+    **Key features:**
+
+    - Create from scratch or capture existing element styles as a new preset
+    - Set any preset as the default for its element type (star icon)
+    - Stack multiple presets on one element with order-dependent override logic
+    - Nest option group presets inside element presets for modular design tokens
+
+    **ET Docs:** [Divi Element Presets](https://help.elegantthemes.com/en/articles/13349150){:target="_blank"}
 
 ## Overview
 

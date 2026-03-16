@@ -1,5 +1,6 @@
 ---
 title: "Woo Checkout Information"
+description: "Divi 5 Woo Checkout Information module — WooCommerce order notes field for customers to add special instructions at checkout."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "interactive", "checkout"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-check
 
 # Woo Checkout Information
 
-The Woo Checkout Information module is a Divi 5 content element used in the Visual Builder.
+The Woo Checkout Information module lets customers add order notes and special instructions during checkout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Provides a text field for customers to add notes or special instructions to their order at checkout.
+    **When to use it:** Custom checkout page templates in the Theme Builder
+    **Key settings:** Field styling, Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-checkout-information`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-checkout-information-module/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce checkout page that accepts order notes
+    - Allowing customers to provide delivery instructions or special requests
+    - Completing a checkout layout alongside billing, shipping, and payment modules
+
+!!! warning "When NOT to Use This Module"
+    - On non-checkout pages → this module requires the WooCommerce checkout context
+    - For general contact or feedback forms → use [Contact Form](contact-form.md)
+    - For product-level notes → use WooCommerce product custom fields instead
 
 ## Overview
 

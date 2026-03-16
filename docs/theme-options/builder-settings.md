@@ -1,5 +1,6 @@
 ---
 title: "Builder Settings"
+description: "Divi 5 Builder theme options — post type integration, WooCommerce product layout, static CSS generation, Classic Editor toggle, and product tour settings."
 category: theme-options
 tags: [theme-options, builder, post-types, css, woocommerce, classic-editor]
 related: [general, layout]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # Builder Settings
 
 The Builder Settings tab controls which post types can use the Divi Builder and provides advanced options for CSS generation and editor preferences.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Which post types use the Divi Builder, CSS generation behavior, editor preferences, and WooCommerce integration.
+    **Where to find it:** Divi → Theme Options → Builder
+    **Key settings:** Enable Divi Builder On Post Types, Static CSS File Generation, Enable Classic Editor, Product Layout
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

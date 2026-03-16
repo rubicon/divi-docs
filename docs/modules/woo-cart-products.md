@@ -1,5 +1,6 @@
 ---
 title: "Woo Cart Products"
+description: "Divi 5 Woo Cart Products module — WooCommerce cart item list with product details, quantities, and removal controls for cart pages."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "checkout", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/woo-cart-products/
 
 # Woo Cart Products
 
-The Woo Cart Products module is a Divi 5 content element used in the Visual Builder.
+The Woo Cart Products module displays the list of products added to the WooCommerce shopping cart.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the cart product table showing items, quantities, prices, and remove buttons on the cart page.
+    **When to use it:** Custom cart page templates in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-cart-products`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/woo-cart-products/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce cart page template in the Theme Builder
+    - Displaying cart contents with quantities and individual product prices
+    - Pairing with Woo Cart Totals for a complete cart layout
+
+!!! warning "When NOT to Use This Module"
+    - On non-cart pages → this module requires the WooCommerce cart context
+    - For displaying a product grid or catalog → use [Shop](shop.md)
+    - For checkout order summary → use [Woo Checkout Details](woo-checkout-details.md)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Title Text Options"
+description: "Divi 5 Title Text options group — font, weight, size, color, alignment, heading level, and shadow controls for module titles."
 category: options-groups
 tags: ["options-groups", "title-text"]
 related: ["body-text", "text", "closed-title-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10066965"
 # Title Text Options
 
 Controls the typography and visual appearance of module title elements throughout Divi 5.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, heading level (H1-H6), letter spacing, line height, and text shadow for titles
+    **Where to find it:** Design Tab → Title Text
+    **Available on:** Modules with headings (Accordion, Toggle, Blurb, CTA, Pricing Table, Slider, Tabs, and others)
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10066965)
 
 ## Overview
 

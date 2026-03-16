@@ -1,5 +1,6 @@
 ---
 title: "Icon List"
+description: "Complete Divi 5 Icon List module reference — styled lists with custom icons per item, Flex and Block layouts, and per-item overrides."
 category: modules
 tags: ["modules", "icon-list", "icons", "list", "features", "checklist", "bullets"]
 related: ["icon", "blurb", "text"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/11982062-the-icon-list-m
 # Icon List
 
 The Icon List module displays a styled list of items, each paired with a custom icon from the Divi icon library or an uploaded image.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates a styled list where each item has a custom icon, title, and optional body text with per-item design overrides.
+    **When to use it:** Feature checklists, process/step guides, contact information blocks, pricing plan inclusions
+    **Key settings:** Items (add/edit/remove), Layout (Block/Flex), Icon styling, per-item icon and text overrides
+    **Block identifier:** `divi/icon-list`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/11982062-the-icon-list-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a list where each item has its own custom icon
+    - Feature comparison checklists with checkmark/X icons per item
+    - Contact details blocks with phone, email, address, and hours icons
+
+!!! warning "When NOT to Use This Module"
+    - You need a single standalone icon → use [Icon](icon.md)
+    - You need icons with longer descriptions in a card layout → use [Blurb](blurb.md) modules in columns
+    - You need a simple bullet or numbered list → use [Text](text.md) with HTML list markup
 
 ## Overview
 

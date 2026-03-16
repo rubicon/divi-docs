@@ -1,5 +1,6 @@
 ---
 title: "Login"
+description: "Divi 5 Login module — front-end WordPress authentication form with custom redirect, field styling, and conditional display options."
 category: modules
 tags: ["modules", "forms", "interactive", "authentication", "user-access", "membership"]
 related: ["contact-form", "email-optin"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10315833-the-login-form-
 # Login
 
 The Login module displays a WordPress login form that allows registered users to sign in directly from any page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders a styled WordPress login form with username, password fields, and custom redirect.
+    **When to use it:** Membership site login pages, client portals, gated content areas
+    **Key settings:** Title, Body text, Redirect URL, Fields styling, Display Conditions
+    **Block identifier:** `divi/login`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10315833-the-login-form-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Providing front-end login access for membership or client portal sites
+    - Creating gated content pages that show the login form to logged-out users
+    - Building branded login pages that match your site design
+
+!!! warning "When NOT to Use This Module"
+    - For collecting visitor information or inquiries → use [Contact Form](contact-form.md)
+    - For email newsletter signups → use [Email Optin](email-optin.md)
+    - For user registration (this module handles login only) → use a registration plugin
 
 ## Overview
 
@@ -273,3 +291,6 @@ After configuring the Login module, click the green checkmark button at the bott
 
 - [Contact Form](contact-form.md) — Collect visitor inquiries with a customizable form
 - [Email Optin](email-optin.md) — Capture email subscribers with an integrated signup form
+- [Fields Options](../options-groups/fields.md) — Shared form field styling for input elements
+- [Conditions Options](../options-groups/conditions.md) — Show the login form only to logged-out users
+- [Theme Builder](../builder/theme-builder.md) — Place the login module in header or footer templates

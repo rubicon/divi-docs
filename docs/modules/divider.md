@@ -1,5 +1,6 @@
 ---
 title: "Divider"
+description: "Complete Divi 5 Divider module reference — horizontal line separators with style, color, weight, and position settings."
 category: modules
 tags: ["modules", "divider", "separator", "line", "layout", "spacing"]
 related: ["text", "image"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10273265-the-divider-mod
 # Divider
 
 The Divider module inserts a horizontal line between content sections to create visual separation and improve page readability.
+
+!!! abstract "Quick Reference"
+    **What it does:** Adds a configurable horizontal line or invisible spacer between content sections.
+    **When to use it:** Section breaks, decorative accent lines under headings, invisible vertical spacers
+    **Key settings:** Show Divider toggle, Line Color, Line Style, Line Weight, Line Position
+    **Block identifier:** `divi/divider`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10273265-the-divider-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a visible horizontal line to separate content sections
+    - You want a short decorative accent under a heading
+    - You need precise vertical spacing between modules using an invisible spacer
+
+!!! warning "When NOT to Use This Module"
+    - You only need vertical spacing → adjust margin/padding on adjacent modules via [Spacing](../options-groups/spacing.md) settings
+    - You need a content-rich separator (text, icons, images) → use a styled [Text](text.md) or [Blurb](blurb.md) module
+    - You need a full-width background band → use a separate Section with its own background
 
 ## Overview
 

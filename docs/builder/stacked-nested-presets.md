@@ -1,5 +1,6 @@
 ---
 title: "Stacked & Nested Presets"
+description: "Divi 5 stacked and nested presets — layer multiple presets on one element and embed option group presets inside element presets for composable design."
 category: builder
 tags: [builder, presets, stacked-presets, nested-presets, design-system, inheritance]
 related: [option-group-presets, preset-manager, presets]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12817235"
 # Stacked & Nested Presets
 
 Stacked presets let you apply multiple presets to a single element, while nested presets let you embed option group presets inside element presets — enabling layered, composable design systems in Divi 5.
+
+!!! abstract "Quick Reference"
+    **What it does:** Combines multiple presets on one element (stacking) and embeds option group presets within element presets (nesting).
+    **Where to find it:** Element settings → Module Preset icon for stacking; Element preset editor for nesting.
+    **Key features:**
+
+    - Stacked presets apply in order; later presets override overlapping properties
+    - Nested presets bundle option group presets inside element presets for automatic application
+    - Four-level priority: element preset → nested option group presets → stacked presets → element overrides
+    - Changes to any preset in the chain cascade to all referencing elements
+
+    **ET Docs:** [Stacked & Nested Presets](https://help.elegantthemes.com/en/articles/12817235){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Woo Checkout Shipping"
+description: "Divi 5 Woo Checkout Shipping module — WooCommerce shipping address form fields for checkout page templates with custom styling."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "checkout"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-check
 
 # Woo Checkout Shipping
 
-The Woo Checkout Shipping module is a Divi 5 content element used in the Visual Builder.
+The Woo Checkout Shipping module captures the customer's shipping address on the WooCommerce checkout page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Renders the WooCommerce shipping address form fields on the checkout page.
+    **When to use it:** Custom checkout page templates in the Theme Builder
+    **Key settings:** Field styling, Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-checkout-shipping`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-checkout-shipping-module/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce checkout page template in the Theme Builder
+    - Collecting shipping address details separate from billing information
+    - Styling shipping form fields to match your store's checkout design
+
+!!! warning "When NOT to Use This Module"
+    - On non-checkout pages → this module requires the WooCommerce checkout context
+    - For billing address collection → use [Woo Checkout Billing](woo-checkout-billing.md)
+    - For general address or contact forms → use [Contact Form](contact-form.md)
 
 ## Overview
 

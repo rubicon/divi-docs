@@ -1,5 +1,6 @@
 ---
 title: "Wireframe View"
+description: "Divi 5 Wireframe View — structural editing mode that shows elements as labeled blocks for easy reordering, renaming, and layout organization."
 category: builder
 tags: ["builder", "wireframe", "layout", "structure", "workflow"]
 related: ["layers-view", "vb-interface"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/10469465"
 # Wireframe View
 
 A stripped-down structural editing mode that displays every element as a labeled block, making it easy to organize complex page layouts.
+
+!!! abstract "Quick Reference"
+    **What it does:** Replaces visual styling with labeled, color-coded blocks showing page structure only.
+    **Where to find it:** Left sidebar → Wireframe icon, or bottom toolbar Wireframe icon.
+    **Key features:**
+
+    - Color-coded blocks with type labels and nesting indentation
+    - Drag-and-drop reordering without visual overlap interference
+    - Plus icons between elements for precise insertion
+    - Double-click labels to rename elements
+
+    **ET Docs:** [Divi Wireframe View](https://help.elegantthemes.com/en/articles/10469465){:target="_blank"}
 
 ## Overview
 

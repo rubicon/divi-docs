@@ -1,5 +1,6 @@
 ---
 title: "Condition Options"
+description: "Divi 5 Condition Options — show or hide elements based on user role, device, browser, date/time, post type, and other conditional display rules."
 category: builder
 tags: ["builder", "conditions", "display-logic", "dynamic"]
 related: ["visual-builder", "theme-builder"]
@@ -11,6 +12,19 @@ source_url: "https://www.elegantthemes.com/documentation/divi/divi-condition-opt
 # Condition Options
 
 Divi Condition Options allow you to apply advanced logic to any section, row, or module to hide or display elements based on a set of conditions.
+
+!!! abstract "Quick Reference"
+    **What it does:** Controls element visibility based on rules like user role, device type, date range, browser, and post type.
+    **Where to find it:** Any element's settings → Advanced Tab → Conditions → +Add Condition.
+    **Key features:**
+
+    - User conditions: logged-in status, user role
+    - Device and browser conditions: device type, browser, operating system
+    - Date/time conditions: date range, time of day, day of week
+    - Post conditions: post type, category, tag
+    - Multiple conditions combined with AND logic
+
+    **ET Docs:** [Condition Options](https://www.elegantthemes.com/documentation/divi/divi-condition-options){:target="_blank"}
 
 The Divi Condition Options allow you to apply advanced logic to any section, row, or module to hide or display elements based on a set of conditions. You can define a set of conditions such as user role, date and time, browser, device, post information, website location, and more.
 
@@ -119,3 +133,7 @@ Display a "For the best experience, use Chrome" notice to visitors using Interne
 
 - [Visual Builder](visual-builder.md)
 - [Theme Builder](theme-builder.md)
+- [Conditions Options](../options-groups/conditions.md) — Per-element conditional display rules in the options panel
+- [Visibility Options](../options-groups/visibility.md) — Device-level visibility toggles
+- [Interactions](interactions.md) — Trigger visual changes based on user actions
+- [Dynamic Content](dynamic-content.md) — Pull dynamic values for use in condition logic

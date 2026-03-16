@@ -1,5 +1,6 @@
 ---
 title: "Visual Builder Operations"
+description: "LLM playbook for Divi 5 Visual Builder — dual-frame architecture, panels, Layers navigation, settings tabs, saving behavior, and responsive editing."
 category: playbooks
 tags: [visual-builder, vb, ui, panels, saving, architecture]
 related: [build-a-page, known-limitations]
@@ -12,6 +13,12 @@ audience: llm
 # Playbook: Visual Builder Operations
 
 **How Divi 5's Visual Builder works — the information an LLM needs to give accurate UI guidance.**
+
+!!! abstract "Quick Rules"
+    1. Use the Layers panel (diamond icon) to select and navigate elements — it is more reliable than clicking directly on the canvas.
+    2. Never save through the Visual Builder if the page has programmatically-added content — the VB save may destroy unrecognized sections.
+    3. The VB uses dual-frame architecture: parent window (sidebar, settings, TinyMCE) and iframe `#et-vb-app-frame` (page canvas, `wp.*`, Divi runtime).
+    4. Settings panel has three tabs: Content (module-specific), Design (typography, spacing, backgrounds), Advanced (CSS ID/Class, Custom CSS, Free-Form CSS).
 
 ## Opening the Visual Builder
 

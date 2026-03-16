@@ -1,5 +1,6 @@
 ---
 title: "Divi Builder"
+description: "Divi 5 Builder documentation hub — Visual Builder interface, layout systems, design tools, editing features, and site management reference."
 category: builder
 tags: [builder, overview]
 last_updated: 2026-03-12
@@ -8,6 +9,11 @@ last_updated: 2026-03-12
 # Divi Builder
 
 The Divi Builder is the visual page building system at the core of Divi. It includes two interfaces: the front-end Visual Builder and the back-end Theme Builder for templates.
+
+!!! abstract "Quick Reference"
+    **What it covers:** Visual Builder interface, layout systems, design tools, editing features, and site management
+    **Access:** WordPress admin → Pages → Enable Visual Builder (or any page front-end with admin bar)
+    **Key concepts:** Sections → Rows → Columns → Modules hierarchy, Flexbox/Grid layout, Presets, Design Variables
 
 ## Sections
 

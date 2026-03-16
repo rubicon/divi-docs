@@ -1,5 +1,6 @@
 ---
 title: "Visual Builder Architecture"
+description: "Divi 5 Visual Builder architecture internals — dual-frame structure, React state management, global objects, and the divi.data read-only registry."
 category: internals
 tags: [visual-builder, architecture, react, iframe, dual-frame]
 related: [tinymce-state, block-format]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # Visual Builder Architecture
 
 The dual-frame structure, React state management, and global objects inside Divi 5's Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What this documents:** The internal architecture of Divi 5's Visual Builder, including the dual-frame window structure, global JavaScript objects, and state management.
+    **Key data structures:** Parent window (sidebar, TinyMCE, React settings panel), iframe `#et-vb-app-frame` (page canvas, `wp.*`, `DIVI`, `ET_Builder`), `window.divi.data` read-only registry.
+    **Last verified:** 2026-03-12
 
 ## Dual-Frame Structure
 

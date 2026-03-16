@@ -1,5 +1,6 @@
 ---
 title: "Heading Text Options"
+description: "Divi 5 Heading Text options group — font, weight, size, color, heading level, letter spacing, and shadow for heading elements."
 category: options-groups
 tags: ["options-groups", "heading-text"]
 related: ["title-text", "text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10365216"
 # Heading Text Options
 
 Provides full typographic control over heading elements within Divi 5 modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, heading level (H1-H6), alignment, letter spacing, line height, and text shadow
+    **Where to find it:** Design Tab → Heading Text
+    **Available on:** Modules with configurable heading content (Heading module and others)
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10365216)
 
 ## Overview
 

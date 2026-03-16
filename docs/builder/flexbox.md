@@ -1,5 +1,6 @@
 ---
 title: "Flexbox Layout System"
+description: "Divi 5 Flexbox layout system — direction, alignment, gap, wrapping, and ordering controls for sections, rows, columns, and module groups."
 category: builder
 tags: ["builder", "layout", "flexbox", "responsive"]
 related: ["css-grid"]
@@ -11,6 +12,19 @@ source_url: "https://help.elegantthemes.com/en/collections/13895918-flexbox-layo
 # Flexbox Layout System
 
 Divi 5 uses CSS Flexbox as its default layout engine, giving designers native control over alignment, spacing, direction, and ordering within every container element.
+
+!!! abstract "Quick Reference"
+    **What it does:** Controls one-dimensional layout flow (horizontal or vertical) for all container elements using CSS Flexbox.
+    **Where to find it:** Any element's settings → Design Tab → Layout (Layout Type: Flex).
+    **Key features:**
+
+    - Layout Direction: row, row-reverse, column, column-reverse (`flex-direction`)
+    - Justify Content and Align Items for main/cross axis alignment
+    - Horizontal and Vertical Gap settings (`column-gap`, `row-gap`)
+    - Layout Wrapping with wrapping alignment (`flex-wrap`, `align-content`)
+    - Column Class for 24-column fractional widths and Order for visual resequencing
+
+    **ET Docs:** [Flexbox Layout System](https://help.elegantthemes.com/en/collections/13895918-flexbox-layout-system){:target="_blank"}
 
 ## Overview
 
@@ -237,3 +251,6 @@ Place multiple Button modules in a Module Group. Set **Layout Direction** to **R
 - [CSS Grid Layout System](css-grid.md)
 - [Responsive Preview](responsive-preview.md)
 - [Visual Builder](visual-builder.md)
+- [Sizing Options](../options-groups/sizing.md) — Control flex item width, height, and grow/shrink behavior
+- [Spacing Options](../options-groups/spacing.md) — Margin and padding that interact with flex gap
+- [Playbook: Layout Patterns](../playbooks/layout-patterns.md) — Common layout recipes using flexbox

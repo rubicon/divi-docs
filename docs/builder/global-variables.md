@@ -1,5 +1,6 @@
 ---
 title: "Global Variables"
+description: "Divi 5 Global Variables — site-wide design tokens for colors, fonts, numbers, images, text, and links referenced across all pages and templates."
 category: builder
 tags: [builder, global-variables, design-system, design-tokens, site-wide]
 related: [design-variables, presets, relative-colors-hsl]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13348842"
 # Global Variables
 
 Global variables are site-wide design tokens in Divi 5 that let you define colors, fonts, numbers, images, text, and links once and reference them on every page, template, and Theme Builder layout.
+
+!!! abstract "Quick Reference"
+    **What it does:** Defines site-wide design tokens available on every page, template, and Theme Builder layout.
+    **Where to find it:** Variable Manager icon in the Visual Builder toolbar → organized by type tabs.
+    **Key features:**
+
+    - Six types: Color, Font, Number, Image, Text, Link
+    - Number variables support `calc()`, `clamp()`, `min()`, `max()` for responsive values
+    - Embedded in layout JSON exports for portable design systems
+    - Three-tier system: Variables → Option Group Presets → Element Presets
+
+    **ET Docs:** [Global Variables](https://help.elegantthemes.com/en/articles/13348842){:target="_blank"}
 
 ## Overview
 

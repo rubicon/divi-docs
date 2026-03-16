@@ -1,5 +1,6 @@
 ---
 title: "Woo Checkout Details"
+description: "Divi 5 Woo Checkout Details module — WooCommerce order summary table showing cart products, subtotals, and totals at checkout."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "checkout"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-check
 
 # Woo Checkout Details
 
-The Woo Checkout Details module is a Divi 5 content element used in the Visual Builder.
+The Woo Checkout Details module displays the order summary with cart products, subtotals, and totals on the checkout page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows the list of products in the cart with subtotal and total prices on the checkout page.
+    **When to use it:** Custom checkout page templates in the Theme Builder
+    **Key settings:** Text styling, CSS customization, Visibility
+    **Block identifier:** `divi/woo-checkout-details`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-checkout-details-module/)
+
+!!! tip "When to Use This Module"
+    - Building a custom WooCommerce checkout page template in the Theme Builder
+    - Displaying the order summary so customers can review items before completing purchase
+    - Pairing with billing, shipping, and payment modules for a complete checkout flow
+
+!!! warning "When NOT to Use This Module"
+    - On non-checkout pages → this module requires the WooCommerce checkout context
+    - For cart page product listings → use [Woo Cart Products](woo-cart-products.md)
+    - For displaying a product catalog → use [Shop](shop.md)
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Keyboard Shortcuts"
+description: "Complete Divi 5 Visual Builder keyboard shortcuts reference — navigation, editing, undo/redo, and efficiency shortcuts for faster page building."
 category: builder
 tags: ["builder", "keyboard-shortcuts", "productivity", "workflow"]
 related: ["vb-interface", "command-center", "right-click-menus"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12992094"
 # Keyboard Shortcuts
 
 A complete reference of keyboard shortcuts available in the Divi 5 Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Lists all hotkeys for saving, copying, pasting, duplicating, deleting, and navigating in the builder.
+    **Where to find it:** Press **?** inside the Visual Builder, or click Help in the left sidebar → Keyboard Shortcuts tab.
+    **Key features:**
+
+    - Page-level shortcuts (save, undo, redo, zoom, exit)
+    - Element shortcuts (copy, cut, paste, duplicate, delete)
+    - Attribute copy/paste shortcuts (Cmd/Ctrl + Shift + C/V)
+    - Structure shortcuts for rapid row and section creation (R+1, S+1)
+
+    **ET Docs:** [Divi Keyboard Shortcuts](https://help.elegantthemes.com/en/articles/12992094){:target="_blank"}
 
 ## Overview
 
@@ -98,3 +111,5 @@ Quickly add rows and sections or change column layouts with single-key combos.
 - [Right-Click Menus](right-click-menus.md) -- Context menu alternatives to shortcuts
 - [Copy & Paste Attributes](copy-paste-attributes.md) -- Detailed attribute transfer workflows
 - [Visual Builder](visual-builder.md) -- General Visual Builder documentation
+- [Layers View](layers-view.md) -- Navigate page structure from the layers panel
+- [Command Center](command-center.md) -- Quick-access command palette for common actions

@@ -1,5 +1,6 @@
 ---
 title: "Settings Search"
+description: "Divi 5 Settings Search — find any element setting instantly with keyword search and category filters across Content, Design, and Advanced tabs."
 category: builder
 tags: ["builder", "search", "settings", "filters", "workflow"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11483918"
 # Settings Search
 
 Instantly locate any setting within an element's Content, Design, or Advanced tabs using keyword search and category filters.
+
+!!! abstract "Quick Reference"
+    **What it does:** Filters element settings by keyword or category so you can jump directly to any option.
+    **Where to find it:** Search bar at the top of every element's settings panel.
+    **Key features:**
+
+    - Free-text keyword search across all three tabs simultaneously
+    - Category filter buttons: Modified, Variables, Colors, Sizes, Fonts, Background, Code, URLs, and more
+    - Modified filter for auditing all changed settings on an element
+    - Variables filter for identifying design variable usage
+
+    **ET Docs:** [Settings Search](https://help.elegantthemes.com/en/articles/11483918){:target="_blank"}
 
 ## Overview
 

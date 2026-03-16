@@ -1,5 +1,6 @@
 ---
 title: "Woo Product Rating"
+description: "Divi 5 Woo Product Rating module — WooCommerce average star rating display with customizable star color, size, and styling."
 category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product"]
 related: []
@@ -10,7 +11,24 @@ source_url: "https://www.elegantthemes.com/documentation/divi/the-divi-woo-produ
 
 # Woo Product Rating
 
-The Woo Product Rating module is a Divi 5 content element used in the Visual Builder.
+The Woo Product Rating module displays the average star rating for a WooCommerce product based on customer reviews.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows the average WooCommerce product star rating derived from customer reviews.
+    **When to use it:** Product page templates, custom product layouts in the Theme Builder
+    **Key settings:** Star color, Star size, CSS customization, Visibility
+    **Block identifier:** `divi/woo-product-rating`
+    **ET Docs:** [Official documentation](https://www.elegantthemes.com/documentation/divi/the-divi-woo-product-rating-module/)
+
+!!! tip "When to Use This Module"
+    - Displaying the average review rating on custom product page templates
+    - Positioning the star rating near the product title or price for social proof
+    - Styling the rating display to match your store's visual design
+
+!!! warning "When NOT to Use This Module"
+    - On non-WooCommerce pages → this module requires a product context
+    - For full review listings → use [Woo Product Reviews](woo-product-reviews.md)
+    - For product grids with ratings → use [Shop](shop.md) (ratings are built in)
 
 ## Overview
 

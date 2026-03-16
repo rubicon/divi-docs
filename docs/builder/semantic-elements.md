@@ -1,5 +1,6 @@
 ---
 title: "Semantic Elements"
+description: "Divi 5 Semantic Elements — assign HTML5 tags (nav, header, footer, article) and inject custom HTML wrappers for accessibility and SEO."
 category: builder
 tags: ["builder", "semantic", "html", "accessibility", "seo"]
 related: ["custom-attributes", "visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13284097"
 # Semantic Elements
 
 Assign meaningful HTML tags and inject custom HTML wrappers on any Divi element to improve accessibility and SEO.
+
+!!! abstract "Quick Reference"
+    **What it does:** Replaces generic `div` tags with semantic HTML5 elements and allows custom HTML injection before/after any element.
+    **Where to find it:** Any element's settings → Advanced Tab → HTML option group → Element Type.
+    **Key features:**
+
+    - Swap element tags to `nav`, `header`, `footer`, `section`, `article`, or `button`
+    - HTML Before/After fields for injecting custom wrappers or tracking code
+    - No visual change to the element — only the underlying HTML changes
+    - Improves screen reader navigation and search engine understanding
+
+    **ET Docs:** [Semantic Elements](https://help.elegantthemes.com/en/articles/13284097){:target="_blank"}
 
 ## Overview
 

@@ -1,5 +1,6 @@
 ---
 title: "Pagination Text Options"
+description: "Divi 5 Pagination Text options group — font, size, color, and spacing for page navigation links in blog and portfolio feeds."
 category: options-groups
 tags: ["options-groups", "pagination-text"]
 related: ["meta-text", "title-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10248789"
 # Pagination Text Options
 
 Controls the typography and appearance of pagination navigation links at the bottom of content feed modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font, weight, size, color, alignment, letter spacing, line height, and text shadow for pagination links
+    **Where to find it:** Design Tab → Pagination Text
+    **Available on:** Blog and Portfolio modules
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10248789)
 
 ## Overview
 

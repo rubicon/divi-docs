@@ -1,5 +1,6 @@
 ---
 title: "SSR Rendering"
+description: "Divi 5 SSR rendering internals — post-content boundary, double comment bug, background image gaps, post meta requirements, and validation checklist."
 category: internals
 tags: [ssr, rendering, post-content, boundary, server-side]
 related: [block-format, content-encoding, testimonial-ssr]
@@ -10,6 +11,11 @@ last_updated: 2026-03-12
 # SSR Rendering
 
 How Divi 5's server-side rendering processes block comments into HTML, and the critical boundaries that determine what renders.
+
+!!! abstract "Quick Reference"
+    **What this documents:** Server-side rendering behavior in Divi 5, including the critical `post-content` boundary, the double comment bug, and background image rendering gaps.
+    **Key data structures:** `<!-- /wp:post-content -->` boundary marker, `_et_pb_use_builder` post meta flag, section open/close tag validation.
+    **Last verified:** 2026-03-12
 
 ## The `post-content` Boundary
 

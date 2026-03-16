@@ -1,5 +1,6 @@
 ---
 title: "Layout Settings"
+description: "Divi 5 Layout theme options — single post and page layout controls for thumbnails, comments, post info sections, and index page display settings."
 category: theme-options
 tags: [theme-options, layout, posts, pages, thumbnails, comments]
 related: [general, navigation, builder-settings]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 # Layout Settings
 
 The Layout Settings tab controls how posts and pages display content such as post info sections, comments, and thumbnail images.
+
+!!! abstract "Quick Reference"
+    **What it controls:** How posts and pages display thumbnails, comments, and post info sections on single and index pages.
+    **Where to find it:** Divi → Theme Options → Layout
+    **Key settings:** Place Thumbs on Posts/Pages, Show comments on posts/pages, Post info section items
+    **ET Docs:** [https://www.elegantthemes.com/documentation/divi/theme-options/](https://www.elegantthemes.com/documentation/divi/theme-options/)
 
 ## Overview
 

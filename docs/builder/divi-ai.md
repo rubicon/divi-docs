@@ -1,5 +1,6 @@
 ---
 title: "Divi AI"
+description: "Divi 5 AI — generate text, images, layouts, and full sites using integrated AI directly within the Visual Builder, with context-aware results."
 category: builder
 tags: ["builder", "ai", "content-generation", "image-generation", "automation"]
 related: ["visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/10655703"
 # Divi AI
 
 Generate text, images, layouts, and entire sites using AI directly within the Divi Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** AI-powered generation of text, images, layouts, sections, and full websites from within the builder.
+    **Where to find it:** Divi AI icon on text/image fields, Background Image fields, or "Generate Content with AI" button on select modules.
+    **Key features:**
+
+    - Full site generation (25 tokens), layout generation (10 tokens), section generation (5 tokens)
+    - Text and content generation/improvement in any language (1 token each)
+    - Image generation, editing, enhancement, and aspect ratio adjustment
+    - Context-aware: draws on site title, tagline, and existing page content
+
+    **ET Docs:** [Divi AI](https://help.elegantthemes.com/en/articles/10655703){:target="_blank"}
 
 ## Overview
 

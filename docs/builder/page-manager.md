@@ -1,5 +1,6 @@
 ---
 title: "Page Manager"
+description: "Divi 5 Page Manager — create, duplicate, delete, and switch between pages directly inside the Visual Builder without returning to the dashboard."
 category: builder
 tags: ["builder", "pages", "workflow", "management", "navigation"]
 related: ["layers-view", "visual-builder"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/13557470"
 # Page Manager
 
 Create, duplicate, delete, and switch between pages without leaving the Visual Builder.
+
+!!! abstract "Quick Reference"
+    **What it does:** Lets you manage pages from within the builder, eliminating the exit-navigate-relaunch cycle.
+    **Where to find it:** Left sidebar → Page Manager icon.
+    **Key features:**
+
+    - Create new blank pages without visiting the WordPress dashboard
+    - Duplicate existing pages as starting points
+    - Switch to a different page for editing in one click
+    - Delete unused pages directly from the panel
+
+    **ET Docs:** [Page Manager](https://help.elegantthemes.com/en/articles/13557470){:target="_blank"}
 
 ## Overview
 

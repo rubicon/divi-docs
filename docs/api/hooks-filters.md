@@ -1,5 +1,6 @@
 ---
 title: "Hooks & Filters"
+description: "Divi 5 hooks and filters reference — PHP action hooks, filter hooks, JavaScript events, the Builder API object, hook execution order, and code examples."
 category: api
 tags: [hooks, filters, actions, php, javascript, development, extensibility]
 related: [custom-modules]
@@ -11,6 +12,12 @@ source_url: "https://www.elegantthemes.com/documentation/developers/"
 # Hooks & Filters
 
 Divi 5 provides PHP action hooks, PHP filter hooks, and JavaScript event hooks that let developers extend and customize every aspect of the Builder, modules, and front-end rendering.
+
+!!! abstract "Quick Reference"
+    **What this documents:** All major PHP action hooks, PHP filter hooks, and JavaScript event hooks for extending Divi 5.
+    **Key PHP hooks:** `et_builder_ready`, `et_module_shortcode_output`, `et_builder_post_types`, `et_before_main_content`
+    **Key JS hooks:** `et_builder_api_ready` (primary entry point), `et_fb_module_init`, `et_builder_after_save`
+    **Hook execution order:** Framework loaded → Modules loaded → Builder ready → Template rendering → Module rendering → JS API ready
 
 ## Overview
 

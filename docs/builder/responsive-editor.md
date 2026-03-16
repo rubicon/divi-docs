@@ -1,5 +1,6 @@
 ---
 title: "Responsive Editor"
+description: "Divi 5 Responsive Editor — view and edit per-breakpoint, hover, and sticky values for any setting from a single unified modal."
 category: builder
 tags: ["builder", "responsive", "breakpoints", "editor", "device"]
 related: ["custom-breakpoints", "responsive-preview"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/12105366"
 # Responsive Editor
 
 Edit per-breakpoint values for any setting from a single modal without switching device views.
+
+!!! abstract "Quick Reference"
+    **What it does:** Opens a per-setting panel showing values for every breakpoint, hover state, and sticky state in one view.
+    **Where to find it:** Click the Responsive Editor icon next to any responsive-capable setting in element settings.
+    **Key features:**
+
+    - Rows for each enabled breakpoint (up to 7) plus hover and sticky states
+    - Blue icon indicator flags settings with non-desktop overrides
+    - Reset button to clear individual breakpoint overrides
+    - Modified Settings filter to audit all responsive customizations
+
+    **ET Docs:** [Responsive Editor](https://help.elegantthemes.com/en/articles/12105366){:target="_blank"}
 
 ## Overview
 

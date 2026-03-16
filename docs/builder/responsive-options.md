@@ -1,5 +1,6 @@
 ---
 title: "Responsive Options"
+description: "Divi 5 Responsive Options — device-first editing workflow where selecting a breakpoint automatically scopes all design changes to that device."
 category: builder
 tags: ["builder", "responsive", "mobile", "breakpoints", "device"]
 related: ["responsive-preview", "vb-interface"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/10454950"
 # Responsive Options
 
 How Divi 5 handles device-specific design settings, breakpoints, and the responsive editing workflow.
+
+!!! abstract "Quick Reference"
+    **What it does:** Makes every design setting inherently responsive — select a device, edit any setting, and the change applies to that breakpoint.
+    **Where to find it:** Device selector in the top bar, or the per-element device selector in settings panels.
+    **Key features:**
+
+    - Device-first workflow: no "enable responsive" toggle needed per setting
+    - Desktop values cascade to Tablet and Phone unless overridden
+    - Nearly every setting supports per-device values (typography, spacing, layout, visibility)
+    - Module-level device selector for breakpoint-specific edits within the settings panel
+
+    **ET Docs:** [Divi Responsive Options](https://help.elegantthemes.com/en/articles/10454950){:target="_blank"}
 
 ## Overview
 
@@ -90,3 +103,6 @@ Nearly every design setting in Divi supports per-device values. Common examples 
 - [Responsive Preview](responsive-preview.md) -- Preview your design at specific viewport widths
 - [Visual Builder Interface](vb-interface.md) -- Top bar device selector and workspace overview
 - [Visual Builder](visual-builder.md) -- General Visual Builder documentation
+- [Custom Breakpoints](custom-breakpoints.md) -- Define custom viewport breakpoints beyond defaults
+- [Visibility Options](../options-groups/visibility.md) -- Show or hide elements per device type
+- [Playbook: Responsive Design](../playbooks/responsive-design.md) -- Best practices for responsive Divi layouts

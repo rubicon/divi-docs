@@ -1,5 +1,6 @@
 ---
 title: "Interactions"
+description: "Divi 5 Interactions — define trigger-effect pairs for clicks, hovers, scrolls, and page loads to create dynamic behaviors without custom JavaScript."
 category: builder
 tags: ["builder", "interactions", "animations", "triggers", "effects", "dynamic"]
 related: ["canvases", "condition-options", "presets"]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11666517"
 # Interactions
 
 Define event-driven behaviors that respond to clicks, hovers, scrolling, and other user actions to create dynamic, animated page experiences without custom JavaScript.
+
+!!! abstract "Quick Reference"
+    **What it does:** Attaches trigger-effect pairs to elements for dynamic behaviors like popups, toggles, scroll animations, and more.
+    **Where to find it:** Any element's settings → Advanced Tab → Interactions → Add Interaction.
+    **Key features:**
+
+    - Eight trigger types: Click, Mouse Enter/Exit, Viewport Enter/Exit, Load, Breakpoint Enter/Exit
+    - Effects: Toggle/Show/Hide visibility, Add/Remove/Toggle presets and attributes, cookies, scroll-to, mirror mouse
+    - Target options: Self, Parent, Child, or any element via CSS selector
+    - Multiple interactions per element, each with independent trigger, effect, and target
+
+    **ET Docs:** [Interactions](https://help.elegantthemes.com/en/articles/11666517){:target="_blank"}
 
 ## Overview
 
@@ -183,3 +196,6 @@ Each effect type has configurable parameters:
 - [Condition Options](condition-options.md)
 - [Presets](presets.md)
 - [Visual Builder](visual-builder.md)
+- [Animation Options](../options-groups/animation.md) — Entrance animations that complement interactions
+- [Transform Options](../options-groups/transform.md) — Transform properties driven by interaction triggers
+- [Scroll Effects Options](../options-groups/scroll-effects.md) — Scroll-driven effects as an alternative to click/hover

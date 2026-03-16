@@ -1,5 +1,6 @@
 ---
 title: "Fullwidth Slider"
+description: "Divi 5 Fullwidth Slider module — edge-to-edge slideshow with per-slide titles, buttons, images, video backgrounds, and parallax."
 category: modules
 tags: ["modules", "fullwidth", "slider", "slideshow", "carousel", "hero", "call-to-action", "parallax"]
 related: ["slider", "post-slider", "video-slider", "fullwidth-header"]
@@ -11,6 +12,23 @@ source_url: "https://www.elegantthemes.com/documentation/divi/slider-fullwidth/"
 # Fullwidth Slider
 
 The Fullwidth Slider module displays a full-width slideshow with customizable slides that can include titles, body text, buttons, images, and video backgrounds.
+
+!!! abstract "Quick Reference"
+    **What it does:** Creates an edge-to-edge slideshow with individually configurable slides, each with its own content and background.
+    **When to use it:** Homepage hero banners, promotional campaign rotators, visual storytelling sections
+    **Key settings:** Slides (repeater), Show Arrows, Show Dot Navigation, per-slide Heading/Button/Body/Background
+    **Block identifier:** `divi/fullwidth-slider`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10364612-the-slider-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Building a homepage hero with rotating slides for different products or offers
+    - Displaying time-sensitive promotions in an auto-advancing slideshow
+    - Creating visual storytelling sections with parallax or video backgrounds
+
+!!! warning "When NOT to Use This Module"
+    - For a single static hero section → use [Fullwidth Header](fullwidth-header.md)
+    - For content-width sliders in standard sections → use [Slider](slider.md)
+    - For blog post-based slideshows → use [Post Slider](post-slider.md)
 
 ## Overview
 

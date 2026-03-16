@@ -1,5 +1,6 @@
 ---
 title: "Conditions Options"
+description: "Divi 5 Conditions options group — dynamic display rules based on login status, device, browser, OS, and visitor behavior."
 category: options-groups
 tags: ["options-groups", "conditions", "advanced"]
 related: ["visibility", "css"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102758"
 # Conditions Options
 
 The Conditions options group lets you define rules that determine whether an element is displayed on the front end, enabling personalized content based on user behavior and system attributes.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Dynamic display rules using login status, visited pages, device, browser, OS, and purchase history
+    **Where to find it:** Advanced Tab → Conditions
+    **Available on:** All modules
+    **Responsive:** No — conditions evaluate at page load based on visitor context, not device breakpoints
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102758)
 
 ## Overview
 
@@ -56,3 +64,6 @@ Conditions are configured entirely through the Visual Builder interface and do n
 
 - [Visibility Options](visibility.md)
 - [CSS Options](css.md)
+- [Condition Options](../builder/condition-options.md) — Builder-level condition system for advanced display rules
+- [Dynamic Content](../builder/dynamic-content.md) — Pull conditional values from post meta and user data
+- [Login Module](../modules/login.md) — Show login forms conditionally based on user authentication state

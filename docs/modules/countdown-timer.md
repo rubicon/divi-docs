@@ -1,5 +1,6 @@
 ---
 title: "Countdown Timer"
+description: "Complete Divi 5 Countdown Timer module reference — real-time countdown display with days, hours, minutes, seconds, and styling options."
 category: modules
 tags: ["modules", "countdown", "timer", "date", "event", "urgency", "interactive"]
 related: ["number-counter", "circle-counter"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10273123-the-countdown-t
 # Countdown Timer
 
 The Countdown Timer module displays a real-time countdown to a specific date and time, showing the remaining days, hours, minutes, and seconds.
+
+!!! abstract "Quick Reference"
+    **What it does:** Shows a live-updating countdown to a target date/time, broken into days, hours, minutes, and seconds.
+    **When to use it:** Product launches, limited-time sales, event countdowns, coming-soon pages
+    **Key settings:** Title, Date (target date/time picker), Numbers styling, Label Text, Separator Text
+    **Block identifier:** `divi/countdown-timer`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10273123-the-countdown-timer-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - You need a real-time countdown to a specific future date and time
+    - Urgency-driven marketing for flash sales, product launches, or event registrations
+    - "Coming soon" landing pages where visitors need to know when something goes live
+
+!!! warning "When NOT to Use This Module"
+    - You need to display static statistics or percentages → use [Number Counter](number-counter.md) or [Circle Counter](circle-counter.md)
+    - You need an animated progress bar → use [Bar Counter](bar-counter.md)
+    - You need a recurring timer that resets → consider custom JavaScript in a [Code](code.md) module
 
 ## Overview
 

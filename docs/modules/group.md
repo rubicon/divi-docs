@@ -1,5 +1,6 @@
 ---
 title: "Group"
+description: "Complete Divi 5 Group module reference — nestable container for wrapping child modules with Flex, Grid, and Block layout modes."
 category: modules
 tags: ["modules", "group", "container", "layout", "flexbox", "grid", "wrapper"]
 related: ["group-carousel", "tabs"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/11170855"
 # Group
 
 The Group module is a lightweight container that wraps child modules within a column and lets you style, move, or save them as a single unit.
+
+!!! abstract "Quick Reference"
+    **What it does:** Wraps multiple child modules in a nestable container with shared styling and Block, Flex, or Grid layout modes.
+    **When to use it:** Reusable component blocks, inline button rows, card layouts, dynamic loop templates
+    **Key settings:** Layout (Block/Flex/Grid), Background, Link, Loop toggle
+    **Block identifier:** `divi/group`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/11170855)
+
+!!! tip "When to Use This Module"
+    - You need to treat multiple modules as a single styled unit with shared background and borders
+    - Building reusable card layouts or CTA blocks that can be saved as global presets
+    - Arranging child modules side by side using Flex or in structured grids using CSS Grid
+
+!!! warning "When NOT to Use This Module"
+    - You need a horizontal scrollable carousel of grouped content → use [Group Carousel](group-carousel.md)
+    - You need tab-based content organization → use [Tabs](tabs.md)
+    - You only need a single module with no grouping requirement → place the module directly in the column
 
 ## Overview
 

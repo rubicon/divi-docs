@@ -1,5 +1,6 @@
 ---
 title: "Image"
+description: "Complete Divi 5 Image module reference — linking, lightbox, CSS filters, responsive sizing, overlay effects, and code examples."
 category: modules
 tags: ["modules", "media", "image", "lightbox", "visual", "content"]
 related: ["gallery", "blurb", "icon"]
@@ -11,6 +12,23 @@ source_url: "https://help.elegantthemes.com/en/articles/10315772-the-image-modul
 # Image
 
 The Image module displays a single image with optional linking, lightbox functionality, and extensive styling controls.
+
+!!! abstract "Quick Reference"
+    **What it does:** Displays a single image with optional link, lightbox, and styling controls.
+    **When to use it:** Hero banners, linked product images, decorative section accents
+    **Key settings:** Image upload, Link/Lightbox, Alignment, CSS Filters, Overlay
+    **Block identifier:** `divi/image`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10315772-the-image-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying a single standalone image (photo, illustration, banner)
+    - Creating clickable images that link to other pages or open in a lightbox
+    - Applying CSS filters, overlays, or hover effects to an image
+
+!!! warning "When NOT to Use This Module"
+    - Displaying multiple images in a grid layout → use [Gallery](gallery.md)
+    - Pairing an image with a title and text description → use [Blurb](blurb.md)
+    - Showing a decorative icon rather than a photograph → use [Icon](icon.md)
 
 ## Overview
 
@@ -273,3 +291,6 @@ After configuring the Image module, click the green checkmark button at the bott
 - [Gallery](gallery.md) — Display multiple images in a grid or slider layout
 - [Blurb](blurb.md) — Combine an image or icon with a title and text block
 - [Icon](icon.md) — Display a standalone icon with optional linking and styling
+- [Image Options](../options-groups/image.md) — Shared image styling settings used across visual modules
+- [Filters Options](../options-groups/filters.md) — Apply CSS filters like brightness, contrast, and saturation
+- [Overlay Options](../options-groups/overlay.md) — Configure hover overlay effects on images

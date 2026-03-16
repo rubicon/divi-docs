@@ -1,5 +1,6 @@
 ---
 title: "Body Text Options"
+description: "Divi 5 Body Text options group — text alignment and text shadow controls for paragraph and body content in modules."
 category: options-groups
 tags: ["options-groups", "body-text"]
 related: ["title-text", "text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10101904"
 # Body Text Options
 
 Manages the typography and alignment of body content text within Divi 5 modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Text alignment and text shadow for body/paragraph content areas
+    **Where to find it:** Design Tab → Text (Body Text section)
+    **Available on:** Modules with body content (Text, Blurb, CTA, Toggle, Accordion, Testimonial, and others)
+    **Responsive:** Yes — alignment and shadow values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10101904)
 
 ## Overview
 

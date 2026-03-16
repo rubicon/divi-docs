@@ -1,5 +1,6 @@
 ---
 title: "Relative Colors (HSL)"
+description: "Divi 5 HSL color system — derive color variations from base values using relative hue, saturation, lightness, and opacity filters."
 category: builder
 tags: [builder, colors, hsl, relative-colors, color-system, design-system]
 related: [design-variables, global-variables, advanced-units]
@@ -11,6 +12,18 @@ source_url: "https://help.elegantthemes.com/en/articles/11631084"
 # Relative Colors (HSL)
 
 Divi 5's color system uses HSL (Hue, Saturation, Lightness) as its native color model and provides relative color filters that generate variations from a base color — maintaining relationships that update automatically when the base color changes.
+
+!!! abstract "Quick Reference"
+    **What it does:** Generates color variations from a base color using HSL offset filters that update automatically when the base changes.
+    **Where to find it:** Any color picker → Color Filters drawer (expandable panel within the picker).
+    **Key features:**
+
+    - HSL-native color model with Hex, RGB, HSL, and CSS variable input formats
+    - Color Filters drawer for relative hue, saturation, lightness, and opacity adjustments
+    - Derived colors maintain relationships when the base color changes
+    - Four default global colors: Primary, Secondary, Heading Text, Body Text
+
+    **ET Docs:** [Relative Colors (HSL)](https://help.elegantthemes.com/en/articles/11631084){:target="_blank"}
 
 ## Overview
 

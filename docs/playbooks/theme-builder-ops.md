@@ -1,5 +1,6 @@
 ---
 title: "theme-builder-ops"
+description: "LLM playbook for Divi 5 Theme Builder — creating global headers, footers, post templates, and category-specific template assignments."
 category: playbooks
 tags: [playbook]
 divi_version: "5.x"

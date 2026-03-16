@@ -1,5 +1,6 @@
 ---
 title: "Text Options"
+description: "Divi 5 Text options group — font selection, size, weight, color, alignment, letter spacing, line height, and text shadow controls."
 category: options-groups
 tags: ["options-groups", "text", "design", "styling"]
 related: ["title-text", "body-text"]
@@ -11,6 +12,13 @@ source_url: "https://help.elegantthemes.com/en/articles/10102451"
 # Text Options
 
 The Text options group controls the typographic appearance of body content within text-based Divi 5 modules.
+
+!!! abstract "Quick Reference"
+    **What it controls:** Font family, weight, style, size, color, alignment, letter spacing, line height, and text shadow
+    **Where to find it:** Design Tab → Text
+    **Available on:** Text-based modules (Text, Accordion, Blurb, CTA, and others with body content)
+    **Responsive:** Yes — all typography values can be set per breakpoint
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10102451)
 
 ## Overview
 
@@ -69,3 +77,7 @@ Add a subtle text shadow for visual depth:
 
 - [Title Text Options](title-text.md)
 - [Body Text Options](body-text.md)
+- [Heading Text Options](heading-text.md) — Typography settings specific to heading elements
+- [Text Module](../modules/text.md) — The primary rich text content module
+- [Heading Module](../modules/heading.md) — Standalone heading element with text styling controls
+- [Design Variables](../builder/design-variables.md) — Define reusable typography values across your site

@@ -1,5 +1,6 @@
 ---
 title: "Fullwidth Portfolio"
+description: "Divi 5 Fullwidth Portfolio module — edge-to-edge project grid or carousel with category filtering, hover overlays, and pagination."
 category: modules
 tags: ["modules", "fullwidth", "portfolio", "projects", "grid", "carousel", "gallery"]
 related: ["portfolio", "filterable-portfolio", "gallery"]
@@ -11,6 +12,23 @@ source_url: "https://www.elegantthemes.com/documentation/divi/fullwidth-portfoli
 # Fullwidth Portfolio
 
 The Fullwidth Portfolio module displays WordPress Projects in an edge-to-edge grid or carousel layout that spans the full width of the page.
+
+!!! abstract "Quick Reference"
+    **What it does:** Showcases WordPress Projects at full browser width in a grid or carousel with hover overlays.
+    **When to use it:** Agency portfolio pages, homepage featured work sections, photography galleries
+    **Key settings:** Posts Number, Include Categories, Layout (Grid/Fullwidth), Show Title, Show Categories, Show Pagination
+    **Block identifier:** `divi/fullwidth-portfolio`
+    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10358290-the-portfolio-module-in-divi-5)
+
+!!! tip "When to Use This Module"
+    - Displaying client work or projects in a dramatic, edge-to-edge presentation
+    - Creating a homepage featured work carousel in a fullwidth section
+    - Showcasing photography or design collections at maximum visual impact
+
+!!! warning "When NOT to Use This Module"
+    - For portfolio grids within content columns → use [Portfolio](portfolio.md)
+    - For category-filtered portfolio browsing → use [Filterable Portfolio](filterable-portfolio.md)
+    - For non-project image collections → use [Gallery](gallery.md)
 
 ## Overview
 
