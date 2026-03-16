@@ -21,35 +21,87 @@ Divi makes editing large amounts of content a breeze with the multi-select and b
 
 ## The Power of Divi Multi-Select and Bulk Editing Features
 
-<!-- TODO: Add detailed content for this section -->
+Multi-select lets you act on several elements simultaneously instead of repeating the same operation on each one individually. This is particularly powerful for:
+
+- **Rebranding** -- change background colors, font styles, or spacing across multiple modules at once.
+- **Animation and effects** -- add scroll effects or hover animations to a group of elements in a single step.
+- **Structural reorganization** -- move an entire group of elements to a different section.
+- **Bulk deletion** -- remove multiple modules, rows, or sections in one action.
 
 ## Selecting Multiple Modules
 
-<!-- TODO: Add detailed content for this section -->
+### Hold-Click Method
+
+Hold **Cmd** (Mac) or **Ctrl** (Windows) and click each element you want to include in the selection. Selected elements display a highlight border on the canvas.
+
+- You can select modules, rows, and sections in the same multi-selection.
+- Click a selected element again (while holding Cmd/Ctrl) to deselect it.
+- Click an empty area of the canvas (without holding Cmd/Ctrl) to clear the entire selection.
+
+### Layers View Method
+
+Open the [Layers View](layers-view.md) panel and hold **Cmd/Ctrl** while clicking layer entries. This is useful when elements overlap on the canvas and are hard to click individually.
+
+### Select All in a Container
+
+Right-click a row or section and choose **Select All Modules** (if available) to select every module within that container at once.
 
 ## Bulk Editing Modules
 
-<!-- TODO: Add detailed content for this section -->
+Once multiple elements are selected, open the shared settings panel to edit common properties. The settings panel displays only the settings that are shared across all selected element types.
+
+### Supported Bulk Edit Operations
+
+| Category | Examples |
+|----------|----------|
+| **Design settings** | Background color, font family, font size, text color, padding, margin, border, box shadow. |
+| **Advanced settings** | Scroll effects, animation, transitions, visibility, custom CSS classes. |
+| **Content settings** | Background image/gradient (when all selected elements support it). |
+
+When you change a value in the bulk editor, it applies to every selected element simultaneously.
 
 ## Divi Multi-Select and Bulk Editing Shared Settings
 
-<!-- TODO: Add detailed content for this section -->
+The shared settings panel adapts based on what you have selected:
+
+| Selection | Available Shared Settings |
+|-----------|--------------------------|
+| All same module type (e.g., all Buttons) | Full shared Content, Design, and Advanced tabs. |
+| Mixed module types (e.g., Button + Text) | Only settings common to all selected types (Design and Advanced tabs mostly). |
+| Mixed element levels (e.g., Module + Row) | Only universally shared settings (background, spacing, visibility). |
+
+Settings that are not shared across the selection are hidden to prevent errors.
 
 ## Copy, Paste & Delete with Divi Multi-Select and Bulk Editing
 
-<!-- TODO: Add detailed content for this section -->
+With multiple elements selected:
+
+| Action | Shortcut | Description |
+|--------|----------|-------------|
+| **Copy** | Cmd/Ctrl + C | Copies all selected elements to the clipboard. |
+| **Cut** | Cmd/Ctrl + X | Removes all selected elements and places them on the clipboard. |
+| **Paste** | Cmd/Ctrl + V | Pastes previously copied elements. |
+| **Delete** | Cmd/Ctrl + Backspace | Deletes all selected elements at once. |
+| **Duplicate** | Cmd/Ctrl + Shift + D | Duplicates all selected elements in place. |
+
+You can also right-click the selection and use the context menu for these operations.
 
 ## Move Elements with Multi-Select
 
-<!-- TODO: Add detailed content for this section -->
+After selecting multiple elements, drag any one of them to move the entire group. All selected elements move together, maintaining their relative order. This is useful for reorganizing page sections or moving a cluster of modules from one row to another.
 
 ## Tips and Best Practices for Divi Multi-Select and Bulk Editing
 
-<!-- TODO: Add detailed content for this section -->
+- **Select similar elements.** Bulk editing is most powerful when all selected elements share the same type (e.g., all Blurb modules in a features row). The shared settings panel shows more options.
+- **Use for style consistency.** Instead of copying and pasting styles one by one, select all target elements and set the value once in the bulk editor.
+- **Combine with Find & Replace.** For value-specific changes (e.g., replacing a specific color), [Find & Replace Attributes](find-replace-attributes.md) may be faster than multi-select for large pages.
+- **Undo is your friend.** If a bulk edit produces unexpected results, Cmd/Ctrl + Z undoes the entire batch operation in one step.
 
-## Additional Resources For the Divi Multi-Select and Bulk Editing Feature
+## Additional Resources
 
-<!-- TODO: Add detailed content for this section -->
+- [Copy & Paste Attributes](copy-paste-attributes.md) -- Transfer styles between individual elements.
+- [Find & Replace Attributes](find-replace-attributes.md) -- Swap specific design values across a page.
+- [Keyboard Shortcuts](keyboard-shortcuts.md) -- Full shortcut reference including multi-select operations.
 
 ## Version Notes
 

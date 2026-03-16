@@ -21,27 +21,64 @@ There are two ways to access Divi’s responsive preview system. The first is by
 
 ## How To Access the Divi Responsive Preview System
 
-<!-- TODO: Add detailed content for this section -->
+There are two ways to activate responsive preview:
+
+### Page-Level Preview
+
+1. **From the back end**: Go to any page in the WordPress admin and click **Preview** with a device option.
+2. **From the Visual Builder**: Click one of the device icons (Desktop, Tablet, Phone) in the top bar or the bottom toolbar. The canvas resizes to the selected breakpoint.
+
+### Element-Level Preview
+
+Within any element's settings panel, use the device selector to switch breakpoints. This lets you preview and edit responsive values for a specific element without affecting the overall canvas view.
+
+## Default Breakpoints
+
+Divi provides three built-in breakpoints:
+
+| Breakpoint | Width Range | Icon |
+|-----------|-------------|------|
+| **Desktop** | 981 px and above | Monitor icon |
+| **Tablet** | 768 px -- 980 px | Tablet icon |
+| **Phone** | Below 768 px | Phone icon |
+
+These breakpoints determine which responsive values are applied. Settings cascade downward: a Desktop value is inherited by Tablet and Phone unless overridden.
 
 ## Adjusting the Divi Responsive Preview Modes
 
-<!-- TODO: Add detailed content for this section -->
+When you switch to Tablet or Phone preview mode, the canvas resizes to a representative width for that device class. You can fine-tune the preview by:
+
+- **Dragging the canvas edges** to test any width within the breakpoint range.
+- **Typing a specific pixel width** in the width input field (if available in the top bar).
+
+This lets you test how your design responds not just at the default breakpoint widths, but at any viewport size in between.
 
 ## Customizing the Divi Responsive Preview Widths
 
-<!-- TODO: Add detailed content for this section -->
+For projects that require breakpoints beyond the three defaults, see the [Responsive Options](responsive-options.md) documentation for details on custom breakpoints and how Divi 5 handles the device-first responsive workflow.
 
 ## Above The Fold Indicator
 
-<!-- TODO: Add detailed content for this section -->
+When responsive preview is active, Divi displays an **above-the-fold indicator** -- a horizontal line showing where the visible viewport ends before the user scrolls. This helps you ensure that critical content (hero headlines, CTAs, navigation) appears above the fold on each device size.
+
+The fold line adjusts automatically as you change device preview modes, reflecting the typical viewport height for each device class.
 
 ## Portrait & Landscape Modes
 
-<!-- TODO: Add detailed content for this section -->
+For tablet and phone previews, Divi provides a **rotation toggle** that switches between portrait (vertical) and landscape (horizontal) orientations. The canvas width and height adjust to reflect the rotated device dimensions.
+
+| Device | Portrait Width | Landscape Width |
+|--------|---------------|-----------------|
+| **Tablet** | ~768 px | ~1024 px |
+| **Phone** | ~375 px | ~667 px |
+
+Use landscape mode to verify that your design works well when users rotate their devices, particularly for full-width sections and hero areas.
 
 ## More Resources
 
-<!-- TODO: Add detailed content for this section -->
+- [Responsive Options](responsive-options.md) -- The device-first responsive editing workflow in Divi 5
+- [Visual Builder Interface](vb-interface.md) -- Top bar device selector and workspace overview
+- [Keyboard Shortcuts](keyboard-shortcuts.md) -- Shortcuts for zooming and navigation
 
 ## Version Notes
 

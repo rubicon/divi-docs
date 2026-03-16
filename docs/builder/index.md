@@ -25,3 +25,31 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Gradient Builder](gradient-builder.md) | Create and customize CSS gradients | ✅ Done |
 | [Condition Options](condition-options.md) | Conditional display logic for elements | ✅ Done |
 | [Support Center](support-center.md) | Debugging tools and safe mode | ✅ Done |
+| [Semantic Elements](semantic-elements.md) | Assign semantic HTML tags and custom HTML wrappers | ✅ Done |
+| [Custom Breakpoints](custom-breakpoints.md) | Configure responsive breakpoint widths site-wide | ✅ Done |
+| [Responsive Editor](responsive-editor.md) | Edit per-breakpoint values from a unified modal | ✅ Done |
+| [Custom Attributes](custom-attributes.md) | Add HTML attributes to any element | ✅ Done |
+| [Settings Search](settings-search.md) | Search and filter element settings | ✅ Done |
+| [Page Manager](page-manager.md) | Create, duplicate, and switch pages in the builder | ✅ Done |
+| [Speculative Prerendering](speculative-prerendering.md) | Preload pages for instant builder navigation | ✅ Done |
+| [Divi AI](divi-ai.md) | AI-powered content, image, and layout generation | ✅ Done |
+| [Nested Modules](nested-modules.md) | Nest modules inside other modules for complex layouts | ✅ Done |
+| [Nested Rows](nested-rows.md) | Place rows inside columns for sub-grid layouts | ✅ Done |
+| [Canvases](canvases.md) | Off-canvas workspaces for popups, menus, and staging | ✅ Done |
+| [Command Center](command-center.md) | Keyboard-driven command palette for rapid builder actions | ✅ Done |
+| [Interactions](interactions.md) | Event-driven animations and dynamic behaviors | ✅ Done |
+| [Attribute Management](attribute-management.md) | Copy, paste, and reset element attributes | ✅ Done |
+| [Extend Attributes](extend-attributes.md) | Propagate attributes to multiple elements at once | ✅ Done |
+| [Dynamic Content](dynamic-content.md) | Pull live data from posts, custom fields, and variables | ✅ Done |
+| [Loop Builder](loop-builder.md) | Display repeating content from database queries | ✅ Done |
+| [Find and Replace](find-and-replace.md) | Bulk search and replace attribute values | ✅ Done |
+| [Visual Builder Interface](vb-interface.md) | Guided tour of the workspace panels and toolbars | ✅ Done |
+| [Keyboard Shortcuts](keyboard-shortcuts.md) | Complete keyboard shortcut reference | ✅ Done |
+| [Right-Click Menus](right-click-menus.md) | Context menu operations on elements | ✅ Done |
+| [Left Sidebar](left-sidebar.md) | Left options sidebar panels and controls | ✅ Done |
+| [Wireframe View](wireframe-view.md) | Structural editing mode for layout work | ✅ Done |
+| [Responsive Options](responsive-options.md) | Device-first responsive editing workflow | ✅ Done |
+| [Add, Duplicate & Remove](add-duplicate-remove.md) | Building and managing page elements | ✅ Done |
+| [Copy & Paste Attributes](copy-paste-attributes.md) | Granular attribute transfer between elements | ✅ Done |
+| [Find & Replace Attributes](find-replace-attributes.md) | Bulk value replacement across elements | ✅ Done |
+| [Element Presets](element-presets.md) | Per-element-type saved design configurations | ✅ Done |

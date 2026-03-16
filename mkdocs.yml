@@ -171,20 +171,63 @@ nav:
     - Customizer: theme-options/customizer.md
   - Builder:
     - Overview: builder/index.md
-    - Visual Builder: builder/visual-builder.md
-    - Theme Builder: builder/theme-builder.md
-    - Divi Library: builder/library.md
-    - Presets: builder/presets.md
-    - Global Elements: builder/global-elements.md
-    - Role Editor: builder/role-editor.md
-    - Responsive Preview: builder/responsive-preview.md
-    - Multi-Select & Bulk Editing: builder/multi-select-bulk-editing.md
-    - Layers View: builder/layers-view.md
-    - Gradient Builder: builder/gradient-builder.md
-    - Condition Options: builder/condition-options.md
-    - Support Center: builder/support-center.md
-    - Flexbox Layout System: builder/flexbox.md
-    - CSS Grid Layout System: builder/css-grid.md
+    - Visual Builder Basics:
+      - Visual Builder: builder/visual-builder.md
+      - VB Interface: builder/vb-interface.md
+      - Keyboard Shortcuts: builder/keyboard-shortcuts.md
+      - Right-Click Menus: builder/right-click-menus.md
+      - Left Sidebar: builder/left-sidebar.md
+      - Wireframe View: builder/wireframe-view.md
+      - Layers View: builder/layers-view.md
+      - Settings Search: builder/settings-search.md
+      - Command Center: builder/command-center.md
+      - Page Manager: builder/page-manager.md
+    - Layout & Structure:
+      - Flexbox Layout System: builder/flexbox.md
+      - CSS Grid Layout System: builder/css-grid.md
+      - Nested Modules: builder/nested-modules.md
+      - Nested Rows: builder/nested-rows.md
+      - Semantic Elements: builder/semantic-elements.md
+      - Responsive Preview: builder/responsive-preview.md
+      - Responsive Options: builder/responsive-options.md
+      - Responsive Editor: builder/responsive-editor.md
+      - Custom Breakpoints: builder/custom-breakpoints.md
+    - Design System:
+      - Presets: builder/presets.md
+      - Element Presets: builder/element-presets.md
+      - Option Group Presets: builder/option-group-presets.md
+      - Stacked & Nested Presets: builder/stacked-nested-presets.md
+      - Preset Manager: builder/preset-manager.md
+      - Design Variables: builder/design-variables.md
+      - Global Variables: builder/global-variables.md
+      - Advanced Units: builder/advanced-units.md
+      - Relative Colors & HSL: builder/relative-colors-hsl.md
+      - Style Inspector: builder/style-inspector.md
+      - Gradient Builder: builder/gradient-builder.md
+    - Content & Data:
+      - Dynamic Content: builder/dynamic-content.md
+      - Loop Builder: builder/loop-builder.md
+      - Divi AI: builder/divi-ai.md
+      - Canvases: builder/canvases.md
+    - Editing Tools:
+      - Multi-Select & Bulk Editing: builder/multi-select-bulk-editing.md
+      - Attribute Management: builder/attribute-management.md
+      - Extend Attributes: builder/extend-attributes.md
+      - Copy & Paste Attributes: builder/copy-paste-attributes.md
+      - Find & Replace: builder/find-and-replace.md
+      - Find & Replace Attributes: builder/find-replace-attributes.md
+      - Custom Attributes: builder/custom-attributes.md
+      - Add, Duplicate & Remove: builder/add-duplicate-remove.md
+      - Interactions: builder/interactions.md
+      - Condition Options: builder/condition-options.md
+    - Site Management:
+      - Theme Builder: builder/theme-builder.md
+      - Divi Library: builder/library.md
+      - Global Elements: builder/global-elements.md
+      - Role Editor: builder/role-editor.md
+      - Support Center: builder/support-center.md
+    - Performance:
+      - Speculative Prerendering: builder/speculative-prerendering.md
   - Options Groups:
     - Overview: options-groups/index.md
     - Background: options-groups/background.md

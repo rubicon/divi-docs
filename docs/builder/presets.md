@@ -5,7 +5,7 @@ tags: [builder, presets, global-styles, design-system]
 related: [visual-builder, global-elements, library]
 divi_version: "5.x"
 last_updated: 2026-03-12
-source_url: ""
+source_url: "https://help.elegantthemes.com/en/articles/13349150"
 ---
 
 # Divi Presets
@@ -223,6 +223,14 @@ Keep overrides to a minimum. If you find yourself overriding the same preset set
     1. Make sure you are editing the element, not the preset
     2. Check that the setting you changed is not being overridden by a parent element's style
     3. Verify the override is saved (click the green Save button)
+
+## Dedicated Preset Pages
+
+For deeper coverage of specific preset features, see:
+
+- [Element Presets](element-presets.md) -- Creating, managing, and applying per-element-type presets, including stacked presets and nested option group presets.
+- [Copy & Paste Attributes](copy-paste-attributes.md) -- Transfer preset assignments between elements using the attribute copy/paste system.
+- [Find & Replace Attributes](find-replace-attributes.md) -- Bulk-replace design values across elements, complementing presets for one-off value changes.
 
 ## Related
 

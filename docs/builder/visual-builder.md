@@ -14,7 +14,7 @@ The Divi Visual Builder is the front-end, drag-and-drop page editor that lets yo
 
 ## Overview
 
-Divi is a modern no-code visual drag-and-drop website builder for WordPress. With Divi, you can build stunning websites from the ground up without touching a single line of code. Divi harnesses the power of complex web development and lets you design custom websites using the Visual Builder so you can see the changes you are making in real time.
+Divi is a modern no-code visual drag-and-drop website builder for WordPress. With Divi, you can build stunning websites from the ground up without touching a single line of code. Divi harnesses the power of complex web development and lets you design custom websites using the Visual Builder so you can see the changes you are making in real time. For the official Elegant Themes documentation, see [Visual Builder](https://www.elegantthemes.com/documentation/divi/visual-builder/){:target="_blank"}.
 
 The Visual Builder operates directly on the front end of your website. Every change you make is immediately visible, giving you a true WYSIWYG (What You See Is What You Get) editing experience. You can drag and drop elements, resize them, edit text inline, and adjust design settings through an intuitive settings panel.
 
@@ -382,3 +382,18 @@ In the Advanced tab of any element's settings, you can add custom CSS:
 - [Presets](presets.md) -- Creating and managing element presets
 - [Global Elements](global-elements.md) -- Reusable synced elements
 - [Modules Overview](../modules/index.md) -- All available content modules
+
+## Visual Builder Features
+
+The following pages document individual Visual Builder features in detail:
+
+- [Visual Builder Interface](vb-interface.md) -- Guided tour of the workspace panels and toolbars
+- [Left Sidebar](left-sidebar.md) -- Every panel in the left options sidebar
+- [Keyboard Shortcuts](keyboard-shortcuts.md) -- Complete shortcut reference
+- [Right-Click Menus](right-click-menus.md) -- Context menu operations
+- [Wireframe View](wireframe-view.md) -- Structural editing mode
+- [Responsive Options](responsive-options.md) -- Device-first responsive editing workflow
+- [Add, Duplicate & Remove Elements](add-duplicate-remove.md) -- Building and managing page elements
+- [Copy & Paste Attributes](copy-paste-attributes.md) -- Granular attribute transfer between elements
+- [Find & Replace Attributes](find-replace-attributes.md) -- Bulk value replacement across elements
+- [Element Presets](element-presets.md) -- Per-element-type design presets

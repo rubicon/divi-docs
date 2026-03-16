@@ -21,31 +21,80 @@ Accessing the Divi Support Center is a breeze. Simply log in to your Divi websit
 
 ## How to Access the Divi Help & Support Center
 
-<!-- TODO: Add detailed content for this section -->
+1. Log in to your WordPress site.
+2. Navigate to **Divi > Support** in the left-hand admin menu.
+3. The Support Center dashboard loads with tabs for each feature area.
+
+You can also access Safe Mode and the Debug Log from within the Visual Builder's Help panel.
 
 ## Divi Support Center: System Status
 
-<!-- TODO: Add detailed content for this section -->
+The System Status panel runs a fully automated health check on your WordPress environment. It reports on:
+
+| Check | What It Verifies |
+|-------|-----------------|
+| **PHP Version** | Whether your server's PHP version meets Divi's minimum requirements. |
+| **WordPress Version** | Whether WordPress is up to date. |
+| **Divi Version** | Whether the latest Divi release is installed. |
+| **PHP Memory Limit** | Whether the memory limit is sufficient (256 MB or higher recommended). |
+| **PHP Max Input Vars** | Whether the input variable limit is high enough for large pages. |
+| **PHP Post Max Size** | Whether uploaded file size limits are adequate. |
+| **MySQL Version** | Whether the database server version is compatible. |
+| **WordPress Debug Mode** | Whether WP_DEBUG is enabled or disabled. |
+| **Plugin Conflicts** | Flags known plugin conflicts that may affect Divi. |
+| **Theme Conflicts** | Checks for child theme issues or incompatible parent themes. |
+
+Each check displays a green (pass) or red (fail) status indicator with a recommendation if the check fails.
 
 ## Divi Support Center: Remote Access
 
-<!-- TODO: Add detailed content for this section -->
+The Remote Access feature lets you generate a secure, time-limited access token that allows Elegant Themes support agents to log in to your site without sharing your password.
+
+- Tokens expire automatically after a set period.
+- You can revoke access at any time.
+- Support agents see a clearly labeled admin session so their actions are distinguishable in your activity logs.
 
 ## Divi Support Center: Documentation
 
-<!-- TODO: Add detailed content for this section -->
+The Documentation tab provides an embedded search interface for the Elegant Themes knowledge base. Search for any Divi feature, error message, or workflow directly from your WordPress admin without opening a separate browser tab.
 
 ## Safe Mode
 
-<!-- TODO: Add detailed content for this section -->
+Safe Mode is a diagnostic tool that temporarily disables elements that commonly cause conflicts, allowing you to isolate the source of a problem.
+
+### What Safe Mode Disables
+
+| Element | Effect |
+|---------|--------|
+| **Child Theme** | Switches to the parent Divi theme, bypassing child theme customizations. |
+| **Custom CSS** | Disables all custom CSS added through Divi options, the Customizer, and element-level CSS. |
+| **Third-Party Plugins** | Deactivates all plugins except Divi to test for plugin conflicts. |
+| **Static CSS File Generation** | Falls back to inline styles instead of cached CSS files. |
+
+### Using Safe Mode
+
+1. Navigate to **Divi > Support > Safe Mode**.
+2. Toggle Safe Mode **on**.
+3. Test whether the issue persists.
+4. If the issue disappears, re-enable items one by one to identify the conflict.
+5. Toggle Safe Mode **off** when finished.
+
+!!! tip "Safe Mode is Non-Destructive"
+    Safe Mode does not delete or permanently change any settings. It only temporarily bypasses potential conflict sources. All settings are restored when you turn it off.
 
 ## Divi Debug Log
 
-<!-- TODO: Add detailed content for this section -->
+The Debug Log records Divi-specific errors, warnings, and notices. It is useful for diagnosing issues that do not produce visible error messages on the front end.
+
+- Access the log from **Divi > Support > Debug Log**.
+- The log captures PHP errors, JavaScript console messages, and Divi internal events.
+- Copy the log contents when submitting a support ticket to give the support team detailed diagnostic information.
 
 ## More Resources
 
-<!-- TODO: Add detailed content for this section -->
+- [Visual Builder](visual-builder.md) -- General builder documentation
+- [Troubleshooting](../troubleshooting/index.md) -- Problem-solution guides
+- [Elegant Themes Support](https://www.elegantthemes.com/support/){:target="_blank"} -- Official support portal
 
 ## Version Notes
 
