@@ -28,4 +28,5 @@ This section documents things Elegant Themes hasn't documented publicly. It's ba
 | [TinyMCE State Sync](tinymce-state.md) | How the text editor syncs (and doesn't sync) with Divi's save state | ✅ Documented |
 | [JSON Attribute Map](json-attribute-map.md) | CSS-to-JSON path mapping, brace-depth parser, style migration patterns | ✅ Documented |
 | [Library Import JSON](library-import-json.md) | Global Variables, Presets, Theme Builder, Customizer, and layout JSON structure | ✅ Documented |
+| [Style Guide to Divi Variables Design](style-guide-to-divi-variables-design.md) | Design spec: generating Divi 5 Global Variables JSON from style guides or tokens | ✅ Documented |
 | [Testimonial Rendering Gaps](testimonial-ssr.md) | Known SSR bugs in the testimonial module | ✅ Documented |

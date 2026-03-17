@@ -325,6 +325,7 @@ nav:
     - TinyMCE State: internals/tinymce-state.md
     - JSON Attribute Map: internals/json-attribute-map.md
     - Library Import JSON: internals/library-import-json.md
+    - Style Guide to Divi Variables Design: internals/style-guide-to-divi-variables-design.md
     - Testimonial Gaps: internals/testimonial-ssr.md
   - Recipes:
     - Overview: recipes/index.md

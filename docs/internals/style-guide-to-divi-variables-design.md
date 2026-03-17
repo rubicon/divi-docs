@@ -8,17 +8,17 @@ last_updated: 2026-03-17
 
 # Design: Style Guide → Divi 5 Global Variables Import
 
-Define a repeatable workflow (and companion Claude skill) that takes an arbitrary “style guide” input (prose and/or design tokens) and produces a **Divi 5–importable** JSON file for **Global Variables**.
+Define a repeatable workflow (and companion Claude skill) that takes an arbitrary "style guide" input (prose and/or design tokens) and produces a **Divi 5–importable** JSON file for **Global Variables**.
 
 ## Goals
 
-- Accept **format-agnostic** style guides (Markdown, copied doc text, “PDF text dump”, etc.).
+- Accept **format-agnostic** style guides (Markdown, copied doc text, "PDF text dump", etc.).
 - Prefer **explicit tokens** (JSON/table/CSV) when provided; fall back to extraction from prose.
 - Output a valid Divi import file with `context: "et_builder"` containing:
   - `global_colors`
   - `global_variables`
 - Keep IDs **stable** across re-runs to support safe re-import and updates.
-- Never invent values: only emit variables with explicit values; provide a “missing tokens” report.
+- Never invent values: only emit variables with explicit values; provide a "missing tokens" report.
 
 ## Non-goals
 
@@ -52,7 +52,7 @@ Single JSON object (root):
 - `images`: `[]`
 - `thumbnails`: `[]`
 
-See `docs/internals/library-import-json.md` for the reverse-engineered schema.
+See [Library Import JSON](library-import-json.md) for the reverse-engineered schema.
 
 ## Extraction model
 
@@ -73,7 +73,7 @@ Only extract when there is an **explicit value** present, e.g.:
 - URLs/emails/phones
 - Font families: quoted or clearly named families (e.g. `Inter`, `Open Sans`)
 
-If the text describes intent without a value (e.g. “use a deep navy”), it is reported as missing.
+If the text describes intent without a value (e.g. "use a deep navy"), it is reported as missing.
 
 ## Normalization rules
 
@@ -93,7 +93,7 @@ The generator should map found values into a canonical name hierarchy:
 - `layout.container.max`, `layout.text.max`, `layout.breakpoint.*` (if present)
 - `link.*`, `string.*`
 
-These names are used for labels/IDs and for a human-facing “token report”.
+These names are used for labels/IDs and for a human-facing "token report".
 
 ## ID strategy (stable)
 
@@ -112,7 +112,7 @@ Collision handling: append `-2`, `-3`, etc.
 
 ## Divi variable typing
 
-Map token categories to Divi’s `type`:
+Map token categories to Divi's `type`:
 
 - Colors → `colors` (+ mirrored entry in `global_colors`)
 - Font families → `fonts`
@@ -133,17 +133,16 @@ For each variable object:
 
 Update `docs/recipes/import-design-systems.md` with a new section:
 
-- “Generate a Divi Global Variables JSON from a style guide”
+- "Generate a Divi Global Variables JSON from a style guide"
 - Include a minimal token table schema (BYO mapping) to maximize reliability
 - Include import steps and troubleshooting notes
 
 ## Companion Claude skill
 
-Implemented as **[16wells/divi-styleguide-variables](https://github.com/16wells/divi-styleguide-variables)** (Claude skill “divi-variables-from-style-guide”):
+Implemented as **[16wells/divi-styleguide-variables](https://github.com/16wells/divi-styleguide-variables)** (Claude skill "divi-variables-from-style-guide"):
 
 - Accept: brand name/slug + style guide text + optional tokens payload (JSON/table)
 - Output:
   - importable JSON (`context: "et_builder"`)
   - a token/ID report table
   - a missing/ambiguous tokens checklist
-
