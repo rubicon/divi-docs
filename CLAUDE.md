@@ -7,6 +7,7 @@ This is the **Divi 5 Technical Documentation** site — a community-maintained M
 ## Key Files
 
 - **SKILL.md** — Complete documentation template, frontmatter schema, writing standards, and content type definitions. READ THIS FIRST before creating or editing any documentation pages.
+- **claude-skills/README.md** — References to external Claude skills (e.g. style-guide → Divi variables); install/update from their repos.
 - **mkdocs.yml** — Site config and navigation. Update this whenever you add new pages.
 - **docs/manifest.json** — Machine-readable map of the site structure.
 - **templates/doc-template.md** — Blank template for new reference doc pages.
