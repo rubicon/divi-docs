@@ -29,6 +29,8 @@ Divi 5 modules inherit from Theme Customizer globals. If the globals match the t
 
 Color globals (accent, link, header) cascade into buttons, links, and heading modules site-wide. Get these right once and they propagate everywhere.
 
+The advantage to the user is, if you've created a Style Guide for your business, website, etc. already, you should be able to use our Claude Skill that we reference in this repo to parse your style guide in almost any format directly into an importable JSON file that will set your Divi variables for you. See that skill [on GitHub](https://github.com/16wells/divi-styleguide-variables).
+
 ## Step-by-Step Process
 
 ### Step 1: Audit the Target Design
