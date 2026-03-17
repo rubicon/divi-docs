@@ -125,6 +125,74 @@ This typically affects global typography and baseline colors.
 
 This preserves the “single source of truth” workflow where variables feed presets, and presets feed layouts.
 
+## Generate a Global Variables JSON from a style guide (tokens-first)
+
+If you don’t have a pre-built Divi “design system” ZIP, you can still move fast by generating a **Divi 5 Global Variables import** from an existing style guide (brand guidelines, marketing site style guide, design tokens, etc.).
+
+This approach is **format-agnostic**:
+
+- If you have **design tokens** (JSON/CSV/table), use them as the source of truth.
+- If you only have **prose**, extract only values that are explicitly specified (HEX colors, px values, font family names, URLs, etc.).
+
+### What you’ll create
+
+A single JSON file with:
+
+- `context: "et_builder"`
+- `global_colors` (palette swatches)
+- `global_variables` (colors, numbers, fonts, strings, links)
+
+Import it via **Divi → Divi Library → Import & Export** with **Import Global Variables** enabled.
+
+### Minimal “bring-your-own tokens” table format
+
+If you can produce a table like this (from any system), generation becomes deterministic:
+
+| name | type | value | notes (optional) |
+|---|---|---|---|
+| `color.brand.navy` | `colors` | `#1A2332` | Primary brand background |
+| `font.heading.family` | `fonts` | `Roboto` | Headlines |
+| `type.h1.size` | `numbers` | `48px` | Desktop |
+| `space.2` | `numbers` | `16px` | Spacing scale |
+| `radius.sm` | `numbers` | `4px` | Buttons/inputs |
+| `link.site` | `links` | `https://example.com` | Canonical URL |
+
+#### Allowed Divi variable types
+
+- `colors`
+- `numbers`
+- `fonts`
+- `strings`
+- `links`
+- `images`
+
+### Recommended variable coverage (practical baseline)
+
+- **Colors**: primary/secondary, neutrals, semantic (success/warning/error/info)
+- **Typography**: heading/body font families; a type scale (H1–H5 + body) if available
+- **Layout**: container max width, readable text max width
+- **Spacing**: a small scale (e.g. 8/16/24/32/48/64…)
+- **Radius & shadows**: 1–3 radii, 1–3 shadows
+- **Links & strings**: website URL, support email, phone, key CTA text
+
+### Claude skill (optional)
+
+A community Claude skill can generate this JSON from style guide prose and/or a token table: **[divi-styleguide-variables](https://github.com/16wells/divi-styleguide-variables)**. Install it in Claude.ai or Claude Code, then ask Claude to convert your style guide or tokens into a Divi Global Variables import file.
+
+### Stable IDs (so you can safely re-import)
+
+Divi uses string IDs for colors and variables. For consistency across re-generations, prefer stable IDs derived from token names:
+
+- **Colors**: `gcid-<slug>` (example: `gcid-color-brand-navy`)
+- **Variables**: `gvid-<slug>` (example: `gvid-type-h1-size`)
+
+Where `<slug>` is the token name lowercased and converted to hyphens.
+
+### Troubleshooting
+
+!!! warning "The import succeeds but fonts don’t render correctly"
+    Divi variables can store font family names, but the fonts still need to be available on the site (uploaded, served by Google Fonts, etc.). Import variables first, then ensure fonts are loaded before final visual QA.
+
 ## Troubleshooting
 
 !!! warning "JSON import fails or file is blocked"
@@ -142,3 +210,4 @@ This preserves the “single source of truth” workflow where variables feed pr
 - [Import Elements from Divi Library](../troubleshooting/import-library-elements.md)
 - [Upload SVG and JSON Files](../troubleshooting/upload-svg-json.md)
 - [Block Comment Format](../internals/block-format.md)
+- [Claude skill: divi-styleguide-variables](https://github.com/16wells/divi-styleguide-variables) — Generate Global Variables JSON from style guides or tokens
