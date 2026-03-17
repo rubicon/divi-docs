@@ -10,8 +10,28 @@ This folder does **not** contain full skill definitions. Skills used by or recom
 
 ## Installing or updating a skill
 
-1. Clone or download the skill from its repo (e.g. `git clone https://github.com/16wells/divi-styleguide-variables.git`).
-2. Install in **Claude.ai**: Settings → Capabilities/Skills → Upload skill → select the folder that contains `SKILL.md`.
-3. Install in **Claude Code**: Copy that folder into your Claude Code skills directory (see your settings for the path).
+### In Cursor
 
-To pull updates for a skill you already cloned, `git pull` in the skill’s directory; then re-upload or re-add the skill in Claude if needed.
+Cursor reads skills from `~/.cursor/skills/`. Each skill must live in its own folder with a `SKILL.md` at the root.
+
+**Install (one-time):**
+
+```bash
+git clone https://github.com/16wells/divi-styleguide-variables.git ~/.cursor/skills/divi-styleguide-variables
+```
+
+**Update later:**
+
+```bash
+cd ~/.cursor/skills/divi-styleguide-variables && git pull
+```
+
+Restart Cursor or start a new chat so the skill is picked up.
+
+### In Claude.ai
+
+Settings → Capabilities/Skills → Upload skill → select the folder that contains `SKILL.md`.
+
+### In Claude Code
+
+Copy the skill folder into your Claude Code skills directory (see your settings for the path).

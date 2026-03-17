@@ -29,7 +29,17 @@ Divi 5 modules inherit from Theme Customizer globals. If the globals match the t
 
 Color globals (accent, link, header) cascade into buttons, links, and heading modules site-wide. Get these right once and they propagate everywhere.
 
-The advantage to the user is, if you've created a Style Guide for your business, website, etc. already, you should be able to use our Claude Skill that we reference in this repo to parse your style guide in almost any format directly into an importable JSON file that will set your Divi variables for you. See that skill [on GitHub](https://github.com/16wells/divi-styleguide-variables).
+If you already have a style guide (brand guidelines, design tokens, or a doc), you can use the [Divi Variables From Style Guide](https://github.com/16wells/divi-styleguide-variables) Claude skill to generate a Divi 5 Global Variables import file (see [Import Design Systems](../recipes/import-design-systems.md)), then follow this playbook to get everything into your site quickly.
+
+## Video walkthrough
+
+The following video shows how to use the Claude skill and this playbook to rapidly import your style guide into a Divi site.
+
+<div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1em 0;">
+<iframe src="https://www.youtube.com/embed/GhEmNP48Zdk" title="Design System Setup: Style guide to Divi with Claude skill" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+</div>
+
+*Watch: Using the Claude skill and Design System Setup playbook to get your style guide into Divi.*
 
 ## Step-by-Step Process
 
