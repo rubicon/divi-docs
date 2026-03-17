@@ -324,6 +324,7 @@ nav:
     - VB Architecture: internals/vb-architecture.md
     - TinyMCE State: internals/tinymce-state.md
     - JSON Attribute Map: internals/json-attribute-map.md
+    - Library Import JSON: internals/library-import-json.md
     - Testimonial Gaps: internals/testimonial-ssr.md
   - Recipes:
     - Overview: recipes/index.md
