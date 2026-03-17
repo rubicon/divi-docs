@@ -19,3 +19,7 @@ These are practical, tested "how to build X" guides. Each recipe assumes basic f
 
 !!! tip "Have a recipe to share?"
     If you've built something cool with Divi, write it up and submit a pull request. See the [Contributing Guide](../contributing.md).
+
+## Recipes
+
+- [Import a Design System into Divi 5](import-design-systems.md)

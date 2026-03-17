@@ -151,6 +151,81 @@ Import with **“Import Presets”** checked.
 
 ---
 
+### Preset examples
+
+**Minimal module preset** (no overrides — uses module defaults):
+
+```json
+{
+  "id": "vruk2g8yjw",
+  "name": "Heading Preset 1",
+  "moduleName": "divi/heading",
+  "version": "5.0.0-public-beta.3",
+  "type": "module",
+  "created": 1758716832549,
+  "updated": 1758716832549
+}
+```
+
+**Module preset with attrs** (Subheading — font size, line height, color from Design Variables):
+
+```json
+{
+  "id": "1qsg0gx514",
+  "name": "Subheading",
+  "moduleName": "divi/heading",
+  "version": "5.0.0-public-beta.3",
+  "type": "module",
+  "created": 1759320987336,
+  "updated": 1763853708881,
+  "attrs": {
+    "title": {
+      "decoration": {
+        "font": {
+          "font": {
+            "desktop": {
+              "value": {
+                "headingLevel": "h4",
+                "size": "$variable({\"type\":\"content\",\"value\":{\"name\":\"gvid-6kxjcrjyig\",\"settings\":{}}})$",
+                "lineHeight": "$variable({\"type\":\"content\",\"value\":{\"name\":\"gvid-un2vx5k3ld\",\"settings\":{}}})$",
+                "color": "$variable({\"type\":\"color\",\"value\":{\"name\":\"gcid-heading-color\",\"settings\":{}}})$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "css": {
+      "desktop": {
+        "value": {
+          "mainElement": "padding-bottom: 0;"
+        }
+      }
+    }
+  },
+  "renderAttrs": { }
+}
+```
+
+Here `gvid-6kxjcrjyig` is a numbers variable (e.g. Subheading font size), `gvid-un2vx5k3ld` line height, and `gcid-heading-color` a global color. Layout blocks reference this preset via `modulePreset`: `["1qsg0gx514"]`.
+
+**Group preset on a layout block** — layouts attach group presets in the block JSON like this:
+
+```json
+"groupPreset": {
+  "module.decoration.spacing": {
+    "presetId": ["sjv7gwfcxt"],
+    "groupName": "divi/spacing"
+  },
+  "module.decoration.boxShadow": {
+    "presetId": ["wuw39vfwm8"],
+    "groupName": "divi/box-shadow"
+  }
+}
+```
+
+---
+
 ## 3. Theme Builder Templates (`context: "et_theme_builder"`)
 
 **File example:** `Divi-5-Launch-Freebie_Theme-Builder-Templates.json`
@@ -316,6 +391,68 @@ $variable({"type":"<type>","value":{"name":"<variable-id>","settings":{<optional
 | `Individual Sections/By Section Type/Divi-5-Launch-Freebie_*_Sections.json` | `et_builder_layouts` | One file per section type (Hero, FAQ, Team, etc.) |
 
 Recommended **import order** (from Elegant Themes): Presets → Global Variables → Section Layouts → Page Layouts → Theme Builder Templates → Theme Customizer (optional).
+
+---
+
+## Root schema quick reference
+
+Compact view of required root keys per context. Optional or often-empty keys (`canvases`, `images`, `thumbnails`) omitted.
+
+**`et_builder`** (Global Variables and/or Presets):
+
+```text
+context: "et_builder"
+data: []
+presets: [] | { module?: { [moduleSlug]: { default, items } }, group?: { [groupName]: { default, items } } }
+global_colors: [ [id, { color, status, label } ], ... ]
+global_variables: [ { id, label, value, order, status, lastUpdated, variableType, type, groupKey? }, ... ]
+```
+
+**`et_builder_layouts`** (pages, sections, premade):
+
+```text
+context: "et_builder_layouts"
+data: { [postId]: { ID, post_content, post_title, post_type, post_meta, terms, ... } }
+```
+
+**`et_theme_builder`**:
+
+```text
+context: "et_theme_builder"
+templates: [ { title, default, enabled, use_on, exclude_from, layouts: { header, body, footer }, description }, ... ]
+layouts: { [layoutId]: { context, data, post_title, post_type, theme_builder, global_colors, post_meta, ... } }
+presets?: {}
+global_colors?: []
+global_variables?: []
+has_default_template?: boolean
+has_global_layouts?: boolean
+```
+
+**`et_divi_mods`** (Theme Customizer):
+
+```text
+context: "et_divi_mods"
+data: { body_font_size, heading_font, body_font, header_color, font_color, link_color, accent_color, ... }
+```
+
+---
+
+## Step-by-step: Importing the Design System
+
+Use this order on a **clean Divi 5 site** to avoid conflicts and missing variable references.
+
+1. **Download and extract** the Design System ZIP (e.g. from the [Divi 5 Launch Gift](https://www.elegantthemes.com/blog/divi-resources/divi-5-launch-gift-design-system) post).
+2. **Divi → Divi Library → Import & Export**
+   - **Import Presets:** Choose `Divi-5-Launch-Freebie_Presets.json`, ensure **Import Presets** is checked, import.
+   - **Import Global Variables:** Choose `Divi-5-Launch-Freebie_Global-Variables.json`, ensure **Import Global Variables** is checked, import.
+   - **Import section layouts:** Choose `Divi-5-Launch-Freebie_All-Sections_Layouts.json` (or `Divi-5-Launch-Freebie_All-Individual-Sections.json` for individual sections). Import as layouts.
+   - **Import page layouts:** Choose `Divi-5-Launch-Freebie_Pages.json` (and optionally `Divi-5-Launch-Freebie_Preset-Pages.json`, `Divi-5-Launch-Freebie_Premade-Layouts.json`). Import as layouts.
+3. **Divi → Theme Builder → ↑↓** (Import/Export)
+   - Import `Divi-5-Launch-Freebie_Theme-Builder-Templates.json` with **Presets** enabled. Allow override of existing template assignments if the site is new.
+4. **Optional — Divi → Theme Customizer → ↑↓**
+   - Import `Divi-5-Launch-Freebie_Theme-Customizer.json` to apply baseline typography and colors at the Customizer level.
+
+After import, customize via **Design Variables** first (colors, fonts, spacing); presets and layouts that reference them will update automatically.
 
 ---
 

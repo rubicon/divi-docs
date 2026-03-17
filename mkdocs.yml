@@ -328,6 +328,7 @@ nav:
     - Testimonial Gaps: internals/testimonial-ssr.md
   - Recipes:
     - Overview: recipes/index.md
+    - Import Design Systems: recipes/import-design-systems.md
   - Troubleshooting:
     - Overview: troubleshooting/index.md
     - Divi 5 FAQ: troubleshooting/divi5-faq.md
