@@ -77,7 +77,7 @@ The Content tab controls which comment elements are visible, along with linking,
 | Order | select | Control the module's display order when the parent row uses Flexbox or Grid layout modes. |
 | Meta | admin label | Assign an admin label visible only in the Visual Builder to identify this module in the layers panel. |
 
-<!-- ![Comments Content tab settings](../assets/screenshots/modules/comments/settings-content.png){ loading=lazy } -->
+![Comments Content tab settings](../assets/screenshots/modules/comments/settings-content.png){ loading=lazy }
 <!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
@@ -109,7 +109,7 @@ The Design tab provides granular styling for every visual element within the com
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Comments Design tab settings](../assets/screenshots/modules/comments/settings-design.png){ loading=lazy } -->
+![Comments Design tab settings](../assets/screenshots/modules/comments/settings-design.png){ loading=lazy }
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
@@ -130,7 +130,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Comments Advanced tab settings](../assets/screenshots/modules/comments/settings-advanced.png){ loading=lazy } -->
+![Comments Advanced tab settings](../assets/screenshots/modules/comments/settings-advanced.png){ loading=lazy }
 <!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples

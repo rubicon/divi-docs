@@ -121,17 +121,45 @@ def login_to_wordpress(page):
     print("  Logged in successfully.")
 
 
-def wait_for_vb(page, timeout: int = 60000):
-    """Wait for the Visual Builder to fully load."""
+def wait_for_vb(page, timeout: int = 120000):
+    """Wait for the Visual Builder to fully load.
+
+    If the VB doesn't auto-launch, tries clicking 'Edit With Divi' in the
+    admin bar as a fallback.
+    """
     try:
         page.wait_for_selector(VB_SELECTORS["vb_ready"], timeout=timeout)
-        # Extra wait for React to render
-        time.sleep(5)
-        print("    VB ready")
-        return True
     except PlaywrightTimeout:
-        print("    Warning: VB may not be fully loaded")
-        return False
+        # VB didn't auto-launch — try clicking "Edit With Divi" in admin bar
+        print("    VB not auto-launched, clicking Edit With Divi...")
+        try:
+            # Look for the admin bar link
+            edit_link = page.query_selector(
+                "a:has-text('Edit With Divi'), "
+                "a:has-text('Enable Visual Builder'), "
+                "#wp-admin-bar-et-use-visual-builder a, "
+                "#wp-admin-bar-et_fb_admin_bar_toggle a"
+            )
+            if edit_link:
+                edit_link.click()
+                page.wait_for_selector(VB_SELECTORS["vb_ready"], timeout=timeout)
+            else:
+                print("    Warning: Could not find Edit With Divi link")
+                return False
+        except PlaywrightTimeout:
+            print("    Warning: VB did not load after clicking Edit With Divi")
+            return False
+
+    # Wait for the modal tabs to appear (indicates VB is interactive)
+    try:
+        page.wait_for_selector(VB_SELECTORS["tabs_container"], timeout=15000)
+    except PlaywrightTimeout:
+        pass  # Tabs may not be visible until a module is clicked
+
+    # Extra wait for React to render
+    time.sleep(5)
+    print("    VB ready")
+    return True
 
 
 def find_and_click_module(page, slug: str, debug: bool = False):
@@ -332,6 +360,9 @@ def capture_module(page, slug: str, debug: bool = False, skip_existing: bool = T
 
     # Wait for VB — if it fails, try re-login and retry once
     if not wait_for_vb(page):
+        if debug:
+            ensure_dir(DEBUG_DIR)
+            page.screenshot(path=str(DEBUG_DIR / f"{slug}-vb-initial-fail.png"))
         print(f"  [{slug}] VB failed to load, re-logging in...")
         try:
             login_to_wordpress(page)

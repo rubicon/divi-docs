@@ -122,7 +122,7 @@ Each field in the repeater exposes these settings:
 | Order | select | Control the module's display order when the parent row uses Flexbox or Grid layout modes. |
 | Meta | admin label | Assign an admin label visible only in the Visual Builder to identify this module in the layers panel. |
 
-<!-- ![Contact Form Content tab settings](../assets/screenshots/modules/contact-form/settings-content.png){ loading=lazy } -->
+![Contact Form Content tab settings](../assets/screenshots/modules/contact-form/settings-content.png){ loading=lazy }
 <!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
@@ -151,7 +151,7 @@ The Design tab controls the visual presentation of every element within the form
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Contact Form Design tab settings](../assets/screenshots/modules/contact-form/settings-design.png){ loading=lazy } -->
+![Contact Form Design tab settings](../assets/screenshots/modules/contact-form/settings-design.png){ loading=lazy }
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
@@ -172,7 +172,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Contact Form Advanced tab settings](../assets/screenshots/modules/contact-form/settings-advanced.png){ loading=lazy } -->
+![Contact Form Advanced tab settings](../assets/screenshots/modules/contact-form/settings-advanced.png){ loading=lazy }
 <!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples

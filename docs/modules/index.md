@@ -22,6 +22,7 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Accordion](accordion.md) | Collapsible content panels (grouped) | ✅ Documented |
 | [Audio](audio.md) | Embed audio player | ✅ Documented |
 | [Bar Counter](bar-counter.md) | Animated horizontal bar charts | ✅ Documented |
+| [Before After Image](before-after-image.md) | Interactive before/after image comparison slider | ✅ Documented |
 | [Blog](blog.md) | Display blog posts in grid or list | ✅ Documented |
 | [Blurb](blurb.md) | Icon or image with heading and text | ✅ Documented |
 | [Button](button.md) | Customizable button element | ✅ Documented |
@@ -30,6 +31,7 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Code](code.md) | Raw HTML/CSS/JS code block | ✅ Documented |
 | [Countdown Timer](countdown-timer.md) | Animated countdown to a date | ✅ Documented |
 | [Divider](divider.md) | Horizontal divider line | ✅ Documented |
+| [Dropdown](dropdown.md) | Hover/click-triggered dropdown container with nested modules | ✅ Documented |
 | [Filterable Portfolio](filterable-portfolio.md) | Portfolio with category filters | ✅ Documented |
 | [Gallery](gallery.md) | Image gallery grid | ✅ Documented |
 | [Group](group.md) | Lightweight container for wrapping child modules | ✅ Documented |
@@ -40,6 +42,7 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Icon List](icon-list.md) | Styled list with custom icons per item | ✅ Documented |
 | [Image](image.md) | Display a single image | ✅ Documented |
 | [Lottie](lottie.md) | Lightweight JSON/SVG animation player | ✅ Documented |
+| [Link](link.md) | Styled link with optional icon | ✅ Documented |
 | [Map](map.md) | Google Maps embed | ✅ Documented |
 | [Menu](menu.md) | Navigation menu display | ✅ Documented |
 | [Number Counter](number-counter.md) | Animated number counter | ✅ Documented |
@@ -47,6 +50,7 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Person](person.md) | Team member profile card | ✅ Documented |
 | [Portfolio](portfolio.md) | Portfolio grid display | ✅ Documented |
 | [Post Navigation](post-navigation.md) | Previous/next post links | ✅ Documented |
+| [Post Content](post-content.md) | Display current post/page content | ✅ Documented |
 | [Post Slider](post-slider.md) | Blog posts in slider format | ✅ Documented |
 | [Post Title](post-title.md) | Dynamic post title display | ✅ Documented |
 | [Pricing Table](pricing-table.md) | Pricing comparison table | ✅ Documented |

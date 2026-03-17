@@ -76,7 +76,7 @@ The Content tab is where you manage the video collection and configure overlay a
 | Order | number / select | Control the module's display order when placed inside a Flexbox or CSS Grid container. Useful for reordering elements without moving them in the layer tree. |
 | Meta | admin label / visibility | Assign a custom label to identify this module in the Visual Builder's layer panel and optionally force its visibility during editing. |
 
-<!-- ![Video Slider Content tab settings](../assets/screenshots/modules/video-slider/settings-content.png){ loading=lazy } -->
+![Video Slider Content tab settings](../assets/screenshots/modules/video-slider/settings-content.png){ loading=lazy }
 <!-- TODO: Capture Content tab screenshot -->
 
 #### Individual Video Item Settings
