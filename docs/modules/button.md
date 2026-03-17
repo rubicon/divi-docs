@@ -74,7 +74,7 @@ The Content tab controls the button's label text, destination link, and module m
 | Order | number | Controls the display order of this module when its parent row or column uses Flexbox or CSS Grid layout modes. |
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. Also controls Visual Builder visibility. |
 
-<!-- ![Button Content tab settings](../assets/screenshots/modules/button/settings-content.png){ loading=lazy } -->
+![Button Content tab settings](../assets/screenshots/modules/button/settings-content.png){ loading=lazy }
 
 ### Design Tab
 
@@ -98,7 +98,7 @@ The Design tab controls the button's visual appearance including alignment, typo
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Button Design tab settings](../assets/screenshots/modules/button/settings-design.png){ loading=lazy } -->
+![Button Design tab settings](../assets/screenshots/modules/button/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -118,7 +118,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Button Advanced tab settings](../assets/screenshots/modules/button/settings-advanced.png){ loading=lazy } -->
+![Button Advanced tab settings](../assets/screenshots/modules/button/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 

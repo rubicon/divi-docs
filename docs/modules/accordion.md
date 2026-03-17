@@ -74,7 +74,7 @@ The Content tab controls the accordion's items, icon, link behavior, background,
 | Order | select | Control the display order of accordion items (e.g., default order or reversed). |
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. |
 
-<!-- ![Accordion Content tab settings](../assets/screenshots/modules/accordion/settings-content.png){ loading=lazy } -->
+![Accordion Content tab settings](../assets/screenshots/modules/accordion/settings-content.png){ loading=lazy }
 
 #### Individual Accordion Item Settings
 
@@ -112,7 +112,7 @@ The Design tab controls the visual styling of the accordion and its contents.
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Accordion Design tab settings](../assets/screenshots/modules/accordion/settings-design.png){ loading=lazy } -->
+![Accordion Design tab settings](../assets/screenshots/modules/accordion/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -132,7 +132,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Accordion Advanced tab settings](../assets/screenshots/modules/accordion/settings-advanced.png){ loading=lazy } -->
+![Accordion Advanced tab settings](../assets/screenshots/modules/accordion/settings-advanced.png){ loading=lazy }
 
 ## Managing Accordion Items
 

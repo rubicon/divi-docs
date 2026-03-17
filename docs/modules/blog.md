@@ -75,7 +75,7 @@ The Content tab controls which posts appear, what information is shown, and how 
 | Order | order controls | Define the display order of the Blog module within Flexbox and CSS Grid parent layouts. Useful when the visual order should differ from the DOM order. |
 | Meta | admin label | Assign a custom admin label to the module for easier identification in the Visual Builder layer panel. Force visibility in the builder interface. |
 
-<!-- ![Blog Content tab settings](../assets/screenshots/modules/blog/settings-content.png){ loading=lazy } -->
+![Blog Content tab settings](../assets/screenshots/modules/blog/settings-content.png){ loading=lazy }
 
 #### Blog Content Settings Detail
 
@@ -126,7 +126,7 @@ The Design tab provides full visual control over the blog's layout mode, image o
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Blog Design tab settings](../assets/screenshots/modules/blog/settings-design.png){ loading=lazy } -->
+![Blog Design tab settings](../assets/screenshots/modules/blog/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -146,7 +146,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy } -->
+![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 

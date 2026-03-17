@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Update module documentation pages with screenshot references and ET walkthrough links.
+Update module doc pages with screenshot references.
 
-For each module doc:
-1. Uncomments commented-out screenshot references where the file actually exists
-2. Replaces "<!-- TODO: Add animated GIF -->" with a link to the ET Help Center article
-3. Reports what was updated
+For each module that has settings screenshots captured:
+- Uncomments screenshot image references
+- Replaces animated GIF TODO markers with ET walkthrough links
+- Only touches lines that reference screenshots - preserves all other content
 
 Usage:
-  python scripts/update_docs_with_screenshots.py            # Process all modules
-  python scripts/update_docs_with_screenshots.py --dry-run   # Preview changes
+    python scripts/update_docs_with_screenshots.py
+    python scripts/update_docs_with_screenshots.py --dry-run
 """
 
 import argparse
@@ -17,186 +18,120 @@ import re
 import sys
 from pathlib import Path
 
+
 DOCS_DIR = Path("docs/modules")
 SCREENSHOTS_DIR = Path("docs/assets/screenshots/modules")
+MIN_FILE_SIZE = 1024  # 1KB - skip tiny/corrupt images
 
 
-def get_source_url(content: str) -> str | None:
+def get_source_url(content: str) -> str:
     """Extract source_url from frontmatter."""
-    fm_match = re.match(r"^---\n(.+?)\n---", content, re.DOTALL)
-    if not fm_match:
-        return None
-    for line in fm_match.group(1).split("\n"):
-        if "source_url" in line:
-            m = re.search(r'["\']([^"\']+)["\']', line)
-            if m:
-                return m.group(1)
-    return None
+    match = re.search(r'source_url:\s*["\'](.+?)["\']', content)
+    return match.group(1) if match else ""
 
 
-def get_module_title(content: str, slug: str) -> str:
-    """Extract module title from frontmatter or heading."""
-    m = re.search(r'^title:\s*["\']([^"\']+)["\']', content, re.MULTILINE)
-    if m:
-        return m.group(1).strip()
-    m = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
-    if m:
-        return m.group(1).strip()
-    return slug.replace("-", " ").title()
+def update_module_doc(md_path: Path, dry_run: bool = False) -> dict:
+    """Update a single module doc with screenshot references.
 
-
-def uncomment_screenshot(content: str, slug: str) -> tuple[str, list[str]]:
+    Returns dict with counts of changes made.
     """
-    Uncomment screenshot references where the actual file exists.
-    Returns (new_content, list_of_uncommented_files).
-    """
-    uncommented = []
+    slug = md_path.stem
+    screenshot_dir = SCREENSHOTS_DIR / slug
+    changes = {"uncommented": 0, "gif_replaced": 0}
 
-    for tab in ["content", "design", "advanced"]:
-        filename = f"settings-{tab}.png"
-        filepath = SCREENSHOTS_DIR / slug / filename
-
-        if not filepath.exists() or filepath.stat().st_size < 1024:
-            continue
-
-        # Pattern: <!-- ![Alt text](../assets/screenshots/modules/{slug}/settings-{tab}.png){ loading=lazy } -->
-        # Possibly followed by a TODO comment on the next line
-        pattern = (
-            r"<!-- (!\[[^\]]*\]\(\.\.\/assets\/screenshots\/modules\/"
-            + re.escape(slug)
-            + r"\/"
-            + re.escape(filename)
-            + r"\)\s*\{\s*loading=lazy\s*\}) -->"
-        )
-
-        match = re.search(pattern, content)
-        if match:
-            # Get the module title for the caption
-            title = get_module_title(content, slug)
-            short_title = title.replace(" Module", "").strip()
-            tab_display = tab.capitalize()
-
-            # Build replacement: uncommented image + caption
-            replacement = (
-                match.group(1)
-                + f"\n*The {tab_display} tab settings panel for the {short_title} module.*"
-            )
-            content = content[:match.start()] + replacement + content[match.end():]
-            uncommented.append(filename)
-
-            # Remove the TODO comment that follows (if present)
-            todo_pattern = r"\n<!-- TODO: Capture " + tab_display + r" tab screenshot -->"
-            content = re.sub(todo_pattern, "", content, count=1)
-
-    return content, uncommented
-
-
-def replace_gif_todo(content: str, slug: str) -> tuple[str, bool]:
-    """
-    Replace <!-- TODO: Add animated GIF --> with a link to the ET article.
-    Returns (new_content, was_replaced).
-    """
-    todo_pattern = r"<!-- TODO: Add animated GIF demonstrating module insertion -->"
-
-    if not re.search(todo_pattern, content):
-        return content, False
-
-    source_url = get_source_url(content)
-    if not source_url:
-        # Can't link without a source URL
-        return content, False
-
-    replacement = (
-        "For an animated walkthrough of adding and configuring this module, see the\n"
-        f"[official Elegant Themes documentation]({source_url})."
-    )
-
-    content = re.sub(todo_pattern, replacement, content, count=1)
-    return content, True
-
-
-def process_module(slug: str, dry_run: bool = False) -> dict:
-    """Process a single module doc. Returns report dict."""
-    md_path = DOCS_DIR / f"{slug}.md"
     if not md_path.exists():
-        return {"slug": slug, "status": "no_doc"}
+        return changes
 
-    content = md_path.read_text(encoding="utf-8")
+    content = md_path.read_text()
     original = content
+    source_url = get_source_url(content)
 
-    # Uncomment screenshot references
-    content, uncommented = uncomment_screenshot(content, slug)
+    # Check which settings screenshots exist and are valid
+    has_content = (screenshot_dir / "settings-content.png").exists() and \
+                  (screenshot_dir / "settings-content.png").stat().st_size > MIN_FILE_SIZE
+    has_design = (screenshot_dir / "settings-design.png").exists() and \
+                 (screenshot_dir / "settings-design.png").stat().st_size > MIN_FILE_SIZE
+    has_advanced = (screenshot_dir / "settings-advanced.png").exists() and \
+                   (screenshot_dir / "settings-advanced.png").stat().st_size > MIN_FILE_SIZE
 
-    # Replace GIF TODO with ET link
-    content, gif_replaced = replace_gif_todo(content, slug)
-
-    report = {
-        "slug": slug,
-        "uncommented": uncommented,
-        "gif_replaced": gif_replaced,
-        "changed": content != original,
+    # Uncomment screenshot references where the file exists
+    screenshot_map = {
+        "settings-content.png": has_content,
+        "settings-design.png": has_design,
+        "settings-advanced.png": has_advanced,
     }
 
-    if content != original and not dry_run:
-        md_path.write_text(content, encoding="utf-8")
-        report["status"] = "updated"
-    elif content != original:
-        report["status"] = "would_update"
-    else:
-        report["status"] = "no_changes"
+    for filename, exists in screenshot_map.items():
+        if not exists:
+            continue
 
-    return report
+        # Pattern: <!-- ![Alt text](../path/to/settings-content.png){ loading=lazy } -->
+        pattern = rf'<!-- (!\[.*?\]\(.*?{re.escape(filename)}.*?\).*?) -->'
+        matches = re.findall(pattern, content)
+        if matches:
+            for match in matches:
+                content = content.replace(f"<!-- {match} -->", match)
+                changes["uncommented"] += 1
+
+    # Replace animated GIF TODO markers with ET walkthrough link
+    if source_url:
+        gif_patterns = [
+            r'<!-- TODO: Add animated GIF demonstrating.*?-->',
+            r'<!-- TODO: Add animated GIF.*?-->',
+        ]
+        replacement = f"For an animated walkthrough of this module, see the [official Elegant Themes documentation]({source_url})."
+
+        for pattern in gif_patterns:
+            new_content = re.sub(pattern, replacement, content)
+            if new_content != content:
+                changes["gif_replaced"] += 1
+                content = new_content
+
+    # Write if changed
+    if content != original:
+        if not dry_run:
+            md_path.write_text(content)
+        return changes
+
+    return changes
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Update module docs with screenshots and ET links")
-    parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing")
-    parser.add_argument("--modules", type=str, default=None, help="Comma-separated module slugs")
+    parser = argparse.ArgumentParser(description="Update module docs with screenshot references")
+    parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
+    parser.add_argument("--module", help="Update one specific module")
     args = parser.parse_args()
 
-    if not DOCS_DIR.is_dir():
-        print("Run this script from the repo root.")
-        sys.exit(1)
-
-    if args.modules:
-        slugs = args.modules.split(",")
+    if args.module:
+        files = [DOCS_DIR / f"{args.module}.md"]
     else:
-        slugs = sorted(f.stem for f in DOCS_DIR.glob("*.md") if f.name != "index.md")
+        files = sorted(DOCS_DIR.glob("*.md"))
 
-    print(f"Processing {len(slugs)} module docs...")
+    total_uncommented = 0
+    total_gif = 0
+    updated_files = 0
+
+    for md_path in files:
+        if md_path.name == "index.md":
+            continue
+
+        changes = update_module_doc(md_path, dry_run=args.dry_run)
+
+        if changes["uncommented"] or changes["gif_replaced"]:
+            updated_files += 1
+            total_uncommented += changes["uncommented"]
+            total_gif += changes["gif_replaced"]
+            action = "Would update" if args.dry_run else "Updated"
+            print(f"  {action}: {md_path.name} "
+                  f"(+{changes['uncommented']} screenshots, "
+                  f"+{changes['gif_replaced']} GIF replacements)")
+
+    print(f"\n=== Summary ===")
+    print(f"  Files {'checked' if args.dry_run else 'updated'}: {updated_files}")
+    print(f"  Screenshots uncommented: {total_uncommented}")
+    print(f"  GIF TODOs replaced: {total_gif}")
     if args.dry_run:
-        print("(DRY RUN — no files will be modified)\n")
-    else:
-        print()
-
-    updated = 0
-    screenshots_added = 0
-    gifs_replaced = 0
-
-    for slug in slugs:
-        report = process_module(slug, dry_run=args.dry_run)
-
-        if report.get("changed"):
-            status = "WOULD UPDATE" if args.dry_run else "UPDATED"
-            details = []
-            if report["uncommented"]:
-                details.append(f"screenshots: {', '.join(report['uncommented'])}")
-                screenshots_added += len(report["uncommented"])
-            if report["gif_replaced"]:
-                details.append("GIF TODO → ET link")
-                gifs_replaced += 1
-            print(f"  ✅ {slug} — {status} ({'; '.join(details)})")
-            updated += 1
-        elif report.get("status") == "no_doc":
-            pass  # Silent skip
-        else:
-            pass  # No changes needed, silent
-
-    print(f"\n{'=' * 50}")
-    action = "Would update" if args.dry_run else "Updated"
-    print(f"{action}: {updated} docs")
-    print(f"Screenshots uncommented: {screenshots_added}")
-    print(f"GIF TODOs replaced: {gifs_replaced}")
+        print(f"  (Dry run - no files were modified)")
 
 
 if __name__ == "__main__":

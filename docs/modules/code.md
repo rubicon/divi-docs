@@ -74,7 +74,7 @@ The Content tab holds the code editor and controls for linking, background, and 
 | Order | select | Control the module's display order when the parent row uses Flexbox or Grid layout modes. |
 | Meta | admin label | Assign an admin label visible only in the Visual Builder to help identify this module in the layers panel. |
 
-<!-- ![Code Content tab settings](../assets/screenshots/modules/code/settings-content.png){ loading=lazy } -->
+![Code Content tab settings](../assets/screenshots/modules/code/settings-content.png){ loading=lazy }
 <!-- TODO: Capture Content tab screenshot -->
 
 ### Design Tab
@@ -94,7 +94,7 @@ The Design tab controls the visual presentation of the module container and any 
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Code Design tab settings](../assets/screenshots/modules/code/settings-design.png){ loading=lazy } -->
+![Code Design tab settings](../assets/screenshots/modules/code/settings-design.png){ loading=lazy }
 <!-- TODO: Capture Design tab screenshot -->
 
 ### Advanced Tab
@@ -115,7 +115,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Code Advanced tab settings](../assets/screenshots/modules/code/settings-advanced.png){ loading=lazy } -->
+![Code Advanced tab settings](../assets/screenshots/modules/code/settings-advanced.png){ loading=lazy }
 <!-- TODO: Capture Advanced tab screenshot -->
 
 ## Code Examples

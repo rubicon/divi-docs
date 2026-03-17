@@ -1,0 +1,61 @@
+name: Capture Module Screenshots
+
+on:
+  schedule:
+    - cron: '0 10 1 * *'  # Monthly on the 1st at 10 AM UTC
+  workflow_dispatch:
+    inputs:
+      module:
+        description: 'Module slug (empty for all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright Pillow python-dotenv pyyaml mkdocs-material mkdocs-glightbox
+          playwright install chromium
+          playwright install-deps
+
+      - name: Capture screenshots
+        env:
+          DIVI_SITE_URL: ${{ secrets.DIVI_SITE_URL }}
+          DIVI_WP_USER: ${{ secrets.DIVI_WP_USER }}
+          DIVI_WP_PASS: ${{ secrets.DIVI_WP_PASS }}
+          MODULE_SLUG: ${{ inputs.module }}
+        run: |
+          if [ -n "$MODULE_SLUG" ]; then
+            python scripts/capture_vb_screenshots.py --module "$MODULE_SLUG"
+          else
+            python scripts/capture_vb_screenshots.py
+          fi
+
+      - name: Update doc pages
+        run: python scripts/update_docs_with_screenshots.py
+
+      - name: Build check
+        run: |
+          mkdocs build 2>&1 | tail -10
+
+      - name: Commit
+        run: |
+          git config user.name "divi-docs-bot"
+          git config user.email "bot@16wells.com"
+          git add docs/assets/screenshots/ docs/modules/
+          git diff --cached --quiet || {
+            COUNT=$(git diff --cached --name-only | grep '\.png' | wc -l)
+            git commit -m "Screenshot capture: ${COUNT} images ($(date +%Y-%m-%d))"
+            git push
+          }

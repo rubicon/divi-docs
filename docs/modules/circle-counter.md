@@ -77,7 +77,7 @@ The Content tab controls the counter's title, number value, display options, lin
 | Order | number | Controls the display order of this module when its parent row or column uses Flexbox or CSS Grid layout modes. |
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. Also controls Visual Builder visibility. |
 
-<!-- ![Circle Counter Content tab settings](../assets/screenshots/modules/circle-counter/settings-content.png){ loading=lazy } -->
+![Circle Counter Content tab settings](../assets/screenshots/modules/circle-counter/settings-content.png){ loading=lazy }
 
 ### Design Tab
 
@@ -104,7 +104,7 @@ The Design tab controls the circle's colors, text styling, module dimensions, an
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Circle Counter Design tab settings](../assets/screenshots/modules/circle-counter/settings-design.png){ loading=lazy } -->
+![Circle Counter Design tab settings](../assets/screenshots/modules/circle-counter/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -124,7 +124,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Circle Counter Advanced tab settings](../assets/screenshots/modules/circle-counter/settings-advanced.png){ loading=lazy } -->
+![Circle Counter Advanced tab settings](../assets/screenshots/modules/circle-counter/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 

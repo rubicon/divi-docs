@@ -77,7 +77,7 @@ The Content tab controls the text, visual media, linking behavior, background, a
 | Order | order controls | Define the display order of the Blurb module within Flexbox and CSS Grid parent layouts. Useful when the visual arrangement should differ from the source order. |
 | Meta | admin label | Assign a custom admin label to identify the module in the Visual Builder's layer panel. Force visibility within the builder interface for easier editing. |
 
-<!-- ![Blurb Content tab settings](../assets/screenshots/modules/blurb/settings-content.png){ loading=lazy } -->
+![Blurb Content tab settings](../assets/screenshots/modules/blurb/settings-content.png){ loading=lazy }
 
 ### Design Tab
 
@@ -104,7 +104,7 @@ The Design tab provides full visual control over the icon/image appearance, typo
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Blurb Design tab settings](../assets/screenshots/modules/blurb/settings-design.png){ loading=lazy } -->
+![Blurb Design tab settings](../assets/screenshots/modules/blurb/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -124,7 +124,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Blurb Advanced tab settings](../assets/screenshots/modules/blurb/settings-advanced.png){ loading=lazy } -->
+![Blurb Advanced tab settings](../assets/screenshots/modules/blurb/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 

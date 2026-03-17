@@ -77,7 +77,7 @@ The Content tab controls the audio source, accompanying text and image, link beh
 | Order | select | Control the display order when the module is used inside a loop or dynamic layout context. |
 | Meta | admin label | Set an internal admin label to identify this module in the Visual Builder's layer panel and search. |
 
-<!-- ![Audio Content tab settings](../assets/screenshots/modules/audio/settings-content.png){ loading=lazy } -->
+![Audio Content tab settings](../assets/screenshots/modules/audio/settings-content.png){ loading=lazy }
 
 ### Design Tab
 
@@ -104,7 +104,7 @@ The Design tab controls all visual styling for the audio player and its surround
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Audio Design tab settings](../assets/screenshots/modules/audio/settings-design.png){ loading=lazy } -->
+![Audio Design tab settings](../assets/screenshots/modules/audio/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -124,7 +124,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Audio Advanced tab settings](../assets/screenshots/modules/audio/settings-advanced.png){ loading=lazy } -->
+![Audio Advanced tab settings](../assets/screenshots/modules/audio/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 

@@ -76,7 +76,7 @@ The Content tab controls individual bar items, visual elements, link behavior, b
 | Order | select | Control the display order when the module is used inside a loop or dynamic layout context. |
 | Meta | admin label | Set an internal admin label to identify this module in the Visual Builder's layer panel and search. |
 
-<!-- ![Bar Counter Content tab settings](../assets/screenshots/modules/bar-counter/settings-content.png){ loading=lazy } -->
+![Bar Counter Content tab settings](../assets/screenshots/modules/bar-counter/settings-content.png){ loading=lazy }
 
 #### Individual Bar Item Settings
 
@@ -114,7 +114,7 @@ The Design tab controls the visual appearance of the bars, text, and overall mod
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Bar Counter Design tab settings](../assets/screenshots/modules/bar-counter/settings-design.png){ loading=lazy } -->
+![Bar Counter Design tab settings](../assets/screenshots/modules/bar-counter/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -134,7 +134,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Bar Counter Advanced tab settings](../assets/screenshots/modules/bar-counter/settings-advanced.png){ loading=lazy } -->
+![Bar Counter Advanced tab settings](../assets/screenshots/modules/bar-counter/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 

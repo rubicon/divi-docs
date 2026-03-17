@@ -77,7 +77,7 @@ The Content tab controls the CTA's text content, link behavior, background, and 
 | Order | number | Controls the display order of this module when its parent row or column uses Flexbox or CSS Grid layout modes. |
 | Meta | admin label | Set an admin label for the module to help identify it in the Visual Builder's layer panel. Also controls Visual Builder visibility. |
 
-<!-- ![Call to Action Content tab settings](../assets/screenshots/modules/call-to-action/settings-content.png){ loading=lazy } -->
+![Call to Action Content tab settings](../assets/screenshots/modules/call-to-action/settings-content.png){ loading=lazy }
 
 ### Design Tab
 
@@ -99,7 +99,7 @@ The Design tab controls the visual appearance of the CTA's text, button, layout,
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
 
-<!-- ![Call to Action Design tab settings](../assets/screenshots/modules/call-to-action/settings-design.png){ loading=lazy } -->
+![Call to Action Design tab settings](../assets/screenshots/modules/call-to-action/settings-design.png){ loading=lazy }
 
 ### Advanced Tab
 
@@ -119,7 +119,7 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
 
-<!-- ![Call to Action Advanced tab settings](../assets/screenshots/modules/call-to-action/settings-advanced.png){ loading=lazy } -->
+![Call to Action Advanced tab settings](../assets/screenshots/modules/call-to-action/settings-advanced.png){ loading=lazy }
 
 ## Code Examples
 
