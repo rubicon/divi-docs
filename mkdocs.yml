@@ -5,6 +5,12 @@ repo_url: https://github.com/16wells/divi-docs
 repo_name: 16wells/divi-docs
 edit_uri: edit/main/docs/
 
+hooks:
+  - hooks/new_badge.py
+
+extra_css:
+  - stylesheets/new-badge.css
+
 theme:
   name: material
   palette:
@@ -78,7 +84,9 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/16wells/divi-docs
-  generator: false
+  generator: false  
+  status:
+    new: "Recently added or updated"
 
 nav:
   - Home: index.md
