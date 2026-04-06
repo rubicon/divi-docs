@@ -1,0 +1,367 @@
+
+[31m │  ⚠  Warning from the Material for MkDocs team[0m
+[31m │[0m
+[31m │[0m  MkDocs 2.0, the underlying framework of Material for MkDocs,
+[31m │[0m  will introduce backward-incompatible changes, including:
+[31m │[0m
+[31m │  × [0mAll plugins will stop working – the plugin system has been removed
+[31m │  × [0mAll theme overrides will break – the theming system has been rewritten
+[31m │  × [0mNo migration path exists – existing projects cannot be upgraded
+[31m │  × [0mClosed contribution model – community members can't report bugs
+[31m │  × [0mCurrently unlicensed – unsuitable for production use
+[31m │[0m
+[31m │[0m  Our full analysis:
+[31m │[0m
+[31m │[0m  [4mhttps://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/[0m
+[0m
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/runner/work/divi-docs/divi-docs/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - assets/imports/16wells-dev-style-guide-test.md
+  - builder/advanced-content-management-using-dynamic-content-in-divi-5.md
+  - builder/advanced-styling-using-option-group-presets-in-divi-5.md
+  - builder/backward-compatibility-and-third-party-divi-module-support.md
+  - builder/build-custom-loops-using-loop-builder-in-divi-5.md
+  - builder/build-custom-templates-using-the-theme-builder-in-divi-5.md
+  - builder/building-templates-for-your-website-with-theme-builder-in-divi-5.md
+  - builder/composable-settings-in-divi-5.md
+  - builder/create-a-new-website-using-a-pre-made-starter-site.md
+  - builder/create-and-build-a-page-with-divi-5-from-scratch.md
+  - builder/create-and-build-a-page-with-divi-5-using-a-premade-layout.md
+  - builder/customize-the-divi-5-s-default-breakpoints.md
+  - builder/divi-5-theme-options.md
+  - builder/divi-5-update-status.md
+  - builder/divi-library-in-divi-5.md
+  - builder/editable-theme-builder-areas-in-divi-5.md
+  - builder/editing-and-customizing-theme-builder-templates-in-divi-5.md
+  - builder/exploring-divi-5-s-new-features.md
+  - builder/getting-started-with-divi-5-theme-builder.md
+  - builder/how-to-rollback-to-divi-4.md
+  - builder/how-to-safely-migrate-from-divi-4-to-divi-5.md
+  - builder/inspect-element-styles-using-divi-5-style-inspector.md
+  - builder/install-and-activate-divi-5.md
+  - builder/managing-theme-builder-templates-in-divi-5.md
+  - builder/responsive-editor-in-divi-5-visual-builder.md
+  - builder/setting-up-the-basic-website-design-system.md
+  - builder/understanding-divi-s-css-grid-layout.md
+  - builder/understanding-divi-s-new-flexbox-layout.md
+  - builder/understanding-flex-align-items-options-in-divi-5.md
+  - builder/understanding-flex-column-class-options-in-divi-5.md
+  - builder/understanding-flex-column-structure-changes-in-divi-5.md
+  - builder/understanding-flex-horizontal-and-vertical-gap-in-divi-5.md
+  - builder/understanding-flex-justify-content-in-divi-5.md
+  - builder/understanding-flex-layout-direction-in-divi-5.md
+  - builder/understanding-flex-layout-wrapping-options-in-divi-5.md
+  - builder/understanding-flex-order-option-in-divi-5.md
+  - builder/understanding-flex-wrapping-alignment-options-in-divi-5.md
+  - builder/understanding-grid-offset-rules-in-divi-5.md
+  - builder/use-theme-builder-to-customize-your-website-s-header-and-footer.md
+  - builder/what-is-the-divi-5-migrator-system.md
+  - builder/why-divi-5-is-better-than-divi-4.md
+  - modules/the-row-in-divi-5.md
+  - modules/the-section-in-divi-5.md
+  - troubleshooting/how-to-convert-a-global-element-to-a-non-global-element-in-divi-5.md
+  - troubleshooting/how-to-create-a-custom-search-results-page-in-divi-5-using-theme-builder.md
+  - troubleshooting/how-to-display-posts-in-a-grid-layout-on-archive-pages-using-divi-5-theme-builder.md
+  - troubleshooting/how-to-use-the-divi-5-black-friday-2025-freebies.md
+INFO    -  new_badge: Marked 'index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'contributing.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/index.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/block-json-reference.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/custom-modules.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/divi-data-registry.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/hooks-filters.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/javascript-api.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/module-json-schema.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/module-lifecycle.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/rest-api.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'api/wp-cli.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/add-duplicate-remove.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/advanced-content-management-using-dynamic-content-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/advanced-styling-using-option-group-presets-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/advanced-units.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/attribute-management.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/backward-compatibility-and-third-party-divi-module-support.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/build-custom-loops-using-loop-builder-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/build-custom-templates-using-the-theme-builder-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/building-templates-for-your-website-with-theme-builder-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/canvases.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/command-center.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/composable-settings-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/condition-options.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/copy-paste-attributes.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/create-a-new-website-using-a-pre-made-starter-site.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/create-and-build-a-page-with-divi-5-using-a-premade-layout.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/css-grid.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/custom-attributes.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/custom-breakpoints.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/customize-the-divi-5-s-default-breakpoints.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/design-variables.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/divi-5-theme-options.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/divi-5-update-status.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/divi-ai.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/divi-library-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/dynamic-content.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/editable-theme-builder-areas-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/editing-and-customizing-theme-builder-templates-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/element-presets.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/exploring-divi-5-s-new-features.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/extend-attributes.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/find-and-replace.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/find-replace-attributes.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/flexbox.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/getting-started-with-divi-5-theme-builder.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/global-elements.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/global-variables.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/gradient-builder.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/how-to-rollback-to-divi-4.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/how-to-safely-migrate-from-divi-4-to-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/inspect-element-styles-using-divi-5-style-inspector.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/install-and-activate-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/interactions.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/keyboard-shortcuts.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/layers-view.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/left-sidebar.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/library.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/loop-builder.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/managing-theme-builder-templates-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/multi-select-bulk-editing.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/nested-modules.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/nested-rows.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/option-group-presets.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/page-manager.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/preset-manager.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/presets.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/relative-colors-hsl.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/responsive-editor-in-divi-5-visual-builder.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/responsive-editor.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/responsive-options.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/responsive-preview.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/right-click-menus.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/role-editor.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/semantic-elements.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/setting-up-the-basic-website-design-system.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/settings-search.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/speculative-prerendering.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/stacked-nested-presets.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/style-inspector.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/support-center.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/theme-builder.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-divi-s-css-grid-layout.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-divi-s-new-flexbox-layout.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-align-items-options-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-column-class-options-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-column-structure-changes-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-horizontal-and-vertical-gap-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-justify-content-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-layout-direction-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-layout-wrapping-options-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-order-option-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-flex-wrapping-alignment-options-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-grid-offset-rules-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/use-theme-builder-to-customize-your-website-s-header-and-footer.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/vb-interface.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/visual-builder.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/what-is-the-divi-5-migrator-system.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/why-divi-5-is-better-than-divi-4.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/wireframe-view.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/index.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/advanced-css-units.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/class-reference.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/common-overrides.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/design-system-workflow.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/design-variables.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'css-reference/relative-colors-hsl.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/block-format.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/content-encoding.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/json-attribute-map.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/library-import-json.md' as new (20 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/ssr-rendering.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/style-guide-to-divi-variables-design.md' as new (20 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/testimonial-ssr.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/tinymce-state.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'internals/vb-architecture.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/accordion.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/audio.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/bar-counter.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/before-after-image.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/blog.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/blurb.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/button.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/call-to-action.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/circle-counter.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/code.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/comments.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/contact-form.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/countdown-timer.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/divider.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/dropdown.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/email-optin.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/filterable-portfolio.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/fullwidth-header.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/fullwidth-map.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/fullwidth-menu.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/fullwidth-portfolio.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/fullwidth-slider.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/gallery.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/group-carousel.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/group-carousel.md' contains a link '../assets/screenshots/modules/group-carousel/element.png', but the target 'assets/screenshots/modules/group-carousel/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/group.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/group.md' contains a link '../assets/screenshots/modules/group/element.png', but the target 'assets/screenshots/modules/group/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/heading.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/heading.md' contains a link '../assets/screenshots/modules/heading/element.png', but the target 'assets/screenshots/modules/heading/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/hero.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/hero.md' contains a link '../assets/screenshots/modules/hero/element.png', but the target 'assets/screenshots/modules/hero/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/icon-list.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/icon-list.md' contains a link '../assets/screenshots/modules/icon-list/element.png', but the target 'assets/screenshots/modules/icon-list/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/icon.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/image.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/image.md' contains a link '../assets/screenshots/modules/image/element.png', but the target 'assets/screenshots/modules/image/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/link.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/login.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/lottie.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/lottie.md' contains a link '../assets/screenshots/modules/lottie/element.png', but the target 'assets/screenshots/modules/lottie/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/map.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/menu.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/number-counter.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/pagination.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/pagination.md' contains a link '../assets/screenshots/modules/pagination/element.png', but the target 'assets/screenshots/modules/pagination/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/person.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/portfolio.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/post-carousel.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/post-content.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/post-navigation.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/post-slider.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/post-title.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/pricing-table.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/search.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/shop.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/sidebar.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/slider.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/social-media-follow.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/tabs.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/testimonial.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/the-row-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/the-section-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/toggle.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/video-slider.md' as new (21 days old, threshold: 30)
+WARNING -  Doc file 'modules/video-slider.md' contains a link '../assets/screenshots/modules/video-slider/element.png', but the target 'assets/screenshots/modules/video-slider/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/video.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-add-to-cart.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-breadcrumbs.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-cart-products.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-cart-totals.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-checkout-billing.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-checkout-details.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-checkout-information.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-checkout-payment.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-checkout-shipping.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-cross-sells.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-notice.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-description.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-gallery.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-images.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-information.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-meta.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-price.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-rating.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-reviews.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-stock.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-tabs.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-title.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-product-upsell.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-products.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'modules/woo-related-products.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/index.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/accordion-icon.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/animation.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/attribute.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/attributes.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/background.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/body-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/border.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/box-shadow.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/button.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/closed-title-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/conditions.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/content.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/css.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/elements.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/email.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/fields.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/filters.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/form-field-content.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/heading-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/image-icon.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/image.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/link.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/menu-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/meta-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/meta.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/number-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/overlay.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/pagination-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/percentage-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/position.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/read-more.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/scroll-effects.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/sizing.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/spacing.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/spam-protection.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/title-text.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/toggle-icon.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/toggle.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/transform.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/transitions.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'options-groups/visibility.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/browser-automation.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/build-a-page.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/css-in-divi.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/design-system-setup.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/html-workarounds.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/known-limitations.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/layout-patterns.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/responsive-design.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/rest-api-content.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/theme-builder-ops.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/troubleshooting-tree.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'playbooks/visual-builder-ops.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'recipes/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'recipes/import-design-systems.md' as new (20 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/ads.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/builder-settings.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/customizer.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/general.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/integration.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/layout.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/navigation.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/seo.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'theme-options/updates.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/index.md' as new (25 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/acf-fields-loop-builder.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/acf-repeater-loop-builder.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/custom-blog-loop-builder.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/divi5-faq.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/fix-custom-css.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/fix-display-issues-after-update.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/how-to-convert-a-global-element-to-a-non-global-element-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/how-to-create-a-custom-search-results-page-in-divi-5-using-theme-builder.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/how-to-display-posts-in-a-grid-layout-on-archive-pages-using-divi-5-theme-builder.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/how-to-use-the-divi-5-black-friday-2025-freebies.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/import-library-elements.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/missing-builder-option.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/missing-elements-mobile.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/report-bug.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/transparent-fixed-header.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/upload-svg-json.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/visibility-settings.md' as new (21 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/where-to-add-css.md' as new (21 days old, threshold: 30)
+INFO    -  Documentation built in 11.77 seconds
