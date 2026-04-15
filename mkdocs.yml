@@ -100,6 +100,7 @@ nav:
       - Blog: modules/blog.md
       - Blurb: modules/blurb.md
       - Button: modules/button.md
+      - Button Styling Reference: modules/button-styling-reference.md
       - Call to Action: modules/call-to-action.md
       - Circle Counter: modules/circle-counter.md
       - Code: modules/code.md
