@@ -106,6 +106,10 @@ When you add or update a page for a feature that has a matching blog post:
 1. Add an **`## Elegant Themes tutorials`** section on the **reference page** for that feature (not a duplicate full article). Use bullet links with `{:target="_blank"}` and one line of context each. See **`SKILL.md`** for the exact heading and placement (before `## Version Notes`, or before `## Related` if there is no Version Notes section).
 2. Add the URL to **`planning/et-blog-tutorials-map.md`** so maintainers can keep links in sync during regular updates.
 
+### External links
+
+`python scripts/check_external_links.py` (see `CLAUDE.md`) probes `https://` targets referenced from `docs/`. Install **`certifi`** first on macOS if you see TLS verify errors. When the report shows failures, **update or remove** those links in the cited files, or add a reviewed substring to `scripts/external_link_allowlist.txt` for false positives.
+
 ## Review Process
 
 All contributions go through pull request review before being published. We check for:

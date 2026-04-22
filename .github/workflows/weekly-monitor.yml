@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 markdownify pyyaml mkdocs-material mkdocs-glightbox
+          pip install requests beautifulsoup4 markdownify pyyaml certifi mkdocs-material mkdocs-glightbox
 
       - name: Run content monitor (dry-run)
         run: |
@@ -30,6 +30,10 @@ jobs:
       - name: Build check
         run: |
           mkdocs build 2>&1 | tail -20
+
+      - name: External link check (docs)
+        run: |
+          python scripts/check_external_links.py --write-report "reports/external-link-check-$(date +%Y-%m-%d).md"
 
       - name: Check for changes
         id: changes
@@ -45,6 +49,6 @@ jobs:
         run: |
           git config user.name "divi-docs-bot"
           git config user.email "bot@16wells.com"
-          git add reports/ scripts/et_content_hashes.json
+          git add reports/ scripts/et_content_hashes.json scripts/check_external_links.py scripts/external_link_allowlist.txt
           git diff --cached --quiet || git commit -m "Weekly monitor report: $(date +%Y-%m-%d)"
           git push

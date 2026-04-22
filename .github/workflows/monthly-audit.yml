@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         if: steps.check_week.outputs.should_run == 'true'
         run: |
-          pip install requests beautifulsoup4 markdownify pyyaml mkdocs-material mkdocs-glightbox
+          pip install requests beautifulsoup4 markdownify pyyaml certifi mkdocs-material mkdocs-glightbox
 
       - name: Run content monitor with auto-update and auto-create
         if: steps.check_week.outputs.should_run == 'true'
@@ -56,6 +56,11 @@ jobs:
           echo ""
           echo "=== SCREENSHOT COUNT ==="
           find docs/assets/screenshots -name '*.png' ! -name '.gitkeep' | wc -l
+
+      - name: External link check (docs)
+        if: steps.check_week.outputs.should_run == 'true'
+        run: |
+          python scripts/check_external_links.py --write-report "reports/external-link-check-$(date +%Y-%m-%d).md"
 
       - name: Generate audit summary
         if: steps.check_week.outputs.should_run == 'true'
@@ -98,6 +103,6 @@ jobs:
         run: |
           git config user.name "divi-docs-bot"
           git config user.email "bot@16wells.com"
-          git add docs/ reports/ scripts/et_content_hashes.json mkdocs.yml
+          git add docs/ reports/ scripts/et_content_hashes.json scripts/check_external_links.py scripts/external_link_allowlist.txt mkdocs.yml
           git diff --cached --quiet || git commit -m "Monthly audit with auto-update: $(date +%Y-%m)"
           git push

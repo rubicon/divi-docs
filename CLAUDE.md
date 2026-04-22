@@ -58,6 +58,17 @@ python scripts/monitor_updates.py --all
 ```
 Check `reports/update-report-YYYY-MM-DD.md` for findings.
 
+### Checking external links (weekly)
+
+```bash
+pip install certifi
+python scripts/check_external_links.py --write-report reports/external-link-check-$(date +%Y-%m-%d).md
+```
+
+(`certifi` is optional but recommended on macOS so TLS verification matches CI; it is installed in GitHub Actions with the other monitor dependencies.)
+
+Review the report and **fix or remove** broken `https://` targets in `docs/`. Use `scripts/external_link_allowlist.txt` only for confirmed false positives. See `claude-code/task-weekly-monitor.md` Step 8.
+
 ### Building the site locally
 ```bash
 pip install mkdocs-material mkdocs-glightbox

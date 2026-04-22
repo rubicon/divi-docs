@@ -116,23 +116,45 @@ and flesh them out:
 - Add common usage patterns
 - Remove TODO markers as you fill in content
 
-### Step 8: Build, Commit, Push
+### Step 8: External link check (docs/)
+
+Blog posts, Help Center URLs, and third-party links rot over time. Probe them regularly and **fix or remove** failures (or add a substring to `scripts/external_link_allowlist.txt` only after confirming a false positive).
+
+```bash
+pip install certifi
+
+python scripts/check_external_links.py \
+  --write-report "reports/external-link-check-$(date +%Y-%m-%d).md"
+```
+
+- If the report lists **Failed URLs**, open each `docs/...` file at the cited line: update the link, remove it, or replace it with an archived / GitHub link.
+- Re-run the script until the failed table is empty (or only allowlisted noise remains).
+- Optional CI gate: same command with **`--strict`** exits non-zero when any URL fails (use in a dedicated workflow if you want hard failures).
+
+Commit the report when it changes (even if all links passed — it documents the run):
+
+```bash
+git add reports/external-link-check-*.md
+```
+
+### Step 9: Build, Commit, Push
 
 ```bash
 mkdocs build  # Verify no errors
 
-git add docs/ planning/ reports/ scripts/et_content_hashes.json mkdocs.yml CLAUDE.md SKILL.md claude-code/
+git add docs/ planning/ reports/ scripts/et_content_hashes.json scripts/check_external_links.py scripts/external_link_allowlist.txt mkdocs.yml CLAUDE.md SKILL.md claude-code/
 git commit -m "Weekly update: [brief summary of what changed]
 
 - Auto-updated X settings tables
 - Created Y new stub pages
 - Fixed Z broken source URLs
 - Filled in N content gaps
+- External link report: reports/external-link-check-YYYY-MM-DD.md
 - See reports/update-report-YYYY-MM-DD.md for details"
 git push
 ```
 
-### Step 9: Generate Human Summary
+### Step 10: Generate Human Summary
 
 After completing all automated steps, write a brief summary to stdout:
 
@@ -144,6 +166,7 @@ New stub pages created: Y
 Source URLs fixed: Z
 Content gaps filled: N
 Blog tutorial links / map updated: B
+External URLs failed (should be 0 after fixes): F
 Remaining placeholders: M
 
 NEEDS HUMAN REVIEW:
@@ -157,8 +180,8 @@ NEEDS HUMAN REVIEW:
 
 The workflows automate the two tiers of monitoring:
 
-- **Weekly (`weekly-monitor.yml`):** Runs `--dry-run` by default. Generates a report and commits it, but makes no changes to documentation pages. This is the safe, observe-only mode.
-- **Monthly (`monthly-audit.yml`):** Runs `--auto-update --auto-create` on the first Monday of each month. This is the aggressive mode that modifies docs, creates stubs, and commits everything. A build verification step runs afterward to catch any issues.
+- **Weekly (`weekly-monitor.yml`):** Runs `--dry-run` by default. Generates a report and commits it, but makes no changes to documentation pages. This is the safe, observe-only mode. After `mkdocs build`, it runs **`scripts/check_external_links.py`** and commits `reports/external-link-check-*.md` when there are changes.
+- **Monthly (`monthly-audit.yml`):** Runs `--auto-update --auto-create` on the first Monday of each month. This is the aggressive mode that modifies docs, creates stubs, and commits everything. A build verification step runs afterward, then the same **external link check** as the weekly job.
 
 To switch the weekly workflow to auto-update mode once you are confident in the system, change `--dry-run` to `--auto-update` in `.github/workflows/weekly-monitor.yml`.
 

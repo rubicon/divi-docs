@@ -1,0 +1,5 @@
+# Substrings — if any line appears inside a URL, that URL is skipped (not probed).
+# Use for intentional placeholders or known-flaky third parties after human review.
+
+# Placeholder / sample URLs in documentation (not live endpoints)
+example.com
