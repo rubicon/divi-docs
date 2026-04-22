@@ -5,7 +5,7 @@ category: builder
 tags: [builder, presets, global-styles, design-system]
 related: [visual-builder, global-elements, library]
 divi_version: "5.x"
-last_updated: 2026-03-12
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/13349150"
 ---
 
@@ -32,6 +32,8 @@ Presets allow you to define a set of design settings once and apply them to mult
 Every module, row, section, and column in Divi has a **Default Preset** that defines its base appearance. You can modify the default preset to change how every instance of that element looks across your entire website, or create additional custom presets for different styling variations.
 
 Presets work similarly to CSS classes in concept -- they define a reusable set of styles. But unlike CSS, presets are managed entirely through the Visual Builder's interface with no code required.
+
+**Form field presets:** On form-based modules, Divi exposes presets on the **Input**, **Checkbox**, and **Radio** design groups (April 2026). Saving a preset for each group lets you “style all your forms” from a shared baseline—the same workflow as other option group presets, scoped to field types. See [Form field design (Input, Checkbox, Radio)](../options-groups/fields.md).
 
 <!-- ![Presets overview](../assets/screenshots/builder/presets/overview.png){ loading=lazy }
 *The presets dropdown in the element settings window showing available presets.* -->

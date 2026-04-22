@@ -65,5 +65,5 @@ if ($result['score'] >= 0.5) {
 
 ## Related
 
-- [Fields Options](fields.md) -- Form field configuration and styling
+- [Form field design](fields.md) — Input / Checkbox / Radio groups and styling
 - [Email Options](email.md) -- Notification email format settings

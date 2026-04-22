@@ -4,7 +4,7 @@ description: "Complete reference for all Divi 5 options groups — shared design
 category: options-groups
 tags: ["options-groups", "settings", "design", "advanced"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 ---
 
 # Options Groups
@@ -95,7 +95,7 @@ These groups appear on form-based modules:
 
 | Options Group | Used By |
 |--------------|---------|
-| [Fields](fields.md) | Contact Form, Email Optin, Login |
+| [Form field design (Input, Checkbox, Radio)](fields.md) | Contact Form, Contact Form 7, Email Optin, Login, Search, Comments, Woo checkout/cart forms, and other form-based modules |
 | [Form Field Content](form-field-content.md) | Contact Form |
 | [Email](email.md) | Email Optin |
 | [Spam Protection](spam-protection.md) | Contact Form |

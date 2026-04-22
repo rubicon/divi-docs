@@ -3,9 +3,9 @@ title: "Contact Form"
 description: "Divi 5 Contact Form module — field configuration, email routing, spam protection, conditional logic, and custom styling for forms."
 category: modules
 tags: ["modules", "forms", "interactive", "contact", "email", "spam-protection", "recaptcha"]
-related: ["email-optin", "login"]
+related: ["email-optin", "login", "contact-form-7"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/10260983-the-contact-form-module-in-divi-5"
 ---
 
@@ -29,6 +29,7 @@ The Contact Form module lets visitors send messages directly from your site usin
     - For email newsletter signups with ESP integration → use [Email Optin](email-optin.md)
     - For user login and authentication → use [Login](login.md)
     - For displaying WordPress comments → use [Comments](comments.md)
+    - When you must keep existing **Contact Form 7** form definitions and plugin behavior → use the [Contact Form 7](contact-form-7.md) module instead
 
 ## Overview
 
@@ -37,6 +38,8 @@ The Contact Form module is one of the most frequently used interactive elements 
 On submission, the module composes an email using a configurable message pattern and sends it to one or more recipient addresses. You control the subject line, the body layout (using field tokens), and the success message or redirect URL the visitor sees after submitting. Spam protection is built in through reCAPTCHA integration and a honeypot field, both enabled by default.
 
 The entire form — fields, labels, buttons, spacing, and validation messages — is fully styleable through the Design tab. This means you can match the form to any brand without writing CSS, though the module also exposes clean selectors for advanced customization.
+
+As of the **April 2026** form update (see Elegant Themes’ [feature announcement](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"}), Divi **harmonized field options across all form-based modules**: field styling is split into **Input**, **Checkbox**, and **Radio** design groups so text inputs, checkboxes, and radios can be styled independently, with **additional styling for radios and checkboxes** that was missing or inconsistent before. **Hover** editing is joined by **:focus** and **:checked** pseudo-class editing modes for full control over default, focused, and selected states. Those three field-type groups also support **[presets](../builder/presets.md)** so form styling stays consistent site-wide through Divi’s modular design system—together with [Composable Settings](../builder/composable-settings-in-divi-5.md), you get the full Divi design suite on form elements. The same system powers the new [Contact Form 7](contact-form-7.md) module, described by Elegant Themes as the **first of many** integration-style modules.
 
 For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10260983-the-contact-form-module-in-divi-5).
 
@@ -129,11 +132,18 @@ Each field in the repeater exposes these settings:
 
 The Design tab controls the visual presentation of every element within the form.
 
-**Module-specific settings:**
+**Module-specific form field groups** (current Divi 5 releases):
+
+| Group | What it styles |
+|-------|----------------|
+| **Input** | Text inputs, textareas, selects, and similar controls — typography, spacing, borders, backgrounds, labels, placeholders, and state styles via pseudo-class modes (including **:focus**). |
+| **Checkbox** | Checkbox inputs and related label text — including **:checked** (and hover/focus where applicable). |
+| **Radio** | Radio inputs and related label text — including **:checked** for the selected option. |
+
+Each group exposes Divi’s full range of design options (and works with [form field presets](../options-groups/fields.md#form-field-presets) on **Input**, **Checkbox**, and **Radio**). Older single **Fields** buckets and one-off “focus only” pickers have been **refactored** in favor of **focus editing mode** inside the pseudo-class workflow; update Divi if your panel still shows only legacy field controls.
 
 | Setting | Type | Description |
 |---------|------|-------------|
-| Fields | field styling | Style the form input fields, textareas, and selects — background color, text color, focus states, border, padding, and font properties. |
 | Captcha Text | text styling | Style the reCAPTCHA label and related text — font, size, color, and spacing. Only visible when spam protection is enabled. |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
@@ -358,6 +368,9 @@ After configuring the Contact Form module:
 !!! note "Divi 5 Only"
     This page documents Divi 5 behavior exclusively.
 
+!!! note "April 2026 — harmonized form styling"
+    Field design was **harmonized across form-based modules**: **Input**, **Checkbox**, and **Radio** groups, **:focus** / **:checked** pseudo-class editing (alongside hover), **presets** for those groups, and the new [Contact Form 7](contact-form-7.md) integration module. See Elegant Themes’ [announcement](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"} for the product narrative.
+
 ## Troubleshooting
 
 !!! warning "Emails Not Being Received"
@@ -385,8 +398,9 @@ After configuring the Contact Form module:
 
 ## Related
 
+- [Contact Form 7](contact-form-7.md) — Embed and style Contact Form 7 forms with the same harmonized field design tools
 - [Email Optin](email-optin.md) — For newsletter signups with direct ESP integration
 - [Login](login.md) — For user authentication forms
 - [Spam Protection Options](../options-groups/spam-protection.md) — reCAPTCHA and honeypot settings for form security
-- [Fields Options](../options-groups/fields.md) — Shared form field styling and configuration
+- [Form field design](../options-groups/fields.md) — Input / Checkbox / Radio groups, pseudo-classes, and presets
 - [Playbook: Build a Page](../playbooks/build-a-page.md) — Step-by-step guide to assembling pages with forms and content

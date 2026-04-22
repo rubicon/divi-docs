@@ -3,7 +3,7 @@ title: "Divi Modules"
 description: "Complete reference for all 70+ Divi 5 modules — content, interactive, fullwidth, and WooCommerce modules with settings, examples, and code."
 category: modules
 tags: [modules, overview]
-last_updated: 2026-03-12
+last_updated: 2026-04-21
 ---
 
 # Divi Modules
@@ -11,7 +11,7 @@ last_updated: 2026-03-12
 Divi modules are the individual content elements you place inside rows and columns using the Divi Builder. Each module serves a specific purpose — from displaying text and images to embedding videos, creating calls to action, and building complex layouts.
 
 !!! abstract "Quick Reference"
-    **Total modules:** 70+
+    **Total modules:** 70+ (plus integration modules such as Contact Form 7)
     **Categories:** Content, Interactive, Fullwidth, WooCommerce
     **Where to add:** Visual Builder → click + → search or browse modules
 
@@ -70,6 +70,7 @@ Divi modules are the individual content elements you place inside rows and colum
 |--------|-------------|--------|
 | [Comments](comments.md) | Post comments display | ✅ Documented |
 | [Contact Form](contact-form.md) | Form builder | ✅ Documented |
+| [Contact Form 7](contact-form-7.md) | Embed and style Contact Form 7 forms | ✅ Documented |
 | [Email Optin](email-optin.md) | Email signup form | ✅ Documented |
 | [Login](login.md) | User login form | ✅ Documented |
 | [Search](search.md) | Search input | ✅ Documented |

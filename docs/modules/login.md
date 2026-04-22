@@ -291,6 +291,6 @@ After configuring the Login module, click the green checkmark button at the bott
 
 - [Contact Form](contact-form.md) — Collect visitor inquiries with a customizable form
 - [Email Optin](email-optin.md) — Capture email subscribers with an integrated signup form
-- [Fields Options](../options-groups/fields.md) — Shared form field styling for input elements
+- [Form field design](../options-groups/fields.md) — Input / Checkbox / Radio groups and presets
 - [Conditions Options](../options-groups/conditions.md) — Show the login form only to logged-out users
 - [Theme Builder](../builder/theme-builder.md) — Place the login module in header or footer templates

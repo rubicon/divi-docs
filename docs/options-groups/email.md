@@ -58,5 +58,5 @@ Message:
 
 ## Related
 
-- [Fields Options](fields.md) -- Form field configuration and styling
+- [Form field design](fields.md) — Input / Checkbox / Radio groups and styling
 - [Spam Protection Options](spam-protection.md) -- Bot prevention settings for contact forms

@@ -5,7 +5,7 @@ category: options-groups
 tags: ["options-groups", "form-field-content", "advanced"]
 related: ["fields", "spam-protection"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/10272945"
 ---
 
@@ -27,6 +27,8 @@ Each form field inside the Divi 5 Contact Form module has its own content settin
 The group is organized into three sections. The Text section handles identification, letting you assign a unique Field ID and a visible title label. The Field Options section controls the input type (plain text, email, textarea, checkboxes, radio buttons, or dropdown), character length limits, and which character types are allowed. The Conditional Logic section lets you show or hide a field based on the values entered in other fields, enabling dynamic forms that adapt to user input.
 
 Conditional logic supports both "all conditions must match" and "any condition can match" evaluation modes, giving you flexibility in how rules combine. This is useful for creating multi-step forms where later fields appear only after specific earlier selections are made.
+
+**Label and placeholder appearance** (typography, color, spacing, and state styles) is configured in the **Design** tab using the harmonized **Input**, **Checkbox**, and **Radio** groups — including **:focus** and **:checked** pseudo-class modes — not inside this Content-only group. See [Form field design (Input, Checkbox, Radio)](fields.md).
 
 For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10272945).
 
@@ -88,5 +90,5 @@ The Form Field Content options group is used by individual fields within the **C
 
 ## Related
 
-- [Fields Options](fields.md)
+- [Form field design (Input, Checkbox, Radio)](fields.md)
 - [Spam Protection Options](spam-protection.md)

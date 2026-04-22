@@ -622,7 +622,7 @@ By default Divi stacks columns at 980px. To keep columns side-by-side on tablet:
 ## Form Overrides
 
 !!! tip "Variable-First Alternative"
-    The Contact Form module's Design tab provides input styling options including background color, border, padding, and font. Use [presets](../builder/presets.md) for consistent form styling. CSS overrides are appropriate for focus states, placeholder styling, and validation feedback not covered by the settings.
+    The Contact Form module's Design tab uses harmonized **Input**, **Checkbox**, and **Radio** groups with **:focus** and **:checked** pseudo-class editing and [form field presets](../options-groups/fields.md). Use [presets](../builder/presets.md) for consistent form styling. CSS overrides are appropriate only for edge cases not exposed in the builder (for example, niche validation feedback).
 
 ### Style contact form inputs
 

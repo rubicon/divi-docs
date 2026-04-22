@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "search", "settings", "filters", "workflow"]
 related: ["visual-builder"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/11483918"
 ---
 
@@ -61,6 +61,10 @@ In addition to free-text search, the settings panel provides filter buttons that
 | Icons | Icon selection fields |
 | Code | Before, Main Element, After, and CSS option fields |
 | URLs | Module Link, Button Link, and other URL fields |
+
+### Modified option group indicator
+
+From the **April 2026** settings update (announced alongside harmonized form styling), a **blue dot** can appear on option group headers in the settings panel when that group contains **modified** values. This complements the existing **Modified** search filter: you can spot which sections of an element differ from defaults at a glance. See Elegant Themes’ [feature announcement](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"}.
 
 ## Key Workflows
 

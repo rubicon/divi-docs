@@ -142,6 +142,7 @@ nav:
     - Interactive Modules:
       - Comments: modules/comments.md
       - Contact Form: modules/contact-form.md
+      - Contact Form 7: modules/contact-form-7.md
       - Email Optin: modules/email-optin.md
       - Login: modules/login.md
       - Search: modules/search.md
@@ -288,7 +289,7 @@ nav:
     - Email: options-groups/email.md
     - Spam Protection: options-groups/spam-protection.md
     - Attribute: options-groups/attribute.md
-    - Fields: options-groups/fields.md
+    - "Form Field Design (Input, Checkbox, Radio)": options-groups/fields.md
     - Form Field Content: options-groups/form-field-content.md
     - Meta: options-groups/meta.md
     - Link: options-groups/link.md

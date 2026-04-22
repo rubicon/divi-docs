@@ -1,86 +1,101 @@
 ---
-title: "Fields Options"
-description: "Divi 5 Fields options group — background, text colors, typography, spacing, borders, and focus-state styling for form inputs."
+title: "Form Field Design (Input, Checkbox, Radio)"
+description: "Divi 5 harmonized form field styling — Input, Checkbox, and Radio design groups, :focus and :checked pseudo-class editing, presets, and composable settings across form-based modules."
 category: options-groups
-tags: ["options-groups", "fields", "advanced"]
-related: ["form-field-content", "spam-protection", "button"]
+tags: ["options-groups", "fields", "forms", "presets", "focus", "advanced"]
+related: ["form-field-content", "spam-protection", "button", "contact-form"]
 divi_version: "5.x"
-last_updated: 2026-03-16
-source_url: "https://help.elegantthemes.com/en/articles/10260887"
+last_updated: 2026-04-21
+source_url: "https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module"
 ---
 
-# Fields Options
+# Form Field Design (Input, Checkbox, Radio)
 
-The Fields options group controls the visual styling of form input fields, including their colors, typography, spacing, and borders.
+Divi **harmonized field options across all form-based modules**: field styling is organized into **Input**, **Checkbox**, and **Radio** design groups, with **additional styling options** for radios and checkboxes that were previously inconsistent or unavailable. Together with **[Composable Settings](../builder/composable-settings-in-divi-5.md)**, you can use Divi’s full design suite on form elements instead of filling gaps with custom CSS.
 
 !!! abstract "Quick Reference"
-    **What it controls:** Field background/text colors, focus-state colors, typography, spacing, borders, and rounded corners
-    **Where to find it:** Design Tab → Fields
-    **Available on:** Comments module (and other form-based modules)
-    **Responsive:** Yes — field styling values can be set per breakpoint
-    **ET Docs:** [Official documentation](https://help.elegantthemes.com/en/articles/10260887)
+    **What it controls:** Visual design for text-like inputs, checkboxes, and radios — per state (default, hover, **:focus**, **:checked**).
+    **Where to find it:** Design tab → **Input**, **Checkbox**, and **Radio** groups on form-based modules.
+    **Pseudo-classes:** In addition to hover editing, use **:focus** and **:checked** modes for field-based pseudo-classes.
+    **Presets:** Each of the three groups supports presets for site-wide consistency.
+    **ET source:** [Feature announcement](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"} (aligns with Divi customer email, April 2026).
 
 ## Overview
 
-When a module contains form inputs, such as text fields, textareas, or dropdowns, the Fields options group provides a comprehensive set of design controls for those inputs. These settings are found under the Design tab and allow you to customize every visual aspect of form fields so they match your site's branding without writing any custom CSS.
+Previously, many form-based modules exposed a single **Fields** (or similarly named) bucket with **inconsistent** controls—some modules offered one-off focus colors, others omitted label or placeholder styling, and radios and checkboxes could not be designed with the same depth as text inputs.
 
-The group covers four main areas: background and text colors (including separate focus-state colors), typography (font family, weight, size, spacing, and style), spacing (margin and padding around each field), and borders (width, color, style, and rounded corners). Focus-state settings let you define how a field looks when a user clicks into it, providing clear visual feedback.
+Current Divi 5 splits field design into three groups:
 
-These settings apply to all input fields within the module simultaneously. If you need to style individual fields differently, you can use the CSS options group in combination with field-specific class names.
+1. **Input** — single-line inputs, email fields, textareas, dropdowns (`select`), and related controls.
+2. **Checkbox** — checkbox inputs and their labels.
+3. **Radio** — radio inputs and their labels.
 
-For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10260887).
+Each group receives the **same set of options** wherever that field type appears, and each can use Divi’s **full** background, border, spacing, typography, filters, transforms, and other design tools where enabled. **Label text** and **placeholder text** styling are available within these groups so you can tune copy independently from the field body.
 
-## Settings Reference
+For the original Help Center article that described the older consolidated **Fields** UI on some modules, see [Understanding fields styling](https://help.elegantthemes.com/en/articles/10260887){:target="_blank"} — behavior in current Divi follows the harmonized model above.
+
+## Pseudo-class editing (`:focus`, `:checked`)
+
+Divi already supported **hover** state customization for many elements. For forms, Divi added editing modes for **field-based pseudo-classes**:
+
+| Mode | Typical use |
+|------|-------------|
+| **Default** | Resting appearance of the control. |
+| **Hover** | Pointer-over styling (existing workflow). |
+| **:focus** | When the visitor tabs or clicks into an input — keyboard and accessibility-friendly focus treatment. |
+| **:checked** | Selected radio or checked checkbox. |
+
+Earlier **focus-only** color pickers and similar shortcuts were **deprecated** and migrated into **:focus** editing mode so focus styling lives alongside other states instead of as disconnected toggles.
+
+Switch pseudo-class modes from the same workflow you use for hover (Responsive Editor / state strip in the Visual Builder — see [Button styling reference](../modules/button-styling-reference.md) for the general hover pattern; form fields add **:focus** and **:checked** where applicable).
+
+## Form field presets {#form-field-presets}
+
+**Input**, **Checkbox**, and **Radio** groups **support presets**. Create a preset per group (for example, “Input / Default”, “Checkbox / Compact”) and reuse it across the [Contact Form](../modules/contact-form.md), [Contact Form 7](../modules/contact-form-7.md), [Email Optin](../modules/email-optin.md), [Login](../modules/login.md), [Search](../modules/search.md), [Comments](../modules/comments.md), WooCommerce checkout modules, and other **form-based** elements—adjust the preset once, and dependent modules pick up the base design.
+
+See [Divi Presets](../builder/presets.md) for how presets propagate and override.
+
+## Which elements use this
+
+Any **form-based module** that renders text inputs, textareas, selects, checkboxes, or radios uses the harmonized groups. That includes (non-exhaustive):
+
+- [Contact Form](../modules/contact-form.md), [Contact Form 7](../modules/contact-form-7.md), [Email Optin](../modules/email-optin.md), [Login](../modules/login.md), [Search](../modules/search.md), [Comments](../modules/comments.md)
+- WooCommerce checkout and cart modules that expose native form fields (billing, shipping, coupons, etc.)
+
+Exact group labels match the Visual Builder for your installed Divi version.
+
+## Historical reference: legacy “Fields” table
+
+The following table described the **pre-harmonization** consolidated **Fields** group as documented for the Comments module. **Current Divi may show Input / Checkbox / Radio instead**, with controls reorganized into pseudo-class modes and composable settings. Retained for migration context only:
 
 | Setting | Type | Description |
 |---------|------|-------------|
-| Fields Background Color | Color picker | Sets the background color of form input fields in their default state. |
-| Fields Text Color | Color picker | Sets the text color inside form input fields in their default state. |
-| Fields Focus Background Color | Color picker | Sets the background color of a field when it receives focus (is clicked or tabbed into). |
-| Fields Focus Text Color | Color picker | Sets the text color of a field when it receives focus. |
-| Fields Margin | Spacing input | Controls the outer spacing around each form field. Supports individual values for top, right, bottom, and left. |
-| Fields Padding | Spacing input | Controls the inner spacing within each form field. Supports individual values for top, right, bottom, and left. |
-| Fields Font | Font selector | Sets the font family used for text inside form fields. |
-| Fields Font Weight | Dropdown | Sets the weight (thickness) of the field text. Options include Light, Regular, Bold, and other standard weights. |
-| Fields Font Style | Multi-select | Applies additional text styling such as italics, uppercase, underline, or strikethrough. |
-| Fields Text Alignment | Alignment buttons | Controls horizontal text alignment within the field: left, center, right, or justify. |
-| Fields Text Size | Range slider / numeric input | Sets the font size of text inside form fields. |
-| Fields Letter Spacing | Numeric input | Adjusts the horizontal spacing between characters in field text. |
-| Fields Line Height | Numeric input | Sets the vertical spacing between lines of text within form fields. |
-| Fields Text Shadow | Shadow controls | Adds a text shadow to field text with configurable position, blur radius, and color. |
-| Fields Rounded Corners | Numeric input | Sets the border radius for field corners. Can be linked (uniform) or unlinked (individual corners). |
-| Fields Border Width | Numeric input | Sets the thickness of the field border. Minimum value is 1px. |
-| Fields Border Color | Color picker | Sets the color of the field border. |
-| Fields Border Style | Dropdown | Sets the border style. Options are solid, dashed, dotted, double, groove, ridge, inset, outset, and none. |
-| Use Focus Borders | Toggle | When enabled, allows you to define separate border styles for when a field is in focus. |
-
-## Which Elements Use This
-
-The Fields options group is currently used by the **Comments Module** in Divi 5. It appears under the **Design** tab in the module's settings panel.
+| Fields Background Color | Color picker | Default-state background for inputs. |
+| Fields Text Color | Color picker | Default-state text color. |
+| Fields Focus Background Color | Color picker | *(Superseded by :focus mode in harmonized UI.)* |
+| Fields Focus Text Color | Color picker | *(Superseded by :focus mode in harmonized UI.)* |
+| Fields Margin / Padding | Spacing | Outer/inner spacing for fields. |
+| Fields Font, Weight, Style, Alignment, Size, Letter Spacing, Line Height, Text Shadow | Typography | Text inside fields. |
+| Fields Rounded Corners | Numeric | Border radius. |
+| Fields Border Width / Color / Style | Border | Border appearance. |
+| Use Focus Borders | Toggle | *(Superseded by :focus border styling in harmonized UI.)* |
 
 ## Code Examples
 
-```css
-/* Custom focus styles for form fields */
-.et_pb_comments_module input:focus,
-.et_pb_comments_module textarea:focus {
-  border-color: #4299e1;
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
-  outline: none;
-}
-```
+Prefer builder presets and pseudo-class modes first; use CSS when you need selectors Divi does not expose.
 
 ```css
-/* Style placeholder text to match field design */
-.et_pb_comments_module input::placeholder,
-.et_pb_comments_module textarea::placeholder {
-  color: #a0aec0;
-  font-style: italic;
+/* Example: stronger focus ring for comment form after migration from legacy Fields */
+.et_pb_comments_module input:focus-visible,
+.et_pb_comments_module textarea:focus-visible {
+  outline: 2px solid #3182ce;
+  outline-offset: 2px;
 }
 ```
 
 ## Related
 
-- [Form Field Content Options](form-field-content.md)
-- [Spam Protection Options](spam-protection.md)
-- [Button Options](button.md)
+- [Form Field Content Options](form-field-content.md) — Field IDs, types, validation (native Contact Form)
+- [Spam Protection Options](spam-protection.md) — reCAPTCHA and honeypot (native Contact Form)
+- [Button Options](button.md) — Submit buttons on forms
+- [Divi Presets](../builder/presets.md) — Preset manager and inheritance

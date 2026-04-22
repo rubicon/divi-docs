@@ -273,4 +273,4 @@ After configuring your search module, click the green **Save** button in the bot
 - [Blog](blog.md) — Display search results or post collections with filtering and pagination
 - [Menu](menu.md) — Often paired with search in header navigation layouts
 - [Theme Builder](../builder/theme-builder.md) — Add search to custom header or search results templates
-- [Fields Options](../options-groups/fields.md) — Style the search input field appearance
+- [Form field design](../options-groups/fields.md) — Style the search input (Input / Checkbox / Radio groups)

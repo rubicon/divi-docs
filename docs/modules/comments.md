@@ -5,7 +5,7 @@ category: modules
 tags: ["modules", "comments", "blog", "forms", "engagement", "theme-builder"]
 related: ["blog", "post-title"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/10260827-the-comments-module-in-divi-5"
 ---
 
@@ -88,7 +88,7 @@ The Design tab provides granular styling for every visual element within the com
 
 | Setting | Type | Description |
 |---------|------|-------------|
-| Fields | field styling | Style the comment form input fields (name, email, URL, comment textarea) — background color, text color, border, padding, and focus states. |
+| Input / Checkbox / Radio | field styling | Harmonized form field groups (current Divi 5): style name, email, URL, and comment fields with **Input**; use **:focus** / **:checked** pseudo-class modes and [form field presets](../options-groups/fields.md). Older builds may still label this area **Fields**. |
 | Comment Count Text | text styling | Style the comment count heading specifically — font, size, color, weight, letter spacing, and alignment. |
 | Form Title Text | text styling | Style the "Leave a Reply" heading above the comment form — font, size, color, weight, and spacing. |
 | Comment Text | text styling | Style the body text of individual comments — font, size, color, line height, and letter spacing. |
