@@ -1,9 +1,12 @@
 name: External link check
 
-# Runs only on GitHub-hosted runners (no local setup).
+# Runs on GitHub-hosted runners (no local setup).
+# Weekly: Mondays 9:00 AM UTC (same cadence as weekly-monitor / monthly-audit).
 # Results: Actions → this workflow → open the latest run → Artifacts → "external-link-report" (Markdown).
 
 on:
+  schedule:
+    - cron: "0 9 * * 1"
   workflow_dispatch:
     inputs:
       strict:
@@ -32,7 +35,8 @@ jobs:
         env:
           REPORT_PATH: reports/external-link-check-${{ github.run_id }}.md
           EVENT_NAME: ${{ github.event_name }}
-          STRICT_CHOICE: ${{ inputs.strict }}
+          # inputs is only defined for workflow_dispatch; avoid referencing it on schedule.
+          STRICT_CHOICE: ${{ github.event_name == 'workflow_dispatch' && inputs.strict || false }}
         run: |
           set -e
           ARGS=(--write-report "${REPORT_PATH}")
