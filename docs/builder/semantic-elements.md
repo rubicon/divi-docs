@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "semantic", "html", "accessibility", "seo"]
 related: ["custom-attributes", "visual-builder"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/13284097"
 ---
 
@@ -90,6 +90,14 @@ Because the HTML is injected directly into the rendered output, you can pair an 
 - **Use HTML wrappers sparingly.** They are powerful but can introduce unclosed-tag bugs if the before/after fields are mismatched.
 - **Test with a screen reader** (VoiceOver, NVDA) after applying semantic tags to confirm the reading order makes sense.
 - **Combine with custom attributes.** Add `aria-label` values via the [Custom Attributes](custom-attributes.md) feature to further enhance accessibility.
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this feature.
+
+- [Semantic Links vs Dynamic Click Areas In Divi 5](https://www.elegantthemes.com/blog/divi-resources/semantic-links-vs-dynamic-click-areas-in-divi-5){:target="_blank"} — when to use real links vs click overlays (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

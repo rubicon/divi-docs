@@ -5,7 +5,7 @@ category: modules
 tags: [text, content-modules, rich-text, wysiwyg, paragraphs, headings, html]
 related: [blurb, code, button]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/10365197-the-text-module-in-divi-5"
 ---
 
@@ -258,6 +258,14 @@ add_filter( 'et_module_shortcode_output', 'divi_text_external_links', 10, 2 );
 ## Saving Your Work
 
 After editing your Text module content and design, click the green checkmark at the bottom of the settings panel to apply the changes. Save the page using the purple save button in the bottom dock of the Visual Builder, or use the keyboard shortcut `Ctrl + S` (Windows) or `Cmd + S` (Mac). If you plan to reuse the same text block configuration across multiple pages, save it to the Divi Library for quick access.
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this module.
+
+- [How To Create Text Badges In Divi 5](https://www.elegantthemes.com/blog/divi-resources/how-to-create-text-badges-in-divi-5){:target="_blank"} — small label-style treatments in text layouts (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

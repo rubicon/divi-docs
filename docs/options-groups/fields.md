@@ -93,6 +93,14 @@ Prefer builder presets and pseudo-class modes first; use CSS when you need selec
 }
 ```
 
+## Elegant Themes tutorials
+
+Official posts that align with harmonized form field design and presets.
+
+- [Better Form Styling, Field Presets, Focus Editing, And CF7 Module for Divi 5](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"} — theme release covering Input/Checkbox/Radio, pseudo-classes, presets, and CF7 (April 2026).
+
+*Maintainers:* track additional posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
+
 ## Related
 
 - [Form Field Content Options](form-field-content.md) — Field IDs, types, validation (native Contact Form)

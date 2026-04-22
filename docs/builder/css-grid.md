@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "layout", "css-grid", "responsive"]
 related: ["flexbox"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system"
 ---
 
@@ -198,6 +198,14 @@ Set Number of Columns to 3 and Row Heights to Equal. Use offset rules to make sp
 .my-complex-grid > *:nth-child(2) { grid-area: content; }
 .my-complex-grid > *:nth-child(3) { grid-area: sidebar; }
 ```
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts related to grid-based layouts (includes free layout downloads).
+
+- [4 Grid Styles For Divi 5 (Free Download!)](https://www.elegantthemes.com/blog/divi-resources/grid-styles-for-divi-5){:target="_blank"} — styled grid section layouts (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Related
 

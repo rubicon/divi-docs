@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "command-center", "keyboard-shortcuts", "workflow", "productivity"]
 related: ["visual-builder", "presets"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/13741079"
 ---
 
@@ -116,6 +116,16 @@ These standard keyboard shortcuts work throughout the builder, independent of th
 | Save Page | Cmd/Ctrl + S |
 | Undo | Cmd/Ctrl + Z |
 | Redo | Cmd/Ctrl + Shift + Z |
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this feature.
+
+- [How The Command Center Changes The Divi 5 Workflow](https://www.elegantthemes.com/blog/divi-resources/how-the-command-center-changes-the-divi-5-workflow){:target="_blank"} — overview of the palette in context (April 2026).
+- [Queueing Commands In Divi 5 To Build Your Layouts](https://www.elegantthemes.com/blog/divi-resources/queueing-commands-in-divi-5-to-build-entire-layouts){:target="_blank"} — chaining commands with presets (April 2026).
+- [Divi 5 Commands Every Power User Should Know](https://www.elegantthemes.com/blog/divi-resources/divi-5-commands-every-power-user-should-know){:target="_blank"} — keyboard-first habits with the Command Center (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

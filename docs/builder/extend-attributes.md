@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "extend-attributes", "extend-styles", "propagate", "workflow"]
 related: ["attribute-management", "presets", "find-and-replace"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/11550066"
 ---
 
@@ -132,6 +132,14 @@ This filter is useful for extending attributes like button styles from a Contact
 2. Right-click and extend attributes.
 3. Set scope to **Same Row**, attribute type to **Presets**.
 4. All modules in the row receive the preset assignment.
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this feature.
+
+- [How Extend Attributes Helps You Design Faster In Divi 5](https://www.elegantthemes.com/blog/divi-resources/how-extend-attributes-helps-you-design-faster-in-divi-5){:target="_blank"} — workflow-oriented tutorial (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

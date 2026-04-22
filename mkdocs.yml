@@ -215,6 +215,7 @@ nav:
       - Custom Breakpoints: builder/custom-breakpoints.md
     - Design System:
       - Presets: builder/presets.md
+      - Composable Settings: builder/composable-settings-in-divi-5.md
       - Element Presets: builder/element-presets.md
       - Option Group Presets: builder/option-group-presets.md
       - Stacked & Nested Presets: builder/stacked-nested-presets.md

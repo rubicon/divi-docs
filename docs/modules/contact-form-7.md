@@ -80,6 +80,14 @@ See [Fields / form field design](../options-groups/fields.md) and [Divi Presets]
 
 Standard Divi **Advanced** options ([Attributes](../options-groups/attributes.md), [CSS](../options-groups/css.md), [Conditions](../options-groups/conditions.md), interactions, visibility, etc.) apply to the module wrapper like other modules.
 
+## Elegant Themes tutorials
+
+Official **Theme Releases** post for this integration module and the wider form update.
+
+- [Better Form Styling, Field Presets, Focus Editing, And CF7 Module for Divi 5](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"} — native CF7 module and harmonized form styling (April 2026).
+
+*Maintainers:* track additional posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
+
 ## Code Examples
 
 Styling is normally handled in the builder. For edge cases, target CF7 markup with care—classes can differ by form structure. Prefer Divi field groups before adding custom CSS.

@@ -4,7 +4,7 @@ category: builder
 tags: [builder]
 related: []
 divi_version: "5.x"
-last_updated: 2026-04-06
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/14332889-composable-settings-in-divi-5"
 ---
 
@@ -52,6 +52,14 @@ For detailed information, see the [official Elegant Themes documentation](https:
 ## Common Patterns
 
 <!-- TODO: Document 2-3 common usage patterns -->
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this feature.
+
+- [Everything You Need To Know About Composable Settings In Divi 5](https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-composable-settings-in-divi-5){:target="_blank"} — narrative walkthrough of enabling design groups on sub-elements (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Troubleshooting
 

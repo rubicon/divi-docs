@@ -121,6 +121,12 @@ Real, tested code with language-tagged fenced blocks.
 ![Pattern example](../assets/screenshots/category/slug/pattern-card-grid.png){ loading=lazy }
 *Three-column blurb card grid with hover effects.*
 
+## Elegant Themes tutorials
+
+Long-form posts on the Elegant Themes **blog** (Divi Resources, Theme Releases). Link them here when a tutorial teaches the same feature as this page. Use a short bullet list; each link should open in a new tab: `[Post title](https://www.elegantthemes.com/blog/...){:target="_blank"} — one-line context`.
+
+Add new URLs to `planning/et-blog-tutorials-map.md` for weekly maintenance.
+
 ## Version Notes
 
 !!! note "Divi 5 Only"
@@ -219,6 +225,11 @@ For manual screenshots (e.g., from the Visual Builder where automation is tricky
 - Use relative paths for internal links: `[Blurb Module](../modules/blurb.md)`
 - Include related pages in frontmatter AND in the Related section at the bottom
 
+### Elegant Themes blog tutorials (maintenance)
+- When Divi Resources or Theme Releases publishes a tutorial for a documented feature, add **`## Elegant Themes tutorials`** to the matching reference page (see template above) and a row to **`planning/et-blog-tutorials-map.md`**.
+- Place the section **immediately before `## Version Notes`** when that heading exists; otherwise **immediately before `## Related`**.
+- Prefer linking to the blog post over pasting its full text — the Help Center `source_url` remains the primary re-scrape target unless superseded.
+
 ### Admonitions (MkDocs syntax)
 ```markdown
 !!! note "Title"
@@ -237,6 +248,7 @@ For manual screenshots (e.g., from the Visual Builder where automation is tricky
 2. Update the section's `index.md` status table (change 🔲 to ✅)
 3. Add entries to `scripts/screenshots.yml` for screenshots needed
 4. Add related page cross-references to/from existing pages
+5. If Elegant Themes published a **blog** tutorial for the same feature, add **`## Elegant Themes tutorials`** plus an entry in `planning/et-blog-tutorials-map.md`
 
 ## Processing Scraped Content Workflow
 

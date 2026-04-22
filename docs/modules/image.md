@@ -5,7 +5,7 @@ category: modules
 tags: ["modules", "media", "image", "lightbox", "visual", "content"]
 related: ["gallery", "blurb", "icon"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/10315772-the-image-module-in-divi-5"
 ---
 
@@ -254,6 +254,14 @@ Enable the lightbox setting on multiple Image modules within the same section. D
 ## Saving Your Work
 
 After configuring the Image module, click the green checkmark button at the bottom of the settings panel to apply your changes. Then save the page using the save button in the Visual Builder toolbar, or use the keyboard shortcut Ctrl+S (Cmd+S on Mac). Changes are not published until you explicitly save the page.
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this module.
+
+- [How To Add Hotspots To Images In Divi 5](https://www.elegantthemes.com/blog/divi-resources/how-to-add-hotspots-to-images-in-divi-5){:target="_blank"} — clickable markers on images (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

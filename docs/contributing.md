@@ -3,7 +3,7 @@ title: "Contributing to Divi 5 Technical Documentation"
 description: "Contributing guide for Divi 5 technical documentation — how to submit edits, create new pages, report issues, and follow documentation standards."
 category: meta
 tags: [contributing, community]
-last_updated: 2026-03-12
+last_updated: 2026-04-21
 ---
 
 # Contributing to Divi 5 Technical Documentation
@@ -96,6 +96,15 @@ Use MkDocs admonition syntax for callouts:
 | `css-reference/` | CSS class names, selectors, common overrides |
 | `recipes/` | Step-by-step "how to build X" walkthroughs |
 | `troubleshooting/` | Common issues and their solutions |
+
+## Elegant Themes blog tutorials
+
+Official **Divi Resources** and **Theme Releases** articles on elegantthemes.com are great walkthroughs, but they are not the same as Help Center reference material.
+
+When you add or update a page for a feature that has a matching blog post:
+
+1. Add an **`## Elegant Themes tutorials`** section on the **reference page** for that feature (not a duplicate full article). Use bullet links with `{:target="_blank"}` and one line of context each. See **`SKILL.md`** for the exact heading and placement (before `## Version Notes`, or before `## Related` if there is no Version Notes section).
+2. Add the URL to **`planning/et-blog-tutorials-map.md`** so maintainers can keep links in sync during regular updates.
 
 ## Review Process
 

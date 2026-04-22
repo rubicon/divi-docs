@@ -363,6 +363,14 @@ After configuring the Contact Form module:
 - **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
 - **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
 
+## Elegant Themes tutorials
+
+Official **Theme Releases** and **Divi Resources** posts that match this module and the harmonized form system.
+
+- [Better Form Styling, Field Presets, Focus Editing, And CF7 Module for Divi 5](https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module){:target="_blank"} — announcement: Input/Checkbox/Radio groups, pseudo-classes, presets, CF7 module (April 2026).
+
+*Maintainers:* track additional posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
+
 ## Version Notes
 
 !!! note "Divi 5 Only"

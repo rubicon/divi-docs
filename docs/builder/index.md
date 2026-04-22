@@ -3,7 +3,7 @@ title: "Divi Builder"
 description: "Divi 5 Builder documentation hub — Visual Builder interface, layout systems, design tools, editing features, and site management reference."
 category: builder
 tags: [builder, overview]
-last_updated: 2026-03-12
+last_updated: 2026-04-21
 ---
 
 # Divi Builder
@@ -23,6 +23,7 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Theme Builder](theme-builder.md) | Template system for headers, footers, post templates | ✅ Done |
 | [Divi Library](library.md) | Saving and loading layouts | ✅ Done |
 | [Presets](presets.md) | Reusable design configurations | ✅ Done |
+| [Composable Settings](composable-settings-in-divi-5.md) | Enable design option groups on module sub-elements | 📝 Stub |
 | [Global Elements](global-elements.md) | Reusable modules and sections that sync across pages | ✅ Done |
 | [Role Editor](role-editor.md) | Control Divi feature access per user role | ✅ Done |
 | [Responsive Preview](responsive-preview.md) | Preview designs across device sizes | ✅ Done |

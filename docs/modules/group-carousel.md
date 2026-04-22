@@ -5,7 +5,7 @@ category: modules
 tags: ["modules", "group-carousel", "carousel", "slider", "slideshow", "navigation", "interactive"]
 related: ["group", "slider", "gallery"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-21
 source_url: "https://help.elegantthemes.com/en/articles/11982051"
 ---
 
@@ -244,6 +244,14 @@ After configuring the Group Carousel module:
 
 - **Save changes** — Click the purple **Save** button at the bottom of the Visual Builder, or press `Ctrl+S` (Windows) / `Cmd+S` (Mac).
 - **Exit the builder** — Click the **X** button or use `Ctrl+Shift+E` to return to the WordPress dashboard.
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts walk through real layouts using this module.
+
+- [Building Interactive Image Cards With Divi 5’s Group Carousel Module](https://www.elegantthemes.com/blog/divi-resources/building-interactive-image-cards-with-divi-5s-group-carousel-module){:target="_blank"} — image-card style carousel tutorial (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

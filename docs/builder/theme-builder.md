@@ -5,7 +5,7 @@ category: builder
 tags: [builder, theme-builder, templates, headers, footers, dynamic-content]
 related: [visual-builder, library, global-elements]
 divi_version: "5.x"
-last_updated: 2026-03-12
+last_updated: 2026-04-21
 source_url: ""
 ---
 
@@ -218,6 +218,14 @@ Templates can be exported and imported between Divi websites:
     color: #666;
 }
 ```
+
+## Elegant Themes tutorials
+
+Long-form **Divi Resources** posts complement the Help Center `source_url` for this feature.
+
+- [How Editable Theme Builder Areas Improve The Divi 5 Workflow](https://www.elegantthemes.com/blog/divi-resources/how-editable-theme-builder-areas-improve-the-divi-5-workflow){:target="_blank"} — editing headers, footers, and body without leaving the page (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Version Notes
 

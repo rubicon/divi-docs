@@ -44,6 +44,14 @@ python scripts/scrape_docs.py --url "URL" --category CATEGORY --screenshots
 ```
 Then restructure the output to match our template.
 
+### Elegant Themes blog tutorials (Divi Resources / Theme Releases)
+
+Long-form **blog** posts are not auto-imported. When a post teaches the same feature as a reference page:
+
+1. Add an **`## Elegant Themes tutorials`** section on that page (see `SKILL.md` for placement and link format).
+2. Add a row to **`planning/et-blog-tutorials-map.md`** so weekly maintenance can find it.
+3. During the **weekly monitor** run, check new Divi Resources / Theme Releases posts and update the map + links (see `claude-code/task-weekly-monitor.md`).
+
 ### Running the content monitor
 ```bash
 python scripts/monitor_updates.py --all

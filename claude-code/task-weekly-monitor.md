@@ -85,7 +85,18 @@ For any `SOURCE_GONE` or `SOURCE_REDIRECTED` findings:
 - If redirected: update the `source_url` in the page's frontmatter to the new URL
 - If gone (404): remove the `source_url` field and add a note: `<!-- Source URL no longer available as of YYYY-MM-DD -->`
 
-### Step 5: Check for Divi Release Notes
+### Step 5: Elegant Themes blog tutorials (Divi Resources & Theme Releases)
+
+The content monitor targets **Help Center** URLs. Blog tutorials are tracked separately.
+
+1. Open [Divi Resources](https://www.elegantthemes.com/blog/category/divi-resources) and [Theme Releases](https://www.elegantthemes.com/blog/category/theme-releases) (most recent posts first).
+2. For each new Divi 5 tutorial, decide which **reference page** in `docs/` it belongs to (same feature / module / workflow).
+3. Add an **`## Elegant Themes tutorials`** bullet link on that page if missing (see `SKILL.md` and `planning/et-blog-tutorials-map.md`).
+4. Add or update a row in **`planning/et-blog-tutorials-map.md`** with the post title, URL, target doc path, and date.
+
+Skip pure marketing or off-topic posts. Prefer one canonical doc per tutorial; use **recipes** only if you are converting the tutorial into a first-party walkthrough.
+
+### Step 6: Check for Divi Release Notes
 
 Search the web for recent Divi 5 release notes and changelog entries:
 - Search: "Divi 5 release notes 2026" and "Divi 5 changelog"
@@ -95,7 +106,7 @@ Search the web for recent Divi 5 release notes and changelog entries:
   - Add version-specific notes where behavior has changed
   - Update `last_updated` dates on modified pages
 
-### Step 6: Fill Content Gaps (if time allows)
+### Step 7: Fill Content Gaps (if time allows)
 
 From the `PLACEHOLDER` and `MANY_TODOS` findings, pick the 2-3 highest-impact pages
 (prioritize modules with the most search volume — Image, Contact Form, Slider, CTA)
@@ -105,12 +116,12 @@ and flesh them out:
 - Add common usage patterns
 - Remove TODO markers as you fill in content
 
-### Step 7: Build, Commit, Push
+### Step 8: Build, Commit, Push
 
 ```bash
 mkdocs build  # Verify no errors
 
-git add docs/ reports/ scripts/et_content_hashes.json mkdocs.yml
+git add docs/ planning/ reports/ scripts/et_content_hashes.json mkdocs.yml CLAUDE.md SKILL.md claude-code/
 git commit -m "Weekly update: [brief summary of what changed]
 
 - Auto-updated X settings tables
@@ -121,7 +132,7 @@ git commit -m "Weekly update: [brief summary of what changed]
 git push
 ```
 
-### Step 8: Generate Human Summary
+### Step 9: Generate Human Summary
 
 After completing all automated steps, write a brief summary to stdout:
 
@@ -132,6 +143,7 @@ Settings tables auto-updated: X
 New stub pages created: Y
 Source URLs fixed: Z
 Content gaps filled: N
+Blog tutorial links / map updated: B
 Remaining placeholders: M
 
 NEEDS HUMAN REVIEW:
