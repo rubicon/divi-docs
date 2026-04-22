@@ -1,0 +1,61 @@
+name: External link check
+
+# Runs only on GitHub-hosted runners (no local setup).
+# Results: Actions → this workflow → open the latest run → Artifacts → "external-link-report" (Markdown).
+
+on:
+  workflow_dispatch:
+    inputs:
+      strict:
+        description: "Fail the job if any URL fails"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install certifi
+        run: pip install certifi
+
+      - name: Run external link check
+        id: run
+        env:
+          REPORT_PATH: reports/external-link-check-${{ github.run_id }}.md
+          EVENT_NAME: ${{ github.event_name }}
+          STRICT_CHOICE: ${{ inputs.strict }}
+        run: |
+          set -e
+          ARGS=(--write-report "${REPORT_PATH}")
+          if [ "${EVENT_NAME}" = "workflow_dispatch" ] && [ "${STRICT_CHOICE}" = "true" ]; then
+            ARGS+=(--strict)
+          fi
+          python scripts/check_external_links.py "${ARGS[@]}"
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-link-report
+          path: reports/external-link-check-*.md
+          if-no-files-found: warn
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## External link check"
+            echo ""
+            echo "Download the **external-link-report** artifact above for the full Markdown table (OK vs failed URLs and \`docs/...\` line references)."
+            echo ""
+            echo "This repository also runs the same script after \`mkdocs build\` in **Weekly Content Monitor** and **Monthly Content Audit**; those runs can commit \`reports/external-link-check-*.md\` when the working tree changes."
+          } >> "${GITHUB_STEP_SUMMARY}"
