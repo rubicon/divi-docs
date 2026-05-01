@@ -2,9 +2,9 @@
 title: "Import Elements from Divi Library"
 category: troubleshooting
 tags: ["troubleshooting", "library", "import", "layouts"]
-related: ["library", "visual-builder"]
+related: ["library", "visual-builder", "library-import-json"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-30
 source_url: "https://help.elegantthemes.com/en/articles/12918951"
 ---
 
@@ -17,6 +17,8 @@ Add pre-built layouts, sections, rows, and modules from your Divi Library into a
 The Divi Library stores reusable design components at four levels: full page layouts, sections, rows, and modules. You can import any of these into a page without rebuilding them from scratch. Each element type has its own import workflow and placement rules.
 
 For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/12918951).
+
+If you **import JSON** into the Divi Library (portability / `et_builder_layouts`) and the item **appears in the admin library list** but **not** in the Visual Builder **Saved Layout** / **Add From Library** pickers, the file’s **`terms`** array is usually wrong — for example `layout_type` must use slug `layout` for full page layouts, not `page`. See [Library Import JSON Structure — Common pitfalls](../internals/library-import-json.md#common-pitfalls-library-json-imports).
 
 ## Import a Full Page Layout
 
@@ -72,3 +74,4 @@ Divi enforces a strict parent-child hierarchy for imported elements:
 - [Divi Library](../builder/library.md)
 - [Visual Builder](../builder/visual-builder.md)
 - [Global Elements](../builder/global-elements.md)
+- [Library Import JSON Structure](../internals/library-import-json.md) — `et_builder_layouts` shape, `terms` taxonomies, and import pitfalls

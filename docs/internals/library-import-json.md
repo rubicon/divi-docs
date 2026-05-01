@@ -3,9 +3,9 @@ title: "Library Import JSON Structure"
 description: "Divi 5 library and design system import file formats — Global Variables, Presets, Theme Builder templates, Theme Customizer, and layout JSON structure."
 category: internals
 tags: [internals, library, import, design-system, json, presets, global-variables]
-related: [block-format, json-attribute-map]
+related: [block-format, json-attribute-map, import-library-elements]
 divi_version: "5.x"
-last_updated: 2026-03-17
+last_updated: 2026-04-30
 ---
 
 # Library Import JSON Structure
@@ -15,7 +15,7 @@ How Divi 5’s **Divi Library** and **Design System** import/export JSON files a
 !!! abstract "Quick Reference"
     **What this documents:** The root `context`, top-level keys, and main data shapes for each import file type.
     **File types:** Global Variables | Presets | Theme Builder Templates | Theme Customizer | Layouts (pages, sections, premade).
-    **Last verified:** 2026-03-17 (Design System ZIP)
+    **Last verified:** 2026-03-17 (Design System ZIP); 2026-04-30 (library `terms` taxonomies — see [Document changelog](#document-changelog))
 
 ---
 
@@ -344,8 +344,8 @@ Each value in `data` is a **WP post-like object**:
 | `post_parent`, `menu_order` | |
 | `post_type` | e.g. `et_pb_layout` |
 | `post_mime_type`, `comment_count`, `filter` | |
-| `post_meta` | Key/value meta |
-| `terms` | Taxonomy terms |
+| `post_meta` | Key/value meta (see [`_et_pb_predefined_layout`](#post_meta-layout-flags)) |
+| `terms` | Taxonomy terms — **required** for correct Visual Builder library pickers; see [Taxonomy reference (`terms`)](#taxonomy-reference-terms) |
 
 Layout content lives in **`post_content`**: Gutenberg-style block comments (`wp:divi/section`, `wp:divi/row`, `wp:divi/column`, `wp:divi/heading`, etc.) with JSON attributes. Attributes can include:
 
@@ -355,6 +355,130 @@ Layout content lives in **`post_content`**: Gutenberg-style block comments (`wp:
 - `groupPreset` — e.g. `{ "module.decoration.spacing": { "presetId": ["sjv7gwfcxt"], "groupName": "divi/spacing" } }`
 
 Import via **Divi Library > Import & Export**; choose the appropriate layout type (pages, sections, etc.).
+
+### Taxonomy reference (`terms`)
+
+Each library layout in `data` should include a **`terms`** array with **WordPress term-shaped objects**. Divi 5 uses (at least) **three custom taxonomies** on `et_pb_layout` posts. For a **full page layout** that must appear under **Visual Builder → Add Layout → Saved Layout**, all three must be present with compatible slugs.
+
+Official import **context** naming for library exports is documented by Elegant Themes (e.g. [`et_builder_layouts`](https://help.elegantthemes.com/en/articles/2612617-how-to-fix-the-this-file-should-not-be-imported-in-this-context-error-when-importing-a-json-file-in-divi)).
+
+#### 1. `layout_type`
+
+Classifies what kind of library item this is (page layout vs section vs row vs module). The **slug must match how the Visual Builder filters the “Load from Library” / “Saved Layout” lists** for each entry point — not the English label you might expect (see [Common pitfalls](#common-pitfalls-library-json-imports)).
+
+| Slug | Typical meaning | Verification |
+|------|-----------------|--------------|
+| `layout` | Full page layout (appears in **Add Layout → Saved Layout**) | Verified on Divi 5 (community testing, Nov 2025; doc update Apr 2026) |
+| `section` | Saved section | **Not verified in this doc revision** — export a saved section from **Divi → Divi Library** and inspect `terms` |
+| `row` | Saved row | **Not verified in this doc revision** — export a saved row and inspect `terms` |
+| `module` | Saved module | **Not verified in this doc revision** — export a saved module and inspect `terms` |
+
+The **display name** (`name`) in JSON often mirrors the admin “Type” column (e.g. `"Layout"`, `"Section"`). The **`slug`** is what must be correct for the builder UI.
+
+#### 2. `scope`
+
+Whether the item behaves as an ordinary library item or a **global** (site-wide) one.
+
+| Slug | Typical meaning | Verification |
+|------|-----------------|--------------|
+| `not_global` | Regular library item | Verified for non-global full page layouts (community testing, Nov 2025) |
+| `global` | Global library item | **Not verified in this doc revision** — export a known global element and inspect `terms` |
+
+#### 3. `module_width`
+
+For section-level items, distinguishes **regular** sections from **specialty** sections in Divi’s internal classification.
+
+| Slug | Typical meaning | Verification |
+|------|-----------------|--------------|
+| `regular` | Standard (non-specialty) | Verified for typical full page layouts (community testing, Nov 2025) |
+| `specialty` | Specialty section layout | **Not verified in this doc revision** — export a specialty section if applicable |
+
+Each term object generally includes: `name`, `slug`, `taxonomy`, `term_group`, `term_taxonomy_id`, `description`, `parent`, `count`, `filter` — mirroring what Divi writes when **exporting** a layout. Placeholder zeros in export files are normal; Divi assigns real IDs on import.
+
+### Visual Builder entry points filter by `layout_type`
+
+There is **no single “generic” library item** that appears in every “Add from Library” picker. The Visual Builder **filters saved library items by the user’s entry point**:
+
+| User action | Picker | Expect `layout_type` slug |
+|-------------|--------|---------------------------|
+| **Add Layout** (page) | Saved Layout | `layout` |
+| **Add Section** | Add From Library | `section` |
+| **Add Row** | Add From Library | `row` |
+| **Add Module** | Add From Library | `module` |
+
+If you generate `et_builder_layouts` JSON programmatically, **`layout_type` must match the workflow** your users will use. Correct `post_content` alone is not enough if the taxonomies disagree.
+
+### `post_meta` layout flags
+
+| Key | Example | Meaning |
+|-----|---------|--------|
+| `_et_pb_predefined_layout` | `"off"` | User-created / imported layout (not a bundled premade) |
+| `_et_pb_predefined_layout` | `"on"` | Bundled or predefined layout treatment (see also [Global Elements](../builder/global-elements.md)) |
+
+Setting `_et_pb_predefined_layout` to `"off"` for custom imports matches typical exported user layouts and avoids treating the item like a premade package layout.
+
+### Minimal `terms` example (full page layout)
+
+Verified combination for a **non-global, regular** full page layout that surfaces under **Add Layout → Saved Layout**:
+
+```json
+"terms": [
+  {
+    "name": "Layout",
+    "slug": "layout",
+    "term_group": 0,
+    "term_taxonomy_id": 0,
+    "taxonomy": "layout_type",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "filter": "raw"
+  },
+  {
+    "name": "Not Global",
+    "slug": "not_global",
+    "term_group": 0,
+    "term_taxonomy_id": 0,
+    "taxonomy": "scope",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "filter": "raw"
+  },
+  {
+    "name": "Regular",
+    "slug": "regular",
+    "term_group": 0,
+    "term_taxonomy_id": 0,
+    "taxonomy": "module_width",
+    "description": "",
+    "parent": 0,
+    "count": 1,
+    "filter": "raw"
+  }
+]
+```
+
+### Verifying taxonomy slugs before you rely on them
+
+This page **does not** substitute for inspecting a real export on your Divi version:
+
+1. In Divi 5, save a library item of the type you care about (section, row, module, global, specialty section, etc.).
+2. **Export** it from **Divi → Divi Library** (or the same portability flow you use for production JSON).
+3. Open the JSON and copy the `terms` array from the matching `data` entry.
+
+If a slug in the tables above differs from your export, **trust your export** and consider opening a PR to update this doc.
+
+### Common pitfalls: library JSON imports
+
+!!! warning "Silent failure: import succeeds but the layout never appears in the Visual Builder"
+    **Symptom:** JSON imports without error; the item appears in **WP Admin → Divi → Divi Library**, but it **does not** appear in the Visual Builder picker (e.g. **Add Layout → Saved Layout**).
+
+    **Cause:** Wrong or incomplete **`terms`** — especially **`layout_type`** — so the admin list and the builder filters disagree.
+
+    **`slug: "page"` on `layout_type`:** The word “page” feels semantically right for a full page layout, but it is **not** the slug the builder uses for the Saved Layout list. **`layout_type` must use `slug: "layout"`** for that entry point (verified Nov 2025). Replacing `page` with `layout` fixed the issue with no other JSON changes.
+
+    **Remediation:** Use the [minimal `terms` example](#minimal-terms-example-full-page-layout) as a baseline for full page layouts; for other item types, **export a known-good item** and mirror its `terms`.
 
 ---
 
@@ -456,7 +580,15 @@ After import, customize via **Design Variables** first (colors, fonts, spacing);
 
 ---
 
+## Document changelog
+
+| Date | Change |
+|------|--------|
+| 2026-04-30 | Documented library `terms` taxonomies (`layout_type`, `scope`, `module_width`), Visual Builder entry-point filtering, `_et_pb_predefined_layout`, minimal full-page `terms` example, and silent-failure pitfall (`layout_type` `page` vs `layout`). Slugs for section/row/module/global/specialty called out as **not re-verified in-repo** — confirm via export on Divi 5. |
+| 2026-03-17 | Initial structure from Design System ZIP (`context` keys, presets, Theme Builder, Customizer, layout posts). |
+
 ## Related
 
 - [Block Comment Format](block-format.md) — structure of `post_content` and block JSON attributes
 - [JSON Attribute Map](json-attribute-map.md) — CSS-to-JSON paths and style migration
+- [Import Elements from Divi Library](../troubleshooting/import-library-elements.md) — end-user picker workflows that these taxonomies must satisfy

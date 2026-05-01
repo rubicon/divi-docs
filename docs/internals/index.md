@@ -3,7 +3,7 @@ title: "Divi 5 Internals"
 description: "Divi 5 internals documentation — block comment format, SSR rendering, content encoding, Visual Builder architecture, TinyMCE state sync, and JSON attributes."
 category: internals
 tags: [internals, architecture, ssr, block-format, developer]
-last_updated: 2026-03-12
+last_updated: 2026-04-30
 ---
 
 # Divi 5 Internals
@@ -27,6 +27,6 @@ This section documents things Elegant Themes hasn't documented publicly. It's ba
 | [Visual Builder Architecture](vb-architecture.md) | Dual-frame structure, React state, global objects, data registry | ✅ Documented |
 | [TinyMCE State Sync](tinymce-state.md) | How the text editor syncs (and doesn't sync) with Divi's save state | ✅ Documented |
 | [JSON Attribute Map](json-attribute-map.md) | CSS-to-JSON path mapping, brace-depth parser, style migration patterns | ✅ Documented |
-| [Library Import JSON](library-import-json.md) | Global Variables, Presets, Theme Builder, Customizer, and layout JSON structure | ✅ Documented |
+| [Library Import JSON](library-import-json.md) | Global Variables, Presets, Theme Builder, Customizer, layout JSON structure, library `terms` taxonomies (`layout_type`, `scope`, `module_width`) | ✅ Documented |
 | [Style Guide to Divi Variables Design](style-guide-to-divi-variables-design.md) | Design spec: generating Divi 5 Global Variables JSON from style guides or tokens | ✅ Documented |
 | [Testimonial Rendering Gaps](testimonial-ssr.md) | Known SSR bugs in the testimonial module | ✅ Documented |
