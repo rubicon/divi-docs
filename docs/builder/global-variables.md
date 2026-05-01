@@ -5,7 +5,7 @@ category: builder
 tags: [builder, global-variables, design-system, design-tokens, site-wide]
 related: [design-variables, presets, relative-colors-hsl]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-30
 source_url: "https://help.elegantthemes.com/en/articles/13348842"
 ---
 
@@ -19,6 +19,7 @@ Global variables are site-wide design tokens in Divi 5 that let you define color
     **Key features:**
 
     - Six types: Color, Font, Number, Image, Text, Link
+    - **Variable Generator** (in the Variable Manager) can bulk-create relative **color** palettes and **`clamp()`**-based **number** scales — same UI as [design variables](design-variables.md#variable-generator)
     - Number variables support `calc()`, `clamp()`, `min()`, `max()` for responsive values
     - Embedded in layout JSON exports for portable design systems
     - Three-tier system: Variables → Option Group Presets → Element Presets
@@ -118,6 +119,12 @@ Global variables are embedded in the layout JSON when you export layouts from th
 
 <!-- TODO: Identify the exact wp_options key or custom post type used for global variable storage -->
 <!-- TODO: Confirm export/import behavior — are variables deduplicated on import? -->
+
+## Elegant Themes tutorials
+
+- [Divi 5 Sizing System & Color Palette Variable Generator](https://www.elegantthemes.com/blog/theme-releases/variable-generator){:target="_blank"} — Variable Manager generators for site-wide color and fluid sizing tokens (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Related
 

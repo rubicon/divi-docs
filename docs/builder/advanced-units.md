@@ -5,7 +5,7 @@ category: builder
 tags: [builder, advanced-units, css-functions, css-variables, responsive-design, design-system]
 related: [design-variables, relative-colors-hsl]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-30
 source_url: "https://help.elegantthemes.com/en/articles/10823890"
 ---
 
@@ -109,6 +109,12 @@ Once defined, variables are entered into value fields using `var(--variable-name
 
 <!-- TODO: Verify how calc/clamp expressions are stored in the layout JSON — as raw strings or parsed objects? -->
 <!-- TODO: Test whether CSS variables defined in element-level custom CSS are available in sibling elements -->
+
+## Elegant Themes tutorials
+
+- [Divi 5 Sizing System & Color Palette Variable Generator](https://www.elegantthemes.com/blog/theme-releases/variable-generator){:target="_blank"} — How Divi’s **Generate Fluid Sizing Variables** flow produces `clamp()`-based number variables for spacing, type, gaps, radius, and more (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Related
 

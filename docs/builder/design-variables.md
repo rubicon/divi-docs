@@ -5,7 +5,7 @@ category: builder
 tags: [builder, design-variables, design-system, dynamic-content, css-variables]
 related: [global-variables, option-group-presets, advanced-units]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-30
 source_url: "https://help.elegantthemes.com/en/articles/11027601"
 ---
 
@@ -19,6 +19,7 @@ Design variables let you define reusable values — colors, numbers, fonts, imag
     **Key features:**
 
     - Six variable types: Numbers, Strings, Images, Links, Colors, Fonts
+    - **Variable Generator:** auto-build a relative color palette from the site primary color, or a full fluid sizing system (`clamp()`-based numbers) from the Numbers group
     - Assign via dynamic content icon on any compatible field
     - Variable chips display the variable name; hover to see the current value
     - Change a variable once to update every field referencing it
@@ -54,6 +55,46 @@ The Variable Manager is the central interface for creating, editing, deleting, a
 | Restore variable | Action | Reactivate a deleted variable that is still assigned to fields |
 | Reorder variables | Action | Drag and drop variables using the hover handle; no save required |
 | Save changes | Action | Explicitly save to persist all edits; closing or cancelling discards unsaved work |
+
+## Variable Generator
+
+Divi 5 can **generate** whole groups of variables from the Variable Manager instead of creating each token by hand. There are two generators: a **relative color palette** (built from your primary color) and a **fluid sizing** system for number variables (typically using `clamp()`). Elegant Themes positions this for beginners (defaults work out of the box) and for advanced users (per-variable and scaling controls in a customization sidebar).
+
+### Color palette generator
+
+| Item | Detail |
+|------|--------|
+| **Where** | Variable Manager → **Colors** group → hover the group header → **Generate Color Palette Variables** |
+| **What it does** | Uses the site **primary** color (and configurable **secondary** relationship) to create a set of **color variables** tied together with Divi’s [relative color](relative-colors-hsl.md) behavior — changing the primary updates derived shades. |
+| **Outputs** | Updates base roles such as primary, secondary, body text, header text, and link colors, and adds a spectrum of lighter/darker and transparent variants (per Elegant Themes’ April 2026 announcement). |
+| **Typical workflow** | Adjust secondary relationship and how many shade steps you want, then save. |
+
+Each generated color is still a normal color variable in the manager; the generator is a bulk authoring shortcut, not a separate storage type.
+
+### Fluid sizing (numbers) generator
+
+| Item | Detail |
+|------|--------|
+| **Where** | Variable Manager → **Numbers** group → hover the group header → **Generate Fluid Sizing Variables** |
+| **What it does** | Creates many **number** variables at once — by default as **`clamp()`** expressions so values scale between min and max across viewports without switching breakpoints manually. |
+| **Variable type menu** | Pick the kind of system to generate (each maps to fields you would normally drive with number variables): |
+
+| Generator type | Intended use (per Elegant Themes) |
+|----------------|-----------------------------------|
+| Font size | Heading/body type scales with viewport |
+| Spacing | Margin and padding scales with viewport |
+| Gap | Flex row/column gap scales with viewport |
+| Radius | Border radius scales with viewport |
+| Border width | Border widths scale with viewport |
+| Clamp (generic) | Custom `clamp()`-based tokens |
+| Size (generic) | Other sizing tokens not covered above |
+
+**Beginner path:** choose how many variables to create, then confirm (e.g. **Add Variables To My Site** in the UI).
+
+**Advanced path:** open the **customization** sidebar to change scaling function, set the site’s **minimum and maximum width** used to tune `clamp()`, edit individual generated variables, build **non-`clamp`** static scales, or adjust variable name **prefixes/suffixes**.
+
+!!! note "Help Center gap"
+    The official Help Center article linked in frontmatter predates the Variable Generator. For UI labels and the full walkthrough, use the blog post and video under [Elegant Themes tutorials](#elegant-themes-tutorials) below.
 
 ## Variable Types
 
@@ -98,6 +139,13 @@ When a variable is assigned to a field, the field displays a chip instead of a r
 
 <!-- TODO: Verify exact storage location — is it wp_options, a custom post type, or embedded in layout JSON? -->
 <!-- TODO: Test whether variables are exported with Divi Library layouts -->
+
+## Elegant Themes tutorials
+
+- [Divi 5 Sizing System & Color Palette Variable Generator](https://www.elegantthemes.com/blog/theme-releases/variable-generator){:target="_blank"} — Theme release walkthrough of the color palette and fluid sizing generators in the Variable Manager (April 2026).
+- [Variable Generator — video tour](https://www.youtube.com/watch?v=9NhPczWWBng){:target="_blank"} — Same announcement in video form on the Elegant Themes YouTube channel.
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Related
 

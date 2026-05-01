@@ -5,7 +5,7 @@ category: builder
 tags: [builder, colors, hsl, relative-colors, color-system, design-system]
 related: [design-variables, global-variables, advanced-units]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-04-30
 source_url: "https://help.elegantthemes.com/en/articles/11631084"
 ---
 
@@ -111,6 +111,12 @@ Divi 5 provides four default global colors that serve as the foundation of the s
 
 <!-- TODO: Verify the storage format for relative color offsets — is it {base, hue_offset, sat_offset, light_offset, opacity}? -->
 <!-- TODO: Test whether exported layouts preserve color filter relationships or flatten to static values -->
+
+## Elegant Themes tutorials
+
+- [Divi 5 Sizing System & Color Palette Variable Generator](https://www.elegantthemes.com/blog/theme-releases/variable-generator){:target="_blank"} — **Generate Color Palette Variables** in the Variable Manager builds a full relative palette from the primary color (April 2026).
+
+*Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
 
 ## Related
 
