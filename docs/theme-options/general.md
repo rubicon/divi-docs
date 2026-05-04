@@ -3,9 +3,9 @@ title: "General Settings"
 description: "Divi 5 General theme options — logo, color palette, social media, Google Fonts, performance optimization, Dynamic CSS, Critical CSS, and custom CSS settings."
 category: theme-options
 tags: [theme-options, general, performance, logo, colors, social-media, fonts, css]
-related: [navigation, layout, builder-settings]
+related: [navigation, layout, builder-settings, social-media-follow]
 divi_version: "5.x"
-last_updated: 2026-03-12
+last_updated: 2026-05-04
 source_url: "https://www.elegantthemes.com/documentation/divi/theme-options/"
 ---
 
@@ -56,6 +56,9 @@ Under the **Performance** sub-tab, you'll find settings that control CSS and Jav
 | Twitter Profile URL | url | — | Paste the link to your Twitter profile here. |
 | Instagram Profile URL | url | — | Paste the link to your Instagram profile here. |
 | RSS Icon URL | url | — | Paste the link to your RSS Feed here. |
+
+!!! tip "Opening these icons in a new tab"
+    The social profile URLs in this section control **header/footer theme integration** icons. There is no **open in new tab** toggle here. For Theme Options–driven icons vs the [Social Media Follow module](../modules/social-media-follow.md#open-social-icons-in-a-new-tab), and for safe jQuery snippets, see **Open social icons in a new tab** on the Social Media Follow page.
 | Number of Products displayed on WooCommerce archive pages | number | — | Designate how many WooCommerce products are displayed on the archive page. This option works independently from Settings > Reading in wp-admin. |
 | Number of Posts displayed on Category page | number | — | Define how many posts are displayed when a user visits a Category Page. |
 | Number of Posts displayed on Archive pages | number | — | Define how many posts are displayed when a user visits an Archive Page. |
@@ -121,6 +124,7 @@ $google_api_key = et_get_option('et_google_api_settings_api_key');
 
 ## Related
 
+- [Social Media Follow module](../modules/social-media-follow.md) — Module-based social icons, **Link Target** setting, and new-tab behavior for Theme Options icons
 - [Navigation Settings](navigation.md)
 - [Layout Settings](layout.md)
 - [Builder Settings](builder-settings.md)
