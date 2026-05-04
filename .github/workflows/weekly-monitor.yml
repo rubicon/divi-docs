@@ -6,6 +6,10 @@ on:
     - cron: '0 9 * * 1'
   workflow_dispatch:
 
+concurrency:
+  group: divi-docs-bot-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -14,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -47,8 +53,23 @@ jobs:
       - name: Commit report
         if: steps.changes.outputs.has_changes == 'true'
         run: |
+          set -e
           git config user.name "divi-docs-bot"
           git config user.email "bot@16wells.com"
           git add reports/ scripts/et_content_hashes.json scripts/check_external_links.py scripts/external_link_allowlist.txt
-          git diff --cached --quiet || git commit -m "Weekly monitor report: $(date +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Weekly monitor report: $(date +%Y-%m-%d)"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}/5), retrying after delay..."
+            sleep 15
+          done
+          echo "Push failed after 5 attempts."
+          exit 1

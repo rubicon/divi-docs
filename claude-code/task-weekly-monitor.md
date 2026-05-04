@@ -181,7 +181,7 @@ NEEDS HUMAN REVIEW:
 The workflows automate the two tiers of monitoring:
 
 - **Weekly (`weekly-monitor.yml`):** Runs `--dry-run` by default. Generates a report and commits it, but makes no changes to documentation pages. This is the safe, observe-only mode. After `mkdocs build`, it runs **`scripts/check_external_links.py`** and commits `reports/external-link-check-*.md` when there are changes.
-- **Monthly (`monthly-audit.yml`):** Runs `--auto-update --auto-create` on the first Monday of each month. This is the aggressive mode that modifies docs, creates stubs, and commits everything. A build verification step runs afterward, then the same **external link check** as the weekly job.
+- **Monthly (`monthly-audit.yml`):** Scheduled Mondays **10:00 UTC** (one hour after the weekly job) when the calendar day is in the first week of the month; uses `--auto-update --auto-create`. This is the aggressive mode that modifies docs, creates stubs, and commits everything. A build verification step runs afterward, then the same **external link check** as the weekly job. Pushes share a concurrency group with the weekly and screenshot workflows so only one bot push runs at a time; commits still `pull --rebase` before `push` with retries for leftover races.
 
 To switch the weekly workflow to auto-update mode once you are confident in the system, change `--dry-run` to `--auto-update` in `.github/workflows/weekly-monitor.yml`.
 

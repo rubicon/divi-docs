@@ -2,8 +2,14 @@ name: Monthly Content Audit
 
 on:
   schedule:
-    - cron: '0 9 * * 1'
+    # Mondays 10:00 UTC — staggered after Weekly Content Monitor (09:00 UTC) to reduce simultaneous pushes.
+    - cron: '0 10 * * 1'
   workflow_dispatch:
+
+# Serialize with other workflows that push to main (weekly monitor, screenshot bot).
+concurrency:
+  group: divi-docs-bot-main
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -24,6 +30,8 @@ jobs:
 
       - uses: actions/checkout@v4
         if: steps.check_week.outputs.should_run == 'true'
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         if: steps.check_week.outputs.should_run == 'true'
@@ -101,8 +109,23 @@ jobs:
       - name: Commit audit results
         if: steps.check_week.outputs.should_run == 'true'
         run: |
+          set -e
           git config user.name "divi-docs-bot"
           git config user.email "bot@16wells.com"
           git add docs/ reports/ scripts/et_content_hashes.json scripts/check_external_links.py scripts/external_link_allowlist.txt mkdocs.yml
-          git diff --cached --quiet || git commit -m "Monthly audit with auto-update: $(date +%Y-%m)"
-          git push
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git commit -m "Monthly audit with auto-update: $(date +%Y-%m)"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}/5), retrying after delay..."
+            sleep 15
+          done
+          echo "Push failed after 5 attempts."
+          exit 1
