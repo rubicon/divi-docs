@@ -1,8 +1,8 @@
 ---
 title: "How to Create the Ken Burns Effect in Divi 5"
 category: troubleshooting
-tags: [how, to, create, the, ken, burns, effect, in, divi, 5]
-related: []
+tags: ["troubleshooting", "animation", "slideshow", "background", "image", "ken-burns"]
+related: ["fullwidth-slider", "slider"]
 divi_version: "5.x"
 last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/14663402-how-to-create-the-ken-burns-effect-in-divi-5"
@@ -20,9 +20,9 @@ This guide walks you through building the effect in Divi 5 using the Hero module
 
 - Have a high-resolution image ready. The effect zooms up to 1.5x, so use an image large enough to avoid pixelation.
 
-## Settings & Options
+## Steps
 
-## Add a Section and Hero Module
+### Step 1: Add a Section and Hero Module
 
 Open the page in the Visual Builder where you want the effect.
 
@@ -31,29 +31,29 @@ Open the page in the Visual Builder where you want the effect.
 3. Add the **[Hero](https://help.elegantthemes.com/en/articles/10369762-the-hero-module-in-divi-5)** module to the column.
 4. Set the **Title**, subtitle, and body text as needed.
 
-### Optional steps
+#### Optional Steps
 
-1. Edit the **Section** and go to the **Design tab → Spacing.**
+1. Edit the **Section** and go to the **Design tab → Spacing**.
 2. Set the **Top** and **Bottom** padding to **0**.
-3. Edit the **Row** and go to the **Desing tab** → **Sizing**.
+3. Edit the **Row** and go to the **Design tab → Sizing**.
 4. Set the **Width** and **Max Width** to 100%.
-5. Open the **Hero** module's settings and go to the **Design Tab → Layout.**
+5. Open the **Hero** module's settings and go to the **Design Tab → Layout**.
 6. Enable the **Make Fullscreen** option.
 
-## Set the Background Image and Enable Parallax
+### Step 2: Set the Background Image and Enable Parallax
 
-[![Divi 5 - Hero module enable Parallax effect](https://downloads.intercomcdn.com/i/o/hrpt54hy/2285268526/5d6c1e6d2fadc6c87e5cdef31de4/ken-burn-1.png?expires=1778077800&signature=8181ef9b17b72b7718f045c6f9017ad1161c1eeb1c973a516132d91df0eb9398&req=diIvE8t4lYRdX%2FMW1HO4ze76hEPYkevlMbQEFqVHg48SQZhbJlRBmd2k0aQ6%0A7CDyn7%2BHbjkJfG2f4%2BU%3D%0A)](https://downloads.intercomcdn.com/i/o/hrpt54hy/2285268526/5d6c1e6d2fadc6c87e5cdef31de4/ken-burn-1.png?expires=1778077800&signature=8181ef9b17b72b7718f045c6f9017ad1161c1eeb1c973a516132d91df0eb9398&req=diIvE8t4lYRdX%2FMW1HO4ze76hEPYkevlMbQEFqVHg48SQZhbJlRBmd2k0aQ6%0A7CDyn7%2BHbjkJfG2f4%2BU%3D%0A)
+![Hero module enable Parallax effect](../assets/screenshots/troubleshooting/ken-burns/step-1.png){ loading=lazy }
 
 Open the Hero module settings.
 
 1. Go to **Content → Background → Background Image**.
-2. Click +**Add Background Image** and choose your image.
+2. Click **+Add Background Image** and choose your image.
 3. Find the **Background Image Parallax** toggle and set it to **On**.
 4. Set the **Parallax Method** to **CSS**.
 
-## Add a CSS Class as a Custom Attribute
+### Step 3: Add a CSS Class as a Custom Attribute
 
-[![Divi 5 - Hero module add CSS class](https://downloads.intercomcdn.com/i/o/hrpt54hy/2285274568/489dfcef9cd1186e6cc3926665bc/ken-burn-2.png?expires=1778077800&signature=166ba3159daf6a5cdea3be6cfdc434c00fa2b1400a5a342df8323a7f4b3c5914&req=diIvE8t5mYRZUfMW1HO4zZoGir89k%2B%2BKkuY6Ik0Gdil5MzgInmuPvLRaSoxC%0AAuI0SuMIFhByE%2FeJYCk%3D%0A)](https://downloads.intercomcdn.com/i/o/hrpt54hy/2285274568/489dfcef9cd1186e6cc3926665bc/ken-burn-2.png?expires=1778077800&signature=166ba3159daf6a5cdea3be6cfdc434c00fa2b1400a5a342df8323a7f4b3c5914&req=diIvE8t5mYRZUfMW1HO4zZoGir89k%2B%2BKkuY6Ik0Gdil5MzgInmuPvLRaSoxC%0AAuI0SuMIFhByE%2FeJYCk%3D%0A)
+![Hero module add CSS class](../assets/screenshots/troubleshooting/ken-burns/step-2.png){ loading=lazy }
 
 In Divi 5, CSS classes are added through the **Attributes** option group. Full details are in **[Custom Attributes in Divi 5](https://help.elegantthemes.com/en/articles/12274853-custom-attributes-in-divi-5)**.
 
@@ -65,17 +65,17 @@ In Divi 5, CSS classes are added through the **Attributes** option group. Full d
 6. Set the **Value** to one of the following, depending on the motion you want:
 
 - **kb-zoomin** - zooms in on the image
-   - **kb-zoomout** - zooms out from the image
-   - **kb-zoomin-right** - zooms in and pans right
-   - **kb-zoomout-right** - zooms out and pans right
+- **kb-zoomout** - zooms out from the image
+- **kb-zoomin-right** - zooms in and pans right
+- **kb-zoomout-right** - zooms out and pans right
 
-## Add the Custom CSS
+### Step 4: Add the Custom CSS
 
 Paste the CSS below into Divi's site-wide custom CSS area. For every place custom CSS can live in Divi 5, see **[Where to Add Custom CSS Code in Divi 5](https://help.elegantthemes.com/en/articles/13480630-where-to-add-custom-css-code-in-divi-5)**.
 
-For this particular example, we recommend adding the CSS code to the **Divi** → **Theme Options → Custom CSS.**
+For this particular example, we recommend adding the CSS code to the **Divi → Theme Options → Custom CSS**.
 
-```
+```css
 .kb-zoomin .et-pb-parallax-wrapper {  
   animation: zoomin 17s forwards;  
 }  
@@ -139,43 +139,26 @@ For this particular example, we recommend adding the CSS code to the **Divi** �
 
 **Note**: Adjust the `17s` duration to speed up or slow down the motion.
 
-## Save the Changes
+### Step 5: Save the Changes
 
 Click **Save** in the top bar of the Visual Builder, and view the page.
 
 The background image inside the Hero module will zoom or pan based on the class applied.
 
----
-
-Related Articles
-
-[How to Add Zoom-In Hover Effect to the Image Module](https://help.elegantthemes.com/en/articles/2699953-how-to-add-zoom-in-hover-effect-to-the-image-module)[How to Create and Use the "Ken Burns Effect" in Divi](https://help.elegantthemes.com/en/articles/2717227-how-to-create-and-use-the-ken-burns-effect-in-divi)[The Image Module in Divi 5](https://help.elegantthemes.com/en/articles/10315772-the-image-module-in-divi-5)[The Slider Module in Divi 5](https://help.elegantthemes.com/en/articles/10364612-the-slider-module-in-divi-5)[The Hero Module in Divi 5](https://help.elegantthemes.com/en/articles/10369762-the-hero-module-in-divi-5)
-
-## Code Examples
-
-<!-- TODO: Add tested code examples -->
-
-```css
-/* TODO: Add CSS customization examples */
-```
-
-```php
-// TODO: Add PHP hook/filter examples
-```
-
-## Common Patterns
-
-<!-- TODO: Add 2-3 real-world use cases -->
-
-## Version Notes
-
-!!! note "Divi 5"
-    This page documents Divi 5 behavior. Some settings or markup may differ from Divi 4.
-
 ## Troubleshooting
 
-<!-- TODO: Add common issues and solutions -->
+!!! warning "Effect Not Playing"
+    If the Ken Burns effect is not animating, check that the section or row background is set to use a background image (not a color). The effect only applies to background images.
+
+!!! tip "Performance"
+    The Ken Burns effect uses CSS animations. On pages with multiple animated backgrounds, consider limiting the effect to hero sections only to avoid performance issues on older devices.
 
 ## Related
 
-<!-- TODO: Add links to related pages -->
+- [Fullwidth Slider Module in Divi 5](../modules/fullwidth-slider.md)
+- [Slider Module in Divi 5](../modules/slider.md)
+
+## Version Notes
+
+!!! note "Divi 5 Only"
+    This page documents Divi 5 behavior exclusively.
