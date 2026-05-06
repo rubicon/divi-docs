@@ -7,16 +7,16 @@ elegantthemes.com documentation pages.
 
 Usage:
     # Capture a full page screenshot
-    python capture_screenshots.py --url "https://example.com/page" --output docs/assets/screenshots/modules/
+    python3 capture_screenshots.py --url "https://example.com/page" --output docs/assets/screenshots/modules/
 
     # Capture a specific element by CSS selector
-    python capture_screenshots.py --url "https://example.com/page" --selector ".et_pb_blurb" --output docs/assets/screenshots/modules/blurb/
+    python3 capture_screenshots.py --url "https://example.com/page" --selector ".et_pb_blurb" --output docs/assets/screenshots/modules/blurb/
 
     # Batch capture from a config file
-    python capture_screenshots.py --batch screenshots.yml
+    python3 capture_screenshots.py --batch screenshots.yml
 
     # Capture with login (for wp-admin/Divi Builder pages)
-    python capture_screenshots.py --url "https://example.com/wp-admin/" --login --output docs/assets/screenshots/
+    python3 capture_screenshots.py --url "https://example.com/wp-admin/" --login --output docs/assets/screenshots/
 
 Requirements:
     pip install playwright pyyaml Pillow

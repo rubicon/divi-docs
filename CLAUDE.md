@@ -40,7 +40,7 @@ This repo has three distinct content layers. Each has a different tone, audience
 
 ### Scraping a new page from Elegant Themes
 ```bash
-python scripts/scrape_docs.py --url "URL" --category CATEGORY --screenshots
+python3 scripts/scrape_docs.py --url "URL" --category CATEGORY --screenshots
 ```
 Then restructure the output to match our template.
 
@@ -54,7 +54,7 @@ Long-form **blog** posts are not auto-imported. When a post teaches the same fea
 
 ### Running the content monitor
 ```bash
-python scripts/monitor_updates.py --all
+python3 scripts/monitor_updates.py --all
 ```
 Check `reports/update-report-YYYY-MM-DD.md` for findings.
 
@@ -62,7 +62,7 @@ Check `reports/update-report-YYYY-MM-DD.md` for findings.
 
 ```bash
 pip install certifi
-python scripts/check_external_links.py --write-report reports/external-link-check-$(date +%Y-%m-%d).md
+python3 scripts/check_external_links.py --write-report reports/external-link-check-$(date +%Y-%m-%d).md
 ```
 
 (`certifi` is optional but recommended on macOS so TLS verification matches CI; it is installed in GitHub Actions with the other monitor dependencies.)

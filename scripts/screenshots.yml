@@ -1,6 +1,6 @@
 # Divi 5 Docs — Batch Screenshot Config
 #
-# Usage: python scripts/capture_screenshots.py --batch scripts/screenshots.yml
+# Usage: python3 scripts/capture_screenshots.py --batch scripts/screenshots.yml
 #
 # This file defines all screenshots needed for the docs.
 # Add new entries as you build out pages.

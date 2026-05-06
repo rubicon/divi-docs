@@ -108,7 +108,7 @@ When you add or update a page for a feature that has a matching blog post:
 
 ### External links
 
-`python scripts/check_external_links.py` (see `CLAUDE.md`) probes `https://` targets referenced from `docs/`. Install **`certifi`** first on macOS if you see TLS verify errors. When the report shows failures, **update or remove** those links in the cited files, or add a reviewed substring to `scripts/external_link_allowlist.txt` for false positives.
+`python3 scripts/check_external_links.py` (see `CLAUDE.md`) probes `https://` targets referenced from `docs/`. Install **`certifi`** first on macOS if you see TLS verify errors. When the report shows failures, **update or remove** those links in the cited files, or add a reviewed substring to `scripts/external_link_allowlist.txt` for false positives.
 
 ## Review Process
 

@@ -98,6 +98,7 @@ nav:
       - Bar Counter: modules/bar-counter.md
       - Before After Image: modules/before-after-image.md
       - Blog: modules/blog.md
+      - Breadcrumbs: modules/the-breadcrumbs-module-in-divi-5.md
       - Blurb: modules/blurb.md
       - Button: modules/button.md
       - Button Styling Reference: modules/button-styling-reference.md
@@ -143,6 +144,8 @@ nav:
       - Comments: modules/comments.md
       - Contact Form: modules/contact-form.md
       - Contact Form 7: modules/contact-form-7.md
+      - Contact Form 7 Styler: modules/the-contact-form-7-styler-module-in-divi-5.md
+      - Canvas Portal: modules/the-canvas-portal-module-in-divi-5.md
       - Email Optin: modules/email-optin.md
       - Login: modules/login.md
       - Search: modules/search.md
@@ -222,6 +225,7 @@ nav:
       - Preset Manager: builder/preset-manager.md
       - Design Variables: builder/design-variables.md
       - Global Variables: builder/global-variables.md
+      - Variable Generator: builder/variable-generator-in-divi-5.md
       - Advanced Units: builder/advanced-units.md
       - Relative Colors & HSL: builder/relative-colors-hsl.md
       - Style Inspector: builder/style-inspector.md
@@ -242,6 +246,10 @@ nav:
       - Add, Duplicate & Remove: builder/add-duplicate-remove.md
       - Interactions: builder/interactions.md
       - Condition Options: builder/condition-options.md
+      - New Form Field Options: builder/new-form-field-options-in-divi-5.md
+      - Fields Option Group: builder/understanding-the-fields-option-group-in-divi-5.md
+      - Checkbox Option Group: builder/understanding-the-checkbox-option-group-in-divi-5.md
+      - Radio Option Group: builder/understanding-the-radio-option-group-in-divi-5.md
     - Site Management:
       - Theme Builder: builder/theme-builder.md
       - Divi Library: builder/library.md
@@ -346,6 +354,7 @@ nav:
     - Divi 5 FAQ: troubleshooting/divi5-faq.md
     - Upload SVG and JSON Files: troubleshooting/upload-svg-json.md
     - Custom Blog Feed with Loop Builder: troubleshooting/custom-blog-loop-builder.md
+    - Create Ken Burns Effect: troubleshooting/how-to-create-the-ken-burns-effect-in-divi-5.md
     - ACF Fields in Loop Builder: troubleshooting/acf-fields-loop-builder.md
     - ACF Repeater Fields in Loop Builder: troubleshooting/acf-repeater-loop-builder.md
     - Import Elements from Divi Library: troubleshooting/import-library-elements.md

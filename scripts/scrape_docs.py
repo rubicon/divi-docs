@@ -10,13 +10,13 @@ This produces DRAFT pages that need human review and enrichment
 
 Usage:
     # Scrape a single page
-    python scrape_docs.py --url "https://www.elegantthemes.com/documentation/divi/blurb/"
+    python3 scrape_docs.py --url "https://www.elegantthemes.com/documentation/divi/blurb/"
 
     # Scrape all module pages
-    python scrape_docs.py --index "https://www.elegantthemes.com/documentation/divi/modules/" --category modules
+    python3 scrape_docs.py --index "https://www.elegantthemes.com/documentation/divi/modules/" --category modules
 
     # Scrape with screenshots
-    python scrape_docs.py --url "https://example.com/docs/blurb/" --screenshots
+    python3 scrape_docs.py --url "https://example.com/docs/blurb/" --screenshots
 
 Requirements:
     pip install requests beautifulsoup4 markdownify pyyaml

@@ -27,13 +27,13 @@ pip install -r requirements.txt
 playwright install chromium
 
 # Scrape a documentation page into a Markdown draft
-python scripts/scrape_docs.py --url "https://www.elegantthemes.com/documentation/divi/blurb/" --category modules --screenshots
+python3 scripts/scrape_docs.py --url "https://www.elegantthemes.com/documentation/divi/blurb/" --category modules --screenshots
 
 # Capture screenshots from a live Divi site
-python scripts/capture_screenshots.py --url "https://your-site.com/page" --output docs/assets/screenshots/modules/blurb/
+python3 scripts/capture_screenshots.py --url "https://your-site.com/page" --output docs/assets/screenshots/modules/blurb/
 
 # Batch capture from config
-python scripts/capture_screenshots.py --batch scripts/screenshots.yml
+python3 scripts/capture_screenshots.py --batch scripts/screenshots.yml
 ```
 
 ## Contributing

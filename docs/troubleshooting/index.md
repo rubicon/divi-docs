@@ -3,7 +3,7 @@ title: "Troubleshooting"
 description: "Divi 5 troubleshooting — common issues and solutions for the Visual Builder, CSS conflicts, performance problems, and rendering bugs."
 category: troubleshooting
 tags: [troubleshooting, issues, bugs, fixes]
-last_updated: 2026-04-30
+last_updated: 2026-05-06
 ---
 
 # Troubleshooting
@@ -18,3 +18,9 @@ Common Divi issues and their solutions.
 
 !!! tip "Know a fix?"
     If you've solved a Divi problem that took you too long to figure out, document it here so the next person doesn't suffer. See the [Contributing Guide](../contributing.md).
+
+## Recent Additions
+
+| Guide | Description | Status |
+|-------|-------------|--------|
+| [How to Create the Ken Burns Effect in Divi 5](how-to-create-the-ken-burns-effect-in-divi-5.md) | Step-by-step setup for creating a Ken Burns animation effect in Divi 5 | 📝 Stub |

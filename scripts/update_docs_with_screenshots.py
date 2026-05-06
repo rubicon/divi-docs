@@ -9,8 +9,8 @@ For each module that has settings screenshots captured:
 - Only touches lines that reference screenshots - preserves all other content
 
 Usage:
-    python scripts/update_docs_with_screenshots.py
-    python scripts/update_docs_with_screenshots.py --dry-run
+    python3 scripts/update_docs_with_screenshots.py
+    python3 scripts/update_docs_with_screenshots.py --dry-run
 """
 
 import argparse

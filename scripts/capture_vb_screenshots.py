@@ -7,10 +7,10 @@ Logs into WordPress, opens each module's demo page in the Visual Builder,
 clicks through Content/Design/Advanced tabs, and captures the settings panel.
 
 Usage:
-    python scripts/capture_vb_screenshots.py                  # All modules
-    python scripts/capture_vb_screenshots.py --module blurb   # One module
-    python scripts/capture_vb_screenshots.py --discover        # Debug VB selectors
-    python scripts/capture_vb_screenshots.py --debug           # Extra debug screenshots
+    python3 scripts/capture_vb_screenshots.py                  # All modules
+    python3 scripts/capture_vb_screenshots.py --module blurb   # One module
+    python3 scripts/capture_vb_screenshots.py --discover        # Debug VB selectors
+    python3 scripts/capture_vb_screenshots.py --debug           # Extra debug screenshots
 
 Prerequisites:
     - .env file with DIVI_SITE_URL, DIVI_WP_USER, DIVI_WP_PASS
@@ -420,10 +420,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python scripts/capture_vb_screenshots.py --discover         Debug VB selectors
-  python scripts/capture_vb_screenshots.py --module accordion Capture one module
-  python scripts/capture_vb_screenshots.py                    Capture all modules
-  python scripts/capture_vb_screenshots.py --debug            Extra debug output
+  python3 scripts/capture_vb_screenshots.py --discover         Debug VB selectors
+  python3 scripts/capture_vb_screenshots.py --module accordion Capture one module
+  python3 scripts/capture_vb_screenshots.py                    Capture all modules
+  python3 scripts/capture_vb_screenshots.py --debug            Extra debug output
         """,
     )
     parser.add_argument("--module", help="Capture one specific module by slug")

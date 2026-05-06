@@ -3,9 +3,9 @@
 Scan Markdown under docs/ for http(s) links and verify they respond.
 
 Usage:
-  python scripts/check_external_links.py
-  python scripts/check_external_links.py --write-report reports/external-link-check-2026-04-22.md
-  python scripts/check_external_links.py --strict   # exit 1 if any link fails
+  python3 scripts/check_external_links.py
+  python3 scripts/check_external_links.py --write-report reports/external-link-check-2026-04-22.md
+  python3 scripts/check_external_links.py --strict   # exit 1 if any link fails
 
 Weekly maintenance: run after mkdocs build; review the report and fix or remove
 broken URLs in the listed files. Add patterns to scripts/external_link_allowlist.txt
@@ -256,7 +256,7 @@ def main() -> int:
             "1. Open each file at the line shown and **update or remove** the broken link.\n"
             "2. If the target is temporarily flaky, add a **substring** of the URL to "
             "`scripts/external_link_allowlist.txt` and document why.\n"
-            "3. Re-run: `python scripts/check_external_links.py`"
+            "3. Re-run: `python3 scripts/check_external_links.py`"
         )
     else:
         lines.append("All probed URLs returned success (2xx/3xx).")

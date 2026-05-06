@@ -24,6 +24,7 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Bar Counter](bar-counter.md) | Animated horizontal bar charts | ✅ Documented |
 | [Before After Image](before-after-image.md) | Interactive before/after image comparison slider | ✅ Documented |
 | [Blog](blog.md) | Display blog posts in grid or list | ✅ Documented |
+| [Breadcrumbs](the-breadcrumbs-module-in-divi-5.md) | Display a breadcrumb trail for page hierarchy and navigation | 📝 Stub |
 | [Blurb](blurb.md) | Icon or image with heading and text | ✅ Documented |
 | [Button](button.md) | Customizable button element | ✅ Documented |
 | [Call to Action](call-to-action.md) | Heading, text, and button | ✅ Documented |
@@ -71,6 +72,8 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Comments](comments.md) | Post comments display | ✅ Documented |
 | [Contact Form](contact-form.md) | Form builder | ✅ Documented |
 | [Contact Form 7](contact-form-7.md) | Embed and style Contact Form 7 forms | ✅ Documented |
+| [Contact Form 7 Styler](the-contact-form-7-styler-module-in-divi-5.md) | Style Contact Form 7 forms directly in the Divi builder | 📝 Stub |
+| [Canvas Portal](the-canvas-portal-module-in-divi-5.md) | Render and trigger Canvas content from a module entry point | 📝 Stub |
 | [Email Optin](email-optin.md) | Email signup form | ✅ Documented |
 | [Login](login.md) | User login form | ✅ Documented |
 | [Search](search.md) | Search input | ✅ Documented |

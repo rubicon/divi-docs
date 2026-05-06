@@ -9,14 +9,14 @@ for new Divi releases, and optionally auto-updates settings tables
 or creates stub pages.
 
 Usage:
-    python scripts/monitor_updates.py --all                    # Report only
-    python scripts/monitor_updates.py --all --dry-run          # Show what would change
-    python scripts/monitor_updates.py --all --auto-update      # Auto-update changed pages
-    python scripts/monitor_updates.py --all --auto-update --auto-create  # Also create stubs
-    python scripts/monitor_updates.py --sources                # Only check source changes
-    python scripts/monitor_updates.py --gaps                   # Only check content gaps
-    python scripts/monitor_updates.py --scan                   # Only scan ET for new articles
-    python scripts/monitor_updates.py --releases               # Only check Divi releases
+    python3 scripts/monitor_updates.py --all                    # Report only
+    python3 scripts/monitor_updates.py --all --dry-run          # Show what would change
+    python3 scripts/monitor_updates.py --all --auto-update      # Auto-update changed pages
+    python3 scripts/monitor_updates.py --all --auto-update --auto-create  # Also create stubs
+    python3 scripts/monitor_updates.py --sources                # Only check source changes
+    python3 scripts/monitor_updates.py --gaps                   # Only check content gaps
+    python3 scripts/monitor_updates.py --scan                   # Only scan ET for new articles
+    python3 scripts/monitor_updates.py --releases               # Only check Divi releases
 
 Output:
     Writes a report to reports/update-report-YYYY-MM-DD.md
@@ -1007,14 +1007,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python scripts/monitor_updates.py --all                    Report only (default)
-  python scripts/monitor_updates.py --all --dry-run          Show what would change
-  python scripts/monitor_updates.py --all --auto-update      Auto-update changed pages
-  python scripts/monitor_updates.py --all --auto-update --auto-create  Also create stubs
-  python scripts/monitor_updates.py --sources                Only check source changes
-  python scripts/monitor_updates.py --gaps                   Only check content gaps
-  python scripts/monitor_updates.py --scan                   Only scan ET for new articles
-  python scripts/monitor_updates.py --releases               Only check Divi releases
+  python3 scripts/monitor_updates.py --all                    Report only (default)
+  python3 scripts/monitor_updates.py --all --dry-run          Show what would change
+  python3 scripts/monitor_updates.py --all --auto-update      Auto-update changed pages
+  python3 scripts/monitor_updates.py --all --auto-update --auto-create  Also create stubs
+  python3 scripts/monitor_updates.py --sources                Only check source changes
+  python3 scripts/monitor_updates.py --gaps                   Only check content gaps
+  python3 scripts/monitor_updates.py --scan                   Only scan ET for new articles
+  python3 scripts/monitor_updates.py --releases               Only check Divi releases
 """,
     )
     parser.add_argument("--all", action="store_true", help="Run all checks")

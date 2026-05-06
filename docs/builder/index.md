@@ -47,6 +47,11 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Interactions](interactions.md) | Event-driven animations and dynamic behaviors | ✅ Done |
 | [Attribute Management](attribute-management.md) | Copy, paste, and reset element attributes | ✅ Done |
 | [Extend Attributes](extend-attributes.md) | Propagate attributes to multiple elements at once | ✅ Done |
+| [Variable Generator](variable-generator-in-divi-5.md) | Generate and manage reusable variable values for design tokens | 📝 Stub |
+| [New Form Field Options](new-form-field-options-in-divi-5.md) | Overview of new Divi 5 form field option capabilities | 📝 Stub |
+| [Fields Option Group](understanding-the-fields-option-group-in-divi-5.md) | Configure input field design settings in the Fields option group | 📝 Stub |
+| [Checkbox Option Group](understanding-the-checkbox-option-group-in-divi-5.md) | Configure checkbox-specific field styling and behavior | 📝 Stub |
+| [Radio Option Group](understanding-the-radio-option-group-in-divi-5.md) | Configure radio field styling and behavior controls | 📝 Stub |
 | [Dynamic Content](dynamic-content.md) | Pull live data from posts, custom fields, and variables | ✅ Done |
 | [Loop Builder](loop-builder.md) | Display repeating content from database queries | ✅ Done |
 | [Find and Replace](find-and-replace.md) | Bulk search and replace attribute values | ✅ Done |

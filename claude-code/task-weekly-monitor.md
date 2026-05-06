@@ -42,7 +42,7 @@ git pull origin main
 pip install requests beautifulsoup4 markdownify pyyaml mkdocs-material mkdocs-glightbox
 
 # Start with dry-run to see what changed upstream
-python scripts/monitor_updates.py --all --dry-run
+python3 scripts/monitor_updates.py --all --dry-run
 ```
 
 Read the generated report in `reports/update-report-YYYY-MM-DD.md`. The report will show:
@@ -59,7 +59,7 @@ If the dry-run report shows `CONTENT_CHANGED` findings with settings table diffe
 
 ```bash
 # Auto-update settings tables in existing pages
-python scripts/monitor_updates.py --all --auto-update
+python3 scripts/monitor_updates.py --all --auto-update
 ```
 
 Review the changes with `git diff` to verify the auto-updates are correct. The script only touches settings tables and adds review markers — it will not overwrite manually written prose, code examples, or recipes.
@@ -70,7 +70,7 @@ For any `NEW_PAGE` findings, you can either create stubs automatically or manual
 
 ```bash
 # Auto-create stubs for new ET articles
-python scripts/monitor_updates.py --all --auto-create
+python3 scripts/monitor_updates.py --all --auto-create
 ```
 
 Each stub will be added to `mkdocs.yml` and the relevant section index. Review stubs and enrich them:
@@ -123,7 +123,7 @@ Blog posts, Help Center URLs, and third-party links rot over time. Probe them re
 ```bash
 pip install certifi
 
-python scripts/check_external_links.py \
+python3 scripts/check_external_links.py \
   --write-report "reports/external-link-check-$(date +%Y-%m-%d).md"
 ```
 

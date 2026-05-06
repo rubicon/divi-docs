@@ -193,7 +193,7 @@ For manual screenshots (e.g., from the Visual Builder where automation is tricky
 - Capture at 2x resolution (retina)
 - Crop to show only the relevant UI — no browser chrome, no taskbar
 - Save as PNG
-- Run through the optimizer: `python scripts/capture_screenshots.py` with the `--max-width 1200` flag
+- Run through the optimizer: `python3 scripts/capture_screenshots.py` with the `--max-width 1200` flag
 - Place in the correct `docs/assets/screenshots/{category}/{slug}/` directory
 
 ## Writing Standards
