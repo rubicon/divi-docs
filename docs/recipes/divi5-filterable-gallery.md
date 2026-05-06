@@ -42,7 +42,6 @@ The plugin is designed to be visually invisible — its filter buttons mirror Di
 
 ![Filter buttons above a Divi gallery](../assets/screenshots/recipes/divi5-filterable-gallery/overview.png){ loading=lazy }
 *The plugin's filter buttons rendered above a standard Divi 5 Gallery module.*
-<!-- TODO: capture screenshot of filter buttons + gallery on a live page -->
 
 ## Use Cases
 
@@ -87,7 +86,6 @@ Open **Media → Gallery Categories**. Add the categories you'll use for filteri
 
 ![Adding gallery categories](../assets/screenshots/recipes/divi5-filterable-gallery/categories-admin.png){ loading=lazy }
 *The Gallery Categories admin screen at Media → Gallery Categories.*
-<!-- TODO: capture screenshot of the taxonomy management screen -->
 
 ### Step 2 — Tag your images
 
@@ -95,7 +93,6 @@ Open the Media Library in either grid or list view. Click any image to open the 
 
 ![Tagging an image in the Media Library](../assets/screenshots/recipes/divi5-filterable-gallery/tag-image.png){ loading=lazy }
 *The Gallery Categories checkbox UI in the attachment details panel.*
-<!-- TODO: capture screenshot of attachment details modal with checkboxes -->
 
 Check every category that applies. Each image can belong to multiple categories — a photo of an outdoor ceremony might be tagged Exterior, Ceremony, and Garden simultaneously.
 
@@ -132,7 +129,6 @@ Clicking a button hides every gallery image not tagged with that category. Visib
 
 ![Filter row above a gallery](../assets/screenshots/recipes/divi5-filterable-gallery/filter-row.png){ loading=lazy }
 *The rendered filter row sitting above a Divi Gallery module.*
-<!-- TODO: capture screenshot of the rendered filter UI -->
 
 ### Pre-filtered URLs
 
@@ -156,7 +152,6 @@ The editor seeds itself with a bullet-fix block on first activation (themes that
 
 ![CodeMirror CSS editor](../assets/screenshots/recipes/divi5-filterable-gallery/settings-editor.png){ loading=lazy }
 *The settings page with the CodeMirror editor on the left and class reference on the right.*
-<!-- TODO: capture screenshot of the settings page -->
 
 ### Class reference panel
 
@@ -315,7 +310,7 @@ Two notable choices:
 
 ## Plugin Source
 
-The plugin is published as an Easter egg by 16Wells, freely usable under GPL-2.0. Get it from the GitHub release: <!-- TODO: add link to releases page once published -->
+The plugin is published as an Easter egg by [16Wells](https://16wells.com), freely usable under GPL-2.0. The source lives at [github.com/16wells/divi-filterable-gallery](https://github.com/16wells/divi-filterable-gallery). Grab the latest release zip from the [Releases page](https://github.com/16wells/divi-filterable-gallery/releases/latest), file an issue at the [issue tracker](https://github.com/16wells/divi-filterable-gallery/issues), or `git clone` for development.
 
 The plugin is intentionally generic. There's no Palm Valley Barn-specific content, branding, or category seeding — drop it onto any Divi 5 site and tag images that match your own taxonomy.
 
