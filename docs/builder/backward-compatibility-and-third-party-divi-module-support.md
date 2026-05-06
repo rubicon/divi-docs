@@ -93,7 +93,7 @@ If you require a plugin that has opted out of Divi 5 compatibility, you can [rol
 1. Backup your site and test migration in staging first
 2. Check [Divi Marketplace](https://www.elegantthemes.com/marketplace/) for third-party module compatibility
 3. Contact plugin authors about Divi 5 support if uncertain
-4. Review [Divi 5 FAQ](divi-5-faq.md) for known limitations
+4. Review [Divi 5 FAQ](divi-5-update-status.md) for known limitations
 
 ### What Gets Migrated
 
@@ -148,5 +148,5 @@ A: Yes. See [How to Rollback to Divi 4](how-to-rollback-to-divi-4.md) for detail
 - [What is the Divi 5 Migrator System?](what-is-the-divi-5-migrator-system.md)
 - [How to Safely Migrate from Divi 4 to Divi 5](how-to-safely-migrate-from-divi-4-to-divi-5.md)
 - [How to Rollback to Divi 4](how-to-rollback-to-divi-4.md)
-- [Divi 5 FAQ](divi-5-faq.md)
+- [Divi 5 FAQ](divi-5-update-status.md)
 - [Why Divi 5 Is Better than Divi 4](why-divi-5-is-better-than-divi-4.md)

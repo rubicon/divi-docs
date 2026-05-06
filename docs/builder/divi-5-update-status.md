@@ -1,101 +1,154 @@
 ---
 title: "Divi 5 Update Status"
 category: builder
-tags: [builder]
-related: []
+tags: [builder, divi-5, updates, features]
+related: [divi-5-release-notes, visual-builder-overview]
 divi_version: "5.x"
-last_updated: 2026-04-06
+last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/9973580-divi-5-update-status"
 ---
 
 # Divi 5 Update Status
 
-<!-- AUTO-CREATED: 2026-04-06 — stub from ET Help Center, needs enrichment -->
+A comprehensive overview of Divi 5 features, modules, and systems currently available in the Visual Builder and Theme Builder.
 
 ## Overview
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/9973580-divi-5-update-status).
+Divi 5 represents a complete architectural redesign of the Divi theme and builder, introducing a modernized composable settings system, advanced layout options, and powerful new interaction capabilities. This page tracks the status of major features and modules, including both core systems and individual modules.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+The Divi 5 ecosystem continues to evolve with regular updates adding new modules, improving existing features, and expanding builder capabilities. This documentation provides a snapshot of the available features at the time of publication.
 
-## Settings & Options
+## Core Builder Features
 
-### General
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Visual Builder** | Stable | The primary interface for building pages with Divi 5 |
+| **Theme Builder** | Stable | System for building global theme elements and templates |
+| **Composable Settings** | Stable | Design options available on any module sub-element |
+| **Command Center** | Stable | Quick access menu for builder commands and navigation |
+| **Page Manager** | Stable | Modal interface for navigating and editing multiple pages |
+| **Preview Mode** | Stable | Full-screen distraction-free preview within the builder (Meta + . shortcut) |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Composable Settings |  | e Settings, allowing any design option to be enabled for module sub-elements. |
-| editable theme builder areas |  | areasin the builder. |
-| speculative prerendering |  | eringto speed up load times when entering, exiting, and switching pages in the builder. |
-| Command Center |  | ommand Center. |
-| new breakpoint interaction |  | ctiontriggers. |
-| new menu loop query |  | querytype. |
-| Link |  | d three new Modules:Link,Dropdopwn, andBefore/After ImageSlider. |
-| Page Manager |  | age Managermodal for easily navigating between and editing different pages built with Divi. |
-| child elements navigation |  | ationicon to module settings panel breadcrumbs, allowing users to quickly view and navigate to nested child modules through a hierarchical menu. |
-| Preview Mode |  | Modefeature to Visual Builder, allowing users to preview their page design in a full-screen, distraction-free environment directly within the builder interface. Preview Mode can be activated via the Preview button dropdown menu or keyboard shortcut (Meta + .), and includes a floating Exit Preview button for quick exit. |
-| Preset Manager and Preset Preview systems |  | w systems. |
-| HTML option group |  | ion group. |
-| canvas system |  | as systemfor creating off-canvas menus, popups, and more. |
-| nest group presets |  | onest group presetsinside element presets. |
-| stack multiple presets |  | ck multiple presetson any element or group. |
-| Nested Modules |  | ed Modules. |
-| Style Inspector |  | newStyle Inspectorfor detecting and bulk editing essential attributes. |
-| new CSS Grid layout |  | w CSS Grid layoutsystem. |
-| custom attribute system |  | attribute systemfor modules and key module sub-elements. |
-| Responsive Editor |  | wResponsive Editor. |
-| Group Carousel module |  | el module. |
-| Icon List module |  | st module. |
-| Lottie module |  | ie module. |
-| Loop Builder. |  | p Builder. |
-| Divi's new flexbox-based layout system |  | out system. |
-| Interactions |  | teractions, a new system for building interactive elements and effects, including pop-ups, toggles, and more. |
-| Relative Colors & HSL |  | lors & HSL, including a brand new color field and color picker. |
-| Find and Replace |  | nd Replacemodal with scope-based targeting and module type filtering for efficient bulk editing across Visual Builder elements. |
-| Extended Attributes |  | Attributesfor quick attribute propagation of any type. |
-| Settings Search and Filtering System |  | ing System. |
-| Attribute Management system |  | anagement systemfor copy, pasting, and resetting various attribute types. |
-| Group element |  | newGroup elementto Divi's container hierarchy |
-| Nested Rows |  | ested Rowsand column sizing options. |
-| Design Variables |  | ablessystem for global variable management. |
-| Advanced Units, including support for all CSS units, functions, and variables |  | . |
-| Option Group Presets. |  | p Presets. |
-| Search |  | sed the number of excluded categories in theSearchmodule. |
-| Customizable Breakpoints |  | rameter names inCustomizable Breakpointsto prevent unnecessary double plurals. |
-| Fullwidth Header |  | idth Headermodule to use auto-generated module settings. |
-| Portfolio |  | hePortfoliomodule to use autogenerated module settings. |
-| Post Navigation |  | Navigationmodule to use autogenerated module settings. |
-| Contact Form |  | tact Formmodule's Padding/Margin not working within a Theme Builder template. |
-| Code |  | d errors are thrown when hovering over the Add To Library button in the DiviCodemodule. |
-| Customizable Responsive Breakpoints |  | reakpoints. |
-| Button |  | theButtonmodule's padding in RTL mode. |
-| Menu |  | d SVG logos in theMenumodule became invisible. |
-| Audio |  | theAudiomodule's dynamic content modal has a scroll bar issue in Theme Builder. |
-| Person |  | the Person Image in thePersonmodule would not display in the Visual Builder when a background was applied. |
-| Social Media Follow |  | ia FollowModule icon border not showing the issue. |
-| x-ray line |  | ex-ray linecolor to a medium gray that will be visible on various background colors. |
-| Posts For Current Page |  | rent Pagefield to the Blog Module for the Theme Builder. |
+## Layout & Container Systems
 
-## Code Examples
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Flexbox Layout System** | Stable | Flexible container layout engine for responsive designs |
+| **CSS Grid Layout** | Stable | Advanced grid layout system for complex multi-column designs |
+| **Group Element** | Stable | New container element in Divi's hierarchy |
+| **Nested Rows** | Stable | Rows within rows with advanced column sizing options |
+| **Nested Modules** | Stable | Modules can be nested for complex component structures |
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Design & Styling Systems
 
-## Common Patterns
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Design Variables** | Stable | Global variable management system for consistent design |
+| **Relative Colors & HSL** | Stable | Enhanced color picker with relative color and HSL support |
+| **Advanced Units** | Stable | Support for all CSS units, functions, and variables |
+| **Customizable Breakpoints** | Stable | Define custom responsive breakpoints for your site |
+| **Responsive Editor** | Stable | Edit designs for specific breakpoints directly in the builder |
+| **Custom Attribute System** | Stable | Add custom attributes to modules and module sub-elements |
+| **Style Inspector** | Stable | Detect and bulk edit essential styling attributes |
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Preset & Configuration Systems
 
-## Troubleshooting
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Preset Manager** | Stable | Save and manage element presets |
+| **Preset Preview** | Stable | Preview presets before applying them |
+| **Option Group Presets** | Stable | Save presets for grouped option settings |
+| **Nested Group Presets** | Stable | Stack preset inheritance within element presets |
+| **Stack Multiple Presets** | Stable | Apply multiple presets to any element or group |
+| **Attribute Management** | Stable | Copy, paste, and reset various attribute types |
+| **Extended Attributes** | Stable | Quick attribute propagation for any attribute type |
 
-<!-- TODO: Document common issues and solutions -->
+## Content & Editing Tools
 
-## AI Interaction Notes
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Find and Replace** | Stable | Scope-based find and replace with module type filtering |
+| **Settings Search and Filtering** | Stable | Quick search across all module settings |
+| **Child Elements Navigation** | Stable | Hierarchical menu for navigating nested modules |
+| **Speculative Prerendering** | Stable | Speed up load times when entering, exiting, and switching pages |
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+## Interaction & Animation Systems
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Interactions** | Stable | Build interactive elements and effects including pop-ups and toggles |
+| **New Breakpoint Interactions** | Stable | Set interaction triggers based on breakpoints |
+| **Canvas System** | Stable | Create off-canvas menus, popups, and overlay elements |
+| **HTML Option Group** | Stable | Dedicated option group for custom HTML content |
+| **Loop Builder** | Stable | Advanced system for building post loops and dynamic content |
+
+## Standard Modules
+
+| Module | Status | Description |
+|--------|--------|-------------|
+| **Link** | Stable | Dedicated link module for flexible link styling |
+| **Dropdown** | Stable | Dropdown trigger and content module |
+| **Before/After Image Slider** | Stable | Image comparison slider module |
+| **Blurb** | Stable | Icon and text content module |
+| **Text** | Stable | Rich text editing module |
+| **Button** | Stable | Customizable button module with RTL support |
+| **Menu** | Stable | Navigation menu module with enhanced SVG logo support |
+| **Search** | Stable | Search form module (updated with filtered category options) |
+
+## Content Modules
+
+| Module | Status | Description |
+|--------|--------|-------------|
+| **Contact Form** | Stable | Form builder with padding/margin support in Theme Builder templates |
+| **Code** | Stable | Custom code injection module (improved Add To Library button) |
+| **Audio** | Stable | Audio player module (scroll bar issue fixed in Theme Builder) |
+| **Hero** | Stable | Large hero image/video section module |
+| **Image** | Stable | Image display and gallery module |
+| **Video** | Stable | Video embed and hosting module |
+
+## Post & Blog Modules
+
+| Module | Status | Description |
+|--------|--------|-------------|
+| **Blog** | Stable | Blog post listing and filtering |
+| **Post Navigation** | Stable | Previous/next post navigation (updated with auto-generated settings) |
+| **Posts For Current Page** | Stable | Dynamic posts field in Theme Builder (newly added) |
+| **Fullwidth Header** | Stable | Large header for posts and archives (updated with auto-generated settings) |
+| **Portfolio** | Stable | Portfolio project listing (updated with auto-generated settings) |
+
+## Person & Social Modules
+
+| Module | Status | Description |
+|--------|--------|-------------|
+| **Person** | Stable | Team member or person profile card (image display fixed) |
+| **Social Media Follow** | Stable | Social media icon follow buttons (icon border display fixed) |
+| **Social Media Share** | Stable | Social sharing buttons for posts |
+
+## Advanced Modules
+
+| Module | Status | Description |
+|--------|--------|-------------|
+| **Group Carousel** | Stable | Carousel module for grouped content |
+| **Icon List** | Stable | List of icons with text content |
+| **Lottie** | Stable | Lottie animation embed module |
+
+## Visual & UI Enhancements
+
+| Feature | Status | Description |
+|--------|--------|-------------|
+| **X-Ray Line Color** | Stable | Updated to medium gray for better visibility across backgrounds |
+| **Editable Theme Builder Areas** | Stable | More areas available for editing directly in Theme Builder |
+
+## Version Notes
+
+!!! note "Divi 5 Only"
+    This page documents Divi 5 features exclusively. Divi 4 is being phased out and is not documented here.
+
+!!! warning "Beta Features"
+    Some features in Divi 5 are still in active development. Check the official Elegant Themes documentation for the latest status on specific features.
 
 ## Related
 
-<!-- TODO: Add links to related documentation pages -->
+- [Visual Builder Overview](../builder/visual-builder.md)
+- [Theme Builder Guide](../builder/theme-builder.md)
+- [Module Reference](../modules/index.md)

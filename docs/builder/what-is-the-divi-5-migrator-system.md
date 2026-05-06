@@ -178,5 +178,5 @@ A: Depends on site size. Most sites complete in 1-5 minutes. Large sites with th
 - [How to Safely Migrate from Divi 4 to Divi 5](how-to-safely-migrate-from-divi-4-to-divi-5.md)
 - [Backward Compatibility and Third-Party Divi Module Support](backward-compatibility-and-third-party-divi-module-support.md)
 - [How to Rollback to Divi 4](how-to-rollback-to-divi-4.md)
-- [Divi 5 FAQ](divi-5-faq.md)
+- [Divi 5 FAQ](divi-5-update-status.md)
 - [Why Divi 5 Is Better than Divi 4](why-divi-5-is-better-than-divi-4.md)

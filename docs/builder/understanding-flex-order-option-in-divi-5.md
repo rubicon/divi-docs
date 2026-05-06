@@ -106,4 +106,4 @@ In Divi's front-end, this translates to CSS flexbox order:
 - [Understanding Divi 5's New Flexbox Layout](understanding-divi-s-new-flexbox-layout.md)
 - [Understanding Flex Justify Content in Divi 5](understanding-flex-justify-content-in-divi-5.md)
 - [Understanding Flex Align Items Options in Divi 5](understanding-flex-align-items-options-in-divi-5.md)
-- [Flex Direction: Arranging Items Horizontally or Vertically](understanding-flex-direction-in-divi-5.md)
+- [Flex Direction: Arranging Items Horizontally or Vertically](understanding-flex-layout-direction-in-divi-5.md)

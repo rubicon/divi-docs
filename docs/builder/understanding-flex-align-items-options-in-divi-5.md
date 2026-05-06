@@ -142,4 +142,4 @@ Align Items translates to the CSS flexbox property:
 - [Understanding Divi 5's New Flexbox Layout](understanding-divi-s-new-flexbox-layout.md)
 - [Understanding Flex Justify Content in Divi 5](understanding-flex-justify-content-in-divi-5.md)
 - [Understanding Flex Order Option in Divi 5](understanding-flex-order-option-in-divi-5.md)
-- [Understanding Flex Direction in Divi 5](understanding-flex-direction-in-divi-5.md)
+- [Understanding Flex Direction in Divi 5](understanding-flex-layout-direction-in-divi-5.md)

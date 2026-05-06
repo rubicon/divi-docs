@@ -2,7 +2,7 @@
 title: "How to Convert a Global Element to a Non-Global Element in Divi 5"
 category: troubleshooting
 tags: ["troubleshooting", "global-elements", "presets", "library", "element-management"]
-related: ["element-presets.md", "how-to-create-a-global-element-in-divi-5.md", "working-with-library-items.md"]
+related: ["advanced-styling-using-option-group-presets-in-divi-5", "divi-library-in-divi-5", "import-library-elements"]
 divi_version: "5.x"
 last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/14430506-how-to-convert-a-global-element-to-a-non-global-element-in-divi-5"
@@ -67,6 +67,6 @@ If you later want to make this element global again:
 
 ## Related
 
-- [Element Presets and Library](element-presets.md)
-- [How to Create a Global Element in Divi 5](how-to-create-a-global-element-in-divi-5.md)
-- [Working with Library Items](working-with-library-items.md)
+- [Option Group Presets](../builder/advanced-styling-using-option-group-presets-in-divi-5.md)
+- [Divi Library in Divi 5](../builder/divi-library-in-divi-5.md)
+- [Import Library Elements](import-library-elements.md)
