@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "attributes", "copy-paste", "reset", "workflow"]
 related: ["extend-attributes", "find-and-replace", "presets"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/11401198"
 ---
 

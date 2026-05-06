@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "presets", "element-presets", "design-system", "global-styles"]
 related: ["presets", "vb-interface", "left-sidebar"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/13349150"
 ---
 
