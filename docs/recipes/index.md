@@ -23,3 +23,4 @@ These are practical, tested "how to build X" guides. Each recipe assumes basic f
 ## Recipes
 
 - [Import a Design System into Divi 5](import-design-systems.md)
+- [Filterable Gallery for Divi 5](divi5-filterable-gallery.md) — add Media Library category tagging and filter buttons to the standard Divi 5 Gallery module without replacing it or installing a third-party gallery system.

@@ -209,6 +209,7 @@ nav:
     - Layout & Structure:
       - Flexbox Layout System: builder/flexbox.md
       - CSS Grid Layout System: builder/css-grid.md
+      - Grid Offset Rules: builder/understanding-grid-offset-rules-in-divi-5.md
       - Nested Modules: builder/nested-modules.md
       - Nested Rows: builder/nested-rows.md
       - Semantic Elements: builder/semantic-elements.md
@@ -349,6 +350,7 @@ nav:
   - Recipes:
     - Overview: recipes/index.md
     - Import Design Systems: recipes/import-design-systems.md
+    - Filterable Gallery: recipes/divi5-filterable-gallery.md
   - Troubleshooting:
     - Overview: troubleshooting/index.md
     - Divi 5 FAQ: troubleshooting/divi5-faq.md

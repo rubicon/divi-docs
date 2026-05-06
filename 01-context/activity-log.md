@@ -25,6 +25,14 @@
 
 ## Session Entries (newest first)
 
+### 2026-05-06 — Cowork — Filterable Gallery plugin + recipe page
+- Built the Divi 5 Filterable Gallery WordPress plugin from chunk 1 → v1.2.3 (3 chunks: foundation, settings page with CodeMirror editor + class reference, live preview pane + Danger Zone reset). Final upload-ready zip is `divi5-filterable-gallery-v1.2.3.zip` in repo root.
+- Three notable bugs surfaced and fixed during the build: (1) Python escape collision in patch tooling produced broken PHP echo statement in v1.1.0 (fixed by using single-quoted PHP strings for static HTML); (2) "Unsaved changes" indicator appearing on page load — root cause turned out to be a CSS specificity issue, not JS event timing chased through three versions (display:inline-flex on indicator span overrode the [hidden] attribute's user-agent default); (3) gallery items leaving layout gaps when filtered out — fixed by switching from opacity+height:0 to display:none !important.
+- Wrote new recipe page `docs/recipes/divi5-filterable-gallery.md` documenting the v1.2.3 feature set: Quick Reference admonition, use cases, install, tagging walkthrough, shortcode usage, settings page tour (editor + class reference + live preview + Danger Zone), customization examples, three-layer architecture notes, troubleshooting (5 known issues), plugin source link.
+- Updated `mkdocs.yml` to add Filterable Gallery to Recipes nav; updated `docs/recipes/index.md` to list the recipe; created `docs/assets/screenshots/recipes/divi5-filterable-gallery/` with `.gitkeep`. `mkdocs build` succeeds cleanly — only warnings are the 5 expected screenshot placeholders.
+- **In progress:** none. Recipe page is final pending screenshot capture.
+- **Queued:** Skip needs to: (1) commit the recipe page + nav update + index update + screenshot dir to the divi-docs repo; (2) capture 5 screenshots from his staging site (overview, categories-admin, tag-image, filter-row, settings-editor) and place them in `docs/assets/screenshots/recipes/divi5-filterable-gallery/`; (3) once plugin is published to GitHub Releases, replace the `<!-- TODO: add link -->` marker in the recipe's "Plugin Source" section with the actual release URL; (4) the v1.2.3 plugin zips remain in the workspace folder for distribution.
+
 ### 2026-05-06 — Cowork — Settings-table update pass (May 4 monitor report)
 - Ran `auto_update_page()` directly from bash for all 59 pages flagged in the May 4 monitor report, bypassing hash detection (hashes were already updated by the monitor run).
 - Added **438 settings rows** across **20 module files**: tabs, woo-product-price, woo-product-tabs, text, code, woo-checkout-billing, icon, woo-breadcrumbs, login, woo-related-products, woo-product-images, testimonial, audio, blog, blurb, contact-form, woo-product-title, woo-product-reviews, heading, bar-counter.
