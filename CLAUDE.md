@@ -12,6 +12,49 @@ This is the **Divi 5 Technical Documentation** site — a community-maintained M
 - **docs/manifest.json** — Machine-readable map of the site structure.
 - **templates/doc-template.md** — Blank template for new reference doc pages.
 
+## How to Get Oriented on Specific Topics
+
+| If you need to know... | Read this |
+|---|---|
+| What's happening *right now* — in-progress work, awaiting decisions, deployed state | `01-context/state.md` |
+| What changed recently across Claude surfaces (chronology) | `01-context/activity-log.md` |
+| Open decisions or pending owner items | `01-context/decisions-log.md` |
+| Working assumptions, patterns, or gotchas | `01-context/insights.md` |
+| Client/project profile and voice constraints | `01-context/client-profile.md` |
+| Scope boundaries and delivery architecture | `01-context/project-scope.md` |
+
+## Iterative Memory — Update As You Go
+
+Work may happen across multiple Claude surfaces (Cursor/Cowork, Claude Code, and Claude chats). These surfaces do not share live memory, so this repository's context files are the handoff mechanism — but only if they actually reflect reality. Memory upkeep is part of the work, not a chore at the end of it.
+
+**Resume discipline — at session start, read in this order:**
+1. This `CLAUDE.md` for project orientation.
+2. `01-context/state.md` for what is happening *right now*.
+3. The most recent 5 entries in `01-context/activity-log.md` for chronology.
+4. Open items in `01-context/decisions-log.md`.
+
+If `state.md` is current, the chat history should be irrelevant to resumption.
+
+**Checkpoint triggers — update the appropriate file IMMEDIATELY when:**
+
+| Event | Update |
+|---|---|
+| A decision is made (closed or opened) | `decisions-log.md` |
+| A finding, quirk, gotcha, or pattern is discovered | `insights.md` |
+| A meaningful step completes (commit, deploy, gate passed, file created, milestone met) | `activity-log.md` (append) and `state.md` (refresh in-progress section) |
+| External system state changes (deploy, config, schedule, data) | `state.md` → External Systems State |
+| You pause for human review or sign-off | `state.md` → Awaiting Human Decision |
+| You sense context-window pressure or are about to be compacted | full flush of `state.md` first, then continue |
+| The user says "checkpoint" or runs `/checkpoint` | full pass: state, activity log, decisions, insights — then commit |
+
+**Commit discipline.** Commit after each significant checkpoint, not in batches at session end. The gap between *logged* and *committed* is what bites at thread-switch time.
+
+**Visibility.** When you update a memory file, say so out loud ("logged decision X," "refreshed state.md"). The discipline has to be observable.
+
+**If your context gets compacted mid-session:** re-read this `CLAUDE.md`, `01-context/state.md`, and the most recent activity-log entry before continuing. Compaction is a mini session-start.
+
+**The mental model:** `state.md` is the live dashboard. `activity-log.md` is the chronological journal. `decisions-log.md` is the ledger. `insights.md` is the working-memory scratchpad.
+
 ## Content Types
 
 This repo has three distinct content layers. Each has a different tone, audience, and writing style. See SKILL.md for full details.
