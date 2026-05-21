@@ -1,8 +1,16 @@
-# CLAUDE.md — Instructions for Claude Code
+# CLAUDE.md — Divi 5 Technical Documentation (Internal Product)
+
+> **Read this first.** If you are a Claude agent working on this project (Cowork, Claude Code, or a Claude.ai Project), this file orients you. It takes about 60 seconds.
+
+## Who You're Working For
+
+**Skip Shean** runs **16Wells**, a digital marketing consulting practice serving equity, options, and futures businesses. Skip is the human in charge. **This is an internal 16Wells product** — owned and built by 16Wells, not delivered to a client. The "users" are public Divi 5 implementers (humans + AI assistants). When this document says "the product" or "the site," it means the Divi 5 Technical Documentation site. When it says "you," it means the Claude agent reading this file.
+
+**Important branding note:** The company name is always **16Wells** — capital W, no spaces, no suffix. Never "16 Wells," never "16Wells Digital Marketing," never "16Wells LLC." Just 16Wells.
 
 ## Project Overview
 
-This is the **Divi 5 Technical Documentation** site — a community-maintained MkDocs Material documentation project for the Divi 5 WordPress theme. The repo lives at https://github.com/16wells/divi-docs and deploys to https://16wells.github.io/divi-docs/ via GitHub Actions.
+This is the **Divi 5 Technical Documentation** site — a community-maintained MkDocs Material documentation project for the Divi 5 WordPress theme. The repo lives at https://github.com/16wells/divi-docs and deploys to https://16wells.github.io/divi-docs/ via GitHub Actions. See `01-context/product-charter.md` for the full positioning, audience, scope, and success/kill criteria.
 
 ## Key Files
 
@@ -20,8 +28,8 @@ This is the **Divi 5 Technical Documentation** site — a community-maintained M
 | What changed recently across Claude surfaces (chronology) | `01-context/activity-log.md` |
 | Open decisions or pending owner items | `01-context/decisions-log.md` |
 | Working assumptions, patterns, or gotchas | `01-context/insights.md` |
-| Client/project profile and voice constraints | `01-context/client-profile.md` |
-| Scope boundaries and delivery architecture | `01-context/project-scope.md` |
+| Product positioning, audience, scope, success/kill criteria | `01-context/product-charter.md` |
+| Build/delivery architecture and scope detail | `01-context/project-scope.md` |
 
 ## Iterative Memory — Update As You Go
 
@@ -54,6 +62,31 @@ If `state.md` is current, the chat history should be irrelevant to resumption.
 **If your context gets compacted mid-session:** re-read this `CLAUDE.md`, `01-context/state.md`, and the most recent activity-log entry before continuing. Compaction is a mini session-start.
 
 **The mental model:** `state.md` is the live dashboard. `activity-log.md` is the chronological journal. `decisions-log.md` is the ledger. `insights.md` is the working-memory scratchpad.
+
+## Working Style
+
+A few principles for how to actually do the work. Drawn from Andrej Karpathy's guidance on coding with LLMs — they apply whether you are Claude Code, Cowork, or a chat agent making edits.
+
+1. **Stay on a short leash.** Make small, reviewable changes one concern at a time. Skip should be able to read every diff in under a minute. If a task balloons into "touch a dozen files," stop and propose a plan first.
+2. **The diff is the deliverable.** Before declaring something done, re-read what changed. Don't trust that the framework, the test, or your own confidence caught it.
+3. **Don't over-engineer.** Resist abstractions, premature generality, speculative error handling, and "while I'm here" cleanups. A bug fix is a bug fix. Three similar lines beats a clever helper. Pressure-test scope and call out feature creep — the right answer is often "no, that's out of scope."
+4. **Verify by running, not by tests alone.** Tests passing is not the same as the feature working. For doc changes, this means `mkdocs build` cleanly (no broken links, no formatting errors) before claiming done. For UI or behavior changes, exercise the thing end-to-end.
+5. **No fabrication.** Don't invent APIs, function signatures, URLs, package names, or CLI flags. For Divi 5 docs specifically: don't make up settings, hook names, CSS variables, or behaviors. If you're not sure, check the source — or flag the uncertainty in the doc.
+6. **Skip is the architect; you are the typist.** Big design choices, scope decisions, and tradeoffs route back to Skip. Implementation details are yours.
+7. **Vibe-coding vs. production.** Throwaway exploration ("just see if this works") is fine to move fast on. Anything that gets committed and lives gets the full rigor above.
+8. **Commit early, commit often.** Small commits with clear messages beat one big "did the thing" commit. Easier to review, easier to roll back.
+
+## Git Operations
+
+- Pushes to `main` require explicit user authorization — pause and confirm before pushing.
+- After completing a fix or feature, default sequence is: `mkdocs build` → verify the change actually works end-to-end → commit → push, unless told otherwise.
+
+## File Editing
+
+- Always Read a file before attempting an Edit on it in the same session.
+- Prefer Edit over Write for existing files. Edit shows the diff; Write hides it.
+- **Never overwrite manually enriched pages with scraped content.** Check git history first (see Rule 1 below).
+- For multi-phase build/migration scripts, scan for credential/secret leaks BEFORE committing, and never commit files from archive paths without explicit review.
 
 ## Content Types
 

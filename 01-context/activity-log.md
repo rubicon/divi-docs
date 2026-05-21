@@ -25,6 +25,17 @@
 
 ## Session Entries (newest first)
 
+### 2026-05-21 — Claude Code — Re-template from `client-project` to `internal-product`
+
+- Renamed `01-context/client-profile.md` → `01-context/product-charter.md` via `git mv` and substantially expanded the content into the internal-product charter schema (One-liner, Stage, Why We're Building It, The User with three audiences, Anti-persona, Content Layers table, Scope Boundaries, Success/Kill Criteria, Editorial Voice, Trust Signals). Original positioning preserved and built out.
+- Updated `CLAUDE.md` with surgical additions only (CLAUDE.md was previously highly customized for the MkDocs task-doc shape and is intentionally not template-shaped):
+  - Added "Who You're Working For" section establishing internal-product framing (16Wells-owned, public users = Divi 5 implementers + AI assistants).
+  - Updated "How to Get Oriented" table to reference `product-charter.md`.
+  - Added Karpathy "Working Style" section with one Divi-doc-specific tweak (verification step calls out `mkdocs build`).
+  - Added Git Operations + File Editing sections (these were previously absent from this CLAUDE.md).
+- Preserved the entire Content Types table, Common Tasks, Rules, and Task Files sections — they are project-specific operational content and out of scope for the re-templating.
+- README.md is already well-shaped and doesn't reference `client-profile.md`, so no README changes needed.
+
 ### 2026-05-06 — Cowork — Filterable Gallery plugin + recipe page + standalone GitHub repo
 - Built the Divi 5 Filterable Gallery WordPress plugin from chunk 1 → v1.2.5 across three feature chunks plus several rounds of bug fixes (final zip: `divi5-filterable-gallery-v1.2.5.zip` in `02-deliverables/`).
 - Five notable bugs caught and fixed during the build: (1) Python escape collision in patch tooling produced broken PHP echo statement in v1.1.0 (fixed via single-quoted PHP strings for static HTML); (2) "Unsaved changes" indicator on page load — root cause was CSS specificity, not JS event timing chased through three versions (display:inline-flex on indicator span overrode the [hidden] attribute's user-agent default); (3) gallery items leaving layout gaps when filtered out — switched from opacity+height:0 to display:none !important; (4) live preview pane needed to be in same column as CSS editor with maximize-toggle (v1.2.4 layout restructure to grid-template-areas); (5) class reference sidebar overflowing preview in maximized mode — fixed in v1.2.5 by JS-pinning reference's max-height to editor's measured height + ResizeObserver to keep them in sync.
