@@ -11,6 +11,11 @@ on:
 permissions:
   contents: write
 
+# Prevent parallel gh-pages pushes when multiple commits land in quick succession.
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
