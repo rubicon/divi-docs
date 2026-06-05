@@ -5,7 +5,7 @@ category: builder
 tags: [builder, design-variables, design-system, dynamic-content, css-variables]
 related: [global-variables, option-group-presets, advanced-units]
 divi_version: "5.x"
-last_updated: 2026-04-30
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/11027601"
 ---
 
@@ -18,7 +18,7 @@ Design variables let you define reusable values — colors, numbers, fonts, imag
     **Where to find it:** Variable Manager icon in the Visual Builder toolbar, or any field's dynamic content icon → Manage Variables.
     **Key features:**
 
-    - Six variable types: Numbers, Strings, Images, Links, Colors, Fonts
+    - Seven variable types: Numbers, Strings, Images, Links, Colors, Gradients, Fonts
     - **Variable Generator:** auto-build a relative color palette from the site primary color, or a full fluid sizing system (`clamp()`-based numbers) from the Numbers group
     - Assign via dynamic content icon on any compatible field
     - Variable chips display the variable name; hover to see the current value
@@ -98,7 +98,7 @@ Each generated color is still a normal color variable in the manager; the genera
 
 ## Variable Types
 
-Divi 5 supports six variable types, each suited to different kinds of design data.
+Divi 5 supports seven variable types, each suited to different kinds of design data.
 
 | Type | Description |
 |------|-------------|
@@ -107,6 +107,7 @@ Divi 5 supports six variable types, each suited to different kinds of design dat
 | Images | Image URLs selected from the WordPress Media Library |
 | Links | Full URLs or relative paths for link fields |
 | Colors | Color values that integrate with the global color UI; existing primary/secondary colors are read-only |
+| Gradients | Complete gradient definitions (stops, type, direction) editable in the Gradient Picker; site-wide updates when the variable changes (Divi 5.7+) |
 | Fonts | Font family selections; includes custom variables plus heading and body fonts from the Theme Customizer |
 
 ## Assigning Variables to Fields
@@ -142,6 +143,7 @@ When a variable is assigned to a field, the field displays a chip instead of a r
 
 ## Elegant Themes tutorials
 
+- [New Gradient Editor, Gradient Variables, Text Effects and More](https://www.elegantthemes.com/blog/theme-releases/new-gradient-editor-gradient-variables-text-effects-and-more){:target="_blank"} — Gradient variable type and Gradient Picker in the Variable Manager (June 2026).
 - [Divi 5 Sizing System & Color Palette Variable Generator](https://www.elegantthemes.com/blog/theme-releases/variable-generator){:target="_blank"} — Theme release walkthrough of the color palette and fluid sizing generators in the Variable Manager (April 2026).
 - [Variable Generator — video tour](https://www.youtube.com/watch?v=9NhPczWWBng){:target="_blank"} — Same announcement in video form on the Elegant Themes YouTube channel.
 

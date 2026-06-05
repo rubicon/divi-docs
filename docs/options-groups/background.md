@@ -5,7 +5,7 @@ category: options-groups
 tags: ["options-groups", "background", "design", "styling"]
 related: ["link", "meta"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/10063358"
 ---
 
@@ -35,7 +35,7 @@ For additional reference, see the [official Elegant Themes documentation](https:
 | Setting | Type | Description |
 |---------|------|-------------|
 | Background Color | Color picker | Applies a solid color fill to the element background. Supports opacity adjustment and can be layered beneath other background types. |
-| Background Gradient | Gradient editor | Creates a custom gradient background with configurable direction, type (linear or radial), color stops, and positioning. See [Gradient Builder](../builder/gradient-builder.md) for detailed gradient editing. |
+| Background Gradient | Gradient picker | Opens the unified **Gradient Picker** panel (Divi 5.7+) for linear/radial gradients, color stops, gradient variables, and layering. See [Gradient Builder](../builder/gradient-builder.md). |
 | Background Image | File upload / image selector | Lets you upload or select an image for the background. Includes controls for position, size, repeat behavior, blend mode, and parallax scrolling. |
 | Background Video | File upload / URL input | Embeds a video as the element background by uploading a file or providing a URL. |
 | Background Pattern | Pattern selector | Applies a decorative repeating pattern from a library of built-in options. Includes controls for color, opacity, size, and blend mode. |

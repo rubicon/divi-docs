@@ -5,7 +5,7 @@ category: options-groups
 tags: ["options-groups", "text", "design", "styling"]
 related: ["title-text", "body-text"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/10102451"
 ---
 
@@ -14,7 +14,7 @@ source_url: "https://help.elegantthemes.com/en/articles/10102451"
 The Text options group controls the typographic appearance of body content within text-based Divi 5 modules.
 
 !!! abstract "Quick Reference"
-    **What it controls:** Font family, weight, style, size, color, alignment, letter spacing, line height, and text shadow
+    **What it controls:** Font family, weight, style, size, color, gradient/image fills, text stroke, alignment, letter spacing, line height, and text shadow
     **Where to find it:** Design Tab → Text
     **Available on:** Text-based modules (Text, Accordion, Blurb, CTA, and others with body content)
     **Responsive:** Yes — all typography values can be set per breakpoint
@@ -39,6 +39,9 @@ For additional reference, see the [official Elegant Themes documentation](https:
 | Font Style | Multi-select toggles | Applies stylistic treatments including italic, uppercase, underline, and strikethrough. Multiple styles can be combined. |
 | Text Alignment | Button group | Sets the horizontal alignment of text content: left, center, right, or justified. |
 | Text Color | Color picker | Defines the color of the body text using the site palette or a custom color value. |
+| Text Gradient Fill | Gradient picker | Fills text glyphs with a gradient. Opens the same [Gradient Picker](../builder/gradient-builder.md) used for backgrounds; supports gradient variables (Divi 5.7+). |
+| Text Image Fill | Image selector | Fills text glyphs with a background image instead of a solid or gradient color (Divi 5.7+). |
+| Text Stroke | Composite | Outlines letterforms with configurable width and color for contrast on busy backgrounds (Divi 5.7+). |
 | Text Size | Range slider / text input | Controls the font size of the body text. Accepts values in px, em, rem, and other CSS units. |
 | Letter Spacing | Range slider / text input | Adjusts the horizontal space between individual characters. Higher values spread characters further apart. |
 | Line Height | Range slider / text input | Sets the vertical distance between lines of text, affecting readability and visual density. |
@@ -73,8 +76,12 @@ Add a subtle text shadow for visual depth:
 }
 ```
 
+!!! note "Divi 5.7 — Text effects in all font groups"
+    Gradient fill, image fill, and text stroke settings were added to **all typography option groups** in Divi 5.7 — not only the general Text group. Equivalent controls appear in [Title Text](title-text.md), [Heading Text](heading-text.md), [Body Text](body-text.md), and module-specific font groups.
+
 ## Related
 
+- [Gradient Builder](../builder/gradient-builder.md) — Gradient Picker and gradient variables for text fills
 - [Title Text Options](title-text.md)
 - [Body Text Options](body-text.md)
 - [Heading Text Options](heading-text.md) — Typography settings specific to heading elements

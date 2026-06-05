@@ -5,7 +5,7 @@ category: options-groups
 tags: ["options-groups", "heading-text"]
 related: ["title-text", "text"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/10365216"
 ---
 
@@ -40,6 +40,9 @@ For additional reference, see the [official Elegant Themes documentation](https:
 | Heading Font Style | Toggle options | Applies stylistic treatments including italics, capitalization, small caps, underline, and strikethrough. |
 | Heading Text Alignment | Alignment selector | Sets the horizontal position of the heading: left, center, right, or justified. |
 | Heading Text Color | Color picker | Selects the color for the heading text from the site palette or a custom value. |
+| Heading Gradient Fill | Gradient picker | Fills heading text with a gradient via the [Gradient Picker](../builder/gradient-builder.md); supports gradient variables (Divi 5.7+). |
+| Heading Image Fill | Image selector | Fills heading glyphs with a background image (Divi 5.7+). |
+| Heading Text Stroke | Composite | Outlines heading letterforms for contrast on busy backgrounds (Divi 5.7+). |
 | Heading Text Size | Range slider / input | Defines the font size of the heading. |
 | Heading Letter Spacing | Range slider / input | Controls the spacing between characters in the heading. |
 | Heading Line Height | Range slider / input | Sets the vertical spacing between lines of heading text. |

@@ -25,6 +25,16 @@
 
 ## Session Entries (newest first)
 
+### 2026-06-05 — Cursor — Divi 5.7 gradient editor + text effects doc pass
+
+- Reviewed ET theme release [New Gradient Editor, Gradient Variables, Text Effects and More](https://www.elegantthemes.com/blog/theme-releases/new-gradient-editor-gradient-variables-text-effects-and-more) (June 5, 2026 email).
+- Updated `docs/builder/gradient-builder.md` (major): Gradient Picker panel, gradient field type, gradient variables, text gradient fills, attribute workflows, Divi 5.7 version note, ET tutorial link.
+- Updated variable docs: `global-variables.md`, `design-variables.md` — seventh type **Gradient**.
+- Updated typography/background option groups: `text.md`, `heading-text.md`, `title-text.md`, `background.md` — gradient/image fills and text stroke (Divi 5.7+).
+- Cross-linked workflow docs: `copy-paste-attributes.md`, `find-replace-attributes.md`, `style-inspector.md`; `heading.md`, `text.md` module refs; `builder/index.md`.
+- Added row to `planning/et-blog-tutorials-map.md`. `mkdocs build` succeeds (screenshot-placeholder warnings only).
+- **Queued:** Capture Gradient Picker + text-effect screenshots on live Divi 5.7.
+
 ### 2026-05-22 — Claude Code on the Web — Five New Modules announcement stubs
 
 - Digested the ET *Five New Modules for Divi 5* announcement (Timeline, Breadcrumbs, Table of Contents, SVG, Instagram Feed). Created stub pages for the four missing modules (`docs/modules/the-timeline-module-in-divi-5.md`, `the-svg-module-in-divi-5.md`, `the-table-of-contents-module-in-divi-5.md`, `the-instagram-feed-module-in-divi-5.md`) plus the related builder page (`docs/builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md`). Added `## Elegant Themes tutorials` sections linking the blog post on each new page and on the existing Breadcrumbs page. Added the blog row to `planning/et-blog-tutorials-map.md`. Updated `mkdocs.yml` nav and ran `mkdocs build` cleanly. Stubs have TODO settings tables because the sandbox network policy blocks `elegantthemes.com` / `help.elegantthemes.com` (see insights). Next weekly monitor run with network access should fill them in.

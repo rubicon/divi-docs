@@ -5,7 +5,7 @@ category: modules
 tags: ["modules", "heading", "title", "typography", "text", "h1", "h2", "h3", "seo"]
 related: ["text", "post-title"]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/10315593-the-heading-module-in-divi-5"
 ---
 
@@ -142,6 +142,9 @@ The Advanced tab provides developer-oriented controls for custom attributes, sem
 ## Code Examples
 
 ### Custom CSS
+
+!!! tip "Native gradient text (Divi 5.7+)"
+    Before writing custom CSS, check **Design → Heading Text** for **gradient fill**, **image fill**, and **text stroke** settings. These use the [Gradient Picker](../builder/gradient-builder.md) and support gradient variables. The CSS below remains useful for fine-tuning or targeting child themes.
 
 ```css
 /* Gradient text effect on headings */

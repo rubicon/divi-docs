@@ -20,10 +20,10 @@
 
 > What is actively being worked on right now — the next concrete action, the surface it's happening on, and the step within that work.
 
-- **Focus:** Ingest ET *Five New Modules for Divi 5* announcement (Timeline, Breadcrumbs, Table of Contents, SVG, Instagram Feed) + related Aspect Ratio / Image Framing / Image Presets builder page.
-- **Surface:** Claude Code on the Web
-- **Step:** Stub pages, nav, tutorials map, and memory all updated; `mkdocs build` clean. Awaiting commit + push + draft PR. Full settings tables deferred until a session with `elegantthemes.com` allowed by the network policy can run scrape/monitor.
-- **Last touched file(s):** `docs/modules/the-{timeline,svg,table-of-contents,instagram-feed}-module-in-divi-5.md`, `docs/modules/the-breadcrumbs-module-in-divi-5.md`, `docs/builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md`, `mkdocs.yml`, `planning/et-blog-tutorials-map.md`, `01-context/{activity-log,decisions-log,insights}.md`.
+- **Focus:** none — Divi 5.7 gradient docs + Five New Modules stubs both landed on `main`
+- **Surface:** Cursor
+- **Step:** Syncing local/remote after rebase; screenshots still needed (Gradient Picker, text effects, five new module stubs)
+- **Last touched file(s):** `docs/builder/gradient-builder.md`, `global-variables.md`, `design-variables.md`, `options-groups/{text,heading-text,title-text,background}.md`, `docs/modules/the-{timeline,svg,table-of-contents,instagram-feed}-module-in-divi-5.md`, `planning/et-blog-tutorials-map.md`
 
 ---
 
@@ -41,11 +41,11 @@ If nothing is awaiting a decision, write "None — agent is unblocked."
 
 ## Most Recent Commit
 
-- **SHA:** `67ad92f3`
-- **Subject:** Add Divi 5 Filterable Gallery recipe with screenshots
-- **Date:** 2026-05-06
-- **What it landed:** *(populate from `git show 67ad92f3 --stat` on next checkpoint)*
-- **What it intentionally did NOT land:** *(populate on next checkpoint)*
+- **SHA:** *(pending push — see `git log -1` after sync)*
+- **Subject:** Document Divi 5.7 gradient picker, variables, and text effects.
+- **Date:** 2026-06-05
+- **What it landed:** Divi 5.7 gradient picker, gradient variables, text-effect settings across typography option groups; ET blog map row; memory updates.
+- **What it intentionally did NOT land:** Screenshots for gradient/text-effect UI; full settings tables for five new module stubs.
 
 ---
 
@@ -91,7 +91,7 @@ If nothing is awaiting a decision, write "None — agent is unblocked."
 
 > Things that are explicitly half-done. The "I bumped into this and it's not fixed yet" list. Resolve and remove items as they get cleaned up.
 
-- *(none / list)*
+- Five new module stub pages still have TODO settings tables (awaiting scrape/monitor with `elegantthemes.com` network access).
 
 ---
 
@@ -99,8 +99,9 @@ If nothing is awaiting a decision, write "None — agent is unblocked."
 
 > The shortest possible "do this next" message — what the next session should do first. One or two bullets. If it's longer than that, the active work is in `02-deliverables/{slug}/`, the chronology is in `activity-log.md`, and this section just points there.
 
-- Run the weekly monitor + scrape from a session whose network policy allows `elegantthemes.com` / `help.elegantthemes.com` (see 2026-05-22 insight). Then flesh out the five stub pages — `docs/modules/the-{timeline,svg,table-of-contents,instagram-feed}-module-in-divi-5.md` and `docs/builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md` — by filling in real settings tables, capturing screenshots into the placeholder dirs under `docs/assets/screenshots/...`, and replacing each TODO marker.
+- Capture Gradient Picker + text-effect screenshots on live Divi 5.7.
+- Run weekly monitor + scrape from a session whose network policy allows `elegantthemes.com` / `help.elegantthemes.com`, then flesh out the five stub module pages with real settings tables and screenshots.
 
 ---
 
-*Last updated: 2026-05-22 by Claude Code on the Web (Five New Modules ingest)*
+*Last updated: 2026-06-05 by Cursor (rebase sync + gradient docs push)*

@@ -18,7 +18,7 @@ The Style Inspector is a panel in the Divi 5 Visual Builder that shows all style
     **Where to find it:** Left sidebar → Inspector icon.
     **Key features:**
 
-    - Three tabs: Styles (colors, numbers, fonts), Content (media, code, attributes, text), Presets
+    - Three tabs: Styles (colors, gradients, numbers, fonts), Content (media, code, attributes, text), Presets
     - Page-level or element-level inspection scope
     - Hover any value to highlight all fields sharing it across the page
     - Direct inline editing — changes apply immediately

@@ -5,7 +5,7 @@ category: modules
 tags: [text, content-modules, rich-text, wysiwyg, paragraphs, headings, html]
 related: [blurb, code, button]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/10365197-the-text-module-in-divi-5"
 ---
 
@@ -130,7 +130,7 @@ The Design tab provides typography, sizing, and visual styling controls for all 
 
 | Options Group | Description |
 |--------------|-------------|
-| [Text](../options-groups/text.md) | Font, weight, alignment, color, line height, text shadow |
+| [Text](../options-groups/text.md) | Font, weight, alignment, color, gradient/image fills, text stroke, line height, text shadow |
 | [Body Text](../options-groups/body-text.md) | Font, size, color, spacing for paragraph text |
 | [Sizing](../options-groups/sizing.md) | Width, max-width, min-height, height, alignment |
 | [Spacing](../options-groups/spacing.md) | Margin and padding with responsive breakpoint controls |

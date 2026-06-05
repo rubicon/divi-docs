@@ -29,7 +29,7 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Responsive Preview](responsive-preview.md) | Preview designs across device sizes | ✅ Done |
 | [Multi-Select & Bulk Editing](multi-select-bulk-editing.md) | Select and edit multiple elements at once | ✅ Done |
 | [Layers View](layers-view.md) | Navigate page structure in a tree view | ✅ Done |
-| [Gradient Builder](gradient-builder.md) | Create and customize CSS gradients | ✅ Done |
+| [Gradient Builder](gradient-builder.md) | Gradient Picker, gradient variables, background and text gradient fills | ✅ Done |
 | [Condition Options](condition-options.md) | Conditional display logic for elements | ✅ Done |
 | [Support Center](support-center.md) | Debugging tools and safe mode | ✅ Done |
 | [Semantic Elements](semantic-elements.md) | Assign semantic HTML tags and custom HTML wrappers | ✅ Done |

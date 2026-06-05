@@ -5,7 +5,7 @@ category: options-groups
 tags: ["options-groups", "title-text"]
 related: ["body-text", "text", "closed-title-text"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/10066965"
 ---
 
@@ -35,6 +35,9 @@ For additional reference, see the [official Elegant Themes documentation](https:
 | Setting | Type | Description |
 |---------|------|-------------|
 | Title Text Color | Color picker | Sets the color of the title text. Supports site palette selection and custom color values. |
+| Title Gradient Fill | Gradient picker | Fills title text with a gradient via the [Gradient Picker](../builder/gradient-builder.md); supports gradient variables (Divi 5.7+). |
+| Title Image Fill | Image selector | Fills title glyphs with a background image (Divi 5.7+). |
+| Title Text Stroke | Composite | Outlines title letterforms for contrast on busy backgrounds (Divi 5.7+). |
 | Text Heading Level | Dropdown | Assigns the HTML heading tag (H1 through H6) for semantic structure and visual hierarchy. |
 | Title Font | Font selector | Chooses the typeface for the title. Supports theme defaults and custom uploaded fonts. |
 | Title Font Weight | Selector | Adjusts the boldness of the title text, ranging from light to extra-bold. |

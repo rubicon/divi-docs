@@ -20,6 +20,7 @@ Transfer content, styles, and presets between elements without cloning the entir
 
     - Eight paste variants: All, Design, Content, Presets, and four "Select" options for cherry-picking
     - Scoped copy/paste at tab, option group, or individual field level
+    - **Gradient fields** (Divi 5.7+) copy and paste as a single unified attribute — stops, type, and direction move together
     - Cross-module compatibility: Divi matches compatible attributes between different module types
     - Reset options to revert any paste operation
 

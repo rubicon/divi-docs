@@ -1,24 +1,24 @@
 ---
 title: "Global Variables"
-description: "Divi 5 Global Variables — site-wide design tokens for colors, fonts, numbers, images, text, and links referenced across all pages and templates."
+description: "Divi 5 Global Variables — site-wide design tokens for colors, gradients, fonts, numbers, images, text, and links referenced across all pages and templates."
 category: builder
 tags: [builder, global-variables, design-system, design-tokens, site-wide]
 related: [design-variables, presets, relative-colors-hsl]
 divi_version: "5.x"
-last_updated: 2026-04-30
+last_updated: 2026-06-05
 source_url: "https://help.elegantthemes.com/en/articles/13348842"
 ---
 
 # Global Variables
 
-Global variables are site-wide design tokens in Divi 5 that let you define colors, fonts, numbers, images, text, and links once and reference them on every page, template, and Theme Builder layout.
+Global variables are site-wide design tokens in Divi 5 that let you define colors, gradients, fonts, numbers, images, text, and links once and reference them on every page, template, and Theme Builder layout.
 
 !!! abstract "Quick Reference"
     **What it does:** Defines site-wide design tokens available on every page, template, and Theme Builder layout.
     **Where to find it:** Variable Manager icon in the Visual Builder toolbar → organized by type tabs.
     **Key features:**
 
-    - Six types: Color, Font, Number, Image, Text, Link
+    - Seven types: Color, Gradient, Font, Number, Image, Text, Link
     - **Variable Generator** (in the Variable Manager) can bulk-create relative **color** palettes and **`clamp()`**-based **number** scales — same UI as [design variables](design-variables.md#variable-generator)
     - Number variables support `calc()`, `clamp()`, `min()`, `max()` for responsive values
     - Embedded in layout JSON exports for portable design systems
@@ -36,11 +36,12 @@ For additional reference, see the [official Elegant Themes documentation](https:
 
 ## Variable Types
 
-Global variables support the same six types as design variables, each managed in a dedicated tab within the Variable Manager.
+Global variables support the same seven types as design variables, each managed in a dedicated tab within the Variable Manager.
 
 | Type | Description |
 |------|-------------|
 | Color | Brand palette colors, text colors, background colors, border colors |
+| Gradient | Reusable linear and radial gradients for backgrounds, text fills, and any gradient-enabled field (Divi 5.7+) |
 | Font | Reusable typeface definitions for headings, body text, and custom uses |
 | Number | Sizes, spacing values, and responsive units; supports `calc()`, `clamp()`, `min()`, `max()` |
 | Image | Logos, patterns, and other visual assets referenced by URL |
@@ -122,6 +123,7 @@ Global variables are embedded in the layout JSON when you export layouts from th
 
 ## Elegant Themes tutorials
 
+- [New Gradient Editor, Gradient Variables, Text Effects and More](https://www.elegantthemes.com/blog/theme-releases/new-gradient-editor-gradient-variables-text-effects-and-more){:target="_blank"} — Gradient variables and the unified Gradient Picker in Divi 5.7 (June 2026).
 - [Divi 5 Sizing System & Color Palette Variable Generator](https://www.elegantthemes.com/blog/theme-releases/variable-generator){:target="_blank"} — Variable Manager generators for site-wide color and fluid sizing tokens (April 2026).
 
 *Maintainers:* also list new posts in [`planning/et-blog-tutorials-map.md`](https://github.com/16wells/divi-docs/blob/main/planning/et-blog-tutorials-map.md){:target="_blank"}.
@@ -130,5 +132,6 @@ Global variables are embedded in the layout JSON when you export layouts from th
 
 - [Design Variables](design-variables.md) — The variable system fundamentals and Variable Manager
 - [Presets](presets.md) — Saved design configurations that can reference global variables
+- [Gradient Builder](gradient-builder.md) — Gradient Picker and gradient variables
 - [Relative Colors (HSL)](relative-colors-hsl.md) — HSL-based color relationships using the color system
 - [Option Group Presets](option-group-presets.md) — Reusable style blocks that work with variables

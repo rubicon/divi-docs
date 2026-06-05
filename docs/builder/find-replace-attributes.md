@@ -18,7 +18,7 @@ Swap a design value for another across a module, section, or entire page in a si
     **Where to find it:** Right-click any design field → Find & Replace, or three-dot menu next to a field.
     **Key features:**
 
-    - Works with colors, typography, spacing, borders, shadows, and any numeric design value
+    - Works with colors, gradients, typography, spacing, borders, shadows, and any numeric design value
     - Seven scope options from Current Element to Entire Page
     - Element type filter (All, Modules only, Containers only, specific types)
     - "Only Replace Identical Fields" safety toggle to prevent cross-field replacement
