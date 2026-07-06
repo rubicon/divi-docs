@@ -1,8 +1,8 @@
 # External link check — 2026-07-06
 
-- **Unique URLs:** 321
-- **OK:** 219
-- **Failed:** 102
+- **Unique URLs:** 347
+- **OK:** 214
+- **Failed:** 133
 
 Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 
@@ -12,35 +12,6 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 |-----|--------|--------|-------------|
 | `https://16wells.com` | 403 | Forbidden | `docs/recipes/divi5-filterable-gallery.md:313` |
 | `https://help.elegantthemes.com/en/articles/12022773-build-custom-templates-using-the-theme-builder-in-divi-5` | 404 | Not Found | `docs/modules/the-breadcrumbs-module-in-divi-5.md:34` |
-| `https://help.elegantthemes.com/en/articles/12033909` | 429 | Too Many Requests | `docs/modules/woo-product-images.md:23`; `docs/modules/woo-product-images.md:41`; `docs/modules/woo-product-images.md:63` |
-| `https://help.elegantthemes.com/en/articles/12034567` | 429 | Too Many Requests | `docs/modules/woo-product-meta.md:21`; `docs/modules/woo-product-meta.md:41`; `docs/modules/woo-product-meta.md:63` |
-| `https://help.elegantthemes.com/en/articles/12034706` | 429 | Too Many Requests | `docs/modules/woo-product-price.md:23`; `docs/modules/woo-product-price.md:41`; `docs/modules/woo-product-price.md:63` |
-| `https://help.elegantthemes.com/en/articles/12040851` | 429 | Too Many Requests | `docs/modules/woo-product-rating.md:21`; `docs/modules/woo-product-rating.md:41`; `docs/modules/woo-product-rating.md:63` |
-| `https://help.elegantthemes.com/en/articles/12041040` | 429 | Too Many Requests | `docs/modules/woo-product-reviews.md:23`; `docs/modules/woo-product-reviews.md:46` |
-| `https://help.elegantthemes.com/en/articles/12041304` | 429 | Too Many Requests | `docs/modules/woo-product-stock.md:21`; `docs/modules/woo-product-stock.md:46` |
-| `https://help.elegantthemes.com/en/articles/12041462` | 429 | Too Many Requests | `docs/modules/woo-product-tabs.md:23`; `docs/modules/woo-product-tabs.md:46` |
-| `https://help.elegantthemes.com/en/articles/12041561` | 429 | Too Many Requests | `docs/modules/woo-product-title.md:23`; `docs/modules/woo-product-title.md:46` |
-| `https://help.elegantthemes.com/en/articles/12041624` | 429 | Too Many Requests | `docs/modules/woo-product-upsell.md:21`; `docs/modules/woo-product-upsell.md:41`; `docs/modules/woo-product-upsell.md:63` |
-| `https://help.elegantthemes.com/en/articles/12041865` | 429 | Too Many Requests | `docs/modules/woo-related-products.md:23`; `docs/modules/woo-related-products.md:48` |
-| `https://help.elegantthemes.com/en/articles/12042030` | 429 | Too Many Requests | `docs/modules/woo-product-information.md:21`; `docs/modules/woo-product-information.md:41`; `docs/modules/woo-product-information.md:63` |
-| `https://help.elegantthemes.com/en/articles/12042132` | 429 | Too Many Requests | `docs/modules/woo-products.md:21`; `docs/modules/woo-products.md:44` |
-| `https://help.elegantthemes.com/en/articles/12095351` | 429 | Too Many Requests | `docs/modules/woo-cart-products.md:21`; `docs/modules/woo-cart-products.md:39` |
-| `https://help.elegantthemes.com/en/articles/12095355` | 429 | Too Many Requests | `docs/modules/woo-cart-totals.md:21`; `docs/modules/woo-cart-totals.md:39` |
-| `https://help.elegantthemes.com/en/articles/12095364` | 429 | Too Many Requests | `docs/modules/woo-checkout-billing.md:23`; `docs/modules/woo-checkout-billing.md:41` |
-| `https://help.elegantthemes.com/en/articles/12095369` | 429 | Too Many Requests | `docs/modules/woo-checkout-details.md:21`; `docs/modules/woo-checkout-details.md:39` |
-| `https://help.elegantthemes.com/en/articles/12095378` | 429 | Too Many Requests | `docs/modules/woo-checkout-information.md:21`; `docs/modules/woo-checkout-information.md:39` |
-| `https://help.elegantthemes.com/en/articles/12095382` | 429 | Too Many Requests | `docs/modules/woo-checkout-payment.md:21`; `docs/modules/woo-checkout-payment.md:39` |
-| `https://help.elegantthemes.com/en/articles/12095386` | 429 | Too Many Requests | `docs/modules/woo-checkout-shipping.md:21`; `docs/modules/woo-checkout-shipping.md:39`; `docs/modules/woo-checkout-shipping.md:61` |
-| `https://help.elegantthemes.com/en/articles/12095391` | 429 | Too Many Requests | `docs/modules/woo-cross-sells.md:21`; `docs/modules/woo-cross-sells.md:39`; `docs/modules/woo-cross-sells.md:61` |
-| `https://help.elegantthemes.com/en/articles/12105366` | 429 | Too Many Requests | `docs/builder/responsive-editor.md:26`; `docs/builder/responsive-editor.md:34` |
-| `https://help.elegantthemes.com/en/articles/12274853` | 429 | Too Many Requests | `docs/builder/custom-attributes.md:26`; `docs/builder/custom-attributes.md:34` |
-| `https://help.elegantthemes.com/en/articles/12274853-custom-attributes-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/how-to-create-the-ken-burns-effect-in-divi-5.md:17`; `docs/troubleshooting/how-to-create-the-ken-burns-effect-in-divi-5.md:58` |
-| `https://help.elegantthemes.com/en/articles/12350654-understanding-divi-s-css-grid-layout` | 429 | Too Many Requests | `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:69` |
-| `https://help.elegantthemes.com/en/articles/12457386` | 429 | Too Many Requests | `docs/builder/style-inspector.md:26`; `docs/builder/style-inspector.md:34` |
-| `https://help.elegantthemes.com/en/articles/12672584` | 429 | Too Many Requests | `docs/builder/nested-modules.md:26`; `docs/builder/nested-modules.md:34` |
-| `https://help.elegantthemes.com/en/articles/12672584-nested-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-breadcrumbs-module-in-divi-5.md:55`; `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:54` |
-| `https://help.elegantthemes.com/en/articles/12817235` | 429 | Too Many Requests | `docs/builder/stacked-nested-presets.md:26`; `docs/builder/stacked-nested-presets.md:34` |
-| `https://help.elegantthemes.com/en/articles/12918951` | 429 | Too Many Requests | `docs/troubleshooting/import-library-elements.md:19` |
 | `https://help.elegantthemes.com/en/articles/12991185` | 429 | Too Many Requests | `docs/builder/vb-interface.md:26`; `docs/builder/vb-interface.md:30` |
 | `https://help.elegantthemes.com/en/articles/12992094` | 429 | Too Many Requests | `docs/builder/keyboard-shortcuts.md:26`; `docs/builder/keyboard-shortcuts.md:30` |
 | `https://help.elegantthemes.com/en/articles/12992238` | 429 | Too Many Requests | `docs/builder/right-click-menus.md:26`; `docs/builder/right-click-menus.md:30` |
@@ -86,6 +57,32 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/15323758-why-the-hamburger-menu-icon-is-invisible-or-unclickable-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/why-the-hamburger-menu-icon-is-invisible-or-unclickable-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/15324394-how-to-fix-the-dropdown-menu-that-s-cut-off-or-hidden-behind-page-content-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/how-to-fix-the-dropdown-menu-that-s-cut-off-or-hidden-behind-page-content-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/15324574-how-to-troubleshoot-menu-issues-after-an-update-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/how-to-troubleshoot-menu-issues-after-an-update-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15393605-why-the-page-is-blank-or-missing-content-on-the-live-site-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/why-the-page-is-blank-or-missing-content-on-the-live-site-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15418463-new-gradient-editor-gradient-variables-text-effects-in-divi-5` | 429 | Too Many Requests | `docs/builder/new-gradient-editor-gradient-variables-text-effects-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419025-understanding-the-body-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-body-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419434-understanding-the-comment-count-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-comment-count-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419517-understanding-the-form-title-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-form-title-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419582-understanding-the-comment-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-comment-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419859-understanding-the-captcha-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-captcha-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419921-understanding-the-separator-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-separator-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15419962-understanding-the-label-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-label-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420023-understanding-the-description-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-description-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420102-understanding-the-result-message-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-result-message-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420172-understanding-the-filter-criteria-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-filter-criteria-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420238-understanding-the-caption-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-caption-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420343-understanding-the-subtitle-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-subtitle-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420461-understanding-the-link-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-link-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420535-understanding-the-position-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-position-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420828-understanding-the-carousel-item-title-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-carousel-item-title-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15420980-understanding-the-price-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-price-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15421055-understanding-the-currency-frequency-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-currency-frequency-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15421080-understanding-the-excluded-item-text-option-group-in-divi-5` | 429 | Too Many Requests | `docs/builder/understanding-the-excluded-item-text-option-group-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15442759-why-the-live-page-looks-different-from-the-visual-builder-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/why-the-live-page-looks-different-from-the-visual-builder-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15443412-why-the-site-shows-the-wrong-header-or-a-menu-listing-every-page-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/why-the-site-shows-the-wrong-header-or-a-menu-listing-every-page-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15443972-how-to-control-the-contact-form-module-s-field-widths-in-divi-5` | 429 | Too Many Requests | `docs/troubleshooting/how-to-control-the-contact-form-module-s-field-widths-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15459160-workspaces-in-divi-5` | 429 | Too Many Requests | `docs/builder/workspaces-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15501073-the-support-center-in-divi-5` | 429 | Too Many Requests | `docs/builder/the-support-center-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/15585511-the-tooltip-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-tooltip-module-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/2612617-how-to-fix-the-this-file-should-not-be-imported-in-this-context-error-when-importing-a-json-file-in-divi` | 429 | Too Many Requests | `docs/internals/library-import-json.md:363` |
 | `https://help.elegantthemes.com/en/articles/9856958` | 429 | Too Many Requests | `docs/troubleshooting/report-bug.md:19` |
 | `https://help.elegantthemes.com/en/articles/9857697` | 429 | Too Many Requests | `docs/troubleshooting/divi5-faq.md:19` |
@@ -94,23 +91,57 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system` | 429 | Too Many Requests | `docs/builder/css-grid.md:26`; `docs/builder/css-grid.md:36` |
 | `https://lottiefiles.com` | 403 | Forbidden | `docs/modules/lottie.md:244` |
 | `https://twitter.com/intent/tweet?url={permalink}` | 400 | Bad Request | `docs/theme-options/integration.md:62` |
+| `https://www.16wells.dev/module-demos/accordion/` | — | [Errno 101] Network is unreachable | `docs/modules/accordion.md:41` |
+| `https://www.16wells.dev/module-demos/audio/` | — | [Errno 101] Network is unreachable | `docs/modules/audio.md:45` |
+| `https://www.16wells.dev/module-demos/bar-counter/` | — | [Errno 101] Network is unreachable | `docs/modules/bar-counter.md:45` |
+| `https://www.16wells.dev/module-demos/blog/` | — | [Errno 101] Network is unreachable | `docs/modules/blog.md:45` |
+| `https://www.16wells.dev/module-demos/blurb/` | — | [Errno 101] Network is unreachable | `docs/modules/blurb.md:46` |
+| `https://www.16wells.dev/module-demos/button/` | — | [Errno 101] Network is unreachable | `docs/modules/button.md:43` |
+| `https://www.16wells.dev/module-demos/call-to-action/` | — | [Errno 101] Network is unreachable | `docs/modules/call-to-action.md:43` |
+| `https://www.16wells.dev/module-demos/circle-counter/` | — | [Errno 101] Network is unreachable | `docs/modules/circle-counter.md:43` |
+| `https://www.16wells.dev/module-demos/code/` | — | [Errno 101] Network is unreachable | `docs/modules/code.md:45` |
+| `https://www.16wells.dev/module-demos/comments/` | — | [Errno 101] Network is unreachable | `docs/modules/comments.md:43` |
+| `https://www.16wells.dev/module-demos/contact-form/` | — | [Errno 101] Network is unreachable | `docs/modules/contact-form.md:48` |
+| `https://www.16wells.dev/module-demos/countdown-timer/` | — | [Errno 101] Network is unreachable | `docs/modules/countdown-timer.md:43` |
+| `https://www.16wells.dev/module-demos/divider/` | — | [Errno 101] Network is unreachable | `docs/modules/divider.md:43` |
+| `https://www.16wells.dev/module-demos/email-optin/` | — | [Errno 101] Network is unreachable | `docs/modules/email-optin.md:43` |
+| `https://www.16wells.dev/module-demos/filterable-portfolio/` | — | [Errno 101] Network is unreachable | `docs/modules/filterable-portfolio.md:43` |
+| `https://www.16wells.dev/module-demos/fullwidth-header/` | — | [Errno 101] Network is unreachable | `docs/modules/fullwidth-header.md:43` |
+| `https://www.16wells.dev/module-demos/fullwidth-map/` | — | [Errno 101] Network is unreachable | `docs/modules/fullwidth-map.md:43` |
+| `https://www.16wells.dev/module-demos/fullwidth-menu/` | — | [Errno 101] Network is unreachable | `docs/modules/fullwidth-menu.md:43` |
+| `https://www.16wells.dev/module-demos/fullwidth-portfolio/` | — | [Errno 101] Network is unreachable | `docs/modules/fullwidth-portfolio.md:43` |
+| `https://www.16wells.dev/module-demos/fullwidth-slider/` | — | [Errno 101] Network is unreachable | `docs/modules/fullwidth-slider.md:43` |
+| `https://www.16wells.dev/module-demos/gallery/` | — | [Errno 101] Network is unreachable | `docs/modules/gallery.md:43` |
+| `https://www.16wells.dev/module-demos/icon/` | — | [Errno 101] Network is unreachable | `docs/modules/icon.md:45` |
+| `https://www.16wells.dev/module-demos/image/` | — | [Errno 101] Network is unreachable | `docs/modules/image.md:43` |
+| `https://www.16wells.dev/module-demos/login/` | — | [Errno 101] Network is unreachable | `docs/modules/login.md:45` |
+| `https://www.16wells.dev/module-demos/map/` | — | [Errno 101] Network is unreachable | `docs/modules/map.md:42` |
+| `https://www.16wells.dev/module-demos/menu/` | — | [Errno 101] Network is unreachable | `docs/modules/menu.md:42` |
+| `https://www.16wells.dev/module-demos/number-counter/` | — | [Errno 101] Network is unreachable | `docs/modules/number-counter.md:43` |
+| `https://www.16wells.dev/module-demos/person/` | — | [Errno 101] Network is unreachable | `docs/modules/person.md:43` |
+| `https://www.16wells.dev/module-demos/portfolio/` | — | [Errno 101] Network is unreachable | `docs/modules/portfolio.md:41` |
+| `https://www.16wells.dev/module-demos/post-navigation/` | — | [Errno 101] Network is unreachable | `docs/modules/post-navigation.md:42` |
+| `https://www.16wells.dev/module-demos/post-slider/` | — | [Errno 101] Network is unreachable | `docs/modules/post-slider.md:41` |
+| `https://www.16wells.dev/module-demos/post-title/` | — | [Errno 101] Network is unreachable | `docs/modules/post-title.md:40` |
+| `https://www.16wells.dev/module-demos/pricing-table/` | — | [Errno 101] Network is unreachable | `docs/modules/pricing-table.md:43` |
+| `https://www.16wells.dev/module-demos/search/` | — | [Errno 101] Network is unreachable | `docs/modules/search.md:43` |
+| `https://www.16wells.dev/module-demos/shop/` | — | [Errno 101] Network is unreachable | `docs/modules/shop.md:41` |
+| `https://www.16wells.dev/module-demos/sidebar/` | — | [Errno 101] Network is unreachable | `docs/modules/sidebar.md:42` |
+| `https://www.16wells.dev/module-demos/slider/` | — | [Errno 101] Network is unreachable | `docs/modules/slider.md:43` |
+| `https://www.16wells.dev/module-demos/social-media-follow/` | — | [Errno 101] Network is unreachable | `docs/modules/social-media-follow.md:42` |
+| `https://www.16wells.dev/module-demos/tabs/` | — | [Errno 101] Network is unreachable | `docs/modules/tabs.md:44` |
+| `https://www.16wells.dev/module-demos/testimonial/` | — | [Errno 101] Network is unreachable | `docs/modules/testimonial.md:45` |
+| `https://www.16wells.dev/module-demos/text/` | — | [Errno 101] Network is unreachable | `docs/modules/text.md:45` |
+| `https://www.16wells.dev/module-demos/toggle/` | — | [Errno 101] Network is unreachable | `docs/modules/toggle.md:42` |
+| `https://www.16wells.dev/module-demos/video-slider/` | — | [Errno 101] Network is unreachable | `docs/modules/video-slider.md:42` |
+| `https://www.16wells.dev/module-demos/video/` | — | [Errno 101] Network is unreachable | `docs/modules/video.md:42` |
 | `https://www.elegantthemes.com/account` | 404 | Not Found | `docs/builder/how-to-rollback-to-divi-4.md:58` |
 | `https://www.elegantthemes.com/blog/wordpress/css-grid-layout-system` | 404 | Not Found | `docs/builder/understanding-divi-s-css-grid-layout.md:342` |
 | `https://www.elegantthemes.com/blog/wordpress/divi-gallery` | 404 | Not Found | `docs/builder/divi-5-theme-options.md:241` |
 | `https://www.elegantthemes.com/blog/wordpress/divi-theme-options` | 404 | Not Found | `docs/builder/divi-5-theme-options.md:240` |
-| `https://www.elegantthemes.com/blog/wordpress/divi-woocommerce` | 429 | Too Many Requests | `docs/builder/divi-5-theme-options.md:242` |
 | `https://www.elegantthemes.com/blog/wordpress/understand-flex-justify-content-divi` | 404 | Not Found | `docs/builder/understanding-divi-s-css-grid-layout.md:343` |
-| `https://www.elegantthemes.com/documentation/divi/gradient-builder` | 429 | Too Many Requests | `docs/builder/gradient-builder.md:27` |
-| `https://www.elegantthemes.com/documentation/divi/responsive-preview-system` | 429 | Too Many Requests | `docs/builder/responsive-preview.md:26` |
-| `https://www.elegantthemes.com/documentation/divi/theme-options/` | 429 | Too Many Requests | `docs/theme-options/ads.md:20`; `docs/theme-options/builder-settings.md:20`; `docs/theme-options/general.md:20`; `docs/theme-options/integration.md:20`; `docs/theme-options/layout.md:20` … (+3 more) |
-| `https://www.elegantthemes.com/documentation/divi/using-the-divi-layers-view` | 429 | Too Many Requests | `docs/builder/layers-view.md:26` |
-| `https://www.elegantthemes.com/documentation/divi/using-the-divi-support-center` | 429 | Too Many Requests | `docs/builder/support-center.md:26` |
-| `https://www.elegantthemes.com/documentation/divi/visual-builder/` | 429 | Too Many Requests | `docs/builder/visual-builder.md:27`; `docs/builder/visual-builder.md:31` |
-| `https://www.elegantthemes.com/marketplace/` | 429 | Too Many Requests | `docs/builder/backward-compatibility-and-third-party-divi-module-support.md:51`; `docs/builder/backward-compatibility-and-third-party-divi-module-support.md:94` |
-| `https://www.elegantthemes.com/marketplace/divi-contact-form-7/` | 429 | Too Many Requests | `docs/modules/contact-form-7.md:107` |
-| `https://www.elegantthemes.com/members-area/` | 429 | Too Many Requests | `docs/troubleshooting/report-bug.md:23` |
-| `https://www.elegantthemes.com/my-account/` | 429 | Too Many Requests | `docs/builder/install-and-activate-divi-5.md:27`; `docs/builder/install-and-activate-divi-5.md:70` |
-| `https://www.elegantthemes.com/support/` | 429 | Too Many Requests | `docs/builder/support-center.md:110` |
+| `https://www.elegantthemes.com/members-area/` | 403 | Forbidden | `docs/troubleshooting/report-bug.md:23` |
+| `https://www.elegantthemes.com/my-account/` | 404 | Not Found | `docs/builder/install-and-activate-divi-5.md:27`; `docs/builder/install-and-activate-divi-5.md:70` |
 | `https://www.facebook.com/sharer/sharer.php?u={permalink}` | 500 | Internal Server Error | `docs/theme-options/integration.md:63` |
 
 ## Follow-up
